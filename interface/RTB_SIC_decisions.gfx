@@ -1,0 +1,14 @@
+spriteTypes = {
+
+###蒋经国的权谋###
+	
+	spriteType = {
+		name = "GFX_idea_SIC_jiang_conspiracy"
+		texturefile = "gfx/interface/decisions/jiang_conspiracy.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SIC_info_button"
+		texturefile = "gfx/interface/sichuan_guis/SIC_GUI_info_button.dds"
+	}
+}

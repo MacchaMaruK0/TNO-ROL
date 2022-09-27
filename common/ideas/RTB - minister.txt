@@ -1,0 +1,195 @@
+ideas = {
+
+	head_of_government = {
+		SIC_Jiang_Jingguo_hog = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SIC_Jiang_Jingguo_hog"}
+			picture = "SIC_Jiang_Jingguo"
+			allowed = {
+				original_tag = SIC
+			}
+			traits = {
+				head_of_government
+		        authoritarian_democracy_xunzheng_subtype
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+		URC_Zhang_Zhizhong_hog = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URC_Zhang_Zhizhong_hog"}
+			picture = "URC_Zhang_Zhizhong"
+			allowed = {
+				original_tag = URC
+			}
+			traits = {
+				head_of_government
+		        authoritarian_democracy_xunzheng_subtype
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+		GUX_Bai_Chongxi_hog = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GUX_Bai_Chongxi_hog"}
+			picture = "GUX_Bai_Chongxi"
+			allowed = {
+				original_tag = GUX
+			}
+			traits = {
+				head_of_government
+		        despotism_military_junta_subtype
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+		CPC_Gao_Gang_hog = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CPC_Gao_Gang_hog"}
+			picture = "CPC_Gao_Gang"
+			allowed = {
+				original_tag = CCP
+			}
+			traits = {
+				head_of_government
+		        communist_bukharinism_subtype
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
+	}
+	foreign_minister = {
+		SIC_Wang_Shijie_for = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SIC_Wang_Shijie_for"}
+			picture = "SIC_Wang_Shijie"
+			allowed = {
+				original_tag = SIC
+			}
+			traits = {
+				foreign_minister
+				despotism_civilian_dictatorship_subtype
+			}
+		}
+		URC_Guo_Jiqiao_for = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URC_Guo_Jiqiao_for"}
+			picture = "URC_Guo_Jiqiao"
+			allowed = {
+				original_tag = URC
+			}
+			traits = {
+				foreign_minister
+				authoritarian_democracy_xunzheng_subtype
+			}
+		}
+		GUX_Huang_Shaohong_for = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GUX_Huang_Shaohong_for"}
+			picture = "GUX_Huang_Shaohong"
+			allowed = {
+				original_tag = GUX
+			}
+			traits = {
+				foreign_minister
+				despotism_military_junta_subtype
+			}
+		}
+		CPC_Abudulkerim_Abbasoff_for = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CPC_Abudulkerim_Abbasoff_for"}
+			picture = "CPC_Abudulkerim_Abbasoff"
+			allowed = {
+				original_tag = CCP
+			}
+			traits = {
+				foreign_minister
+				communist_bukharinism_subtype
+			}
+		}
+	}
+	economy_minister = {
+		SIC_Liu_Hangchen_eco = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SIC_Liu_Hangchen_eco"}
+			picture = "SIC_Liu_Hangchen"
+			allowed = {
+				original_tag = SIC
+			}
+			traits = {
+				economy_minister
+				despotism_civilian_dictatorship_subtype
+			}
+		}
+		URC_Lin_Jiyong_eco = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URC_Lin_Jiyong_eco"}
+			picture = "XIN_Lin_Jiyong"
+			allowed = {
+				original_tag = URC
+			}
+			traits = {
+				economy_minister
+				authoritarian_democracy_xunzheng_subtype
+			}
+		}
+		GUX_Li_Pinxian_eco = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GUX_Li_Pinxian_eco"}
+			picture = "GUX_Li_Pinxian"
+			allowed = {
+				original_tag = GUX
+			}
+			traits = {
+				economy_minister
+				despotism_military_junta_subtype
+			}
+		}
+		CPC_Wang_Zhen_eco = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CPC_Wang_Zhen_eco"}
+			picture = "CPC_Wang_Zhen"
+			allowed = {
+				original_tag = CCP
+			}
+			traits = {
+				economy_minister
+				communist_bukharinism_subtype
+			}
+		}
+	}
+	security_minister = {
+		SIC_Chen_Cheng_sec = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SIC_Chen_Cheng_sec"}
+			picture = "SIC_Chen_Cheng"
+			allowed = {
+				original_tag = SIC
+			}
+			traits = {
+				security_minister
+				authoritarian_democracy_stratocracy_subtype
+			}
+		}
+		URC_Tao_Zhiyue_sec = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URC_Tao_Zhiyue_sec"}
+			picture = "URC_Tao_Zhiyue"
+			allowed = {
+				original_tag = URC
+			}
+			traits = {
+				security_minister
+				despotism_warlordism_subtype
+			}
+		}
+		GUX_Xia_Wei_sec = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GUX_Xia_Wei_sec"}
+			picture = "GUX_Xia_Wei"
+			allowed = {
+				original_tag = GUX
+			}
+			traits = {
+				security_minister
+				despotism_military_junta_subtype
+			}
+		}
+		CPC_Xv_Xiangqian_sec = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CPC_Xv_Xiangqian_sec"}
+			picture = "CPC_Xv_Xiangqian"
+			allowed = {
+				original_tag = CCP
+			}
+			traits = {
+				security_minister
+				communist_bukharinism_subtype
+			}
+		}
+	}
+}

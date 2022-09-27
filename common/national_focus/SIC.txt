@@ -1,0 +1,289 @@
+focus_tree = {
+	id = SIC_1962
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SIC
+		}
+	}
+
+    focus = {
+		id = SIC_the_road_of_glory   #光荣之路	
+		icon = SIC_the_road_of_glory
+		x = 10
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}
+	focus = {
+	    id = SIC_The_Song_Jiang_alliance_gap   #蒋宋联盟的裂痕
+	    icon = SIC_The_Song_Jiang_alliance_gap
+	    relative_position_id = SIC_the_road_of_glory
+	    x = 0
+	    y = 1
+		cost = 2
+	    prerequisite = { focus = SIC_the_road_of_glory }
+	    ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}	
+	focus = {
+	    id = SIC_The_contradictions_of_wood_and_soil   #土木系的矛盾
+	    icon = SIC_The_contradictions_of_wood_and_soil
+	    relative_position_id = SIC_the_road_of_glory
+	    x = 2
+	    y = 1
+	    cost = 2
+	    prerequisite = { focus = SIC_the_road_of_glory }
+	    ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}	
+	focus = {
+	    id = SIC_The_dissonance_of_CC   #CC系的失调
+	    icon = SIC_The_dissonance_of_CC
+	    relative_position_id = SIC_the_road_of_glory
+	    x = -2
+	    y = 1
+	    cost = 2
+	    prerequisite = { focus = SIC_the_road_of_glory }
+	    ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}	
+	focus = {
+	    id = SIC_Political_study_hidden_worries   #政学系的苦恼
+	    icon = SIC_Political_study_hidden_worries
+	    relative_position_id = SIC_the_road_of_glory
+	    x = -4
+	    y = 1
+	    cost = 2
+	    prerequisite = { focus = SIC_the_road_of_glory }
+	    ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}	
+		focus = {
+	    id = SIC_The_death_knell_of_the_princelings   #太子派的丧钟
+	    icon = SIC_The_death_knell_of_the_princelings
+	    relative_position_id = SIC_the_road_of_glory
+	    x = 4
+	    y = 1
+	    cost = 2
+	    prerequisite = { focus = SIC_the_road_of_glory }
+	    ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}
+	focus = {
+	    id = SIC_Song_plan   #宋子文的计划
+	    icon = SIC_Song_plan
+	    relative_position_id = SIC_the_road_of_glory
+	    x = -1
+	    y = 3
+	    cost = 1
+	    prerequisite = { focus = SIC_The_Song_Jiang_alliance_gap }
+	    ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}		
+	focus = {
+	    id = SIC_The_Jiang_Hand   #蒋经国的手段
+	    icon = SIC_The_Jiang_Hand
+	    relative_position_id = SIC_the_road_of_glory
+	    x = 1
+	    y = 3
+	    cost = 1
+	    prerequisite = { focus = SIC_The_Song_Jiang_alliance_gap }
+	    ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}	
+	focus = {
+	    id = SIC_Zhou_Zhirou_position   #周至柔的地位
+	    icon = SIC_Zhou_Zhirou_position
+	    relative_position_id = SIC_the_road_of_glory
+	    x = 1
+	    y = 2
+	    cost = 1
+	    prerequisite = { focus = SIC_The_contradictions_of_wood_and_soil }
+	    ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}	
+	focus = {
+	    id = SIC_Guo_Rugui_issent   #郭汝瑰的异议
+	    icon = SIC_Guo_Rugui_issent
+	    relative_position_id = SIC_the_road_of_glory
+	    x = 3
+	    y = 2
+	    cost = 1
+	    prerequisite = { focus = SIC_The_contradictions_of_wood_and_soil }
+	    ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}	
+	focus = {
+	    id = SIC_Zhu_Jiahua_hidden_worries   #朱家骅的隐忧
+	    icon = SIC_Zhu_Jiahua_hidden_worries
+	    relative_position_id = SIC_the_road_of_glory
+	    x = -1
+	    y = 2
+	    cost = 1
+	    prerequisite = { focus = SIC_The_dissonance_of_CC }
+	    ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}	
+	focus = {
+	    id = SIC_Xu_Enzeng_ambition   #徐恩增的野心
+	    icon = SIC_Xu_Enzeng_ambition
+	    relative_position_id = SIC_the_road_of_glory
+	    x = -3
+	    y = 2
+	    cost = 1
+	    prerequisite = { focus = SIC_The_dissonance_of_CC }
+	    ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}	
+	focus = {
+	    id = SIC_The_final_work   #最后的工作
+	    icon = SIC_The_final_work
+	    relative_position_id = SIC_the_road_of_glory
+        x = 0
+        y = 4
+	    cost = 2
+	    prerequisite = { focus = SIC_Xu_Enzeng_ambition }
+        prerequisite = { focus = SIC_Zhu_Jiahua_hidden_worries }
+        prerequisite = { focus = SIC_Guo_Rugui_issent }
+        prerequisite = { focus = SIC_Zhou_Zhirou_position }
+        prerequisite = { focus = SIC_Song_plan }
+        prerequisite = { focus = SIC_The_Jiang_Hand }
+        prerequisite = { focus = SIC_The_death_knell_of_the_princelings }
+        prerequisite = { focus = SIC_Political_study_hidden_worries }
+	    ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}
+}

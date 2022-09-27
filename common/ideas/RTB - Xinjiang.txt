@@ -1,0 +1,79 @@
+ideas = {
+    country = {
+        URC_at_stake = {
+
+			allowed = {
+				original_tag = URC
+			}
+
+            allowed_civil_war = {
+				always = yes
+			}
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: added idea URC_at_stake"
+			}
+
+			removal_cost = -1
+
+			picture = URC_at_stake
+
+			modifier = {
+				stability_weekly = -0.003
+                political_power_cost = 0.01
+                war_support_factor = -0.10
+				army_org_factor = -0.15
+			}
+		}
+
+        URC_protect_oneself = {
+
+			allowed = {
+				original_tag = URC
+			}
+
+            allowed_civil_war = {
+				always = yes
+			}
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: added idea URC_protect_oneself"
+			}
+
+			removal_cost = -1
+
+			picture = URC_protect_oneself
+
+			modifier = {
+				stability_factor = 0.10
+                consumer_goods_factor = 0.10
+                gdp_growth_modifier = 3
+                industrial_capacity_factory = 0.05
+			}
+		}
+
+        URC_hidden_enemy = {
+
+			allowed = {
+				original_tag = URC
+			}
+
+            allowed_civil_war = {
+				always = yes
+			}
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: added idea URC_hidden_enemy"
+			}
+
+			removal_cost = -1
+
+			picture = URC_hidden_enemy
+
+			modifier = {
+				conscription_factor = -0.30
+                political_power_gain = -0.05
+			}
+		}
+    }
+}

@@ -1,0 +1,29 @@
+guiTypes = { 
+	containerWindowType = {
+		###蒋经国的权谋###
+		name = "RTB_SIC_jiang_conspiracy"
+		size = { width = 460 height = 505 }
+		position = { x = 0 y = 0 }
+		iconType = {
+			name = "RTB_SIC_jiang_conspiracy_image"
+			position = { x = 25 y = 0 }
+			quadTextureSprite = "GFX_idea_SIC_jiang_conspiracy"
+		}
+		iconType = {
+			name = "RTB_SIC_jiang_conspiracy_info"
+			position = { x = 460 y = 315 }
+			quadTextureSprite = "GFX_SIC_info_button"
+			pdx_tooltip = GUI_i_jiang_conspiracy_desc
+			scale = 0.8
+		}
+		instantTextBoxType = {
+			name = "RTB_SIC_jiang_conspiracy_text"
+			position = { x = 30 y = 310 }
+			maxWidth = 460
+			maxHeight = 300
+			font = "aldrich_18_outline"
+			text = Jiang_conspiracy_text
+		}
+	}
+}
+

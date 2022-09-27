@@ -1,0 +1,58 @@
+add_namespace = sic
+
+country_event = {
+	id = sic.2
+	title = sic.2.t
+	desc = sic.2.desc
+
+	picture = GFX_lorazepam
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event sic.2"
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sic.2.a
+	}
+}
+
+country_event = {
+	id = sic.3
+	title = sic.3.t
+	desc = sic.3.desc
+
+	picture = GFX_old_house
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event sic.3"
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sic.3.a
+	}
+}
+
+country_event = {
+	id = sic.4
+	title = sic.4.t
+	desc = sic.4.desc
+
+	picture = GFX_waves_washing_sand
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event sic.4"
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = sic.4.a
+	}
+}

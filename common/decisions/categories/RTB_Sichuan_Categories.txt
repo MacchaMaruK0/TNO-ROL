@@ -1,0 +1,22 @@
+RTB_SIC_debug = {
+	allowed = {
+		tag = SIC
+	}
+	visible = {
+		is_debug = yes
+		is_ai = no
+	}
+	priority = {
+		base = 199
+	}
+}
+Jiang_conspiracy = {
+	allowed = {
+		tag = SIC
+	}
+	visible_when_empty = yes
+	priority = {
+		base = 100
+	}
+	scripted_gui = RTB_SIC_jiang_conspiracy
+}

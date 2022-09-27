@@ -1,0 +1,82 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_countryname_YUN_Chen_Lifu"
+		textureFile = "gfx/interface/opening_screen/countryname/YUN_Chen_Lifu.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_countryname_SIC_Jiang_Jingguo"
+		textureFile = "gfx/interface/opening_screen/countryname/SIC_Jiang_Jingguo.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_countryname_SIC_Chen_Cheng"
+		textureFile = "gfx/interface/opening_screen/countryname/SIC_Chen_Cheng.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_countryname_SIC_Zhu_Jiahua"
+		textureFile = "gfx/interface/opening_screen/countryname/SIC_Zhu_Jiahua.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_countryname_SIC_Zhang_Qun"
+		textureFile = "gfx/interface/opening_screen/countryname/SIC_Zhang_Qun.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_countryname_SIC_Chiang"
+		textureFile = "gfx/interface/opening_screen/countryname/SIC_Chiang.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_countryname_SIC_army"
+		textureFile = "gfx/interface/opening_screen/countryname/SIC_army.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_countryname_SIC_CC"
+		textureFile = "gfx/interface/opening_screen/countryname/SIC_CC.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_countryname_SIC_political_science_group"
+		textureFile = "gfx/interface/opening_screen/countryname/SIC_political_science_group.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_countryname_SIC_He"
+		textureFile = "gfx/interface/opening_screen/countryname/SIC_He.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_countryname_SIC_BIS"
+		textureFile = "gfx/interface/opening_screen/countryname/SIC_BIS.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_countryname_SIC_Song"
+		textureFile = "gfx/interface/opening_screen/countryname/SIC_Song.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_countryname_SIC_army_Guo"
+		textureFile = "gfx/interface/opening_screen/countryname/SIC_army_Guo.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_countryname_SIC_army_Zhou"
+		textureFile = "gfx/interface/opening_screen/countryname/SIC_army_Zhou.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_countryname_SIC_CC_Zhang"
+		textureFile = "gfx/interface/opening_screen/countryname/SIC_CC_Zhang.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_countryname_SIC_PSG_Xiong"
+		textureFile = "gfx/interface/opening_screen/countryname/SIC_PSG_Xiong.dds"
+		legacy_lazy_load = no
+	}
+}

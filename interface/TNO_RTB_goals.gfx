@@ -1,0 +1,70 @@
+spriteTypes = {
+
+	###XIN
+	SpriteType = {
+		name = "XIN_storm_is_coming"
+		texturefile = "gfx/interface/goals/XIN/XIN_storm_is_coming.dds"
+	}
+	SpriteType = {
+		name = "XIN_clear_the_haze"
+		texturefile = "gfx/interface/goals/XIN/XIN_clear_the_haze.dds"
+	}
+	SpriteType = {
+		name = "XIN_quarrel_between_brothers"
+		texturefile = "gfx/interface/goals/XIN/XIN_quarrel_between_brothers.dds"
+	}
+
+	###SIC
+	SpriteType = {
+		name = "SIC_the_road_of_glory"
+		texturefile = "gfx/interface/goals/SIC/SIC_the_road_of_glory.dds"
+	}
+	SpriteType = {
+		name = "SIC_The_Song_Jiang_alliance_gap"
+		texturefile = "gfx/interface/goals/SIC/SIC_The_Song_Jiang_alliance_gap.dds"
+	}
+	SpriteType = {
+		name = "SIC_The_dissonance_of_CC"
+		texturefile = "gfx/interface/goals/SIC/SIC_The_dissonance_of_CC.dds"
+	}
+	SpriteType = {
+		name = "SIC_Political_study_hidden_worries"
+		texturefile = "gfx/interface/goals/SIC/SIC_Political_study_hidden_worries.dds"
+	}
+	SpriteType = {
+		name = "SIC_The_death_knell_of_the_princelings"
+		texturefile = "gfx/interface/goals/SIC/SIC_The_death_knell_of_the_princelings.dds"
+	}
+	SpriteType = {
+		name = "SIC_Song_plan"
+		texturefile = "gfx/interface/goals/SIC/SIC_Song_plan.dds"
+	}
+	SpriteType = {
+		name = "SIC_The_Jiang_Hand"
+		texturefile = "gfx/interface/goals/SIC/SIC_The_Jiang_Hand.dds"
+	}
+	SpriteType = {
+		name = "SIC_The_contradictions_of_wood_and_soil"
+		texturefile = "gfx/interface/goals/SIC/SIC_The_contradictions_of_wood_and_soil.dds"
+	}
+	SpriteType = {
+		name = "SIC_Zhou_Zhirou_position"
+		texturefile = "gfx/interface/goals/SIC/SIC_Zhou_Zhirou_position.dds"
+	}
+	SpriteType = {
+		name = "SIC_Guo_Rugui_issent"
+		texturefile = "gfx/interface/goals/SIC/SIC_Guo_Rugui_issent.dds"
+	}
+	SpriteType = {
+		name = "SIC_Zhu_Jiahua_hidden_worries"
+		texturefile = "gfx/interface/goals/SIC/SIC_Zhu_Jiahua_hidden_worries.dds"
+	}
+	SpriteType = {
+		name = "SIC_Xu_Enzeng_ambition"
+		texturefile = "gfx/interface/goals/SIC/SIC_Xu_Enzeng_ambition.dds"
+	}
+	SpriteType = {
+		name = "SIC_The_final_work"
+		texturefile = "gfx/interface/goals/SIC/SIC_The_final_work.dds"
+	}
+}

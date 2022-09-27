@@ -1,0 +1,75 @@
+spriteTypes = {
+	
+	
+	#SIC#
+	spriteType = {
+		name = "GFX_SIC_Jiang_Jingguo"
+		texturefile = "gfx/interface/ideas/ministers/SIC/SIC_Jiang_Jingguo.dds"
+	}
+	spriteType = {
+		name = "GFX_SIC_Wang_Shijie"
+		texturefile = "gfx/interface/ideas/ministers/SIC/SIC_Wang_Shijie.dds"
+	}
+	spriteType = {
+		name = "GFX_SIC_Liu_Hangchen"
+		texturefile = "gfx/interface/ideas/ministers/SIC/SIC_Liu_Hangchen.dds"
+	}
+	spriteType = {
+		name = "GFX_SIC_Chen_Cheng"
+		texturefile = "gfx/interface/ideas/ministers/SIC/SIC_Chen_Cheng.dds"
+	}
+
+	#XIN#
+	spriteType = {
+		name = "GFX_URC_Zhang_Zhizhong"
+		texturefile = "gfx/interface/ideas/ministers/URC/GFX_URC_Zhang_Zhizhong.dds"
+	}
+	spriteType = {
+		name = "GFX_URC_Tao_Zhiyue"
+		texturefile = "gfx/interface/ideas/ministers/URC/GFX_URC_Tao_Zhiyue.dds"
+	}
+	spriteType = {
+		name = "GFX_URC_Lin_Jiyong"
+		texturefile = "gfx/interface/ideas/ministers/URC/GFX_URC_Lin_Jiyong.dds"
+	}
+	spriteType = {
+		name = "GFX_URC_Guo_Jiqiao"
+		texturefile = "gfx/interface/ideas/ministers/URC/GFX_URC_Guo_Jiqiao.dds"
+	}
+
+	#GUX#
+	spriteType = {
+		name = "GFX_GUX_Bai_Chongxi"
+		texturefile = "gfx/interface/ideas/ministers/GUX/GUX_Bai_Chongxi.dds"
+	}
+	spriteType = {
+		name = "GFX_GUX_Li_Pinxian"
+		texturefile = "gfx/interface/ideas/ministers/GUX/GUX_Li_Pinxian.dds"
+	}
+	spriteType = {
+		name = "GFX_GUX_Huang_Shaohong"
+		texturefile = "gfx/interface/ideas/ministers/GUX/GUX_Huang_Shaohong.dds"
+	}
+	spriteType = {
+		name = "GFX_GUX_Xia_Wei"
+		texturefile = "gfx/interface/ideas/ministers/GUX/GUX_Xia_Wei.dds"
+	}
+
+	#CCP#
+	spriteType = {
+		name = "GFX_CPC_Gao_Gang"
+		texturefile = "gfx/interface/ideas/ministers/CCP/CPC_Gao_Gang.dds"
+	}
+	spriteType = {
+		name = "GFX_CPC_Abudulkerim_Abbasoff"
+		texturefile = "gfx/interface/ideas/ministers/CCP/CPC_Abudulkerim_Abbasoff.dds"
+	}
+	spriteType = {
+		name = "GFX_CPC_Wang_Zhen"
+		texturefile = "gfx/interface/ideas/ministers/CCP/CPC_Wang_Zhen.dds"
+	}
+	spriteType = {
+		name = "GFX_CPC_Zhao_Shoushan"
+		texturefile = "gfx/interface/ideas/ministers/CCP/CPC_Zhao_Shoushan.dds"
+	}
+}

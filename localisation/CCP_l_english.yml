@@ -1,0 +1,29 @@
+﻿l_english:
+#党派和国家
+ CCP_communist_party:0 "红军"
+ CCP_communist_party_long:0 "中国工农红军"
+ CCP_communist:0 "北疆根据地"
+ CCP_communist_DEF:0 "北疆革命根据地"
+ CCP_communist_ADJ:0 "北疆革命根据地"
+ CCP_authoritarian_democracy:0 "新疆省"
+ CCP_authoritarian_democracy_DEF:0 "中华民国新疆省"
+
+ #国家领袖
+ CPC_Peng_Dehuai:"彭德怀"
+ POLITICS_PENG_DEHUAI_DESC:"红小鬼老了之后就是红老鬼。彭德怀年轻时闹革命，现在仍然干革命。屈指一算，今年他也六十四岁了，他不知道还能打多久，但他是决定一直要打到自己死的。\n\n保卫革命，保卫祖国，保卫人民。他的誓言犹牢记在心，半生戎马，一往无前。他还能忆起多少往昔呢，那时他们在华北，在太行山上。\n\n而现在，他只能在新疆的北部重整旗鼓，试图离开这里，重新回到根据地去。虽然他既不接受张治中的调动，也不受盛世才的操控，但寄人篱下终究不是个事。\n\n或许，或许还有另一种可能，彭德怀知道，他那位老乡兼多年老友，那位已经逝去多年旧友的长子也随着苏联残兵到了这里，随着与地下情报网的接触，他们重新搭上了线。老人老了，但年轻人还年轻，或许在不久的将来，这个世界会再次剧变，而他只需要为祖国流干最后一滴血即可。\n\n时值一九六二，老人与年轻人的命运之轮正在悄然转动。"
+ CPC_Gao_Gang:0 "高岗"
+ CPC_Abudulkerim_Abbasoff:0 "阿不都克里木·阿巴索夫"
+ CPC_Wang_Zhen:0 "王震"
+ CPC_Xv_Xiangqian:0 "徐向前"
+ #国家精神
+ CPC_Gao_Gang_hog:0 "高岗"
+ CPC_Gao_Gang_hog_desc:0 "§Y政治委员§!\n------------"
+
+ CPC_Abudulkerim_Abbasoff_for:0 "阿不都克里木·阿巴索夫"
+ CPC_Abudulkerim_Abbasoff_for_desc:0 "§Y联络部长§!\n------------"
+
+ CPC_Wang_Zhen_eco:0 "王震"
+ CPC_Wang_Zhen_eco_desc:0 "§Y后勤部长§!\n------------"
+
+ CPC_Xv_Xiangqian_sec:0 "徐向前"
+ CPC_Xv_Xiangqian_sec_desc:0 "§Y副司令员§!\n------------"

@@ -1,0 +1,4 @@
+SIC = "countries/Chuanyu political council.txt"
+XRB = "countries/Xinjiang red army brigade.txt"
+URC = "countries/Urumchi.txt"
+CCP = "countries/Communist Party of China in Xinjiang.txt"

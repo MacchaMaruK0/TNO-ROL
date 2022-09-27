@@ -1,0 +1,10 @@
+scripted_gui = {
+	RTB_SIC_jiang_conspiracy = {
+		context_type = decision_category
+		window_name = "RTB_SIC_jiang_conspiracy"
+		dirty = RTB_SIC_jiang_conspiracy_dirty
+		visible = {
+			tag = SIC
+		}
+	}
+}

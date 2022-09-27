@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_despotism_party_caucus_three_principles_of_the_people_subtype"
+		textureFile = "gfx/interface/ideologies/despotism_party_caucus_three_principles_of_the_people_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_communist_RTB_mao_zedong_thought_subtype"
+		textureFile = "gfx/interface/ideologies/communist_RTB_mao_zedong_thought_subtype.dds"
+	}
+}

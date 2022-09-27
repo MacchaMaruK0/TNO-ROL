@@ -1,0 +1,16 @@
+#### EVENT STUFF, THANK YOU TNO FOR THESE SPRITES ####
+spriteTypes = {
+
+    spriteType = {
+	    name = "GFX_lorazepam"
+	    texturefile = "gfx/event_pictures/lorazepam.dds"
+    }
+	spriteType = {
+	    name = "GFX_old_house"
+	    texturefile = "gfx/event_pictures/old_house.dds"
+    }
+	spriteType = {
+	    name = "GFX_waves_washing_sand"
+	    texturefile = "gfx/event_pictures/waves_washing_sand.dds"
+    }
+}

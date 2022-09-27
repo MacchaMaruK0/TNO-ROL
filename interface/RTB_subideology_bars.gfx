@@ -1,0 +1,12 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_SIC_ideology_funeral_of_Sun_Yatsen"
+		textureFile = "gfx/interface/ideologies/ideology_bars/funeral_of_Sun_Yatsen.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_mao_zedong_thought"
+		textureFile = "gfx/interface/ideologies/ideology_bars/mao_zedong_thought.dds"
+		legacy_lazy_load = no
+	}
+}

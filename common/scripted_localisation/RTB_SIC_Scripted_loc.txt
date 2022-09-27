@@ -1,0 +1,108 @@
+defined_text = {
+	name = jiang_conspiracy_advisory
+	text = {
+		trigger = { 
+			check_variable = { jiang_conspiracy_adv_plu > -3 } 
+			check_variable = { jiang_conspiracy_adv_plu < 3 }
+		}
+		localization_key = SIC_jiang_balance
+	}
+	text = {
+		trigger = { 
+			check_variable = { jiang_conspiracy_adv_plu > 2 } 
+			check_variable = { jiang_conspiracy_adv_plu < 6 } 
+		}
+		localization_key = SIC_jiang_bit
+	}
+	text = {
+		trigger = { 
+			check_variable = { jiang_conspiracy_adv_plu > 5 } 
+		}
+		localization_key = SIC_jiang_angry
+	}
+	text = {
+		trigger = { 
+			check_variable = { jiang_conspiracy_adv_plu < -2 } 
+			check_variable = { jiang_conspiracy_adv_plu > -6 } 
+		}
+		localization_key = SIC_jiang_balance
+	}
+	text = {
+		trigger = { 
+			check_variable = { jiang_conspiracy_adv_plu < -5 } 
+		}
+		localization_key = SIC_jiang_balance
+	}
+}
+defined_text = {
+	name = jiang_conspiracy_plutocrats
+	text = {
+		trigger = { 
+			check_variable = { jiang_conspiracy_adv_plu > -3 } 
+			check_variable = { jiang_conspiracy_adv_plu < 3 }
+		}
+		localization_key = SIC_jiang_balance
+	}
+	text = {
+		trigger = { 
+			check_variable = { jiang_conspiracy_adv_plu > 2 } 
+			check_variable = { jiang_conspiracy_adv_plu < 6 } 
+		}
+		localization_key = SIC_jiang_balance
+	}
+	text = {
+		trigger = { 
+			check_variable = { jiang_conspiracy_adv_plu > 5 } 
+		}
+		localization_key = SIC_jiang_balance
+	}
+	text = {
+		trigger = { 
+			check_variable = { jiang_conspiracy_adv_plu < -2 } 
+			check_variable = { jiang_conspiracy_adv_plu > -6 } 
+		}
+		localization_key = SIC_jiang_bit
+	}
+	text = {
+		trigger = { 
+			check_variable = { jiang_conspiracy_adv_plu < -5 } 
+		}
+		localization_key = SIC_jiang_angry
+	}
+}
+defined_text = {
+	name = jiang_conspiracy_balance
+	text = {
+		trigger = { 
+		check_variable = { jiang_conspiracy_balance > -1 } 
+		check_variable = { jiang_conspiracy_balance < 1 }
+		}
+		localization_key = SIC_jiang_balance_balance
+	}
+	text = {
+		trigger = { 
+		check_variable = { jiang_conspiracy_balance > 0 } 
+		check_variable = { jiang_conspiracy_balance < 4 }
+		}
+		localization_key = SIC_jiang_balance_bit
+	}
+	text = {
+		trigger = { 
+		check_variable = { jiang_conspiracy_balance > 3 } 
+		}
+		localization_key = SIC_jiang_balance_imbalance_conservative
+	}
+	text = {
+		trigger = { 
+		check_variable = { jiang_conspiracy_balance < 0 } 
+		check_variable = { jiang_conspiracy_balance > -4 }
+		}
+		localization_key = SIC_jiang_balance_bit
+	}
+	text = {
+		trigger = { 
+		check_variable = { jiang_conspiracy_balance < -3 }
+		}
+		localization_key = SIC_jiang_balance_imbalance_reform
+	}
+}

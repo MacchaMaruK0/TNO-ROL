@@ -1,0 +1,51 @@
+focus_tree = {
+	id = SIC_Jiang_Jingguo
+	country = {
+		factor = 0
+		modifier = {
+			add = 5
+			tag = SIC
+		}
+	}
+
+    focus = {
+		id = SIC_building_about_to_fall   #大厦将倾
+		icon = SIC_building_about_to_fall
+		x = 4
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}
+	focus = {
+	    id = SIC_advisory_response   #顾问团的对策
+	    icon = SIC_advisory_response
+	    relative_position_id = SIC_building_about_to_fall
+	    x = 0
+	    y = 1
+		cost = 2
+	    prerequisite = { focus = SIC_building_about_to_fall }
+	    ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		}
+	}	
+}

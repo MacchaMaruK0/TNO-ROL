@@ -1,0 +1,21 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			#事件
+			SIC = {
+				country_event = {
+					id = sic.2
+					days = 3
+				}
+				country_event = {
+					id = sic.3
+					days = 5
+				}
+				country_event = {
+					id = sic.4
+					days = 7
+				}
+			}
+		}
+	}
+}

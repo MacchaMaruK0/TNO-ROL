@@ -1,0 +1,136 @@
+RTB_SIC_debug = {
+	SIC_Jiang_Jinguo_win = {
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SIC_Jiang_Jinguo_win"
+			SIC = {
+				add_country_leader_role = {
+					character = SIC_Jiang_Jingguo
+					promote_leader = yes
+					country_leader = {
+						desc = "POLITICS_JIANG_JINGGUO_DESC"
+						ideology = authoritarian_democracy_xunzheng_subtype
+						traits = { son_of_Jiang }
+						expire = "1999.1.1.1"
+						id = -1
+					}
+				}
+				set_politics = {
+					ruling_party = authoritarian_democracy
+				}
+			}
+		}
+	}
+	SIC_Zhu_Jiahua_win = {
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SIC_Zhu_Jiahua_win"
+			SIC = {
+				create_country_leader = {
+					name = SIC_Zhu_Jiahua
+					desc = "POLITICS_ZHU_JIAHUA_DESC"
+					picture = "gfx/leaders/SIC/Portrait_SIC_Zhu_Jiahua.dds" 
+					ideology = despotism_subtype
+					traits = {  }
+					expire = "1999.1.1.1"
+				}
+				set_politics = {
+					ruling_party = despotism
+				}
+			}
+		}
+	}
+	SIC_Zhang_Qun_win = {
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SIC_Zhang_Qun_win"
+			SIC = {
+				add_country_leader_role = {
+					character = SIC_Zhang_Qun
+					promote_leader = yes
+					country_leader = {
+						desc = "POLITICS_ZHANG_QUN_DESC"
+						ideology = despotism_subtype
+						traits = {  }
+						expire = "1999.1.1.1"
+						id = -1
+					}
+				}
+				set_politics = {
+					ruling_party = despotism
+				}
+			}
+		}
+	}
+	SIC_Chen_Cheng_win = {
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision SIC_Chen_Cheng_win"
+			SIC = {
+				add_country_leader_role = {
+					character = SIC_Chen_Cheng
+					promote_leader = yes
+					country_leader = {
+						desc = "POLITICS_CHEN_CHENG_DESC"
+						ideology = despotism_subtype
+						traits = {  }
+						expire = "1999.1.1.1"
+						id = -1
+					}
+				}
+				set_politics = {
+					ruling_party = despotism
+				}
+			}
+		}
+	}
+	jiang_conspiracy_adv_plu_add = {
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			add_to_variable = {
+				jiang_conspiracy_adv_plu = 1
+			}
+		}
+	}
+	jiang_conspiracy_adv_plu_add = {
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			add_to_variable = {
+				jiang_conspiracy_adv_plu = 1
+			}
+		}
+	}
+	jiang_conspiracy_adv_plu_sub = {
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			subtract_from_variable = {
+				jiang_conspiracy_adv_plu = 1
+			}
+		}
+	}
+	jiang_conspiracy_balance_add = {
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			add_to_variable = {
+				jiang_conspiracy_balance = 1
+			}
+		}
+	}
+	jiang_conspiracy_balance_sub = {
+		cost = 0
+		fire_only_once = no
+		complete_effect = {
+			subtract_from_variable = {
+				jiang_conspiracy_balance = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,151 @@
+characters = {
+    SIC_Sun_Ke = {
+        name = SIC_Sun_Ke
+        portraits = { 
+			civilian = { 
+				large = "gfx/leaders/SIC/Portrait_SIC_Sun_Ke.dds" 
+			} 
+		}
+		country_leader = {
+			desc = "POLITICS_SUN_KE_DESC"
+			ideology = despotism_party_caucus_three_principles_of_the_people_subtype
+			traits = { son_of_Sun scapegoat }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+    }
+	SIC_Jiang_Jingguo = {
+        name = SIC_Jiang_Jingguo
+        portraits = { 
+			civilian = { 
+				large = "gfx/leaders/SIC/Portrait_SIC_Jiang_Jingguo.dds" 
+				small = "GFX_SIC_Jiang_Jingguo"
+			} 
+		}
+		country_leader = {
+			desc = "POLITICS_JIANG_JINGGUO_DESC"
+			ideology = authoritarian_democracy_xunzheng_subtype
+			traits = { son_of_Jiang }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = SIC_Jiang_Jingguo_hog
+			allowed = { original_tag = SIC }
+			traits = {
+				head_of_government
+				authoritarian_democracy_xunzheng_subtype
+				son_of_Jiang
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+    }
+	SIC_Zhang_Qun = {
+        name = SIC_Zhang_Qun
+        portraits = { 
+			civilian = { 
+				large = "gfx/leaders/SIC/Portrait_SIC_Zhang_Qun.dds" 
+			} 
+		}
+		country_leader = {
+			desc = "POLITICS_ZHANG_QUN_DESC"
+			ideology = fascism_sansepolcrismo_subtype
+			traits = {  }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+    }
+	SIC_Wang_Shijie = {
+		name = SIC_Wang_Shijie
+		portraits = { 
+			civilian = { 
+				small = "GFX_SIC_Wang_Shijie" 
+			} 
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = SIC_Wang_Shijie_for
+			allowed = { original_tag = SIC }
+			traits = {
+				foreign_minister
+				despotism_civilian_dictatorship_subtype
+				The_Free_China
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	SIC_Liu_Hangchen = {
+		name = SIC_Liu_Hangchen
+		portraits = { 
+			civilian = { 
+				small = "GFX_SIC_Liu_Hangchen" 
+				}
+			}
+		advisor = {
+			slot = economy_minister
+			idea_token = SIC_Liu_Hangchen_eco
+			allowed = { original_tag = SIC }
+			traits = {
+				economy_minister
+				despotism_civilian_dictatorship_subtype
+				The_god_of_wealth
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	SIC_Chen_Cheng = {
+		name = SIC_Chen_Cheng
+		portraits = { 
+			civilian = { 
+				large = "gfx/leaders/SIC/Portrait_SIC_Chen_Cheng.dds" 
+				small = "GFX_SIC_Chen_Cheng" 
+			} 
+		}
+		country_leader = {
+			desc = "POLITICS_CHEN_CHENG_DESC"
+			ideology = fascism_sansepolcrismo_subtype
+			traits = {  }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = SIC_Chen_Cheng_sec
+			allowed = { original_tag = SIC }
+			traits = {
+				security_minister
+				despotism_military_junta_subtype
+				little_chairman
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	SIC_Zhu_Jiahua = {
+		name = SIC_Zhu_Jiahua
+		portraits = { 
+			civilian = { 
+				large = "gfx/leaders/SIC/Portrait_SIC_Zhu_Jiahua.dds" 
+			} 
+		}
+		country_leader = {
+			desc = "POLITICS_ZHU_JIAHUA_DESC"
+			ideology = fascism_sansepolcrismo_subtype
+			traits = {  }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+}
