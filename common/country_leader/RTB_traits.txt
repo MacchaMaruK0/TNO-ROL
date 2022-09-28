@@ -65,6 +65,7 @@ leader_traits = {
 	}
 	luck_gone_hero = {
 		random = no
+		surrender_limit = 0.1
 		ai_will_do = { factor = 1 }
 	}
 	last_sepculator = {
