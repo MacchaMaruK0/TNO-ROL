@@ -62,7 +62,7 @@ set_technology = {
      ##ARMOR##
      mechanised_infantry3 = 1
      advanced_light_tank = 1
-    advanced_medium_tank = 1
+     advanced_medium_tank = 1
 
      ##HELICOPTERS##
 	helicopter_engines = 1
@@ -76,7 +76,7 @@ set_technology = {
      CAS_1945 = 1
      
 ##HEAVY AIR##
-  tac_bomber1 = 1
+     tac_bomber1 = 1
      tac_air_1945 = 1
      strategic_bomber1 = 1
      heavy_air_1945 = 1
@@ -246,3 +246,5 @@ add_equipment_to_stockpile = {
 	amount = 1000
 	producer = XIN
 }
+
+TNO_startup_nation = no

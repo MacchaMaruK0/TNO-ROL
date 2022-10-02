@@ -1535,8 +1535,8 @@ GAN = {
 }
 
 SIC = {
-	color = rgb { 5 85 166 }
-	color_ui = rgb { 5 85 166 }
+	color = rgb { 200 45 90 }
+	color_ui = rgb { 200 45 90 }
 }
 
 VRS = {
