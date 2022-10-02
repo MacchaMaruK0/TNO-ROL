@@ -11,4 +11,32 @@ spriteTypes = {
 		name = "GFX_SIC_info_button"
 		texturefile = "gfx/interface/sichuan_guis/SIC_GUI_info_button.dds"
 	}
+
+###纸牌屋###
+	spriteType = {
+		name = "GFX_jiang_xi_button"
+		texturefile = "gfx/interface/opening_screen/countryname/SIC_Chiang.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_tu_mu_xi_button"
+		texturefile = "gfx/interface/opening_screen/countryname/SIC_army.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_cc_button"
+		texturefile = "gfx/interface/opening_screen/countryname/SIC_CC.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_xin_zheng_button"
+		texturefile = "gfx/interface/opening_screen/countryname/SIC_political_science_group.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_house_of_cards_head"
+		texturefile = "gfx/interface/decisions/house_of_cards_head.dds"
+		legacy_lazy_load = no
+	}
+
 }

@@ -17,4 +17,14 @@ on_actions = {
 			}
 		}
 	}
+	on_monthly = {
+		effect = {
+			SIC = {
+				clr_country_flag = san_qing_sup
+				clr_country_flag = jun_tong_sup
+				clr_country_flag = song_xi_sup
+				clr_country_flag = jiang_zhe_sup
+			}
+		}
+	}
 }

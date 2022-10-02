@@ -230,6 +230,38 @@ set_variable = { tno_training_effectiveness = 50 }
 set_variable = { tno_racial_integration_effectiveness = 50 }
 set_variable = { tno_draft_exemptions_effectiveness = 50 }
 
+#纸牌屋
+set_variable = { house_of_cards_jiang_xi_power = 3 }
+clamp_variable = {
+	var = house_of_cards_jiang_xi_power
+	min = 1
+	max = 4
+}
+set_variable = { house_of_cards_tu_mu_power = 3 }
+clamp_variable = {
+	var = house_of_cards_tu_mu_power
+	min = 1
+	max = 4
+}
+set_variable = { house_of_cards_cc_power = 3 }
+clamp_variable = {
+	var = house_of_cards_cc_power
+	min = 1
+	max = 4
+}
+set_variable = { house_of_cards_xin_zheng_power = 3 }
+clamp_variable = {
+	var = house_of_cards_xin_zheng_power
+	min = 1
+	max = 4
+}
+set_country_flag = hide_jiang_xi_decisions
+set_country_flag = hide_tu_mu_decisions
+set_country_flag = hide_cc_decisions
+set_country_flag = hide_xin_zheng_decisions
+set_country_flag = cards_support
+
+
 #蒋经国的权谋暂时放在这里
 set_variable = {
     jiang_conspiracy_adv_plu = 0

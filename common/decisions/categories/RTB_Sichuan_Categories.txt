@@ -20,3 +20,16 @@ Jiang_conspiracy = {
 	}
 	scripted_gui = RTB_SIC_jiang_conspiracy
 }
+House_of_cards = {
+	allowed = {
+		tag = SIC
+	}
+	visible_when_empty = yes
+	visible = {
+		is_ai = no
+	}
+	priority = {
+		base = 50
+	}
+	scripted_gui = RTB_SIC_house_of_cards
+}

@@ -1,3 +1,245 @@
 Jiang_conspiracy = {
 	
 }
+House_of_cards = {
+	show_hide_jiang_xi = {
+		days_re_enable = 0
+		complete_effect = {
+			if = {
+				limit = { has_country_flag = hide_jiang_xi_decisions }
+				clr_country_flag = hide_jiang_xi_decisions
+			}
+			else = {
+				set_country_flag = hide_jiang_xi_decisions
+			}
+		}
+	}
+	jiang_san_qing_sup = {
+		days_re_enable = 30
+		cost = 25
+		visible = {
+			NOT = { has_country_flag = hide_jiang_xi_decisions }
+			NOT = { has_country_flag = san_qing_sup }
+		}
+		complete_effect = {
+			set_country_flag = san_qing_sup
+			add_to_variable = { house_of_cards_jiang_xi_power = 1 }
+		}
+	}
+	jiang_jun_tong_sup = {
+		days_re_enable = 30
+		cost = 25
+		visible = {
+			NOT = { has_country_flag = hide_jiang_xi_decisions }
+			NOT = { has_country_flag = jun_tong_sup }
+		}
+		complete_effect = {
+			set_country_flag = jun_tong_sup
+			add_to_variable = { house_of_cards_jiang_xi_power = 1 }
+		}
+	}
+	jiang_song_xi_sup = {
+		days_re_enable = 30
+		cost = 25
+		visible = {
+			NOT = { has_country_flag = hide_jiang_xi_decisions }
+			NOT = { has_country_flag = song_xi_sup }
+		}
+		complete_effect = {
+			set_country_flag = song_xi_sup
+			add_to_variable = { house_of_cards_jiang_xi_power = 1 }
+		}
+	}
+	jiang_jiang_zhe_sup = {
+		days_re_enable = 30
+		cost = 25
+		visible = {
+			NOT = { has_country_flag = hide_jiang_xi_decisions }
+			NOT = { has_country_flag = jiang_zhe_sup }
+		}
+		complete_effect = {
+			set_country_flag = jiang_zhe_sup
+			add_to_variable = { house_of_cards_jiang_xi_power = 1 }
+		}
+	}
+	show_hide_tu_mu = {
+		days_re_enable = 0
+		complete_effect = {
+			if = {
+				limit = { has_country_flag = hide_tu_mu_decisions }
+				clr_country_flag = hide_tu_mu_decisions
+			}
+			else = {
+				set_country_flag = hide_tu_mu_decisions
+			}
+		}
+	}
+	tumu_san_qing_sup = {
+		days_re_enable = 30
+		cost = 25
+		visible = {
+			NOT = { has_country_flag = hide_tu_mu_decisions }
+			NOT = { has_country_flag = san_qing_sup }
+		}
+		complete_effect = {
+			set_country_flag = san_qing_sup
+			add_to_variable = { house_of_cards_tu_mu_power = 1 }
+		}
+	}
+	tumu_jun_tong_sup = {
+		days_re_enable = 30
+		cost = 25
+		visible = {
+			NOT = { has_country_flag = hide_tu_mu_decisions }
+			NOT = { has_country_flag = jun_tong_sup }
+		}
+		complete_effect = {
+			set_country_flag = jun_tong_sup
+			add_to_variable = { house_of_cards_tu_mu_power = 1 }
+		}
+	}
+	tumu_song_xi_sup = {
+		days_re_enable = 30
+		cost = 25
+		visible = {
+			NOT = { has_country_flag = hide_tu_mu_decisions }
+			NOT = { has_country_flag = song_xi_sup }
+		}
+		complete_effect = {
+			set_country_flag = song_xi_sup
+			add_to_variable = { house_of_cards_tu_mu_power = 1 }
+		}
+	}
+	tumu_jiang_zhe_sup = {
+		days_re_enable = 30
+		cost = 25
+		visible = {
+			NOT = { has_country_flag = hide_tu_mu_decisions }
+			NOT = { has_country_flag = jiang_zhe_sup }
+		}
+		complete_effect = {
+			set_country_flag = jiang_zhe_sup			
+			add_to_variable = { house_of_cards_tu_mu_power = 1 }
+		}
+	}
+	show_hide_cc = {
+		days_re_enable = 0
+		complete_effect = {
+			if = {
+				limit = { has_country_flag = hide_cc_decisions }
+				clr_country_flag = hide_cc_decisions
+			}
+			else = {
+				set_country_flag = hide_cc_decisions
+			}
+		}
+	}
+	cc_san_qing_sup = {
+		days_re_enable = 30
+		cost = 25
+		visible = {
+			NOT = { has_country_flag = hide_cc_decisions }
+			NOT = { has_country_flag = san_qing_sup }
+		}
+		complete_effect = {
+			set_country_flag = san_qing_sup
+			add_to_variable = { house_of_cards_cc_power = 1 }
+		}
+	}
+	cc_jun_tong_sup = {
+		days_re_enable = 30
+		cost = 25
+		visible = {
+			NOT = { has_country_flag = hide_cc_decisions }
+			NOT = { has_country_flag = jun_tong_sup }
+		}
+		complete_effect = {
+			set_country_flag = jun_tong_sup
+			add_to_variable = { house_of_cards_cc_power = 1 }
+		}
+	}
+	cc_song_xi_sup = {
+		days_re_enable = 30
+		cost = 25
+		visible = {
+			NOT = { has_country_flag = hide_cc_decisions }
+			NOT = { has_country_flag = song_xi_sup }
+		}
+		complete_effect = {
+			set_country_flag = song_xi_sup
+			add_to_variable = { house_of_cards_cc_power = 1 }
+		}
+	}
+	cc_jiang_zhe_sup = {
+		days_re_enable = 30
+		cost = 25
+		visible = {
+			NOT = { has_country_flag = hide_cc_decisions }
+			NOT = { has_country_flag = jiang_zhe_sup }
+		}
+		complete_effect = {
+			set_country_flag = jiang_zhe_sup
+			add_to_variable = { house_of_cards_cc_power = 1 }
+		}
+	}
+	show_hide_xin_zheng = {
+		days_re_enable = 0
+		complete_effect = {
+			if = {
+				limit = { has_country_flag = hide_xin_zheng_decisions }
+				clr_country_flag = hide_xin_zheng_decisions
+			}
+			else = {
+				set_country_flag = hide_xin_zheng_decisions
+			}
+		}
+	}
+	xinzheng_san_qing_sup = {
+		days_re_enable = 30
+		cost = 25
+		visible = {
+			NOT = { has_country_flag = hide_xin_zheng_decisions }
+			NOT = { has_country_flag = san_qing_sup }
+		}
+		complete_effect = {
+			set_country_flag = san_qing_sup
+			add_to_variable = { house_of_cards_xin_zheng_power = 1 }
+		}
+	}
+	xinzheng_jun_tong_sup = {
+		days_re_enable = 30
+		cost = 25
+		visible = {
+			NOT = { has_country_flag = hide_xin_zheng_decisions }
+			NOT = { has_country_flag = jun_tong_sup }
+		}
+		complete_effect = {
+			set_country_flag = jun_tong_sup
+			add_to_variable = { house_of_cards_xin_zheng_power = 1 }
+		}
+	}
+	xinzheng_song_xi_sup = {
+		days_re_enable = 30
+		cost = 25
+		visible = {
+			NOT = { has_country_flag = hide_xin_zheng_decisions }
+			NOT = { has_country_flag = song_xi_sup }
+		}
+		complete_effect = {
+			set_country_flag = song_xi_sup
+			add_to_variable = { house_of_cards_xin_zheng_power = 1 }
+		}
+	}
+	xinzheng_jiang_zhe_sup = {
+		days_re_enable = 30
+		cost = 25
+		visible = {
+			NOT = { has_country_flag = hide_xin_zheng_decisions }
+			NOT = { has_country_flag = jiang_zhe_sup }
+		}
+		complete_effect = {
+			set_country_flag = jiang_zhe_sup
+			add_to_variable = { house_of_cards_xin_zheng_power = 1 }
+		}
+	}
+}

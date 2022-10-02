@@ -7,4 +7,54 @@ scripted_gui = {
 			tag = SIC
 		}
 	}
+	RTB_SIC_house_of_cards = {
+		context_type = decision_category
+		window_name = "RTB_SIC_house_of_cards"
+		dirty = RTB_SIC_house_of_cards_dirty
+		visible = {
+			tag = SIC
+			is_ai = no
+		}
+		effects = {
+			jiang_xi_button_click = {
+				if = {
+					limit = { has_country_flag = SIC_jiang_xi_open }
+					clr_country_flag = SIC_jiang_xi_open
+				}
+				else = {
+					set_country_flag = SIC_jiang_xi_open
+				}
+			}
+			tu_mu_xi_button_click = {
+				if = {
+					limit = { has_country_flag = SIC_tu_mu_open }
+					clr_country_flag = SIC_tu_mu_open
+				}
+				else = {
+					set_country_flag = SIC_tu_mu_open
+				}
+			}
+			cc_button_click = {
+				if = {
+					limit = { has_country_flag = SIC_cc_open }
+					clr_country_flag = SIC_cc_open
+				}
+				else = {
+					set_country_flag = SIC_cc_open
+				}
+			}
+			xin_zheng_button_click = {
+				if = {
+					limit = { has_country_flag = SIC_xin_zheng_open }
+					clr_country_flag = SIC_xin_zheng_open
+				}
+				else = {
+					set_country_flag = SIC_xin_zheng_open
+				}
+			}
+		}
+	}
+	RTB_SIC_house_of_cards_jiang = {
+		
+	}
 }
