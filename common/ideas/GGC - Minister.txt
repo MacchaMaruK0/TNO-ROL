@@ -1,0 +1,62 @@
+idea = {
+	head_of_the_government = {
+		GGC_Yoshijiro_Umezu_hog = {
+			picture = {
+				"gfx/leaders/GGC/Advisor_Chosen_Yoshijiro_Umezu.png"
+			}
+			allowed = {
+				original_tag = GGC
+			}
+			traits = { }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0}
+		}
+	}
+	foreign_minister = {
+		GGC_Hiroshi_Oshima_for = {
+			picture = {
+				"gfx/leaders/GGC/Advisor_Chosen_Hiroshi_Oshima.png"
+			}
+			allowed = {
+				original_tag = GGC
+			}
+			traits = { }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0}
+		}
+	}
+	economy_minister = {
+		GGC_Naoki_Hoshino_eco = {
+			picture = {
+				"gfx/leaders/GGC/Advisor_Chosen_Naoki_Hoshino.png"
+			}
+			allowed = {
+				original_tag = GGC
+			}
+			traits = { }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0}
+		}
+	}
+	security_minister = {
+		GGC_Heitaro_Kimura_sec = {
+			picture = {
+				"gfx/leaders/GGC/Advisor_Chosen_Heitaro_Kimura.png"
+			}
+			allowed = {
+				original_tag = GGC
+			}
+			traits = { }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0}
+		}
+	}
+}

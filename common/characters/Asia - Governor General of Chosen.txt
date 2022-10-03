@@ -1,0 +1,95 @@
+characters = {
+	GGC_Seishiro_Itagaki = {
+		name = GGC_Seishiro_Itagaki
+		portraits = {
+			civilian = { large = "gfx/leaders/GGC/Portrait_Chosen_Seishiro_itagaki.png" }
+		}
+		country_leader = {
+			desc = "GGC_Seishiro_Itagaki_desc"
+			ideology = fascism_corporatism_subtype
+			traits = { GGC_dying_Itadaki }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+    }
+	GGC_Yoshijiro_Umezu = {
+		name = GGC_Yoshijiro_Umezu
+		portraits = {
+			civilian = { small = "gfx/leaders/GGC/Advisor_Chosen_Yoshijiro_Umezu.png" }
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = GGC_Yoshijiro_Umezu_hog
+			allowed = {
+				original_tag = GGC
+			}
+			traits = { }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+    }
+	GGC_Hiroshi_Oshima = {
+		name = GGC_Hiroshi_Oshima
+		portraits = {
+			civilian = { small = "gfx/leaders/GGC/Advisor_Chosen_Hiroshi_Oshima.png" }
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = GGC_Hiroshi_Oshima_for
+			allowed = {
+				original_tag = GGC
+			}
+			traits = { }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+    }
+	GGC_Naoki_Hoshino = {
+		name = GGC_Naoki_Hoshino
+		portraits = {
+			civilian = { small = "gfx/leaders/GGC/Advisor_Chosen_Naoki_Hoshino.png" }
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = GGC_Naoki_Hoshino_eco
+			allowed = {
+				original_tag = GGC
+			}
+			traits = { }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+    }
+	GGC_Heitaro_Kimura = {
+		name = GGC_Heitaro_Kimura
+		portraits = {
+			civilian = { small = "gfx/leaders/GGC/Advisor_Chosen_Heitaro_Kimura.png" }
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = GGC_Heitaro_Kimura_sec
+			allowed = {
+				original_tag = GGC
+			}
+			traits = { }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = {
+				factor = 0
+			}
+		}
+    }
+}	
