@@ -38,5 +38,33 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/house_of_cards_head.dds"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_hoc_button"
+		texturefile = "gfx/interface/decisions/hoc_button.dds"
+	}
+	spriteType = {
+		name = "GFX_house_of_cards_bg"
+		texturefile = "gfx/interface/decisions/hoc_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_house_of_cards_jiang_cards"
+		texturefile = "gfx/interface/decisions/house_of_cards_jiang_power.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_house_of_cards_tu_mu_cards"
+		texturefile = "gfx/interface/decisions/house_of_cards_tu_mu_power.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_house_of_cards_cc_cards"
+		texturefile = "gfx/interface/decisions/house_of_cards_cc_power.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_house_of_cards_xin_zheng_cards"
+		texturefile = "gfx/interface/decisions/house_of_cards_xin_zheng_power.dds"
+		noOfFrames = 4
+	}
 
 }

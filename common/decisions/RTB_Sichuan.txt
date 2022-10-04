@@ -24,6 +24,11 @@ House_of_cards = {
 		complete_effect = {
 			set_country_flag = san_qing_sup
 			add_to_variable = { house_of_cards_jiang_xi_power = 1 }
+			clamp_variable = {
+				var = house_of_cards_jiang_xi_power
+				min = 1
+				max = 4
+			}
 		}
 	}
 	jiang_jun_tong_sup = {
@@ -36,6 +41,11 @@ House_of_cards = {
 		complete_effect = {
 			set_country_flag = jun_tong_sup
 			add_to_variable = { house_of_cards_jiang_xi_power = 1 }
+			clamp_variable = {
+				var = house_of_cards_jiang_xi_power
+				min = 1
+				max = 4
+			}
 		}
 	}
 	jiang_song_xi_sup = {
@@ -48,6 +58,11 @@ House_of_cards = {
 		complete_effect = {
 			set_country_flag = song_xi_sup
 			add_to_variable = { house_of_cards_jiang_xi_power = 1 }
+			clamp_variable = {
+				var = house_of_cards_jiang_xi_power
+				min = 1
+				max = 4
+			}
 		}
 	}
 	jiang_jiang_zhe_sup = {
@@ -60,6 +75,11 @@ House_of_cards = {
 		complete_effect = {
 			set_country_flag = jiang_zhe_sup
 			add_to_variable = { house_of_cards_jiang_xi_power = 1 }
+			clamp_variable = {
+				var = house_of_cards_jiang_xi_power
+				min = 1
+				max = 4
+			}
 		}
 	}
 	show_hide_tu_mu = {
@@ -84,6 +104,11 @@ House_of_cards = {
 		complete_effect = {
 			set_country_flag = san_qing_sup
 			add_to_variable = { house_of_cards_tu_mu_power = 1 }
+			clamp_variable = {
+				var = house_of_cards_tu_mu_power
+				min = 1
+				max = 4
+			}
 		}
 	}
 	tumu_jun_tong_sup = {
@@ -96,6 +121,11 @@ House_of_cards = {
 		complete_effect = {
 			set_country_flag = jun_tong_sup
 			add_to_variable = { house_of_cards_tu_mu_power = 1 }
+			clamp_variable = {
+				var = house_of_cards_tu_mu_power
+				min = 1
+				max = 4
+			}
 		}
 	}
 	tumu_song_xi_sup = {
@@ -108,6 +138,11 @@ House_of_cards = {
 		complete_effect = {
 			set_country_flag = song_xi_sup
 			add_to_variable = { house_of_cards_tu_mu_power = 1 }
+			clamp_variable = {
+				var = house_of_cards_tu_mu_power
+				min = 1
+				max = 4
+			}
 		}
 	}
 	tumu_jiang_zhe_sup = {
@@ -120,6 +155,11 @@ House_of_cards = {
 		complete_effect = {
 			set_country_flag = jiang_zhe_sup			
 			add_to_variable = { house_of_cards_tu_mu_power = 1 }
+			clamp_variable = {
+				var = house_of_cards_tu_mu_power
+				min = 1
+				max = 4
+			}
 		}
 	}
 	show_hide_cc = {
@@ -144,6 +184,11 @@ House_of_cards = {
 		complete_effect = {
 			set_country_flag = san_qing_sup
 			add_to_variable = { house_of_cards_cc_power = 1 }
+			clamp_variable = {
+				var = house_of_cards_cc_power
+				min = 1
+				max = 4
+			}
 		}
 	}
 	cc_jun_tong_sup = {
@@ -156,6 +201,11 @@ House_of_cards = {
 		complete_effect = {
 			set_country_flag = jun_tong_sup
 			add_to_variable = { house_of_cards_cc_power = 1 }
+			clamp_variable = {
+				var = house_of_cards_cc_power
+				min = 1
+				max = 4
+			}
 		}
 	}
 	cc_song_xi_sup = {
@@ -168,6 +218,11 @@ House_of_cards = {
 		complete_effect = {
 			set_country_flag = song_xi_sup
 			add_to_variable = { house_of_cards_cc_power = 1 }
+			clamp_variable = {
+				var = house_of_cards_cc_power
+				min = 1
+				max = 4
+			}
 		}
 	}
 	cc_jiang_zhe_sup = {
@@ -180,6 +235,11 @@ House_of_cards = {
 		complete_effect = {
 			set_country_flag = jiang_zhe_sup
 			add_to_variable = { house_of_cards_cc_power = 1 }
+			clamp_variable = {
+				var = house_of_cards_cc_power
+				min = 1
+				max = 4
+			}
 		}
 	}
 	show_hide_xin_zheng = {
@@ -204,6 +264,11 @@ House_of_cards = {
 		complete_effect = {
 			set_country_flag = san_qing_sup
 			add_to_variable = { house_of_cards_xin_zheng_power = 1 }
+			clamp_variable = {
+				var = house_of_cards_xin_zheng_power
+				min = 1
+				max = 4
+			}
 		}
 	}
 	xinzheng_jun_tong_sup = {
@@ -216,6 +281,11 @@ House_of_cards = {
 		complete_effect = {
 			set_country_flag = jun_tong_sup
 			add_to_variable = { house_of_cards_xin_zheng_power = 1 }
+			clamp_variable = {
+				var = house_of_cards_xin_zheng_power
+				min = 1
+				max = 4
+			}
 		}
 	}
 	xinzheng_song_xi_sup = {
@@ -228,6 +298,11 @@ House_of_cards = {
 		complete_effect = {
 			set_country_flag = song_xi_sup
 			add_to_variable = { house_of_cards_xin_zheng_power = 1 }
+			clamp_variable = {
+				var = house_of_cards_xin_zheng_power
+				min = 1
+				max = 4
+			}
 		}
 	}
 	xinzheng_jiang_zhe_sup = {
@@ -240,6 +315,158 @@ House_of_cards = {
 		complete_effect = {
 			set_country_flag = jiang_zhe_sup
 			add_to_variable = { house_of_cards_xin_zheng_power = 1 }
+			clamp_variable = {
+				var = house_of_cards_xin_zheng_power
+				min = 1
+				max = 4
+			}
+		}
+	}
+	reroll = {
+		activation = {
+			always = yes
+		}
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 15
+		timeout_effect = {
+			hidden_effect = {
+				activate_mission = reroll
+				random = {
+					chance = 10
+					add_to_variable = {
+						house_of_cards_jiang_xi_power = 1
+					}	
+					clamp_variable = {
+						var = house_of_cards_jiang_xi_power
+						min = 1
+						max = 4
+					}
+				}
+				random = {
+					chance = 10
+					subtract_from_variable = {
+						house_of_cards_jiang_xi_power = 1
+					}
+					clamp_variable = {
+						var = house_of_cards_jiang_xi_power
+						min = 1
+						max = 4
+					}
+				}
+				random = {
+					chance = 10
+					add_to_variable = {
+						house_of_cards_tu_mu_power = 1
+					}
+					clamp_variable = {
+						var = house_of_cards_tu_mu_power
+						min = 1
+						max = 4
+					}
+				}
+				random = {
+					chance = 10
+					subtract_from_variable = {
+						house_of_cards_tu_mu_power = 1
+					}
+					clamp_variable = {
+						var = house_of_cards_tu_mu_power
+						min = 1
+						max = 4
+					}
+				}
+				random = {
+					chance = 10
+					add_to_variable = {
+						house_of_cards_cc_power = 1
+					}
+					clamp_variable = {
+						var = house_of_cards_cc_power
+						min = 1
+						max = 4
+					}
+				}
+				random = {
+					chance = 10
+					subtract_from_variable = {
+						house_of_cards_cc_power = 1
+					}
+					clamp_variable = {
+						var = house_of_cards_cc_power
+						min = 1
+						max = 4
+					}
+				}
+				random = {
+					chance = 10
+					add_to_variable = {
+						house_of_cards_xin_zheng_power = 1
+					}
+					clamp_variable = {
+						var = house_of_cards_xin_zheng_power
+						min = 1
+						max = 4
+					}
+				}
+				random = {
+					chance = 10
+					subtract_from_variable = {
+						house_of_cards_xin_zheng_power = 1
+					}
+					clamp_variable = {
+						var = house_of_cards_xin_zheng_power
+						min = 1
+						max = 4
+					}
+				}
+				random = {
+					chance = 20
+				}
+			}
+		}
+	}
+	hoc_settlement = {
+		activation = {
+
+		}
+		available = {
+			always = no 
+		}
+		is_good = yes
+		days_mission_timeout = 30
+		timeout_effect = {
+			hidden_effect = {
+				activate_mission = hoc_settlement
+				set_temp_variable = {
+					hoc_settlement_temp = house_of_cards_jiang_xi_power
+				}
+				add_to_variable = { hoc_settlement_temp = house_of_cards_cc_power }
+				add_to_variable = { hoc_settlement_temp = house_of_cards_tu_mu_power }
+				add_to_variable = { hoc_settlement_temp = house_of_cards_xin_zheng_power }
+				if = {
+					limit = { check_variable = {hoc_settlement_temp = 12}}
+				}
+				else = {
+					if = {
+						limit = { has_idea = hoc_0 }
+						swap_ideas = {
+							remove_idea = hoc_0
+							add_idea = hoc_1
+						}
+					}
+					else_if = {
+						limit = { has_idea = hoc_1 }
+						swap_ideas = {
+							remove_idea = hoc_1
+							add_idea = hoc_2
+						}
+					}
+					else = {}
+				}
+			}
 		}
 	}
 }

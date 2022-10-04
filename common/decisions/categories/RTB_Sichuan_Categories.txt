@@ -29,7 +29,7 @@ House_of_cards = {
 		is_ai = no
 	}
 	priority = {
-		base = 50
+		base = 150
 	}
 	scripted_gui = RTB_SIC_house_of_cards
 }
