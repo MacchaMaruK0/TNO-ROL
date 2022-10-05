@@ -106,3 +106,114 @@ defined_text = {
 		localization_key = SIC_jiang_balance_imbalance_reform
 	}
 }
+defined_text = {
+	name = house_of_cards_jiang
+	text = {
+		trigger = {
+			check_variable = { house_of_cards_jiang_xi_power = 1}
+		}
+		localization_key = house_of_cards_jiang_1
+	}
+	text = {
+		trigger = {
+			check_variable = { house_of_cards_jiang_xi_power = 2}
+		}
+		localization_key = house_of_cards_jiang_2
+	}
+	text = {
+		trigger = {
+			check_variable = { house_of_cards_jiang_xi_power = 3}
+		}
+		localization_key = house_of_cards_jiang_3
+	}
+	text = {
+		trigger = {
+			check_variable = { house_of_cards_jiang_xi_power = 4}
+		}
+		localization_key = house_of_cards_jiang_4
+	}
+}
+
+defined_text = {
+	name = house_of_cards_tu_mu
+	text = {
+		trigger = {
+			check_variable = { house_of_cards_tu_mu_power = 1}
+		}
+		localization_key = house_of_cards_tu_mu_1
+	}
+	text = {
+		trigger = {
+			check_variable = { house_of_cards_tu_mu_power = 2}
+		}
+		localization_key = house_of_cards_tu_mu_2
+	}
+	text = {
+		trigger = {
+			check_variable = { house_of_cards_tu_mu_power = 3}
+		}
+		localization_key = house_of_cards_tu_mu_3
+	}
+	text = {
+		trigger = {
+			check_variable = { house_of_cards_tu_mu_power = 4}
+		}
+		localization_key = house_of_cards_tu_mu_4
+	}
+}
+
+defined_text = {
+	name = house_of_cards_cc
+	text = {
+		trigger = {
+			check_variable = { house_of_cards_cc_power = 1}
+		}
+		localization_key = house_of_cards_cc_1
+	}
+	text = {
+		trigger = {
+			check_variable = { house_of_cards_cc_power = 2}
+		}
+		localization_key = house_of_cards_jiang_2
+	}
+	text = {
+		trigger = {
+			check_variable = { house_of_cards_cc_power = 3}
+		}
+		localization_key = house_of_cards_cc_3
+	}
+	text = {
+		trigger = {
+			check_variable = { house_of_cards_cc_power = 4}
+		}
+		localization_key = house_of_cards_cc_4
+	}
+}
+
+defined_text = {
+	name = house_of_cards_xin_zheng
+	text = {
+		trigger = {
+			check_variable = { house_of_cards_xin_zheng_power = 1}
+		}
+		localization_key = house_of_cards_xin_zheng_1
+	}
+	text = {
+		trigger = {
+			check_variable = { house_of_cards_xin_zheng_power = 2}
+		}
+		localization_key = house_of_cards_xin_zheng_2
+	}
+	text = {
+		trigger = {
+			check_variable = { house_of_cards_xin_zheng_power = 3}
+		}
+		localization_key = house_of_cards_xin_zheng_3
+	}
+	text = {
+		trigger = {
+			check_variable = { house_of_cards_xin_zheng_power = 4}
+		}
+		localization_key = house_of_cards_xin_zheng_4
+	}
+}

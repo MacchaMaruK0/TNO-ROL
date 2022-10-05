@@ -52,6 +52,7 @@ House_of_cards = {
 		days_re_enable = 30
 		cost = 25
 		visible = {
+			has_country_flag = song_xi_intervene
 			NOT = { has_country_flag = hide_jiang_xi_decisions }
 			NOT = { has_country_flag = song_xi_sup }
 		}
@@ -69,6 +70,7 @@ House_of_cards = {
 		days_re_enable = 30
 		cost = 25
 		visible = {
+			has_country_flag = jiang_zhe_intervene
 			NOT = { has_country_flag = hide_jiang_xi_decisions }
 			NOT = { has_country_flag = jiang_zhe_sup }
 		}
@@ -132,6 +134,7 @@ House_of_cards = {
 		days_re_enable = 30
 		cost = 25
 		visible = {
+			has_country_flag = song_xi_intervene
 			NOT = { has_country_flag = hide_tu_mu_decisions }
 			NOT = { has_country_flag = song_xi_sup }
 		}
@@ -149,6 +152,7 @@ House_of_cards = {
 		days_re_enable = 30
 		cost = 25
 		visible = {
+			has_country_flag = jiang_zhe_intervene
 			NOT = { has_country_flag = hide_tu_mu_decisions }
 			NOT = { has_country_flag = jiang_zhe_sup }
 		}
@@ -212,6 +216,7 @@ House_of_cards = {
 		days_re_enable = 30
 		cost = 25
 		visible = {
+			has_country_flag = song_xi_intervene
 			NOT = { has_country_flag = hide_cc_decisions }
 			NOT = { has_country_flag = song_xi_sup }
 		}
@@ -229,6 +234,7 @@ House_of_cards = {
 		days_re_enable = 30
 		cost = 25
 		visible = {
+			has_country_flag = jiang_zhe_intervene
 			NOT = { has_country_flag = hide_cc_decisions }
 			NOT = { has_country_flag = jiang_zhe_sup }
 		}
@@ -292,6 +298,7 @@ House_of_cards = {
 		days_re_enable = 30
 		cost = 25
 		visible = {
+			has_country_flag = song_xi_intervene
 			NOT = { has_country_flag = hide_xin_zheng_decisions }
 			NOT = { has_country_flag = song_xi_sup }
 		}
@@ -309,6 +316,7 @@ House_of_cards = {
 		days_re_enable = 30
 		cost = 25
 		visible = {
+			has_country_flag = jiang_zhe_intervene
 			NOT = { has_country_flag = hide_xin_zheng_decisions }
 			NOT = { has_country_flag = jiang_zhe_sup }
 		}
@@ -324,7 +332,7 @@ House_of_cards = {
 	}
 	reroll = {
 		activation = {
-			always = yes
+			has_country_flag = house_of_cards_activated
 		}
 		available = {
 			always = no
@@ -332,6 +340,7 @@ House_of_cards = {
 		is_good = yes
 		days_mission_timeout = 15
 		timeout_effect = {
+			custom_effect_tooltip = hoc_reroll_tt
 			hidden_effect = {
 				activate_mission = reroll
 				random = {
@@ -430,7 +439,7 @@ House_of_cards = {
 	}
 	hoc_settlement = {
 		activation = {
-
+			has_country_flag = house_of_cards_activated
 		}
 		available = {
 			always = no 
@@ -438,6 +447,7 @@ House_of_cards = {
 		is_good = yes
 		days_mission_timeout = 30
 		timeout_effect = {
+			custom_effect_tooltip = hoc_settlement_tt
 			hidden_effect = {
 				activate_mission = hoc_settlement
 				set_temp_variable = {
@@ -448,6 +458,20 @@ House_of_cards = {
 				add_to_variable = { hoc_settlement_temp = house_of_cards_xin_zheng_power }
 				if = {
 					limit = { check_variable = {hoc_settlement_temp = 12}}
+					if = {
+						limit = { has_idea = hoc_2 }
+						swap_ideas = {
+							remove_idea = hoc_2
+							add_idea = hoc_1
+						}
+					}
+					else_if = {
+						limit = { has_idea = hoc_1 }
+						swap_ideas = {
+							remove_idea = hoc_1
+							add_idea = hoc_0
+						}
+					}
 				}
 				else = {
 					if = {
@@ -464,7 +488,13 @@ House_of_cards = {
 							add_idea = hoc_2
 						}
 					}
-					else = {}
+					else_if = {
+						limit = { has_idea = hoc_2 }
+						swap_ideas = {
+							remove_idea = hoc_2
+							add_idea = hoc_3
+						}
+					}
 				}
 			}
 		}

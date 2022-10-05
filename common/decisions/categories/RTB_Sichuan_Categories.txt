@@ -24,9 +24,16 @@ House_of_cards = {
 	allowed = {
 		tag = SIC
 	}
-	visible_when_empty = yes
+	available = {
+		hidden_trigger = {
+			has_country_flag = house_of_cards_activated
+		}
+	}
 	visible = {
 		is_ai = no
+		hidden_trigger = {
+			has_country_flag = house_of_cards_activated
+		}
 	}
 	priority = {
 		base = 150

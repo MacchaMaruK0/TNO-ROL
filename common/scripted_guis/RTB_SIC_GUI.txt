@@ -10,10 +10,10 @@ scripted_gui = {
 	RTB_SIC_house_of_cards = {
 		context_type = decision_category
 		window_name = "RTB_SIC_house_of_cards"
-		dirty = RTB_SIC_house_of_cards_dirty
 		visible = {
 			tag = SIC
 			is_ai = no
+			has_country_flag = house_of_cards_activated
 		}
 		effects = {
 			jiang_xi_button_click = {

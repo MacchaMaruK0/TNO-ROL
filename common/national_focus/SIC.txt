@@ -25,6 +25,24 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			custom_effect_tooltip = SIC_the_road_of_glory_tt 
+			country_event = {
+				id = sic.1
+			}
+			add_stability = 0.1
+			hidden_effect = {
+				add_ideas = hoc_0
+				set_country_flag = house_of_cards_activated
+				set_variable = { house_of_cards_jiang_xi_power = 3 }
+				set_variable = { house_of_cards_tu_mu_power = 3 }
+				set_variable = { house_of_cards_cc_power = 3 }
+				set_variable = { house_of_cards_xin_zheng_power = 3 }
+
+				set_country_flag = hide_jiang_xi_decisions
+				set_country_flag = hide_tu_mu_decisions
+				set_country_flag = hide_cc_decisions
+				set_country_flag = hide_xin_zheng_decisions
+			}
 		}
 	}
 	focus = {
@@ -46,6 +64,13 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			custom_effect_tooltip = SIC_The_Song_Jiang_alliance_gap_tt 
+			country_event = {
+				id = sic.4
+			}
+			hidden_effect = {
+				set_country_flag = song_xi_intervene
+			}
 		}
 	}	
 	focus = {
@@ -67,6 +92,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			custom_effect_tooltip = SIC_The_contradictions_of_wood_and_soil_tt 
+			country_event = {
+				id = sic.3
+			}
 		}
 	}	
 	focus = {
@@ -151,6 +180,8 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			custom_effect_tooltip = SIC_Song_plan_tt 
+			set_country_flag = jiang_zhe_intervene
 		}
 	}		
 	focus = {
@@ -172,6 +203,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			country_event = {
+				id = sic.2
+			}
+			add_political_power = 50
 		}
 	}	
 	focus = {

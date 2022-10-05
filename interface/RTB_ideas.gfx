@@ -26,4 +26,20 @@ spriteTypes = {
 		name = "GFX_idea_URC_protect_oneself"
 		texturefile = "gfx/interface/ideas/national_spirits/URC/URC_protect_oneself.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_hoc_0"
+		texturefile = "gfx/interface/ideas/national_spirits/SIC/hoc_0.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hoc_1"
+		texturefile = "gfx/interface/ideas/national_spirits/SIC/hoc_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hoc_2"
+		texturefile = "gfx/interface/ideas/national_spirits/SIC/hoc_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hoc_3"
+		texturefile = "gfx/interface/ideas/national_spirits/SIC/hoc_3.dds"
+	}
 }

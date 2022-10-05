@@ -1,11 +1,30 @@
 add_namespace = sic
 
 country_event = {
+	id = sic.1
+	title = sic.1.t
+	desc = sic.1.desc
+
+	picture = GFX_lorazepam
+
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event sic.1"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = {
+		name = sic.1.a
+	}
+}
+
+country_event = {
 	id = sic.2
 	title = sic.2.t
 	desc = sic.2.desc
 
-	picture = GFX_lorazepam
+	picture = GFX_old_house
 
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event sic.2"
@@ -24,7 +43,7 @@ country_event = {
 	title = sic.3.t
 	desc = sic.3.desc
 
-	picture = GFX_old_house
+	picture = GFX_waves_washing_sand
 
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event sic.3"
@@ -43,7 +62,7 @@ country_event = {
 	title = sic.4.t
 	desc = sic.4.desc
 
-	picture = GFX_waves_washing_sand
+	picture = /
 
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event sic.4"
