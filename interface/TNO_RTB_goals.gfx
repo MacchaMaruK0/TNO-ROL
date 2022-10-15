@@ -52,7 +52,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SIC/SIC_Zhou_Zhirou_position.dds"
 	}
 	SpriteType = {
-		name = "SIC_Guo_Rugui_issent"
+		name = "SIC_Hu_Lian_issent"
 		texturefile = "gfx/interface/goals/SIC/SIC_Guo_Rugui_issent.dds"
 	}
 	SpriteType = {
@@ -60,7 +60,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SIC/SIC_Zhu_Jiahua_hidden_worries.dds"
 	}
 	SpriteType = {
-		name = "SIC_Xu_Enzeng_ambition"
+		name = "SIC_Zhang_Lisheng_choice"
 		texturefile = "gfx/interface/goals/SIC/SIC_Xu_Enzeng_ambition.dds"
 	}
 	SpriteType = {

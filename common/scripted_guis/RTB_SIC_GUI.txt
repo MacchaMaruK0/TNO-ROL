@@ -304,4 +304,23 @@ scripted_gui = {
 			}
 		}
 	}
+	RTB_SIC_sun_ke_road_selection = {
+		context_type = decision_category
+		window_name = "RTB_SIC_sun_ke_road_selection"
+		visible = {
+			tag = SIC
+			is_ai = no
+			has_country_flag = sun_ke_alive
+		}
+		dynamic_lists = {
+			selection_tabs = {
+				array = RTB_sun_ke_selection
+				value = sun_ke_selection_tab
+				entry_container = RTB_fopo_conflict_tab
+			}
+		}
+		effects = {
+			
+		}
+	}
 }

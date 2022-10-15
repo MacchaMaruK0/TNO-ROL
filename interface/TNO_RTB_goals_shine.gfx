@@ -363,7 +363,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "SIC_Guo_Rugui_issent_shine"
+		name = "SIC_Hu_Lian_issent_shine"
 		texturefile = "gfx/interface/goals/SIC/SIC_Guo_Rugui_issent.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -423,7 +423,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "SIC_Xu_Enzeng_ambition_shine"
+		name = "SIC_Zhang_Lisheng_choice_shine"
 		texturefile = "gfx/interface/goals/SIC/SIC_Xu_Enzeng_ambition.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {

@@ -117,6 +117,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			country_event = {
+				id = sic.5
+			}
+			TNO_worsen_admin_efficiency_low = yes
 		}
 	}	
 	focus = {
@@ -138,6 +142,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			custom_effect_tooltip = SIC_Political_study_hidden_worries_tt
+			country_event = {
+				id = sic.8
+			}
 		}
 	}	
 		focus = {
@@ -159,6 +167,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			custom_effect_tooltip = SIC_The_death_knell_of_the_princelings_tt
+			country_event = {
+				id = sic.9
+			}
 		}
 	}
 	focus = {
@@ -228,11 +240,16 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			add_popularity = {
+				ideology = despotism
+				popularity = 0.05
+			}
+			TNO_improve_army_professionalism_low = yes
 		}
 	}	
 	focus = {
-	    id = SIC_Guo_Rugui_issent   #郭汝瑰的异议
-	    icon = SIC_Guo_Rugui_issent
+	    id = SIC_Hu_Lian_issent   #胡琏的异议
+	    icon = SIC_Hu_Lian_issent
 	    relative_position_id = SIC_the_road_of_glory
 	    x = 3
 	    y = 2
@@ -249,6 +266,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			army_experience = 5
 		}
 	}	
 	focus = {
@@ -270,11 +288,15 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			add_political_power = 50
+			country_event = {
+				id = sic.6
+			}
 		}
 	}	
 	focus = {
-	    id = SIC_Xu_Enzeng_ambition   #徐恩增的野心
-	    icon = SIC_Xu_Enzeng_ambition
+	    id = SIC_Zhang_Lisheng_choice   #张厉生的选择
+	    icon = SIC_Zhang_Lisheng_choice
 	    relative_position_id = SIC_the_road_of_glory
 	    x = -3
 	    y = 2
@@ -291,6 +313,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			custom_effect_tooltip = SIC_Zhang_Lisheng_choice_tt
+			country_event = {
+				id = sic.7
+			}
 		}
 	}	
 	focus = {
@@ -302,7 +328,7 @@ focus_tree = {
 	    cost = 2
 	    prerequisite = { focus = SIC_Xu_Enzeng_ambition }
         prerequisite = { focus = SIC_Zhu_Jiahua_hidden_worries }
-        prerequisite = { focus = SIC_Guo_Rugui_issent }
+        prerequisite = { focus = SIC_Hu_Lian_issent }
         prerequisite = { focus = SIC_Zhou_Zhirou_position }
         prerequisite = { focus = SIC_Song_plan }
         prerequisite = { focus = SIC_The_Jiang_Hand }
@@ -319,6 +345,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
+			add_political_power = 100
+			country_event = {
+				id = sic.10
+			}
 		}
 	}
 }

@@ -4,4 +4,4 @@ tags={
 	"National Focuses"
 }
 name="新秩序：馀生"
-supported_version="1.11.12"
+supported_version="1.11.13"

@@ -230,7 +230,7 @@ set_variable = { tno_training_effectiveness = 50 }
 set_variable = { tno_racial_integration_effectiveness = 50 }
 set_variable = { tno_draft_exemptions_effectiveness = 50 }
 
-
+set_country_flag = sun_ke_alive
 #蒋经国的权谋暂时放在这里
 set_variable = {
     jiang_conspiracy_adv_plu = 0
