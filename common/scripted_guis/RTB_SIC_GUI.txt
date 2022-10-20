@@ -313,11 +313,7 @@ scripted_gui = {
 			has_country_flag = sun_ke_alive
 		}
 		dynamic_lists = {
-			selection_tabs = {
-				array = RTB_sun_ke_selection
-				value = sun_ke_selection_tab
-				entry_container = RTB_fopo_conflict_tab
-			}
+			
 		}
 		effects = {
 			

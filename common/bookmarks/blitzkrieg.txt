@@ -21,7 +21,7 @@ bookmarks = {
 		#### MAJORS ####
 		"USA" = {
 			history = "USA_THENEWORDER_DESC"
-			ideology = liberal_democracy
+			ideology = conservatism
 			ideas = {
 				USA_last_bastion_of_liberty
 				USA_the_american_depression_4
@@ -49,8 +49,35 @@ bookmarks = {
 			}
 		}
 
-		"ZZZ" = { history = "" }
-		"ZZZ" = { history = "" }
+		"USA" = { #For random country select
+			history = "USA_THENEWORDER_DESC"
+			ideology = conservatism
+			ideas = {
+				USA_last_bastion_of_liberty
+				USA_the_american_depression_4
+				USA_jim_crow
+			}
+			focuses = {
+				USA_the_nixon_presidency
+				USA_the_civil_rights_dillema
+				USA_Boxing_In_the_Sphere
+			}
+		}
+
+		"GER" = { #For random country select
+			history = "GER_THENEWORDER_DESC"
+			ideology = national_socialism
+			ideas = {
+				to_banish_want
+				the_two_principles
+				endsieg
+			}
+			focuses = {
+				BOR_der_wilde_ritt
+				SGR_doppeldenken
+				GER_GOR_the_great_purge
+			}
+		}
 
 		"JAP" = {
 			history = "JAP_THENEWORDER_DESC"
@@ -92,9 +119,9 @@ bookmarks = {
 		"SCO" = {
 			minor = yes
 			history = "SCO_THENEWORDER_DESC"
-			ideology = liberal_democracy
+			ideology = liberalism
 			ideas = {
-				SCO_The_lonely_Ilse
+				SCO_The_Lonely_Ilse
 				SCO_Itchy_Trigger
 				SCO_Derry_Scapa_deal
 			}
@@ -104,11 +131,11 @@ bookmarks = {
 				SCO_UP_Victory
 			}
 		}
-		
+
 		"BRA" = {
 			minor = yes
 			history = "BRA_THENEWORDER_DESC"
-			ideology = liberal_democracy
+			ideology = liberalism
 			ideas = {
 				BRA_idea_rampant_corruption
 				BRA_idea_industrialisation_crisis_campaign
@@ -120,11 +147,11 @@ bookmarks = {
 				BRA_Coffee_With_Neves
 			}
 		}
-		
+
 		"SAF" = {
 			minor = yes
 			history = "SAF_THENEWORDER_DESC"
-			ideology = conservative_democracy
+			ideology = conservatism
 			ideas = {
 				SAF_The_Empty_Throne
 				SAF_Desperate_Neutrality
@@ -136,7 +163,7 @@ bookmarks = {
 				SAF_the_african_national_congress
 			}
 		}
-		
+
 		## OFN ##
 
 		## PAKT ##
@@ -144,7 +171,7 @@ bookmarks = {
 		"ENG" = {
 			minor = yes
 			history = "ENG_THENEWORDER_DESC"
-			ideology = authoritarian_democracy
+			ideology = paternalism
 			ideas = {
 				ENG_HMMLR
 				ENG_Own_Peoples_Hate
@@ -160,7 +187,7 @@ bookmarks = {
 		"IRE" = {
 			minor = yes
 			history = "IRE_THENEWORDER_DESC"
-			ideology = authoritarian_democracy
+			ideology = paternalism
 			ideas = {
 				IRE_there_will_be_blood
 				IRE_humiliation_of_a_giant
@@ -242,7 +269,7 @@ bookmarks = {
 		"KOM" = {
 			minor = yes
 			history = "KOM_THENEWORDER_DESC"
-			ideology = social_democracy
+			ideology = progressivism
 			ideas = {
 				KOM_syvtyvkartsi
 				KOM_clash_of_shadows_c_1
@@ -255,19 +282,19 @@ bookmarks = {
 			}
 		}
 
-		"TYM" = {
+		"PRM" = {
 			minor = yes
-			history = "TYM_THENEWORDER_DESC"
-			ideology = communist
+			history = "PRM_THENEWORDER_DESC"
+			ideology = national_socialism
 			ideas = {
-				TYM_revisionist_remnant
-				TYM_unorthodox_bolshevism
-				RUS_ural_automotive_plant
+				PRM_aryan_cult
+				PRM_aryan_control_3
+				PRM_aryan_schematics
 			}
 			focuses = {
-				TYM_holding_out
-				TYM_unpopular_decisions
-				TYM_our_own_designs
+				PRM_AB_initial_beneath_cross
+				PRM_AB_initial_ubermensch
+				PRM_AB_initial_brotherhood
 			}
 		}
 
@@ -289,6 +316,8 @@ bookmarks = {
 		## RUSSIA ##
 
 		## CPS ##
+		"ZZZ" = { minor = yes history = "" }
+
 		"CHI" = {
 			minor = yes
 			history = "CHI_THENEWORDER_DESC"
@@ -305,33 +334,7 @@ bookmarks = {
 			}
 		}
 
-		"INS" = {
-			minor = yes
-			history = "INS_THENEWORDER_DESC"
-			ideology = fascism
-			ideas = {
-				INS_Romusha
-				INS_Shinkyoutei
-				INS_Pembela_Tanah_Air
-			}
-			focuses = {
-				INS_decree_0162
-				INS_Presidential_decree_321_65
-				INS_A_change_of_plan
-			}
-		}
-
-		"SIC" = {
-			minor = yes
-			history = "SIC_THENEWORDER_DESC"
-			ideology = despotism
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
+		"ZZZ" = { minor = yes history = "" }
 		## CPS ##
 
 		## TRIUM ##
@@ -342,7 +345,7 @@ bookmarks = {
 			history = "IBR_THENEWORDER_DESC"
 			ideology = despotism
 			ideas = {
-				The_Gibraltar_Dam
+				Betray_Old_Guard
 				Iberian_Economic_Nightmare
 				Crippled_Sovereignty
 			}
@@ -415,7 +418,7 @@ bookmarks = {
 				COG_the_safari_beckons
 			}
 		}
-		
+
 		"GRO" = {
 			minor = yes
 			history = "GRO_THENEWORDER_DESC"
@@ -432,14 +435,31 @@ bookmarks = {
 				GRO_be_happy_or_else
 			}
 		}
-		
+
 		## PAKT ##
 
 		## RUSSIA ##
+
+		"TYM" = {
+			minor = yes
+			history = "TYM_THENEWORDER_DESC"
+			ideology = communist
+			ideas = {
+				TYM_revisionist_remnant
+				TYM_unorthodox_bolshevism
+				RUS_ural_automotive_plant
+			}
+			focuses = {
+				TYM_holding_out
+				TYM_on_the_clock
+				TYM_off_the_clock
+			}
+		}
+
 		"SVR" = {
 			minor = yes
 			history = "SVR_THENEWORDER_DESC"
-			ideology = authoritarian_democracy
+			ideology = paternalism
 			ideas = {
 				SVR_notso_redarmy
 				SVR_black_league_influence_tier_1
@@ -471,7 +491,7 @@ bookmarks = {
 		"TOM" = {
 			minor = yes
 			history = "TOM_THENEWORDER_DESC"
-			ideology = conservative_democracy
+			ideology = conservatism
 			ideas = {
 				TOM_formation_of_the_salons
 				TOM_warlord_of_the_city
@@ -500,34 +520,19 @@ bookmarks = {
 			}
 		}
 
-		"IRK" = {
+		"NOV" = {
 			minor = yes
-			history = "IRK_THENEWORDER_DESC"
-			ideology = communist
+			history = "NOV_THENEWORDER_DESC"
+			ideology = paternalism
 			ideas = {
-				IRK_bitter_remnant
-				IRK_yagodas_paranoia
-				RUS_irkutsk_hydro_station
+				NOV_Disproportionate_Population
+				NOV_The_All_Siberian_Army
+				RUS_novosibirsk_aircraft_plant
 			}
 			focuses = {
-				IRK_mutiny_the_response
-				IRK_mutiny_an_ironclad_union
-				IRK_mutiny_the_union_forever
-			}
-		}
-
-		"BRY" = {
-			minor = yes
-			history = "BRY_THENEWORDER_DESC"
-			ideology = socialist
-			ideas = {
-				BRY_uncertain_revolutionaries
-				BRY_ghost_of_bukharinism
-			}
-			focuses = {
-				BRY_the_spark
-				BRY_the_dreams_of_those_before
-				BRY_that_burns_the_tyrant_down
+				NOV_land_of_the_strong
+				NOV_the_champions_of_industry
+				NOV_the_soldiers_soviet
 			}
 		}
 		## RUSSIA ##
@@ -535,7 +540,17 @@ bookmarks = {
 		## CPS ##
 		"ZZZ" = { minor = yes history = "" }
 
-		"ZZZ" = { minor = yes history = "" }
+		"SIC" = {
+			minor = yes
+			history = "SIC_THENEWORDER_DESC"
+			ideology = despotism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
 
 		"ZZZ" = { minor = yes history = "" }
 		## CPS ##
@@ -565,28 +580,44 @@ bookmarks = {
 		## TRIUM ##
 
 		## PAKT ##
-		
+
 		"ZZZ" = { minor = yes history = "" }
 
 		"ZZZ" = { minor = yes history = "" }
-		
+
 		"ZZZ" = { minor = yes history = "" }
 		## PAKT ##
 
 		## RUSSIA ##
-		"NOV" = {
+
+		"IRK" = {
 			minor = yes
-			history = "NOV_THENEWORDER_DESC"
-			ideology = authoritarian_democracy
+			history = "IRK_THENEWORDER_DESC"
+			ideology = communist
 			ideas = {
-				NOV_Disproportionate_Population
-				NOV_The_All_Siberian_Army
-				RUS_novosibirsk_aircraft_plant
+				IRK_bitter_remnant
+				IRK_yagodas_paranoia
+				RUS_irkutsk_hydro_station
 			}
 			focuses = {
-				NOV_land_of_the_strong
-				NOV_the_champions_of_industry
-				NOV_the_soldiers_soviet
+				IRK_mutiny_the_response
+				IRK_mutiny_an_ironclad_union
+				IRK_mutiny_the_union_forever
+			}
+		}
+
+		"BRY" = {
+			minor = yes
+			history = "BRY_THENEWORDER_DESC"
+			ideology = socialist
+			ideas = {
+				BRY_uncertain_revolutionaries
+				BRY_ghost_of_bukharinism
+			}
+			focuses = {
+				BRY_the_spark
+				BRY_the_dreams_of_those_before
+				BRY_that_burns_the_tyrant_down
 			}
 		}
 
@@ -638,57 +669,18 @@ bookmarks = {
 			}
 		}
 
-		"PRM" = {
-			minor = yes
-			history = "PRM_THENEWORDER_DESC"
-			ideology = national_socialism
-			ideas = {
-				PRM_aryan_cult
-				PRM_aryan_control_3
-							PRM_aryan_schematics
-			}
-			focuses = {
-				PRM_AB_initial_beneath_cross
-				PRM_AB_initial_ubermensch
-				PRM_AB_initial_brotherhood
-			}
-		}
-
-		"PRC" = {
-			minor = yes
-			history = "PRC_THENEWORDER_DESC"
-			ideology = communist
-			ideas = {
-				PRC_factionalism
-				PRC_red_army_exile
-				PRC_democratic_military
-			}
-			focuses = {
-				PRC_The_Eastern_Conflict
-				PRC_Legacy_of_the_Siberian_Red_Army
-				PRC_War_with_Menjiang
-			}
-		}
 		## RUSSIA ##
 
 		## CPS ##
-		"ZZZ" = { minor = yes history = "" }
 
-		"ZZZ" = { minor = yes history = "" }
-
-		"ZZZ" = { minor = yes history = "" }
 		## CPS ##
 
 		## OFN ##
-		"ZZZ" = { minor = yes history = "" }
 
-		"ZZZ" = { minor = yes history = "" }
-
-		"ZZZ" = { minor = yes history = "" }
 		## OFN ##
 
 		# Buffer
-		"ZZZ" = { minor = yes history = "" }
+
 		### ROW 3 ###
 		#### MINORS ####
 	}

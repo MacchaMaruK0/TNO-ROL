@@ -20,11 +20,17 @@ set_politics = {
 
 set_popularities = {
 	communist = 2
-	despotism = 35
-	fascism = 42
-	ultranationalism = 13
-    conservative_democracy = 5
-    liberal_democracy = 3
+    socialist = 0
+    progressivism = 0
+    liberalism = 3
+    liberal_conservatism = 0
+    conservatism = 5
+    paternalism = 0
+    despotism = 35
+    ultranationalism = 13
+    fascism = 42
+    national_socialism = 0
+    esoteric_nazism = 0
 }
 
 set_technology = {

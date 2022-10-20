@@ -111,15 +111,17 @@ set_politics = {
 
 set_popularities = {
     communist = 0
-    ultranationalism = 0
     socialist = 0
-    social_democracy = 0
-    liberal_democracy = 0
-    conservative_democracy = 0
-    authoritarian_democracy = 25
+    progressivism = 0
+    liberalism = 0
+    liberal_conservatism = 0
+    conservatism = 0
+    paternalism = 25
     despotism = 60
+    ultranationalism = 0
     fascism = 15
     national_socialism = 0
+    esoteric_nazism = 0
 }
 
 country_event = { id = rtb.sichuan.2 days = 3 }
@@ -231,6 +233,7 @@ set_variable = { tno_racial_integration_effectiveness = 50 }
 set_variable = { tno_draft_exemptions_effectiveness = 50 }
 
 set_country_flag = sun_ke_alive
+
 #蒋经国的权谋暂时放在这里
 set_variable = {
     jiang_conspiracy_adv_plu = 0

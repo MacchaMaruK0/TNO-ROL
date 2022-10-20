@@ -282,64 +282,6 @@ guiTypes = {
 	containerWindowType = {
 		name = "RTB_SIC_sun_ke_road_selection"
 		size = { width = 460 height = 505 }
-
-		iconType = {
-			name = "tabs"
-			spriteType = "GFX_fopo_crisis_box"
-			position = { x = 2 y = 72 }
-		}
-
-		containerWindowType = {
-			name = "tabs_container"
-			horizontalScrollbar = "top_horizontal_slider" 
-			size = { width = 500 height = 90 }
-			position = { x = 2 y = -12  }
-			margin = { top = 0 left = 0 bottom = 0 right = 0 }
-
-			background = {
-				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_transparent"
-			}
-
-	
-			gridboxtype = {
-				name = "conflict_tabs"
-				position = { x = 0 y = 15 }
-				size = { width = 480 height = 45 }
-				slotsize = { width = 120 height = 45 }
-				add_horizontal = yes
-			}
-		}
-
-		buttonType = {
-			name = "frontlines_btn"
-			spriteType = "GFX_fopo_frontlines_btn"
-			position = { x = 12 y = 82 }
-			pdx_tooltip = fopo_frontlines_tt
-		}
-		buttonType = {
-			name = "homefront_btn"
-			spriteType = "GFX_fopo_homefront_btn"
-			position = { x = 256 y = 82 }
-			pdx_tooltip = fopo_homefront_tt
-		}	
-		iconType = {
-			name = "conflict_status"
-			spriteType = "GFX_fopo_conflict_status"
-			position = { x = 12 y = 82 }
-		}
-
-		containerWindowType = {
-			name = "conflict_guis_container"
-			position = { x = 4 y = 112 }
-		}
-        gridboxtype = {
-		    name = "conflict_guis"
-			position = { x = -176 y = 112 }
-			size = { width = 480 height = 45 }
-			slotsize = { width = 120 height = 45 }
-			add_horizontal = yes
-		}
 	}
 }
 

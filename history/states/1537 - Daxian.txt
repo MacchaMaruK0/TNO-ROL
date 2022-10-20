@@ -2,7 +2,7 @@ state={
 	id=1537
 	name="STATE_1537"
 	provinces={
-		1893 2030 2091 4041 5048 7256 7948 10144 10304 10822 11865 12274 
+		1893 2030 2091 5048 7256 10144 11865 12274 4041 7948
 	}
 
 	history={
@@ -10,7 +10,6 @@ state={
 		add_core_of = SIC
 		buildings = {
 			prisons = 2
-			thermoelectric_plant = 1
 			infrastructure = 2
 		}
 		victory_points = {

@@ -311,15 +311,16 @@ set_politics = {
 set_popularities = {
     communist = 9
     socialist = 0
-    social_democracy = 0
-    liberal_democracy = 0
+    progressivism = 0
+    liberalism = 0
+    liberal_conservatism = 0
+    conservatism = 0
+    paternalism = 11
     despotism = 53
-    conservative_democracy = 0
-    authoritarian_democracy = 11
+    ultranationalism = 27
     fascism = 0
     national_socialism = 0
-    ultranationalism = 27
-    
+    esoteric_nazism = 0
 }
 
 # NSB #

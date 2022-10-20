@@ -61,7 +61,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "SIC_Zhang_Lisheng_choice"
-		texturefile = "gfx/interface/goals/SIC/SIC_Xu_Enzeng_ambition.dds"
+		texturefile = "gfx/interface/goals/SIC/SIC_Zhang_Lisheng_choice.dds"
 	}
 	SpriteType = {
 		name = "SIC_The_final_work"

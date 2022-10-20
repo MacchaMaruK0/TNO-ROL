@@ -4,7 +4,8 @@ state={
 	name="STATE_957"
 
 	history={
-		owner = URC
+		owner = CCP
+		add_core_of = CCP
 		add_core_of = URC
 		
 		buildings = {
@@ -16,10 +17,10 @@ state={
 			infrastructure = 2
 		}
 		victory_points = { 4704 3 }
-        set_demilitarized_zone = yes
+
 	}
 	provinces={
-		1838 4704 4843 7732 10839 12524 12598 12671
+		1838 4704 7732 10839 12524 12598 12671 7808 7870
 	}
 	manpower=617400
 	buildings_max_level_factor=1.000

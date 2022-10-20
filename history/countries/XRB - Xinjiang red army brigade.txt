@@ -62,7 +62,7 @@ set_technology = {
      ##ARMOR##
      mechanised_infantry3 = 1
      advanced_light_tank = 1
-     advanced_medium_tank = 1
+    advanced_medium_tank = 1
 
      ##HELICOPTERS##
 	helicopter_engines = 1
@@ -76,7 +76,7 @@ set_technology = {
      CAS_1945 = 1
      
 ##HEAVY AIR##
-     tac_bomber1 = 1
+  tac_bomber1 = 1
      tac_air_1945 = 1
      strategic_bomber1 = 1
      heavy_air_1945 = 1
@@ -123,15 +123,17 @@ set_politics = {
 
 set_popularities = {
     communist = 85
-    ultranationalism = 0
-    national_socialism = 0
     socialist = 0
-    social_democracy = 0
-    liberal_democracy = 0
-    conservative_democracy = 0
-    authoritarian_democracy = 15
+    progressivism = 0
+    liberalism = 0
+    liberal_conservatism = 0
+    conservatism = 0
+    paternalism = 15
     despotism = 0
+    ultranationalism = 0
     fascism = 0
+    national_socialism = 0
+    esoteric_nazism = 0
 }
 
 add_ideas = {
@@ -246,5 +248,3 @@ add_equipment_to_stockpile = {
 	amount = 1000
 	producer = XIN
 }
-
-TNO_startup_nation = no

@@ -53,6 +53,18 @@ ideas = {
 			cancel_if_invalid = yes
 			ledger = civilian
 		}
+		TAW_Kichisaburo_Nomura_hog = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea TAW_Kichisaburo_Nomura_hog"}
+			picture = "TAW_Kichisaburo_Nomura"
+			allowed = {
+				original_tag = TAW
+			}
+			traits = {
+				head_of_government
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
 	}
 	foreign_minister = {
 		SIC_Wang_Shijie_for = {
@@ -97,6 +109,16 @@ ideas = {
 			traits = {
 				foreign_minister
 				communist_bukharinism_subtype
+			}
+		}
+		TAW_Ihara_Mitsugu_for = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea TAW_Ihara_Mitsugu_for"}
+			picture = "TAW_Ihara_Mitsugu"
+			allowed = {
+				original_tag = TAW
+			}
+			traits = {
+				foreign_minister
 			}
 		}
 	}
@@ -145,6 +167,16 @@ ideas = {
 				communist_bukharinism_subtype
 			}
 		}
+		TAW_Nadao_Hirohiki_eco = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea TAW_Nadao_Hirohiki_eco"}
+			picture = "TAW_Nadao_Hirohiki"
+			allowed = {
+				original_tag = TAW
+			}
+			traits = {
+				economy_minister
+			}
+		}
 	}
 	security_minister = {
 		SIC_Chen_Cheng_sec = {
@@ -189,6 +221,16 @@ ideas = {
 			traits = {
 				security_minister
 				communist_bukharinism_subtype
+			}
+		}
+		TAW_Sugie_Ichizou_sec = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea TAW_Sugie_Ichizou_sec"}
+			picture = "TAW_Sugie_Ichizou"
+			allowed = {
+				original_tag = TAW
+			}
+			traits = {
+				security_minister
 			}
 		}
 	}

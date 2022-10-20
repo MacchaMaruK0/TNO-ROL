@@ -122,14 +122,17 @@ set_politics = {
 
 set_popularities = {
     communist = 0
-    ultranationalism = 0
     socialist = 0
-    social_democracy = 0
-    liberal_democracy = 0
-    conservative_democracy = 13
-    authoritarian_democracy = 16
+    progressivism = 0
+    liberalism = 0
+    liberal_conservatism = 0
+    conservatism = 13
+    paternalism = 16
     despotism = 71
+    ultranationalism = 0
     fascism = 0
+    national_socialism = 0
+    esoteric_nazism = 0
     
 }
 

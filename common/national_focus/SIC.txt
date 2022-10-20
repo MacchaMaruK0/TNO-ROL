@@ -326,7 +326,7 @@ focus_tree = {
         x = 0
         y = 4
 	    cost = 2
-	    prerequisite = { focus = SIC_Xu_Enzeng_ambition }
+	    prerequisite = { focus = SIC_Zhang_Lisheng_choice }
         prerequisite = { focus = SIC_Zhu_Jiahua_hidden_worries }
         prerequisite = { focus = SIC_Hu_Lian_issent }
         prerequisite = { focus = SIC_Zhou_Zhirou_position }
