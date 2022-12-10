@@ -3,5 +3,5 @@ tags={
 	"Alternative History"
 	"National Focuses"
 }
-name="新秩序：馀生"
+name="新秩序：馀生NEW"
 supported_version="1.12.*"
