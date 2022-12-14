@@ -3,8 +3,6 @@ capital = 282
 # Vacant
 recruit_character = JAP_Generic_Vacant
 
-recruit_character = JAP_Hirasawa_Susumu
-
 # Starting Country Leaders
 recruit_character = JAP_ino_hiroya
 recruit_character = JAP_kido_kouichi
@@ -517,6 +515,15 @@ set_popularities = {
 	
 }
 
+set_autonomy = {
+	target = GGC
+	autonomous_state = autonomy_wtt_imperial_subject
+}
+set_autonomy = {
+	target = TAW
+	autonomous_state = autonomy_wtt_imperial_subject
+}
+
 complete_national_focus = JAP_never_been_better
 
 
@@ -539,6 +546,9 @@ add_to_faction = AZH
 add_to_faction = GNG
 add_to_faction = GUZ
 add_to_faction = NRB
+add_to_faction = SIC
+add_to_faction = TAW
+add_to_faction = GGC
 
 
 set_country_flag = JAP_TRAD_IN_POWER

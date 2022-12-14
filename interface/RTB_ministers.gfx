@@ -21,20 +21,20 @@ spriteTypes = {
 
 	#XIN#
 	spriteType = {
-		name = "GFX_URC_Zhang_Zhizhong"
-		texturefile = "gfx/interface/ideas/ministers/URC/GFX_URC_Zhang_Zhizhong.dds"
+		name = "GFX_XIN_Zhang_Zhizhong"
+		texturefile = "gfx/interface/ideas/ministers/XIN/XIN_Zhang_Zhizhong.dds"
 	}
 	spriteType = {
-		name = "GFX_URC_Tao_Zhiyue"
-		texturefile = "gfx/interface/ideas/ministers/URC/GFX_URC_Tao_Zhiyue.dds"
+		name = "GFX_XIN_Tao_Zhiyue"
+		texturefile = "gfx/interface/ideas/ministers/XIN/XIN_Tao_Zhiyue.dds"
 	}
 	spriteType = {
-		name = "GFX_URC_Lin_Jiyong"
-		texturefile = "gfx/interface/ideas/ministers/URC/GFX_URC_Lin_Jiyong.dds"
+		name = "GFX_XIN_Lin_Jiyong"
+		texturefile = "gfx/interface/ideas/ministers/XIN/XIN_Lin_Jiyong.dds"
 	}
 	spriteType = {
-		name = "GFX_URC_Guo_Jiqiao"
-		texturefile = "gfx/interface/ideas/ministers/URC/GFX_URC_Guo_Jiqiao.dds"
+		name = "GFX_XIN_Guo_Jiqiao"
+		texturefile = "gfx/interface/ideas/ministers/XIN/XIN_Guo_Jiqiao.dds"
 	}
 
 	#GUX#
@@ -71,5 +71,23 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_CPC_Zhao_Shoushan"
 		texturefile = "gfx/interface/ideas/ministers/CCP/CPC_Zhao_Shoushan.dds"
+	}
+
+	#TAW
+	spriteType = {
+		name = "GFX_TAW_Kichisaburo_Nomura"
+		texturefile = "gfx/interface/ideas/ministers/TAW/TAW_Kichisaburo_Nomura.dds"
+	}
+	spriteType = {
+		name = "GFX_TAW_Ihara_Mitsugu"
+		texturefile = "gfx/interface/ideas/ministers/TAW/TAW_Ihara_Mitsugu.dds"
+	}
+	spriteType = {
+		name = "GFX_TAW_Nadao_Hirohiki"
+		texturefile = "gfx/interface/ideas/ministers/TAW/TAW_Nadao_Hirohiki.dds"
+	}
+	spriteType = {
+		name = "GFX_TAW_Sugie_Ichizou"
+		texturefile = "gfx/interface/ideas/ministers/TAW/TAW_Sugie_Ichizou.dds"
 	}
 }

@@ -18,11 +18,11 @@ state={
 		victory_points = {
 			6999 30 
 		}
-
+        set_demilitarized_zone = yes
 	}
 
 	provinces={
-		911 4141 4431 6999 10304 10822 
+		911 4431 6999
 	}
 	manpower=6718926
 	buildings_max_level_factor=1.000

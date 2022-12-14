@@ -4,9 +4,9 @@ state={
 	name="STATE_957"
 
 	history={
-		owner = CCP
-		add_core_of = CCP
-		add_core_of = URC
+		owner = XIN
+		add_core_of = XIN
+		add_core_of = XIN
 		
 		buildings = {
 			schools = 2

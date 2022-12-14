@@ -15,16 +15,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/national_spirits/SIC/SIC_treaty_signed_under_coercion.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_URC_at_stake"
-		texturefile = "gfx/interface/ideas/national_spirits/URC/URC_at_stake.dds"
+		name = "GFX_idea_XIN_at_stake"
+		texturefile = "gfx/interface/ideas/national_spirits/XIN/XIN_at_stake.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_URC_hidden_enemy"
-		texturefile = "gfx/interface/ideas/national_spirits/URC/URC_hidden_enemy.dds"
+		name = "GFX_idea_XIN_hidden_enemy"
+		texturefile = "gfx/interface/ideas/national_spirits/XIN/XIN_hidden_enemy.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_URC_protect_oneself"
-		texturefile = "gfx/interface/ideas/national_spirits/URC/URC_protect_oneself.dds"
+		name = "GFX_idea_XIN_protect_oneself"
+		texturefile = "gfx/interface/ideas/national_spirits/XIN/XIN_protect_oneself.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_hoc_0"

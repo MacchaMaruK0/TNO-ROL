@@ -247,6 +247,7 @@ add_ideas = {
 	tno_gender_rights_traditional_roles
 	tno_minorities_oppression
 	tno_security_police
+
 }
 
 ### Policy Effectiveness

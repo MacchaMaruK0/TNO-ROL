@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = URC
-		add_core_of = URC
+		owner = XIN
+		add_core_of = XIN
 		
 		buildings = {
 			infrastructure = 2
