@@ -14,11 +14,11 @@ ideas = {
 			cancel_if_invalid = yes
 			ledger = civilian
 		}
-		URC_Zhang_Zhizhong_hog = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URC_Zhang_Zhizhong_hog"}
-			picture = "URC_Zhang_Zhizhong"
+		XIN_Zhang_Zhizhong_hog = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea XIN_Zhang_Zhizhong_hog"}
+			picture = "XIN_Zhang_Zhizhong"
 			allowed = {
-				original_tag = URC
+				original_tag = XIN
 			}
 			traits = {
 				head_of_government
@@ -78,11 +78,11 @@ ideas = {
 				despotism_civilian_dictatorship_subtype
 			}
 		}
-		URC_Guo_Jiqiao_for = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URC_Guo_Jiqiao_for"}
-			picture = "URC_Guo_Jiqiao"
+		XIN_Guo_Jiqiao_for = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea XIN_Guo_Jiqiao_for"}
+			picture = "XIN_Guo_Jiqiao"
 			allowed = {
-				original_tag = URC
+				original_tag = XIN
 			}
 			traits = {
 				foreign_minister
@@ -134,11 +134,11 @@ ideas = {
 				despotism_civilian_dictatorship_subtype
 			}
 		}
-		URC_Lin_Jiyong_eco = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URC_Lin_Jiyong_eco"}
+		XIN_Lin_Jiyong_eco = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea XIN_Lin_Jiyong_eco"}
 			picture = "XIN_Lin_Jiyong"
 			allowed = {
-				original_tag = URC
+				original_tag = XIN
 			}
 			traits = {
 				economy_minister
@@ -190,11 +190,11 @@ ideas = {
 				authoritarian_democracy_stratocracy_subtype
 			}
 		}
-		URC_Tao_Zhiyue_sec = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URC_Tao_Zhiyue_sec"}
-			picture = "URC_Tao_Zhiyue"
+		XIN_Tao_Zhiyue_sec = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea XIN_Tao_Zhiyue_sec"}
+			picture = "XIN_Tao_Zhiyue"
 			allowed = {
-				original_tag = URC
+				original_tag = XIN
 			}
 			traits = {
 				security_minister

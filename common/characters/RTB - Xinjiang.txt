@@ -1,12 +1,12 @@
 characters = {
-    URC_Sheng_Shicai = {
-		name = URC_Sheng_Shicai
+    XIN_Sheng_Shicai = {
+		name = XIN_Sheng_Shicai
 		portraits = {
 			civilian = { 
-				large = "gfx/leaders/URC/Portrait_URC_Sheng_Shicai.dds"
+				large = "gfx/leaders/XIN/Portrait_XIN_Sheng_Shicai.dds"
 			}
 			army = {
-				large = "gfx/leaders/URC/Portrait_URC_Sheng_Shicai.dds" 
+				large = "gfx/leaders/XIN/Portrait_XIN_Sheng_Shicai.dds" 
 			}
 		}
 		country_leader = {
@@ -25,28 +25,28 @@ characters = {
 			logistics_skill = 2
 		}
 	}
-	URC_Zhang_Zhizhong_leader = {
-		name = URC_Zhang_Zhizhong_leader
+	XIN_Zhang_Zhizhong_leader = {
+		name = XIN_Zhang_Zhizhong_leader
 		portraits = {
 			civilian = { 
-				large = "gfx/leaders/URC/Portrait_URC_Zhang_Zhizhong.dds" 
+				large = "gfx/leaders/XIN/Portrait_XIN_Zhang_Zhizhong.dds" 
 			}
-			army = { large = "gfx/leaders/URC/Portrait_URC_Zhang_Zhizhong.dds" }
+			army = { large = "gfx/leaders/XIN/Portrait_XIN_Zhang_Zhizhong.dds" }
 		}
 		country_leader = {
 			desc = "POLITICS_XIN_ZHANG_ZHIZHONG_DESC"
-			ideology = authoritarian_democracy_xunzheng_subtype
+			ideology = paternalism_xunzheng_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
 		}
 	}
 
-	URC_Yulbars_Khan = {
-        name = URC_Yulbars_Khan
+	XIN_Yulbars_Khan = {
+        name = XIN_Yulbars_Khan
         portraits = { 
 			army = {
-				large = "gfx/leaders/URC/Portrait_Xinjiang_Yulbars_Khan.dds" 
+				large = "gfx/leaders/XIN/Portrait_Xinjiang_Yulbars_Khan.dds" 
 			}
 		}
 		corps_commander = {
@@ -59,11 +59,11 @@ characters = {
 		}
 	}
 
-	URC_Zhao_Hanqi = {
-        name = URC_Zhao_Hanqi
+	XIN_Zhao_Hanqi = {
+        name = XIN_Zhao_Hanqi
         portraits = { 
 			army = {
-				large = "gfx/leaders/URC/Portrait_URC_Zhao_Hanqi.dds" 
+				large = "gfx/leaders/XIN/Portrait_XIN_Zhao_Hanqi.dds" 
 			}
 		}
 		corps_commander = {
@@ -77,17 +77,17 @@ characters = {
 	}
     
 	#MINISTERS
-    URC_Zhang_Zhizhong = {
-        name = URC_Zhang_Zhizhong
+    XIN_Zhang_Zhizhong = {
+        name = XIN_Zhang_Zhizhong
         portraits = { 
 			civilian = { 
-                small = "GFX_URC_Zhang_Zhizhong"
+                small = "GFX_XIN_Zhang_Zhizhong"
             } 
 		}
         advisor = {
 		    slot = head_of_government
-		    idea_token = URC_Zhang_Zhizhong_hog
-		    allowed = { original_tag = URC }
+		    idea_token = XIN_Zhang_Zhizhong_hog
+		    allowed = { original_tag = XIN }
 		    traits = {
 			    head_of_government
                 stabilizer_of_Xinjiang
@@ -99,14 +99,14 @@ characters = {
 	    }    
     }
 
-    URC_Guo_Jiqiao = {
-        name = URC_Guo_Jiqiao
+    XIN_Guo_Jiqiao = {
+        name = XIN_Guo_Jiqiao
         portraits = { 
 			civilian = { 
-                small = "GFX_URC_Guo_Jiqiao"
+                small = "GFX_XIN_Guo_Jiqiao"
             }
 			army = {
-				large = "gfx/leaders/URC/Portrait_URC_Guo_Jiqiao.dds" 
+				large = "gfx/leaders/XIN/Portrait_XIN_Guo_Jiqiao.dds" 
 			}
 		}
 		corps_commander = {
@@ -119,8 +119,8 @@ characters = {
 		}
         advisor = {
 	        slot = foreign_minister
-	        idea_token = URC_Guo_Jiqiao_for
-	        allowed = { original_tag = URC }
+	        idea_token = XIN_Guo_Jiqiao_for
+	        allowed = { original_tag = XIN }
 	        traits = {
 	        	foreign_minister
                 general_who_believe_peace
@@ -132,17 +132,17 @@ characters = {
         }
     }
 
-    URC_Lin_Jiyong = {
-        name = URC_Lin_Jiyong
+    XIN_Lin_Jiyong = {
+        name = XIN_Lin_Jiyong
         portraits = { 
 			civilian = { 
-                small = "GFX_URC_Lin_Jiyong"
+                small = "GFX_XIN_Lin_Jiyong"
             } 
         }
         advisor = {
 			slot = economy_minister
-			idea_token = URC_Lin_Jiyong_eco
-			allowed = { original_tag = URC }
+			idea_token = XIN_Lin_Jiyong_eco
+			allowed = { original_tag = XIN }
 			traits = {
 				economy_minister
                 father_of_factory_in_Sichuan
@@ -154,14 +154,14 @@ characters = {
 		}
     }
 	
-    URC_Tao_Zhiyue = {
-        name = URC_Tao_Zhiyue
+    XIN_Tao_Zhiyue = {
+        name = XIN_Tao_Zhiyue
         portraits = { 
 			civilian = { 
-                small = "GFX_URC_Tao_Zhiyue"
+                small = "GFX_XIN_Tao_Zhiyue"
             }
 			army = {
-				large = "gfx/leaders/URC/Portrait_URC_Tao_Zhiyue.dds" 
+				large = "gfx/leaders/XIN/Portrait_XIN_Tao_Zhiyue.dds" 
 			}
         }
 		corps_commander = {
@@ -174,8 +174,8 @@ characters = {
 		}
         advisor = {
 			slot = security_minister
-			idea_token = URC_Tao_Zhiyue_sec
-			allowed = { original_tag = URC }
+			idea_token = XIN_Tao_Zhiyue_sec
+			allowed = { original_tag = XIN }
 			traits = {
 				security_minister
 			}

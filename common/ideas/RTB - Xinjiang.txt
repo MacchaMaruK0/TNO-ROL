@@ -1,9 +1,9 @@
 ideas = {
     country = {
-        URC_at_stake = {
+        XIN_at_stake = {
 
 			allowed = {
-				original_tag = URC
+				original_tag = XIN
 			}
 
             allowed_civil_war = {
@@ -11,12 +11,12 @@ ideas = {
 			}
 
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: added idea URC_at_stake"
+				log = "[GetDateText]: [Root.GetName]: added idea XIN_at_stake"
 			}
 
 			removal_cost = -1
 
-			picture = URC_at_stake
+			picture = XIN_at_stake
 
 			modifier = {
 				stability_weekly = -0.003
@@ -26,10 +26,10 @@ ideas = {
 			}
 		}
 
-        URC_protect_oneself = {
+        XIN_protect_oneself = {
 
 			allowed = {
-				original_tag = URC
+				original_tag = XIN
 			}
 
             allowed_civil_war = {
@@ -37,12 +37,12 @@ ideas = {
 			}
 
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: added idea URC_protect_oneself"
+				log = "[GetDateText]: [Root.GetName]: added idea XIN_protect_oneself"
 			}
 
 			removal_cost = -1
 
-			picture = URC_protect_oneself
+			picture = XIN_protect_oneself
 
 			modifier = {
 				stability_factor = 0.10
@@ -52,10 +52,10 @@ ideas = {
 			}
 		}
 
-        URC_hidden_enemy = {
+        XIN_hidden_enemy = {
 
 			allowed = {
-				original_tag = URC
+				original_tag = XIN
 			}
 
             allowed_civil_war = {
@@ -63,12 +63,12 @@ ideas = {
 			}
 
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: added idea URC_hidden_enemy"
+				log = "[GetDateText]: [Root.GetName]: added idea XIN_hidden_enemy"
 			}
 
 			removal_cost = -1
 
-			picture = URC_hidden_enemy
+			picture = XIN_hidden_enemy
 
 			modifier = {
 				conscription_factor = -0.30

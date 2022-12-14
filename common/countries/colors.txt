@@ -1,10 +1,10 @@
 #reload countrycolors
-AAA = {
+SAA = {
 	color = rgb { 60 60 60 }
 	color_ui = rgb { 60 60 60 }
 }
 
-AAB = {
+SAB = {
 	color = rgb { 43 50 43 }
 	color_ui = rgb { 43 50 43 }
 }
@@ -1138,7 +1138,7 @@ THA = {
 	color_ui = rgb { 172 192 161 }
 }
 
-URC = {
+XIN = {
 	color = rgb { 166 155 116 }
 	color_ui = rgb { 166 155 116 }
 }
@@ -1159,8 +1159,8 @@ VEN = {
 }
 
 YUN = {
-	color = rgb { 135 81 103 }
-	color_ui = rgb { 135 81 103 }
+	color = rgb { 5 85 166 }
+	color_ui = rgb { 5 85 166 }
 }
 
 USA = {
@@ -1254,8 +1254,8 @@ BOS = {
 }
 
 GUX = {
-	color = rgb { 137 74 82 }
-	color_ui = rgb { 137 74 82 }
+	color = rgb { 5 85 166 }
+	color_ui = rgb { 5 85 166 }
 }
 
 SHX = {
@@ -1269,8 +1269,8 @@ GUZ = {
 }
 
 QIN = {
-	color = rgb { 86 91 125 }
-	color_ui = rgb { 86 91 125 }
+	color = rgb { 5 85 166 }
+	color_ui = rgb { 5 85 166 }
 }
 
 EGY = {
@@ -1733,8 +1733,8 @@ CME = {
 }
 
 XIK = {
-	color = rgb { 175 153 187 }
-	color_ui = rgb { 175 153 187 }
+	color = rgb { 5 85 166 }
+	color_ui = rgb { 5 85 166 }
 }
 
 MAL = {

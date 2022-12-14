@@ -1897,7 +1897,7 @@ on_actions = {
 				initiate_display_vars = yes
 			}
 
-			URC = {
+			XIN = {
 				set_variable = { GDP = 0.68 } #in billions
 				set_variable = { GDP_growth = 1.8 }
 				set_variable = { income_tax_rate = 0.125 }
