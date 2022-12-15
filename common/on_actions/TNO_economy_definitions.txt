@@ -3428,14 +3428,6 @@ on_actions = {
 				resize_array = { array = TNO_export_size value = 10 size = 9 } 
 				set_variable = { world_cg_ratio = 0 }
 			}
-			every_country = {
-				set_country_flag = starting_tag
-				TNO_startup_nation = yes
-				if = {
-					limit = { is_ai = no }
-					set_variable = { TNO_Opening_Screen = 1 }
-				}
-			}
 		}
 	}
 
