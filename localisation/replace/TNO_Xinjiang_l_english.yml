@@ -3,10 +3,6 @@
  XIN_communist_party_long:0 "中共地下党"
  XIN_authoritarian_democracy_party:"国民党"
  XIN_authoritarian_democracy_party_long:0 "国民党"
- XIN_despotism_party:0 "省政府"
- XIN_despotism_party_long:0 "新疆省政府"
- XIN_despotism:0 "新疆省"
- XIN_despotism_DEF:0 "新疆省"
  XIN_authoritarian_democracy:0 "新疆省"
  XIN_authoritarian_democracy_DEF:0 "中华民国新疆省"
 
@@ -28,7 +24,7 @@
  XIN_Tao_Zhiyue:0 "陶峙岳"
 
  XIN_Zhang_Zhizhong_hog:0 "张治中"
- XIN_Zhang_Zhizhong_hog_desc:0 "§Y新疆省副主席§!\n§g国民党§!"
+ XIN_Zhang_Zhizhong_hog_desc:0 "§Y国民党新疆省党部主任§!\n§g国民党§!"
  XIN_Guo_Jiqiao_for:0 "郭寄峤"
  XIN_Guo_Jiqiao_for_desc:0 "§Y新疆省警备总司令部参谋长§!\n§g国民党§!"
  XIN_Lin_Jiyong_eco:0 "林继庸"

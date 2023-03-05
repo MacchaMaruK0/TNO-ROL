@@ -27,8 +27,9 @@ recruit_character = CHI_tao_xisheng
 recruit_character = CHI_zhang_renli
 recruit_character = CHI_xiao_shuxuan
 recruit_character = CHI_dissidents
-recruit_character = CHI_bao_wenyue
-recruit_character = CHI_ye_peng
+recruit_character = CHI_Bao_Wenyue
+recruit_character = CHI_Ye_Peng
+recruit_character = CHI_Fu_Shuangying
 recruit_character = CHI_peng_mengji
 recruit_character = CHI_chen_daqing
 recruit_character = CHI_sun_dianying
@@ -395,22 +396,22 @@ set_autonomy = {
 	autonomous_state = autonomy_china_warlord_regime
 }
 set_autonomy = {
-	target = GUZ
-	autonomous_state = autonomy_china_warlord_regime
-}
-set_autonomy = {
 	target = SIC
 	autonomous_state = autonomy_china_warlord_regime
 }
 set_autonomy = {
+	target = GUZ
+	autonomous_state = autonomy_china_warlord_regime
+}
+set_autonomy = {
 	target = MEN
-	autonomous_state = autonomy_satellite
+	autonomous_state = autonomy_china_warlord_regime
 }
 
 
 add_ideas = {
 	#Country
-	Sphere_Economic_Dependent
+	Sphere_Core_Member
 	CHI_japans_breadbasket_0
 	CHI_slave_of_the_samurai_0
 	CHI_small_army
@@ -480,8 +481,8 @@ add_ideas = {
 	CHI_Zhang_Renli_eco
 
 	# Officer Corps
-	CHI_bao_wenyue_army_chief
-	CHI_ye_peng_high_command
+	CHI_Bao_Wenyue_army_chief
+	CHI_Ye_Peng_high_command
 	CHI_sun_dianying_high_command
 	CHI_pang_bingxun_high_command
 }

@@ -65,6 +65,18 @@ ideas = {
 			cancel_if_invalid = yes
 			ledger = civilian
 		}
+		RTB_YUN_Sun_Ke_hog = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RTB_YUN_Sun_Ke_hog"}
+			picture = "YUN_minister_Sun_Ke"
+			allowed = {
+				original_tag = YUN
+			}
+			traits = {
+				head_of_government
+			}
+			cancel_if_invalid = yes
+			ledger = civilian
+		}
 	}
 	foreign_minister = {
 		SIC_Wang_Shijie_for = {
@@ -116,6 +128,16 @@ ideas = {
 			picture = "TAW_Ihara_Mitsugu"
 			allowed = {
 				original_tag = TAW
+			}
+			traits = {
+				foreign_minister
+			}
+		}
+		RTB_YUN_Long_Zehui_for = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RTB_YUN_Long_Zehui_for"}
+			picture = "YUN_minister_Long_Zehui"
+			allowed = {
+				original_tag = YUN
 			}
 			traits = {
 				foreign_minister
@@ -177,6 +199,16 @@ ideas = {
 				economy_minister
 			}
 		}
+		RTB_YUN_Miu_Yuntai_eco = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RTB_YUN_Miu_Yuntai_eco"}
+			picture = "YUN_minister_Miu_Yuntai"
+			allowed = {
+				original_tag = YUN
+			}
+			traits = {
+				economy_minister
+			}
+		}
 	}
 	security_minister = {
 		SIC_Chen_Cheng_sec = {
@@ -228,6 +260,16 @@ ideas = {
 			picture = "TAW_Sugie_Ichizou"
 			allowed = {
 				original_tag = TAW
+			}
+			traits = {
+				security_minister
+			}
+		}
+		RTB_YUN_Du_Yumin_sec = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RTB_YUN_Du_Yumin_sec"}
+			picture = "YUN_minister_Du_Yumin"
+			allowed = {
+				original_tag = YUN
 			}
 			traits = {
 				security_minister

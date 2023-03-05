@@ -1,7 +1,7 @@
 spriteTypes = {	
 	spriteType = {
-		name = "GFX_TNO_OpeningScreen_Poster_Sichuan"
-		texturefile = "gfx\interface\opening_screen\TNO_OpeningScreen_Poster_Sichuan.dds"
+		name = "GFX_RTB_SIC_Countryinfo_1_1"
+		texturefile = "gfx/interface/TER_Countryinfo_pics/RTB_SIC_Countryinfo_1_1.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {

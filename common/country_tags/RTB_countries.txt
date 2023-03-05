@@ -1,5 +1,0 @@
-XRB = "countries/Xinjiang red army brigade.txt"
-CCP = "countries/Communist Party of China in Xinjiang.txt"
-TAW = "countries/Taiwan Governor General Office.txt"
-XIK = "countries/Xikang.txt"
-XIK = "countries/Qinghai.txt"

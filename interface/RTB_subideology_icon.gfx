@@ -7,4 +7,16 @@ spriteTypes = {
 		name = "GFX_ideology_communist_RTB_mao_zedong_thought_subtype"
 		textureFile = "gfx/interface/ideologies/communist_RTB_mao_zedong_thought_subtype.dds"
 	}
+	spriteType = {
+		name = "GFX_ideology_paternalism_RTB_xunzheng_subtype"
+		textureFile = "gfx/interface/ideologies/paternalism_RTB_xunzheng_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservatism_RTB_Xianzheng_subtype"
+		textureFile = "gfx/interface/ideologies/conservatism_RTB_Xianzheng_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_communist_RTB_United_front_subtype"
+		textureFile = "gfx/interface/ideologies/communist_RTB_United_front_subtype.dds"
+	}
 }

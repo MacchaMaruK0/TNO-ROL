@@ -1,0 +1,59 @@
+ideas = {
+    country = {
+        YUN_political_chaos = {
+			allowed = {
+				original_tag = YUN
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: added idea YUN_political_chaos"
+			}
+
+			removal_cost = -1
+
+			picture = YUN_political_chaos
+
+			modifier = {
+                political_power_factor = -0.25
+				stability_factor = -0.30
+				war_support_factor = -0.20
+                admin_efficiency_monthly_rate = -1
+                communist_drift = 0.02
+                progressivism_drift = 0.01
+                liberalism_drift = 0.01
+                conservatism_drift = 0.01
+                paternalism_drift = 0.02
+                despotism_drift = 0.01
+			}
+		}
+		YUN_division_of_the_territory = {
+			allowed = {
+				original_tag = YUN
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: added idea YUN_division_of_the_territory"
+			}
+
+			removal_cost = -1
+
+			picture = YUN_division_of_the_territory
+
+			modifier = {
+                stability_weekly = -0.001
+				war_support_weekly = -0.001
+				conscription_factor = -0.2
+			}
+		}
+    }
+}

@@ -42,4 +42,12 @@ spriteTypes = {
 		name = "GFX_idea_hoc_3"
 		texturefile = "gfx/interface/ideas/national_spirits/SIC/hoc_3.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_YUN_political_chaos"
+		texturefile = "gfx/interface/ideas/national_spirits/YUN/YUN_political_chaos.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YUN_division_of_the_territory"
+		texturefile = "gfx/interface/ideas/national_spirits/YUN/YUN_division_of_the_territory.dds"
+	}
 }

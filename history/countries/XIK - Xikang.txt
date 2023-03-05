@@ -9,7 +9,7 @@ add_manpower = 250000
 
 oob = "XIK_1962"
 
-recruit_character = XIK_Liu_Wenhui
+recruit_character = XIK_RTB_Liu_Wenhui
 
 set_technology = {
 	basic_train = 1
@@ -114,7 +114,7 @@ set_technology = {
 }
 
 set_politics = {	
-	ruling_party = despotism
+	ruling_party = paternalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -127,8 +127,8 @@ set_popularities = {
     liberalism = 0
     liberal_conservatism = 8
     conservatism = 12
-    paternalism = 16
-    despotism = 64
+    paternalism = 46
+    despotism = 34
     ultranationalism = 0
     fascism = 0
     national_socialism = 0

@@ -10,7 +10,7 @@ bookmarks = {
 		desc = "THENEWORDER_DESC"
 		date = 1962.1.1.1
 		picture = "GFX_select_date_1939"
-		default_country = "GER"
+		default_country = "GNG"
 		default = yes
 
 		effect = {
@@ -19,6 +19,7 @@ bookmarks = {
 		}
 
 		#### MAJORS ####
+		# ROW 1 MAJOR #
 		"USA" = {
 			history = "USA_THENEWORDER_DESC"
 			ideology = conservatism
@@ -45,7 +46,7 @@ bookmarks = {
 			focuses = {
 				BOR_der_wilde_ritt
 				SGR_doppeldenken
-				GER_GOR_the_great_purge
+				HGR_victory_tree
 			}
 		}
 
@@ -75,7 +76,7 @@ bookmarks = {
 			focuses = {
 				BOR_der_wilde_ritt
 				SGR_doppeldenken
-				GER_GOR_the_great_purge
+				HGR_victory_tree
 			}
 		}
 
@@ -108,6 +109,102 @@ bookmarks = {
 				ita_road_to_order
 			}
 		}
+		# ROW 1 MAJOR #
+
+		# ROW 2 MAJOR #
+		"CAN" = {
+			history = ""
+			ideology = liberalism
+			ideas = {}
+			focuses = {}
+		}
+		
+		"ENG" = {
+			history = "ENG_THENEWORDER_DESC"
+			ideology = paternalism
+			ideas = {
+				ENG_HMMLR
+				ENG_Own_Peoples_Hate
+				ENG_Across_The_Channel
+			}
+			focuses = {
+				ENG_keeping_ahead
+				ENG_the_kings_speech
+				ENG_writing_on_the_walls
+			}
+		}
+
+		"ZZZ" = { history = "" }
+		"ZZZ" = { history = "" }
+
+		"CHI" = {
+			history = "CHI_THENEWORDER_DESC"
+			ideology = fascism
+			ideas = {
+				CHI_japans_breadbasket_0
+				CHI_small_army
+				CHI_slave_of_the_samurai_0
+			}
+			focuses = {
+				CHI_Education
+				CHI_Technology
+				CHI_Industrialization
+			}
+		}
+
+		"TUR" = {
+			history = ""
+			ideology = paternalism
+		}
+		# ROW 2 MAJOR #
+		
+		# ROW 3 MAJOR #
+		"BRA" = {
+			history = "BRA_THENEWORDER_DESC"
+			ideology = liberalism
+			ideas = {
+				BRA_idea_rampant_corruption
+				BRA_idea_industrialisation_crisis_campaign
+				BRA_idea_overbearing_military
+			}
+			focuses = {
+				BRA_operation_lobster
+				BRA_Fireworks_in_Rio
+				BRA_Coffee_With_Neves
+			}
+		}
+
+		"FRS" = {
+			history = ""
+			ideology = fascism
+		}
+
+		"ZZZ" = { history = "" }
+		"ZZZ" = { history = "" }
+
+		"MAN" = {
+			history = ""
+			ideology = fascism
+			ideas = {}
+			focuses = {}
+		}
+
+		"IBR" = {
+			history = "IBR_THENEWORDER_DESC"
+			ideology = despotism
+			ideas = {
+				Betray_Old_Guard
+				Iberian_Economic_Nightmare
+				Crippled_Sovereignty
+			}
+			focuses = {
+				IBR_asessing_the_economy
+				IBR_antisep_mobilize_AAS
+				IBR_Post_Bombing_Council
+			}
+		}
+		# ROW 3 MAJOR #
+
 		#### MAJORS ####
 
 		#### MINORS ####
@@ -132,20 +229,12 @@ bookmarks = {
 			}
 		}
 
-		"BRA" = {
+		"MEX" = {
 			minor = yes
-			history = "BRA_THENEWORDER_DESC"
-			ideology = liberalism
-			ideas = {
-				BRA_idea_rampant_corruption
-				BRA_idea_industrialisation_crisis_campaign
-				BRA_idea_overbearing_military
-			}
-			focuses = {
-				BRA_operation_lobster
-				BRA_Fireworks_in_Rio
-				BRA_Coffee_With_Neves
-			}
+			history = ""
+			ideology = paternalism
+			ideas = {}
+			focuses = {}
 		}
 
 		"SAF" = {
@@ -168,22 +257,6 @@ bookmarks = {
 
 		## PAKT ##
 
-		"ENG" = {
-			minor = yes
-			history = "ENG_THENEWORDER_DESC"
-			ideology = paternalism
-			ideas = {
-				ENG_HMMLR
-				ENG_Own_Peoples_Hate
-				ENG_Across_The_Channel
-			}
-			focuses = {
-				ENG_keeping_ahead
-				ENG_the_kings_speech
-				ENG_writing_on_the_walls
-			}
-		}
-
 		"IRE" = {
 			minor = yes
 			history = "IRE_THENEWORDER_DESC"
@@ -198,6 +271,14 @@ bookmarks = {
 				IRE_erin_go_bragh
 				IRE_on_the_peoples_side
 			}
+		}
+
+		"MCW" = {
+			minor = yes
+			history = ""
+			ideology = national_socialism
+			ideas = {}
+			focuses = {}
 		}
 
 		"BRG" = {
@@ -316,47 +397,48 @@ bookmarks = {
 		## RUSSIA ##
 
 		## CPS ##
-		"ZZZ" = { minor = yes history = "" }
-
-		"CHI" = {
+		"GNG" = {
 			minor = yes
-			history = "CHI_THENEWORDER_DESC"
+			history = "GNG_THENEWORDER_DESC"
 			ideology = fascism
 			ideas = {
-				CHI_japans_breadbasket_0
-				CHI_small_army
-				CHI_slave_of_the_samurai_0
+				GNG_kenpeitai_pervasive_kenpeitai_networks_dummy
+				GNG_between_two_worlds_dummy
+				GNG_fiscal_sound_dummy
 			}
 			focuses = {
-				CHI_Education
-				CHI_Technology
-				CHI_Industrialization
+				GNG_chief_executive_morita
+				GNG_chief_executive_matsushita
+				GNG_chief_executive_ibuka
 			}
 		}
 
 		"ZZZ" = { minor = yes history = "" }
+
+		"YUN" = {
+			minor = yes
+			history = "YUN_THENEWORDER_DESC"
+			ideology = despotism
+			ideas = {
+				#YUN_bandit_holdouts
+				YUN_hidden_potential_0
+				YUN_army_of_the_southwest
+			}
+			focuses = {
+				YUN_evict_he_yingqin
+				YUN_xinan_insurgency
+				YUN_we_are_not_enemies
+			}
+		}
 		## CPS ##
 
 		## TRIUM ##
 		"ZZZ" = { minor = yes history = "" }
 
-		"IBR" = {
-			minor = yes
-			history = "IBR_THENEWORDER_DESC"
-			ideology = despotism
-			ideas = {
-				Betray_Old_Guard
-				Iberian_Economic_Nightmare
-				Crippled_Sovereignty
-			}
-			focuses = {
-				IBR_asessing_the_economy
-				IBR_antisep_mobilize_AAS
-				IBR_Post_Bombing_Council
-			}
-		}
+		"GRE" = { minor = yes history = "" }
 
 		"ZZZ" = { minor = yes history = "" }
+
 		## TRIUM ##
 
 		# Buffer
@@ -368,74 +450,43 @@ bookmarks = {
 		"ZZZ" = { minor = yes history = "" }
 
 		## OFN ##
-		"ZZZ" = {
+		"ZZZ" = { minor = yes history = "" }
+
+		"CHL" = {
 			minor = yes
 			history = ""
+			ideology = liberal_conservatism
+			ideas = {}
+			focuses = {}
 		}
 
-		"ZZZ" = {
-			minor = yes
-			history = ""
-		}
-
-		"ZZZ" = {
-			minor = yes
-			history = ""
-		}
+		"ZZZ" = { minor = yes history = "" }
 		## OFN ##
 
 		## PAKT ##
-		"ANG" = {
+		"GGN" = {
 			minor = yes
-			history = "ANG_THENEWORDER_DESC"
+			history = ""
 			ideology = national_socialism
-
-			ideas={
-				ANG_Afrikaner_Airstrip
-				ANG_Away_In_The_Clouds
-				ANG_Incoherent_Bookkeeping
-			}
-			focuses = {
-				ANG_the_air_empire
-				ANG_keepingourheadsdown
-				ANG_pushforabettertomorrow
-			}
+			ideas = {}
+			focuses = {}
 		}
 
-		"COG" = {
+		"UKR" = {
 			minor = yes
-			history = "COG_THENEWORDER_DESC"
+			history = ""
 			ideology = national_socialism
-
-			ideas={
-				COG_Heart_Of_Afrika_7
-				COG_Hands_Off_Administration
-				COG_Soldiers_Of_Fortune
-			}
-			focuses = {
-				COG_the_pride_of_afrika
-				COG_a_corporate_empire
-				COG_the_safari_beckons
-			}
+			ideas = {}
+			focuses = {}
 		}
 
-		"GRO" = {
+		"OST" = {
 			minor = yes
-			history = "GRO_THENEWORDER_DESC"
+			history = ""
 			ideology = national_socialism
-
-			ideas={
-				GRO_Just_Another_Camp
-				GRO_Aryan_Only_SS
-				GRO_The_Unending_War
-			}
-			focuses = {
-				GRO_the_guardians_of_afrika
-				GRO_prepare_the_werewolves
-				GRO_be_happy_or_else
-			}
+			ideas = {}
+			focuses = {}
 		}
-
 		## PAKT ##
 
 		## RUSSIA ##
@@ -540,17 +591,7 @@ bookmarks = {
 		## CPS ##
 		"ZZZ" = { minor = yes history = "" }
 
-		"SIC" = {
-			minor = yes
-			history = "SIC_THENEWORDER_DESC"
-			ideology = despotism
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
+		"ZZZ" = { minor = yes history = "" }
 
 		"ZZZ" = { minor = yes history = "" }
 		## CPS ##
@@ -558,7 +599,7 @@ bookmarks = {
 		## TRIUM ##
 		"ZZZ" = { minor = yes history = "" }
 
-		"ZZZ" = { minor = yes history = "" }
+		"ARG" = { minor = yes history = "" }
 
 		"ZZZ" = { minor = yes history = "" }
 		## TRIUM ##
@@ -571,21 +612,65 @@ bookmarks = {
 		# Buffer
 		"ZZZ" = { minor = yes history = "" }
 
-		## TRIUM ##
+		## OFN ##
 		"ZZZ" = { minor = yes history = "" }
 
 		"ZZZ" = { minor = yes history = "" }
 
 		"ZZZ" = { minor = yes history = "" }
-		## TRIUM ##
+		## OFN ##
 
 		## PAKT ##
+		"ANG" = {
+			minor = yes
+			history = "ANG_THENEWORDER_DESC"
+			ideology = national_socialism
 
-		"ZZZ" = { minor = yes history = "" }
+			ideas={
+				ANG_Afrikaner_Airstrip
+				ANG_Away_In_The_Clouds
+				ANG_Incoherent_Bookkeeping
+			}
+			focuses = {
+				ANG_the_air_empire
+				ANG_keepingourheadsdown
+				ANG_pushforabettertomorrow
+			}
+		}
 
-		"ZZZ" = { minor = yes history = "" }
+		"COG" = {
+			minor = yes
+			history = "COG_THENEWORDER_DESC"
+			ideology = national_socialism
 
-		"ZZZ" = { minor = yes history = "" }
+			ideas={
+				COG_Heart_Of_Afrika_7
+				COG_Hands_Off_Administration
+				COG_Soldiers_Of_Fortune
+			}
+			focuses = {
+				COG_the_pride_of_afrika
+				COG_a_corporate_empire
+				COG_the_safari_beckons
+			}
+		}
+
+		"GRO" = {
+			minor = yes
+			history = "GRO_THENEWORDER_DESC"
+			ideology = national_socialism
+
+			ideas={
+				GRO_Just_Another_Camp
+				GRO_Aryan_Only_SS
+				GRO_The_Unending_War
+			}
+			focuses = {
+				GRO_the_guardians_of_afrika
+				GRO_prepare_the_werewolves
+				GRO_be_happy_or_else
+			}
+		}
 		## PAKT ##
 
 		## RUSSIA ##
@@ -675,9 +760,9 @@ bookmarks = {
 
 		## CPS ##
 
-		## OFN ##
+		## TRIUM ##
 
-		## OFN ##
+		## TRIUM ##
 
 		# Buffer
 

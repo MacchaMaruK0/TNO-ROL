@@ -1,15 +1,11 @@
-﻿capital = 605
+capital = 605
 
 # Vacant
-recruit_character = SIC_Sun_Ke
-recruit_character = SIC_Jiang_Jingguo
-recruit_character = SIC_Wang_Shijie
-recruit_character = SIC_Liu_Hangchen
-recruit_character = SIC_Chen_Cheng
 recruit_character = SIC_Zhang_Qun
-oob = "SIC_1962"
 
-load_focus_tree = SIC_1962
+set_variable = { chi_influence = 0 }
+
+oob = "SIC_1962"
 
 set_technology = {
 	basic_train = 1
@@ -111,31 +107,28 @@ set_technology = {
 }
 
 set_politics = {
-    ruling_party = despotism
-    last_election = "1960.11.11"
-    election_frequency = 36
-    elections_allowed = no
+	ruling_party = despotism
+	last_election = "1960.11.11"
+	election_frequency = 36
+	elections_allowed = no
 }
 
 set_popularities = {
-    communist = 0
-    socialist = 0
-    progressivism = 0
-    liberalism = 0
-    liberal_conservatism = 0
-    conservatism = 0
-    paternalism = 25
-    despotism = 60
-    ultranationalism = 0
-    fascism = 15
-    national_socialism = 0
-    esoteric_nazism = 0
+	communist = 0
+	ultranationalism = 0
+	socialist = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 10
+	paternalism = 15
+	despotism = 65
+	fascism = 10
+	national_socialism = 0
+	
 }
 
-country_event = { id = rtb.sichuan.2 days = 3 }
-
 add_ideas = {
-    
+	Sphere_Imp_Protectorate
 	#Political
 	tno_political_parties_one_party_state
 	tno_religious_rights_secularism
@@ -188,23 +181,11 @@ add_ideas = {
 	tno_academic_base_mass_illiteracy
 	tno_admin_efficiency_deficient_administrative_systems
 
-    # MINISTERS
-    SIC_Jiang_Jingguo_hog
-    SIC_Wang_Shijie_for
-    SIC_Liu_Hangchen_eco
-    SIC_Chen_Cheng_sec
-
-    #Sphere Status
-    Sphere_Economic_Dependent
-    
-    SIC_legacy_of_Chiang
-    SIC_continuation_of_struggle
-    SIC_treaty_signed_under_coercion
+	#Sphere Status
+	Sphere_Economic_Dependent
 }
 
 set_country_flag = tno_defined_startup_effectiveness
-
-set_variable = { tno_health_care_effectiveness = 0 }
 
 # ECONOMIC LAWS
 set_variable = { tno_trade_laws_effectiveness = 50 }
@@ -238,12 +219,4 @@ set_variable = { tno_military_supervision_effectiveness = 50 }
 set_variable = { tno_training_effectiveness = 50 }
 set_variable = { tno_draft_exemptions_effectiveness = 50 }
 
-set_country_flag = sun_ke_alive
-
-#蒋经国的权谋暂时放在这里
-set_variable = {
-    jiang_conspiracy_adv_plu = 0
-    jiang_conspiracy_balance = 0
-}
-
-TNO_startup_nation = yes 
+TNO_startup_nation = yes

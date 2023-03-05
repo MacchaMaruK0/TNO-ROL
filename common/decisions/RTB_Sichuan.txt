@@ -500,6 +500,3 @@ House_of_cards = {
 		}
 	}
 }
-sun_ke_road_selection = {
-	
-}

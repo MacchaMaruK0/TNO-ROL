@@ -90,4 +90,22 @@ spriteTypes = {
 		name = "GFX_TAW_Sugie_Ichizou"
 		texturefile = "gfx/interface/ideas/ministers/TAW/TAW_Sugie_Ichizou.dds"
 	}
+
+	#YUN
+	spriteType = {
+		name = "GFX_idea_YUN_minister_Sun_Ke"
+		texturefile = "gfx/interface/ideas/ministers/YUN/YUN_minister_Sun_Ke.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YUN_minister_Long_Zehui"
+		texturefile = "gfx/interface/ideas/ministers/YUN/YUN_minister_Long_Zehui.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YUN_minister_Miu_Yuntai"
+		texturefile = "gfx/interface/ideas/ministers/YUN/YUN_minister_Miu_Yuntai.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YUN_minister_Du_Yumin"
+		texturefile = "gfx/interface/ideas/ministers/YUN/YUN_minister_Du_Yumin.dds"
+	}
 }

@@ -279,9 +279,5 @@ guiTypes = {
 			font = "aldrich_24_outline"
 		}
 	}
-	containerWindowType = {
-		name = "RTB_SIC_sun_ke_road_selection"
-		size = { width = 460 height = 505 }
-	}
 }
 

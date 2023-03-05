@@ -1,13 +1,13 @@
 characters = {
-    XIK_Liu_Wenhui = {
-		name = XIK_liu_wenhui
+    XIK_RTB_Liu_Wenhui = {
+		name = XIK_liu_Wenhui
 		portraits = {
 			civilian = { large = "gfx/leaders/XIK/Portrait_XIK_Liu_Wenhui.dds" }
 			army = { large = "gfx/leaders/XIK/Portrait_XIK_Liu_Wenhui.dds" }
 		}
 		country_leader = {
 			desc = "POLITICS_LIU_WENHUI_DESC"
-			ideology = despotism_warlordism_subtype
+			ideology = paternalism_RTB_xunzheng_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1

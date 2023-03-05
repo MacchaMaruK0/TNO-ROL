@@ -1,0 +1,15 @@
+characters = {
+    SIC_Zhang_Qun = {
+		name="SIC_Zhang_Qun"
+		portraits={
+			civilian = { large="gfx/leaders/SIC/Portrait_SIC_Zhang_Qun.dds" }
+		}
+		country_leader = {
+			#desc = ""
+			ideology = despotism_civilian_dictatorship_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+}

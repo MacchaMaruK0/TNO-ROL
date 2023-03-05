@@ -40,24 +40,3 @@ House_of_cards = {
 	}
 	scripted_gui = RTB_SIC_house_of_cards
 }
-sun_ke_road_selection = {
-	allowed = {
-		tag = SIC
-	}
-	available = {
-		hidden_trigger = {
-			has_country_flag = sun_ke_alive
-		}
-	}
-	visible_when_empty = yes
-	visible = {
-		is_ai = no
-		hidden_trigger = {
-			has_country_flag = sun_ke_alive
-		}
-	}
-	priority = {
-		base = 160
-	}
-	scripted_gui = RTB_SIC_sun_ke_road_selection
-}

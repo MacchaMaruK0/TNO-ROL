@@ -1,0 +1,206 @@
+characters = {
+    RTB_YUN_Li_Zongren = {
+		name = RTB_YUN_Li_Zongren
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUN/YUN_Li_Zongren.dds" 
+			}
+		}
+		country_leader = {
+			desc = ""
+			expire = "2000.1.1"
+			ideology = paternalism_RTB_xunzheng_subtype
+			id = -1
+		}
+	}
+    RTB_YUN_Chen_Lifu = {
+		name = RTB_YUN_Chen_Lifu
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUN/YUN_Chen_Lifu.dds" 
+			}
+		}
+		country_leader = {
+			desc = ""
+			expire = "2000.1.1"
+			ideology = despotism_subtype
+			id = -1
+		}
+	}
+    RTB_YUN_Sun_Ke = {
+		name = RTB_YUN_Sun_Ke
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUN/YUN_Sun_Ke.dds"
+				small = "GFX_idea_YUN_minister_Sun_Ke"
+			}
+		}
+		country_leader = {
+			desc = ""
+			expire = "2000.1.1"
+			ideology = conservatism_RTB_Xianzheng_subtype
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = RTB_YUN_Sun_Ke_hog
+			allowed = { original_tag = YUN }
+			traits = {
+				head_of_government
+			}
+			ledger = civilian
+			cost = -1
+		}
+	}
+    RTB_YUN_Li_Gongpu = {
+		name = RTB_YUN_Li_Gongpu
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUN/YUN_Li_Gongpu.dds" 
+			}
+		}
+		country_leader = {
+			desc = ""
+			expire = "2000.1.1"
+			ideology = liberalism_subtype
+			id = -1
+		}
+	}
+    RTB_YUN_Zhang_Bojun = {
+		name = RTB_YUN_Zhang_Bojun
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUN/YUN_Zhang_Bojun.dds" 
+			}
+		}
+		country_leader = {
+			desc = ""
+			expire = "2000.1.1"
+			ideology = progressivism_subtype
+			id = -1
+		}
+	}
+    RTB_YUN_Zhou_Enlai = {
+		name = RTB_YUN_Zhou_Enlai
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YUN/YUN_Zhou_Enlai.dds" 
+			}
+		}
+		country_leader = {
+			desc = ""
+			expire = "2000.1.1"
+			ideology = communist_RTB_United_front_subtype
+			id = -1
+		}
+	}
+
+	###MINISTERS
+	RTB_YUN_Long_Shengwu = {
+		name = RTB_YUN_Long_Shengwu
+		portraits = {
+			civilian = { small = "GFX_idea_YUN_minister_Long_Shengwu" }
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = RTB_YUN_Long_Shengwu_hog
+			allowed = { original_tag = YUN }
+			traits = {
+				head_of_government
+			}
+			ledger = civilian
+			cost = -1
+		}
+	}
+	RTB_YUN_Long_Zehui = {
+		name = RTB_YUN_Long_Zehui
+		portraits = {
+			civilian = { small = "GFX_idea_YUN_minister_Long_Zehui" }
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = RTB_YUN_Long_Zehui_for
+			allowed = {
+				original_tag = YUN
+			}
+			traits = {
+				foreign_minister
+			}
+			ledger = civilian
+			cost = -1
+		}
+	}
+	RTB_YUN_Miu_Yuntai = {
+        name = RTB_YUN_Miu_Yuntai
+        portraits = { 
+			civilian = { 
+                small = "GFX_idea_YUN_minister_Miu_Yuntai"
+            } 
+        }
+        advisor = {
+			slot = economy_minister
+			idea_token = RTB_YUN_Miu_Yuntai_eco
+			allowed = { original_tag = YUN }
+			traits = {
+				economy_minister
+                
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+    }
+	RTB_YUN_Du_Yumin = {
+        name = RTB_YUN_Du_Yumin
+        portraits = { 
+			civilian = { 
+                small = "GFX_idea_YUN_minister_Du_Yumin"
+            }
+			army = {
+				large = "gfx/leaders/YUN/YUN_Du_Yumin.dds" 
+			}
+        }
+		corps_commander = {
+			traits = { infantry_leader war_hero panzer_leader skilled_staffer }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+        advisor = {
+			slot = security_minister
+			idea_token = RTB_YUN_Du_Yumin_sec
+			allowed = { original_tag = YUN }
+			traits = {
+				security_minister
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+    }
+
+	###GENERALS
+	RTB_YUN_Zeng_Zesheng = {
+        name = RTB_YUN_Zeng_Zesheng
+        portraits = { 
+			civilian = { 
+                small = "GFX_idea_YUN_minister_Zeng_Zesheng"
+            }
+			army = {
+				large = "gfx/leaders/YUN/YUN_Zeng_Zesheng.dds" 
+			}
+        }
+		corps_commander = {
+			traits = { infantry_leader defensive_doctrine hill_fighter }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
+    }
+}

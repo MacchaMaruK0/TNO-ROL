@@ -1,8 +1,7 @@
 add_namespace = sic
 
 country_event = {
-	#劳拉西泮
-	id = sic.1 
+	id = sic.1
 	title = sic.1.t
 	desc = sic.1.desc
 
@@ -21,7 +20,6 @@ country_event = {
 }
 
 country_event = {
-	#故居
 	id = sic.2
 	title = sic.2.t
 	desc = sic.2.desc
@@ -41,7 +39,6 @@ country_event = {
 }
 
 country_event = {
-	#浪淘沙
 	id = sic.3
 	title = sic.3.t
 	desc = sic.3.desc
@@ -61,7 +58,6 @@ country_event = {
 }
 
 country_event = {
-	#官运亨通
 	id = sic.4
 	title = sic.4.t
 	desc = sic.4.desc
@@ -77,125 +73,5 @@ country_event = {
 
 	option = {
 		name = sic.4.a
-	}
-}
-
-country_event = {
-	#如梦令
-	id = sic.5
-	title = sic.5.t
-	desc = sic.5.desc
-
-	picture = /
-
-	immediate = {
-		log = "[GetDateText]: [Root.GetName]: event sic.5"
-	}
-
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	option = {
-		name = sic.5.a
-	}
-}
-
-country_event = {
-	#相见欢
-	id = sic.6
-	title = sic.6.t
-	desc = sic.6.desc
-
-	picture = /
-
-	immediate = {
-		log = "[GetDateText]: [Root.GetName]: event sic.6"
-	}
-
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	option = {
-		name = sic.6.a
-	}
-}
-
-country_event = {
-	#青玉案
-	id = sic.7
-	title = sic.7.t
-	desc = sic.7.desc
-
-	picture = /
-
-	immediate = {
-		log = "[GetDateText]: [Root.GetName]: event sic.7"
-	}
-
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	option = {
-		name = sic.7.a
-	}
-}
-
-country_event = {
-	#江城子
-	id = sic.8
-	title = sic.8.t
-	desc = sic.8.desc
-
-	picture = /
-
-	immediate = {
-		log = "[GetDateText]: [Root.GetName]: event sic.8"
-	}
-
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	option = {
-		name = sic.8.a
-	}
-}
-
-country_event = {
-	#丧钟为谁而鸣？
-	id = sic.9
-	title = sic.9.t
-	desc = sic.9.desc
-
-	picture = /
-
-	immediate = {
-		log = "[GetDateText]: [Root.GetName]: event sic.9"
-	}
-
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	option = {
-		name = sic.9.a
-	}
-}
-
-country_event = {
-	#最后一瞥
-	id = sic.10
-	title = sic.10.t
-	desc = sic.10.desc
-
-	picture = /
-
-	immediate = {
-		log = "[GetDateText]: [Root.GetName]: event sic.10"
-	}
-
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	option = {
-		name = sic.10.a
 	}
 }

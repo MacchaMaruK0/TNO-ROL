@@ -42,6 +42,7 @@ ideologies = {
 		types = {
 			national_socialism_subtype = {}
 
+			national_socialism_ariocriollismo_subtype = { can_be_randomly_selected = no }
 			national_socialism_idiosyncratic_nazism_subtype = { can_be_randomly_selected = no }
 			national_socialism_clerical_fascism_subtype = { can_be_randomly_selected = no }
 			national_socialism_stratocratic_nazism_subtype = { can_be_randomly_selected = no }
@@ -166,7 +167,6 @@ ideologies = {
 			despotism_partisan_movement_subtype = { can_be_randomly_selected = no }
 			despotism_national_catholicism_subtype = { can_be_randomly_selected = no }
 			despotism_managerial_state_subtype = { can_be_randomly_selected = no }
-			despotism_party_caucus_three_principles_of_the_people_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 75 75 75 }
@@ -211,12 +211,14 @@ ideologies = {
 			paternalism_provisional_government_subtype = { can_be_randomly_selected = no }
 			paternalism_right_wing_populism_subtype = { can_be_randomly_selected = no }
 			paternalism_xunzheng_subtype = { can_be_randomly_selected = no }
+			paternalism_RTB_xunzheng_subtype = { can_be_randomly_selected = no }
 			paternalism_anocracy_subtype = { can_be_randomly_selected = no }
 			paternalism_left_wing_corporatism_subtype = { can_be_randomly_selected = no }
 			paternalism_technocratic_corporatism_subtype = { can_be_randomly_selected = no }
 			paternalism_transitioning_democracy_subtype = { can_be_randomly_selected = no }
 			paternalism_paleoconservatism_subtype = { can_be_randomly_selected = no }
 			paternalism_poujadism_subtype = { can_be_randomly_selected = no }
+			paternalism_authoritarian_developmentalism_subtype = { can_be_randomly_selected = no }
 
 		}
 		dynamic_faction_names = {}
@@ -255,6 +257,9 @@ ideologies = {
 			conservatism_silent_conservatism_subtype = { can_be_randomly_selected = no }
 			conservatism_natural_conservatism_subtype = { can_be_randomly_selected = no }
 			conservatism_urban_populism_subtype = { can_be_randomly_selected = no }
+			conservatism_prairie_populism_subtype = { can_be_randomly_selected = no }
+			conservatism_goken_conservatism_subtype = { can_be_randomly_selected = no }
+			conservatism_RTB_Xianzheng_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 0 0 135 }
@@ -405,6 +410,7 @@ ideologies = {
 			socialist_african_socialism_subtype = { can_be_randomly_selected = no }
 			socialist_islamic_socialism_subtype = { can_be_randomly_selected = no }
 			socialist_reformist_socialism_subtype = { can_be_randomly_selected = no }
+			socialist_buddhist_socialism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 155 0 0 }
@@ -439,6 +445,7 @@ ideologies = {
 			communist_stratocratic_communism_subtype = { can_be_randomly_selected = no }
 			communist_maoism_subtype = { can_be_randomly_selected = no }
 			communist_mao_zedong_thought_subtype = { can_be_randomly_selected = no }
+			communist_RTB_mao_zedong_thought_subtype = { can_be_randomly_selected = no }
 			communist_islamic_marxism_subtype = { can_be_randomly_selected = no }
 			communist_amazonism_subtype = { can_be_randomly_selected = no }
 			communist_arab_communism_subtype = { can_be_randomly_selected = no }
@@ -447,7 +454,7 @@ ideologies = {
 			communist_harmonism_subtype = { can_be_randomly_selected = no }
 			communist_revolutionary_baathism_subtype = { can_be_randomly_selected = no }
 			communist_autarkic_marxism_subtype = { can_be_randomly_selected = no }
-			communist_RTB_mao_zedong_thought_subtype = { can_be_randomly_selected = no }
+			communist_RTB_United_front_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 110 0 0 }

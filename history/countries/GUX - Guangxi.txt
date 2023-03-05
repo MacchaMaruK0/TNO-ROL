@@ -1,7 +1,6 @@
-﻿capital = 599
+capital = 594
 
 # Vacant
-recruit_character = GUX_Generic_Vacant
 
 set_war_support = 0.80
 set_stability = 1.00
@@ -9,11 +8,12 @@ add_manpower = 300000
 
 oob = "GUX_1962"
 
-recruit_character = GUX_Li_Zongren
-recruit_character = GUX_Bai_Chongxi
-recruit_character = GUX_Li_Pinxian
-recruit_character = GUX_Huang_Shaohong
-recruit_character = GUX_Xia_Wei_sec
+recruit_character = GUX_Huang_Xvchu
+recruit_character = GUX_takeda_goro
+recruit_character = GUX_watanabe_keitaro
+recruit_character = GUX_takashima_masuo
+recruit_character = GUX_murai_sumio
+recruit_character = GUX_miyazaki_kiyotaka
 
 set_variable = { chi_influence = 0 }
 
@@ -131,7 +131,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = paternalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -146,8 +146,8 @@ set_popularities = {
 	progressivism = 0
 	liberalism = 0
 	conservatism = 12
-	paternalism = 12
-	despotism = 76
+	paternalism = 46
+	despotism = 42
 	fascism = 0
 	
 }
@@ -205,7 +205,6 @@ add_ideas = {
 	tno_academic_base_mass_illiteracy
 	tno_admin_efficiency_deficient_administrative_systems
 
-	#Sphere Status
 }
 
 set_country_flag = tno_defined_startup_effectiveness
