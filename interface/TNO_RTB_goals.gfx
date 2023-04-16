@@ -67,4 +67,90 @@ spriteTypes = {
 		name = "SIC_The_final_work"
 		texturefile = "gfx/interface/goals/SIC/SIC_The_final_work.dds"
 	}
+
+	###YUN
+	SpriteType = {
+		name = "YUN_ring_the_alarm"
+		texturefile = "gfx/interface/goals/YUN/YUN_ring_the_alarm.dds"
+	}
+
+	SpriteType = {
+		name = "YUN_inform_Xikang"
+		texturefile = "gfx/interface/goals/YUN/YUN_inform_Xikang.dds"
+	}
+
+	SpriteType = {
+		name = "YUN_wolves_surrounding"
+		texturefile = "gfx/interface/goals/YUN/YUN_wolves_surrounding.dds"
+	}
+
+	SpriteType = {
+		name = "YUN_ready_for_battle"
+		texturefile = "gfx/interface/goals/YUN/YUN_ready_for_battle.dds"
+	}
+
+	SpriteType = {
+		name = "YUN_open_arms"
+		texturefile = "gfx/interface/goals/YUN/YUN_open_arms.dds"
+	}
+
+	SpriteType = {
+		name = "YUN_tighten_belts"
+		texturefile = "gfx/interface/goals/YUN/YUN_tighten_belts.dds"
+	}
+
+	SpriteType = {
+		name = "YUN_evacuate_Yunnan"
+		texturefile = "gfx/interface/goals/YUN/YUN_evacuate_Yunnan.dds"
+	}
+
+	SpriteType = {
+		name = "YUN_into_rural"
+		texturefile = "gfx/interface/goals/YUN/YUN_into_rural.dds"
+	}
+
+	SpriteType = {
+		name = "YUN_govern_the_village"
+		texturefile = "gfx/interface/goals/YUN/YUN_govern_the_village.dds"
+	}
+
+	SpriteType = {
+		name = "YUN_check_shelters"
+		texturefile = "gfx/interface/goals/YUN/YUN_check_shelters.dds"
+	}
+
+	SpriteType = {
+		name = "YUN_remember_six_fifth"
+		texturefile = "gfx/interface/goals/YUN/YUN_remember_six_fifth.dds"
+	}
+
+	SpriteType = {
+		name = "YUN_arm_Guangxi"
+		texturefile = "gfx/interface/goals/YUN/YUN_arm_Guangxi.dds"
+	}
+
+	SpriteType = {
+		name = "YUN_wolves_in_north"
+		texturefile = "gfx/interface/goals/YUN/YUN_wolves_in_north.dds"
+	}
+
+	SpriteType = {
+		name = "YUN_attention_to_forests"
+		texturefile = "gfx/interface/goals/YUN/YUN_attention_to_forests.dds"
+	}
+
+	SpriteType = {
+		name = "YUN_orichi_in_south"
+		texturefile = "gfx/interface/goals/YUN/YUN_orichi_in_south.dds"
+	}
+
+	SpriteType = {
+		name = "YUN_attention_to_sky"
+		texturefile = "gfx/interface/goals/YUN/YUN_attention_to_sky.dds"
+	}
+
+	SpriteType = {
+		name = "YUN_keep_strong"
+		texturefile = "gfx/interface/goals/YUN/YUN_keep_strong.dds"
+	}
 }

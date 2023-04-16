@@ -8,7 +8,7 @@ recruit_character = YUN_Generic_Vacant
 oob = "YUN_1962"
 
 set_country_flag = YUN_start_tree
-load_focus_tree = YUN_intro
+load_focus_tree = YUN_first_phase
 
 ###Playable
 set_country_flag = tno_playable_country

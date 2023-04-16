@@ -35,6 +35,7 @@ state={
 		}
 		add_extra_state_shared_building_slots = 5
 
+		set_state_flag = state_renamings
 	}
 
 	provinces={

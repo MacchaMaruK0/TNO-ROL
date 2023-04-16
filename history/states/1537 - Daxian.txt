@@ -15,6 +15,7 @@ state={
 		victory_points = {
 			5048 5 
 		}
+		set_state_flag = state_renamings
 	}
 	manpower=5216245
 	buildings_max_level_factor=1.000
