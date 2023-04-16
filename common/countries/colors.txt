@@ -115,13 +115,13 @@ SWZ = {
 
 
 MDG = {
-	color = rgb { 74 52 45 }
-	color_ui = rgb { 74 52 45 }
+	color = rgb { 61 80 105 }
+	color_ui = rgb { 61 80 105 }
 }
 
 MDM = {
-	color = rgb { 99 160 127 }
-	color_ui = rgb { 99 160 127 }
+	color = rgb { 106 114 125 }
+	color_ui = rgb { 106 114 125 }
 }
 
 MDI = {
@@ -240,8 +240,13 @@ UAR = {
 }
 
 GRN = {
-	color = rgb { 141 128 115 }
-	color_ui = rgb { 141 128 115 }
+	color = rgb { 163 191 180 }
+	color_ui = rgb { 163 191 180 }
+}
+
+FAR = {
+	color = rgb { 227 193 218 }
+	color_ui = rgb { 227 193 218 }
 }
 
 YGR = {
@@ -350,8 +355,8 @@ AKT = {
 }
 
 BLZ = {
-	color = rgb { 30 63 165 }
-	color_ui = rgb { 30 63 165 }
+	color = rgb { 154 22 66 }
+	color_ui = rgb { 154 22 66 }
 }
 
 BLR = {
@@ -515,8 +520,8 @@ DER = {
 }
 
 ICE = {
-	color = rgb { 256 256 256 }
-	color_ui = rgb { 256 256 256 }
+	color = rgb { 123 108 128 }
+	color_ui = rgb { 123 108 128 }
 }
 
 DRL = {
@@ -828,11 +833,6 @@ PAN = {
 	color_ui = rgb { 83 68 179 }
 }
 
-PCZ = {
-	color = rgb { 73 66 119 }
-	color_ui = rgb { 73 66 119 }
-}
-
 PER = {
 	color = rgb { 123 101 81 }
 	color_ui = rgb { 123 101 81 }
@@ -938,6 +938,11 @@ HAI = {
 	color_ui = rgb { 78 64 140 }
 }
 
+HAC = {
+	color = rgb { 141 65 73 }
+	color_ui = rgb { 141 65 73 }
+}
+
 HIS = {
 	color = rgb { 78 64 140 }
 	color_ui = rgb { 78 64 140 }
@@ -1026,11 +1031,6 @@ SRN = {
 MAC = {
 	color = rgb { 216 33 38 }
 	color_ui = rgb { 216 33 38 }
-}
-
-ICE = {
-	color = rgb { 44 82 142 }
-	color_ui = rgb { 44 82 142 }
 }
 
 UKR = {
@@ -1194,8 +1194,8 @@ SUR = {
 }
 
 MAD = {
-	color = rgb { 142 149 229 }
-	color_ui = rgb { 142 149 229 }
+	color = rgb { 61 80 105 }
+	color_ui = rgb { 61 80 105 }
 }
 
 CAU = {
