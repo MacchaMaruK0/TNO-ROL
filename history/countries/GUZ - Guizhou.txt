@@ -1,8 +1,11 @@
-﻿capital = 603
+capital = 603
 
 # Vacant
 recruit_character = GUZ_Generic_Vacant
 fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+recruit_character = GUZ_ROL_He_Yingqin
+
 set_variable = { chi_influence = 0 }
 
 oob = "GUZ_1962"
@@ -10,7 +13,10 @@ oob = "GUZ_1962"
 
 add_ideas = {
 	#Country
-	GUZ_army_of_the_southwest
+	ROL_GUZ_Wu_Dingchang_heritage
+	ROL_GUZ_blot_out_the_sky
+	ROL_GUZ_undercurrent_surge
+	ROL_GUZ_barbarian_unrest
 	
 	#Political
 	tno_political_parties_one_party_state
@@ -65,7 +71,7 @@ add_ideas = {
 	tno_admin_efficiency_deficient_administrative_systems
 
 	#Sphere Status
-	Sphere_Economic_Dependent
+	Sphere_Chinese_Warlord
 }
 
 set_country_flag = tno_defined_startup_effectiveness
@@ -201,7 +207,7 @@ set_technology = {
 	batch_production_1 = 1
 }
 
-set_politics = {	
+set_politics = {
 	ruling_party = despotism
 	last_election = "1933.2.16"
 	election_frequency = 36
@@ -209,27 +215,5 @@ set_politics = {
 }
 
 set_popularities = {
-    communist = 8
-    socialist = 3
-    progressivism = 0
-    liberalism = 0
-    liberal_conservatism = 0
-    conservatism = 0
-    paternalism = 11
-    despotism = 78
-    ultranationalism = 0
-    fascism = 0
-    national_socialism = 0
-    esoteric_nazism = 0
-    
-}
-create_country_leader = {
-	name = "何应钦"
-    desc = "POLITICS_HE_YINGQIN_DESC"
-	picture = "portraits_GUZ_He_Yinqin.dds"
-	expire = "2000.1.1"
-	ideology = despotism_warlordism_subtype
-	traits = {
-		leaning_towards_japan
-	}
+	despotism = 100
 }

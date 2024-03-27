@@ -1,0 +1,17 @@
+characters = {
+	CPC_ROL_Liu_Shaoqi = {
+		name = CPC_ROL_Liu_Shaoqi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CPC/Portrait_CPC_ROL_Liu_Shaoqi.dds"
+			}
+		}
+		country_leader = {
+			desc = "CPC_ROL_Liu_Shaoqi_desc"
+			ideology = communist_bolshevism_subtype
+			traits = {
+
+			}
+		}
+	}
+}	

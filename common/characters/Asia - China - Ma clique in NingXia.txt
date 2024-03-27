@@ -1,0 +1,17 @@
+characters = {
+	NMM_ROL_Ma_Dunjing = {
+		name = NMM_ROL_Ma_Dunjing
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NMM/Portrait_NMM_ROL_Ma_Dunjing.dds"
+			}
+		}
+		country_leader = {
+			desc = "NMM_ROL_Ma_Dunjing_desc"
+			ideology = despotism_military_junta_subtype
+			traits = {
+
+			}
+		}
+	}
+}	

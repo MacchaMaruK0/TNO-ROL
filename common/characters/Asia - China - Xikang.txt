@@ -1,0 +1,17 @@
+characters = {
+	XIK_ROL_Liu_Wenhui = {
+		name = XIK_ROL_Liu_Wenhui
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/XIK/Portrait_XIK_ROL_Liu_Wenhui.dds"
+			}
+		}
+		country_leader = {
+			desc = "XIK_ROL_Liu_Wenhui_desc"
+			ideology = paternalism_ROL_xunzheng_subtype
+			traits = {
+
+			}
+		}
+	}
+}	

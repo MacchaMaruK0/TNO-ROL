@@ -1,0 +1,38 @@
+ideas = {
+    country = {
+		ROL_GUZ_Wu_Dingchang_heritage = { #吴鼎昌的遗产
+			allowed = { always = no }
+			picture = ROL_GUZ_Wu_Dingchang_heritage
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+		ROL_GUZ_blot_out_the_sky = { #遮天蔽日
+			allowed = { always = no }
+			picture = ROL_GUZ_blot_out_the_sky
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+		
+		ROL_GUZ_barbarian_unrest = { #蛮夷之乱
+			allowed = { always = no }
+			picture = ROL_GUZ_barbarian_unrest
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+		
+		ROL_GUZ_undercurrent_surge = { #暗流涌动
+			allowed = { always = no }
+			picture = ROL_GUZ_undercurrent_surge
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+	}
+}	

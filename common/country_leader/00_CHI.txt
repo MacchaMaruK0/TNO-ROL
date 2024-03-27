@@ -1,0 +1,42 @@
+leader_traits = {
+
+	exempli = {
+		random = no #防止随机分配
+		#接下来是modifier，与国家精神的modifier通用，大部分可以在https://hoi4.paradoxwikis.com/Modifiers以及https://hoi4.paradoxwikis.com/List_of_modifiers中找到
+
+		ai_will_do = { factor = 1 } #这部分是MTTH代码，在TNO中基本不生效
+	}
+	
+	undistinguished_suit = {
+		random = yes
+	}
+
+	hog_Diplomatic_President = {
+	    political_power_gain = 0.05
+	    consumer_goods_factor = -0.0200
+
+
+		random = no
+	}
+
+	eco_Agent_of_Modernization = { 
+	    production_speed_buildings_factor = 0.05
+		industrial_capacity_factory = 0.05
+		gdp_growth_modifier = 2
+		random = no
+	}
+
+	for_Leaders_of_the_past. = { 
+	    production_speed_buildings_factor = 0.05
+		industrial_capacity_factory = 0.05
+		random = no
+	}
+
+	sec_spy_in_the_sun = { 
+		stability_factor = 0.05
+	    drift_defence_factor = 0.05
+
+		random = no
+	}
+
+}

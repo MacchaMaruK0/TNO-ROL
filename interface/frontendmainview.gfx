@@ -34,7 +34,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_frontend_tno_logo"
-		texturefile = "gfx/interface/logo_rtb.dds"
+		texturefile = "gfx/interface/logo_rol_gh_1.dds"
 	}
 
 	spriteType = {
@@ -60,6 +60,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_credits_icon"
 		texturefile = "gfx/interface/icon_credits.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_career_profile_icon"
+		texturefile = "gfx/interface/icon_career_profile.dds"
 	}
 
 	spriteType = {

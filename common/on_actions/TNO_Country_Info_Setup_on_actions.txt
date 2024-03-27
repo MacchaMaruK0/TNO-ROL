@@ -1,4 +1,4 @@
-on_actions = {
+on_actions = { #与GH开发无关
 	on_startup = {
 		effect = {
 			every_country = {
@@ -49,28 +49,15 @@ on_actions = {
 				add_to_array = { CountryInfo_development_store = 2 }
 				add_to_array = { CountryInfo_development_store = 3 }
 				add_to_array = { CountryInfo_development_store = 4 }
+				add_to_array = { CountryInfo_development_store = 5 }
 				
 				add_to_array = { CountryInfo_folder_development_102 = 2 }
 				add_to_array = { CountryInfo_folder_development_102 = 3 }
 				add_to_array = { CountryInfo_folder_development_102 = 4 }
+				add_to_array = { CountryInfo_folder_development_102 = 5 }
 			
 				## Note: This uses if, else_if statements instead of outright scoping tags so that those without content can easily be assigned generic stuff
 				# - Scars
-
-				if = {
-					limit = {
-						original_tag = SIC
-					}
-					add_to_array = { CountryInfo_array_main = 101 }
-					add_to_array = { CountryInfo_array_main = 1 }
-					
-					add_to_array = { CountryInfo_folder_country_101 = 1 }
-					
-					add_to_array = { CountryInfo_array_main = 102 }
-					add_to_array = { CountryInfo_array_main = 2 }
-					
-					add_to_array = { CountryInfo_folder_country_102 = 2 }
-				}
 				
 				if = {
 					limit = {
@@ -901,6 +888,35 @@ on_actions = {
 					add_to_array = { CountryInfo_folder_country_103 = 6 }
 					add_to_array = { CountryInfo_folder_country_103 = 7 }
 				}
+				
+				else_if = {
+					limit = {
+						original_tag = GNG
+					}
+
+					add_to_array = { CountryInfo_array_main = 101 }
+					add_to_array = { CountryInfo_array_main = 1 }
+					add_to_array = { CountryInfo_array_main = 2 }
+					add_to_array = { CountryInfo_array_main = 3 }
+					add_to_array = { CountryInfo_folder_country_101 = 1 }
+					add_to_array = { CountryInfo_folder_country_101 = 2 }
+					add_to_array = { CountryInfo_folder_country_101 = 3 }
+					
+					add_to_array = { CountryInfo_array_main = 102 }
+					add_to_array = { CountryInfo_array_main = 4 }
+					add_to_array = { CountryInfo_array_main = 5 }
+					add_to_array = { CountryInfo_array_main = 6 }
+					add_to_array = { CountryInfo_array_main = 7 }
+					add_to_array = { CountryInfo_array_main = 8 }
+					add_to_array = { CountryInfo_array_main = 9 }
+					add_to_array = { CountryInfo_folder_country_102 = 4 }
+					add_to_array = { CountryInfo_folder_country_102 = 5 }
+					add_to_array = { CountryInfo_folder_country_102 = 6 }
+					add_to_array = { CountryInfo_folder_country_102 = 7 }
+					add_to_array = { CountryInfo_folder_country_102 = 8 }
+					add_to_array = { CountryInfo_folder_country_102 = 9 }
+				}
+				
 
 				## Ignore parts after this ##
 				if = {
@@ -913,7 +929,12 @@ on_actions = {
 					}
 				}
 				
-				set_country_flag = TNO_Country_Info_Screen_Visible
+				if = {
+					limit = {
+						is_ai = no
+					}
+					set_country_flag = TNO_Country_Info_Screen_Visible
+				}
 			}
 		}
 	}

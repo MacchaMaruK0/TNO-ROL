@@ -1,6 +1,8 @@
-capital = 594
+capital = 599
 
 # Vacant
+recruit_character = GUX_Generic_Vacant
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
 
 set_war_support = 0.80
 set_stability = 1.00
@@ -8,12 +10,7 @@ add_manpower = 300000
 
 oob = "GUX_1962"
 
-recruit_character = GUX_Huang_Xvchu
-recruit_character = GUX_takeda_goro
-recruit_character = GUX_watanabe_keitaro
-recruit_character = GUX_takashima_masuo
-recruit_character = GUX_murai_sumio
-recruit_character = GUX_miyazaki_kiyotaka
+recruit_character = GUX_ROL_Huang_Xuchu
 
 set_variable = { chi_influence = 0 }
 
@@ -131,7 +128,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = paternalism
+	ruling_party = despotism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -139,17 +136,7 @@ set_politics = {
 }
 
 set_popularities = {
-	communist = 0
-	ultranationalism = 0
-	national_socialism = 0
-	socialist = 0
-	progressivism = 0
-	liberalism = 0
-	conservatism = 12
-	paternalism = 46
-	despotism = 42
-	fascism = 0
-	
+	despotism = 100
 }
 
 add_ideas = {
@@ -205,6 +192,9 @@ add_ideas = {
 	tno_academic_base_mass_illiteracy
 	tno_admin_efficiency_deficient_administrative_systems
 
+	#Sphere Status
+	Sphere_Chinese_Warlord
+	CHI_chinese_warlords
 }
 
 set_country_flag = tno_defined_startup_effectiveness

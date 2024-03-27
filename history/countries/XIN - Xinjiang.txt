@@ -8,17 +8,7 @@ set_war_support = 0.70
 set_stability = 1.00
 add_manpower = 400000
 
-recruit_character = XIN_Zhang_Zhizhong_leader
-recruit_character = XIN_Sheng_Shicai
-recruit_character = XIN_Zhang_Zhizhong
-recruit_character = XIN_Wang_Zhen
-recruit_character = XIN_Tao_Zhiyue
-recruit_character = XIN_Lin_Jiyong
-recruit_character = XIN_Yulbars_Khan
-recruit_character = XIN_Zhao_Hanqi
-recruit_character = XIN_Guo_Jiqiao
-
-#load_focus_tree = XIN_1962
+recruit_character = XIN_ROL_Sheng_Shicai
 
 set_variable = { chi_influence = 0 }
 
@@ -144,28 +134,19 @@ set_politics = {
 }
 
 set_popularities = {
-    communist = 15
-    socialist = 0
-    progressivism = 0
-    liberalism = 0
-    liberal_conservatism = 0
-    conservatism = 0
-    paternalism = 30
-    despotism = 55
-    ultranationalism = 0
-    fascism = 0
-    national_socialism = 0
-    esoteric_nazism = 0
+	communist = 13
+	ultranationalism = 0
+	national_socialism = 0
+	socialist = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 11
+	paternalism = 0
+	despotism = 76
+	fascism = 0
 }
 
 add_ideas = {
-
-	#Ministers
-	XIN_Zhang_Zhizhong_hog
-	XIN_Guo_Jiqiao_for
-	XIN_Lin_Jiyong_eco
-	XIN_Tao_Zhiyue_sec
-	
 	#Political
 	tno_political_parties_one_party_state
 	tno_religious_rights_secularism
@@ -217,6 +198,8 @@ add_ideas = {
 	tno_research_facilities_basic
 	tno_academic_base_mass_illiteracy
 	tno_admin_efficiency_deficient_administrative_systems
+
+	CHI_chinese_warlords
 }
 
 set_country_flag = tno_defined_startup_effectiveness

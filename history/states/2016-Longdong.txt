@@ -1,0 +1,31 @@
+state = {
+	id = 2016
+	name="STATE_2016"
+	resources={
+		tungsten=1.000
+	}
+
+	history={
+		owner = CPC
+		add_core_of = CPC
+		victory_points = { 4939 50 }
+		set_state_flag = state_renamings
+		buildings = {
+			infrastructure = 1
+			radar_station = 1
+			schools = 1
+			offices = 1
+			hospitals = 1
+			prisons = 1
+			barracks = 1
+			thermoelectric_plant = 1
+		}
+	}
+
+	provinces={
+		    517 556 1647 1985 3745 5025 8081 4939 1933
+	    }
+	manpower=2852700
+	buildings_max_level_factor=1.000
+	state_category=town
+}

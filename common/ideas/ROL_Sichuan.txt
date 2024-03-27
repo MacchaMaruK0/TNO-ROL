@@ -1,0 +1,44 @@
+ideas = {
+    country = {
+		ROL_SIC_shu_dog_bark_at_sun = { #蜀犬吠日
+			allowed = { always = no }
+			picture = ROL_SIC_shu_dog_bark_at_sun
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+		ROL_SIC_chongqing_under_central_gov = { #重庆直辖市
+			allowed = { always = no }
+			picture = ROL_SIC_chongqing_under_central_gov
+			removal_cost = -1
+			modifier = {
+				
+			}
+		}
+		ROL_SIC_before_the_rain = { #山雨欲来
+			allowed = { always = no }
+			picture = ROL_SIC_before_the_rain
+			removal_cost = -1
+			modifier = {
+				
+			}
+		}	
+		ROL_SIC_Cheng_Yu_railway_level_1 = { #成渝铁路：未开工
+			allowed = { always = no }
+			picture = ROL_SIC_Cheng_Yu_railway_level_1
+			removal_cost = -1
+			modifier = {
+				
+			}
+		}
+		ROL_SIC_new_Chuan_army = { #新川军
+			allowed = { always = no }
+			picture = ROL_SIC_new_Chuan_army
+			removal_cost = -1
+			modifier = {
+				
+			}
+		}	
+	}
+}

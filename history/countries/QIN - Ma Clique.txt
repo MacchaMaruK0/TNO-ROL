@@ -1,12 +1,16 @@
-﻿capital = 906
+capital = 906
 
-recruit_character = QIN_ma_jiyuan
+recruit_character = QIN_ROL_Ma_Jiyuan
 # Vacant
+recruit_character = QIN_Generic_Vacant
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
 oob = "QIN_1962"
 
 set_war_support = 0.80
 set_stability = 1.00
-add_manpower = 300000
+add_manpower = 400000
+
+set_variable = { chi_influence = 0 }
 
 # Starting tech
 
@@ -124,7 +128,7 @@ set_technology = {
 }
 
 
-set_politics = {	
+set_politics = {
 	ruling_party = despotism
 	last_election = "1933.2.16"
 	election_frequency = 36
@@ -132,19 +136,16 @@ set_politics = {
 }
 
 set_popularities = {
-    communist = 0
-    socialist = 0
-    progressivism = 0
-    liberalism = 0
-    liberal_conservatism = 0
-    conservatism = 13
-    paternalism = 16
-    despotism = 71
-    ultranationalism = 0
-    fascism = 0
-    national_socialism = 0
-    esoteric_nazism = 0
-    
+	communist = 0
+	ultranationalism = 0
+	socialist = 0
+	progressivism = 0
+	liberalism = 0
+	conservatism = 13
+	paternalism = 16
+	despotism = 71
+	fascism = 0
+	
 }
 
 add_ideas = {
@@ -199,6 +200,8 @@ add_ideas = {
 	tno_research_facilities_basic
 	tno_academic_base_mass_illiteracy
 	tno_admin_efficiency_deficient_administrative_systems
+
+	CHI_chinese_warlords
 }
 
 set_country_flag = tno_defined_startup_effectiveness
