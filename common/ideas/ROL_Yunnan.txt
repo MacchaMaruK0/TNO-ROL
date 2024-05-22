@@ -1,8 +1,8 @@
 ideas = {
     country = {
-		ROL_ROC_Do_not_forget_in_JU = { #勿忘在莒
+		ROL_ROC_the_plum_blossom_remains_the_same = { #梅花依旧
 			allowed = { always = no }
-			picture = ROL_ROC_Do_not_forget_in_JU
+			picture = ROL_ROC_the_plum_blossom_remains_the_same
 			removal_cost = -1
 			modifier = {
                 stability_weekly = -0.001
@@ -12,9 +12,9 @@ ideas = {
 			}
 		}
 	
-	    ROL_ROC_camaraderie = { #亲爱精诚
+	    ROL_ROC_NRA_still_exists = { #干城仍在
 			allowed = { always = no }
-			picture = ROL_ROC_camaraderie
+			picture = ROL_ROC_NRA_still_exists
 			removal_cost = -1
 			modifier = {
                 army_org = -0.20
@@ -25,9 +25,9 @@ ideas = {
 			}
 		}
 		
-		ROL_ROC_difficult_modernization = { #艰难的现代化
+		ROL_ROC_rent_reduction = { #减租
 			allowed = { always = no }
-			picture = ROL_ROC_difficult_modernization
+			picture = ROL_ROC_rent_reduction
 			removal_cost = -1
 			modifier = {
                 production_speed_buildings_factor = -0.20
@@ -37,14 +37,50 @@ ideas = {
 			}
 		}
 		
-		ROL_ROC_partisanship = { #党外有党，党内有派
+		ROL_ROC_KMT_orthodoxy = { #党统未光
 			allowed = { always = no }
-			picture = ROL_ROC_partisanship
+			picture = ROL_ROC_KMT_orthodoxy
 			removal_cost = -1
 			modifier = {
                 political_power_factor = -0.25
 				admin_efficiency_monthly_rate = -1
 				stability_factor = -0.30
+			}
+		}
+
+		ROL_ROC_united_front = { #国民参政会
+			allowed = { always = no }
+			picture = ROL_ROC_united_front
+			removal_cost = -1
+			modifier = {
+                
+			}
+		}
+
+		ROL_ROC_betrayal = { #背叛
+			allowed = { always = no }
+			picture = ROL_ROC_betrayal
+			removal_cost = -1
+			modifier = {
+                
+			}
+		}
+
+		ROL_ROC_rip_apart = { #撕裂
+			allowed = { always = no }
+			picture = ROL_ROC_rip_apart
+			removal_cost = -1
+			modifier = {
+                
+			}
+		}
+
+		ROL_ROC_China_Airlines = { #华航
+			allowed = { always = no }
+			picture = ROL_ROC_China_Airlines
+			removal_cost = -1
+			modifier = {
+                
 			}
 		}
 	}

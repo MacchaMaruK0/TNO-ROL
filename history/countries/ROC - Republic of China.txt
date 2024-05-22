@@ -262,10 +262,14 @@ if = {
 add_ideas = {
 	#这里是开局国家精神以及顾问的设定
 	# #Country#
-	ROL_ROC_Do_not_forget_in_JU
-	ROL_ROC_camaraderie
-	ROL_ROC_difficult_modernization
-	ROL_ROC_partisanship
+	ROL_ROC_the_plum_blossom_remains_the_same
+	ROL_ROC_NRA_still_exists
+	ROL_ROC_rent_reduction
+	ROL_ROC_KMT_orthodoxy
+	ROL_ROC_united_front
+	ROL_ROC_betrayal
+	ROL_ROC_rip_apart
+	ROL_ROC_China_Airlines
 	
 	# Sphere_Core_Member
 	# MAN_GH_Inefficient_Administration
