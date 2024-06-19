@@ -14,8 +14,8 @@
  GUZ_conservatism_DEF:0 "贵州省"
  GUZ_paternalism:0 "贵州省"
  GUZ_paternalism_DEF:0 "贵州省"
- GUZ_despotism:0 "贵州省"
- GUZ_despotism_DEF:0 "贵州省"
+ GUZ_despotism:0 "西南政务委员会"
+ GUZ_despotism_DEF:0 "西南政务委员会"
  GUZ_communist:0 "贵州省"
  GUZ_communist_DEF:0 "贵州省"
  GUZ_socialist:0 "贵州省"
@@ -32,9 +32,9 @@
  GUZ_progressivism_ADJ:0 "贵州"
  
  ###党派
- GUZ_despotism_party:0 "黔系军阀"
- GUZ_paternalism_party:0 "国民党 - 南京官僚"
- GUZ_paternalism_party_long:0 "国民党 - 南京官僚(Guomindang - Nanjing Bureaucrats)"
+ GUZ_despotism_party:0 "西南政务委员会"
+ GUZ_paternalism_party:0 "西南政务委员会"
+ GUZ_paternalism_party_long:0 "西南政务委员会"
  GUZ_THENEWORDER_DESC:0 "与新中国其他许多省份一样，贵州也是在被日军占领后移交给了中国政府。而何应钦很快发现，他唯一的“军队”不过是滇系军阀的一个分支而已。20世纪50年代，他专注于省内的建设与发展，恢复了人民对政府的信心。然而，他必须持续不断地直面来自垄断财阀、滇系军阀的挑战，并试图淡化人民对国民党屡战屡败的深刻记忆。到了1960年，他变得越来越隐世而独立，这些年来他的失败，以及他深爱的国民党的失败，似乎已经压垮了他。不过，在何府内仅限近臣的闭门会议上，一项大胆的改革计划正在起草。也许，中国依然有民主的希望……"
  
  ###人物

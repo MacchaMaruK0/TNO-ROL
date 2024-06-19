@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
  ###国家名
- KMT_despotism:0 "西北绥靖公署"
- KMT_despotism_DEF:0 "西北绥靖公署"
+ KMT_despotism:0 "西北行辕"
+ KMT_despotism_DEF:0 "中华民国西北行辕"
 
  ###党派
  ROC_despotism_party:0 "国民党"
@@ -16,7 +16,7 @@
  KMT_ROL_Jiang_Jingguo:0 "蒋经国"
  KMT_ROL_Zheng_Yanfen:0 "郑彦棻"
  KMT_ROL_Yan_Jiagan:0 "严家淦"
- KMT_ROL_Shen_Zhiyue:0 "沈之岳"
+ KMT_ROL_Chen_Daqing:0 "陈大庆"
  KMT_ROL_You_Jidui:0 " "
  KMT_ROL_Teng_Jie:0 "滕杰"
  

@@ -69,16 +69,16 @@ characters = {
 		}
 	}
 
-	KMT_ROL_Shen_Zhiyue = {
-		name = KMT_ROL_Shen_Zhiyue
+	KMT_ROL_Chen_Daqing = {
+		name = KMT_ROL_Chen_Daqing
 		portraits = {
 			civilian = {
-				small = "GFX_idea_KMT_ROL_Shen_Zhiyue_sec"
+				small = "GFX_idea_KMT_ROL_Chen_Daqing_sec"
 			}
 		}
 		advisor = {
 			slot = security_minister
-			idea_token = KMT_ROL_minister_Shen_Zhiyue_sec
+			idea_token = KMT_ROL_minister_Chen_Daqing_sec
 			allowed = { original_tag = KMT }
 			ledger = civilian
 			cost = -1

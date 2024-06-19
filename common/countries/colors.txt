@@ -733,8 +733,8 @@ QIN = {
 	color_ui = rgb { 86 91 125 }
 }
 KMT = {
-	color = rgb { 86 91 125 }
-	color_ui = rgb { 86 91 125 }
+	color = rgb { 55 64 130 }
+	color_ui = rgb { 55 64 130 }
 }
 NMM = {
 	color = rgb { 86 91 125 }

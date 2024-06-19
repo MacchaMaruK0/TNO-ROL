@@ -1,4 +1,4 @@
-load_focus_tree = ZZZ_national_focus
+load_focus_tree = ROL_ROC_CRISIS
 
 capital = 325 #昆明·
 

@@ -19,7 +19,7 @@ recruit_character = KMT_ROL_Hu_Zongnan
 recruit_character = KMT_ROL_Jiang_Jingguo
 recruit_character = KMT_ROL_Zheng_Yanfen
 recruit_character = KMT_ROL_Yan_Jiagan
-recruit_character = KMT_ROL_Shen_Zhiyue
+recruit_character = KMT_ROL_Chen_Daqing
     
 set_popularities = {
 	despotism = 68
@@ -263,14 +263,10 @@ add_ideas = {
 	KMT_ROL_minister_Jiang_Jingguo_hog
 	KMT_ROL_minister_Zheng_Yanfen_for
 	KMT_ROL_minister_Yan_Jiagan_eco
-	KMT_ROL_minister_Shen_Zhiyue_sec
+	KMT_ROL_minister_Chen_Daqing_sec
 
 	# #High Command
-	# MAN_GH_katakura_tadashi_army_chief
-	# MAN_Matsumura_Tomokatsu_high_command
-	# MAN_Kamata_Senichi_high_command
-	# MAN_GH_sejima_ryuzo_high_command
-	# MAN_Inomata_Jinya_theorist
+	
 	#SOCIETAL DEVELOPMENT
 	tno_army_professionalism_cronyism
 	tno_industrial_expertise_experienced
