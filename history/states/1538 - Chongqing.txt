@@ -1,11 +1,12 @@
-
 state={
 	id=1538
 	name="STATE_1538"
 
 	history={
 		owner = SIC
+		add_core_of = CHI
 		add_core_of = SIC
+		set_demilitarized_zone = yes
 		buildings = {
 			schools = 1
 			offices = 1
@@ -18,8 +19,6 @@ state={
 		victory_points = {
 			6999 30 
 		}
-		set_state_flag = state_renamings
-		set_demilitarized_zone = yes
 
 	}
 

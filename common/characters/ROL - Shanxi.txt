@@ -1,0 +1,37 @@
+characters = {
+	SHX_fu_zuoyi = {
+		name = SHX_fu_zuoyi
+		portraits = {
+			civilian = { large = "gfx/leaders/SHX/Portrait_Shanxi_Fu_Zuoyi.dds" }
+			army = { large = "gfx/leaders/SHX/Portrait_Shanxi_Fu_Zuoyi.dds" }
+		}
+		corps_commander = {
+			traits = { infantry_officer career_officer war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		country_leader = {
+			desc = "POLITICS_FU_ZUOYI_DESC"
+			ideology = despotism_civilian_dictatorship_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	SHX_ROL_Su_Tiren = {
+		name = SHX_ROL_Su_Tiren
+		portraits = {
+			civilian = { large = "gfx/leaders/SHX/Portrait_SHX_ROL_Su_Tiren.dds" }
+		}
+		country_leader = {
+			#desc = ""
+			ideology = fascism_corporatism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+}

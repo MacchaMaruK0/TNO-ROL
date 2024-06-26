@@ -9,6 +9,9 @@ state={
 	history={
 		owner = KMT
 		victory_points = {
+			1630 20 
+		}
+		victory_points = {
 			12776 5 
 		}
 		set_state_flag = state_renamings
@@ -28,9 +31,9 @@ state={
 	}
 
 	provinces={
-		1630 3742 5057 6638 12327 12776 15646 
+		1630 2022 3742 5057 6638 12327 12776 15646 
 	}
-	manpower=1152562
+	manpower=2305124
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

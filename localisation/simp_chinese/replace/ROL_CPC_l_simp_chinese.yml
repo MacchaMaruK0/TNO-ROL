@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
  ###国家名
- CPC_communist:0 "陇东分区"
- CPC_communist_DEF:0 "陇东分区"
+ CPC_communist:0 "陕甘宁边区"
+ CPC_communist_DEF:0 "陕甘宁边区"
 
  ###党派
  CPC_communist_party:0 "中国共产党"
@@ -9,3 +9,4 @@
 
  #人物
  CPC_ROL_Liu_Shaoqi:0 "刘少奇"
+ CPC_ROL_Zhu_De:0 "朱德"

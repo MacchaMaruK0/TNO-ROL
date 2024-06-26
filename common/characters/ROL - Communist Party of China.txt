@@ -1,0 +1,17 @@
+characters = {
+	CPC_ROL_Zhu_De = {
+		name = CPC_ROL_Zhu_De
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CPC/Portrait_CPC_ROL_Zhu_De.dds"
+			}
+		}
+		country_leader = {
+			desc = "CPC_ROL_Zhu_De_desc"
+			ideology = communist_bolshevism_subtype
+			traits = {
+
+			}
+		}
+	}
+}	

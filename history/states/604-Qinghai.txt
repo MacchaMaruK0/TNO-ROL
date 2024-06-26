@@ -6,6 +6,7 @@ state={
 	history={
 		owner = KMT
 		add_core_of = KMT
+		add_core_of = QIN
 		buildings = {
 			infrastructure = 1
 			barracks = 1

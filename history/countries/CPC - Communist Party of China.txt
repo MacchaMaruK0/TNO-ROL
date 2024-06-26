@@ -1,4 +1,4 @@
-capital = 2016 #陇东
+capital = 622 #陇东
 
 # Vacant
 set_stability = 0.9
@@ -14,7 +14,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-recruit_character = CPC_ROL_Liu_Shaoqi
+recruit_character = CPC_ROL_Zhu_De
     
 set_popularities = {
 	communist = 100
@@ -250,7 +250,6 @@ if = {
 add_ideas = {
 	#这里是开局国家精神以及顾问的设定
 	#Country#
-	Sphere_Core_Member
 	
 	#Ministers
 

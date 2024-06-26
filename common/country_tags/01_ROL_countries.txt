@@ -1,0 +1,2 @@
+KMT = "countries/Kuomintang.txt"
+CPC = "countries/Communist Party of China.txt"

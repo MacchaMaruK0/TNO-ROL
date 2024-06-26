@@ -1,0 +1,159 @@
+characters = {
+	SIC_ROL_Lin_Jiyong = {
+		name = SIC_ROL_Lin_Jiyong
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIC/Portrait_SIC_ROL_Lin_Jiyong.dds"
+			}
+		}
+		country_leader = {
+			desc = "SIC_ROL_Lin_Jiyong_desc"
+			ideology = despotism_civilian_dictatorship_subtype
+			traits = {
+
+			}
+		}
+	}
+	
+	SIC_ROL_Peng_Dixian = {
+		name = SIC_ROL_Peng_Dixian
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIC/Portrait_SIC_ROL_Peng_Dixian.dds"
+			}
+		}
+		country_leader = {
+			desc = "SIC_ROL_Peng_Dixian_desc"
+			ideology = progressivism_democratic_socialism_subtype
+			traits = {
+
+			}
+		}
+	}
+	
+	SIC_ROL_Xiong_Kewu = {
+		name = SIC_ROL_Xiong_Kewu
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIC/Portrait_SIC_ROL_Xiong_Kewu.dds"
+			}
+		}
+		country_leader = {
+			desc = "SIC_ROL_Xiong_Kewu_desc"
+			ideology = liberalism_progressive_liberalism_subtype
+			traits = {
+
+			}
+		}
+	}
+	
+	SIC_ROL_Wu_Nianzhong = {
+		name = SIC_ROL_Wu_Nianzhong
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIC/Portrait_SIC_ROL_Wu_Nianzhong.dds"
+				small = "GFX_idea_SIC_ROL_Wu_Nianzhong"
+			}
+		}
+		country_leader = {
+			desc = "SIC_ROL_Wu_Nianzhong_desc"
+			ideology = fascism_corporatism_subtype
+			traits = {
+
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = SIC_ROL_minister_Wu_Nianzhong_for
+			allowed = { original_tag = SIC }
+			traits = {
+				sociability
+				foreign_minister
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	
+	SIC_ROL_Pan_Wenhua = { #潘文华
+		name = SIC_ROL_Pan_Wenhua
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIC/Portrait_SIC_ROL_Pan_Wenhua.dds"
+				small = "GFX_idea_SIC_ROL_Pan_Wenhua"
+			}
+		}
+		country_leader = {
+			desc = "SIC_ROL_Pan_Wenhua_desc"
+			ideology = despotism_civilian_dictatorship_subtype
+			traits = { affable_puppet }
+			expire = "1999.1.1."
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = SIC_ROL_minister_Pan_Wenhua_hog
+			allowed = { original_tag = SIC }
+			traits = {
+				opportunistic
+				head_of_government
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	
+	SIC_ROL_Xiong_Zhefan = { #熊哲帆
+		name = SIC_ROL_Xiong_Zhefan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIC/Portrait_SIC_ROL_Xiong_Zhefan"
+				small = "GFX_idea_SIC_ROL_Xiong_Zhefan"
+			}
+		}
+		country_leader = {
+			desc = "SIC_ROL_Xiong_Zhefan_desc"
+			ideology = despotism_civilian_dictatorship_subtype
+			traits = {  }
+			expire = "1999.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = SIC_ROL_minister_Xiong_Zhefan_eco
+			allowed = { original_tag = SIC }
+			traits = {
+				mountainous_trade
+				economy_minister
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	
+	SIC_ROL_Huang_Yin = { #黄隐
+		name = SIC_ROL_Huang_Yin 
+		portraits = { 
+			civilian = {
+				large = "gfx/leaders/SIC/SIC_ROL_Huang_Yin.dds" 
+				small = "GFX_idea_SIC_ROL_Huang_Yin"
+			}
+		}
+		advisor = { 
+			slot = security_minister
+			idea_token =  SIC_ROL_minister_Huang_Yin_sec
+			allowed = { original_tag = SIC } #我们用限定初始国家ID的方法来保证它不会出现在别的地方
+			traits = { } 
+			ledger = civilian 
+			cost = -1 
+			can_be_fired = no 
+			ai_will_do = { factor = 0 } 
+		}
+	}
+}	

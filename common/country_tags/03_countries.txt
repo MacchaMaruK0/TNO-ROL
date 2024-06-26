@@ -1,5 +1,0 @@
-
-ROC = "countries/Republic of China.txt"
-CPC = "countries/Communist Party of China.txt"
-KMT = "countries/Kuomintang.txt"
-NMM = "countries/Ma clique in NingXia.txt"
