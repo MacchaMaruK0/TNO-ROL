@@ -1,0 +1,188 @@
+characters = { 
+	ROC_GH_exempli = { #为了防止与原版文件冲突，GH Character命名一律以国家ID_GH_开头
+		name = ROC_GH_exempli #这是该Character的名字本地化，如无特殊情况要求与Character键值相同
+		portraits = { #这部分是人物的头像
+			civilian = { #civilian表示该Character的ledger为civilian时所使用的头像，通常为国家领袖、顾问等
+				large = "gfx/leaders/MAN/Portrait_ROC_GH_exempli.dds" #可以看到文件路径，大头一律保存在“gfx/leaders/国家ID/”这一路径下，命名一律为“Portrait_国家ID_GH_名称.dds”
+				small = "GFX_idea_ROC_GH_exempli"  #GFX头像文件命名规则相同，一般为“GFX_idea_国家ID_GH_名称”，这部分在相对应的interface/文件夹下会提到
+			}
+			army = { #army表示该Character的ledger为army时所使用的头像，一般是将领、军事指挥官等
+				large = "gfx/leaders/ROC/Portrait_MAN_GH_exempli.dds"
+				small = "GFX_idea_ROC_GH_exempli"
+			}
+		}
+		country_leader = { #这部分是该character作为国家领袖时的定义
+			desc = "POLITICS_EXEMPLI_DESC" #这部分是对应该character作为国家领袖时的描述的本地化，命名规则统一为“POLITICS_名称_DESC”
+			ideology = stalinism #这里应该给一个子意识形态，具体有哪些子意识形态可以在TNO汉化文件内用中文很容易地搜索到
+			traits = {
+				#这部分是人物特质，通常使用在common/country_leader/00_GH_traits.txt中定义的内容
+			}
+			expire = "1999.1.1" #该character什么时候失效，基本不用改，都用这个时间
+			id = -1 #也不用改
+		}
+		advisor = { #该部分是character作为顾问时的定义
+			slot = head_of_government #这部分用于定义顾问的类型（政府首脑、安全部长、外交部长、经济部长），注意，这一定义只会影响位置，不会在任何地方表现出来
+			idea_token = ROC_GH_exempli_hog #这是用于将该顾问具体分配的键值，也是本地化所使用的键值，命名规则为“国家ID_GH_名称_xx”，xx可以是“hog、for、eco、sec”，详见以下的character
+			allowed = { original_tag = MAN } #我们用限定初始国家ID的方法来保证它不会出现在别的地方
+			traits = { } #同样的特质
+			ledger = civilian #上面提到的ledger
+			cost = -1 #TNO中并不需要你自己招募，故这段代码抄就完了
+			can_be_fired = no #同上
+			ai_will_do = { factor = 0 } #同上，MTTH代码几乎不用管
+		}
+		field_marshal = { #这是作为将领的定义文件，field_marshall是元帅，还有其他的定义均可以在wiki上找到
+			traits = { old_guard infantry_leader } #这些traits也可以在wiki上找到，一般不需要自己定义
+			skill = 4 #将领技能
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = 2200 #不必关心
+		}
+	}
+}
+
+characters = {
+	ROC_ROL_Long_Yun = {
+		name = ROC_ROL_Long_Yun
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ROC/Portrait_ROC_ROL_Long_Yun.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ROC_ROL_Long_Yun_DESC"
+			ideology = paternalism_ROL_xunzheng_subtype
+			traits = {
+
+			}
+		}
+	}
+
+	ROC_ROL_Wang_Shijie = {
+		name = ROC_ROL_Wang_Shijie
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ROC_ROL_Wang_Shijie_hog"
+			}
+		}
+		country_leader = {
+			desc = "ROC_ROL_Wang_Shijie_desc"
+			ideology = conservatism_goken_conservatism_subtype
+			traits = {
+
+			}
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = ROC_ROL_minister_Wang_Shijie_hog
+			allowed = { original_tag = ROC }
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	ROC_ROL_Wei_Daoming = {
+		name = ROC_ROL_Wei_Daoming
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ROC_ROL_Wei_Daoming_for"
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = ROC_ROL_minister_Wei_Daoming_for
+			allowed = { original_tag = ROC }
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	ROC_ROL_Yin_Zhongrong = {
+		name = ROC_ROL_Yin_Zhongrong
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ROC_ROL_Yin_Zhongrong_eco"
+			}
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = ROC_ROL_minister_Yin_Zhongrong_eco
+			allowed = { original_tag = ROC }
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	ROC_ROL_Xue_Yue = {
+		name = ROC_ROL_Xue_Yue
+		portraits = {
+			civilian = {
+				small = "GFX_idea_ROC_ROL_Xue_Yue_sec"
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = ROC_ROL_minister_Xue_Yue_sec
+			allowed = { original_tag = ROC }
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	
+	ROC_ROL_Zhang_Junmai = {
+		name = ROC_ROL_Zhang_Junmai
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIC/Portrait_ROC_ROL_Zhang_Junmai.dds"
+			}
+		}
+		country_leader = {
+			desc = "ROC_ROL_Zhang_Junmai_desc"
+			ideology = progressivism_democratic_socialism_subtype
+			traits = {
+
+			}
+		}
+	}
+	
+	ROC_ROL_Zuo_Shunsheng = {
+		name = ROC_ROL_Zuo_Shunsheng
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIC/Portrait_ROC_ROL_Zuo_Shunsheng.dds"
+			}
+		}
+		country_leader = {
+			desc = "ROC_ROL_Zuo_Shunsheng_desc"
+			ideology = liberalism_progressive_liberalism_subtype
+			traits = {
+
+			}
+		}
+	}
+	
+	ROC_ROL_Chen_Lifu = {
+		name = ROC_ROL_Chen_Lifu
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIC/Portrait_ROC_ROL_Chen_Lifu.dds"
+			}
+		}
+		country_leader = {
+			desc = "ROC_ROL_Chen_Lifu_desc"
+			ideology = despotism_civilian_dictatorship_subtype
+			traits = {
+
+			}
+		}
+	}
+}
