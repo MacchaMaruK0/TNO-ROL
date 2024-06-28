@@ -260,31 +260,21 @@ if = {
 
 add_ideas = {
 	#这里是开局国家精神以及顾问的设定
-	# #Country#
-	ROL_ROC_Do_not_forget_in_JU
-	ROL_ROC_camaraderie
-	ROL_ROC_difficult_modernization
-	ROL_ROC_partisanship
+	#Country#
+	ROL_ROC_betrayal
+	ROL_ROC_China_Airlines
+	ROL_ROC_KMT_orthodoxy
+	ROL_ROC_NRA_still_exists
+	ROL_ROC_rent_reduction
+	ROL_ROC_rip_apart
+	ROL_ROC_the_plum_blossom_remains_the_same
+	ROL_ROC_united_front
 	
-	# Sphere_Core_Member
-	# MAN_GH_Inefficient_Administration
-	# MAN_GH_thorn_in_back
-	# MAN_GH_APDR_Continental_Strategy
-	# MAN_GH_Shield_of_Defense
-	# MAN_GH_Peeping_Eyes
-	# MAN_GH_Flower_in_May
-	# MAN_Chained_To_Rising_Sun
-	# #Ministers
+	#Ministers
 	ROC_ROL_minister_Wang_Shijie_hog
 	ROC_ROL_minister_Wei_Daoming_for
 	ROC_ROL_minister_Yin_Zhongrong_eco
 	ROC_ROL_minister_Xue_Yue_sec
-	# #High Command
-	# MAN_GH_katakura_tadashi_army_chief
-	# MAN_Matsumura_Tomokatsu_high_command
-	# MAN_Kamata_Senichi_high_command
-	# MAN_GH_sejima_ryuzo_high_command
-	# MAN_Inomata_Jinya_theorist
 	#SOCIETAL DEVELOPMENT
 	tno_army_professionalism_cronyism
 	tno_industrial_expertise_experienced

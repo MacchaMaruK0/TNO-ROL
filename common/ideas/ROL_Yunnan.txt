@@ -1,0 +1,67 @@
+ideas = {
+    country = {
+		ROL_ROC_betrayal = { #背叛
+			allowed = { always = no }
+			picture = ROL_ROC_betrayal
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		
+		ROL_ROC_China_Airlines = { #华航
+			allowed = { always = no }
+			picture = ROL_ROC_China_Airlines
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		
+		ROL_ROC_KMT_orthodoxy = { #
+			allowed = { always = no }
+			picture = ROL_ROC_KMT_orthodoxy
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		
+		ROL_ROC_NRA_still_exists = { #
+			allowed = { always = no }
+			picture = ROL_ROC_NRA_still_exists
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		
+		ROL_ROC_rent_reduction = { #
+			allowed = { always = no }
+			picture = ROL_ROC_rent_reduction
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		
+		ROL_ROC_rip_apart = { #
+			allowed = { always = no }
+			picture = ROL_ROC_rip_apart
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		
+		ROL_ROC_the_plum_blossom_remains_the_same = { #
+			allowed = { always = no }
+			picture = ROL_ROC_the_plum_blossom_remains_the_same
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		
+		ROL_ROC_united_front = { #
+			allowed = { always = no }
+			picture = ROL_ROC_united_front
+			removal_cost = -1
+			modifier = {
+			}
+		}
+	}
+}	
