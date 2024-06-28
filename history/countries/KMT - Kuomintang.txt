@@ -1,6 +1,15 @@
 capital = 1302
 
 recruit_character = KMT_ROL_Hu_Zongnan
+recruit_character = KMT_ROL_Teng_Jie
+recruit_character = KMT_ROL_Jiang_Jingguo
+recruit_character = KMT_ROL_Ma_Jiyuan
+recruit_character = KMT_ROL_Zhou_Zhirou
+recruit_character = KMT_ROL_You_Jidui
+
+recruit_character = KMT_ROL_Zheng_Yanfen
+recruit_character = KMT_ROL_Yan_Jiagan
+recruit_character = KMT_ROL_Shen_Zhiyue
 
 set_war_support = 0.80
 set_stability = 1.00
@@ -130,19 +139,21 @@ set_politics = {
 }
 
 set_popularities = {
-	communist = 0
-	ultranationalism = 0
-	socialist = 0
-	progressivism = 0
-	liberalism = 0
-	conservatism = 13
-	paternalism = 16
-	despotism = 71
-	fascism = 0
-	
+	communist = 1
+	paternalism = 17
+	despotism_1 = 5
+	despotism_2 = 14
+	despotism_3 = 18
+	despotism_4 = 45 
 }
 
 add_ideas = {
+    #Ministers
+	KMT_ROL_minister_Jiang_Jingguo_hog
+	KMT_ROL_minister_Zheng_Yanfen_for
+	KMT_ROL_minister_Yan_Jiagan_eco
+	KMT_ROL_minister_Shen_Zhiyue_sec
+	
 	#Political
 	tno_political_parties_one_party_state
 	tno_religious_rights_state_religion

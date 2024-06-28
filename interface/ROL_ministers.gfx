@@ -1,0 +1,41 @@
+#这个文件定义了所有人的小头像
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_MAN_GH_Masahiko_Aoki" #这是在character中规定的GFX命名
+		texturefile = "gfx/interface/ideas/ministers/MAN/MAN_GH_minister_Masahiko_Aoki.dds" #这是GFX对应的文件，文件命名统一为“MAN_GH_minister_人名.dds”
+	}
+	###ROC###
+	spriteType = {
+		name = "GFX_idea_ROC_ROL_Wang_Shijie_hog"
+		textureFile = "gfx/interface/ideas/ministers/ROC/ROC_ROL_minister_Wang_Shijie_hog.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ROC_ROL_Wei_Daoming_for"
+		textureFile = "gfx/interface/ideas/ministers/ROC/ROC_ROL_minister_Wei_Daoming_for.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ROC_ROL_Yin_Zhongrong_eco"
+		textureFile = "gfx/interface/ideas/ministers/ROC/ROC_ROL_minister_Yin_Zhongrong_eco.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ROC_ROL_Xue_Yue_sec"
+		textureFile = "gfx/interface/ideas/ministers/ROC/ROC_ROL_minister_Xue_Yue_sec.dds"
+	}
+	###KMT###
+	spriteType = {
+		name = "GFX_idea_KMT_ROL_Jiang_Jingguo_hog"
+		textureFile = "gfx/interface/ideas/ministers/KMT/KMT_ROL_minister_Jiang_Jingguo_hog.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KMT_ROL_Zheng_Yanfen_for"
+		textureFile = "gfx/interface/ideas/ministers/KMT/KMT_ROL_minister_Zheng_Yanfen_for.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KMT_ROL_Yan_Jiagan_eco"
+		textureFile = "gfx/interface/ideas/ministers/KMT/KMT_ROL_minister_Yan_Jiagan_eco.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KMT_ROL_Shen_Zhiyue_sec"
+		textureFile = "gfx/interface/ideas/ministers/KMT/KMT_ROL_minister_Shen_Zhiyue_sec.dds"
+	}
+}
