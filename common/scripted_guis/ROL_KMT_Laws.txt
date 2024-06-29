@@ -1,0 +1,27 @@
+scripted_gui = {
+    ROL_KMT_assorted_laws_window = {
+		context_type = player_context
+		parent_window_name = "TNO_politics_sidebar_background_window_inner"
+		window_name = "ROL_KMT_assorted_laws_window"
+
+        visible = {
+            check_variable = { tno_opened_laws_category = 100 }
+            tag = MAN
+        }
+ 
+        effects = {
+            close_click = {
+                set_variable = { TNO_category_5_collapse = 2 }
+                clear_variable = tno_opened_laws_category
+            }
+        }
+
+        dynamic_lists = {
+            ROL_KMT_Assorted_Law_Grid = {
+                array = ROL_assorted_laws_display
+                change_scope = no
+                entry_container = TNO_ROL_assorted_laws
+            }
+        }
+    }
+}

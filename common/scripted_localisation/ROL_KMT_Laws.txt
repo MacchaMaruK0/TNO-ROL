@@ -1,0 +1,63 @@
+#  解 释
+# GH_MAN_Assorted_Law_i_j
+# 表示法律 i 的 第 j 次修订版
+#必须同时添加标题 与 描述
+
+###法律标题
+defined_text = {
+	name = GetAssortedLawsROL
+	text = { 
+		trigger = {
+			check_variable = { v = 1 }
+			check_variable = { ROL_KMT_Assorted_Law^1 = 0 } #（修订次 j = 0）
+		}
+		localization_key = ROL_KMT_Assorted_Law_1_0
+	}
+    ###模板
+	#text = {
+		#trigger = {
+			#check_variable = { v = 0 }
+			#check_variable = { ROL_KMT_Assorted_Law^0 = 0 }
+		#}
+		#localization_key = ROL_KMT_Assorted_Law_0_0
+	#}
+    #假如我想添加一个法律， 那么请给法律一个特定的序号，例如114514 （我建议顺号下来)
+    #然后修改
+	#text = {
+		#trigger = {
+			#check_variable = { v = 114514 } # ← 这个数字修改了
+			#check_variable = { ROL_KMT_Assorted_Law^114514 = 0 } # ← 这个在 ^ 后面的数字修改了
+		#}
+		#localization_key = ROL_KMT_Assorted_Law_114514_0 # ← 这个数字修改了
+	#}
+    
+}
+
+###法律描述
+defined_text = {
+	name = GetAssortedLawsROL_desc
+	text = { 
+		trigger = {
+			check_variable = { v = 1 }
+			check_variable = { ROL_KMT_Assorted_Law^1 = 0 } #（修订次 j = 0）
+		}
+		localization_key = ROL_KMT_Assorted_Law_1_0_desc
+	}
+    ###模板
+	#text = {
+		#trigger = {
+			#check_variable = { v = 0 }
+			#check_variable = { ROL_KMT_Assorted_Law^0 = 0 }
+		#}
+		#localization_key = ROL_KMT_Assorted_Law_0_0_desc
+	}
+    #假如我想添加一个法律， 那么请给法律一个特定的序号，例如114514 （我建议顺号下来)
+    #然后修改
+	#text = {
+		#trigger = {
+			#check_variable = { v = 114514 } # ← 这个数字修改了
+			#check_variable = { ROL_KMT_Assorted_Law^114514 = 0 } # ← 这个在 ^ 后面的数字修改了
+		#}
+		#localization_key = ROL_KMT_Assorted_Law_115414_0_desc # ← 这个数字修改了
+	#}
+}

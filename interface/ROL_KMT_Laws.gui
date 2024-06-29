@@ -1,0 +1,88 @@
+guiTypes = { 
+	containerWindowType = {
+		name = "ROL_KMT_assorted_laws_window"
+		size = { width = 730 height = 100%% }
+		hide_position = { x = -1000 y = 80 }
+		show_position = { x = 540 y = 80 }
+		hide_animation_type = accelerated
+		show_animation_type = decelerated
+		animation_time = 350
+		smooth_scrolling = 0.25
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_plain_grey"
+		}
+
+		instantTextboxType = {
+			name = "title"
+			position = { x = 16 y = 9 }
+			font = "Bomb_36"
+			text = "tno_assorted_laws"
+			maxWidth = 450
+			maxHeight = 30
+			format = left
+		}
+
+		
+		containerWindowType = {
+			name = "grid_contrainer"
+			position = { x = 0 y = 50 }
+			size = { width = 730 height = 100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width = 718 height = -4 }
+				verticalScrollbar = "right_vertical_slider_tno_laws_2"
+				margin = { top = 13 bottom = 10 }
+
+				gridBoxType = {
+					name = "ROL_KMT_Assorted_Law_Grid"
+					slotsize = { width = 330 height = 94 }
+					position = { x = 189 y = 15 }
+					max_slots_horizontal = 2
+				}
+
+				background = {
+					name = "Background"
+					quadTextureSprite = "GFX_tiled_window_1b_no_border"
+				}
+			}
+		}
+
+		buttonType = {
+			name = "close"
+			position = { x = -39 y = 8 }
+			quadTextureSprite = "GFX_tno_close_button"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+	containerWindowType = {
+		name = "TNO_ROL_assorted_laws"
+
+		iconType = {
+			name = "rectangle"
+			spriteType = "GFX_assorted_laws_rectangle"
+			alwaystransparent = yes
+			position = { x = 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		instantTextboxType = {
+			name = "law_name"
+			position = { x = 0 y = 0 }
+			font = "aldrich_24_outline"
+			text = [GetAssortedLawsGH]
+			maxWidth = 320
+			format = center
+			maxHeight = 84
+			vertical_alignment = center
+			text_color_code = W
+			pdx_tooltip = "ROL_KMT_get_law_tooltip"
+		}
+	}
+}

@@ -1,0 +1,39 @@
+##################
+# 杂  项  法  律 #
+##################
+misc_law_ROL_KMT_startup = {
+	clear_array = ROL_assorted_laws_display
+	add_to_array = { ROL_assorted_laws_display = 1 }
+	set_variable = { ROL_KMT_Assorted_Law^1 = 0 } 
+	add_to_array = { ROL_assorted_laws_display = 2 }
+	set_variable = { ROL_KMT_Assorted_Law^2 = 0 }
+	add_to_array = { ROL_assorted_laws_display = 3 }
+	set_variable = { ROL_KMT_Assorted_Law^3 = 0 }
+}
+#添加法律样例
+#控制台输入 “ e ROL_add_misc_law_sample_effect ”
+ROL_add_misc_law_sample_effect = {
+    #添加一个序号为114514的法律
+    
+    #
+	add_to_array = { ROL_assorted_laws_display = 114514 }
+	set_variable = { ROL_KMT_Assorted_Law^114514 = 0 } 
+    #
+
+    #两个井号之间的内容可以放在决议效果，国策效果，事件效果等其他地方
+
+    #紧接着你必须转到common\scripter_localisation\ROL_KMT_Laws.txt 进行下一步操作
+}
+
+#修订法律样例
+#控制台输入 “ e ROL_revise_misc_law_sample_effect ”
+ROL_revise_misc_law_sample_effect = {
+    #把序号为1的法律修订为 第1版  （原版为0）
+
+    #
+	set_variable = { ROL_KMT_Assorted_Law^1 = 1 } 
+    #
+
+    #两个井号之间的内容可以放在决议效果，国策效果，事件效果等其他地方
+    #紧接着你必须转到common\scripter_localisation\ROL_KMT_Laws.txt 进行下一步操作
+}
