@@ -16,7 +16,7 @@ ideas = {
 			}
 		}
 		
-		ROL_ROC_KMT_orthodoxy = { #
+		ROL_ROC_KMT_orthodoxy = { #党统
 			allowed = { always = no }
 			picture = ROL_ROC_KMT_orthodoxy
 			removal_cost = -1
@@ -24,7 +24,7 @@ ideas = {
 			}
 		}
 		
-		ROL_ROC_NRA_still_exists = { #
+		ROL_ROC_NRA_still_exists = { #干城
 			allowed = { always = no }
 			picture = ROL_ROC_NRA_still_exists
 			removal_cost = -1
@@ -32,7 +32,7 @@ ideas = {
 			}
 		}
 		
-		ROL_ROC_rent_reduction = { #
+		ROL_ROC_rent_reduction = { #减租
 			allowed = { always = no }
 			picture = ROL_ROC_rent_reduction
 			removal_cost = -1
@@ -40,7 +40,7 @@ ideas = {
 			}
 		}
 		
-		ROL_ROC_rip_apart = { #
+		ROL_ROC_rip_apart = { #撕裂
 			allowed = { always = no }
 			picture = ROL_ROC_rip_apart
 			removal_cost = -1
@@ -48,7 +48,7 @@ ideas = {
 			}
 		}
 		
-		ROL_ROC_the_plum_blossom_remains_the_same = { #
+		ROL_ROC_the_plum_blossom_remains_the_same = { #梅花
 			allowed = { always = no }
 			picture = ROL_ROC_the_plum_blossom_remains_the_same
 			removal_cost = -1
@@ -56,7 +56,7 @@ ideas = {
 			}
 		}
 		
-		ROL_ROC_united_front = { #
+		ROL_ROC_united_front = { #统战
 			allowed = { always = no }
 			picture = ROL_ROC_united_front
 			removal_cost = -1

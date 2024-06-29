@@ -35,7 +35,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/ideas/ministers/KMT/KMT_ROL_minister_Yan_Jiagan_eco.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_KMT_ROL_Shen_Zhiyue_sec"
-		textureFile = "gfx/interface/ideas/ministers/KMT/KMT_ROL_minister_Shen_Zhiyue_sec.dds"
+		name = "GFX_idea_KMT_ROL_Chen_Daqing_sec"
+		textureFile = "gfx/interface/ideas/ministers/KMT/KMT_ROL_minister_Chen_Daqing_sec.dds"
 	}
 }
