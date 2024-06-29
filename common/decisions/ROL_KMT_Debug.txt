@@ -5,7 +5,10 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用GH_国�
 		days_re_enable = 0
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision ROL_KMT_Teng_Jie_dec"
-			promote_character = KMT_ROL_Teng_Jie
+			promote_character = {
+				character = KMT_ROL_Teng_Jie
+				ideology = despotism_military_vanguard_subtype
+			}
 			remove_all_ministers = yes
 		}
 	}
@@ -15,7 +18,10 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用GH_国�
 		days_re_enable = 0
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision KMT_ROL_Luo_Lie_1_dec"
-			promote_character = KMT_ROL_Luo_Lie_1
+			promote_character = {
+				character = KMT_ROL_Luo_Lie
+				ideology = despotism_military_junta_subtype
+			}
 			remove_all_ministers = yes
 		}
 	}
@@ -26,7 +32,20 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用GH_国�
 		days_re_enable = 0
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision KMT_ROL_Luo_Lie_2_dec"
-			promote_character = KMT_ROL_Luo_Lie_2
+			effect_tooltip = {
+				promote_character = {
+					character = KMT_ROL_Luo_Lie
+					ideology = despotism_military_junta_subtype
+				}
+			}
+			KMT_ROL_Luo_Lie = {
+				set_portraits = {
+					civilian = {
+						large = "gfx/leaders/KMT/Portrait_KMT_ROL_Luo_Lie_2.dds"
+					}
+				}
+			}
+
 			remove_all_ministers = yes
 		}
 	}
