@@ -10,6 +10,8 @@ recruit_character = KMT_ROL_You_Jidui
 recruit_character = KMT_ROL_Zhang_Zhizhong
 recruit_character = KMT_ROL_Yan_Jiagan
 recruit_character = KMT_ROL_Chen_Daqing
+recruit_character = KMT_ROL_Luo_Lie
+
 
 set_war_support = 0.80
 set_stability = 1.00

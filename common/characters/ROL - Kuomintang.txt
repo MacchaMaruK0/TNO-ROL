@@ -171,8 +171,8 @@ characters = {
 		}
 	}
 	
-	KMT_ROL_Luo_Lie_1 = { #罗列1
-		name = KMT_ROL_Zhou_Zhirou
+	KMT_ROL_Luo_Lie = { #罗列1
+		name = KMT_ROL_Luo_Lie
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Luo_Lie_1.dds"
@@ -183,10 +183,15 @@ characters = {
 			expire = "1994.4.20"
 			ideology = paternalism_1_subtype
 		}
+		country_leader = {
+			desc = ""
+			expire = "1994.4.20"
+			ideology = despotism_military_junta_subtype
+		}
 	}
 	
 	KMT_ROL_Luo_Lie_2 = { #罗列2
-		name = KMT_ROL_Zhou_Zhirou
+		name = KMT_ROL_Luo_Lie
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Luo_Lie_2.dds"
