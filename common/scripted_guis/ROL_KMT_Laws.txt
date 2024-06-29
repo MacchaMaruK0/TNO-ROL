@@ -6,7 +6,7 @@ scripted_gui = {
 
         visible = {
             check_variable = { tno_opened_laws_category = 100 }
-            tag = MAN
+            tag = KMT
         }
  
         effects = {
