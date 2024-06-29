@@ -15,16 +15,41 @@ characters = {
 		}
 	}
 	
-	KMT_ROL_Jiang_Jingguo = {
-		name = KMT_ROL_Jiang_Jingguo  #蒋经国
+	KMT_ROL_Zhang_Zhizhong = {
+		name = KMT_ROL_Zhang_Zhizhong  #张治中
 		portraits = {
 			civilian = {
-				small = "GFX_idea_KMT_ROL_Jiang_Jingguo_hog"
+				small = "GFX_idea_KMT_ROL_Zhang_Zhizhong_hog"
 			}
 		}
 		advisor = {
 			slot = head_of_government
-			idea_token = KMT_ROL_minister_Jiang_Jingguo_hog
+			idea_token = KMT_ROL_minister_Zhang_Zhizhong_hog
+			allowed = { original_tag = KMT }
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+		country_leader = {
+			desc = "POLITICS_ZHANG_ZHIZHONG_DESC"
+			expire = "2000.1.1"
+			ideology = paternalism_authoritarian_developmentalism_subtype
+			traits = { }
+			id = -1
+		}
+	}
+	
+	KMT_ROL_Jiang_Jingguo = {
+		name = KMT_ROL_Jiang_Jingguo  #蒋经国
+		portraits = {
+			civilian = {
+				small = "GFX_idea_KMT_ROL_Jiang_Jingguo_for"
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = KMT_ROL_minister_Jiang_Jingguo_for
 			allowed = { original_tag = KMT }
 			ledger = civilian
 			cost = -1
@@ -37,24 +62,6 @@ characters = {
 			ideology = paternalism_authoritarian_developmentalism_subtype
 			traits = { }
 			id = -1
-		}
-	}
-
-	KMT_ROL_Zheng_Yanfen = {
-		name = KMT_ROL_Zheng_Yanfen  #郑彦棻
-		portraits = {
-			civilian = {
-				small = "GFX_idea_KMT_ROL_Zheng_Yanfen_for"
-			}
-		}
-		advisor = {
-			slot = foreign_minister
-			idea_token = KMT_ROL_minister_Zheng_Yanfen_for
-			allowed = { original_tag = KMT }
-			ledger = civilian
-			cost = -1
-			can_be_fired = no
-			ai_will_do = { factor = 0 }
 		}
 	}
 
