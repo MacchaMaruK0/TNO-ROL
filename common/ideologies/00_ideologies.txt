@@ -199,6 +199,7 @@ ideologies = {
 			despotism_managerial_state_subtype = { can_be_randomly_selected = no }
 			despotism_institutional_despotism_subtype = { can_be_randomly_selected = no }
 			despotism_aristocratic_republicanism_subtype = { can_be_randomly_selected = no }
+			despotism_military_vanguard_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 65 65 65 }

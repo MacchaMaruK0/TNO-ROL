@@ -144,7 +144,7 @@ set_popularities = {
 	paternalism_1 = 17
 	despotism_1 = 5
 	despotism_3 = 18
-	despotism_4 = 45 
+	despotism = 45 
 }
 
 add_ideas = {

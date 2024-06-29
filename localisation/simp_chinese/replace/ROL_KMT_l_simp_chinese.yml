@@ -4,12 +4,19 @@
  KMT_despotism_DEF:0 "中华民国西北行辕"
 
  ###党派
- ROC_despotism_party:0 "国民党"
- ROC_despotism_party_long:0 "国民党"
- ROC_communist_party:0 "中共游击队"
- ROC_communist_party_long:0 "中共游击队"
- ROC_fascism_party:0 "三民主义青年团"
- ROC_fascism_party_long:0 "三民主义青年团"
+ KMT_despotism_party:0 "西北行辕"
+ KMT_despotism_party_long:0 "西北行辕"
+ KMT_communist_party:0 "中共游击队"
+ KMT_communist_party_long:0 "中共游击队"
+ KMT_paternalism_party:0 "国民党-青年军系"
+ KMT_paternalism_party_long:0 "国民党-青年军系"
+ KMT_paternalism_1_party:0 "国民党-土木系"
+ KMT_paternalism_1_party_long:0 "国民党-土木系"
+ KMT_despotism_1_party:0 "国民党-马家军"
+ KMT_despotism_1_party_long:0 "国民党-马家军"
+ KMT_despotism_3_party:0 "国民党-力行社"
+ KMT_despotism_3_party_long:0 "国民党-三民主义力行社"
+ 
 
  #人物
  KMT_ROL_Hu_Zongnan:0 "胡宗南"

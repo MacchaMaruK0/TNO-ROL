@@ -119,10 +119,15 @@ characters = {
 		}
 		country_leader = {
 			desc = "KMT_ROL_Teng_Jie_desc"
-			ideology = despotism_personalistic_dictatorship_subtype
+			ideology = despotism_military_vanguard_subtype
 			traits = {
 
 			}
+		}
+		country_leader = {
+			desc = ""
+			expire = "1994.4.20"
+			ideology = despotism_3_subtype
 		}
 	}
 	KMT_ROL_Ma_Jiyuan = {
@@ -138,6 +143,11 @@ characters = {
 			traits = {
 
 			}
+		}
+		country_leader = {
+			desc = ""
+			expire = "1994.4.20"
+			ideology = despotism_1_subtype
 		}
 	}
 	KMT_ROL_Zhou_Zhirou = {
