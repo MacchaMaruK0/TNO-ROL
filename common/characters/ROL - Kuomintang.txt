@@ -118,7 +118,7 @@ characters = {
 	}
 	
 	KMT_ROL_Teng_Jie = {
-		name = KMT_ROL_Teng_Jie
+		name = KMT_ROL_Teng_Jie #滕杰
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Teng_Jie.dds"
@@ -138,7 +138,7 @@ characters = {
 		}
 	}
 	KMT_ROL_Ma_Jiyuan = {
-		name = KMT_ROL_Ma_Jiyuan
+		name = KMT_ROL_Ma_Jiyuan #马继援
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Ma_Jiyuan.dds"
@@ -157,11 +157,39 @@ characters = {
 			ideology = despotism_1_subtype
 		}
 	}
-	KMT_ROL_Zhou_Zhirou = {
+	KMT_ROL_Zhou_Zhirou = { #周至柔
 		name = KMT_ROL_Zhou_Zhirou
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Zhou_Zhirou.dds"
+			}
+		}
+		country_leader = {
+			desc = ""
+			expire = "1994.4.20"
+			ideology = paternalism_1_subtype
+		}
+	}
+	
+	KMT_ROL_Luo_Lie_1 = { #罗列1
+		name = KMT_ROL_Zhou_Zhirou
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Luo_Lie_1.dds"
+			}
+		}
+		country_leader = {
+			desc = ""
+			expire = "1994.4.20"
+			ideology = paternalism_1_subtype
+		}
+	}
+	
+	KMT_ROL_Luo_Lie_2 = { #罗列2
+		name = KMT_ROL_Zhou_Zhirou
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Luo_Lie_2.dds"
 			}
 		}
 		country_leader = {
