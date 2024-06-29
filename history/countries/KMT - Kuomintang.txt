@@ -9,7 +9,7 @@ recruit_character = KMT_ROL_You_Jidui
 
 recruit_character = KMT_ROL_Zheng_Yanfen
 recruit_character = KMT_ROL_Yan_Jiagan
-recruit_character = KMT_ROL_Shen_Zhiyue
+recruit_character = KMT_ROL_Chen_Daqing
 
 set_war_support = 0.80
 set_stability = 1.00
@@ -152,7 +152,7 @@ add_ideas = {
 	KMT_ROL_minister_Jiang_Jingguo_hog
 	KMT_ROL_minister_Zheng_Yanfen_for
 	KMT_ROL_minister_Yan_Jiagan_eco
-	KMT_ROL_minister_Shen_Zhiyue_sec
+	KMT_ROL_minister_Chen_Daqing_sec
 	
 	#Political
 	tno_political_parties_one_party_state
