@@ -1,6 +1,6 @@
 spriteTypes = {
 	spriteType = {
 		name = "GFX_ROL_texticon_CS"
-		texturefile = "gfx/interface/ROL_texticon_CS.dds"
+		texturefile = "gfx/interface/texticon/ROL_texticon_CS.dds"
 	}
 }

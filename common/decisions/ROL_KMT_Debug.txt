@@ -32,11 +32,9 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用GH_国�
 		days_re_enable = 0
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision KMT_ROL_Luo_Lie_2_dec"
-			effect_tooltip = {
-				promote_character = {
-					character = KMT_ROL_Luo_Lie
-					ideology = despotism_military_junta_subtype
-				}
+			promote_character = {
+				character = KMT_ROL_Luo_Lie
+				ideology = despotism_military_junta_subtype
 			}
 			KMT_ROL_Luo_Lie = {
 				set_portraits = {

@@ -76,7 +76,7 @@ guiTypes = {
 			name = "law_name"
 			position = { x = 0 y = 0 }
 			font = "aldrich_24_outline"
-			text = [GetAssortedLawsGH]
+			text = [GetAssortedLawsROL]
 			maxWidth = 320
 			format = center
 			maxHeight = 84
