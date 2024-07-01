@@ -1,52 +1,59 @@
 ideas = {
-    country = {
-		ROL_KMT_Amidst_the_skies_of_the_sun = { #众日凌空
-			allowed = { always = no }
-			picture = ROL_KMT_Amidst_the_skies_of_the_sun
+	country = {
+		ROL_KMT_Amidst_the_skies_of_the_sun = {
+			#众日凌空
+			allowed = {
+				always = yes
+			}
+			picture = ROL_ROC_the_plum_blossom_remains_the_same
 			removal_cost = -1
 			modifier = {
-			stability_factor = -0.15
-			admin_program_cost_factor = -0.10
-			max_planning_factor = -0.3
+				stability_factor = -0.15
+				admin_program_cost_factor = -0.1
+				max_planning_factor = -0.3
 			}
 		}
-		
-		ROL_KMT_Protect_revival_base = { #拱卫复兴基地
-			allowed = { always = no }
-			picture = ROL_KMT_Protect_revival_base
+		ROL_KMT_Protect_revival_base = {
+			#拱卫复兴基地
+			allowed = {
+				always = no
+			}
+			picture = ROL_ROC_the_plum_blossom_remains_the_same
 			removal_cost = -1
 			modifier = {
-			stability_factor = -0.15
-			war_support_factor = 0.15
-			conscription_factor = 0.10
-			army_core_attack_factor = 0.15
+				stability_factor = -0.15
+				war_support_factor = 0.15
+				conscription_factor = 0.1
+				army_core_attack_factor = 0.15
 			}
 		}
-		
-		ROL_KMT_heteronomy = { #受制于人
-			allowed = { always = no }
-			picture = ROL_KMT_heteronomy
+		ROL_KMT_heteronomy = {
+			#受制于人
+			allowed = {
+				always = no
+			}
+			picture = ROL_ROC_the_plum_blossom_remains_the_same
 			removal_cost = -1
 			modifier = {
-			custom_modifier_tooltip = ROL_KMT_heteronomy_tt
-			attrition = 0.10
-			political_power_gain = -0.20
-			army_morale_factor = -0.15
+				custom_modifier_tooltip = ROL_KMT_heteronomy_tt
+				attrition = 0.1
+				political_power_gain = -0.2
+				army_morale_factor = -0.15
 			}
 		}
-		
-		ROL_KMT_Economic_helmsman = { #经济舵手
-			allowed = { always = no }
-			picture = ROL_KMT_Economic_helmsman
+		ROL_KMT_Economic_helmsman = {
+			#经济舵手
+			allowed = {
+				always = no
+			}
+			picture = ROL_ROC_the_plum_blossom_remains_the_same
 			removal_cost = -1
 			modifier = {
-			consumer_goods_use_modifier = -0.05
-			monthly_credit_rating_progress = 0.5
-			gdp_growth_modifier = 0.05
-			production_units_to_GDP_ratio_modifier = 0.05
+				consumer_goods_use_modifier = -0.05
+				monthly_credit_rating_progress = 0.5
+				gdp_growth_modifier = 0.05
+				production_units_to_GDP_ratio_modifier = 0.05
 			}
 		}
 	}
-}	
-
-
+}
