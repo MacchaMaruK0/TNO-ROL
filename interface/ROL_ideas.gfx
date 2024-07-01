@@ -5,6 +5,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/national_spirits/MAN/MAN_GH_APDR_Continental_Strategy.dds" #这是GFX对应的文件，文件命名统一为“MAN_GH_minister_人名.dds”
 	}
 	spriteType = {
+		name = "GFX_idea_ROL_KMT_Amidst_the_skies_of_the_sun"
+		textureFile = "gfx/interface/ideas/national_spirits/KMT/ROL_KMT_Amidst_the_skies_of_the_sun.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ROL_KMT_Protect_revival_base"
+		textureFile = "gfx/interface/ideas/national_spirits/KMT/ROL_KMT_Protect_revival_base.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ROL_KMT_heteronomy"
+		textureFile = "gfx/interface/ideas/national_spirits/KMT/ROL_KMT_heteronomy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ROL_KMT_Economic_helmsman"
+		textureFile = "gfx/interface/ideas/national_spirits/KMT/ROL_KMT_Economic_helmsman.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_ROL_ROC_the_plum_blossom_remains_the_same"
 		textureFile = "gfx/interface/ideas/national_spirits/ROC/ROL_ROC_the_plum_blossom_remains_the_same.dds"
 	}
