@@ -1,0 +1,87 @@
+#这个文件定义了选主任决议的素材
+spriteTypes = {
+	spriteType = {
+		name = GFX_ROL_KMT_background_empty  #空圆模板
+		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_background_empty.dds"
+	}
+	
+	spriteType = {
+		name = GFX_ROL_KMT_He_Zhonghan_icon  #贺衷寒人头
+		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_He_Zhonghan_icon.dds"
+	}
+	
+	spriteType = {
+		name = GFX_ROL_KMT_He_Zhonghan_support_bill_empty  #贺衷寒支持率空
+		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_He_Zhonghan_support_bill_empty.dds"
+	}
+	
+	spriteType = {
+		name = GFX_ROL_KMT_He_Zhonghan_support_bill_full  #贺衷寒支持率满
+		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_He_Zhonghan_support_bill_full.dds"
+	}
+	
+	spriteType = {
+		name = GFX_ROL_KMT_Lixing_unit_bill_empty  #力行社团结度空
+		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_Lixing_unit_bill_empty.dds"
+	}
+	
+	spriteType = {
+		name = GFX_ROL_KMT_Lixing_unit_bill_full  #力行社团结度满
+		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_Lixing_unit_bill_full.dds"
+	}
+	
+	spriteType = {
+		name = GFX_ROL_KMT_ROC_intervene_empty  #中央干预度空
+		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_ROC_intervene_empty.dds"
+	}
+	
+	spriteType = {
+		name = GFX_ROL_KMT_ROC_intervene_full  #中央干预度满
+		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_ROC_intervene_full.dds"
+	}
+	
+	spriteType = {
+		name = GFX_ROL_KMT_Tppcorps_support_bill_empty  #三青团支持率空
+		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_Tppcorps_support_bill_empty.dds"
+	}
+	
+	spriteType = {
+		name = GFX_ROL_KMT_Tppcorps_support_bill_full  #三青团支持率满
+		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_Tppcorps_support_bill_full.dds"
+	}
+	
+	spriteType = {
+		name = GFX_ROL_KMT_TUMU_support_bill_empty  #土木系支持率空
+		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_TUMU_support_bill_empty.dds"
+	}
+	
+	spriteType = {
+		name = GFX_ROL_KMT_TUMU_support_bill_full  #土木系支持率满
+		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_TUMU_support_bill_full.dds"
+	}
+	
+	spriteType = {
+		name = GFX_ROL_KMT_Youtharmy_support_bill_empty  #青年军支持率空
+		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_Youtharmy_support_bill_empty.dds"
+	}
+	
+	spriteType = {
+		name = GFX_ROL_KMT_Youtharmy_support_bill_full  #青年军支持率满
+		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_Youtharmy_support_bill_full.dds"
+	}
+	
+	spriteType = {
+		name = GFX_ROL_KMT_Zhang_Zhizhong_icon  #张治中人头
+		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_Zhang_Zhizhong_icon.dds"
+	}
+	
+	spriteType = {
+		name = GFX_ROL_KMT_Zhang_Zhizhong_support_bill_full  #张治中支持率满
+		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_Zhang_Zhizhong_support_bill_full.dds"
+	}
+	
+	spriteType = {
+		name = GFX_ROL_KMT_Zhang_Zhizhong_support_bill_full  #张治中支持率空
+		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_Zhang_Zhizhong_support_bill_full.dds"
+	}
+}	
