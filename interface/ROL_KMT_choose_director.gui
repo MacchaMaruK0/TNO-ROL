@@ -1,0 +1,20 @@
+guiTypes = {    
+    containerWindowType = {
+        name = "ROL_KMT_Choose_Director_ui"
+        size = { width = 482 height = 150 }
+        # position = { x = -100 y = -379 }
+        iconType = {
+			name = "ROL_KMT_infor"
+			position = { x = 394 y = -65 }
+			spriteType = "GFX_Burgundy_GUI_Info_Button"
+			pdx_tooltip = ROL_KMT_Choose_Director_info
+		}
+        iconType = { 
+            name = "ROL_KMT_background_empty"
+            position = { x = 5 y = 4 } 
+            ######alwaystransparent = yes
+            spriteType = "GFX_ROL_KMT_background_empty"
+            #pdx_tooltip = ROL_KMT_background_putinto_txt
+        }
+	}
+}		

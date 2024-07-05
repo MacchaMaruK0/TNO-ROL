@@ -1,0 +1,3 @@
+ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使用GH_国名_决议内容.txt命名
+     
+}
