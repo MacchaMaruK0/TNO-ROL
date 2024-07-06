@@ -5,7 +5,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
-			picture = ROL_ROC_the_plum_blossom_remains_the_same
+			picture = ROL_KMT_Amidst_the_skies_of_the_sun
 			removal_cost = -1
 			modifier = {
 				stability_factor = -0.15
@@ -18,7 +18,7 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			picture = ROL_ROC_the_plum_blossom_remains_the_same
+			picture = ROL_KMT_Protect_revival_base
 			removal_cost = -1
 			modifier = {
 				stability_factor = -0.15
@@ -32,7 +32,7 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			picture = ROL_ROC_the_plum_blossom_remains_the_same
+			picture = ROL_KMT_heteronomy
 			removal_cost = -1
 			modifier = {
 				custom_modifier_tooltip = ROL_KMT_heteronomy_tt
@@ -46,7 +46,7 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			picture = ROL_ROC_the_plum_blossom_remains_the_same
+			picture = ROL_KMT_Economic_helmsman
 			removal_cost = -1
 			modifier = {
 				consumer_goods_use_modifier = -0.05
