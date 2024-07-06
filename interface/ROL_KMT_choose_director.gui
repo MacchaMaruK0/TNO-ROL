@@ -1,8 +1,7 @@
 guiTypes = {    
     containerWindowType = {
         name = "ROL_KMT_Choose_Director_ui"
-        size = { width = 482 height = 150 }
-        # position = { x = -100 y = -379 }
+        size = { width = 800 height = 600 }
         iconType = {
 			name = "ROL_KMT_infor"
 			position = { x = 394 y = -65 }
@@ -11,8 +10,7 @@ guiTypes = {
 		}
         iconType = { 
             name = "ROL_KMT_background_empty"
-            position = { x = 5 y = 4 } 
-            ######alwaystransparent = yes
+            position = { x = 30 y = 50 } 
             spriteType = "GFX_ROL_KMT_background_empty"
             #pdx_tooltip = ROL_KMT_background_putinto_txt
         }
