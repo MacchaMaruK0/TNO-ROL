@@ -18,10 +18,10 @@ ROL_KMT_Choose_Director_Category = {   ###选主任
 	}
 	visible = {
 		OR = {
-		has_country_flag = choose_director_start
-		is_debug = yes
+			has_country_flag = choose_director_start
+			is_debug = yes
 		}
 	}
-	scripted_gui = ROL_KMT_Choose_Director_ui
+	scripted_gui = ROL_KMT_Choose_Director_ui_window
 	visible_when_empty = yes
 }
