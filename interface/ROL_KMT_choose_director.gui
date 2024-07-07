@@ -14,5 +14,11 @@ guiTypes = {
             spriteType = "GFX_ROL_KMT_background_empty"
             #pdx_tooltip = ROL_KMT_background_putinto_txt
         }
+		iconType = { 
+            name = "ROL_KMT_ROC_intervene_empty"
+            position = { x = 30 y = 50 } 
+            spriteType = "GFX_ROL_KMT_ROC_intervene_empty"
+            #pdx_tooltip = ROL_KMT_background_putinto_txt
+        }
 	}
 }		
