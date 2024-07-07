@@ -14,5 +14,10 @@ scripted_gui = {
         dynamic_lists = {
 
         }
+		properties = {
+			ROL_KMT_ROC_intervene = {
+				frame = ROL_KMT_ROC_intervene_points
+			}
+		}
     }
 }
