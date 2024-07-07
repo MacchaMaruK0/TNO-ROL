@@ -11,7 +11,7 @@ guiTypes = {
 		iconType = { 
             name = "ROL_KMT_ROC_intervene"
             position = { x = 30 y = 50 } 
-            spriteType = "GFX_ROL_KMT_ROC_intervene_empty"
+            spriteType = "GFX_ROL_KMT_ROC_intervene"
         }
 		iconType = { 
             name = "ROL_KMT_He_Zhonghan_icon"
