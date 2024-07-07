@@ -1,8 +1,8 @@
 #这个文件定义了选主任决议的素材
 spriteTypes = {
 	spriteType = {
-		name = GFX_ROL_KMT_background_empty  #空圆模板
-		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_background_empty.dds"
+		name = GFX_ROL_KMT_fuck_the_bug  #空圆模板
+		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_fuck_the_bug.dds"
 	}
 	
 	spriteType = {
@@ -30,16 +30,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_Lixing_unit_bill_full.dds"
 	}
 	
-	spriteType = {
-		name = GFX_ROL_KMT_ROC_intervene_empty  #中央干预度空
-		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_ROC_intervene_empty.dds"
+	progressbartype = {
+		name = "GFX_ROL_KMT_ROC_intervene"
+		textureFile1 = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_ROC_intervene_empty.dds"
+		textureFile2 = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_ROC_intervene_full.dds"
+		size = { x = 428 y = 344 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
 	}
-	
-	spriteType = {
-		name = GFX_ROL_KMT_ROC_intervene_full  #中央干预度满
-		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_ROC_intervene_full.dds"
-	}
-	
+
 	spriteType = {
 		name = GFX_ROL_KMT_Tppcorps_support_bill_empty  #三青团支持率空
 		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_Tppcorps_support_bill_empty.dds"

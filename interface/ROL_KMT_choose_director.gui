@@ -1,24 +1,33 @@
 guiTypes = {    
     containerWindowType = {
         name = "ROL_KMT_Choose_Director_ui"
-        size = { width = 800 height = 600 }
+        size = { width = 600 height = 500 }
         iconType = {
 			name = "ROL_KMT_infor"
 			position = { x = 394 y = -65 }
 			spriteType = "GFX_Burgundy_GUI_Info_Button"
 			pdx_tooltip = ROL_KMT_Choose_Director_info
 		}
-        iconType = { 
-            name = "ROL_KMT_background_empty"
-            position = { x = 30 y = 50 } 
-            spriteType = "GFX_ROL_KMT_background_empty"
-            #pdx_tooltip = ROL_KMT_background_putinto_txt
-        }
 		iconType = { 
-            name = "ROL_KMT_ROC_intervene_empty"
+            name = "ROL_KMT_ROC_intervene"
             position = { x = 30 y = 50 } 
             spriteType = "GFX_ROL_KMT_ROC_intervene_empty"
-            #pdx_tooltip = ROL_KMT_background_putinto_txt
+        }
+		iconType = { 
+            name = "ROL_KMT_He_Zhonghan_icon"
+            position = { x = 245 y = 68 } 
+            spriteType = "GFX_ROL_KMT_He_Zhonghan_icon"
+        }
+		iconType = { 
+            name = "ROL_KMT_Zhang_Zhizhong_icon"
+            position = { x = 118 y = 68 } 
+            spriteType = "GFX_ROL_KMT_Zhang_Zhizhong_icon"
+        }
+		iconType = { 
+            name = "ROL_KMT_fuck_the_bug"
+            position = { x = 84 y = 38 } 
+            spriteType = "GFX_ROL_KMT_fuck_the_bug"
+			alwaystransparent = yes
         }
 	}
 }		

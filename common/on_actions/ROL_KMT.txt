@@ -2,6 +2,9 @@ on_actions = { #
 	on_startup = {
 		effect = {
 			KMT = {
+			    set_variable = {
+					ROL_KMT_ROC_intervene_points = 50
+				}
 
 				##杂项法律
 				misc_law_ROL_KMT_startup = yes

@@ -23,5 +23,6 @@ ROL_KMT_Choose_Director_Category = {   ###选主任
 		}
 	}
 	scripted_gui = ROL_KMT_Choose_Director_ui_window
+	priority = 0
 	visible_when_empty = yes
 }

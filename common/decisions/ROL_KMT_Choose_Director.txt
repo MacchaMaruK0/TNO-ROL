@@ -1,15 +1,2 @@
 ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使用GH_国名_决议内容.txt命名
-     ROL_KMT_Teng_Jie_dec = {
-		cost = 0
-		fire_only_once = no
-		days_re_enable = 0
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision ROL_KMT_Teng_Jie_dec"
-			promote_character = {
-				character = KMT_ROL_Teng_Jie
-				ideology = despotism_military_vanguard_subtype
-			}
-			remove_all_ministers = yes
-		}
-	}
 }

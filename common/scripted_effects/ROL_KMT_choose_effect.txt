@@ -1,0 +1,30 @@
+ROL_KMT_add_ROC_intervene = {
+    #增加干预度
+    add_to_variable = {
+        var = ROL_KMT_ROC_intervene_points #干预度变量
+        value = ROL_KMT_ROC_intervene_points_temp #改变干预度的变量
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_ROC_intervene_points_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_ROC_intervene_points_temp = -1
+        }
+        custom_effect_tooltip = ROL_KMT_ROC_intervene_points_decrease_tt
+    }
+    else = {
+        custom_effect_tooltip = ROL_KMT_ROC_intervene_points_increase_tt
+    }
+    ######
+    clear_variable = ROL_KMT_ROC_intervene_points_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_ROC_intervene_points
+		min = 1
+		max = 100
+	}
+}
