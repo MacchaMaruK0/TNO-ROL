@@ -15,7 +15,7 @@ scripted_gui = {
 
         }
 		properties = {
-			ROL_KMT_ROC_intervene = {
+			ROL_KMT_ROC_intervene_2 = {
 				frame = ROL_KMT_ROC_intervene_points
 			}
 		}

@@ -39,6 +39,17 @@ spriteTypes = {
 		horizontal = yes
 	}
 
+	progressbartype = {
+		name = "GFX_ROL_KMT_ROC_intervene_test"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_ROC_intervene_full_2.png"
+		textureFile2 = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_ROC_intervene_frame_2.png"
+		size = { x = 500 y = 400 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+
 	spriteType = {
 		name = GFX_ROL_KMT_Tppcorps_support_bill_empty  #三青团支持率空
 		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_Tppcorps_support_bill_empty.dds"
