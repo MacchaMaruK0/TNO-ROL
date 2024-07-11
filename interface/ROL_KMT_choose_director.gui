@@ -14,60 +14,60 @@ guiTypes = {
         #     spriteType = "GFX_ROL_KMT_ROC_intervene"
         # }
 		iconType = { 
-            name = "ROL_KMT_ROC_intervene_2" 
-            position = { x = 30 y = 50 } 
-            spriteType = "GFX_ROL_KMT_ROC_intervene_test"
-        }
-		iconType = { 
             # 青年军 bar
             name = "ROL_KMT_Youtharmy_support" 
-            position = { x = 30 y = 50 } 
+            position = { x = 143 y = 265 } 
             spriteType = "GFX_ROL_KMT_Youtharmy_support"
         }
 		iconType = { 
             # 三青团 bar
             name = "ROL_KMT_Tppcorps_support" 
-            position = { x = 30 y = 50 } 
+            position = { x = 146 y = 42 } 
             spriteType = "GFX_ROL_KMT_Tppcorps_support"
         }
 		iconType = { 
             # 土木 bar
             name = "ROL_KMT_TUMU_support" 
-            position = { x = 30 y = 50 } 
+            position = { x = 120 y = 114 } 
             spriteType = "GFX_ROL_KMT_TUMU_support"
         }
 		iconType = { 
             # 力行社 bar 
             name = "ROL_KMT_Lixing_unit" 
-            position = { x = 30 y = 50 } 
+            position = { x = 278 y = 42 } 
             spriteType = "GFX_ROL_KMT_Lixing_unit"
         }
 		iconType = { 
             # 贺衷寒 bar
             name = "ROL_KMT_He_Zhonghan_support"
-            position = { x = 245 y = 300 } 
+            position = { x = 278 y = 200 } 
             spriteType = "GFX_ROL_KMT_He_Zhonghan_support"
         }
 		iconType = { 
             # 张治中 bar
             name = "ROL_KMT_Zhang_Zhizhong_support" 
-            position = { x = 118 y = 300 } 
+            position = { x = 154 y = 200 } 
             spriteType = "GFX_ROL_KMT_Zhang_Zhizhong_support"
         }
 		iconType = { 
             name = "ROL_KMT_He_Zhonghan_icon"
-            position = { x = 245 y = 68 } 
+            position = { x = 277 y = 68 } 
             spriteType = "GFX_ROL_KMT_He_Zhonghan_icon"
         }
 		iconType = { 
             name = "ROL_KMT_Zhang_Zhizhong_icon"
-            position = { x = 118 y = 68 } 
+            position = { x = 150 y = 68 } 
             spriteType = "GFX_ROL_KMT_Zhang_Zhizhong_icon"
         }
 		iconType = { 
             name = "ROL_KMT_fuck_the_bug"
-            position = { x = 84 y = 38 } 
+            position = { x = 117 y = 38 } 
             spriteType = "GFX_ROL_KMT_fuck_the_bug"
+        }
+		iconType = { 
+            name = "ROL_KMT_ROC_intervene_2" 
+            position = { x = 25 y = 50 } 
+            spriteType = "GFX_ROL_KMT_ROC_intervene_test"
 			alwaystransparent = yes
         }
 	}
