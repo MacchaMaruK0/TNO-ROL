@@ -12,7 +12,7 @@ ROL_KMT_Debug_Category = { #这部分是决议类，用debug决议作为示范�
 }
 
 ROL_KMT_Choose_Director_Category = {   ###选主任
-	icon = /
+	# icon = /
 	allowed={
 		original_tag = KMT
 	}
@@ -23,6 +23,6 @@ ROL_KMT_Choose_Director_Category = {   ###选主任
 		}
 	}
 	scripted_gui = ROL_KMT_Choose_Director_ui_window
-	priority = 0
+	priority = 1000
 	visible_when_empty = yes
 }

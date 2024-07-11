@@ -18,6 +18,25 @@ scripted_gui = {
 			ROL_KMT_ROC_intervene_2 = {
 				frame = ROL_KMT_ROC_intervene_points
 			}
+
+			ROL_KMT_Zhang_Zhizhong_support = {
+				frame = ROL_KMT_Zhang_Zhizhong_support_num
+			}
+			ROL_KMT_He_Zhonghan_support = {
+				frame = ROL_KMT_He_Zhonghan_support_num
+			}
+			ROL_KMT_Lixing_unit = {
+				frame = ROL_KMT_Lixing_unit_num
+			}
+			ROL_KMT_TUMU_support = {
+				frame = ROL_KMT_TUMU_support_num
+			}
+			ROL_KMT_Tppcorps_support = {
+				frame = ROL_KMT_Tppcorps_support_num
+			}
+			ROL_KMT_Youtharmy_support = {
+				frame = ROL_KMT_Youtharmy_support_num_num
+			}
 		}
     }
 }

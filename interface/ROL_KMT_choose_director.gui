@@ -19,6 +19,42 @@ guiTypes = {
             spriteType = "GFX_ROL_KMT_ROC_intervene_test"
         }
 		iconType = { 
+            # 青年军 bar
+            name = "ROL_KMT_Youtharmy_support" 
+            position = { x = 30 y = 50 } 
+            spriteType = "GFX_ROL_KMT_Youtharmy_support"
+        }
+		iconType = { 
+            # 三青团 bar
+            name = "ROL_KMT_Tppcorps_support" 
+            position = { x = 30 y = 50 } 
+            spriteType = "GFX_ROL_KMT_Tppcorps_support"
+        }
+		iconType = { 
+            # 土木 bar
+            name = "ROL_KMT_TUMU_support" 
+            position = { x = 30 y = 50 } 
+            spriteType = "GFX_ROL_KMT_TUMU_support"
+        }
+		iconType = { 
+            # 力行社 bar 
+            name = "ROL_KMT_Lixing_unit" 
+            position = { x = 30 y = 50 } 
+            spriteType = "GFX_ROL_KMT_Lixing_unit"
+        }
+		iconType = { 
+            # 贺衷寒 bar
+            name = "ROL_KMT_He_Zhonghan_support"
+            position = { x = 245 y = 300 } 
+            spriteType = "GFX_ROL_KMT_He_Zhonghan_support"
+        }
+		iconType = { 
+            # 张治中 bar
+            name = "ROL_KMT_Zhang_Zhizhong_support" 
+            position = { x = 118 y = 300 } 
+            spriteType = "GFX_ROL_KMT_Zhang_Zhizhong_support"
+        }
+		iconType = { 
             name = "ROL_KMT_He_Zhonghan_icon"
             position = { x = 245 y = 68 } 
             spriteType = "GFX_ROL_KMT_He_Zhonghan_icon"

@@ -5,7 +5,24 @@ on_actions = { #
 			    set_variable = {
 					ROL_KMT_ROC_intervene_points = 50
 				}
-
+			    set_variable = {
+					ROL_KMT_Zhang_Zhizhong_support_num = 50
+				}
+			    set_variable = {
+					ROL_KMT_He_Zhonghan_support_num = 50
+				}
+			    set_variable = {
+					ROL_KMT_Lixing_unit_num = 50
+				}
+			    set_variable = {
+					ROL_KMT_TUMU_support_num = 50
+				}
+			    set_variable = {
+					ROL_KMT_Tppcorps_support_num = 50
+				}
+			    set_variable = {
+					ROL_KMT_Youtharmy_support_num_num = 50
+				}
 				##杂项法律
 				misc_law_ROL_KMT_startup = yes
 			}

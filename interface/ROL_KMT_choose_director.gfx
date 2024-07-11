@@ -95,3 +95,53 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_Zhang_Zhizhong_support_bill_full.dds"
 	}
 }	
+spriteTypes = {
+	progressbartype = {
+		name = "GFX_ROL_KMT_Zhang_Zhizhong_support"
+		textureFile1 = "gfx/interface/GUI/ROL_KMT_CD_png/Zhang_Zhizhong_support.png"
+		textureFile2 = "gfx/interface/GUI/ROL_KMT_CD_png/empty.png"
+		size = { x = 125 y = 125 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+	progressbartype = {
+		name = "GFX_ROL_KMT_He_Zhonghan_support"
+		textureFile1 = "gfx/interface/GUI/ROL_KMT_CD_png/He_Zhonghan_support.png"
+		textureFile2 = "gfx/interface/GUI/ROL_KMT_CD_png/empty.png"
+		size = { x = 125 y = 122 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+	progressbartype = {
+		name = "GFX_ROL_KMT_Lixing_unit"
+		textureFile1 = "gfx/interface/GUI/ROL_KMT_CD_png/Lixing_unit.png"
+		textureFile2 = "gfx/interface/GUI/ROL_KMT_CD_png/empty.png"
+		size = { x = 155 y = 305 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+	progressbartype = {
+		name = "GFX_ROL_KMT_TUMU_support"
+		textureFile1 = "gfx/interface/GUI/ROL_KMT_CD_png/TUMU_support.png"
+		textureFile2 = "gfx/interface/GUI/ROL_KMT_CD_png/empty.png"
+		size = { x = 46 y = 161 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+	progressbartype = {
+		name = "GFX_ROL_KMT_Tppcorps_support"
+		textureFile1 = "gfx/interface/GUI/ROL_KMT_CD_png/Tppcorps_support.png"
+		textureFile2 = "gfx/interface/GUI/ROL_KMT_CD_png/empty.png"
+		size = { x = 130 y = 81 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+	progressbartype = {
+		name = "GFX_ROL_KMT_Youtharmy_support"
+		textureFile1 = "gfx/interface/GUI/ROL_KMT_CD_png/Youtharmy_support.png"
+		textureFile2 = "gfx/interface/GUI/ROL_KMT_CD_png/empty.png"
+		size = { x = 133 y = 81 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+}
