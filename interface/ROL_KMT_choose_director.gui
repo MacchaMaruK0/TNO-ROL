@@ -28,7 +28,7 @@ guiTypes = {
 		iconType = { 
             # 土木 bar
             name = "ROL_KMT_TUMU_support" 
-            position = { x = 120 y = 114 } 
+            position = { x = 121 y = 114 } 
             spriteType = "GFX_ROL_KMT_TUMU_support"
         }
 		iconType = { 
