@@ -2,40 +2,48 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_KMT_cpc_icon" #CPC的icon
 		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/KMT_cpc_icon.png"
+		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_KMT_kmt_icon" #KMT的icon
-		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/KMT_cpc_icon.png"
+		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/KMT_kmt_icon.png"
+		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_KMT_lixing_icon" #力行社的icon
 		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/KMT_lixing_icon.png"
+		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_KMT_support_icon" #支持度的icon
 		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/KMT_support_icon.png"
+		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_KMT_tpp_icon" #三青团的icon
 		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/KMT_tpp_icon.png"
+		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_KMT_tumu_icon" #土木系的icon
 		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/KMT_tumu_icon.png"
+		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_KMT_unity_icon" #土木系的icon
 		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/KMT_unity_icon.png"
+		legacy_lazy_load = no
 	}
 	
 	spriteType = {
 		name = "GFX_KMT_youth_army_icon" #青年军的icon
 		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/KMT_youth_army_icon.png"
+		legacy_lazy_load = no
 	}
 }
