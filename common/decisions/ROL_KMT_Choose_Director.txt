@@ -6,6 +6,15 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 			set_country_flag = ROL_KMT_choose_Luo
 		}
     }
+	
+	Choose_Zhang = {
+	fire_only_once = no
+	is_debug = yes
+	complete_effect = {
+			set_country_flag = ROL_KMT_choose_Zhang
+		}
+    }
+	
     ROL_KMY_show_strong_lixing_int = {
 		#展开强化革命军人同志会的决议
 		fire_only_once = no
@@ -321,6 +330,258 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 			}
 			ROL_KMT_Youtharmy_support = yes
         custom_effect_tooltip = ROL_KMT_TUMU_support_num_temp_tt_4	
+	    }
+    }
+	
+	ROL_KMT_show_strong_Tpp_int = {
+		#同上
+		fire_only_once = no
+		visible = {
+		    has_country_flag = ROL_KMT_choose_Zhang
+			NOT = {
+				has_country_flag = ROL_KMT_show_Tpp_int_flag
+			}
+		}
+		complete_effect = {
+			set_country_flag = ROL_KMT_show_Tpp_int_flag
+		}
+	}
+	
+	ROL_KMT_hide_strong_Tpp_int = {
+		#同上
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_show_Tpp_int_flag
+		}
+		complete_effect = {
+			clr_country_flag = ROL_KMT_show_Tpp_int_flag
+		}
+    }
+	
+	ROL_KMT_propaganda_claims = { #宣传联合抗战主张
+		cost = 10
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_choose_Zhang
+			has_country_flag = ROL_KMT_show_Tpp_int_flag
+		}
+		days_re_enable = 30
+		days_remove = 7
+	    remove_effect = {
+			set_temp_variable = {
+				ROL_KMT_Zhang_Zhizhong_support_num_temp = 5
+			}
+			ROL_KMT_Zhang_Zhizhong_support = yes
+        custom_effect_tooltip = ROL_KMT_Zhang_Zhizhong_support_num_temp_tt_1	
+	    }
+    }
+	
+	ROL_KMT_absorb_youth_group = { #吸收青年团员
+		cost = 15
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_choose_Zhang
+			has_country_flag = ROL_KMT_show_Tpp_int_flag
+		}
+		days_re_enable = 30
+		days_remove = 7
+	    remove_effect = {
+			set_temp_variable = {
+				ROL_KMT_Zhang_Zhizhong_support_num_temp = 5
+			}
+			set_temp_variable = {
+				ROL_KMT_Tppcorps_support_num_temp = 5
+			}
+			ROL_KMT_Zhang_Zhizhong_support = yes
+			ROL_KMT_Tppcorps_support = yes
+        custom_effect_tooltip = ROL_KMT_Zhang_Zhizhong_support_num_temp_tt_1
+        custom_effect_tooltip = ROL_KMT_Tppcorps_support_num_temp_tt_1
+	    }
+    }
+	
+	ROL_KMT_establishment_of_committees = { #成立地方党务指导委员会
+		cost = 15
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_choose_Zhang
+			has_country_flag = ROL_KMT_show_Tpp_int_flag
+		}
+		days_re_enable = 30
+		days_remove = 14
+	    remove_effect = {
+		admin_efficiency_monthly_rate = 0.25
+			set_temp_variable = {
+				ROL_KMT_Zhang_Zhizhong_support_num_temp = 10
+			}
+			set_temp_variable = {
+				ROL_KMT_Youtharmy_support_num_num_temp = 5
+			}
+			ROL_KMT_Zhang_Zhizhong_support = yes
+			ROL_KMT_Youtharmy_support = yes
+        custom_effect_tooltip = ROL_KMT_Zhang_Zhizhong_support_num_temp_tt_2
+        custom_effect_tooltip = ROL_KMT_Youtharmy_support_num_num_temp_tt_1
+	    }
+    }
+	
+	ROL_KMT_officers_are_redeployed = { #选调原第十八军军官进入警总
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_choose_Zhang
+			has_country_flag = ROL_KMT_show_Tpp_int_flag
+		}
+		custom_cost_trigger = {
+		    command_power > 9.9
+		}
+		custom_cost_text = ROL_KMT_decision_cost_10_cp
+		days_re_enable = 30
+		days_remove = 14
+	    remove_effect = {
+		security_policy_monthly_rate = 0.25
+		    set_temp_variable = {
+				ROL_KMT_Zhang_Zhizhong_support_num_temp = 10
+			}
+			set_temp_variable = {
+				ROL_KMT_TUMU_support_num_temp = 5
+			}
+			ROL_KMT_Zhang_Zhizhong_support = yes
+			ROL_KMT_TUMU_support = yes
+		custom_effect_tooltip = ROL_KMT_Zhang_Zhizhong_support_num_temp_tt_2	
+        custom_effect_tooltip = ROL_KMT_TUMU_support_num_temp_tt_1
+	    }
+    }
+	
+	ROL_KMT_joint_meeting = { #召开西北行辕党部联席会议
+		cost = 20
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_choose_Zhang
+			has_country_flag = ROL_KMT_show_Tpp_int_flag
+		}
+		days_re_enable = 90
+		days_remove = 30
+	    remove_effect = {
+			set_temp_variable = {
+				ROL_KMT_Zhang_Zhizhong_support_num_temp = 20
+			}
+			set_temp_variable = {
+				ROL_KMT_Youtharmy_support_num_num_temp = 10
+			}
+			set_temp_variable = {
+				ROL_KMT_Youtharmy_support_num_num_temp = 10
+			}
+			set_temp_variable = {
+				ROL_KMT_TUMU_support_num_temp = 10
+			}
+			ROL_KMT_Zhang_Zhizhong_support = yes
+			ROL_KMT_Tppcorps_support = yes
+			ROL_KMT_TUMU_support = yes
+			ROL_KMT_Youtharmy_support = yes
+        custom_effect_tooltip = ROL_KMT_Zhang_Zhizhong_support_num_temp_tt_3
+        custom_effect_tooltip = ROL_KMT_Tppcorps_support_num_temp_tt_2
+		custom_effect_tooltip = ROL_KMT_TUMU_support_num_temp_tt_2
+		custom_effect_tooltip = ROL_KMT_Youtharmy_support_num_num_temp_tt_2
+	    }
+    }
+	
+	ROL_KMT_show_weak_Luo_decision = {
+		#展开削弱对手的决议
+		fire_only_once = no
+		visible = {
+		    has_country_flag = ROL_KMT_choose_Zhang
+			NOT = {
+				has_country_flag = ROL_KMY_show_weak_Luo_decision_flag
+			}
+		}
+		complete_effect = {
+			set_country_flag = ROL_KMY_show_weak_Luo_decision_flag
+		}
+	}
+	
+	ROL_KMT_hide_weak_Luo_decision = {
+		#收起削弱对手的决议
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMY_show_weak_Luo_decision_flag
+		}
+		complete_effect = {
+			clr_country_flag = ROL_KMY_show_weak_Luo_decision_flag
+		}
+    }
+	
+	ROL_KMT_attack_Luo = { #批判党内秘密结社
+		cost = 10
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_choose_Zhang
+			has_country_flag = ROL_KMY_show_weak_Luo_decision_flag
+		}
+		days_re_enable = 30
+		days_remove = 7
+	    remove_effect = {
+			set_temp_variable = {
+				ROL_KMT_Lixing_unit_num_temp = -5
+			}
+			ROL_KMT_Lixing_unit = yes
+        custom_effect_tooltip = ROL_KMT_Lixing_unit_num_temp_tt_4
+	    }
+    }
+	
+	ROL_KMT_condemn_violence = { #谴责政治暴力
+		cost = 10
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_choose_Zhang
+			has_country_flag = ROL_KMY_show_weak_Luo_decision_flag
+		}
+		days_re_enable = 30
+		days_remove = 7
+	    remove_effect = {
+			set_temp_variable = {
+				ROL_KMT_Lixing_unit_num_temp = -10
+			}
+			ROL_KMT_Lixing_unit = yes
+        custom_effect_tooltip = ROL_KMT_Lixing_unit_num_temp_tt_5
+	    }
+    }
+	
+	ROL_KMT_reaffirm_the_spirit = { #重申黄埔精神
+		cost = 15
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_choose_Zhang
+			has_country_flag = ROL_KMY_show_weak_Luo_decision_flag
+		}
+		days_re_enable = 30
+		days_remove = 14
+	    remove_effect = {
+			set_temp_variable = {
+				ROL_KMT_He_Zhonghan_support_num_temp = -10
+			}
+			ROL_KMT_He_Zhonghan_support = yes
+        custom_effect_tooltip = ROL_KMT_He_Zhonghan_support_num_temp_tt_4
+	    }
+    }
+	
+	ROL_KMT_covert_investigations = { #秘密调查青年劳动营
+		cost = 25
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_choose_Zhang
+			has_country_flag = ROL_KMY_show_weak_Luo_decision_flag
+		}
+		days_re_enable = 90
+		days_remove = 30
+	    remove_effect = {
+			set_temp_variable = {
+				ROL_KMT_He_Zhonghan_support_num_temp = -10
+			}
+			set_temp_variable = {
+				ROL_KMT_Lixing_unit_num_temp = -10
+			}
+			ROL_KMT_He_Zhonghan_support = yes
+			ROL_KMT_Lixing_unit = yes
+        custom_effect_tooltip = ROL_KMT_Lixing_unit_num_temp_tt_5
+        custom_effect_tooltip = ROL_KMT_He_Zhonghan_support_num_temp_tt_4
 	    }
     }
 }
