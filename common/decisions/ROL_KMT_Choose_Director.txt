@@ -1,12 +1,326 @@
-ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使用GH_国名_决议内容.txt命名
-    ROL_KMT_Promote_ideas = {
+ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使用ROL_国名_决议内容.txt命名
+    Choose_Luo = {
+	fire_only_once = no
+	is_debug = yes
+	complete_effect = {
+			set_country_flag = ROL_KMT_choose_Luo
+		}
+    }
+    ROL_KMY_show_strong_lixing_int = {
+		#展开强化革命军人同志会的决议
+		fire_only_once = no
+		visible = {
+		    has_country_flag = ROL_KMT_choose_Luo
+			NOT = {
+				has_country_flag = ROL_KMT_show_lixing_int_flag
+			}
+		}
+		complete_effect = {
+			set_country_flag = ROL_KMT_show_lixing_int_flag
+		}
+	}
+	ROL_KMY_hide_strong_lixing_int = {
+		#收缩强化革命军人同志会的决议
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_show_lixing_int_flag
+		}
+		complete_effect = {
+			clr_country_flag = ROL_KMT_show_lixing_int_flag
+		}
+    }
+	ROL_KMT_Promote_ideas = { #宣传攘外安内思想
 		cost = 10
 		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_choose_Luo
+			has_country_flag = ROL_KMT_show_lixing_int_flag
+		}
+		days_re_enable = 30
+		days_remove = 7
+	    remove_effect = {
+			set_temp_variable = {
+				ROL_KMT_Lixing_unit_num_temp = 10
+			}
+			ROL_KMT_Lixing_unit = yes
+		if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_Lixing_unit_num_temp = 10
+            }
+        }
+        custom_effect_tooltip = ROL_KMT_Lixing_unit_num_temp_tt_1
+            }	
+	    }
+    }
+	
+	ROL_KMT_organize_gatherings_of_veterans = { #组织老兵集会
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_choose_Luo
+			has_country_flag = ROL_KMT_show_lixing_int_flag
+		}
+		custom_cost_trigger = {
+		    has_political_power > 19.99
+			has_manpower > 500
+		}
+		custom_cost_text = ROL_KMT_decision_cost_20_pp_500_manpower
 		days_re_enable = 30
 		days_remove = 7
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision ROL_KMT_Teng_Jie_dec"
-			
+			hidden_effect = {
+				add_manpower = -500
+				add_political_power = -20
+			}
+		}
+	    remove_effect = {
+			set_temp_variable = {
+				ROL_KMT_Lixing_unit_num_temp = 15
+			}
+			set_temp_variable = {
+				ROL_KMT_He_Zhonghan_support_num_temp = 10
+			}
+			ROL_KMT_He_Zhonghan_support = yes
+			ROL_KMT_Lixing_unit = yes
+		    if = {
+            limit = {
+            check_variable = {
+                ROL_KMT_Lixing_unit_num_temp = 15
+                    }
+		    check_variable = {
+                ROL_KMT_He_Zhonghan_support_num_temp = 10
+                    }
+			}		
+        custom_effect_tooltip = ROL_KMT_Lixing_unit_num_temp_tt_2
+		custom_effect_tooltip = ROL_KMT_He_Zhonghan_support_num_temp_tt_2			
+            }
+        }	
+	}
+	
+	ROL_KMT_organize_student_training = { #组织青年学生军事训练
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_choose_Luo
+			has_country_flag = ROL_KMT_show_lixing_int_flag
+		}
+		custom_cost_trigger = {
+		    has_equipment = { infantry_equipment > 199 }
+			command_power > 9.9
+		}
+		custom_cost_text = ROL_KMT_decision_cost_10_cp_200_gun
+		days_re_enable = 30
+		days_remove = 14
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -10
+			}
+		add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -200
+				producer = ROOT
+			}	
+		}
+	    remove_effect = {
+			set_temp_variable = {
+				ROL_KMT_Lixing_unit_num_temp = 15
+			}
+			set_temp_variable = {
+				ROL_KMT_He_Zhonghan_support_num_temp = 15
+			}
+			ROL_KMT_He_Zhonghan_support = yes
+			ROL_KMT_Lixing_unit = yes
+		    if = {
+            limit = {
+            check_variable = {
+                ROL_KMT_Lixing_unit_num_temp = 15
+                    }
+				check_variable = {
+                ROL_KMT_He_Zhonghan_support_num_temp = 15
+                    }
+				}	
+        custom_effect_tooltip = ROL_KMT_Lixing_unit_num_temp_tt_2
+		custom_effect_tooltip = ROL_KMT_He_Zhonghan_support_num_temp_tt_1	
+            }
+        }	
+	}
+	
+	ROL_KMT_expansion_of_labor_camps = { #扩建西北青年劳动营
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_choose_Luo
+			has_country_flag = ROL_KMT_show_lixing_int_flag
+		}
+		custom_cost_trigger = {
+		    has_political_power > 19.99
+			has_manpower > 750
+		}
+		custom_cost_text = ROL_KMT_decision_cost_20_pp_750_manpower
+		days_re_enable = 60
+		days_remove = 30
+		complete_effect = {
+			hidden_effect = {
+				add_manpower = -750
+				add_political_power = -20
+			}
+		}
+	    remove_effect = {
+			set_temp_variable = {
+				ROL_KMT_He_Zhonghan_support_num_temp = 15
+			}
+			ROL_KMT_He_Zhonghan_support = yes
+		    if = {
+            limit = {
+		    check_variable = {
+                ROL_KMT_He_Zhonghan_support_num_temp = 15
+                    }
+				}	
+		custom_effect_tooltip = ROL_KMT_He_Zhonghan_support_num_temp_tt_1			
+            }
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = prisons
+					level = 1
+					instant_build = yes
+				}
+			}
+        }	
+	}
+	
+	ROL_KMT_convene_a_meeting = { #召开行辕军事会议
+	    cost = 25
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_choose_Luo
+			has_country_flag = ROL_KMT_show_lixing_int_flag
+		}
+		days_re_enable = 90
+		days_remove = 30
+	    remove_effect = {
+			set_temp_variable = {
+				ROL_KMT_Lixing_unit_num_temp = 20
+			}
+			set_temp_variable = {
+				ROL_KMT_He_Zhonghan_support_num_temp = 25
+			}
+			ROL_KMT_He_Zhonghan_support = yes
+			ROL_KMT_Lixing_unit = yes
+			TNO_improve_army_professionalism_low = yes
+			army_experience = 20
+		    if = {
+            limit = {
+            check_variable = {
+                ROL_KMT_Lixing_unit_num_temp = 20
+                    }
+		    check_variable = {
+                ROL_KMT_He_Zhonghan_support_num_temp = 25
+                    }
+				}	
+        custom_effect_tooltip = ROL_KMT_Lixing_unit_num_temp_tt_3
+		custom_effect_tooltip = ROL_KMT_He_Zhonghan_support_num_temp_tt_3
+            }
+        }	
+	}
+	
+	ROL_KMT_show_weak_Zhang_decision = {
+		#展开削弱对手的决议
+		fire_only_once = no
+		visible = {
+		    has_country_flag = ROL_KMT_choose_Luo
+			NOT = {
+				has_country_flag = ROL_KMY_show_weak_Zhang_decision_flag
+			}
+		}
+		complete_effect = {
+			set_country_flag = ROL_KMY_show_weak_Zhang_decision_flag
 		}
 	}
+	
+	ROL_KMT_hide_weak_Zhang_decision = {
+		#收起削弱对手的决议
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMY_show_weak_Zhang_decision_flag
+		}
+		complete_effect = {
+			clr_country_flag = ROL_KMY_show_weak_Zhang_decision_flag
+		}
+    }
+	
+	ROL_KMT_attack_Zhang = { #抨击张治中的投降主义
+		cost = 10
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_choose_Luo
+			has_country_flag = ROL_KMY_show_weak_Zhang_decision_flag
+		}
+		days_re_enable = 30
+		days_remove = 7
+	    remove_effect = {
+			set_temp_variable = {
+				ROL_KMT_Zhang_Zhizhong_support_num_temp = -5
+			}
+			ROL_KMT_Zhang_Zhizhong_support = yes
+        custom_effect_tooltip = ROL_KMT_Zhang_Zhizhong_support_num_temp_tt_4	
+	    }
+    }
+	
+	ROL_KMT_woo_the_group = { #拉拢三青团激进团员
+		cost = 10
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_choose_Luo
+			has_country_flag = ROL_KMY_show_weak_Zhang_decision_flag
+		}
+		days_re_enable = 30
+		days_remove = 14
+	    remove_effect = {
+			set_temp_variable = {
+				ROL_KMT_Tppcorps_support_num_temp = -5
+			}
+			ROL_KMT_Tppcorps_support = yes
+        custom_effect_tooltip = ROL_KMT_Tppcorps_support_num_temp_tt_4	
+	    }
+    }
+	
+	ROL_KMT_promote_officers = { #提拔青年军军官
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_choose_Luo
+			has_country_flag = ROL_KMY_show_weak_Zhang_decision_flag
+		}
+		custom_cost_trigger = {
+		    command_power > 9.9
+		}
+		custom_cost_text = ROL_KMT_decision_cost_10_cp
+		days_re_enable = 30
+		days_remove = 14
+	    remove_effect = {
+			set_temp_variable = {
+				ROL_KMT_Youtharmy_support_num_num_temp = -5
+			}
+			ROL_KMT_Youtharmy_support = yes
+        custom_effect_tooltip = ROL_KMT_Youtharmy_support_num_num_temp_tt_4	
+	    }
+    }
+	
+	ROL_KMT_absorb_officers = { #秘密吸收土木系军官进入革军会
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_choose_Luo
+			has_country_flag = ROL_KMY_show_weak_Zhang_decision_flag
+		}
+		custom_cost_trigger = {
+		    command_power > 9.9
+		}
+		custom_cost_text = ROL_KMT_decision_cost_10_cp
+		days_re_enable = 30
+		days_remove = 14
+	    remove_effect = {
+			set_temp_variable = {
+				ROL_KMT_TUMU_support_num_temp = -5
+			}
+			ROL_KMT_Youtharmy_support = yes
+        custom_effect_tooltip = ROL_KMT_TUMU_support_num_temp_tt_4	
+	    }
+    }
 }

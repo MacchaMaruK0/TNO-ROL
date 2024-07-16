@@ -28,3 +28,177 @@ ROL_KMT_add_ROC_intervene = {
 		max = 100
 	}
 }
+
+ROL_KMT_Zhang_Zhizhong_support = {
+    #增加张治中支持度
+    add_to_variable = {
+        var = ROL_KMT_Zhang_Zhizhong_support_num #张治中支持率变量
+        value = ROL_KMT_Zhang_Zhizhong_support_num_temp #改变张治中支持率的变量
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_Zhang_Zhizhong_support_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_Zhang_Zhizhong_support_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_Zhang_Zhizhong_support_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_Zhang_Zhizhong_support_num
+		min = 1
+		max = 100
+	}
+}
+
+ROL_KMT_He_Zhonghan_support = {
+    #增加罗列支持度
+    add_to_variable = {
+        var = ROL_KMT_He_Zhonghan_support_num #罗列支持率变量
+        value = ROL_KMT_He_Zhonghan_support_num_temp #改变罗列支持率的变量
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_He_Zhonghan_support_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_He_Zhonghan_support_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_He_Zhonghan_support_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_He_Zhonghan_support_num
+		min = 1
+		max = 100
+	}
+}
+
+ROL_KMT_Lixing_unit = {
+    #增加力行社团结度
+    add_to_variable = {
+        var = ROL_KMT_Lixing_unit_num #力行社团结度变量
+        value = ROL_KMT_Lixing_unit_num_temp #改变力行社团结度的变量
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_Lixing_unit_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_Lixing_unit_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_Lixing_unit_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_Lixing_unit_num
+		min = 1
+		max = 100
+	}
+}
+
+ROL_KMT_TUMU_support = {
+    #增加土木系团结度
+    add_to_variable = {
+        var = ROL_KMT_TUMU_support_num #土木系团结度变量
+        value = ROL_KMT_TUMU_support_num_temp #改变土木系团结度的变量
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_TUMU_support_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_TUMU_support_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_TUMU_support_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_TUMU_support_num
+		min = 1
+		max = 100
+	}
+}
+
+ROL_KMT_Tppcorps_support = {
+    #增加三青团团结度
+    add_to_variable = {
+        var = ROL_KMT_Tppcorps_support_num #三青团团结度变量
+        value = ROL_KMT_Tppcorps_support_num_temp #改变三青团团结度的变量
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_Tppcorps_support_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_Tppcorps_support_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_Tppcorps_support_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_Tppcorps_support_num
+		min = 1
+		max = 100
+	}
+}
+
+ROL_KMT_Youtharmy_support = {
+    #增加青年军团结度
+    add_to_variable = {
+        var = ROL_KMT_Youtharmy_support_num_num #青年军团结度变量
+        value = ROL_KMT_Youtharmy_support_num_num_temp #改变青年军团结度的变量
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_Youtharmy_support_num_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_Youtharmy_support_num_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_Youtharmy_support_num_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_Youtharmy_support_num_num
+		min = 1
+		max = 100
+	}
+}

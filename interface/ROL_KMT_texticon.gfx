@@ -36,7 +36,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_KMT_unity_icon" #土木系的icon
+		name = "GFX_KMT_unity_icon" #团结度的icon
 		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/KMT_unity_icon.png"
 		legacy_lazy_load = no
 	}
