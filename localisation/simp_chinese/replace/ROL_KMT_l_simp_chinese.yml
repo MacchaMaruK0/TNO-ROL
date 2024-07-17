@@ -34,11 +34,11 @@
  KMT_ROL_Luo_Lie:0 "罗列"
  
  ###民族精神
- ROL_KMT_Amidst_the_skies_of_the_sun:0 "众日凌空"
+ ROL_KMT_Amidst_the_skies_of_the_sun:0 "白日依山尽"
  ROL_KMT_Amidst_the_skies_of_the_sun_desc:0 "西北行辕的政治足以用混乱形容，这倒不完全是外部的混乱所致。国民党的政治斗争从未停止，蒋委员长意外逝世后更是变本加厉。凭借着一息尚存的国民革命军和坚韧的党团组织，西北局势勉强稳定。\n然而，五十年代并不好过。随着国共争端再起和苏联的总崩溃，行辕的状况每况愈下，政治上的裂痕也开始出现。胡宗南看着内外的混乱，想站出来做点什么，却发现他已是一个瘫在病床上的枯瘦老人。中央军、马家军、黄埔系、土木系、力行社、青年军系，这诸多派系各执一词，他们唯二的共识一是效忠蒋委员长遗志，二是胡主任时日无多，政权不日就将易手。\n这并不是空穴来风：兰州城里的各种团体冲突不断、张治中和蒋经国越来越频繁地秘密与马继援会见、国军已进入战备状态……待到胡宗南咽下最后一口气后会出现何等的混乱……\n\n§R没人敢想象……§!"
  ROL_KMT_Protect_revival_base:0 "拱卫复兴基地"
  ROL_KMT_heteronomy:0 "受制于人"
- ROL_KMT_Economic_helmsman:0 "经济舵手"
+ ROL_KMT_Economic_helmsman:0 "大漠行舟"
 
  
  ###杂项法律
@@ -69,13 +69,15 @@
  ROL_KMT_organize_gatherings_of_veterans:0 "组织老兵集会"
  ROL_KMT_organize_gatherings_of_veterans_desc:0 "自民国二十六年中日战事爆发，至今已二十五年，当年在沙场上血战的国军兄弟们现已是不惑之年，离乡数十载的情绪难以平复，唯有尽早反攻，光复国土方能聊以慰藉。革命军人同志会将组织老兵集会，向政府施压，为罗列将军造势。"
  ROL_KMT_decision_cost_20_pp_500_manpower: "£political_power_texticon 20 £manpower_icon 500"
- ROL_KMT_decision_cost_20_pp_500_manpower_blocked: "£political_power_texticon 20 £manpower_icon 500"
+ ROL_KMT_decision_cost_20_pp_500_manpower_blocked: "£political_power_texticon §R20§! £manpower_icon §R500§!"
  ROL_KMT_decision_cost_10_cp_200_gun: "£command_power 10 £weapon_icon 200"
- ROL_KMT_decision_cost_10_cp_200_gun_blocked: "£command_power 10 £weapon_icon 200"
+ ROL_KMT_decision_cost_10_cp_200_gun_blocked: "£command_power §R10§! £weapon_icon §R200§!"
  ROL_KMT_decision_cost_20_pp_750_manpower: "£political_power_texticon 20 £manpower_icon 750"
- ROL_KMT_decision_cost_20_pp_750_manpower_blocked: "£political_power_texticon 20 £manpower_icon 750"
+ ROL_KMT_decision_cost_20_pp_750_manpower_blocked: "£political_power_texticon §R20§! £manpower_icon §R750§!"
  ROL_KMT_decision_cost_10_cp: "£command_power 10"
- ROL_KMT_decision_cost_10_cp_blocked: "£command_power 10"
+ ROL_KMT_decision_cost_10_cp_blocked: "£command_power §R10§!"
+ ROL_KMT_decision_cost_25pp_20_cp: "£political_power_texticon 25 £command_power 20"
+ ROL_KMT_decision_cost_25pp_20_cp_blocked: "£political_power_texticon §R25§! £command_power §R20§!"
  ROL_KMT_organize_student_training:0 "组织青年学生军事训练"
  ROL_KMT_organize_student_training_desc:0 "我们抗战至今难以反攻胜利的原因，便是中国数千年来，农业社会如一盘散沙。全国民众多是各扫门前雪，农工商学军各自为战，无法一致抗敌。现在我们组织高校学生进行军事训练，就是要扫除社会的文弱、懒散、迟钝之弊病，不仅为将来反攻储备大量兵员，亦是民权初步训练，教化人民的必要之举。"
  ROL_KMT_expansion_of_labor_camps:0 "扩建西北青年劳动营"
@@ -119,6 +121,15 @@
  ROL_KMT_reaffirm_the_spirit_desc:0 ""
  ROL_KMT_covert_investigations:0 "秘密调查青年劳动营"
  ROL_KMT_covert_investigations_desc:0 ""
+ ROL_KMT_show_ROC_cointervene:0 "§Y------降低£GFX_KMT_kmt_icon 中央§!£GFX_KMT_ROC_icon §e干预度§!§Y决议------§!"
+ ROL_KMT_meet_the_commissioner:0 "会见中央专员"
+ ROL_KMT_meet_the_commissioner_desc:0 ""
+ ROL_KMT_propaganda_unity_claims:0 "宣传军令政令统一主张"
+ ROL_KMT_propaganda_claims_desc:0 ""
+ ROL_KMT_organize_reports:0 "整理报告汇报中央"
+ ROL_KMT_organize_reports_desc:0 ""
+ ROL_KMT_champion_reform:0 "拥护国军改革"
+ ROL_KMT_champion_reform_desc:0 ""
  
  ROL_KMT_Lixing_unit_num_temp_tt_2:0 "§Y适量§!增加£GFX_KMT_lixing_icon §o革命军人同志会§!的£GFX_KMT_unity_icon 团结度"
  ROL_KMT_He_Zhonghan_support_num_temp_tt_2:0 "§s少量§!增加£GFX_KMT_lixing_icon §g罗列§!的£GFX_KMT_support_icon 支持度"
@@ -149,5 +160,8 @@
  ROL_KMT_Youtharmy_support_num_num_temp_tt_2:0 "§Y适量§!增加£GFX_KMT_youth_army_icon 青年军的£GFX_KMT_unity_icon 团结度"
  ROL_KMT_TUMU_support_num_temp_tt_1:0 "§s少量§!增加£GFX_KMT_tumu_icon 土木系的£GFX_KMT_unity_icon 团结度"
  ROL_KMT_TUMU_support_num_temp_tt_2:0 "§Y适量§!增加£GFX_KMT_tumu_icon 土木系的£GFX_KMT_unity_icon 团结度"
+ ROL_KMT_ROC_intervene_points_temp_tt_1:0 "§s略微§!降低!£GFX_KMT_kmt_icon 中央的£GFX_KMT_ROC_icon §e干预度§!，这会为我们争取喘息之机"
+ ROL_KMT_ROC_intervene_points_temp_tt_2:0 "§Y中等§!降低£GFX_KMT_kmt_icon 中央的£GFX_KMT_ROC_icon §e干预度§!，这可以解我们的燃眉之急"
+ ROL_KMT_ROC_intervene_points_temp_tt_3:0 "§y大幅§!降低£GFX_KMT_kmt_icon 中央的£GFX_KMT_ROC_icon §e干预度§!，可以为我们争取更多时间"
  ###
  ROL_KMT_heteronomy_tt:0 "§R无法在未经§!§B中央§!许可§R时训练部队、解散部队或编辑部队模板。§!\n"

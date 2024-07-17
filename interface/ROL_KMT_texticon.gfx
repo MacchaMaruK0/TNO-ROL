@@ -46,4 +46,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/KMT_youth_army_icon.png"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_KMT_ROC_icon" #干预度的icon
+		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/KMT_ROC_icon.png"
+		legacy_lazy_load = no
+	}
 }

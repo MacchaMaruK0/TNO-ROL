@@ -21,10 +21,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/ideas/national_spirits/KMT/ROL_KMT_heteronomy.dds"
 	}
 	
-	# spriteType = {
-	# 	name = "GFX_idea_ROL_KMT_Economic_helmsman"
-	# 	textureFile = "gfx/interface/ideas/national_spirits/KMT/ROL_KMT_Economic_helmsman.dds"
-	# }
+	spriteType = {
+		name = "GFX_idea_ROL_KMT_Economic_helmsman"
+       	textureFile = "gfx/interface/ideas/national_spirits/KMT/ROL_KMT_Economic_helmsman.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_ROL_ROC_the_plum_blossom_remains_the_same"

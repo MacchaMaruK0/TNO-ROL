@@ -14,10 +14,8 @@ ROL_KMT_add_ROC_intervene = {
         multiply_temp_variable = {
             ROL_KMT_ROC_intervene_points_temp = -1
         }
-        custom_effect_tooltip = ROL_KMT_ROC_intervene_points_decrease_tt
     }
     else = {
-        custom_effect_tooltip = ROL_KMT_ROC_intervene_points_increase_tt
     }
     ######
     clear_variable = ROL_KMT_ROC_intervene_points_temp
