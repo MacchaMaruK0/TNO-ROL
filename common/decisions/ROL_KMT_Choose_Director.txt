@@ -39,6 +39,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 		}
     }
 	ROL_KMT_Promote_ideas = { #宣传攘外安内思想
+	    icon = GFX_ROL_KMT_Promote_ideas_icon
 		cost = 10
 		fire_only_once = no
 		visible = {
@@ -64,6 +65,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_organize_gatherings_of_veterans = { #组织老兵集会
+	    icon = GFX_ROL_KMT_organize_gatherings_of_veterans_icon
 		fire_only_once = no
 		visible = {
 			has_country_flag = ROL_KMT_choose_Luo
@@ -107,6 +109,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 	}
 	
 	ROL_KMT_organize_student_training = { #组织青年学生军事训练
+	    icon = GFX_ROL_KMT_organize_student_training_icon
 		fire_only_once = no
 		visible = {
 			has_country_flag = ROL_KMT_choose_Luo
@@ -369,6 +372,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_propaganda_claims = { #宣传联合抗战主张
+	    icon = GFX_ROL_KMT_propaganda_claims_icon
 		cost = 10
 		fire_only_once = no
 		visible = {
@@ -387,6 +391,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_absorb_youth_group = { #吸收青年团员
+	    icon = GFX_ROL_KMT_absorb_youth_group_icon
 		cost = 15
 		fire_only_once = no
 		visible = {
@@ -410,6 +415,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_establishment_of_committees = { #成立地方党务指导委员会
+	    icon = GFX_ROL_KMT_establishment_of_committees_icon
 		cost = 15
 		fire_only_once = no
 		visible = {
@@ -434,6 +440,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_officers_are_redeployed = { #选调原第十八军军官进入警总
+	    icon = GFX_ROL_KMT_officers_are_redeployed_icon
 		fire_only_once = no
 		visible = {
 			has_country_flag = ROL_KMT_choose_Zhang
@@ -466,6 +473,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_joint_meeting = { #召开西北行辕党部联席会议
+	    icon = GFX_ROL_KMT_joint_meeting_icon
 		cost = 20
 		fire_only_once = no
 		visible = {
@@ -524,6 +532,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_attack_Luo = { #批判党内秘密结社
+	    icon = GFX_ROL_KMT_attack_Luo_icon
 		cost = 10
 		fire_only_once = no
 		visible = {
@@ -542,6 +551,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_condemn_violence = { #谴责政治暴力
+	    icon = GFX_ROL_KMT_condemn_violence_icon
 		cost = 10
 		fire_only_once = no
 		visible = {
@@ -560,6 +570,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_reaffirm_the_spirit = { #重申黄埔精神
+	    icon = GFX_ROL_KMT_reaffirm_the_spirit_icon
 		cost = 15
 		fire_only_once = no
 		visible = {
@@ -578,6 +589,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_covert_investigations = { #秘密调查青年劳动营
+	    icon = GFX_ROL_KMT_covert_investigations_icon
 		cost = 25
 		fire_only_once = no
 		visible = {

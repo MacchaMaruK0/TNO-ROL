@@ -1,0 +1,109 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ROL_KMT_Promote_ideas_icon" #攘外安内的icon
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_Promote_ideas_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_organize_gatherings_of_veterans_icon" #老兵集会的icon
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_organize_gatherings_of_veterans_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_organize_student_training_icon" #青年学生训练的icon
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_organize_student_training_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_expansion_of_labor_camps_icon" #劳动营的icon（暂缺）
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_expansion_of_labor_camps_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_convene_a_meeting_icon" #行辕会议的icon（暂缺）
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_convene_a_meeting_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_attack_Zhang_icon" #抨击投降主义的icon（暂缺）
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_attack_Zhang_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_woo_the_group_icon" #拉拢三青团的icon（暂缺）
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_woo_the_group_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_promote_officers_icon" #提拔青年军的icon（暂缺）
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_promote_officers_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_absorb_officers_icon" #吸收土木系的icon（暂缺）
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_absorb_officers_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_propaganda_claims_icon" #联合抗战的icon
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_propaganda_claims_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_absorb_youth_group_icon" #吸收团员的icon
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_absorb_youth_group_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_establishment_of_committees_icon" #成立地方党务指导委员会的icon
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_establishment_of_committees_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_officers_are_redeployed_icon" #选调原第十八军军官进入警总的icon
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_officers_are_redeployed_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_joint_meeting_icon" #联席会议的icon
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_joint_meeting_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_attack_Luo_icon" #批判党内结社的icon
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_attack_Luo_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_condemn_violence_icon" #政治暴力的icon
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_condemn_violence_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_reaffirm_the_spirit_icon" #重申黄埔精神的icon
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_reaffirm_the_spirit_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_covert_investigations_icon" #秘密调查青年劳动营的icon
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_covert_investigations_icon.dds"
+		legacy_lazy_load = no
+	}
+}
