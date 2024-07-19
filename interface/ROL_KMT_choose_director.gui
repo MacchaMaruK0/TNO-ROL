@@ -32,18 +32,21 @@ guiTypes = {
             name = "ROL_KMT_Youtharmy_support" 
             position = { x = 143 y = 265 } 
             spriteType = "GFX_ROL_KMT_Youtharmy_support"
+			pdx_tooltip = ROL_KMT_Youtharmy_support_putinto_txt
         }
 		iconType = { 
             # 三青团 bar
             name = "ROL_KMT_Tppcorps_support" 
             position = { x = 146 y = 42 } 
             spriteType = "GFX_ROL_KMT_Tppcorps_support"
+			pdx_tooltip = ROL_KMT_Tppcorps_support_putinto_txt
         }
 		iconType = { 
             # 力行社 bar 
             name = "ROL_KMT_Lixing_unit" 
             position = { x = 278 y = 42 } 
             spriteType = "GFX_ROL_KMT_Lixing_unit"
+			pdx_tooltip = ROL_KMT_Lixing_support_putinto_txt
         }
 		iconType = { 
             # 贺衷寒 bar

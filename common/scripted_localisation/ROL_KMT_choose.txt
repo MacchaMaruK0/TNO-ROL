@@ -26,3 +26,61 @@ defined_text = {
 		localization_key = ROL_KMT_TUMU_support_tt_3
 	}
 }
+
+defined_text = {
+	name = Get_ROL_KMT_Youtharmy_tt
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_Youtharmy_support_num_num < 33.1 }
+		}
+		localization_key = ROL_KMT_Youtharmy_support_tt_1
+	}
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 33.1
+			}
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 66.1
+			}
+		}
+		localization_key = ROL_KMT_Youtharmy_support_tt_2
+	}
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 66.1
+			}
+		}
+		localization_key = ROL_KMT_Youtharmy_support_tt_3
+	}
+}
+
+defined_text = {
+	name = Get_ROL_KMT_Tpp_tt
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_Tppcorps_support_num < 33.1 }
+		}
+		localization_key = ROL_KMT_Tppcorps_support_tt_1
+	}
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 33.1
+			}
+		    check_variable = {				
+			            ROL_KMT_Tppcorps_support_num < 66.1
+			}
+		}
+		localization_key = ROL_KMT_Tppcorps_support_tt_2
+	}
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 66.1
+			}
+		}
+		localization_key = ROL_KMT_Tppcorps_support_tt_3
+	}
+}
