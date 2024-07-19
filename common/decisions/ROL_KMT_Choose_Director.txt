@@ -892,4 +892,263 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 		complete_effect = {
 		}
 	}
+	
+	ROL_KMT_solidarity_cycle = { #团结度周期
+		activation = {
+            has_country_flag = ROL_KMT_choose_Luo
+		}
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		days_mission_timeout = 30
+		allowed = {
+			tag = KMT
+		}
+		######芝士倒计时
+		timeout_effect = {
+			if = {
+                limit = {
+                    check_variable = {				
+			            ROL_KMT_Lixing_unit_num < 33.1
+			        }
+			    }
+			    set_temp_variable = {
+				    ROL_KMT_Lixing_unit_num_temp = -5
+			    }
+			    ROL_KMT_Lixing_unit = yes
+				set_temp_variable = {
+				    ROL_KMT_He_Zhonghan_support_num_temp = -5
+			    }
+			    ROL_KMT_He_Zhonghan_support = yes
+		    }
+			else_if = {
+			    limit = {
+                    check_variable = {				
+			            ROL_KMT_Lixing_unit_num > 33.1
+			        }
+					check_variable = {				
+			            ROL_KMT_Lixing_unit_num < 66.1
+			        }
+			    }
+			    set_temp_variable = {
+				    ROL_KMT_Lixing_unit_num_temp = -5
+			    }
+			    ROL_KMT_Lixing_unit = yes
+				set_temp_variable = {
+				    ROL_KMT_He_Zhonghan_support_num_temp = 5
+			    }
+				ROL_KMT_He_Zhonghan_support = yes
+			}
+            else_if = {
+			    limit = {
+                    check_variable = {				
+			            ROL_KMT_Lixing_unit_num > 66.1
+			        }
+			    }
+			    set_temp_variable = {
+				    ROL_KMT_Lixing_unit_num_temp = -5
+			    }
+			    ROL_KMT_Lixing_unit = yes
+				set_temp_variable = {
+				    ROL_KMT_He_Zhonghan_support_num_temp = 10
+			    }
+				ROL_KMT_He_Zhonghan_support = yes
+			}
+			activate_misson = ROL_KMT_solidarity_cycle
+			# activate_misson = my_mission 
+			# activate_misson = 后面要写具体的任务的名字
+		}
+		complete_effect = {
+		}
+	}
+	
+	ROL_KMT_solidarity_cycle_1 = { #团结度周期
+		activation = {
+            has_country_flag = ROL_KMT_choose_Zhang
+		}
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		days_mission_timeout = 30
+		allowed = {
+			tag = KMT
+		}
+		######芝士倒计时
+		timeout_effect = {
+			if = {
+                limit = {
+                    check_variable = {				
+			            ROL_KMT_TUMU_support_num < 33.1
+			        }
+			    }
+			    set_temp_variable = {
+				    ROL_KMT_TUMU_support_num_temp = -1.5
+			    }
+			    ROL_KMT_TUMU_support = yes
+				set_temp_variable = {
+				    ROL_KMT_Zhang_Zhizhong_support_num_temp = -1.5
+			    }
+			    ROL_KMT_Zhang_Zhizhong_support = yes
+		    }
+			else_if = {
+			    limit = {
+                    check_variable = {				
+			            ROL_KMT_TUMU_support_num > 33.1
+			        }
+					check_variable = {				
+			            ROL_KMT_TUMU_support_num_ < 66.1
+			        }
+			    }
+			    set_temp_variable = {
+				    ROL_KMT_TUMU_support_num_temp = -1.5
+			    }
+			    ROL_KMT_TUMU_support = yes
+				set_temp_variable = {
+				    ROL_KMT_Zhang_Zhizhong_support_num_temp = 1.5
+			    }
+			    ROL_KMT_Zhang_Zhizhong_support = yes
+			}
+            else_if = {
+			    limit = {
+                    check_variable = {				
+			            ROL_KMT_TUMU_support_num > 66.1
+			        }
+			    }
+			    set_temp_variable = {
+				    ROL_KMT_TUMU_support_num_temp = -1.5
+			    }
+			    ROL_KMT_TUMU_support = yes
+				set_temp_variable = {
+				    ROL_KMT_Zhang_Zhizhong_support_num_temp = 3
+			    }
+			    ROL_KMT_Zhang_Zhizhong_support = yes
+			}
+			
+			if = {
+                limit = {
+                    check_variable = {				
+			            ROL_KMT_Tppcorps_support_num < 33.1
+			        }
+			    }
+			    set_temp_variable = {
+				    ROL_KMT_Tppcorps_support_num_temp = -2
+			    }
+			    ROL_KMT_Tppcorps_support = yes
+				set_temp_variable = {
+				    ROL_KMT_Zhang_Zhizhong_support_num_temp = -2
+			    }
+			    ROL_KMT_Zhang_Zhizhong_support = yes
+		    }
+			else_if = {
+			    limit = {
+                    check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 33.1
+			        }
+					check_variable = {				
+			            ROL_KMT_Tppcorps_support_num < 66.1
+			        }
+			    }
+			    set_temp_variable = {
+				    ROL_KMT_Tppcorps_support_num_temp = -2
+			    }
+			    ROL_KMT_Tppcorps_support = yes
+				set_temp_variable = {
+				    ROL_KMT_Zhang_Zhizhong_support_num_temp = 2
+			    }
+			    ROL_KMT_Zhang_Zhizhong_support = yes
+			}
+            else_if = {
+			    limit = {
+                    check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 66.1
+			        }
+			    }
+			    set_temp_variable = {
+				    ROL_KMT_Tppcorps_support_num_temp = -2
+			    }
+			    ROL_KMT_Tppcorps_support = yes
+				set_temp_variable = {
+				    ROL_KMT_Zhang_Zhizhong_support_num_temp = 4
+			    }
+			    ROL_KMT_Zhang_Zhizhong_support = yes
+			}
+			
+			if = {
+                limit = {
+                    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 33.1
+			        }
+			    }
+			    set_temp_variable = {
+				    ROL_KMT_Youtharmy_support_num_num_temp = -1.5
+			    }
+			    ROL_KMT_Youtharmy_support = yes
+				set_temp_variable = {
+				    ROL_KMT_Zhang_Zhizhong_support_num_temp = -1.5
+			    }
+			    ROL_KMT_Zhang_Zhizhong_support = yes
+		    }
+			else_if = {
+			    limit = {
+                    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 33.1
+			        }
+					check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 66.1
+			        }
+			    }
+			    set_temp_variable = {
+				    ROL_KMT_Youtharmy_support_num_num_temp = -1.5
+			    }
+			    ROL_KMT_Youtharmy_support = yes
+				set_temp_variable = {
+				    ROL_KMT_Zhang_Zhizhong_support_num_temp = 1.5
+			    }
+			    ROL_KMT_Zhang_Zhizhong_support = yes
+			}
+            else_if = {
+			    limit = {
+                    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 66.1
+			        }
+			    }
+			    set_temp_variable = {
+				    ROL_KMT_Youtharmy_support_num_num_temp = -1.5
+			    }
+			    ROL_KMT_Youtharmy_support = yes
+				set_temp_variable = {
+				    ROL_KMT_Zhang_Zhizhong_support_num_temp = 3
+			    }
+			    ROL_KMT_Zhang_Zhizhong_support = yes
+			}
+			activate_misson = ROL_KMT_solidarity_cycle_1
+			# activate_misson = my_mission 
+			# activate_misson = 后面要写具体的任务的名字
+		}
+		complete_effect = {
+		}
+	}
+	
+	ROL_KMT_show_KMT_now = { #土木系现状
+		cost = 0
+		fire_only_once = no
+		visible = {
+			    OR = {
+                has_country_flag = ROL_KMT_choose_Zhang
+                has_country_flag = ROL_KMT_choose_Luo
+            }
+		}
+		available = {
+			has_country_flag = ROL_KMT_is_nothing
+		}
+		days_re_enable = 0
+		days_remove = 0
+	    complete_effect = {
+
+		}
+    }
 }
