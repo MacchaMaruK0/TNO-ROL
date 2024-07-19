@@ -3,6 +3,7 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_ROL_KMT_fuck_the_bug  #空圆模板
 		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_fuck_the_bug.dds"
+		alwaystransparent = yes
 	}
 	
 	spriteType = {
@@ -50,30 +51,20 @@ spriteTypes = {
 		horizontal = no
 	}
 
-	spriteType = {
-		name = GFX_ROL_KMT_Tppcorps_support_bill_empty  #三青团支持率空
-		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_Tppcorps_support_bill_empty.dds"
-	}
 	
 	spriteType = {
 		name = GFX_ROL_KMT_Tppcorps_support_bill_full  #三青团支持率满
 		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_Tppcorps_support_bill_full.dds"
 	}
 	
-	spriteType = {
-		name = GFX_ROL_KMT_TUMU_support_bill_empty  #土木系支持率空
-		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_TUMU_support_bill_empty.dds"
-	}
+
 	
 	spriteType = {
 		name = GFX_ROL_KMT_TUMU_support_bill_full  #土木系支持率满
 		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_TUMU_support_bill_full.dds"
 	}
 	
-	spriteType = {
-		name = GFX_ROL_KMT_Youtharmy_support_bill_empty  #青年军支持率空
-		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_Youtharmy_support_bill_empty.dds"
-	}
+
 	
 	spriteType = {
 		name = GFX_ROL_KMT_Youtharmy_support_bill_full  #青年军支持率满
@@ -90,10 +81,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_Zhang_Zhizhong_support_bill_full.dds"
 	}
 	
-	spriteType = {
-		name = GFX_ROL_KMT_Zhang_Zhizhong_support_bill_full  #张治中支持率空
-		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_Zhang_Zhizhong_support_bill_full.dds"
-	}
 }	
 spriteTypes = {
 	progressbartype = {
