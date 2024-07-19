@@ -1132,23 +1132,4 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 		complete_effect = {
 		}
 	}
-	
-	ROL_KMT_show_KMT_now = { #土木系现状
-		cost = 0
-		fire_only_once = no
-		visible = {
-			    OR = {
-                has_country_flag = ROL_KMT_choose_Zhang
-                has_country_flag = ROL_KMT_choose_Luo
-            }
-		}
-		available = {
-			has_country_flag = ROL_KMT_is_nothing
-		}
-		days_re_enable = 0
-		days_remove = 0
-	    complete_effect = {
-
-		}
-    }
 }

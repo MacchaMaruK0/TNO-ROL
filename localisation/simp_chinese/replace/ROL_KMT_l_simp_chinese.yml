@@ -179,7 +179,6 @@
  ROL_KMT_TUMU_support_tt_1:0 "§s一盘散沙§!"
  ROL_KMT_TUMU_support_tt_2:0 "§Y团结一致§!"
  ROL_KMT_TUMU_support_tt_3:0 "§y密不可分§!"
- ROL_KMT_show_KMT_now:0 "£GFX_KMT_tumu_icon 土木系现状"
- ROL_KMT_show_KMT_now_desc:0 "£GFX_KMT_tumu_icon 土木系的团结度是[Get_ROL_KMT_TUMU_tt]"
+ ROL_KMT_TUMU_support_putinto_txt:0 "£GFX_KMT_tumu_icon 土木系的团结度是[Get_ROL_KMT_TUMU_tt]（[?ROL_KMT_TUMU_support_num]%）"
  ###
  ROL_KMT_heteronomy_tt:0 "§R无法在未经§!£GFX_KMT_kmt_icon §B中央§!许可§R时训练部队、解散部队或编辑部队模板。§!\n"
