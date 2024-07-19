@@ -130,6 +130,11 @@
  ROL_KMT_organize_reports_desc:0 ""
  ROL_KMT_champion_reform:0 "拥护国军改革"
  ROL_KMT_champion_reform_desc:0 ""
+ ROL_KMT_enemy_activity_1:0 "£GFX_KMT_tpp_icon 张治中正在造势..."
+ ROL_KMT_enemy_activity_1_desc:0 ""
+ ROL_KMT_enemy_activity_2:0 "£GFX_KMT_lixing_icon 罗列正在造势..."
+ ROL_KMT_enemy_activity_2_desc:0 ""
+ ROL_KMT_central_patience_coming:0 "£GFX_KMT_kmt_icon 中央的£GFX_KMT_ROC_icon 耐心逐渐耗尽..."
  
  ROL_KMT_Lixing_unit_num_temp_tt_2:0 "§Y适量§!增加£GFX_KMT_lixing_icon §o革命军人同志会§!的£GFX_KMT_unity_icon 团结度"
  ROL_KMT_He_Zhonghan_support_num_temp_tt_2:0 "§s少量§!增加£GFX_KMT_lixing_icon §g罗列§!的£GFX_KMT_support_icon 支持度"
@@ -163,5 +168,7 @@
  ROL_KMT_ROC_intervene_points_temp_tt_1:0 "§s略微§!降低!£GFX_KMT_kmt_icon 中央的£GFX_KMT_ROC_icon §e干预度§!，这会为我们争取喘息之机"
  ROL_KMT_ROC_intervene_points_temp_tt_2:0 "§Y中等§!降低£GFX_KMT_kmt_icon 中央的£GFX_KMT_ROC_icon §e干预度§!，这可以解我们的燃眉之急"
  ROL_KMT_ROC_intervene_points_temp_tt_3:0 "§y大幅§!降低£GFX_KMT_kmt_icon 中央的£GFX_KMT_ROC_icon §e干预度§!，可以为我们争取更多时间"
+ ROL_KMT_ROC_intervene_points_temp_tt_4:0 "£GFX_KMT_kmt_icon 中央的£GFX_KMT_ROC_icon 干预倾向§B加深§!"
+ ROL_KMT_ROC_intervene_points_temp_tt_5:0 "£GFX_KMT_kmt_icon 中央的£GFX_KMT_ROC_icon 干预倾向§e显著加深§!"
  ###
- ROL_KMT_heteronomy_tt:0 "§R无法在未经§!§B中央§!许可§R时训练部队、解散部队或编辑部队模板。§!\n"
+ ROL_KMT_heteronomy_tt:0 "§R无法在未经§!£GFX_KMT_kmt_icon §B中央§!许可§R时训练部队、解散部队或编辑部队模板。§!\n"

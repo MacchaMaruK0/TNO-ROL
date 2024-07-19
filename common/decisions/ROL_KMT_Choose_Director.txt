@@ -17,6 +17,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 	
     ROL_KMY_show_strong_lixing_int = {
 		#展开强化革命军人同志会的决议
+		icon = GFX_decision_generic_visibility
 		fire_only_once = no
 		visible = {
 		    has_country_flag = ROL_KMT_choose_Luo
@@ -30,6 +31,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 	}
 	ROL_KMY_hide_strong_lixing_int = {
 		#收缩强化革命军人同志会的决议
+		icon = GFX_decision_generic_visibility_closed
 		fire_only_once = no
 		visible = {
 			has_country_flag = ROL_KMT_show_lixing_int_flag
@@ -235,6 +237,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 	
 	ROL_KMT_show_weak_Zhang_decision = {
 		#展开削弱对手的决议
+		icon = GFX_decision_generic_visibility
 		fire_only_once = no
 		visible = {
 		    has_country_flag = ROL_KMT_choose_Luo
@@ -249,6 +252,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 	
 	ROL_KMT_hide_weak_Zhang_decision = {
 		#收起削弱对手的决议
+		icon = GFX_decision_generic_visibility_closed
 		fire_only_once = no
 		visible = {
 			has_country_flag = ROL_KMY_show_weak_Zhang_decision_flag
@@ -348,6 +352,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 	
 	ROL_KMT_show_strong_Tpp_int = {
 		#同上
+		icon = GFX_decision_generic_visibility
 		fire_only_once = no
 		visible = {
 		    has_country_flag = ROL_KMT_choose_Zhang
@@ -362,6 +367,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 	
 	ROL_KMT_hide_strong_Tpp_int = {
 		#同上
+		icon = GFX_decision_generic_visibility_closed
 		fire_only_once = no
 		visible = {
 			has_country_flag = ROL_KMT_show_Tpp_int_flag
@@ -508,6 +514,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 	
 	ROL_KMT_show_weak_Luo_decision = {
 		#展开削弱对手的决议
+		icon = GFX_decision_generic_visibility
 		fire_only_once = no
 		visible = {
 		    has_country_flag = ROL_KMT_choose_Zhang
@@ -522,6 +529,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 	
 	ROL_KMT_hide_weak_Luo_decision = {
 		#收起削弱对手的决议
+		icon = GFX_decision_generic_visibility_closed
 		fire_only_once = no
 		visible = {
 			has_country_flag = ROL_KMY_show_weak_Luo_decision_flag
@@ -720,4 +728,168 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
         custom_effect_tooltip = ROL_KMT_ROC_intervene_points_temp_tt_3
 	    }
     }
+	
+	ROL_KMT_enemy_activity_1 = { #敌人的活动
+		activation = {
+			has_country_flag = ROL_KMT_choose_Luo
+		}
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		days_mission_timeout = 15
+		allowed = {
+			tag = KMT
+		}
+		######芝士倒计时
+		timeout_effect = {
+			random_list = {
+				33 = {
+					set_temp_variable = {
+						ROL_KMT_Tppcorps_support_num_temp = 10
+					}
+					ROL_KMT_Tppcorps_support = yes
+					custom_effect_tooltip = ROL_KMT_Tppcorps_support_num_temp_tt_2
+				}
+				33 = {
+					set_temp_variable = {
+						ROL_KMT_Youtharmy_support_num_num_temp = 10
+					}
+					ROL_KMT_Youtharmy_support = yes
+					custom_effect_tooltip = ROL_KMT_Youtharmy_support_num_num_temp_tt_2
+				}
+				33 = {
+					set_temp_variable = {
+						ROL_KMT_TUMU_support_num_temp = 10
+					}
+					ROL_KMT_TUMU_support = yes
+					custom_effect_tooltip = ROL_KMT_TUMU_support_num_temp_tt_2
+				}
+			}
+			random_list = {
+			    50 = {
+					set_temp_variable = {
+				ROL_KMT_Lixing_unit_num_temp = -10
+			}
+			ROL_KMT_Lixing_unit = yes
+			custom_effect_tooltip = ROL_KMT_Lixing_unit_num_temp_tt_5
+				}
+				50 = {
+					set_temp_variable = {
+				ROL_KMT_He_Zhonghan_support_num_temp = -10
+			}
+			custom_effect_tooltip = ROL_KMT_He_Zhonghan_support_num_temp_tt_4
+				}
+			}
+			set_temp_variable = {
+				ROL_KMT_Zhang_Zhizhong_support_num_temp = 10
+			}
+			ROL_KMT_Zhang_Zhizhong_support = yes
+			custom_effect_tooltip = ROL_KMT_Zhang_Zhizhong_support_num_temp_tt_2
+			activate_misson = ROL_KMT_enemy_activity_1
+			# activate_misson = my_mission 
+			# activate_misson = 后面要写具体的任务的名字
+		}
+		complete_effect = {
+		}
+	}
+	
+	ROL_KMT_enemy_activity_2 = { #敌人的活动
+		activation = {
+			has_country_flag = ROL_KMT_choose_Zhang
+		}
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		days_mission_timeout = 15
+		allowed = {
+			tag = KMT
+		}
+		######芝士倒计时
+		timeout_effect = {
+			random_list = {
+				33 = {
+					set_temp_variable = {
+						ROL_KMT_Tppcorps_support_num_temp = -5
+					}
+					ROL_KMT_Tppcorps_support = yes
+					custom_effect_tooltip = ROL_KMT_Tppcorps_support_num_temp_tt_4
+				}
+				33 = {
+					set_temp_variable = {
+						ROL_KMT_Youtharmy_support_num_num_temp = -5
+					}
+					ROL_KMT_Youtharmy_support = yes
+					custom_effect_tooltip = ROL_KMT_Youtharmy_support_num_num_temp_tt_4
+				}
+				33 = {
+					set_temp_variable = {
+						ROL_KMT_TUMU_support_num_temp = -5
+					}
+					ROL_KMT_TUMU_support = yes
+					custom_effect_tooltip = ROL_KMT_TUMU_support_num_temp_tt_4
+				}
+			}
+			set_temp_variable = {
+				ROL_KMT_Lixing_unit_num_temp = 10
+			}
+			ROL_KMT_Lixing_unit = yes
+			custom_effect_tooltip = ROL_KMT_Lixing_unit_num_temp_tt_1
+			set_temp_variable = {
+				ROL_KMT_He_Zhonghan_support_num_temp = 10
+			}
+			custom_effect_tooltip = ROL_KMT_He_Zhonghan_support_num_temp_tt_2
+			ROL_KMT_Zhang_Zhizhong_support = yes
+			activate_misson = ROL_KMT_enemy_activity_2
+			# activate_misson = my_mission 
+			# activate_misson = 后面要写具体的任务的名字
+		}
+		complete_effect = {
+		}
+	}
+	
+	ROL_KMT_central_patience_coming = { #中央耐心
+		activation = {
+			OR = {
+                has_country_flag = ROL_KMT_choose_Zhang
+                has_country_flag = ROL_KMT_choose_Luo
+            }
+		}
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		days_mission_timeout = 30
+		allowed = {
+			tag = KMT
+		}
+		######芝士倒计时
+		timeout_effect = {
+			random_list = {
+				75 = {
+					set_temp_variable = {
+						ROL_KMT_ROC_intervene_points_temp = 15
+					}
+					ROL_KMT_add_ROC_intervene = yes
+					custom_effect_tooltip = ROL_KMT_ROC_intervene_points_temp_tt_4
+				}
+				25 = {
+					set_temp_variable = {
+						ROL_KMT_ROC_intervene_points_temp = 20
+					}
+					ROL_KMT_add_ROC_intervene = yes
+					custom_effect_tooltip = ROL_KMT_ROC_intervene_points_temp_tt_5
+				}
+			}
+			activate_misson = ROL_KMT_central_patience_coming
+			# activate_misson = my_mission 
+			# activate_misson = 后面要写具体的任务的名字
+		}
+		complete_effect = {
+		}
+	}
 }
