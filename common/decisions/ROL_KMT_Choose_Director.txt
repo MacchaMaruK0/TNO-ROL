@@ -982,7 +982,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 			if = {
                 limit = {
                     check_variable = {				
-			            ROL_KMT_TUMU_support_num < 33.1
+			            ROL_KMT_TUMU_support_num < 11.1
 			        }
 			    }
 			    set_temp_variable = {
@@ -997,10 +997,10 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 			else_if = {
 			    limit = {
                     check_variable = {				
-			            ROL_KMT_TUMU_support_num > 33.1
+			            ROL_KMT_TUMU_support_num > 11.1
 			        }
 					check_variable = {				
-			            ROL_KMT_TUMU_support_num_ < 66.1
+			            ROL_KMT_TUMU_support_num_ < 22.1
 			        }
 			    }
 			    set_temp_variable = {
@@ -1015,7 +1015,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
             else_if = {
 			    limit = {
                     check_variable = {				
-			            ROL_KMT_TUMU_support_num > 66.1
+			            ROL_KMT_TUMU_support_num > 22.1
 			        }
 			    }
 			    set_temp_variable = {
@@ -1031,7 +1031,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 			if = {
                 limit = {
                     check_variable = {				
-			            ROL_KMT_Tppcorps_support_num < 33.1
+			            ROL_KMT_Tppcorps_support_num < 11.1
 			        }
 			    }
 			    set_temp_variable = {
@@ -1046,10 +1046,10 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 			else_if = {
 			    limit = {
                     check_variable = {				
-			            ROL_KMT_Tppcorps_support_num > 33.1
+			            ROL_KMT_Tppcorps_support_num > 11.1
 			        }
 					check_variable = {				
-			            ROL_KMT_Tppcorps_support_num < 66.1
+			            ROL_KMT_Tppcorps_support_num < 22.1
 			        }
 			    }
 			    set_temp_variable = {
@@ -1064,7 +1064,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
             else_if = {
 			    limit = {
                     check_variable = {				
-			            ROL_KMT_Tppcorps_support_num > 66.1
+			            ROL_KMT_Tppcorps_support_num > 22.1
 			        }
 			    }
 			    set_temp_variable = {
@@ -1080,7 +1080,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 			if = {
                 limit = {
                     check_variable = {				
-			            ROL_KMT_Youtharmy_support_num_num < 33.1
+			            ROL_KMT_Youtharmy_support_num_num < 11.1
 			        }
 			    }
 			    set_temp_variable = {
@@ -1095,10 +1095,10 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 			else_if = {
 			    limit = {
                     check_variable = {				
-			            ROL_KMT_Youtharmy_support_num_num > 33.1
+			            ROL_KMT_Youtharmy_support_num_num > 11.1
 			        }
 					check_variable = {				
-			            ROL_KMT_Youtharmy_support_num_num < 66.1
+			            ROL_KMT_Youtharmy_support_num_num < 22.1
 			        }
 			    }
 			    set_temp_variable = {
@@ -1113,7 +1113,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
             else_if = {
 			    limit = {
                     check_variable = {				
-			            ROL_KMT_Youtharmy_support_num_num > 66.1
+			            ROL_KMT_Youtharmy_support_num_num > 22.1
 			        }
 			    }
 			    set_temp_variable = {

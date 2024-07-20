@@ -52,4 +52,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/KMT_ROC_icon.png"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_Jiang_Jingguo_texticon" #小蒋头像的icon
+		texturefile = "gfx/interface/texticon/decision/ROL_KMT_Jiang_Jingguo_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_Luo_Lie_texticon" #罗列头像的icon
+		texturefile = "gfx/interface/texticon/decision/ROL_KMT_Luo_Lie_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_Zhang_Zhizhong_texticon" #张治中头像的icon
+		texturefile = "gfx/interface/texticon/decision/ROL_KMT_Zhang_Zhizhong_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_Zhou_Zhirou_texticon" #周至柔头像的icon
+		texturefile = "gfx/interface/texticon/decision/ROL_KMT_Zhou_Zhirou_texticon.dds"
+		legacy_lazy_load = no
+	}
 }

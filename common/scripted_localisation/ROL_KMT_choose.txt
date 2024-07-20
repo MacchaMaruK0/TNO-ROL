@@ -2,17 +2,17 @@ defined_text = {
 	name = Get_ROL_KMT_TUMU_tt
 	text = {
 		trigger = {
-			check_variable = { ROL_KMT_TUMU_support_num < 33.1 }
+			check_variable = { ROL_KMT_TUMU_support_num < 11.1 }
 		}
 		localization_key = ROL_KMT_TUMU_support_tt_1
 	}
 	text = {
 		trigger = {
 			check_variable = {				
-			            ROL_KMT_TUMU_support_num > 33.1
+			            ROL_KMT_TUMU_support_num > 11.1
 			}
 		    check_variable = {				
-			            ROL_KMT_TUMU_support_num_ < 66.1
+			            ROL_KMT_TUMU_support_num_ < 22.1
 			}
 		}
 		localization_key = ROL_KMT_TUMU_support_tt_2
@@ -20,7 +20,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {				
-			            ROL_KMT_TUMU_support_num > 66.1
+			            ROL_KMT_TUMU_support_num > 22.1
 			}
 		}
 		localization_key = ROL_KMT_TUMU_support_tt_3
@@ -31,17 +31,17 @@ defined_text = {
 	name = Get_ROL_KMT_Youtharmy_tt
 	text = {
 		trigger = {
-			check_variable = { ROL_KMT_Youtharmy_support_num_num < 33.1 }
+			check_variable = { ROL_KMT_Youtharmy_support_num_num < 11.1 }
 		}
 		localization_key = ROL_KMT_Youtharmy_support_tt_1
 	}
 	text = {
 		trigger = {
 			check_variable = {				
-			            ROL_KMT_Youtharmy_support_num_num > 33.1
+			            ROL_KMT_Youtharmy_support_num_num > 11.1
 			}
 		    check_variable = {				
-			            ROL_KMT_Youtharmy_support_num_num < 66.1
+			            ROL_KMT_Youtharmy_support_num_num < 22.1
 			}
 		}
 		localization_key = ROL_KMT_Youtharmy_support_tt_2
@@ -49,7 +49,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {				
-			            ROL_KMT_Youtharmy_support_num_num > 66.1
+			            ROL_KMT_Youtharmy_support_num_num > 22.1
 			}
 		}
 		localization_key = ROL_KMT_Youtharmy_support_tt_3
@@ -60,27 +60,85 @@ defined_text = {
 	name = Get_ROL_KMT_Tpp_tt
 	text = {
 		trigger = {
-			check_variable = { ROL_KMT_Tppcorps_support_num < 33.1 }
+			check_variable = { ROL_KMT_Tppcorps_support_num < 11.1 }
 		}
-		localization_key = ROL_KMT_Tppcorps_support_tt_1
+		localization_key = ROL_KMT_Tppcorps_support_num_tt_1
 	}
 	text = {
 		trigger = {
 			check_variable = {				
-			            ROL_KMT_Tppcorps_support_num > 33.1
+			            ROL_KMT_Tppcorps_support_num > 11.1
 			}
 		    check_variable = {				
-			            ROL_KMT_Tppcorps_support_num < 66.1
+			            ROL_KMT_Tppcorps_support_num < 22.1
 			}
 		}
-		localization_key = ROL_KMT_Tppcorps_support_tt_2
+		localization_key = ROL_KMT_Tppcorps_support_num_tt_2
 	}
 	text = {
 		trigger = {
 			check_variable = {				
-			            ROL_KMT_Tppcorps_support_num > 66.1
+			            ROL_KMT_Tppcorps_support_num > 22.1
 			}
 		}
-		localization_key = ROL_KMT_Tppcorps_support_tt_3
+		localization_key = ROL_KMT_Tppcorps_support_num_tt_3
+	}
+}
+
+defined_text = {
+	name = Get_ROL_KMT_Lixing_tt
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_Lixing_unit_num < 33.1 }
+		}
+		localization_key = ROL_KMT_Lixing_unit_tt_1
+	}
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_Lixing_unit_num > 33.1
+			}
+		    check_variable = {				
+			            ROL_KMT_Lixing_unit_num < 66.1
+			}
+		}
+		localization_key = ROL_KMT_Lixing_unit_tt_2
+	}
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_Lixing_unit_num > 66.1
+			}
+		}
+		localization_key = ROL_KMT_Lixing_unit_tt_3
+	}
+}
+
+defined_text = {
+	name = Get_ROL_KMT_ROC_intervene_tt
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_ROC_intervene_points < 33.1 }
+		}
+		localization_key = ROL_KMT_ROC_intervene_points_tt_1
+	}
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_ROC_intervene_points > 33.1
+			}
+		    check_variable = {				
+			            ROL_KMT_ROC_intervene_points < 66.1
+			}
+		}
+		localization_key = ROL_KMT_ROC_intervene_points_tt_2
+	}
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_ROC_intervene_points > 66.1
+			}
+		}
+		localization_key = ROL_KMT_ROC_intervene_points_tt_3
 	}
 }

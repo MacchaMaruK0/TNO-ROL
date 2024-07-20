@@ -114,6 +114,7 @@ spriteTypes = {
 		size = { x = 46 y = 161 }
 		effectFile = "gfx/FX/progress.lua"
 		horizontal = no
+		steps = 33
 	}
 	progressbartype = {
 		name = "GFX_ROL_KMT_Tppcorps_support"
@@ -122,6 +123,7 @@ spriteTypes = {
 		size = { x = 130 y = 81 }
 		effectFile = "gfx/FX/progress.lua"
 		horizontal = no
+		steps = 33
 	}
 	progressbartype = {
 		name = "GFX_ROL_KMT_Youtharmy_support"
@@ -130,5 +132,6 @@ spriteTypes = {
 		size = { x = 133 y = 81 }
 		effectFile = "gfx/FX/progress.lua"
 		horizontal = no
+		steps = 33
 	}
 }
