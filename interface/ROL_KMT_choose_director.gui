@@ -9,18 +9,10 @@ guiTypes = {
 			pdx_tooltip = ROL_KMT_Choose_Director_info
 		}
 		iconType = { 
-            # 土木 bar
-            name = "ROL_KMT_TUMU_support" 
-            position = { x = 121 y = 114 } 
-            spriteType = "GFX_ROL_KMT_TUMU_support"
-			pdx_tooltip = ROL_KMT_TUMU_support_putinto_txt
-        }
-
-		iconType = { 
             name = "ROL_KMT_ROC_intervene_2" 
             position = { x = 25 y = 50 } 
             spriteType = "GFX_ROL_KMT_ROC_intervene_test"
-			alwaystransparent = yes
+			pdx_tooltip = ROL_KMT_ROC_intervene_putinto_txt
         }
 		# iconType = { 
         #     name = "ROL_KMT_ROC_intervene"
@@ -74,6 +66,13 @@ guiTypes = {
             name = "ROL_KMT_fuck_the_bug"
             position = { x = 117 y = 38 } 
             spriteType = "GFX_ROL_KMT_fuck_the_bug"
+        }
+		iconType = { 
+            # 土木 bar
+            name = "ROL_KMT_TUMU_support" 
+            position = { x = 121 y = 114 } 
+            spriteType = "GFX_ROL_KMT_TUMU_support"
+			pdx_tooltip = ROL_KMT_TUMU_support_putinto_txt
         }
 	}
 }		

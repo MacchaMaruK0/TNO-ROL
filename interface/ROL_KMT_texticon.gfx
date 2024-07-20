@@ -76,4 +76,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/texticon/decision/ROL_KMT_Zhou_Zhirou_texticon.dds"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_ROL_KMT_ROC_intervene_texticon" #中央专员的icon
+		texturefile = "gfx/interface/texticon/decision/ROL_KMT_ROC_intervene_texticon.dds"
+		legacy_lazy_load = no
+	}
 }
