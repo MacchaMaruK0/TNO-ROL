@@ -1,20 +1,4 @@
 ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使用ROL_国名_决议内容.txt命名
-    Choose_Luo = {
-	fire_only_once = no
-	is_debug = yes
-	complete_effect = {
-			set_country_flag = ROL_KMT_choose_Luo
-		}
-    }
-	
-	Choose_Zhang = {
-	fire_only_once = no
-	is_debug = yes
-	complete_effect = {
-			set_country_flag = ROL_KMT_choose_Zhang
-		}
-    }
-	
     ROL_KMY_show_strong_lixing_int = {
 		#展开强化革命军人同志会的决议
 		icon = GFX_decision_generic_investigate
@@ -159,6 +143,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 	}
 	
 	ROL_KMT_expansion_of_labor_camps = { #扩建西北青年劳动营
+	    icon = GFX_ROL_KMT_expansion_of_labor_camps_icon
 		fire_only_once = no
 		visible = {
 			has_country_flag = ROL_KMT_choose_Luo
@@ -201,6 +186,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 	}
 	
 	ROL_KMT_convene_a_meeting = { #召开行辕军事会议
+	    icon = GFX_ROL_KMT_convene_a_meeting_icon
 	    cost = 25
 		fire_only_once = no
 		visible = {
@@ -263,6 +249,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_attack_Zhang = { #抨击张治中的投降主义
+	    icon = GFX_ROL_KMT_attack_Zhang_icon
 		cost = 10
 		fire_only_once = no
 		visible = {
@@ -281,6 +268,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_woo_the_group = { #拉拢三青团激进团员
+	    icon = GFX_ROL_KMT_woo_the_group_icon
 		cost = 10
 		fire_only_once = no
 		visible = {
@@ -299,6 +287,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_promote_officers = { #提拔青年军军官
+	    icon = GFX_ROL_KMT_promote_officers_icon
 		fire_only_once = no
 		visible = {
 			has_country_flag = ROL_KMT_choose_Luo
@@ -325,6 +314,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_absorb_officers = { #秘密吸收土木系军官进入革军会
+	    icon = GFX_ROL_KMT_absorb_officers_icon
 		fire_only_once = no
 		visible = {
 			has_country_flag = ROL_KMT_choose_Luo
@@ -641,6 +631,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_meet_the_commissioner = { #会见中央专员
+	    icon = GFX_ROL_KMT_meet_the_commissioner_icon
 		cost = 10
 		fire_only_once = no
 		visible = {
@@ -661,6 +652,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_propaganda_unity_claims = { #宣传军令政令统一主张
+	    icon = GFX_ROL_KMT_propaganda_unity_claims_icon
 		cost = 15
 		fire_only_once = no
 		visible = {
@@ -681,6 +673,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_organize_reports = { #整理报告汇报中央
+	    icon = GFX_ROL_KMT_organize_reports_icon
 		cost = 25
 		fire_only_once = no
 		visible = {
@@ -701,6 +694,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_champion_reform = { #拥护国军改革
+	    icon = GFX_ROL_KMT_champion_reform_icon
 		fire_only_once = no
 		visible = {
 			    OR = {

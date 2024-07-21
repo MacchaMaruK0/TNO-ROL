@@ -83,7 +83,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = GFX_ROL_KMT_flowers  #梅花
-		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_flowers.dds"
+		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_flowers.png"
 	}
 	
 }	

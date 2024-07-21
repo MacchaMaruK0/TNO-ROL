@@ -170,7 +170,7 @@
  ROL_KMT_Youtharmy_support_num_num_temp_tt_2:0 "§Y适量§!增加£GFX_KMT_youth_army_icon 青年军的£GFX_KMT_unity_icon 团结度"
  ROL_KMT_TUMU_support_num_temp_tt_1:0 "§s少量§!增加£GFX_KMT_tumu_icon 土木系的£GFX_KMT_unity_icon 团结度"
  ROL_KMT_TUMU_support_num_temp_tt_2:0 "§Y适量§!增加£GFX_KMT_tumu_icon 土木系的£GFX_KMT_unity_icon 团结度"
- ROL_KMT_ROC_intervene_points_temp_tt_1:0 "§s略微§!降低!£GFX_KMT_kmt_icon 中央的£GFX_KMT_ROC_icon §e干预度§!，这会为我们争取喘息之机"
+ ROL_KMT_ROC_intervene_points_temp_tt_1:0 "§s略微§!降低£GFX_KMT_kmt_icon 中央的£GFX_KMT_ROC_icon §e干预度§!，这会为我们争取喘息之机"
  ROL_KMT_ROC_intervene_points_temp_tt_2:0 "§Y中等§!降低£GFX_KMT_kmt_icon 中央的£GFX_KMT_ROC_icon §e干预度§!，这可以解我们的燃眉之急"
  ROL_KMT_ROC_intervene_points_temp_tt_3:0 "§y大幅§!降低£GFX_KMT_kmt_icon 中央的£GFX_KMT_ROC_icon §e干预度§!，可以为我们争取更多时间"
  ROL_KMT_ROC_intervene_points_temp_tt_4:0 "£GFX_KMT_kmt_icon 中央的£GFX_KMT_ROC_icon 干预倾向§B加深§!"

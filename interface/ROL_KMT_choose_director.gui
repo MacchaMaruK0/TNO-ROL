@@ -76,7 +76,7 @@ guiTypes = {
         }
 		iconType = { 
             name = "ROL_KMT_flowers"
-            position = { x = 140 y = 200 } 
+            position = { x = 229 y = 382 } 
             spriteType = "GFX_ROL_KMT_flowers"
         }
 	}

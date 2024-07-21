@@ -47,4 +47,20 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用GH_国�
 			remove_all_ministers = yes
 		}
 	}
+	Choose_Luo = {
+	fire_only_once = no
+	is_debug = yes
+	complete_effect = {
+			set_country_flag = ROL_KMT_choose_Luo
+		}
+    }
+	
+	Choose_Zhang = {
+	fire_only_once = no
+	is_debug = yes
+	complete_effect = {
+			set_country_flag = ROL_KMT_choose_Zhang
+		}
+    }
+	
 }

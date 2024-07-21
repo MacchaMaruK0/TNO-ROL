@@ -106,4 +106,28 @@ spriteTypes = {
 		texturefile = "gfx/decision/KMT/choose/ROL_KMT_covert_investigations_icon.dds"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_meet_the_commissioner_icon" #会见中央专员的icon
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_meet_the_commissioner_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_propaganda_unity_claims_icon" #政令统一的icon
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_propaganda_unity_claims_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_organize_reports_icon" #整理报告的icon
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_organize_reports_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_champion_reform_icon" #拥护改革的icon
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_champion_reform_icon.dds"
+		legacy_lazy_load = no
+	}
 }
