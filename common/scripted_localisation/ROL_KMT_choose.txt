@@ -171,3 +171,94 @@ defined_text = {
 		localization_key = ROL_KMT_ROC_intervene_points_tt_6
 	}
 }
+
+defined_text = {
+	name = Get_ROL_KMT_ROC_intervene_title_tt
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_ROC_intervene_points < 33.1 }
+		}
+		localization_key = ROL_KMT_ROC_intervene_points_tt_7
+	}
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_ROC_intervene_points > 33.1
+			}
+		    check_variable = {				
+			            ROL_KMT_ROC_intervene_points < 80.1
+			}
+		}
+		localization_key = ROL_KMT_ROC_intervene_points_tt_8
+	}
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_ROC_intervene_points > 80.1
+			}
+		}
+		localization_key = ROL_KMT_ROC_intervene_points_tt_9
+	}
+}
+
+defined_text = {
+    name = Get_ROL_KMT_solidarity_cycle_putinto_tt
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_Lixing_unit_num < 33.1
+			        }
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_1
+	}
+	text = {
+		trigger = {
+			check_variable = {				
+			    ROL_KMT_Lixing_unit_num > 33.1
+			    }
+			check_variable = {				
+			    ROL_KMT_Lixing_unit_num < 66.1
+			    }
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_2
+	}
+	text = {
+		trigger = {
+			 check_variable = {				
+			            ROL_KMT_Lixing_unit_num > 66.1
+			        }
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_3
+	}
+}
+
+defined_text = {
+    name = Get_ROL_KMT_solidarity_cycle_1_putinto_tt
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num < 11.1
+			        }
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_4
+	}
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num > 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num_ < 22.1
+			        }
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
+	}
+	text = {
+		trigger = {
+			 check_variable = {				
+			            ROL_KMT_TUMU_support_num > 22.1
+			        }
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_6
+	}
+}

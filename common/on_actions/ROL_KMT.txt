@@ -3,7 +3,7 @@ on_actions = { #
 		effect = {
 			KMT = {
 			    set_variable = {
-					ROL_KMT_ROC_intervene_points = 91
+					ROL_KMT_ROC_intervene_points = 3
 				}
 			    set_variable = {
 					ROL_KMT_Zhang_Zhizhong_support_num = 50

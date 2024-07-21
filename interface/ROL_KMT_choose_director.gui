@@ -8,69 +8,69 @@ guiTypes = {
 			spriteType = "GFX_Burgundy_GUI_Info_Button"
 			pdx_tooltip = ROL_KMT_Choose_Director_info
 		}
-		iconType = { 
-            name = "ROL_KMT_ROC_intervene_2" 
-            position = { x = 25 y = 50 } 
-            spriteType = "GFX_ROL_KMT_ROC_intervene_test"
-			pdx_tooltip = ROL_KMT_ROC_intervene_putinto_txt
-        }
 		# iconType = { 
         #     name = "ROL_KMT_ROC_intervene"
         #     position = { x = 30 y = 50 } 
         #     spriteType = "GFX_ROL_KMT_ROC_intervene"
         # }
 		iconType = { 
+            # 贺衷寒 bar
+            name = "ROL_KMT_He_Zhonghan_support"
+            position = { x = 278 y = 242 } 
+            spriteType = "GFX_ROL_KMT_He_Zhonghan_support"
+        }
+		iconType = { 
+            # 张治中 bar
+            name = "ROL_KMT_Zhang_Zhizhong_support" 
+            position = { x = 154 y = 242 } 
+            spriteType = "GFX_ROL_KMT_Zhang_Zhizhong_support"
+        }
+		iconType = { 
+            name = "ROL_KMT_He_Zhonghan_icon"
+            position = { x = 277 y = 110 } 
+            spriteType = "GFX_ROL_KMT_He_Zhonghan_icon"
+        }
+		iconType = { 
+            name = "ROL_KMT_Zhang_Zhizhong_icon"
+            position = { x = 150 y = 110 } 
+            spriteType = "GFX_ROL_KMT_Zhang_Zhizhong_icon"
+        }
+		iconType = { 
+            name = "ROL_KMT_ROC_intervene_2" 
+            position = { x = 25 y = 50 } 
+            spriteType = "GFX_ROL_KMT_ROC_intervene_test"
+			pdx_tooltip = ROL_KMT_ROC_intervene_putinto_txt
+        }
+        iconType = { 
+            name = "ROL_KMT_fuck_the_bug"
+            position = { x = 117 y = 80 } 
+            spriteType = "GFX_ROL_KMT_fuck_the_bug"
+        }
+		iconType = { 
             # 青年军 bar
             name = "ROL_KMT_Youtharmy_support" 
-            position = { x = 143 y = 265 } 
+            position = { x = 143 y = 307 } 
             spriteType = "GFX_ROL_KMT_Youtharmy_support"
 			pdx_tooltip = ROL_KMT_Youtharmy_support_putinto_txt
         }
 		iconType = { 
             # 三青团 bar
             name = "ROL_KMT_Tppcorps_support" 
-            position = { x = 146 y = 42 } 
+            position = { x = 146 y = 84 } 
             spriteType = "GFX_ROL_KMT_Tppcorps_support"
 			pdx_tooltip = ROL_KMT_Tppcorps_support_putinto_txt
         }
 		iconType = { 
             # 力行社 bar 
             name = "ROL_KMT_Lixing_unit" 
-            position = { x = 278 y = 42 } 
+            position = { x = 278 y = 84 } 
             spriteType = "GFX_ROL_KMT_Lixing_unit"
 			pdx_tooltip = ROL_KMT_Lixing_support_putinto_txt
         }
 		iconType = { 
-            # 贺衷寒 bar
-            name = "ROL_KMT_He_Zhonghan_support"
-            position = { x = 278 y = 200 } 
-            spriteType = "GFX_ROL_KMT_He_Zhonghan_support"
-        }
-		iconType = { 
-            # 张治中 bar
-            name = "ROL_KMT_Zhang_Zhizhong_support" 
-            position = { x = 154 y = 200 } 
-            spriteType = "GFX_ROL_KMT_Zhang_Zhizhong_support"
-        }
-		iconType = { 
-            name = "ROL_KMT_He_Zhonghan_icon"
-            position = { x = 277 y = 68 } 
-            spriteType = "GFX_ROL_KMT_He_Zhonghan_icon"
-        }
-		iconType = { 
-            name = "ROL_KMT_Zhang_Zhizhong_icon"
-            position = { x = 150 y = 68 } 
-            spriteType = "GFX_ROL_KMT_Zhang_Zhizhong_icon"
-        }
-        iconType = { 
-            name = "ROL_KMT_fuck_the_bug"
-            position = { x = 117 y = 38 } 
-            spriteType = "GFX_ROL_KMT_fuck_the_bug"
-        }
-		iconType = { 
             # 土木 bar
             name = "ROL_KMT_TUMU_support" 
-            position = { x = 121 y = 114 } 
+            position = { x = 121 y = 156 } 
             spriteType = "GFX_ROL_KMT_TUMU_support"
 			pdx_tooltip = ROL_KMT_TUMU_support_putinto_txt
         }
