@@ -128,7 +128,7 @@ defined_text = {
 			            ROL_KMT_ROC_intervene_points > 33.1
 			}
 		    check_variable = {				
-			            ROL_KMT_ROC_intervene_points < 90.1
+			            ROL_KMT_ROC_intervene_points < 80.1
 			}
 		}
 		localization_key = ROL_KMT_ROC_intervene_points_tt_2
@@ -136,7 +136,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {				
-			            ROL_KMT_ROC_intervene_points > 90.1
+			            ROL_KMT_ROC_intervene_points > 80.1
 			}
 		}
 		localization_key = ROL_KMT_ROC_intervene_points_tt_3
@@ -157,7 +157,7 @@ defined_text = {
 			            ROL_KMT_ROC_intervene_points > 33.1
 			}
 		    check_variable = {				
-			            ROL_KMT_ROC_intervene_points < 90.1
+			            ROL_KMT_ROC_intervene_points < 80.1
 			}
 		}
 		localization_key = ROL_KMT_ROC_intervene_points_tt_5
@@ -165,7 +165,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {				
-			            ROL_KMT_ROC_intervene_points > 90.1
+			            ROL_KMT_ROC_intervene_points > 80.1
 			}
 		}
 		localization_key = ROL_KMT_ROC_intervene_points_tt_6
