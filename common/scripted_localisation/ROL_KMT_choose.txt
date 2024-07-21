@@ -204,7 +204,7 @@ defined_text = {
 defined_text = {
     name = Get_ROL_KMT_solidarity_cycle_putinto_tt
 	text = {
-		trigger = {
+		trigger = { 
 			check_variable = {				
 			            ROL_KMT_Lixing_unit_num < 33.1
 			        }
@@ -234,31 +234,449 @@ defined_text = {
 
 defined_text = {
     name = Get_ROL_KMT_solidarity_cycle_1_putinto_tt
-	text = {
+	text = { #111
 		trigger = {
 			check_variable = {				
 			            ROL_KMT_TUMU_support_num < 11.1
 			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num < 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 11.1
+			        }		
 		}
 		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_4
 	}
 	text = {
 		trigger = {
+			check_variable = {		#211		
+			            ROL_KMT_TUMU_support_num > 11.1
+			        }
+					check_variable = {				
+			            ROL_KMT_TUMU_support_num_ < 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num < 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 11.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_4
+	}
+	text = {
+		trigger = {
+			check_variable = {		#212		
+			            ROL_KMT_TUMU_support_num > 11.1
+			        }
+					check_variable = {				
+			            ROL_KMT_TUMU_support_num_ < 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num < 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 11.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 22.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
+	}
+	text = {
+		trigger = {
+			check_variable = {	#213			
+			            ROL_KMT_TUMU_support_num > 11.1
+			        }
+					check_variable = {				
+			            ROL_KMT_TUMU_support_num_ < 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num < 11.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 22.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
+	}
+	text = {
+		trigger = { #221
 			check_variable = {				
 			            ROL_KMT_TUMU_support_num > 11.1
 			        }
 			check_variable = {				
 			            ROL_KMT_TUMU_support_num_ < 22.1
 			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 11.1
+			        }
+					check_variable = {				
+			            ROL_KMT_Tppcorps_support_num < 22.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 11.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
+	}
+	text = {
+		trigger = { #222
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num > 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num_ < 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num < 22.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 11.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 22.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
+	}
+	text = {
+		trigger = { #223
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num > 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num_ < 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num < 22.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 22.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
+	}
+	text = {
+		trigger = { #231
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num > 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num_ < 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 22.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 11.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
+	}
+	text = {
+		trigger = { #232
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num > 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num_ < 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 22.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 11.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 22.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
+	}
+	text = {
+		trigger = { #233
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num > 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num_ < 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 22.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 22.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
+	}
+	text = { #311
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num > 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num < 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 11.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
+	}
+	text = { #312
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num > 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num < 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 11.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 22.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
+	}
+	text = { #313
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num > 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num < 11.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 22.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
+	}
+	text = { #321
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num > 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num < 22.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 11.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
+	}
+	text = { #322
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num > 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num < 22.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 11.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 22.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
+	}
+	text = { #323
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num > 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num < 22.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 22.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
+	}
+	text = { #331
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num > 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 22.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 11.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
+	}
+	text = { #332
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num > 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 22.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 11.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 22.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
+	}
+	text = { #333
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_TUMU_support_num > 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 22.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 22.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_6
+	}
+	text = {
+		trigger = {
+			check_variable = {		#112		
+			            ROL_KMT_TUMU_support_num < 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num < 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 11.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 22.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_4
+	}
+	text = {
+		trigger = {
+			check_variable = {		#121
+			            ROL_KMT_TUMU_support_num < 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num < 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 11.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_4
+	}
+	text = {
+		trigger = {
+			check_variable = {			#122	
+			            ROL_KMT_TUMU_support_num < 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num < 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 11.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 22.1
+			        }		
 		}
 		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
 	}
 	text = {
 		trigger = {
-			 check_variable = {				
-			            ROL_KMT_TUMU_support_num > 22.1
+			check_variable = {		#123		
+			            ROL_KMT_TUMU_support_num < 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num < 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 22.1
+			        }		
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
+	}
+	text = {
+		trigger = {
+			check_variable = {			#131	
+			            ROL_KMT_TUMU_support_num < 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 11.1
 			        }
 		}
-		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_6
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
+	}
+	text = {
+		trigger = {
+			check_variable = {			#132	
+			            ROL_KMT_TUMU_support_num < 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 11.1
+			        }
+		    check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num < 22.1
+			        }
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
+	}
+	text = {
+		trigger = {
+			check_variable = {			#133	
+			            ROL_KMT_TUMU_support_num < 11.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Tppcorps_support_num > 22.1
+			        }
+			check_variable = {				
+			            ROL_KMT_Youtharmy_support_num_num > 22.1
+			        }
+		}
+		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
 	}
 }

@@ -81,6 +81,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_Zhang_Zhizhong_support_bill_full.dds"
 	}
 	
+	spriteType = {
+		name = GFX_ROL_KMT_flowers  #梅花
+		texturefile = "gfx/interface/GUI/ROL_KMT_choose_director/ROL_KMT_flowers.dds"
+	}
+	
 }	
 spriteTypes = {
 	progressbartype = {

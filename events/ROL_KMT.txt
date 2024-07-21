@@ -1,0 +1,60 @@
+add_namespace = kmt
+
+country_event = {
+	id = kmt.1 
+	title = kmt.1.t
+	desc = kmt.1.d 
+
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.1"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.1.a
+	}
+}
+
+country_event = { 
+	id = kmt.2 
+	title = kmt.2.t 
+	desc = kmt.2.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.2"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.2.a 
+		
+	}
+}
+
+country_event = { 
+	id = kmt.3
+	title = kmt.3.t 
+	desc = kmt.3.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.3"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.3.a 
+
+		
+	}
+	
+}
