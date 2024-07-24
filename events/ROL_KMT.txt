@@ -58,6 +58,11 @@ country_event = {
 		set_politics = {
             ruling_party = paternalism
         }
+		set_party_name = {
+		    ideology = paternalism
+			long_name = KMT_despotism_party_long
+			name = KMT_despotism_party
+		}
 		promote_character = {
 		    character = KMT_ROL_Zhang_Zhizhong
 		    ideology = paternalism_authoritarian_developmentalism_subtype
