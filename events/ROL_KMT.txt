@@ -55,6 +55,9 @@ country_event = {
 		remove_ideas = KMT_ROL_minister_Jiang_Jingguo_for
 		remove_ideas = KMT_ROL_minister_Yan_Jiagan_eco
 		remove_ideas = KMT_ROL_minister_Chen_Daqing_sec
+		set_politics = {
+            ruling_party = paternalism
+        }
 		promote_character = {
 		    character = KMT_ROL_Zhang_Zhizhong
 		    ideology = paternalism_authoritarian_developmentalism_subtype

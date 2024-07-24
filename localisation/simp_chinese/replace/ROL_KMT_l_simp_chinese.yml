@@ -2,6 +2,8 @@
  ###国家名
  KMT_despotism:0 "西北行辕"
  KMT_despotism_DEF:0 "中华民国西北行辕"
+ KMT_paternalism:0 "西北行辕"
+ KMT_paternalism_DEF:0 "中华民国西北行辕"
 
  ###党派
  KMT_despotism_party:0 "西北行辕"
