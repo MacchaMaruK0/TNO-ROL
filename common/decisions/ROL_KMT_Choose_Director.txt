@@ -752,6 +752,9 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 		custom_cost_trigger = {
 		    political_power < 49.9
 		}
+		available = {
+		    political_power < 49.9
+		}
 		custom_cost_text = ROL_KMT_decision_cost_5_support
 		days_re_enable = 60
 		complete_effect = {
@@ -769,6 +772,9 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 		fire_only_once = no
 		visible = {
             has_country_flag = ROL_KMT_choose_Zhang
+		}
+		available = {
+		    political_power < 49.9
 		}
 		custom_cost_trigger = {
 		    political_power < 49.9
@@ -853,6 +859,9 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 		visible = {
             has_country_flag = ROL_KMT_choose_Luo	
 		}
+		available = {
+		    command_power < 49.9
+		}	
 		custom_cost_trigger = {
 		    command_power < 49.9
 		}
@@ -873,6 +882,9 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 		fire_only_once = no
 		visible = {
             has_country_flag = ROL_KMT_choose_Zhang
+		}
+		available = {
+		    command_power < 49.9
 		}
 		custom_cost_trigger = {
 		    command_power < 49.9
@@ -985,7 +997,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 			ROL_KMT_a_call_for_unity_var = yes
 			set_country_flag = ROL_KMT_a_call_for_unity_comming
 			}
-		custom_effect_tooltip = ROL_KMT_a_call_for_unity_complete_tt	
+		custom_effect_tooltip = ROL_KMT_a_call_for_unity_complete_1_tt	
 		}
     }
 	
