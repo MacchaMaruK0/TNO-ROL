@@ -750,10 +750,10 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
             has_country_flag = ROL_KMT_choose_Luo	
 		}
 		custom_cost_trigger = {
-		    has_political_power < 49.9
+		    has_political_power < 25.1
 		}
 		available = {
-		    political_power < 49.9
+		    political_power < 25.1
 		}
 		custom_cost_text = ROL_KMT_decision_cost_5_support
 		days_re_enable = 60
@@ -764,7 +764,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 			    }
 				ROL_KMT_He_Zhonghan_support = yes
 			}
-			add_political_power = 50		
+			add_political_power = 25	
 		}
     }
 	
@@ -774,10 +774,10 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
             has_country_flag = ROL_KMT_choose_Zhang
 		}
 		available = {
-		    political_power < 49.9
+		    has_political_power < 25.1
 		}
 		custom_cost_trigger = {
-		    has_political_power < 49.9
+		    has_political_power < 25.1
 		}
 		custom_cost_text = ROL_KMT_decision_cost_5_support
 		days_re_enable = 60
@@ -788,7 +788,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 			    }
 			ROL_KMT_Zhang_Zhizhong_support = yes
 			}
-			add_political_power = 50		
+			add_political_power = 25		
 		}
     }
 	
@@ -799,10 +799,10 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
             has_country_flag = ROL_KMT_choose_Luo	
 		}
 		available = {
+		    custom_trigger_tooltip = {
 		    check_variable = {	
 				ROL_KMT_Lixing_unit_num < 33.1
 			}
-		    custom_trigger_tooltip = {
 				tooltip = ROL_KMT_emergency_rearmament_tt
 			}
 		}
@@ -815,7 +815,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 			    }
 				ROL_KMT_Lixing_unit = yes
 			}
-		custom_effect_tooltip = ROL_KMT_emergency_rearmament_complete_tt
+		tooltip = ROL_KMT_emergency_rearmament_complete_tt
 		}
     }
 	
@@ -826,6 +826,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
             has_country_flag = ROL_KMT_choose_Zhang	
 		}
 		available = {
+		    custom_trigger_tooltip = {
 		    check_variable = {	
 				ROL_KMT_TUMU_support_num < 11.1
 			}
@@ -835,7 +836,8 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 			check_variable = {	
 				ROL_KMT_Youtharmy_support_num_num < 11.1
 			}
-		    custom_trigger_tooltip = ROL_KMT_emergency_rearmament_1_tt
+		    tooltip = ROL_KMT_emergency_rearmament_1_tt
+			}
 		}
 		days_re_enable = 60
 		days_remove = 14
@@ -862,10 +864,10 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
             has_country_flag = ROL_KMT_choose_Luo	
 		}
 		available = {
-		    command_power < 49.9
+		    command_power < 25
 		}	
 		custom_cost_trigger = {
-		    command_power < 49.9
+		    command_power < 25.1
 		}
 		custom_cost_text = ROL_KMT_decision_cost_5_unity
 		days_re_enable = 60
@@ -876,7 +878,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 			    }
 				ROL_KMT_Lixing_unit = yes
 			}
-		add_command_power = 50
+		add_command_power = 25
 		}
     }
 	
@@ -886,10 +888,10 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
             has_country_flag = ROL_KMT_choose_Zhang
 		}
 		available = {
-		    command_power < 49.9
+		    command_power < 25
 		}
 		custom_cost_trigger = {
-		    command_power < 49.9
+		    command_power < 25.1
 		}
 		custom_cost_text = ROL_KMT_decision_cost_5_unity
 		days_re_enable = 60
@@ -916,7 +918,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 				}
 			    }
 			}
-		add_command_power = 50
+		add_command_power = 25
 		}
     }
 	
@@ -938,7 +940,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 	    complete_effect = {
 		    hidden_effect = {
 			   set_temp_variable = {
-				  ROL_KMT_a_call_for_unity_var_num_temp = 5
+				  ROL_KMT_a_call_for_unity_var_num_temp = 10
 			   }
 			ROL_KMT_a_call_for_unity_var = yes
 			set_country_flag = ROL_KMT_a_call_for_unity_comming
@@ -975,12 +977,13 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_a_call_for_unity_1 = { #展示我们的团结_1
-		cost = ROL_KMT_a_call_for_unity_var
+		cost = ROL_KMT_a_call_for_unity_var_num
 		fire_only_once = no
 		visible = {
 			has_country_flag = ROL_KMT_choose_Zhang
 		}
 		available = {
+		    custom_trigger_tooltip = {
 		    check_variable = {	
 				ROL_KMT_Youtharmy_support_num_num_temp > 22.1
 			}
@@ -990,13 +993,14 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 			check_variable = {	
 				ROL_KMT_TUMU_support_num_temp > 22.1
 			}
-		    custom_trigger_tooltip = ROL_KMT_a_call_for_unity_1_tt
+		    tooltip = ROL_KMT_a_call_for_unity_1_tt
+			}
 		}
 		days_re_enable = 65
 	    complete_effect = {
 		    hidden_effect = {
 			   set_temp_variable = {
-				  ROL_KMT_a_call_for_unity_var_num_temp = 5
+				  ROL_KMT_a_call_for_unity_var_num_temp = 10
 			   }
 			ROL_KMT_a_call_for_unity_var = yes
 			set_country_flag = ROL_KMT_a_call_for_unity_comming
@@ -1171,10 +1175,12 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
             }
 		}
 		available = {
+		    custom_trigger_tooltip = {
 			check_variable = {	
 				    ROL_KMT_ROC_intervene_points > 99.1
 				}
-			custom_trigger_tooltip = ROL_KMT_ROC_intervene_end_tt	
+			tooltip = ROL_KMT_ROC_intervene_end_tt	
+			}
 		}
 		days_mission_timeout = 30
 		allowed = {
