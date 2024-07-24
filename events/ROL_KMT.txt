@@ -79,3 +79,26 @@ country_event = {
 		
 	}
 }	
+
+country_event = { 
+	id = kmt.4
+	title = kmt.4.t 
+	desc = kmt.4.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.4"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.4.a 
+        kill_country_leader = yes
+		promote_character = {
+		    character = KMT_ROL_Luo_Lie
+		    ideology = despotism_military_junta_subtype
+		}
+	}
+}
