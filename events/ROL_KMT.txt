@@ -51,12 +51,10 @@ country_event = {
 
 	option = { 
 		name = kmt.2.a 
-		remove_idea = KMT_ROL_minister_Zhang_Zhizhong_hog
-		remove_idea = KMT_ROL_minister_Jiang_Jingguo_for
-		remove_idea = KMT_ROL_minister_Yan_Jiagan_eco
-		remove_idea = KMT_ROL_minister_Chen_Daqing_sec
-		character = KMT_ROL_Zhang_Zhizhong
-	    ideology = despotism_military_junta_subtype
+		remove_ideas = KMT_ROL_minister_Zhang_Zhizhong_hog
+		remove_ideas = KMT_ROL_minister_Jiang_Jingguo_for
+		remove_ideas = KMT_ROL_minister_Yan_Jiagan_eco
+		remove_ideas = KMT_ROL_minister_Chen_Daqing_sec
 	}
 }
 
@@ -100,5 +98,40 @@ country_event = {
 		    character = KMT_ROL_Luo_Lie
 		    ideology = despotism_military_junta_subtype
 		}
+		country_event = {
+			id = kmt.5
+			days = 5
+		}
 	}
 }
+
+country_event = { 
+	id = kmt.5
+	title = kmt.5.t 
+	desc = kmt.5.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.5"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.5.a 
+        custom_effect_tooltip = kmt_5_a_tt
+		hidden_effect = {
+			set_country_flag = ROL_KMT_choose_Luo
+			set_country_flag = choose_director_start
+		}
+	}
+	option = { 
+		name = kmt.5.b
+        custom_effect_tooltip = kmt_5_b_tt
+		hidden_effect = {
+		    set_country_flag = choose_director_start
+			set_country_flag = ROL_KMT_choose_Zhang
+		}
+	}
+}	
