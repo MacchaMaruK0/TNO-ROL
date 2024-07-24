@@ -38,4 +38,20 @@ spriteTypes = {
 		name = "GFX_idea_KMT_ROL_Chen_Daqing_sec"
 		textureFile = "gfx/interface/ideas/ministers/KMT/KMT_ROL_minister_Chen_Daqing_sec.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_KMT_ROL_Deng_Wenyi_hog"
+		textureFile = "gfx/interface/ideas/ministers/KMT/KMT_ROL_minister_Deng_Wenyi_hog.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KMT_ROL_Peng_Mengji_sec"
+		textureFile = "gfx/interface/ideas/ministers/KMT/KMT_ROL_minister_Peng_Mengji_sec.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KMT_ROL_Yuan_Shouqian_for"
+		textureFile = "gfx/interface/ideas/ministers/KMT/KMT_ROL_minister_Yuan_Shouqian_for.png"
+	}
+	spriteType = {
+		name = "GFX_idea_KMT_ROL_Yan_Jiagan_eco_1"
+		textureFile = "gfx/interface/ideas/ministers/KMT/KMT_ROL_minister_Yan_Jiagan_eco_1.png"
+	}
 }

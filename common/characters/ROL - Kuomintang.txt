@@ -191,7 +191,7 @@ characters = {
 	}
 	
 	KMT_ROL_Luo_Lie_2 = { #罗列2
-		name = KMT_ROL_Luo_Lie
+		name = KMT_ROL_Luo_Lie_2
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Luo_Lie_2.dds"
@@ -201,6 +201,83 @@ characters = {
 			desc = ""
 			expire = "1994.4.20"
 			ideology = paternalism_1_subtype
+		}
+		country_leader = {
+			desc = ""
+			expire = "1994.4.20"
+			ideology = despotism_ROL_military_vanguard_subtype
+		}
+	}
+	
+	KMT_ROL_Yan_Jiagan_1 = {  
+		name = KMT_ROL_Yan_Jiagan_1  #严家淦（革军会路线）
+		portraits = {
+			civilian = {
+				small = "GFX_idea_KMT_ROL_Yan_Jiagan_eco_1"
+			}
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = KMT_ROL_minister_Yan_Jiagan_eco_1
+			allowed = { original_tag = KMT }
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	
+	KMT_ROL_Deng_Wenyi = {  
+		name = KMT_ROL_Deng_Wenyi  #邓文仪
+		portraits = {
+			civilian = {
+				small = "GFX_idea_KMT_ROL_Deng_Wenyi_hog"
+			}
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = KMT_ROL_minister_Deng_Wenyi_hog
+			allowed = { original_tag = KMT }
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	
+	KMT_ROL_Peng_Mengji = {  
+		name = KMT_ROL_Peng_Mengji  #彭孟辑
+		portraits = {
+			civilian = {
+				small = "GFX_idea_KMT_ROL_Peng_Mengji_sec"
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = KMT_ROL_minister_Peng_Mengji_sec
+			allowed = { original_tag = KMT }
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	
+	KMT_ROL_Yuan_Shouqian = {  
+		name = KMT_ROL_Yuan_Shouqian  #袁守谦
+		portraits = {
+			civilian = {
+				small = "GFX_idea_KMT_ROL_Yuan_Shouqian_for"
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = KMT_ROL_minister_Yuan_Shouqian_for
+			allowed = { original_tag = KMT }
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
 		}
 	}
 }	

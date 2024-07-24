@@ -12,6 +12,11 @@ recruit_character = KMT_ROL_Yan_Jiagan
 recruit_character = KMT_ROL_Chen_Daqing
 recruit_character = KMT_ROL_Luo_Lie
 
+recruit_character = KMT_ROL_Yuan_Shouqian
+recruit_character = KMT_ROL_Peng_Mengji
+recruit_character = KMT_ROL_Deng_Wenyi
+recruit_character = KMT_ROL_Luo_Lie_2
+
 
 set_war_support = 0.80
 set_stability = 1.00
