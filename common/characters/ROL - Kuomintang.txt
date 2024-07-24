@@ -64,6 +64,78 @@ characters = {
 			id = -1
 		}
 	}
+	
+	KMT_ROL_Jiang_Jingguo_1 = {
+		name = KMT_ROL_Jiang_Jingguo_1  #蒋经国（张治中线）
+		portraits = {
+			civilian = {
+				small = "GFX_idea_KMT_ROL_Jiang_Jingguo_hog"
+			}
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = KMT_ROL_minister_Jiang_Jingguo_hog
+			allowed = { original_tag = KMT }
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	
+	KMT_ROL_Yan_Jiagan_3 = {
+		name = KMT_ROL_Yan_Jiagan_3  #严家淦（张治中路线）
+		portraits = {
+			civilian = {
+				small = "GFX_idea_KMT_ROL_Yan_Jiagan_for"
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = KMT_ROL_minister_Yan_Jiagan_for
+			allowed = { original_tag = KMT }
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	
+	KMT_ROL_Yin_Jun = {
+		name = KMT_ROL_Yin_Jun  #尹俊
+		portraits = {
+			civilian = {
+				small = "GFX_idea_KMT_ROL_Yin_Jun_sec"
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = KMT_ROL_minister_Yin_Jun_sec
+			allowed = { original_tag = KMT }
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
+	
+	KMT_ROL_Yu_Guohua = {  
+		name = KMT_ROL_Yu_Guohua  #俞国华
+		portraits = {
+			civilian = {
+				small = "GFX_idea_KMT_ROL_Yu_Guohua_eco"
+			}
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = KMT_ROL_minister_Yu_Guohua_eco
+			allowed = { original_tag = KMT }
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
+	}
 
 	KMT_ROL_Yan_Jiagan = {  
 		name = KMT_ROL_Yan_Jiagan  #严家淦

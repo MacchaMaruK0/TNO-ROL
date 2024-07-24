@@ -940,7 +940,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 	    complete_effect = {
 		    hidden_effect = {
 			   set_temp_variable = {
-				  ROL_KMT_a_call_for_unity_var_num_temp = 10
+				  ROL_KMT_a_call_for_unity_var_num_temp = 20
 			   }
 			ROL_KMT_a_call_for_unity_var = yes
 			set_country_flag = ROL_KMT_a_call_for_unity_comming
@@ -1000,7 +1000,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 	    complete_effect = {
 		    hidden_effect = {
 			   set_temp_variable = {
-				  ROL_KMT_a_call_for_unity_var_num_temp = 10
+				  ROL_KMT_a_call_for_unity_var_num_temp = 20
 			   }
 			ROL_KMT_a_call_for_unity_var = yes
 			set_country_flag = ROL_KMT_a_call_for_unity_comming
