@@ -915,10 +915,12 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 			has_country_flag = ROL_KMT_choose_Luo
 		}
 		available = {
-		    check_variable = {	
-				ROL_KMT_Lixing_unit_num > 66.1
+		    custom_trigger_tooltip = {
+				tooltip = ROL_KMT_a_call_for_unity_tt
+				check_variable = {	
+					ROL_KMT_Lixing_unit_num > 66.1
+				}
 			}
-		    custom_trigger_tooltip = ROL_KMT_a_call_for_unity_tt
 		}
 		days_re_enable = 65
 	    complete_effect = {
