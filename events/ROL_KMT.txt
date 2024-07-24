@@ -157,4 +157,33 @@ country_event = {
 			set_country_flag = ROL_KMT_choose_Zhang
 		}
 	}
+}
+
+country_event = { 
+	id = kmt.6
+	title = kmt.6.t 
+	desc = kmt.6.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.6"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.6.a 
+		QIN = {
+		add_state_core = 906
+		add_state_core = 604
+		transfer_state = 906
+		transfer_state = 604
+		promote_character = {
+		    character = ROL_QIN_Ma_Jiyuan
+		    ideology = despotism_military_junta_subtype
+		}
+		}
+		#1302 = { set_demilitarized_zone = yes }
+	}
 }	
