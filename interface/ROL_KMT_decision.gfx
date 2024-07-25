@@ -130,4 +130,28 @@ spriteTypes = {
 		texturefile = "gfx/decision/KMT/choose/ROL_KMT_champion_reform_icon.dds"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_a_call_for_unity_icon" #展现团结的icon
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_a_call_for_unity_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_take_advantage_of_factions_icon" #利用派系力量的icon
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_take_advantage_of_factions_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_emergency_rearmament_icon" #应对对手的破坏的icon
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_emergency_rearmament_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_mobilize_resources_icon" #抽调资源的icon
+		texturefile = "gfx/decision/KMT/choose/ROL_KMT_mobilize_resources_icon.dds"
+		legacy_lazy_load = no
+	}
 }

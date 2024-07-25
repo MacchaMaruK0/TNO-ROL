@@ -745,6 +745,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_mobilize_resources = { #抽调资源
+	    icon = GFX_ROL_KMT_mobilize_resources_icon
 		fire_only_once = no
 		visible = {
             has_country_flag = ROL_KMT_choose_Luo	
@@ -769,6 +770,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_mobilize_resources_1 = { #抽调资源_1
+	    icon = GFX_ROL_KMT_mobilize_resources_icon
 		fire_only_once = no
 		visible = {
             has_country_flag = ROL_KMT_choose_Zhang
@@ -793,6 +795,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_emergency_rearmament = { #应对对手的破坏
+	    icon = GFX_ROL_KMT_emergency_rearmament_icon
 	    cost = 50
 		fire_only_once = no
 		visible = {
@@ -820,6 +823,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_emergency_rearmament_1 = { #应对对手的破坏
+	    icon = GFX_ROL_KMT_emergency_rearmament_icon
 	    cost = 50
 		fire_only_once = no
 		visible = {
@@ -859,6 +863,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_take_advantage_of_factions = { #利用派系力量
+	    icon = GFX_ROL_KMT_take_advantage_of_factions_icon
 		fire_only_once = no
 		visible = {
             has_country_flag = ROL_KMT_choose_Luo	
@@ -883,6 +888,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_take_advantage_of_factions_1 = { #利用派系力量_1
+	    icon = GFX_ROL_KMT_take_advantage_of_factions_icon
 		fire_only_once = no
 		visible = {
             has_country_flag = ROL_KMT_choose_Zhang
@@ -923,6 +929,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_a_call_for_unity = { #展示我们的团结
+	    icon = GFX_ROL_KMT_a_call_for_unity_icon
 		cost = ROL_KMT_a_call_for_unity_var_num
 		fire_only_once = no
 		visible = { 
@@ -950,6 +957,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_a_call_for_unity_comming = { #展示我们的团结——任务
+	    icon = GFX_ROL_KMT_a_call_for_unity_icon
 		fire_only_once = no
 		activation = {
 			has_country_flag = ROL_KMT_choose_Luo
@@ -977,6 +985,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_a_call_for_unity_1 = { #展示我们的团结_1
+	    icon = GFX_ROL_KMT_a_call_for_unity_icon
 		cost = ROL_KMT_a_call_for_unity_var_num
 		fire_only_once = no
 		visible = {
@@ -1010,6 +1019,7 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
     }
 	
 	ROL_KMT_a_call_for_unity_1_comming = { #展示我们的团结_1——任务
+	    icon = GFX_ROL_KMT_a_call_for_unity_icon
 		fire_only_once = no
 		activation = {
 			has_country_flag = ROL_KMT_choose_Zhang
