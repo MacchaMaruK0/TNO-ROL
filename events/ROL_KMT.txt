@@ -16,6 +16,23 @@ country_event = {
 
 	option = { 
 		name = kmt.1.a
+		remove_ideas = KMT_ROL_minister_Zhang_Zhizhong_hog
+		remove_ideas = KMT_ROL_minister_Jiang_Jingguo_for
+		remove_ideas = KMT_ROL_minister_Chen_Daqing_sec
+		promote_character = {
+		    character = KMT_ROL_Luo_Lie_2
+		    ideology = despotism_ROL_military_vanguard_subtype
+		}
+		add_ideas = KMT_ROL_minister_Deng_Wenyi_hog
+		add_ideas = KMT_ROL_minister_Peng_Mengji_sec
+		add_ideas = KMT_ROL_minister_Yuan_Shouqian_for
+		KMT_ROL_Yan_Jiagan = {
+			set_portraits = {
+				civilian = {
+					small = "gfx/interface/ideas/ministers/KMT/KMT_ROL_minister_Yan_Jiagan_eco_1.png"
+				}
+			}
+		}
 	}
 }
 
@@ -34,7 +51,33 @@ country_event = {
 
 	option = { 
 		name = kmt.2.a 
-		
+		remove_ideas = KMT_ROL_minister_Zhang_Zhizhong_hog
+		remove_ideas = KMT_ROL_minister_Jiang_Jingguo_for
+		remove_ideas = KMT_ROL_minister_Yan_Jiagan_eco
+		remove_ideas = KMT_ROL_minister_Chen_Daqing_sec
+		set_politics = {
+            ruling_party = paternalism
+        }
+		set_party_name = {
+		    ideology = paternalism
+			long_name = KMT_despotism_party_long
+			name = KMT_despotism_party
+		}
+		promote_character = {
+		    character = KMT_ROL_Zhang_Zhizhong
+		    ideology = paternalism_authoritarian_developmentalism_subtype
+		}
+		KMT_ROL_Zhang_Zhizhong = {
+		set_portraits = {
+			civilian = {
+			    large = "gfx/leaders/KMT/Portrait_KMT_ROL_Zhang_Zhizhong.dds"
+			}
+		}
+		}
+		add_ideas = KMT_ROL_minister_Jiang_Jingguo_hog
+		add_ideas = KMT_ROL_minister_Yin_Jun_sec
+		add_ideas = KMT_ROL_minister_Yan_Jiagan_for
+		add_ideas = KMT_ROL_minister_Yu_Guohua_eco
 	}
 }
 
@@ -56,5 +99,91 @@ country_event = {
 
 		
 	}
-	
+}	
+
+country_event = { 
+	id = kmt.4
+	title = kmt.4.t 
+	desc = kmt.4.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.4"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.4.a 
+        kill_country_leader = yes
+		promote_character = {
+		    character = KMT_ROL_Luo_Lie
+		    ideology = despotism_military_junta_subtype
+		}
+		country_event = {
+			id = kmt.5
+			days = 5
+		}
+	}
 }
+
+country_event = { 
+	id = kmt.5
+	title = kmt.5.t 
+	desc = kmt.5.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.5"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.5.a 
+        custom_effect_tooltip = kmt_5_a_tt
+		hidden_effect = {
+			set_country_flag = ROL_KMT_choose_Luo
+			set_country_flag = choose_director_start
+		}
+	}
+	option = { 
+		name = kmt.5.b
+        custom_effect_tooltip = kmt_5_b_tt
+		hidden_effect = {
+		    set_country_flag = choose_director_start
+			set_country_flag = ROL_KMT_choose_Zhang
+		}
+	}
+}
+
+country_event = { 
+	id = kmt.6
+	title = kmt.6.t 
+	desc = kmt.6.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.6"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.6.a 
+		QIN = {
+		add_state_core = 906
+		add_state_core = 604
+		transfer_state = 906
+		transfer_state = 604
+		promote_character = {
+		    character = ROL_QIN_Ma_Jiyuan
+		    ideology = despotism_military_junta_subtype
+		}
+		}
+		#1302 = { set_demilitarized_zone = yes }
+	}
+}	

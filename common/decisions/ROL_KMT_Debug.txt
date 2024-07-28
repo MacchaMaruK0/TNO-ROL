@@ -20,7 +20,7 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用GH_国�
 			log = "[GetDateText]: [Root.GetName]: Debug Decision KMT_ROL_Luo_Lie_1_dec"
 			promote_character = {
 				character = KMT_ROL_Luo_Lie
-				ideology = despotism_military_junta_subtype
+				ideology = despotism_military_vanguard_subtype
 			}
 			remove_all_ministers = yes
 		}
@@ -62,5 +62,4 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用GH_国�
 			set_country_flag = ROL_KMT_choose_Zhang
 		}
     }
-	
 }

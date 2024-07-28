@@ -23,6 +23,9 @@ on_actions = { #
 			    set_variable = {
 					ROL_KMT_Youtharmy_support_num_num = 22
 				}
+				set_variable = {
+					ROL_KMT_a_call_for_unity_var_num = 15
+				}
 				##杂项法律
 				misc_law_ROL_KMT_startup = yes
 			}

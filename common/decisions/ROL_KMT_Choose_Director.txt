@@ -39,13 +39,13 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 				ROL_KMT_Lixing_unit_num_temp = 10
 			}
 			ROL_KMT_Lixing_unit = yes
-		if = {
-        limit = {
-            check_variable = {
-                ROL_KMT_Lixing_unit_num_temp = 10
-            }
-        }
-        custom_effect_tooltip = ROL_KMT_Lixing_unit_num_temp_tt_1
+			if = {
+				limit = {
+					check_variable = {
+						ROL_KMT_Lixing_unit_num_temp = 10
+					}
+				}
+        		custom_effect_tooltip = ROL_KMT_Lixing_unit_num_temp_tt_1
             }	
 	    }
     }
@@ -715,13 +715,341 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
 			}
 		}
 	    remove_effect = {
-		TNO_improve_army_professionalism_low = yes
+			TNO_improve_army_professionalism_low = yes
 			set_temp_variable = {
 				ROL_KMT_ROC_intervene_points_temp = -15
 			}
 			ROL_KMT_add_ROC_intervene = yes
-        custom_effect_tooltip = ROL_KMT_ROC_intervene_points_temp_tt_3
+        	custom_effect_tooltip = ROL_KMT_ROC_intervene_points_temp_tt_3
 	    }
+    }
+	
+	ROL_KMT_extraordinary_means = { #---非常手段---
+	    icon = GFX_decision_generic_investigate
+		cost = 0
+		fire_only_once = no
+		visible = {
+			OR = {
+                has_country_flag = ROL_KMT_choose_Zhang
+                has_country_flag = ROL_KMT_choose_Luo
+            }
+		}
+		available = {
+			has_country_flag = ROL_KMT_is_nothing
+		}
+		days_re_enable = 0
+		days_remove = 0
+	    complete_effect = {
+
+		}
+    }
+	
+	ROL_KMT_mobilize_resources = { #抽调资源
+	    icon = GFX_ROL_KMT_mobilize_resources_icon
+		fire_only_once = no
+		visible = {
+            has_country_flag = ROL_KMT_choose_Luo	
+		}
+		custom_cost_trigger = {
+		    has_political_power < 25.1
+		}
+		available = {
+		    political_power < 25.1
+		}
+		custom_cost_text = ROL_KMT_decision_cost_5_support
+		days_re_enable = 60
+		complete_effect = {
+			hidden_effect = {
+				set_temp_variable = {
+				    ROL_KMT_He_Zhonghan_support_num_temp = -5
+			    }
+				ROL_KMT_He_Zhonghan_support = yes
+			}
+			add_political_power = 25	
+		}
+    }
+	
+	ROL_KMT_mobilize_resources_1 = { #抽调资源_1
+	    icon = GFX_ROL_KMT_mobilize_resources_icon
+		fire_only_once = no
+		visible = {
+            has_country_flag = ROL_KMT_choose_Zhang
+		}
+		available = {
+		    has_political_power < 25.1
+		}
+		custom_cost_trigger = {
+		    has_political_power < 25.1
+		}
+		custom_cost_text = ROL_KMT_decision_cost_5_support
+		days_re_enable = 60
+		complete_effect = {
+			hidden_effect = {
+			    set_temp_variable = {
+				    ROL_KMT_Zhang_Zhizhong_support_num_temp = -5
+			    }
+			ROL_KMT_Zhang_Zhizhong_support = yes
+			}
+			add_political_power = 25		
+		}
+    }
+	
+	ROL_KMT_emergency_rearmament = { #应对对手的破坏
+	    icon = GFX_ROL_KMT_emergency_rearmament_icon
+	    cost = 50
+		fire_only_once = no
+		visible = {
+            has_country_flag = ROL_KMT_choose_Luo	
+		}
+		available = {
+		    custom_trigger_tooltip = {
+		    check_variable = {	
+				ROL_KMT_Lixing_unit_num < 33.1
+			}
+				tooltip = ROL_KMT_emergency_rearmament_tt
+			}
+		}
+		days_re_enable = 60
+		days_remove = 14
+		complete_effect = {
+			hidden_effect = {
+				set_variable = {
+				    ROL_KMT_Lixing_unit_num = 34
+			    }
+				ROL_KMT_Lixing_unit = yes
+			}
+		tooltip = ROL_KMT_emergency_rearmament_complete_tt
+		}
+    }
+	
+	ROL_KMT_emergency_rearmament_1 = { #应对对手的破坏
+	    icon = GFX_ROL_KMT_emergency_rearmament_icon
+	    cost = 50
+		fire_only_once = no
+		visible = {
+            has_country_flag = ROL_KMT_choose_Zhang	
+		}
+		available = {
+		    custom_trigger_tooltip = {
+		    check_variable = {	
+				ROL_KMT_TUMU_support_num < 11.1
+			}
+			check_variable = {	
+				ROL_KMT_Tppcorps_support_num < 11.1
+			}
+			check_variable = {	
+				ROL_KMT_Youtharmy_support_num_num < 11.1
+			}
+		    tooltip = ROL_KMT_emergency_rearmament_1_tt
+			}
+		}
+		days_re_enable = 60
+		days_remove = 14
+		complete_effect = {
+			hidden_effect = {
+				set_variable = {
+				    ROL_KMT_TUMU_support_num = 12
+			    }
+				set_variable = {
+				    ROL_KMT_Tppcorps_support_num = 12
+			    }
+				set_variable = {
+				    ROL_KMT_Youtharmy_support_num_num = 12
+			    }
+				ROL_KMT_Lixing_unit = yes
+			}
+		custom_effect_tooltip = ROL_KMT_emergency_rearmament_complete_1_tt
+		}
+    }
+	
+	ROL_KMT_take_advantage_of_factions = { #利用派系力量
+	    icon = GFX_ROL_KMT_take_advantage_of_factions_icon
+		fire_only_once = no
+		visible = {
+            has_country_flag = ROL_KMT_choose_Luo	
+		}
+		available = {
+		    command_power < 25
+		}	
+		custom_cost_trigger = {
+		    command_power < 25.1
+		}
+		custom_cost_text = ROL_KMT_decision_cost_5_unity
+		days_re_enable = 60
+		complete_effect = {
+			hidden_effect = {
+				set_temp_variable = {
+				    ROL_KMT_Lixing_unit_num_temp = -5
+			    }
+				ROL_KMT_Lixing_unit = yes
+			}
+		add_command_power = 25
+		}
+    }
+	
+	ROL_KMT_take_advantage_of_factions_1 = { #利用派系力量_1
+	    icon = GFX_ROL_KMT_take_advantage_of_factions_icon
+		fire_only_once = no
+		visible = {
+            has_country_flag = ROL_KMT_choose_Zhang
+		}
+		available = {
+		    command_power < 25
+		}
+		custom_cost_trigger = {
+		    command_power < 25.1
+		}
+		custom_cost_text = ROL_KMT_decision_cost_5_unity
+		days_re_enable = 60
+		complete_effect = {
+			hidden_effect = {
+				random_list = {
+				33 = {
+					set_temp_variable = {
+						ROL_KMT_Tppcorps_support_num_temp = -5
+					}
+					ROL_KMT_Tppcorps_support = yes
+				}
+				33 = {
+					set_temp_variable = {
+						ROL_KMT_Youtharmy_support_num_num_temp = -5
+					}
+					ROL_KMT_Youtharmy_support = yes
+				}
+				33 = {
+					set_temp_variable = {
+						ROL_KMT_TUMU_support_num_temp = -5
+					}
+					ROL_KMT_TUMU_support = yes
+				}
+			    }
+			}
+		add_command_power = 25
+		}
+    }
+	
+	ROL_KMT_a_call_for_unity = { #展示我们的团结
+	    icon = GFX_ROL_KMT_a_call_for_unity_icon
+		cost = ROL_KMT_a_call_for_unity_var_num
+		fire_only_once = no
+		visible = { 
+			has_country_flag = ROL_KMT_choose_Luo
+		}
+		available = {
+		    custom_trigger_tooltip = {
+				tooltip = ROL_KMT_a_call_for_unity_tt
+				check_variable = {	
+					ROL_KMT_Lixing_unit_num > 66.1
+				}
+			}
+		}
+		days_re_enable = 65
+	    complete_effect = {
+		    hidden_effect = {
+			   set_temp_variable = {
+				  ROL_KMT_a_call_for_unity_var_num_temp = 20
+			   }
+			ROL_KMT_a_call_for_unity_var = yes
+			set_country_flag = ROL_KMT_a_call_for_unity_comming
+			}
+		custom_effect_tooltip = ROL_KMT_a_call_for_unity_complete_tt	
+		}
+    }
+	
+	ROL_KMT_a_call_for_unity_comming = { #展示我们的团结——任务
+	    icon = GFX_ROL_KMT_a_call_for_unity_icon
+		fire_only_once = no
+		activation = {
+			has_country_flag = ROL_KMT_choose_Luo
+			has_country_flag = ROL_KMT_a_call_for_unity_comming
+		}
+		available = {
+			hidden_trigger = {
+				check_variable = {	
+				   ROL_KMT_Lixing_unit_num > 66.1
+			    }
+			}
+		}
+		days_mission_timeout = 30
+		allowed = {
+			tag = KMT
+		}
+	    timeout_effect = {
+		    set_temp_variable = {
+				ROL_KMT_ROC_intervene_points_temp = -25
+			}
+			ROL_KMT_add_ROC_intervene = yes
+			clr_country_flag = ROL_KMT_a_call_for_unity_comming
+        custom_effect_tooltip = ROL_KMT_ROC_intervene_points_temp_tt_3
+		}
+    }
+	
+	ROL_KMT_a_call_for_unity_1 = { #展示我们的团结_1
+	    icon = GFX_ROL_KMT_a_call_for_unity_icon
+		cost = ROL_KMT_a_call_for_unity_var_num
+		fire_only_once = no
+		visible = {
+			has_country_flag = ROL_KMT_choose_Zhang
+		}
+		available = {
+		    custom_trigger_tooltip = {
+		    check_variable = {	
+				ROL_KMT_Youtharmy_support_num_num_temp > 22.1
+			}
+			check_variable = {	
+				ROL_KMT_Tppcorps_support_num_temp > 22.1
+			}
+			check_variable = {	
+				ROL_KMT_TUMU_support_num_temp > 22.1
+			}
+		    tooltip = ROL_KMT_a_call_for_unity_1_tt
+			}
+		}
+		days_re_enable = 65
+	    complete_effect = {
+		    hidden_effect = {
+			   set_temp_variable = {
+				  ROL_KMT_a_call_for_unity_var_num_temp = 20
+			   }
+			ROL_KMT_a_call_for_unity_var = yes
+			set_country_flag = ROL_KMT_a_call_for_unity_comming
+			}
+		custom_effect_tooltip = ROL_KMT_a_call_for_unity_complete_1_tt	
+		}
+    }
+	
+	ROL_KMT_a_call_for_unity_1_comming = { #展示我们的团结_1——任务
+	    icon = GFX_ROL_KMT_a_call_for_unity_icon
+		fire_only_once = no
+		activation = {
+			has_country_flag = ROL_KMT_choose_Zhang
+			has_country_flag = ROL_KMT_a_call_for_unity_comming
+		}
+		available = {
+			hidden_trigger = {
+				check_variable = {	
+				ROL_KMT_Youtharmy_support_num_num_temp > 22.1
+			    }
+			    check_variable = {	
+				ROL_KMT_Tppcorps_support_num_temp > 22.1
+			    }
+			    check_variable = {	
+				ROL_KMT_TUMU_support_num_temp > 22.1
+			    }
+			}
+		}
+		days_mission_timeout = 30
+		allowed = {
+			tag = KMT
+		}
+	    timeout_effect = {
+		    set_temp_variable = {
+				ROL_KMT_ROC_intervene_points_temp = -25
+			}
+			ROL_KMT_add_ROC_intervene = yes
+			clr_country_flag = ROL_KMT_a_call_for_unity_comming
+        custom_effect_tooltip = ROL_KMT_ROC_intervene_points_temp_tt_3
+		}
     }
 	
 	ROL_KMT_enemy_activity_1 = { #敌人的活动
@@ -857,10 +1185,12 @@ ROL_KMT_Choose_Director_Category = { #这个文件是具体的决议文件，使
             }
 		}
 		available = {
+		    custom_trigger_tooltip = {
 			check_variable = {	
-				    ROL_KMT_ROC_intervene_points >99.1
+				    ROL_KMT_ROC_intervene_points > 99.1
 				}
-			custom_effect_tooltip = ROL_KMT_ROC_intervene_end_tt	
+			tooltip = ROL_KMT_ROC_intervene_end_tt	
+			}
 		}
 		days_mission_timeout = 30
 		allowed = {

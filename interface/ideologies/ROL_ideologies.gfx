@@ -4,4 +4,9 @@ spriteTypes = {
 		name = "GFX_ideology_paternalism_ROL_xunzheng_subtype"
 		texturefile = "gfx/interface/ideologies/paternalism_ROL_xunzheng_subtype.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_ideology_despotism_ROL_military_vanguard_subtype"
+		texturefile = "gfx/interface/ideologies/despotism_ROL_military_vanguard_subtype.dds"
+	}
 }

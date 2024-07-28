@@ -200,3 +200,32 @@ ROL_KMT_Youtharmy_support = {
 		max = 100
 	}
 }
+
+ROL_KMT_a_call_for_unity_var = {
+    #展示我们的团结损耗
+    add_to_variable = {
+        var = ROL_KMT_a_call_for_unity_var_num #展示我们的团结变量
+        value = ROL_KMT_a_call_for_unity_var_num_temp #改变展示我们的团结变量
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_a_call_for_unity_var_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_a_call_for_unity_var_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_a_call_for_unity_var_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_a_call_for_unity_var_num
+		min = 1
+		max = 100
+	}
+}
