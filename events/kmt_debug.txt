@@ -1,0 +1,17 @@
+add_namespace = kmt
+
+country_event = { 
+	id = kmt.666
+	title = kmt.666.t 
+	desc = kmt.666.d
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.666"
+	}
+
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.666.a
+	}	
+}
