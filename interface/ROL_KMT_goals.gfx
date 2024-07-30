@@ -4,7 +4,7 @@ spriteTypes = {
 	#SpriteType = {
 		#name = "/"
 		#textureFile = "gfx/interface/goals/.dds"		#统一放在“gfx/interface/goals/国家ID”文件夹内，命名为“国策ID.dds”
-	}
+	# }
 }
 
 spriteTypes = {
@@ -17,7 +17,7 @@ spriteTypes = {
 	SpriteType = {
 		name = "ROL_KMT_mobilize_the_army"
 		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_mobilize_the_army.png"
-	}
+	} 
 	
 	SpriteType = {
 		name = "ROL_KMT_gaolan_line"
