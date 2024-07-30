@@ -1,0 +1,66 @@
+#这是国策图标定义的文件，所有国策图标均在此处定义
+spriteTypes = {
+	##ROL_KMT_original 要注明是哪一个国策树的
+	#SpriteType = {
+		#name = "/"
+		#textureFile = "gfx/interface/goals/.dds"		#统一放在“gfx/interface/goals/国家ID”文件夹内，命名为“国策ID.dds”
+	}
+}
+
+spriteTypes = {
+	##ROL_KMT_original
+	SpriteType = {
+		name = "ROL_KMT_red_blood_yellow_sand"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_red_blood_yellow_sand.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_mobilize_the_army"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_mobilize_the_army.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_gaolan_line"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_gaolan_line.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_Hu_will_die"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_Hu_will_die.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_suiyuan_encircled"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_suiyuan_encircled.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_mobilize_population"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_mobilize_population.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_wait_for_the_day"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_wait_for_the_day.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_field_committees"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_field_committees.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_security_team"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_security_team.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_woo_the_Maharaja"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_woo_the_Maharaja.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_restructuring_mon_committee"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_restructuring_mon_committee.png"
+	}
+}
