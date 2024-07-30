@@ -63,4 +63,74 @@ spriteTypes = {
 		name = "ROL_KMT_restructuring_mon_committee"
 		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_restructuring_mon_committee.png"
 	}
+	
+	SpriteType = {
+		name = "ROL_KMT_martial_law_in_lanzhou"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_martial_law_in_lanzhou.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_draw_troops"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_draw_troops.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_security_area"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_security_area.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_control_prices"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_control_prices.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_funeral"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_funeral.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_call_from_kunming"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_call_from_kunming.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_meet_commissioner"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_meet_commissioner.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_cease_fire"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_cease_fire.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_establish_mechanisms"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_establish_mechanisms.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_alone_army"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_alone_army.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_stabilize_the_dictator"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_stabilize_the_dictator.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_xining_letter"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_xining_letter.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_hexi_corridor"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_hexi_corridor.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_two_sun"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_two_sun.png"
+	}
 }

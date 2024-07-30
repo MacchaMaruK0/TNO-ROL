@@ -121,6 +121,8 @@ country_event = {
 		    character = KMT_ROL_Luo_Lie
 		    ideology = despotism_military_junta_subtype
 		}
+		set_country_flag = ROL_KMT_Hu_is_die
+		mark_focus_tree_layout_dirty = yes
 		country_event = {
 			id = kmt.5
 			days = 5
