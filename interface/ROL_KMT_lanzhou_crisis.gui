@@ -1,7 +1,28 @@
 guiTypes = {
     containerWindowType = {
+		name = "ROL_KMT_lanzhou_crisis_AccessButton"
+		size = { width = 220 height = 120 }
+		position = { x = 0 y = 289 }
+
+		buttonType = {
+			name = "ROL_KMT_lanzhou_crisis_OpenButton"
+			quadTextureSprite = "GFX_ROL_KMT_open_lanzhou_crisis"
+			scale = 0.68
+			position = { x = 238 y = 36 }
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+
+		iconType = {
+			name = "gui_alert"
+			spriteType = "GFX_gui_alert"
+			position = { x = 189 y = -16 }
+		}
+	}
+	
+    containerWindowType = {
 		name = "ROL_KMT_lanzhou_crisis_GUI"
-		size = { height = 628 width = 788 }
+		size = { height = 628 width = 1160 } 
 		position = { x = 238 y = 220 }
 		show_sound = open_sub_window
 		moveable = yes
@@ -10,6 +31,15 @@ guiTypes = {
 		background = {
 			name = "Background"
 			spriteType = "GFX_tiled_window_1b_no_border"
+		}
+		
+		buttonType = {
+			name = "ROL_KMT_close"
+			position = { x = -65 y = 15 }
+			orientation = "UPPER_RIGHT"
+			spriteType = "GFX_Kartenhaus_CloseButton"
+			clicksound = click_default
+			shortcut = "ESCAPE"
 		}
 	}	
 }
