@@ -1,0 +1,7 @@
+#这个文件定义了兰州危机的素材
+spriteTypes = {
+	spriteType = {
+		name = GFX_ROL_KMT_open_lanzhou_crisis
+		texturefile = "gfx/interface/GUI/Orchid_Badge.dds"
+	}
+}	

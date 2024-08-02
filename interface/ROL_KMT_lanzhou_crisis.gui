@@ -1,0 +1,15 @@
+guiTypes = {
+    containerWindowType = {
+		name = "ROL_KMT_lanzhou_crisis_GUI"
+		size = { height = 628 width = 788 }
+		position = { x = 238 y = 220 }
+		show_sound = open_sub_window
+		moveable = yes
+		clipping = no
+
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window_1b_no_border"
+		}
+	}	
+}

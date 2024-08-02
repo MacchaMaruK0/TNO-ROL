@@ -81,4 +81,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/texticon/decision/ROL_KMT_ROC_intervene_texticon.dds"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_ROL_KMT_bookmark_texticon" #bookmark的icon
+		texturefile = "gfx/interface/texticon/ROL_bookmark/ROL_KMT_bookmark_texticon.png"
+		legacy_lazy_load = no
+	}
 }
