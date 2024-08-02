@@ -5,6 +5,10 @@ scripted_gui = {
 		parent_window_token = politics_tab
 		visible = {
 			original_tag = KMT
+			OR = {
+			has_country_flag = ROL_KMT_lanzhou_crisis_start
+			is_debug = yes
+			}
 		}
 		effects = {
 			ROL_KMT_lanzhou_crisis_OpenButton_click = {

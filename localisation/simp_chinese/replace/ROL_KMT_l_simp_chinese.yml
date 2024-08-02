@@ -313,3 +313,6 @@
  kmt.1.t:0 "新官上任"
  kmt.2.t:0 "新官上任"
  kmt.3.t:0 "万事皆休"
+ 
+ ###gui
+ ROL_KMT_lanzhou_crisisi_tt: "着手§B平息§!§R兰州危机§!"

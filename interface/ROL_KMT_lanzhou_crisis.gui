@@ -11,6 +11,7 @@ guiTypes = {
 			position = { x = 238 y = 36 }
 			clicksound = click_default
 			oversound = ui_menu_over
+			pdx_tooltip = ROL_KMT_lanzhou_crisisi_tt
 		}
 
 		iconType = {
