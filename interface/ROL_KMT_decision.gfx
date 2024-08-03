@@ -154,4 +154,9 @@ spriteTypes = {
 		texturefile = "gfx/decision/KMT/choose/ROL_KMT_mobilize_resources_icon.dds"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_debug_deciscion" 
+		texturefile = "gfx/decision/KMT/ROL_KMT_debug_deciscion.jpg"
+	}
 }

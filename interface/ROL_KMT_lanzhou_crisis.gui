@@ -17,7 +17,7 @@ guiTypes = {
 		iconType = {
 			name = "gui_alert"
 			spriteType = "GFX_gui_alert"
-			position = { x = 189 y = -16 }
+			position = { x = 185 y = -16 }
 		}
 	}
 	

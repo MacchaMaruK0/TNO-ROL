@@ -12,19 +12,6 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用GH_国�
 			remove_all_ministers = yes
 		}
 	}
-	KMT_ROL_Luo_Lie_1_dec = {
-		cost = 0
-		fire_only_once = no
-		days_re_enable = 0
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision KMT_ROL_Luo_Lie_1_dec"
-			promote_character = {
-				character = KMT_ROL_Luo_Lie
-				ideology = despotism_military_vanguard_subtype
-			}
-			remove_all_ministers = yes
-		}
-	}
 	
 	KMT_ROL_Luo_Lie_2_dec = {
 		cost = 0
@@ -60,6 +47,16 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用GH_国�
 	is_debug = yes
 	complete_effect = {
 			set_country_flag = ROL_KMT_choose_Zhang
+		}
+    }
+	
+	Start_lanzhou_crisis = {
+	fire_only_once = no
+	is_debug = yes
+	complete_effect = {
+		country_event = {
+			id = kmt.6
+		    }
 		}
     }
 }

@@ -78,7 +78,7 @@
  ROL_KMT_restructuring_mon_committee_desc:0 ""
  ROL_KMT_martial_law_in_lanzhou:0 "兰州戒严"
  ROL_KMT_martial_law_in_lanzhou_desc:0 ""
- ROL_KMT_draw_troops:0 "抽调部队"
+ ROL_KMT_draw_troops:0 "抽调前线部队"
  ROL_KMT_draw_troops_desc:0 ""
  ROL_KMT_security_area:0 "扩大警备区域"
  ROL_KMT_security_area_desc:0 ""
@@ -107,7 +107,7 @@
  ROL_KMT_ROC_intervene_start_tt:0 "已与£GFX_KMT_kmt_icon §z中央§!§R沟通并敲定主任选举事宜§!"
  
  ###杂项法律
- #想要添加新的法律详见 common\scripter_effects\GH_MAN_Laws_effect.txt
+ #想要添加新的法律详见 common\scripter_effects\ROL_KMT_Laws_effect.txt
  ROL_KMT_get_law_tooltip:0 "[GetAssortedLawsROL_desc]"
  ROL_KMT_Assorted_Law_1_0: "£GFX_ROL_texticon_CS §Q中§!§V苏§!友好同盟条约"
  
@@ -117,11 +117,13 @@
  ###decision
  #debug
  ROL_KMT_Debug_Category:0 "烤馒头的小工具"
+ ROL_KMT_Debug_Category_desc:0 " "
  ROL_KMT_Teng_Jie_dec:0 "让滕杰上来"
  KMT_ROL_Luo_Lie_1_dec:0 "让第一阶段罗列上来"
  KMT_ROL_Luo_Lie_2_dec:0 "让第二阶段罗列上来"
  Choose_Luo:0 "决定支持罗列"
  Choose_Zhang:0 "决定支持张治中"
+ Start_lanzhou_crisis:0 "引爆兰州危机"
  
  #白日之下
  ROL_KMT_Choose_Director_Category: "§W白日§!之下"
@@ -304,7 +306,8 @@
  ROL_KMT_Tppcorps_support_putinto_txt:0 "£GFX_KMT_tpp_icon 三青团的现任派系领袖是：§Y张治中§!\n\n\n\n\n\n\n£GFX_ROL_KMT_Zhang_Zhizhong_texticon \n\n\n\n\n\n\n\n三青团，全称“三民主义青年团”，为战前由各大国民党派系解散后重新组成的国民党次级团体，因此实际上并不能算作一个政治派系。\n然而首任书记长张治中仍能在任职期间收获一批支持者，虽然人数不多，却也能在西北立足，不至于被他人瓜分。\n\n在这场竞争行辕主任的斗争当中，三青团将支持张治中成为下一任行辕主任。\n\n现阶段，£GFX_KMT_tpp_icon 三青团的£GFX_KMT_unity_icon 团结度是[Get_ROL_KMT_Tpp_tt]（[?ROL_KMT_Tppcorps_support_num]%）"
  ROL_KMT_Lixing_support_putinto_txt:0 "£GFX_KMT_lixing_icon 革军会的现任派系领袖是：§g罗列§!\n\n\n\n\n\n\n£GFX_ROL_KMT_Luo_Lie_texticon \n\n\n\n\n\n\n\n革命军人同志会是由国军中，特别是黄埔军校出身的爱国军人自发组成的军人组织。尽管其本身并不能代表国民政府，也经常宣称不干涉政治，但蒋委员长去世后，这个由激进派军人组成的组织却逐渐成为国军中举足轻重的力量，甚至胡宗南、罗列、邓文仪等高级将领也是其公开成员。\n\n革命军人同志会在宣传、征兵、政治作战等方面为国军的建设起到了难以替代的作用，而军中少壮派也开始出现唯革军会马首是瞻的不安现象。\n\n革军会的领袖罗列将军是无可替代的候选人。\n\n现阶段，£GFX_KMT_lixing_icon §o革命军人同志会§!的£GFX_KMT_unity_icon 团结度是[Get_ROL_KMT_Lixing_tt]（[?ROL_KMT_Lixing_unit_num]%）"
  ROL_KMT_ROC_intervene_putinto_txt:0 "[Get_ROL_KMT_ROC_intervene_title_tt]\n\n\n\n\n\n\n£GFX_ROL_KMT_ROC_intervene_texticon \n\n\n\n\n\n\n\n[Get_ROL_KMT_ROC_intervene_putinto_tt]\n\n现阶段，£GFX_KMT_kmt_icon 中央对主任选举的£GFX_KMT_ROC_icon 态度是[Get_ROL_KMT_ROC_intervene_tt]（[?ROL_KMT_ROC_intervene_points]%）"
- ###
+ 
+ ###民族精神
  ROL_KMT_heteronomy_tt:0 "§R无法在未经§!£GFX_KMT_kmt_icon §B中央§!许可§R时训练部队、解散部队或编辑部队模板。§!\n"
  
  ###event
@@ -314,5 +317,6 @@
  kmt.2.t:0 "新官上任"
  kmt.3.t:0 "万事皆休"
  
- ###gui
+ ###兰州危机gui
  ROL_KMT_lanzhou_crisisi_tt: "着手§B平息§!§R兰州危机§!"
+ kmt_6_a_tt:0 "§B§g马继援§!已公开抗命，宣布青海省直接归属£GFX_KMT_kmt_icon §i滇府中央§!调遣以表衷心，只为自己在新一任行辕政府中谋得更好职位，我们虽§Y心知肚明§!，但§e无计可施...§!\n与此同时，§d兰州§!城内，§e我们的敌人§!蠢蠢欲动，他们在谋划一场颠覆行动，以夺取§d兰州§!\n§d兰州§!城外，§g马继援§!的行为越发激进，一旦他与£GFX_KMT_kmt_icon §i滇府中央§!达成共识或£GFX_KMT_kmt_icon §i滇府中央§!失去耐心\n§g马继援§!将出兵夺取§d兰州§!，西北行辕也会被£GFX_KMT_kmt_icon §i滇府中央§!所限，§e失去一切权力§!。\n在政治界面中解锁£decision_icon_small §W着手§!§B平息§!§R兰州危机§!GUI§!"

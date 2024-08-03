@@ -186,6 +186,10 @@ country_event = {
 		    ideology = despotism_military_junta_subtype
 		}
 		}
-		#1302 = { set_demilitarized_zone = yes }
+		custom_effect_tooltip = kmt_6_a_tt
+		hidden_effect = {
+		set_global_flag = tno_speed_warning
+		set_country_flag = ROL_KMT_lanzhou_crisis_start
+		}
 	}
 }	
