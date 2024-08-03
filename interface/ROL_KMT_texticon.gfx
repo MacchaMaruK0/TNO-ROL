@@ -86,4 +86,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/texticon/ROL_bookmark/ROL_KMT_bookmark_texticon.png"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_KMT_lanzhou_crisis" #兰州危机的icon
+		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/KMT_lanzhou_crisis.png"
+		legacy_lazy_load = no
+	}
 }

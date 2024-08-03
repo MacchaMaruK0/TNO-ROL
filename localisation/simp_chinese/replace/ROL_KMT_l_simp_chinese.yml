@@ -120,7 +120,7 @@
  ROL_KMT_Debug_Category_desc:0 " "
  KMT_ROL_Luo_Lie_2_dec:0 "让第二阶段罗列上来"
  Choose_Luo:0 "支持候选人"
- Start_lanzhou_crisis:0 "引爆兰州危机"
+ Start_lanzhou_crisis:0 "引爆£GFX_KMT_lanzhou_crisis 兰州危机"
  KMT_ROL_load_org_tree:0 "加载初始国策树"
  KMT_ROL_load_choose_before_tree:0 "加载竞选前国策树"
  
@@ -317,5 +317,5 @@
  kmt.3.t:0 "万事皆休"
  
  ###兰州危机gui
- ROL_KMT_lanzhou_crisisi_tt: "着手§B平息§!§R兰州危机§!"
- kmt_6_a_tt:0 "§B§g马继援§!已公开抗命，宣布青海省直接归属£GFX_KMT_kmt_icon §i滇府中央§!调遣以表衷心，只为自己在新一任行辕政府中谋得更好职位，我们虽§Y心知肚明§!，但§e无计可施...§!\n与此同时，§d兰州§!城内，§e我们的敌人§!蠢蠢欲动，他们在谋划一场颠覆行动，以夺取§d兰州§!\n§d兰州§!城外，§g马继援§!的行为越发激进，一旦他与£GFX_KMT_kmt_icon §i滇府中央§!达成共识或£GFX_KMT_kmt_icon §i滇府中央§!失去耐心\n§g马继援§!将出兵夺取§d兰州§!，西北行辕也会被£GFX_KMT_kmt_icon §i滇府中央§!所限，§e失去一切权力§!。\n在政治界面中解锁£decision_icon_small §W着手§!§B平息§!§R兰州危机§!GUI§!"
+ ROL_KMT_lanzhou_crisisi_tt: "着手§B平息§!£GFX_KMT_lanzhou_crisis §R兰州危机§!"
+ kmt_6_a_tt:0 "§B§g马继援§!已公开抗命，宣布青海省直接归属£GFX_KMT_kmt_icon §i滇府中央§!调遣以表衷心，只为自己在新一任行辕政府中谋得更好职位，我们虽§Y心知肚明§!，但§e无计可施...§!\n与此同时，§d兰州§!城内，§e我们的敌人§!蠢蠢欲动，他们在谋划一场颠覆行动，以夺取§d兰州§!\n§d兰州§!城外，§g马继援§!的行为越发激进，一旦他与£GFX_KMT_kmt_icon §i滇府中央§!达成共识或£GFX_KMT_kmt_icon §i滇府中央§!失去耐心\n§g马继援§!将出兵夺取§d兰州§!，西北行辕也会被£GFX_KMT_kmt_icon §i滇府中央§!所限，§e失去一切权力§!。\n在政治界面中解锁£decision_icon_small §W着手§!§B平息§!£GFX_KMT_lanzhou_crisis §R兰州危机§!GUI§!"
