@@ -1,0 +1,9 @@
+opinion_modifiers = {
+    ROL_south_asia_anti_japan = {
+	value = -100
+	}
+	
+	ROL_south_asia_japan_leave = {
+	value = -50
+	}
+}	

@@ -65,4 +65,14 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用GH_国�
 		    }
 		}
     }
+	
+	Start_Japan_leave_south_asia = {
+	fire_only_once = no
+	is_debug = yes
+	complete_effect = {
+		country_event = {
+
+		    }
+		}
+    }
 }

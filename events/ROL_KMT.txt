@@ -1,4 +1,5 @@
 add_namespace = kmt
+add_namespace = kmt_south_asia
 
 country_event = {
 	id = kmt.1 
@@ -162,6 +163,43 @@ country_event = {
 }
 
 country_event = { 
+	id = kmt_south_asia.1
+	title = kmt_south_asia.1.t 
+	desc = kmt_south_asia.1.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt_south_asia.1"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt_south_asia.1.a
+		JAP = {
+		add_opinion_modifier = {
+			target = VIN
+			modifier = ROL_south_asia_japan_leave
+		}
+		}
+		VIN = {
+		remove_ideas = Sphere_Fully_Dependent
+		leave_faction = yes
+		econ_leave_sphere = yes
+		clear_superpower_embargoes = yes
+		add_ideas = OFN_Observer
+		econ_join_sphere_USA = yes
+		add_opinion_modifier = {
+			target = JAP
+			modifier = ROL_south_asia_anti_japan
+		}
+		}
+	}
+}	
+
+
+country_event = { 
 	id = kmt.6
 	title = kmt.6.t 
 	desc = kmt.6.d 
@@ -192,4 +230,4 @@ country_event = {
 		set_country_flag = ROL_KMT_lanzhou_crisis_start
 		}
 	}
-}	
+}
