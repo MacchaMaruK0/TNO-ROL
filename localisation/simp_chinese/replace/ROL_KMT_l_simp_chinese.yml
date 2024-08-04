@@ -123,8 +123,9 @@
  Start_lanzhou_crisis:0 "引爆£GFX_KMT_lanzhou_crisis 兰州危机"
  KMT_ROL_load_org_tree:0 "加载初始国策树"
  KMT_ROL_load_choose_before_tree:0 "加载竞选前国策树"
- ROL_south_asia_anti_japan:0 "反日情绪高涨"
- ROL_south_asia_japan_leave:0 "东南亚不受控制"
+ ROL_south_asia_anti_japan:0 " "
+ ROL_south_asia_japan_leave:0 " "
+
  
  #白日之下
  ROL_KMT_Choose_Director_Category: "§W白日§!之下"
