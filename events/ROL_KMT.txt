@@ -1,5 +1,6 @@
 add_namespace = kmt
 add_namespace = kmt_south_asia
+add_namespace = kmt_border_war
 
 country_event = {
 	id = kmt.1 
@@ -229,5 +230,273 @@ country_event = {
 		set_global_flag = tno_speed_warning
 		set_country_flag = ROL_KMT_lanzhou_crisis_start
 		}
+	}
+}
+		
+country_event = { 
+	id = kmt_border_war.4 
+	title = kmt_border_war.4.t 
+	desc = kmt_border_war.4.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt_border_war.4"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt_border_war.4.a
+        start_border_war = {
+		change_state_after_war = no
+		    attacker = {
+		       state = 283
+		       num_province = 4
+		       on_win = kmt_border_war.7
+		       on_lose = kmt_border_war.8
+		       on_cancel = kmt_border_war.9
+		    }
+		    defender = {
+		       state = 1302
+		       num_province = 3
+		       on_win = kmt_border_war.2
+		       on_lose = kmt_border_war.1
+		       on_cancel = kmt_border_war.3
+		    }
+		}
+    }
+}
+
+country_event = { 
+	id = kmt_border_war.5
+	title = kmt_border_war.5.t 
+	desc = kmt_border_war.5.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt_border_war.5"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt_border_war.5.a
+        start_border_war = {
+		change_state_after_war = no
+		    attacker = {
+		       state = 1302
+		       num_province = 3
+		       on_win = kmt_border_war.2
+		       on_lose = kmt_border_war.1
+		       on_cancel = kmt_border_war.3
+		    }
+		    defender = {
+		       state = 283
+		       num_province = 3
+		       on_win = kmt_border_war.7
+		       on_lose = kmt_border_war.8
+		       on_cancel = kmt_border_war.9
+		    }
+		}
+    }
+}
+##################org_focus##################
+country_event = { 
+	id = kmt.20
+	title = kmt.20.t 
+	desc = kmt.20.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.20"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.20.a 
+	}
+}
+
+country_event = { 
+	id = kmt.21
+	title = kmt.21.t 
+	desc = kmt.21.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.21"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.21.a 
+	}
+}
+
+country_event = { 
+	id = kmt.22
+	title = kmt.22.t 
+	desc = kmt.22.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.22"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.22.a 
+	}
+}
+
+country_event = { 
+	id = kmt.23
+	title = kmt.23.t 
+	desc = kmt.23.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.23"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.23.a 
+	}
+}
+
+country_event = { 
+	id = kmt.24
+	title = kmt.24.t 
+	desc = kmt.24.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.24"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.24.a 
+	}
+}
+
+country_event = { 
+	id = kmt.25
+	title = kmt.25.t 
+	desc = kmt.25.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.25"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.25.a 
+	}
+}
+
+country_event = { 
+	id = kmt.26
+	title = kmt.26.t 
+	desc = kmt.26.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.26"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.26.a 
+	}
+}
+
+country_event = { 
+	id = kmt.27
+	title = kmt.27.t 
+	desc = kmt.27.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.27"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.27.a 
+	}
+}
+
+country_event = { 
+	id = kmt.28
+	title = kmt.28.t 
+	desc = kmt.28.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.28"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.28.a 
+	}
+}
+
+country_event = { 
+	id = kmt.29
+	title = kmt.29.t 
+	desc = kmt.29.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.29"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.29.a 
+	}
+}
+
+country_event = { 
+	id = kmt.30
+	title = kmt.30.t 
+	desc = kmt.30.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.30"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.30.a 
 	}
 }

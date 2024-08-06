@@ -1,0 +1,119 @@
+ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_国名_决议内容.txt命名
+	ROL_KMT_CPC_attack = {
+	icon = GFX_decision_generic_clock
+		activation = {
+		    OR = {
+		    has_country_flag = ROL_KMT_red_blood
+			is_debug = yes
+			}
+		}
+		available = {
+			has_border_war = yes
+		}
+		days_mission_timeout = 14
+		allowed = {
+			tag = KMT
+		}
+		######芝士倒计时
+		timeout_effect = {
+		country_event = { id = kmt_border_war.4 }
+	}
+    }
+	
+	ROL_KMT_attack = {
+	icon = /
+		activation = {
+		}
+		available = {
+			NOT = { has_border_war = yes }
+		}
+		allowed = {
+			tag = KMT
+		}
+        days_re_enable = 28
+		days_remove = 14
+		complete_effect = {
+		}
+		remove_effect = {
+		country_event = { id = kmt_border_war.5 }
+		}
+    }
+	
+	ROL_KMT_start_the_machine = {
+	icon = GFX_decision_generic_clock
+		activation = {
+		    OR = {
+		    has_country_flag = ROL_KMT_red_blood
+			is_debug = yes
+			}
+		}
+		available = {
+			has_border_war = yes
+		}
+		days_mission_timeout = 7
+		allowed = {
+			tag = KMT
+		}
+		######芝士倒计时
+		timeout_effect = {
+		set_temp_variable = {
+				ROL_KMT_add_supply_efficiency_points_temp = 5
+		}
+		ROL_KMT_add_supply_efficiency = yes	
+		set_temp_variable = {
+				ROL_KMT_add_level_efficiency_points_temp = 5
+		}
+		ROL_KMT_add_level_efficiency = yes
+		set_temp_variable = {
+				ROL_KMT_add_supply_points_temp = 6.5
+		}
+		ROL_KMT_add_supply = yes
+        set_temp_variable = {
+				ROL_KMT_add_level_points_temp = 4.5
+		}
+		ROL_KMT_add_level = yes
+		set_temp_variable = {
+				ROL_KMT_add_solider_points_temp = 6.5
+		}
+		ROL_KMT_add_solider = yes
+		hidden_effect = {
+        if = {
+		limit = {
+        check_variable = {
+                ROL_KMT_add_solider_points < 33.1
+            }
+		}	
+		add_ideas = ROL_KMT_solider_strong_1
+        remove_ideas = ROL_KMT_solider_strong_2
+        remove_ideas = ROL_KMT_solider_strong_3
+		}
+        else_if = {
+		limit = {
+		check_variable = {
+                ROL_KMT_add_solider_points > 33.1
+            }
+		check_variable = {
+                ROL_KMT_add_solider_points < 66.1
+            }
+		}	
+		add_ideas = ROL_KMT_solider_strong_2
+        remove_ideas = ROL_KMT_solider_strong_1
+        remove_ideas = ROL_KMT_solider_strong_3
+        }
+        else_if = {
+		limit = {
+		check_variable = {
+                ROL_KMT_add_solider_points > 66.1
+            }
+		}	
+		add_ideas = ROL_KMT_solider_strong_3
+        remove_ideas = ROL_KMT_solider_strong_2
+        remove_ideas = ROL_KMT_solider_strong_1
+        }
+        }		
+		custom_effect_tooltip = ROL_KMT_start_the_solider_tt
+		custom_effect_tooltip = ROL_KMT_start_the_level_tt		
+		custom_effect_tooltip = ROL_KMT_start_the_supply_tt
+		custom_effect_tooltip = ROL_KMT_start_the_machine_tt
+		}
+	}

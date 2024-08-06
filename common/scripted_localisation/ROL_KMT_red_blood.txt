@@ -1,0 +1,98 @@
+defined_text = {
+    name = Get_ROL_KMT_stop_fire_tt
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_add_win_num_points < ROL_CPC_add_win_num_points }
+		}
+		localization_key = ROL_KMT_stop_fire_tt_1
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_add_win_num_points = ROL_CPC_add_win_num_points }
+		}
+		localization_key = ROL_KMT_stop_fire_tt_2
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_add_win_num_points > ROL_CPC_add_win_num_points }
+		}
+		localization_key = ROL_KMT_stop_fire_tt_3
+	}
+}
+
+defined_text = {
+    name = Get_ROL_KMT_supply_tt
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_add_supply_points < 33.1 }
+		}
+		localization_key = ROL_KMT_supply_tt_1
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_add_supply_points > 33.1 }
+		check_variable = { ROL_KMT_add_supply_points < 66.1 }
+        }
+		localization_key = ROL_KMT_supply_tt_2
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_add_supply_points > 66.1 }
+		}
+		localization_key = ROL_KMT_supply_tt_3
+	}
+}
+
+defined_text = {
+    name = Get_ROL_KMT_level_tt
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_add_level_points < 33.1 }
+		}
+		localization_key = ROL_KMT_level_tt_1
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_add_level_points > 33.1 }
+		check_variable = { ROL_KMT_add_level_points < 66.1 }
+        }
+		localization_key = ROL_KMT_level_tt_2
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_add_level_points > 66.1 }
+		}
+		localization_key = ROL_KMT_level_tt_3
+	}
+}
+
+defined_text = {
+    name = Get_ROL_KMT_solider_tt
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_add_solider_points < 33.1 }
+		}
+		localization_key = ROL_KMT_solider_tt_1
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_add_solider_points > 33.1 }
+		check_variable = { ROL_KMT_add_solider_points < 66.1 }
+        }
+		localization_key = ROL_KMT_solider_tt_2
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_add_solider_points > 66.1 }
+		}
+		localization_key = ROL_KMT_solider_tt_3
+	}
+}

@@ -91,4 +91,34 @@ spriteTypes = {
 		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/KMT_lanzhou_crisis.png"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_ROL_KMT_red_blood_solider" #兵员的icon
+		texturefile = "gfx/interface/texticon/ROL_KMT_red_blood/ROL_KMT_red_blood_solider.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROL_KMT_red_blood_supply" #补给的icon
+		texturefile = "gfx/interface/texticon/ROL_KMT_red_blood/ROL_KMT_red_blood_supply.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROL_KMT_red_blood_gun" #枪支的icon
+		texturefile = "gfx/interface/texticon/ROL_KMT_red_blood/ROL_KMT_red_blood_gun.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROL_KMT_red_blood_victory" #胜利的icon
+		texturefile = "gfx/interface/texticon/ROL_KMT_red_blood/ROL_KMT_red_blood_victory.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROL_KMT_red_blood_level" #战备等级的icon
+		texturefile = "gfx/interface/texticon/ROL_KMT_red_blood/ROL_KMT_red_blood_level.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROL_KMT_red_blood_war" #战争的icon
+		texturefile = "gfx/interface/texticon/ROL_KMT_red_blood/ROL_KMT_red_blood_war.png"
+		legacy_lazy_load = no
+	}
 }
