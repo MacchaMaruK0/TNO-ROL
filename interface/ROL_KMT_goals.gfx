@@ -133,4 +133,5 @@ spriteTypes = {
 		name = "ROL_KMT_two_sun"
 		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_two_sun.png"
 	}
+	
 }

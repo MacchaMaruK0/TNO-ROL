@@ -1,0 +1,11 @@
+﻿l_simp_chinese:
+ KMT_PATH: "西北行辕之命运"
+ RULE_OPTION_KMT_ZHANG_PATH_RANDOM: "三派共举领袖张治中"
+ RULE_OPTION_KMT_LUO_PATH_RANDOM: "革军会领袖罗列"
+ RULE_OPTION_KMT_MA_PATH_RANDOM: "地方军阀马继援"
+ RULE_OPTION_KUOMINTANG_PATH_RANDOM: "默认 - AI随机"
+ RULE_OPTION_KMT_ZHANG_PATH_RANDOM_DESC: "在1962行辕主任之选举中，三青团、青年军、土木系共举领袖张治中胜出。"
+ RULE_OPTION_KMT_LUO_PATH_RANDOM_DESC: "在1962行辕主任之选举中，革军会领袖罗列胜出"
+ RULE_OPTION_KMT_MA_PATH_RANDOM_DESC: "在1962行辕主任之选举中，久久悬而未决导致中央铁腕介入，并任命马继援为行辕主任"
+ 
+
