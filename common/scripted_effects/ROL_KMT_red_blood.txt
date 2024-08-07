@@ -200,3 +200,32 @@ ROL_CPC_add_win_num = {
 		max = 100
 	}
 }
+
+ROL_KMT_add_deduct = {
+    #一切变量的变量
+    add_to_variable = {
+        var = ROL_KMT_add_deduct_points #变量
+        value = ROL_KMT_add_deduct_points_temp #改变变量
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_add_deduct_points_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_add_deduct_points_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_add_deduct_points_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_add_deduct_points
+		min = -300
+		max = 300
+	}
+}

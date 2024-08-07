@@ -126,4 +126,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/texticon/ROL_KMT_red_blood/ROL_KMT_red_blood_hand.png"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_ROL_KMT_red_blood_texticon" #赤血黄沙的texticon
+		texturefile = "gfx/interface/texticon/ROL_KMT_red_blood/ROL_KMT_red_blood_texticon.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROL_KMT_red_blood_icon" #赤血黄沙的icon
+		texturefile = "gfx/interface/texticon/ROL_KMT_red_blood/ROL_KMT_red_blood_icon.png"
+	}
+	spriteType = {
+		name = "GFX_ROL_KMT_choose_icon" #白日之下的icon
+		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/ROL_KMT_choose_icon.png"
+	}
+	spriteType = {
+		name = "GFX_ROL_KMT_choose_texticon" #白日之下的texticon
+		texturefile = "gfx/interface/texticon/ROL_KMT_red_blood/ROL_KMT_choose_texticon.png"
+		legacy_lazy_load = no
+	}
 }

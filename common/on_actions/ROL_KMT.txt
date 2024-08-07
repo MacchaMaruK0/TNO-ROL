@@ -29,6 +29,12 @@ on_actions = { #
 				set_variable = {
 					ROL_KMT_add_solider_efficiency = 65
 				}
+				set_variable = {
+					ROL_KMT_add_supply_points = 50
+				}
+				set_variable = {
+					ROL_KMT_add_solider_points = 50
+				}
 				##杂项法律
 				misc_law_ROL_KMT_startup = yes
 			}

@@ -96,3 +96,39 @@ defined_text = {
 		localization_key = ROL_KMT_solider_tt_3
 	}
 }
+
+defined_text = {
+    name = Get_ROL_KMT_supply_deduct_tt
+	text = {
+	    trigger = {
+			set_temp_variable = { ROL_KMT_supply_deduct = ROL_KMT_add_supply_points }
+			add_to_temp_variable = { ROL_KMT_supply_deduct = ROL_KMT_add_deduct_points }
+			clamp_temp_variable = { var = ROL_KMT_supply_deduct min = -100 max = 300 }
+		}	
+	    localization_key = [?ROL_KMT_supply_deduct|Y1]
+	}
+}	
+
+defined_text = {
+    name = Get_ROL_KMT_solider_deduct_tt
+	text = {
+	    trigger = {
+			set_temp_variable = { ROL_KMT_solider_deduct = ROL_KMT_add_solider_points }
+			add_to_temp_variable = { ROL_KMT_solider_deduct = ROL_KMT_add_deduct_points }
+			clamp_temp_variable = { var = ROL_KMT_solider_deduct min = -100 max = 300 }
+		}	
+	    localization_key = [?ROL_KMT_solider_deduct|Y1]
+	}
+}
+
+defined_text = {
+    name = Get_ROL_KMT_level_deduct_tt
+	text = {
+	    trigger = {
+			set_temp_variable = { ROL_KMT_level_deduct = ROL_KMT_add_level_points }
+			add_to_temp_variable = { ROL_KMT_level_deduct = ROL_KMT_add_deduct_points }
+			clamp_temp_variable = { var = ROL_KMT_level_deduct min = -100 max = 300 }
+		}	
+	    localization_key = [?ROL_KMT_level_deduct|Y1]
+	}
+}

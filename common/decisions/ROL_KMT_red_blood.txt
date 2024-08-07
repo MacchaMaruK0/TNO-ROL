@@ -1,5 +1,174 @@
 ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_国名_决议内容.txt命名
-	ROL_KMT_CPC_attack = {
+    ROL_KMT_decentralization_of_supplies = { #分发物资
+	icon = /
+		activation = {
+		}
+		available = {
+		custom_trigger_tooltip = {
+		    check_variable = {
+			ROL_KMT_add_supply_points > 21
+			}
+			tooltip = ROL_KMT_decentralization_of_supplies_tt
+			}
+			NOT = { has_border_war = yes }
+		}
+		allowed = {
+			tag = KMT
+		}
+		custom_cost_trigger = {
+		    check_variable = {
+			ROL_KMT_add_supply_points > 21
+			}
+		}
+		custom_cost_text = ROL_KMT_decision_cost_30_supply
+        days_re_enable = 14
+		complete_effect = {
+		hidden_effect = {
+		set_temp_variable = {
+		ROL_KMT_add_deduct_points = -20
+		}
+		ROL_KMT_add_deduct = yes
+		set_temp_variable = {
+		ROL_KMT_add_supply_points_temp = ROL_KMT_add_deduct_points
+		}
+		ROL_KMT_add_supply = yes
+		}
+		custom_effect_tooltip = ROL_KMT_decentralization_of_supplies_1_tt
+		add_stability = 0.05
+		add_war_support = 0.15
+		add_timed_idea = { idea = idea_ROL_KMT_decentralization_of_supplies days = 15 }
+		}
+    }
+	
+	ROL_KMT_set_warlords = { #设立督战队
+	icon = /
+		activation = {
+		}
+		available = {
+		custom_trigger_tooltip = {
+		    check_variable = {
+			ROL_KMT_add_solider_points > 21
+			}
+			tooltip = ROL_KMT_set_warlords_tt
+			}
+			has_border_war = yes
+		}
+		allowed = {
+			tag = KMT
+		}
+		custom_cost_trigger = {
+		    check_variable = {
+			ROL_KMT_add_solider_points > 21
+			}
+		}
+		custom_cost_text = ROL_KMT_decision_cost_20_solider
+        days_re_enable = 14
+		complete_effect = {
+		hidden_effect = {
+		set_temp_variable = {
+		ROL_KMT_add_deduct_points = -20
+		}
+		ROL_KMT_add_deduct = yes
+		set_temp_variable = {
+		ROL_KMT_add_solider_points_temp = ROL_KMT_add_deduct_points
+		}
+		ROL_KMT_add_solider = yes
+		}
+		custom_effect_tooltip = ROL_KMT_set_warlords_1_tt
+		TNO_improve_military_supervision_policy_effectiveness_low = yes
+		add_timed_idea = { idea = idea_ROL_KMT_set_warlords days = 15 }
+		}
+    }
+	
+	ROL_KMT_kill_guerilla = { #围剿游击队
+	icon = /
+		activation = {
+		}
+		available = {
+		custom_trigger_tooltip = {
+		    check_variable = {
+			ROL_KMT_add_solider_points > 11
+			}
+			check_variable = {
+			ROL_KMT_add_level_points > 11
+			}
+			tooltip = ROL_KMT_kill_guerilla_tt
+			}
+			NOT = { has_border_war = yes }
+		}
+		allowed = {
+			tag = KMT
+		}
+		custom_cost_trigger = {
+		    check_variable = {
+			ROL_KMT_add_solider_points > 11
+			}
+			check_variable = {
+			ROL_KMT_add_level_points > 11
+			}
+		}
+		custom_cost_text = ROL_KMT_decision_cost_10_solider_10_level
+        days_re_enable = 14
+		complete_effect = {
+		hidden_effect = {
+		set_temp_variable = {
+		ROL_KMT_add_deduct_points = -10
+		}
+		ROL_KMT_add_deduct = yes
+		set_temp_variable = {
+		ROL_KMT_add_solider_points_temp = ROL_KMT_add_deduct_points
+		}
+		ROL_KMT_add_solider = yes
+		set_temp_variable = {
+		ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_points
+		}
+		ROL_KMT_add_level = yes
+		}
+		custom_effect_tooltip = ROL_KMT_kill_guerilla_1_tt
+		add_timed_idea = { idea = idea_ROL_KMT_kill_guerilla days = 15 }
+		}
+    }
+	
+	ROL_KMT_fortifications = { #加固防御工事
+	icon = /
+		activation = {
+		}
+		available = {
+		custom_trigger_tooltip = {
+			check_variable = {
+			ROL_KMT_add_level_points > 21
+			}
+			tooltip = ROL_KMT_fortifications_tt
+			}
+			NOT = { has_border_war = yes }
+		}
+		allowed = {
+			tag = KMT
+		}
+		custom_cost_trigger = {
+			check_variable = {
+			ROL_KMT_add_level_points > 21
+			}
+		}
+		custom_cost_text = ROL_KMT_decision_cost_20_level
+        days_re_enable = 14
+		complete_effect = {
+		hidden_effect = {
+		set_temp_variable = {
+		ROL_KMT_add_deduct_points = -20
+		}
+		ROL_KMT_add_deduct = yes
+		set_temp_variable = {
+		ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_points
+		}
+		ROL_KMT_add_level = yes
+		}
+		custom_effect_tooltip = ROL_KMT_fortifications_1_tt
+		add_timed_idea = { idea = idea_ROL_KMT_fortifications days = 15 }
+		}
+    }
+	
+	ROL_KMT_CPC_attack = { #cpc周期性边境冲突
 	icon = GFX_decision_generic_clock
 		activation = {
 		    OR = {
@@ -20,7 +189,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 	}
     }
 	
-	ROL_KMT_attack = {
+	ROL_KMT_attack = { #主动边境冲突
 	icon = /
 		activation = {
 		}
@@ -39,7 +208,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 		}
     }
 	
-	ROL_KMT_start_the_machine = {
+	ROL_KMT_start_the_machine = { #开动战争机器
 	icon = GFX_decision_generic_clock
 		activation = {
 		    OR = {
@@ -75,42 +244,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 		set_temp_variable = {
 				ROL_KMT_add_solider_points_temp = 6.5
 		}
-		ROL_KMT_add_solider = yes
-		hidden_effect = {
-        if = {
-		limit = {
-        check_variable = {
-                ROL_KMT_add_solider_points < 33.1
-            }
-		}	
-		add_ideas = ROL_KMT_solider_strong_1
-        remove_ideas = ROL_KMT_solider_strong_2
-        remove_ideas = ROL_KMT_solider_strong_3
-		}
-        else_if = {
-		limit = {
-		check_variable = {
-                ROL_KMT_add_solider_points > 33.1
-            }
-		check_variable = {
-                ROL_KMT_add_solider_points < 66.1
-            }
-		}	
-		add_ideas = ROL_KMT_solider_strong_2
-        remove_ideas = ROL_KMT_solider_strong_1
-        remove_ideas = ROL_KMT_solider_strong_3
-        }
-        else_if = {
-		limit = {
-		check_variable = {
-                ROL_KMT_add_solider_points > 66.1
-            }
-		}	
-		add_ideas = ROL_KMT_solider_strong_3
-        remove_ideas = ROL_KMT_solider_strong_2
-        remove_ideas = ROL_KMT_solider_strong_1
-        }
-        }		
+		ROL_KMT_add_solider = yes		
 		custom_effect_tooltip = ROL_KMT_start_the_solider_tt
 		custom_effect_tooltip = ROL_KMT_start_the_level_tt		
 		custom_effect_tooltip = ROL_KMT_start_the_supply_tt

@@ -80,5 +80,58 @@ ideas = {
 			   custom_modifier_tooltip = idea_ROL_KMT_protracted_conflicts_tt
 			}
 		}
+		
+		idea_ROL_KMT_decentralization_of_supplies = {
+		    #
+		    allowed = {
+				always = no
+			}
+			picture = /
+			removal_cost = -1
+			modifier = {
+			   army_org_factor = 0.15
+			   army_morale_factor = 0.10
+			}
+		}
+		
+		idea_ROL_KMT_set_warlords = {
+		    #
+		    allowed = {
+				always = no
+			}
+			picture = /
+			removal_cost = -1
+			modifier = {
+			   army_speed_factor = 0.05
+			   army_infantry_attack_factor = 0.05
+			   modifier_army_sub_unit_irregular_infantry_attack_factor = 0.05
+			}
+		}
+		
+		idea_ROL_KMT_kill_guerilla = {
+		    allowed = {
+				always = no
+			}
+			picture = /
+			removal_cost = -1
+			modifier = {
+			   mobilization_speed = 0.10
+			   resistance_damage_to_garrison = -0.3
+			   compliance_gain = 0.05
+			}
+		}
+		
+		idea_ROL_KMT_fortifications = {
+		    allowed = {
+				always = no
+			}
+			picture = /
+			removal_cost = -1
+			modifier = {
+			   army_core_defence_factor = 0.10
+			   modifier_army_sub_unit_irregular_infantry_defence_factor = 0.05
+			   land_reinforce_rate = 0.10
+			}
+		}
 	}
 }
