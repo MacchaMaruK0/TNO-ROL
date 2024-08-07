@@ -465,10 +465,11 @@ focus_tree = {
 		icon = ROL_KMT_cease_fire 
 		x = 14
 		y = 7
-		cost = 1 #这是国策花费的政治点
+		cost = 4.286 #这是国策花费的政治点
         prerequisite = { 
 		focus = ROL_KMT_call_from_kunming
 		}
+		cancel_if_invalid = no
 		ai_will_do = { 
 			factor = 10
 		}
@@ -476,11 +477,16 @@ focus_tree = {
 		}
 		bypass = { 
 		}
-		cancel_if_invalid = yes 
 		continue_if_invalid = no 
-		available_if_capitulated = no 
-		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		available_if_capitulated = no
+		select_effect = {
 		add_ideas = idea_ROL_KMT_protracted_conflicts
+		hidden_effect = {
+		country_event = { id = kmt_border_war.10 days = 5 }
+		}
+		}
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+        set_country_flag = ROL_KMT_cease_fire_done
 		}
 	}
 	

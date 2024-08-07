@@ -5,6 +5,18 @@ characters = {
 			civilian = {
 				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Hu_Zongnan.dds"
 			}
+			army = {
+				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Hu_Zongnan.dds"
+				small = "GFX_idea_KMT_ROL_Hu_Zongnan"
+			}
+		}
+		
+		field_marshal = {
+			skill = 3
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 2
 		}
 		country_leader = {
 			desc = "KMT_ROL_Hu_Zongnan_desc"
@@ -32,10 +44,12 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 		country_leader = {
-			desc = "POLITICS_ZHANG_ZHIZHONG_DESC"
+			desc = "POLITICS_ROL_ZHANG_ZHIZHONG_DESC"
 			expire = "2000.1.1"
 			ideology = paternalism_authoritarian_developmentalism_subtype
-			traits = { }
+			traits = {
+			ROL_sincere
+			}
 			id = -1
 		}
 	}
@@ -161,6 +175,18 @@ characters = {
 			civilian = {
 				small = "GFX_idea_KMT_ROL_Chen_Daqing_sec"
 			}
+			army = {
+				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Chen_Daqing.dds"
+				small = "GFX_idea_KMT_ROL_Chen_Daqing"
+			}
+		}
+		
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
 		}
 		advisor = {
 			slot = security_minister
@@ -249,6 +275,18 @@ characters = {
 			civilian = {
 				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Luo_Lie_1.dds"
 			}
+			army = {
+				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Luo_Lie.dds"
+				small = "GFX_idea_KMT_ROL_Luo_Lie"
+			}
+		}
+		
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
 		}
 		country_leader = {
 			desc = ""
@@ -323,6 +361,18 @@ characters = {
 			civilian = {
 				small = "GFX_idea_KMT_ROL_Peng_Mengji_sec"
 			}
+			army = {
+				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Peng_Mengji.dds"
+				small = "GFX_idea_KMT_ROL_Peng_Mengji"
+			}
+		}
+		
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 2
 		}
 		advisor = {
 			slot = security_minister
@@ -350,6 +400,96 @@ characters = {
 			cost = -1
 			can_be_fired = no
 			ai_will_do = { factor = 0 }
+		}
+	}
+	
+	KMT_ROL_Gao_Kuiyuan = { #高魁元
+		name = KMT_ROL_Gao_Kuiyuan
+		portraits = {
+			army = {
+				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Gao_Kuiyuan.dds"
+				small = "GFX_idea_KMT_ROL_Gao_Kuiyuan"
+			}
+		}
+		
+		corps_commander = {
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	
+	KMT_ROL_Hu_Lian = { #胡琏
+		name = KMT_ROL_Hu_Lian
+		portraits = {
+			army = {
+				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Hu_Lian.dds"
+				small = "GFX_idea_KMT_ROL_Hu_Lian"
+			}
+		}
+		
+		field_marshal = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	
+	KMT_ROL_Jiang_Weiguo = { #蒋纬国
+		name = KMT_ROL_Jiang_Weiguo
+		portraits = {
+			army = {
+				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Jiang_Weiguo.dds"
+				small = "GFX_idea_KMT_ROL_Jiang_Weiguo"
+			}
+		}
+		
+		corps_commander = {
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	
+	KMT_ROL_Huang_Wei = { #黄维
+		name = KMT_ROL_Huang_Wei
+		portraits = {
+			army = {
+				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Huang_Wei.dds"
+				small = "GFX_idea_KMT_ROL_Huang_Wei"
+			}
+		}
+		
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	
+	KMT_ROL_Xu_Peigen = { #徐培根
+		name = KMT_ROL_Xu_Peigen
+		portraits = {
+			army = {
+				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Xu_Peigen.dds"
+				small = "GFX_idea_KMT_ROL_Xu_Peigen"
+			}
+		}
+		
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 }	

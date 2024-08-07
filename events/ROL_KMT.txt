@@ -161,44 +161,7 @@ country_event = {
 			set_country_flag = ROL_KMT_choose_Zhang
 		}
 	}
-}
-
-country_event = { 
-	id = kmt_south_asia.1
-	title = kmt_south_asia.1.t 
-	desc = kmt_south_asia.1.d 
-	picture = /
-
-	immediate = { 
-		log = "[GetDateText]: [Root.GetName]: event kmt_south_asia.1"
-	}
-
-	fire_only_once = no 
-	is_triggered_only = yes
-
-	option = { 
-		name = kmt_south_asia.1.a
-		JAP = {
-		add_opinion_modifier = {
-			target = VIN
-			modifier = ROL_south_asia_japan_leave
-		}
-		}
-		VIN = {
-		remove_ideas = Sphere_Fully_Dependent
-		leave_faction = yes
-		econ_leave_sphere = yes
-		clear_superpower_embargoes = yes
-		add_ideas = OFN_Observer
-		econ_join_sphere_USA = yes
-		add_opinion_modifier = {
-			target = JAP
-			modifier = ROL_south_asia_anti_japan
-		}
-		}
-	}
 }	
-
 
 country_event = { 
 	id = kmt.6
@@ -232,7 +195,9 @@ country_event = {
 		}
 	}
 }
-		
+
+
+######border######
 country_event = { 
 	id = kmt_border_war.4 
 	title = kmt_border_war.4.t 
@@ -299,6 +264,64 @@ country_event = {
 		       on_lose = kmt_border_war.8
 		       on_cancel = kmt_border_war.9
 		    }
+		}
+    }
+}
+
+country_event = { 
+	id = kmt_border_war.10
+	title = kmt_border_war.10.t 
+	desc = kmt_border_war.10.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt_border_war.10"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt_border_war.10.a
+		    if = {
+			limit = { check_variable = { ROL_KMT_add_win_num_points < ROL_CPC_add_win_num_points } }
+			add_political_power = -100
+			    add_timed_idea = {
+			    idea = ROL_KMT_war_lose
+			    days = 90
+				}
+			    CPC = {
+				add_political_power = 100
+				add_timed_idea = {
+			    idea = ROL_KMT_war_win
+			    days = 90
+			        }
+				}
+        	}
+            else_if = {
+			limit = { check_variable = { ROL_KMT_add_win_num_points = ROL_CPC_add_win_num_points } }
+			add_political_power = 50
+			    add_timed_idea = {
+			    idea = ROL_KMT_war_equ
+			    days = 90
+			        }
+			    CPC = {
+				add_political_power = 50
+				add_timed_idea = {
+			    idea = ROL_KMT_war_equ
+			    days = 90
+			        }
+			    }
+            }
+            else_if = {
+			limit = { check_variable = { ROL_KMT_add_win_num_points > ROL_CPC_add_win_num_points } }
+			add_political_power = 100
+			add_ideas = ROL_KMT_war_equ
+			    CPC = {
+				add_political_power = -100
+				add_ideas = ROL_KMT_war_equ
+			    }
+            }
 		}
     }
 }

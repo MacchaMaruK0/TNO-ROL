@@ -1,0 +1,9 @@
+leader_traits = {
+    ROL_sincere = { #张治中——精诚
+		random = no
+		army_morale_factor = 0.05
+		political_power_factor = 0.10
+
+		ai_will_do = { factor = 1 }
+	}
+}	
