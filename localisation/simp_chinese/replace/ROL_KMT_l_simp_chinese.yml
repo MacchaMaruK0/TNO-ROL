@@ -156,7 +156,7 @@
  idea_ROL_KMT_protracted_conflicts:0 "旷日持久的冲突"
  idea_ROL_KMT_protracted_conflicts_tt: "在这场旷日持久的£GFX_ROL_KMT_red_blood_war 冲突中，§i我们§!共获得了[?ROL_KMT_add_win_num_points]次£GFX_ROL_KMT_red_blood_victory §G胜利§!\n而§R我们的敌人§!共获得了[?ROL_CPC_add_win_num_points]次£GFX_ROL_KMT_red_blood_victory §G胜利§!\n若开启§Y停火谈判进程§!，则[Get_ROL_KMT_stop_fire_tt]。"
  ROL_KMT_stop_fire_tt_1: "£GFX_KMT_cpc_icon §R敌人§!占优"
- ROL_KMT_stop_fire_tt_2: "£GFX_ROL_KMT_red_blood_war §Y势均力敌§!"
+ ROL_KMT_stop_fire_tt_2: "£GFX_ROL_KMT_red_blood_hand §Y势均力敌§!"
  ROL_KMT_stop_fire_tt_3: "£GFX_KMT_kmt_icon §i我方§!占优"
  ROL_KMT_gaolan_line_tt: "解锁§Y更多§!£decision_icon_small §e赤血§!§w黄沙§!中的§R前线§!决议"
  ROL_KMT_suiyuan_encircled_tt: "下一次£GFX_ROL_KMT_red_blood_war §e边境冲突§!中降低的军队£GFX_ROL_KMT_red_blood_solider §Y动员效率§!§G更少§!\n解锁§Y更多§!£decision_icon_small §e赤血§!§w黄沙§!中的§G后方§!决议"

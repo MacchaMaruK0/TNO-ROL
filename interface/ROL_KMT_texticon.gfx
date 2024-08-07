@@ -121,4 +121,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/texticon/ROL_KMT_red_blood/ROL_KMT_red_blood_war.png"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_ROL_KMT_red_blood_hand" #握手的icon
+		texturefile = "gfx/interface/texticon/ROL_KMT_red_blood/ROL_KMT_red_blood_hand.png"
+		legacy_lazy_load = no
+	}
 }
