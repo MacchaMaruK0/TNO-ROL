@@ -194,15 +194,301 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 		activation = {
 		}
 		available = {
+			    if = {		
+		        limit = {
+			    has_country_flag = ROL_KMT_flag_add_solider
+			    }
+			    custom_trigger_tooltip = {
+			    check_variable = {
+			    ROL_KMT_add_level_points > 31
+			    }
+				check_variable = {
+			    ROL_KMT_add_solider_points > 11
+			    }
+				check_variable = {
+			    ROL_KMT_add_supply_points > 31
+			    }
+			    tooltip = ROL_KMT_attack_tt_2
+			    }
+			}
+			else_if = {
+		        limit = {
+			    has_country_flag = ROL_KMT_flag_add_supply
+			    }
+			    custom_trigger_tooltip = {
+			    check_variable = {
+			    ROL_KMT_add_level_points > 11
+			    }
+				check_variable = {
+			    ROL_KMT_add_solider_points > 31
+			    }
+				check_variable = {
+			    ROL_KMT_add_supply_points > 1
+			    }
+			    tooltip = ROL_KMT_attack_tt_1
+			    }
+			}
+			else_if = {
+		        limit = {
+			    has_country_flag = ROL_KMT_flag_add_level
+			    }
+			    custom_trigger_tooltip = {
+			    check_variable = {
+			    ROL_KMT_add_level_points > 11
+			    }
+				check_variable = {
+			    ROL_KMT_add_solider_points > 31
+			    }
+				check_variable = {
+			    ROL_KMT_add_supply_points > 31
+			    }
+			    tooltip = ROL_KMT_attack_tt_3
+			    }
+			}
+			else_if = {
+			    custom_trigger_tooltip = {
+			    check_variable = {
+			    ROL_KMT_add_level_points > 31
+			    }
+				check_variable = {
+			    ROL_KMT_add_solider_points > 31
+			    }
+				check_variable = {
+			    ROL_KMT_add_supply_points > 31
+			    }
+			    tooltip = ROL_KMT_attack_tt_4
+			    }
+			}
+			else_if = {
+		        limit = {
+				has_country_flag = ROL_KMT_flag_add_supply
+			    has_country_flag = ROL_KMT_flag_add_level
+			    }
+			    custom_trigger_tooltip = {
+			    check_variable = {
+			    ROL_KMT_add_level_points > 11
+			    }
+				check_variable = {
+			    ROL_KMT_add_solider_points > 31
+			    }
+				check_variable = {
+			    ROL_KMT_add_supply_points > 11
+			    }
+			    tooltip = ROL_KMT_attack_tt_5
+			    }
+			}
+			else_if = {
+		        limit = {
+				has_country_flag = ROL_KMT_flag_add_solider
+				has_country_flag = ROL_KMT_flag_add_supply
+			    has_country_flag = ROL_KMT_flag_add_level
+			    }
+			    custom_trigger_tooltip = {
+			    check_variable = {
+			    ROL_KMT_add_level_points > 11
+			    }
+				check_variable = {
+			    ROL_KMT_add_solider_points > 11
+			    }
+				check_variable = {
+			    ROL_KMT_add_supply_points > 11
+			    }
+			    tooltip = ROL_KMT_attack_tt_6
+			    }
+			}
+			else_if = {
+		        limit = {
+				has_country_flag = ROL_KMT_flag_add_solider
+				has_country_flag = ROL_KMT_flag_add_supply
+			    }
+			    custom_trigger_tooltip = {
+			    check_variable = {
+			    ROL_KMT_add_level_points > 31
+			    }
+				check_variable = {
+			    ROL_KMT_add_solider_points > 11
+			    }
+				check_variable = {
+			    ROL_KMT_add_supply_points > 11
+			    }
+			    tooltip = ROL_KMT_attack_tt_7
+			    }
+			}
+			else_if = {
+		        limit = {
+				has_country_flag = ROL_KMT_flag_add_solider
+				has_country_flag = ROL_KMT_flag_add_level
+			    }
+			    custom_trigger_tooltip = {
+			    check_variable = {
+			    ROL_KMT_add_level_points > 11
+			    }
+				check_variable = {
+			    ROL_KMT_add_solider_points > 11
+			    }
+				check_variable = {
+			    ROL_KMT_add_supply_points > 31
+			    }
+			    tooltip = ROL_KMT_attack_tt_8
+			    }
+			}
 			NOT = { has_border_war = yes }
 		}
 		allowed = {
 			tag = KMT
 		}
+		custom_effect_tooltip = ROL_KMT_attack_tt
         days_re_enable = 28
 		days_remove = 14
 		complete_effect = {
-		}
+		    if = {		
+		        limit = {
+			    has_country_flag = ROL_KMT_flag_add_solider
+			    }
+			    set_temp_variable = {
+				ROL_KMT_add_supply_points_temp = -30
+		        }
+		        ROL_KMT_add_supply = yes
+                set_temp_variable = {
+				ROL_KMT_add_level_points_temp = -30
+		        }
+		        ROL_KMT_add_level = yes
+		        set_temp_variable = {
+				ROL_KMT_add_solider_points_temp = -10
+		        }
+				ROL_KMT_add_solider = yes
+				custom_effect_tooltip = ROL_KMT_flag_add_solider_tt
+			}
+			else_if = {
+		        limit = {
+			    has_country_flag = ROL_KMT_flag_add_supply
+			    }
+			    set_temp_variable = {
+				ROL_KMT_add_supply_points_temp = -10
+		        }
+		        ROL_KMT_add_supply = yes
+                set_temp_variable = {
+				ROL_KMT_add_level_points_temp = -30
+		        }
+		        ROL_KMT_add_level = yes
+		        set_temp_variable = {
+				ROL_KMT_add_solider_points_temp = -30
+		        }
+				ROL_KMT_add_solider = yes
+				custom_effect_tooltip = ROL_KMT_flag_add_supply_tt
+			}
+			else_if = {
+		        limit = {
+			    has_country_flag = ROL_KMT_flag_add_level
+			    }
+			    set_temp_variable = {
+				ROL_KMT_add_supply_points_temp = -30
+		        }
+		        ROL_KMT_add_supply = yes
+                set_temp_variable = {
+				ROL_KMT_add_level_points_temp = -10
+		        }
+		        ROL_KMT_add_level = yes
+		        set_temp_variable = {
+				ROL_KMT_add_solider_points_temp = -30
+		        }
+				ROL_KMT_add_solider = yes
+				custom_effect_tooltip = ROL_KMT_flag_add_level_tt
+			}
+			else_if = {
+			    set_temp_variable = {
+				ROL_KMT_add_supply_points_temp = -30
+		        }
+		        ROL_KMT_add_supply = yes
+                set_temp_variable = {
+				ROL_KMT_add_level_points_temp = -30
+		        }
+		        ROL_KMT_add_level = yes
+		        set_temp_variable = {
+				ROL_KMT_add_solider_points_temp = -30
+		        }
+				ROL_KMT_add_solider = yes
+				custom_effect_tooltip = ROL_KMT_flag_add_nope_tt
+			}
+			else_if = {
+		        limit = {
+				has_country_flag = ROL_KMT_flag_add_supply
+			    has_country_flag = ROL_KMT_flag_add_level
+				}
+				set_temp_variable = {
+				ROL_KMT_add_supply_points_temp = -10
+		        }
+		        ROL_KMT_add_supply = yes
+                set_temp_variable = {
+				ROL_KMT_add_level_points_temp = -10
+		        }
+		        ROL_KMT_add_level = yes
+		        set_temp_variable = {
+				ROL_KMT_add_solider_points_temp = -30
+		        }
+				ROL_KMT_add_solider = yes
+				custom_effect_tooltip = ROL_KMT_flag_add_supply_level_tt
+			    }
+			    
+			}
+			else_if = {
+		        limit = {
+				has_country_flag = ROL_KMT_flag_add_solider
+				has_country_flag = ROL_KMT_flag_add_supply
+			    has_country_flag = ROL_KMT_flag_add_level
+			    }
+			    set_temp_variable = {
+				ROL_KMT_add_supply_points_temp = -10
+		        }
+		        ROL_KMT_add_supply = yes
+                set_temp_variable = {
+				ROL_KMT_add_level_points_temp = -10
+		        }
+		        ROL_KMT_add_level = yes
+		        set_temp_variable = {
+				ROL_KMT_add_solider_points_temp = -10
+		        }
+				ROL_KMT_add_solider = yes
+				custom_effect_tooltip = ROL_KMT_flag_add_all_tt
+			}
+			else_if = {
+		        limit = {
+				has_country_flag = ROL_KMT_flag_add_solider
+				has_country_flag = ROL_KMT_flag_add_supply
+			    }
+			    set_temp_variable = {
+				ROL_KMT_add_supply_points_temp = -10
+		        }
+		        ROL_KMT_add_supply = yes
+                set_temp_variable = {
+				ROL_KMT_add_level_points_temp = -30
+		        }
+		        ROL_KMT_add_level = yes
+		        set_temp_variable = {
+				ROL_KMT_add_solider_points_temp = -10
+		        }
+				ROL_KMT_add_solider = yes
+				custom_effect_tooltip = ROL_KMT_flag_add_solider_supply_tt
+			}
+			else_if = {
+		        limit = {
+				has_country_flag = ROL_KMT_flag_add_solider
+				has_country_flag = ROL_KMT_flag_add_level
+			    }
+			    set_temp_variable = {
+				ROL_KMT_add_supply_points_temp = -30
+		        }
+		        ROL_KMT_add_supply = yes
+                set_temp_variable = {
+				ROL_KMT_add_level_points_temp = -10
+		        }
+		        ROL_KMT_add_level = yes
+		        set_temp_variable = {
+				ROL_KMT_add_solider_points_temp = -10
+		        }
+				ROL_KMT_add_solider = yes
+				custom_effect_tooltip = ROL_KMT_flag_add_solider_level_tt
+			}
 		remove_effect = {
 		country_event = { id = kmt_border_war.5 }
 		}

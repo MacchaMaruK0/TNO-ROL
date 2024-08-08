@@ -55,6 +55,18 @@ focus_tree = {
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
 		country_event = kmt.21
 		add_command_power = 25
+		set_temp_variable = {
+		ROL_KMT_add_deduct_points = 6.5
+		}
+		ROL_KMT_add_deduct = yes
+		set_temp_variable = {
+		ROL_KMT_add_solider_points_temp = ROL_KMT_add_deduct_points
+		}
+		set_temp_variable = {
+		ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_points
+		}
+		ROL_KMT_add_level = yes
+		ROL_KMT_add_solider = yes
 		custom_effect_tooltip = ROL_KMT_mobilize_the_army_tt
 		}
 	}
@@ -162,6 +174,18 @@ focus_tree = {
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
 		country_event = kmt.24
 		TNO_worsen_army_professionalism_low = yes
+		set_temp_variable = {
+		ROL_KMT_add_deduct_points = 6.5
+		}
+		ROL_KMT_add_deduct = yes
+		set_temp_variable = {
+		ROL_KMT_add_supply_points_temp = ROL_KMT_add_deduct_points
+		}
+		set_temp_variable = {
+		ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_points
+		}
+		ROL_KMT_add_level = yes
+		ROL_KMT_add_supply = yes
 		custom_effect_tooltip = ROL_KMT_mobilize_population_tt	
 		}
 	}
@@ -185,6 +209,14 @@ focus_tree = {
 		available_if_capitulated = no 
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
 		country_event = kmt.25
+		set_temp_variable = {
+		ROL_KMT_add_deduct_points = 14.5
+		}
+		ROL_KMT_add_deduct = yes
+		set_temp_variable = {
+		ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_points
+		}
+		ROL_KMT_add_level = yes
 		add_stability = 0.05
 		custom_effect_tooltip = ROL_KMT_wait_for_the_day_tt
 		}
@@ -212,6 +244,17 @@ focus_tree = {
 		available_if_capitulated = no 
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
 		country_event = kmt.28
+		set_variable = {
+			ROL_KMT_add_solider_efficiency = 100
+			}
+		set_temp_variable = {
+		ROL_KMT_add_deduct_points = 14.5
+		}
+		ROL_KMT_add_deduct = yes
+		set_temp_variable = {
+		ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_points
+		}
+		ROL_KMT_add_level = yes	
 		custom_effect_tooltip = ROL_KMT_field_committees_tt
 		}
 	}

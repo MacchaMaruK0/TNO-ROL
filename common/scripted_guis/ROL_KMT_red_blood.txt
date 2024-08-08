@@ -1,0 +1,18 @@
+scripted_gui = {
+    ROL_KMT_red_blood_ui_window = {
+		context_type = decision_category
+		window_name = "ROL_KMT_red_blood_ui"
+
+        visible = {
+            tag = KMT
+        }
+ 
+        effects = {
+
+        }
+
+        dynamic_lists = {
+
+        }
+	}
+}	
