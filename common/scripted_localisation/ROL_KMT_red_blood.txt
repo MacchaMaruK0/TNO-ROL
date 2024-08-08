@@ -134,127 +134,25 @@ defined_text = {
 }
 
 defined_text = {
-    name = Get_ROL_KMT_attack_tt
+    name = Get_ROL_KMT_level_1_deduct_tt
 	text = {
-		trigger = {
-			has_country_flag = ROL_KMT_flag_add_solider
-		}
-		localization_key = Get_ROL_KMT_attack_tt_1
-	}
-	
-	text = {
-		trigger = {
-		    has_country_flag = ROL_KMT_flag_add_supply
-        }
-		localization_key = Get_ROL_KMT_attack_tt_2
-	}
-	
-	text = {
-		trigger = {
-			has_country_flag = ROL_KMT_flag_add_level
-		}
-		localization_key = Get_ROL_KMT_attack_tt_3
-	}
-	
-	text = {
-		trigger = {
-			has_country_flag = ROL_KMT_flag_add_supply
-			has_country_flag = ROL_KMT_flag_add_level
-		}
-		localization_key = Get_ROL_KMT_attack_tt_4
-	}
-	
-	text = {
-		trigger = {
-			has_country_flag = ROL_KMT_flag_add_solider
-		    has_country_flag = ROL_KMT_flag_add_supply
-			has_country_flag = ROL_KMT_flag_add_level
-		}
-		localization_key = Get_ROL_KMT_attack_tt_5
-	}
-	
-	text = {
-		trigger = {
-			has_country_flag = ROL_KMT_flag_add_solider
-		    has_country_flag = ROL_KMT_flag_add_supply
-		}
-		localization_key = Get_ROL_KMT_attack_tt_6
-	}
-	
-	text = {
-		trigger = {
-			has_country_flag = ROL_KMT_flag_add_solider
-			has_country_flag = ROL_KMT_flag_add_level
-		}
-		localization_key = Get_ROL_KMT_attack_tt_7
-	}
-	
-	text = {
-		trigger = {
-		}
-		localization_key = Get_ROL_KMT_attack_tt_8
+	    trigger = {
+			set_temp_variable = { ROL_KMT_level_1_deduct = ROL_KMT_add_level_points }
+			add_to_temp_variable = { ROL_KMT_level_1_deduct = ROL_KMT_add_deduct_1_points }
+			clamp_temp_variable = { var = ROL_KMT_level_1_deduct min = -100 max = 300 }
+		}	
+	    localization_key = [?ROL_KMT_level_1_deduct|Y1]
 	}
 }
 
 defined_text = {
-    name = Get_ROL_KMT_attack_block_tt
+    name = Get_ROL_KMT_solider_1_deduct_tt
 	text = {
-		trigger = {
-			has_country_flag = ROL_KMT_flag_add_solider
-		}
-		localization_key = Get_ROL_KMT_attack_block_tt_1
-	}
-	
-	text = {
-		trigger = {
-		    has_country_flag = ROL_KMT_flag_add_supply
-        }
-		localization_key = Get_ROL_KMT_attack_block_tt_2
-	}
-	
-	text = {
-		trigger = {
-			has_country_flag = ROL_KMT_flag_add_level
-		}
-		localization_key = Get_ROL_KMT_attack_block_tt_3
-	}
-	
-	text = {
-		trigger = {
-			has_country_flag = ROL_KMT_flag_add_supply
-			has_country_flag = ROL_KMT_flag_add_level
-		}
-		localization_key = Get_ROL_KMT_attack_block_tt_4
-	}
-	
-	text = {
-		trigger = {
-			has_country_flag = ROL_KMT_flag_add_solider
-		    has_country_flag = ROL_KMT_flag_add_supply
-			has_country_flag = ROL_KMT_flag_add_level
-		}
-		localization_key = Get_ROL_KMT_attack_block_tt_5
-	}
-	
-	text = {
-		trigger = {
-			has_country_flag = ROL_KMT_flag_add_solider
-		    has_country_flag = ROL_KMT_flag_add_supply
-		}
-		localization_key = Get_ROL_KMT_attack_block_tt_6
-	}
-	
-	text = {
-		trigger = {
-			has_country_flag = ROL_KMT_flag_add_solider
-			has_country_flag = ROL_KMT_flag_add_level
-		}
-		localization_key = Get_ROL_KMT_attack_block_tt_7
-	}
-	
-	text = {
-		trigger = {
-		}
-		localization_key = Get_ROL_KMT_attack_block_tt_8
+	    trigger = {
+			set_temp_variable = { ROL_KMT_solider_1_deduct = ROL_KMT_add_solider_points }
+			add_to_temp_variable = { ROL_KMT_solider_1_deduct = ROL_KMT_add_deduct_2_points }
+			clamp_temp_variable = { var = ROL_KMT_solider_1_deduct min = -100 max = 300 }
+		}	
+	    localization_key = [?ROL_KMT_solider_1_deduct|Y1]
 	}
 }

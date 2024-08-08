@@ -217,13 +217,13 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 			    }
 			    custom_trigger_tooltip = {
 			    check_variable = {
-			    ROL_KMT_add_level_points > 11
+			    ROL_KMT_add_level_points > 31
 			    }
 				check_variable = {
 			    ROL_KMT_add_solider_points > 31
 			    }
 				check_variable = {
-			    ROL_KMT_add_supply_points > 1
+			    ROL_KMT_add_supply_points > 11
 			    }
 			    tooltip = ROL_KMT_attack_tt_1
 			    }
@@ -337,7 +337,6 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 		allowed = {
 			tag = KMT
 		}
-		custom_effect_tooltip = ROL_KMT_attack_tt
         days_re_enable = 28
 		days_remove = 14
 		complete_effect = {
@@ -345,16 +344,28 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 		        limit = {
 			    has_country_flag = ROL_KMT_flag_add_solider
 			    }
+				set_temp_variable = {
+				ROL_KMT_add_deduct_2_points = -10
+				}
+				ROL_KMT_add_deduct_2 = yes
+				set_temp_variable = {
+				ROL_KMT_add_deduct_1_points = -30
+				}
+				ROL_KMT_add_deduct_1 = yes
+				set_temp_variable = {
+				ROL_KMT_add_deduct_points = -30
+				}
+				ROL_KMT_add_deduct = yes
 			    set_temp_variable = {
-				ROL_KMT_add_supply_points_temp = -30
+				ROL_KMT_add_supply_points_temp = ROL_KMT_add_deduct_points
 		        }
 		        ROL_KMT_add_supply = yes
                 set_temp_variable = {
-				ROL_KMT_add_level_points_temp = -30
+				ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_1_points
 		        }
 		        ROL_KMT_add_level = yes
 		        set_temp_variable = {
-				ROL_KMT_add_solider_points_temp = -10
+				ROL_KMT_add_solider_points_temp = ROL_KMT_add_deduct_2_points
 		        }
 				ROL_KMT_add_solider = yes
 				custom_effect_tooltip = ROL_KMT_flag_add_solider_tt
@@ -363,16 +374,28 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 		        limit = {
 			    has_country_flag = ROL_KMT_flag_add_supply
 			    }
+				set_temp_variable = {
+				ROL_KMT_add_deduct_2_points = -30
+				}
+				ROL_KMT_add_deduct_2 = yes
+				set_temp_variable = {
+				ROL_KMT_add_deduct_1_points = -30
+				}
+				ROL_KMT_add_deduct_1 = yes
+				set_temp_variable = {
+				ROL_KMT_add_deduct_points = -10
+				}
+				ROL_KMT_add_deduct = yes
 			    set_temp_variable = {
-				ROL_KMT_add_supply_points_temp = -10
+				ROL_KMT_add_supply_points_temp = ROL_KMT_add_deduct_points
 		        }
 		        ROL_KMT_add_supply = yes
                 set_temp_variable = {
-				ROL_KMT_add_level_points_temp = -30
+				ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_1_points
 		        }
 		        ROL_KMT_add_level = yes
 		        set_temp_variable = {
-				ROL_KMT_add_solider_points_temp = -30
+				ROL_KMT_add_solider_points_temp = ROL_KMT_add_deduct_2_points
 		        }
 				ROL_KMT_add_solider = yes
 				custom_effect_tooltip = ROL_KMT_flag_add_supply_tt
@@ -382,30 +405,54 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 			    has_country_flag = ROL_KMT_flag_add_level
 			    }
 			    set_temp_variable = {
-				ROL_KMT_add_supply_points_temp = -30
+				ROL_KMT_add_deduct_2_points = -30
+				}
+				ROL_KMT_add_deduct_2 = yes
+				set_temp_variable = {
+				ROL_KMT_add_deduct_1_points = -10
+				}
+				ROL_KMT_add_deduct_1 = yes
+				set_temp_variable = {
+				ROL_KMT_add_deduct_points = -30
+				}
+				ROL_KMT_add_deduct = yes
+			    set_temp_variable = {
+				ROL_KMT_add_supply_points_temp = ROL_KMT_add_deduct_points
 		        }
 		        ROL_KMT_add_supply = yes
                 set_temp_variable = {
-				ROL_KMT_add_level_points_temp = -10
+				ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_1_points
 		        }
 		        ROL_KMT_add_level = yes
 		        set_temp_variable = {
-				ROL_KMT_add_solider_points_temp = -30
+				ROL_KMT_add_solider_points_temp = ROL_KMT_add_deduct_2_points
 		        }
 				ROL_KMT_add_solider = yes
 				custom_effect_tooltip = ROL_KMT_flag_add_level_tt
 			}
 			else_if = {
 			    set_temp_variable = {
-				ROL_KMT_add_supply_points_temp = -30
+				ROL_KMT_add_deduct_2_points = -30
+				}
+				ROL_KMT_add_deduct_2 = yes
+				set_temp_variable = {
+				ROL_KMT_add_deduct_1_points = -30
+				}
+				ROL_KMT_add_deduct_1 = yes
+				set_temp_variable = {
+				ROL_KMT_add_deduct_points = -30
+				}
+				ROL_KMT_add_deduct = yes
+			    set_temp_variable = {
+				ROL_KMT_add_supply_points_temp = ROL_KMT_add_deduct_points
 		        }
 		        ROL_KMT_add_supply = yes
                 set_temp_variable = {
-				ROL_KMT_add_level_points_temp = -30
+				ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_1_points
 		        }
 		        ROL_KMT_add_level = yes
 		        set_temp_variable = {
-				ROL_KMT_add_solider_points_temp = -30
+				ROL_KMT_add_solider_points_temp = ROL_KMT_add_deduct_2_points
 		        }
 				ROL_KMT_add_solider = yes
 				custom_effect_tooltip = ROL_KMT_flag_add_nope_tt
@@ -416,15 +463,27 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 			    has_country_flag = ROL_KMT_flag_add_level
 				}
 				set_temp_variable = {
-				ROL_KMT_add_supply_points_temp = -10
+				ROL_KMT_add_deduct_2_points = -30
+				}
+				ROL_KMT_add_deduct_2 = yes
+				set_temp_variable = {
+				ROL_KMT_add_deduct_1_points = -10
+				}
+				ROL_KMT_add_deduct_1 = yes
+				set_temp_variable = {
+				ROL_KMT_add_deduct_points = -10
+				}
+				ROL_KMT_add_deduct = yes
+			    set_temp_variable = {
+				ROL_KMT_add_supply_points_temp = ROL_KMT_add_deduct_points
 		        }
 		        ROL_KMT_add_supply = yes
                 set_temp_variable = {
-				ROL_KMT_add_level_points_temp = -10
+				ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_1_points
 		        }
 		        ROL_KMT_add_level = yes
 		        set_temp_variable = {
-				ROL_KMT_add_solider_points_temp = -30
+				ROL_KMT_add_solider_points_temp = ROL_KMT_add_deduct_2_points
 		        }
 				ROL_KMT_add_solider = yes
 				custom_effect_tooltip = ROL_KMT_flag_add_supply_level_tt
@@ -438,15 +497,27 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 			    has_country_flag = ROL_KMT_flag_add_level
 			    }
 			    set_temp_variable = {
-				ROL_KMT_add_supply_points_temp = -10
+				ROL_KMT_add_deduct_2_points = -10
+				}
+				ROL_KMT_add_deduct_2 = yes
+				set_temp_variable = {
+				ROL_KMT_add_deduct_1_points = -10
+				}
+				ROL_KMT_add_deduct_1 = yes
+				set_temp_variable = {
+				ROL_KMT_add_deduct_points = -10
+				}
+				ROL_KMT_add_deduct = yes
+			    set_temp_variable = {
+				ROL_KMT_add_supply_points_temp = ROL_KMT_add_deduct_points
 		        }
 		        ROL_KMT_add_supply = yes
                 set_temp_variable = {
-				ROL_KMT_add_level_points_temp = -10
+				ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_1_points
 		        }
 		        ROL_KMT_add_level = yes
 		        set_temp_variable = {
-				ROL_KMT_add_solider_points_temp = -10
+				ROL_KMT_add_solider_points_temp = ROL_KMT_add_deduct_2_points
 		        }
 				ROL_KMT_add_solider = yes
 				custom_effect_tooltip = ROL_KMT_flag_add_all_tt
@@ -457,15 +528,27 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 				has_country_flag = ROL_KMT_flag_add_supply
 			    }
 			    set_temp_variable = {
-				ROL_KMT_add_supply_points_temp = -10
+				ROL_KMT_add_deduct_2_points = -10
+				}
+				ROL_KMT_add_deduct_2 = yes
+				set_temp_variable = {
+				ROL_KMT_add_deduct_1_points = -30
+				}
+				ROL_KMT_add_deduct_1 = yes
+				set_temp_variable = {
+				ROL_KMT_add_deduct_points = -10
+				}
+				ROL_KMT_add_deduct = yes
+			    set_temp_variable = {
+				ROL_KMT_add_supply_points_temp = ROL_KMT_add_deduct_points
 		        }
 		        ROL_KMT_add_supply = yes
                 set_temp_variable = {
-				ROL_KMT_add_level_points_temp = -30
+				ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_1_points
 		        }
 		        ROL_KMT_add_level = yes
 		        set_temp_variable = {
-				ROL_KMT_add_solider_points_temp = -10
+				ROL_KMT_add_solider_points_temp = ROL_KMT_add_deduct_2_points
 		        }
 				ROL_KMT_add_solider = yes
 				custom_effect_tooltip = ROL_KMT_flag_add_solider_supply_tt
@@ -476,15 +559,27 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 				has_country_flag = ROL_KMT_flag_add_level
 			    }
 			    set_temp_variable = {
-				ROL_KMT_add_supply_points_temp = -30
+				ROL_KMT_add_deduct_2_points = -10
+				}
+				ROL_KMT_add_deduct_2 = yes
+				set_temp_variable = {
+				ROL_KMT_add_deduct_1_points = -10
+				}
+				ROL_KMT_add_deduct_1 = yes
+				set_temp_variable = {
+				ROL_KMT_add_deduct_points = -30
+				}
+				ROL_KMT_add_deduct = yes
+			    set_temp_variable = {
+				ROL_KMT_add_supply_points_temp = ROL_KMT_add_deduct_points
 		        }
 		        ROL_KMT_add_supply = yes
                 set_temp_variable = {
-				ROL_KMT_add_level_points_temp = -10
+				ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_1_points
 		        }
 		        ROL_KMT_add_level = yes
 		        set_temp_variable = {
-				ROL_KMT_add_solider_points_temp = -10
+				ROL_KMT_add_solider_points_temp = ROL_KMT_add_deduct_2_points
 		        }
 				ROL_KMT_add_solider = yes
 				custom_effect_tooltip = ROL_KMT_flag_add_solider_level_tt

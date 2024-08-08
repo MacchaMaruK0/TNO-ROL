@@ -229,3 +229,61 @@ ROL_KMT_add_deduct = {
 		max = 300
 	}
 }
+
+ROL_KMT_add_deduct_1 = {
+    #一切变量的变量_1
+    add_to_variable = {
+        var = ROL_KMT_add_deduct_1_points #变量
+        value = ROL_KMT_add_deduct_1_points_temp #改变变量
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_add_deduct_1_points_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_add_deduct_1_points_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_add_deduct_1_points_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_add_deduct_1_points
+		min = -300
+		max = 300
+	}
+}
+
+ROL_KMT_add_deduct_2 = {
+    #一切变量的变量_2
+    add_to_variable = {
+        var = ROL_KMT_add_deduct_2_points #变量
+        value = ROL_KMT_add_deduct_2_points_temp #改变变量
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_add_deduct_2_points_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_add_deduct_2_points_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_add_deduct_2_points_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_add_deduct_2_points
+		min = -300
+		max = 300
+	}
+}

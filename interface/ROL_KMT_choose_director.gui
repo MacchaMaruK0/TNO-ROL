@@ -7,6 +7,7 @@ guiTypes = {
 			position = { x = 394 y = -65 }
 			spriteType = "GFX_Burgundy_GUI_Info_Button"
 			pdx_tooltip = ROL_KMT_Choose_Director_info
+			pdx_tooltip_delayed = ROL_KMT_Choose_Director_delayed_info
 		}
 		# iconType = { 
         #     name = "ROL_KMT_ROC_intervene"
