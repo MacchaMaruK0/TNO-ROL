@@ -156,3 +156,27 @@ defined_text = {
 	    localization_key = [?ROL_KMT_solider_1_deduct|Y1]
 	}
 }
+
+defined_text = {
+    name = Get_ROL_KMT_add_supply_efficiency_deduct_tt
+	text = {
+	    trigger = {
+			set_temp_variable = { ROL_KMT_add_supply_efficiency_deduct = ROL_KMT_add_supply_efficiency_points }
+			add_to_temp_variable = { ROL_KMT_add_supply_efficiency_deduct = ROL_KMT_add_deduct_points }
+			clamp_temp_variable = { var = ROL_KMT_add_supply_efficiency_deduct min = -100 max = 300 }
+		}	
+	    localization_key = [?ROL_KMT_add_supply_efficiency_deduct|Y1]
+	}
+}
+
+defined_text = {
+    name = Get_ROL_KMT_add_level_efficiency_deduct_tt
+	text = {
+	    trigger = {
+			set_temp_variable = { ROL_KMT_add_level_efficiency_deduct = ROL_KMT_add_level_efficiency_points }
+			add_to_temp_variable = { ROL_KMT_add_level_efficiency_deduct = ROL_KMT_add_deduct_1_points }
+			clamp_temp_variable = { var = ROL_KMT_add_level_efficiency_deduct min = -100 max = 300 }
+		}	
+	    localization_key = [?ROL_KMT_add_level_efficiency_deduct|Y1]
+	}
+}

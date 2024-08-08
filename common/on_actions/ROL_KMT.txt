@@ -27,13 +27,22 @@ on_actions = { #
 					ROL_KMT_a_call_for_unity_var_num = 15
 				}
 				set_variable = {
-					ROL_KMT_add_solider_efficiency = 65
+					ROL_KMT_add_solider_efficiency = 45
 				}
 				set_variable = {
-					ROL_KMT_add_supply_points = 50
+					ROL_KMT_add_supply_points = 30
 				}
 				set_variable = {
-					ROL_KMT_add_solider_points = 50
+					ROL_KMT_add_solider_points = 15
+				}
+				set_variable = {
+					ROL_KMT_add_level_efficiency_points = 45
+				}
+				set_variable = {
+					ROL_KMT_add_supply_efficiency_points = 45
+				}
+				set_variable = {
+					ROL_KMT_add_level_points = 25
 				}
 				##杂项法律
 				misc_law_ROL_KMT_startup = yes

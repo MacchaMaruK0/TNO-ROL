@@ -168,6 +168,196 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 		}
     }
 	
+	ROL_KMT_strengthen_functions = { #加强战地指挥部职能
+	    icon = /
+		cost = 50
+		activation = {
+		}
+		available = {
+			has_border_war = yes
+		}
+		allowed = {
+			tag = KMT
+		}
+        days_re_enable = 14
+		days_remove = 7
+		complete_effect = {
+		}
+		remove_effect = {
+			set_temp_variable = {
+			ROL_KMT_add_deduct_1_points = 15
+			}
+		ROL_KMT_add_deduct_1 = yes
+			set_temp_variable = {
+			ROL_KMT_add_deduct_2_points = 10
+			}
+		ROL_KMT_add_deduct_2 = yes
+			set_temp_variable = {
+			ROL_KMT_add_solider_points_temp = ROL_KMT_add_deduct_2_points
+			}
+		ROL_KMT_add_solider = yes
+			set_temp_variable = {
+			ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_1_points
+			}
+		ROL_KMT_add_level = yes	
+		set_country_flag = 	ROL_KMT_flag_add_solider
+		custom_effect_tooltip = ROL_KMT_strengthen_functions_tt
+		}
+    }
+	
+	ROL_KMT_additional_police_officers = { #增派警总人员维持秩序
+	    icon = /
+		cost = 25
+		activation = {
+		}
+		available = {
+			NOT = { has_border_war = yes }
+		}
+		allowed = {
+			tag = KMT
+		}
+        days_re_enable = 14
+		days_remove = 7
+		complete_effect = {
+		}
+		remove_effect = {
+			add_stability = 0.05
+			TNO_improve_security_policy_effectiveness_low = yes
+		set_temp_variable = {
+		ROL_KMT_add_deduct_points = 7.5
+        }
+		ROL_KMT_add_deduct = yes
+		set_temp_variable = {
+		ROL_KMT_add_supply_efficiency_points_temp = ROL_KMT_add_deduct_points
+		}
+		ROL_KMT_add_supply_efficiency = yes
+		custom_effect_tooltip = ROL_KMT_additional_police_officers_tt
+		}
+    }
+	
+	ROL_KMT_hoes_and_rapists = { #组建锄奸保安队
+	    icon = /
+		cost = 25
+		activation = {
+		}
+		available = {
+			has_border_war = yes
+		}
+		allowed = {
+			tag = KMT
+		}
+        days_re_enable = 14
+		days_remove = 7
+		complete_effect = {
+		}
+		remove_effect = {
+			add_war_support = 0.05
+			TNO_improve_security_policy_effectiveness_low = yes
+		set_temp_variable = {
+		ROL_KMT_add_deduct_1_points = 7.5
+        }
+		ROL_KMT_add_deduct_1 = yes
+		set_temp_variable = {
+		ROL_KMT_add_level_efficiency_points_temp = ROL_KMT_add_deduct_1_points
+		}
+		ROL_KMT_add_level_efficiency = yes
+		custom_effect_tooltip = ROL_KMT_hoes_and_rapists_tt
+		}
+    }
+	
+	ROL_KMT_requisition_and_transportation = { #征调民夫协助运输
+	    icon = /
+		cost = 25
+		activation = {
+		}
+		available = {
+			NOT = { has_border_war = yes }
+		}
+		allowed = {
+			tag = KMT
+		}
+        days_re_enable = 14
+		days_remove = 7
+		complete_effect = {
+		}
+		remove_effect = {
+		set_country_flag = 	ROL_KMT_flag_add_supply
+		set_temp_variable = {
+		ROL_KMT_add_deduct_points = 12.5
+        }
+		ROL_KMT_add_deduct = yes
+		set_temp_variable = {
+		ROL_KMT_add_supply_points_temp = ROL_KMT_add_deduct_points
+		}
+		ROL_KMT_add_supply = yes
+		custom_effect_tooltip = ROL_KMT_requisition_and_transportation_tt
+		}
+    }
+	
+	ROL_KMT_gather_veterans = { #召回退伍老兵训练新兵
+	    icon = /
+		cost = 25
+		activation = {
+		}
+		available = {
+			has_border_war = yes
+		}
+		allowed = {
+			tag = KMT
+		}
+        days_re_enable = 14
+		days_remove = 7
+		complete_effect = {
+		}
+		remove_effect = {
+		army_experience = 10
+		set_temp_variable = {
+		ROL_KMT_add_deduct_points = 7.5
+        }
+		ROL_KMT_add_deduct = yes
+		set_temp_variable = {
+		ROL_KMT_add_solider_points_temp = ROL_KMT_add_deduct_points
+		}
+		ROL_KMT_add_solider = yes
+		custom_effect_tooltip = ROL_KMT_gather_veterans_tt
+		}
+    }
+	
+	ROL_KMT_implementation_military_policy = { #执行军事优先政策
+	    icon = /
+		cost = 25
+		activation = {
+		}
+		available = {
+			has_border_war = yes
+		}
+		allowed = {
+			tag = KMT
+		}
+        days_re_enable = 14
+		days_remove = 7
+		complete_effect = {
+		}
+		remove_effect = {
+		add_stability = -0.03
+		add_war_support = -0.03
+		add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 200
+				producer = ROOT
+			}
+		set_temp_variable = {
+		ROL_KMT_add_deduct_points = 15.5
+        }
+		ROL_KMT_add_deduct = yes
+		set_temp_variable = {
+		ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_points
+		}
+		ROL_KMT_add_solider = yes
+		custom_effect_tooltip = ROL_KMT_implementation_military_policy_tt
+		}
+    }
+	
 	ROL_KMT_CPC_attack = { #cpc周期性边境冲突
 	icon = GFX_decision_generic_clock
 		activation = {

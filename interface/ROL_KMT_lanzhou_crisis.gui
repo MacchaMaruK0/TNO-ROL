@@ -42,5 +42,13 @@ guiTypes = {
 			clicksound = click_default
 			shortcut = "ESCAPE"
 		}
+		
+		iconType = {
+			name = "ROL_KMT_lanzhou_crisis_infor"
+			position = { x = 11 y = 15 }
+			spriteType = "GFX_Burgundy_GUI_Info_Button"
+			pdx_tooltip = ROL_KMT_lanzhou_crisis_infor
+			pdx_tooltip_delayed = ROL_KMT_lanzhou_crisis_delayed_infor
+		}
 	}	
 }
