@@ -10,7 +10,7 @@ bookmarks = {
 		desc = "THENEWORDER_DESC"
 		date = 1962.1.1.1
 		picture = "GFX_select_date_1939"
-		default_country = "ENG"
+		default_country = "MEX"
 		default = yes
 
 		effect = {
@@ -223,10 +223,18 @@ bookmarks = {
 
 		"MEX" = {
 			minor = yes
-			history = ""
+			history = "MEX_THENEWORDER_DESC"
 			ideology = paternalism
-			ideas = {}
-			focuses = {}
+			ideas = {
+				MEX_the_imperfect_dictatorship_initial
+				MEX_mexican_miracle_startscreen
+				MEX_the_leviathan_4
+			}
+			focuses = {
+				MEX_visiting_the_east
+				MEX_the_olympic_dream
+				MEX_a_friendly_visit
+			}
 		}
 
 		"SAF" = {
@@ -397,13 +405,7 @@ bookmarks = {
 			focuses = {}
 		}
 
-		"CPC" = {
-			minor = yes
-			history = ""
-			ideology = paternalism
-			ideas = {}
-			focuses = {}
-		}
+		"ZZZ" = { minor = yes history = "" }
 
 		"KMT" = {
 			minor = yes
@@ -591,7 +593,7 @@ bookmarks = {
 		## TRIUM ##
 		"ZZZ" = { minor = yes history = "" }
 
-		"ARG" = { minor = yes history = "" }
+		"ARG" = { minor = yes history = "ARG_THENEWORDER_DESC" }
 
 		"ZZZ" = { minor = yes history = "" }
 		## TRIUM ##

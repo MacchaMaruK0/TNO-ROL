@@ -4,4 +4,9 @@ spriteTypes = {
 		name = GFX_ROL_KMT_open_lanzhou_crisis
 		texturefile = "gfx/interface/GUI/Orchid_Badge.png"
 	}
+	
+	spriteType = {
+		name = GFX_ROL_KMT_lanzhou_big
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_big.png"
+	}
 }	

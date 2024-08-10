@@ -624,21 +624,6 @@ guiTypes = {
 			quadTextureSprite ="GFX_country_selection_bg"
 		}
 
-		iconType = { # TFL NEW -- BRITAIN
-			name = "country_selection_new_ugly_ger"
-			position = { x = 282 y = 119 }
-			spriteType = "GFX_country_selection_new_big_shine"
-			pdx_tooltip = "BOOKMARK_TFL_NEW_BRITAIN"
-			pdx_tooltip_delayed = "BOOKMARK_TFL_NEW_DELAYED_BRITAIN"
-		}
-
-		iconType = { # THE RUIN - JAPAN FACELIFT
-			name = "country_selection_new_ugly_jap"
-			position = { x = 822 y = 49 }
-			spriteType = "GFX_country_selection_new_big_shine"
-			pdx_tooltip = "BOOKMARK_UGLY_AMERICAN_NEW_JAP"
-			pdx_tooltip_delayed = "BOOKMARK_UGLY_AMERICAN_NEW_DELAYED_JAP"
-		}
 
 
 		containerWindowType = {
@@ -863,16 +848,32 @@ guiTypes = {
 		#	spriteType = "GFX_country_selection_clickcover_edge"
 		#}
 
-		iconType = { # MEXICO BLOCKED ENTRY
-			name = "countries_blocker_ofn_1_2_entry"
-			position = { x = 136 y = 284 }
-			spriteType = "GFX_country_selection_screen_blocker"
+		#Mini LATAM Countries
+
+		iconType = { # Mexico New
+			name = "country_selection_new_mexico"
+			position = { x = 120 y = 285 }
+			spriteType = "GFX_country_selection_new_shine"
 			pdx_tooltip = "BOOKMARK_MEXICO_BLOCKER"
 			pdx_tooltip_delayed = "BOOKMARK_MEXICO_BLOCKER_DELAYED"
 		}
+		iconType = { # Kuomintang NEW
+			name = "country_selection_new_kuomintang"
+			position = { x = 900 y = 280 }
+			spriteType = "GFX_country_selection_new_shine"
+			pdx_tooltip = "BOOKMARK_KUOMINTANG_BLOCKER"
+			pdx_tooltip_delayed = "BOOKMARK_KUOMINTANG_BLOCKER_DELAYED"
+		}
+		iconType = { # ROC BLOCKED ENTRY
+			name = "countries_blocker_pakt_roc_entry"
+			position = { x = 795 y = 280 }
+			spriteType = "GFX_country_selection_screen_blocker"
+			pdx_tooltip = "BOOKMARK_ROC_BLOCKER"
+			pdx_tooltip_delayed = "BOOKMARK_ROC_BLOCKER_DELAYED"
+		}
 		iconType = { # CHILE BLOCKED ENTRY
 			name = "countries_blocker_ofn_2_2_entry"
-			position = { x = 74 y = 284 }
+			position = { x = 76 y = 285 }
 			spriteType = "GFX_country_selection_screen_blocker"
 			pdx_tooltip = "BOOKMARK_CHILE_BLOCKER"
 			pdx_tooltip_delayed = "BOOKMARK_CHILE_BLOCKER_DELAYED"
@@ -918,27 +919,6 @@ guiTypes = {
 			spriteType = "GFX_country_selection_screen_blocker"
 			pdx_tooltip = "BOOKMARK_POLAND_BLOCKER"
 			pdx_tooltip_delayed = "BOOKMARK_POLAND_BLOCKER_DELAYED"
-		}
-		iconType = { # UKRAINE NEW
-			name = "country_selection_new_ukraine"
-			position = { x = 300 y = 325 }
-			spriteType = "GFX_country_selection_new_shine"
-			pdx_tooltip = "BOOKMARK_UKRAINE_BLOCKER"
-			pdx_tooltip_delayed = "BOOKMARK_UKRAINE_BLOCKER_DELAYED"
-		}
-		iconType = { # Kuomintang NEW
-			name = "country_selection_new_kuomintang"
-			position = { x = 900 y = 280 }
-			spriteType = "GFX_country_selection_new_shine"
-			pdx_tooltip = "BOOKMARK_KUOMINTANG_BLOCKER"
-			pdx_tooltip_delayed = "BOOKMARK_KUOMINTANG_BLOCKER_DELAYED"
-		}
-		iconType = { # ROC BLOCKED ENTRY
-			name = "countries_blocker_pakt_roc_entry"
-			position = { x = 795 y = 280 }
-			spriteType = "GFX_country_selection_screen_blocker"
-			pdx_tooltip = "BOOKMARK_ROC_BLOCKER"
-			pdx_tooltip_delayed = "BOOKMARK_ROC_BLOCKER_DELAYED"
 		}
 		iconType = { # OSTLAND BLOCKED ENTRY
 			name = "countries_blocker_pakt_2_3_entry"

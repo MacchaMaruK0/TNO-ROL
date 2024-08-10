@@ -134,8 +134,7 @@
  
  ###赤血黄沙
  ROL_KMT_red_blood_Category: "§e赤血§!§w黄沙§!"
- ROL_KMT_red_blood_info: "§e华表鹤来应有语，铜盘人去亦何心。§!\n§w兴亡谁识天公意，留著青城阅古今。§!"
- ROL_KMT_red_blood_delayed_info: "自抗战结束以来，£GFX_KMT_cpc_icon §R中共陕甘宁边区§!就一直与£GFX_KMT_kmt_icon §i行辕政府§!呈对峙状态，双方在数十年来的£GFX_ROL_KMT_red_blood_war §e边境拉锯战§!中死伤无数，而边界地区的居民更是§g十不存一§!。由于£GFX_KMT_kmt_icon 行辕首府兰州处于最前线，£GFX_KMT_kmt_icon §i行辕国军§!将采取一切可能的行动严防£GFX_KMT_cpc_icon §R中共军队§!的§w渗透和袭扰§!以保护行辕的各级机构。尽管£GFX_KMT_cpc_icon §R共军§!在实力上不如我们，但他们灵活多变的游击战术和近乎严苛的纪律性以及对国军内部将士的宣传攻势是我们最需要关注的问题，不过£GFX_KMT_kmt_icon §i国军§!也拥有着§w训练有素的部队§!和§w相对先进的装备§!，因此司令部需要随时关注前方局势并根据情况发展做出战术或战略上的调整。但随着冲突时间日渐增长，行辕的花费和负担都越来越大，加之胡宗南主任逐步恶化的身体，这场旷日持久的£GFX_ROL_KMT_red_blood_war §e冲突§!也许会在不久的将来宣告结束..."
+ ROL_KMT_red_blood_info: "§e华表鹤来应有语，铜盘人去亦何心。§!\n§w兴亡谁识天公意，留著青城阅古今。§!\n§W--------------\n\n§!£GFX_ROL_KMT_yellow_salt_texticon \n\n\n§W--------------\n§!自抗战结束以来，£GFX_KMT_cpc_icon §R中共陕甘宁边区§!就一直与£GFX_KMT_kmt_icon §i行辕政府§!呈对峙状态，双方在数十年来的£GFX_ROL_KMT_red_blood_war §e边境拉锯战§!中死伤无数，而边界地区的居民更是§g十不存一§!。由于£GFX_KMT_kmt_icon 行辕首府兰州处于最前线，£GFX_KMT_kmt_icon §i行辕国军§!将采取一切可能的行动严防£GFX_KMT_cpc_icon §R中共军队§!的§w渗透和袭扰§!以保护行辕的各级机构。尽管£GFX_KMT_cpc_icon §R共军§!在实力上不如我们，但他们灵活多变的游击战术和近乎严苛的纪律性以及对国军内部将士的宣传攻势是我们最需要关注的问题，不过£GFX_KMT_kmt_icon §i国军§!也拥有着§w训练有素的部队§!和§w相对先进的装备§!，因此司令部需要随时关注前方局势并根据情况发展做出战术或战略上的调整。但随着冲突时间日渐增长，行辕的花费和负担都越来越大，加之胡宗南主任逐步恶化的身体，这场旷日持久的£GFX_ROL_KMT_red_blood_war §e冲突§!也许会在不久的将来宣告结束..."
  ROL_KMT_CPC_attack: "冲突正在升级..."
  ROL_KMT_attack: "进行边境冲突"
  ROL_KMT_attack_tt_2: "现阶段§R战备等级§!£GFX_ROL_KMT_red_blood_level 高于30%（[?ROL_KMT_add_level_points|G1]%）\n£GFX_ROL_KMT_red_blood_solider 现阶段§Y动员效率§!高于10%（[?ROL_KMT_add_solider_points|G1]%）\n现存£GFX_ROL_KMT_red_blood_supply §G补给物资§!多于30%（[?ROL_KMT_add_supply_points|G1]%）"
@@ -232,8 +231,7 @@
  
  #白日之下
  ROL_KMT_Choose_Director_Category: "§W白日§!之下"
- ROL_KMT_Choose_Director_info: "§W山河兴废供搔首，身世安危入倚楼。§!\n§i横槊赋诗非复昔，梦魂犹绕古梁州。§!"
- ROL_KMT_Choose_Director_delayed_info: "§g胡宗南§!去世了，他未能像§s蒋委员长§!一般成为一代领袖，引领§!£GFX_KMT_kmt_icon §Q中华民国§!的复兴，而§o派系间斗争§!却因此愈发严重乃至§e公开化§!。当务之急是推举一位§X军政领袖§!，来带领西北的同胞，光复沦陷的国土。西北人才众多，但众望所归者只有其二：£GFX_KMT_lixing_icon 行辕代理主任、参谋长§!§g罗列§!将军是西北国军的实际首脑，在军中威望颇高，也是§g胡宗南§!指定的接班人;£GFX_KMT_tpp_icon 行辕政治委员会主任§W张治中§!将军，自行辕设立起就一直负责行政事务，深受各级官员信赖支持，与§g胡宗南§!大有军政分庭抗礼之势。此二人均有不同的军政力量支持助选，需§x审时度势，谨慎行动§!。§Q昆明§!来的§x中央专员§!已抵达§d兰州§，将对推选§Z进行监督§!，如西北§e局势不稳§!，新的行辕主任将§Q由中央指定§!。"
+ ROL_KMT_Choose_Director_info: "§W山河兴废供搔首，身世安危入倚楼。§!\n§i横槊赋诗非复昔，梦魂犹绕古梁州。§!\n§W--------------\n\n§!£GFX_ROL_KMT_white_sun_texticon \n\n\n§W--------------\n§!§g胡宗南§!去世了，他未能像§s蒋委员长§!一般成为一代领袖，引领§!£GFX_KMT_kmt_icon §Q中华民国§!的复兴，而§o派系间斗争§!却因此愈发严重乃至§e公开化§!。当务之急是推举一位§X军政领袖§!，来带领西北的同胞，光复沦陷的国土。西北人才众多，但众望所归者只有其二：£GFX_KMT_lixing_icon 行辕代理主任、参谋长§!§g罗列§!将军是西北国军的实际首脑，在军中威望颇高，也是§g胡宗南§!指定的接班人;£GFX_KMT_tpp_icon 行辕政治委员会主任§W张治中§!将军，自行辕设立起就一直负责行政事务，深受各级官员信赖支持，与§g胡宗南§!大有军政分庭抗礼之势。此二人均有不同的军政力量支持助选，需§x审时度势，谨慎行动§!。§Q昆明§!来的§x中央专员§!已抵达§d兰州§，将对推选§Z进行监督§!，如西北§e局势不稳§!，新的行辕主任将§Q由中央指定§!。"
  ROL_KMT_Lixing_unit_num_temp_tt_1:0 "§s少量§!增加£GFX_KMT_lixing_icon §o革命军人同志会§!的£GFX_KMT_unity_icon 团结度"
  ROL_KMY_show_strong_lixing_int:0 "展开增加£GFX_KMT_lixing_icon 我方候选人支持度决议"
  ROL_KMY_hide_strong_lixing_int:0 "收起增加£GFX_KMT_lixing_icon 我方候选人支持度决议"
@@ -424,7 +422,12 @@
  kmt.3.t:0 "万事皆休"
  
  ###兰州危机gui
- ROL_KMT_lanzhou_crisisi_tt: "着手§B平息§!£GFX_KMT_lanzhou_crisis §R兰州危机§!"
- ROL_KMT_lanzhou_crisis_infor: "§B千古风流人物，一时多少英豪。§!\n§R龙争虎斗漫劬劳，落得一场谈笑。§!"
- ROL_KMT_lanzhou_crisis_delayed_infor: "占位符"
- kmt_6_a_tt:0 "§B§g马继援§!已公开抗命，宣布青海省直接归属£GFX_KMT_kmt_icon §i滇府中央§!调遣以表衷心，只为自己在新一任行辕政府中谋得更好职位，我们虽§Y心知肚明§!，但§e无计可施...§!\n与此同时，§d兰州§!城内，§e我们的敌人§!蠢蠢欲动，他们在谋划一场颠覆行动，以夺取§d兰州§!\n§d兰州§!城外，§g马继援§!的行为越发激进，一旦他与£GFX_KMT_kmt_icon §i滇府中央§!达成共识或£GFX_KMT_kmt_icon §i滇府中央§!失去耐心\n§g马继援§!将出兵夺取§d兰州§!，西北行辕也会被£GFX_KMT_kmt_icon §i滇府中央§!所限，§e失去一切权力§!。\n在政治界面中解锁£decision_icon_small §W着手§!§B平息§!£GFX_KMT_lanzhou_crisis §R兰州危机§!GUI§!"
+ ROL_KMT_lanzhou_crisisi_tt: "着手§B平息§!£GFX_KMT_lanzhou_crisis §R兰州危机§!
+ ROL_KMT_lanzhou_crisis_infor: "§B千古风流人物，一时多少英豪。§!\n§R龙争虎斗漫劬劳，落得一场谈笑。§!\n§W--------------\n\n§!£GFX_ROL_KMT_lanzhou_texticon \n\n\n§W--------------\n§!在§g胡宗南将军§!去世后，新的£GFX_KMT_lixing_icon §B行辕主任§!尚未选出，加之派系斗争§Y日趋激烈§!，导致£GFX_KMT_lixing_icon §B行辕§!进入了短暂的绝对权力真空时期。而£GFX_KMT_kmt_icon §i滇府中央§!为了加强对行辕的控制，也派遣专员对选举进行监督。在此之前，行辕与£GFX_KMT_cpc_icon §R中共§!曾进行了消耗极大的£GFX_ROL_KMT_red_blood_war 边界轮战，故而无暇顾及民政事务，同时采取的一些军事化政策使得行辕内部民怨四起，£GFX_KMT_cpc_icon §R中共§!趁此机会对行辕开展了持续的渗透活动。从城市到农村、从知识分子到底层农民，几乎无处不有£GFX_KMT_cpc_icon §R共产党组织§!的迹象存在，近期§g青海马继援部§!的公然抗命、袖手旁观更是大大削弱了£GFX_KMT_lixing_icon §B行辕国军§!的力量。现在，在§g胡宗南§!去世引发的一系列的示威游行以及骚乱事件当中，£GFX_KMT_cpc_icon §R中共§!作为幕后推手的形象越来越明显。而根据£GFX_KMT_lixing_icon §B行辕§!军统部门的调查表明，£GFX_KMT_cpc_icon §R中共甘肃省工委§!正计划在兰州发起一场£GFX_KMT_lanzhou_crisis §Y大型暴动§!以夺取该地控制权，而兰州城外，§g青海马家军§!虽然到目前为止尚未有任何异常动向，不过，如果£GFX_KMT_lixing_icon §B行辕§!无力控制局面，而§g马继援§!又与£GFX_KMT_kmt_icon §i滇府中央§!达成合作，那么他的兵锋必定将§e直指兰州§!。\n\n有鉴于此，行辕内部一致认为，想要守住兰州务必要完成以下两个目标：\n一、彻底镇压兰州市内的£GFX_KMT_cpc_icon §R共产暴乱分子§!\n二、尽量稳住§g马继援§!，并说服或是恫吓他放弃出兵\n一旦£GFX_KMT_cpc_icon §R中共§!或§g马继援§!掌握了局面，£GFX_KMT_lixing_icon §B行辕§!的命运将急转直下，§e甚至于失去一切权力，彻底被£GFX_KMT_kmt_icon §i滇府§!掌控。§!"
+ kmt_6_a_tt:0 "§B§g马继援§!已公开抗命，宣布青海省直接归属£GFX_KMT_kmt_icon §i滇府中央§!调遣以表衷心，只为自己在新一任行辕政府中谋得更好职位，我们虽§Y心知肚明§!，但§e无计可施...§!\n与此同时，§d兰州§!城内，£GFX_KMT_cpc_icon §R我们的敌人§!蠢蠢欲动，他们在谋划一场颠覆行动，以夺取§d兰州§!\n§d兰州§!城外，§g马继援§!的行为越发激进，一旦他与£GFX_KMT_kmt_icon §i滇府中央§!达成共识或£GFX_KMT_kmt_icon §i滇府中央§!失去耐心\n§g马继援§!将出兵夺取§d兰州§!，西北行辕也会被£GFX_KMT_kmt_icon §i滇府中央§!所限，§e失去一切权力§!。\n在政治界面中解锁£decision_icon_small §W着手§!§B平息§!£GFX_KMT_lanzhou_crisis §R兰州危机§!GUI§!"
+ 
+ 
+ 
+ #####bookmark
+ BOOKMARK_KUOMINTANG_BLOCKER: "§B西北行辕§!"
+ BOOKMARK_KUOMINTANG_BLOCKER_DELAYED: "§B白日之下版本，新鲜出炉：§!\n§Y- 三年可玩内容\n- 决定西北行辕的§R命运§!\n- 包括§M兰州危机§!在内的独特机制§!"

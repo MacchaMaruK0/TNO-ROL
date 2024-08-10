@@ -87,6 +87,21 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
+		name = "GFX_ROL_KMT_lanzhou_texticon" #兰州危机的icon
+		texturefile = "gfx/interface/texticon/ROL_bookmark/ROL_KMT_lanzhou_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROL_KMT_yellow_salt_texticon" #赤血黄沙的icon
+		texturefile = "gfx/interface/texticon/ROL_bookmark/ROL_KMT_yellow_salt_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ROL_KMT_white_sun_texticon" #白日之下的icon
+		texturefile = "gfx/interface/texticon/ROL_bookmark/ROL_KMT_white_sun_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_KMT_lanzhou_crisis" #兰州危机的icon
 		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/KMT_lanzhou_crisis.png"
 		legacy_lazy_load = no
