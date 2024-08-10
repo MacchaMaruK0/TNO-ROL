@@ -23,7 +23,7 @@ guiTypes = {
 	
     containerWindowType = {
 		name = "ROL_KMT_lanzhou_crisis_GUI"
-		size = { height = 628 width = 1160 } 
+		size = { height = 560 width = 1168 } 
 		position = { x = 238 y = 220 }
 		show_sound = open_sub_window
 		moveable = yes
@@ -36,14 +36,14 @@ guiTypes = {
 		
 		iconType = {
 			name = "ROL_KMT_lanzhou_crisis_big"
-			position = { x = 5 y = 20 }
+			position = { x = 9 y = 20 }
 			spriteType = "GFX_ROL_KMT_lanzhou_big"
 			#pdx_tooltip = ROL_KMT_lanzhou_crisis_infor
 		}
 		
 		buttonType = {
 			name = "ROL_KMT_close"
-			position = { x = -65 y = 15 }
+			position = { x = -60 y = 15 }
 			orientation = "UPPER_RIGHT"
 			spriteType = "GFX_Kartenhaus_CloseButton"
 			clicksound = click_default
@@ -52,9 +52,23 @@ guiTypes = {
 		
 		iconType = {
 			name = "ROL_KMT_lanzhou_crisis_infor"
-			position = { x = 11 y = 582 }
+			position = { x = 11 y = 553 }
 			spriteType = "GFX_Burgundy_GUI_Info_Button"
 			pdx_tooltip = ROL_KMT_lanzhou_crisis_infor
+		}
+		
+		iconType = {
+			name = "ROL_KMT_lanzhou_loss_1"
+			position = { x = 11 y = 18 }
+			spriteType = "GFX_ROL_KMT_lanzhou_loss_1"
+			#pdx_tooltip = ROL_KMT_lanzhou_crisis_infor
+		}
+		
+		iconType = {
+			name = "ROL_KMT_lanzhou_loss_2"
+			position = { x = 11 y = 18 }
+			spriteType = "GFX_ROL_KMT_lanzhou_loss_2"
+			#pdx_tooltip = ROL_KMT_lanzhou_crisis_infor
 		}
 	}	
 }

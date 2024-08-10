@@ -42,6 +42,14 @@ scripted_gui = {
 		visible = {
 			has_country_flag = ROL_KMT_lanzhou_crisis_GUI_Open
 		}
+		triggers = {
+			ROL_KMT_lanzhou_loss_1_visible = { 
+			has_country_flag = ROL_KMT_ma_end 
+			}
+			ROL_KMT_lanzhou_loss_2_visible = { 
+			has_country_flag = ROL_KMT_cpc_end
+			}
+		}
 		effects = {
 			ROL_KMT_close_click = {
 				if = {

@@ -9,4 +9,14 @@ spriteTypes = {
 		name = GFX_ROL_KMT_lanzhou_big
 		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_big.png"
 	}
+	
+	spriteType = {
+		name = GFX_ROL_KMT_lanzhou_loss_1
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_loss_1.png"
+	}
+	
+	spriteType = {
+		name = GFX_ROL_KMT_lanzhou_loss_2
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_loss_2.png"
+	}
 }	

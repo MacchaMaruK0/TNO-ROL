@@ -196,6 +196,35 @@ country_event = {
 	}
 }
 
+country_event = { 
+	id = kmt.7
+	title = kmt.7.t 
+	desc = kmt.7.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.7"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.7.a 
+		set_capital = { state = 616 }
+		QIN = {
+		add_state_core = 1302
+		transfer_state = 1302
+		1302 = { set_demilitarized_zone = yes }
+		set_capital = { state = 1302 }
+		}
+		custom_effect_tooltip = kmt_7_a_tt
+		hidden_effect = {
+		set_country_flag = ROL_KMT_ma_end
+		}
+	}
+}
+
 
 ######border######
 country_event = { 
@@ -324,7 +353,6 @@ country_event = {
             }
 		}
     }
-}
 ##################org_focus##################
 country_event = { 
 	id = kmt.20

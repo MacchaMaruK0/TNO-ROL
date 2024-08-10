@@ -76,4 +76,29 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用GH_国�
 		ROL_KMT_add_win_num = yes	
 		}
     }
+	
+	ROL_KMT_lanzhou_crisis_loss_1 = {
+	fire_only_once = no
+	is_debug = yes
+	complete_effect = {
+		set_country_flag = ROL_KMT_ma_end
+		}
+    }
+	
+	ROL_KMT_lanzhou_crisis_loss_2 = {
+	fire_only_once = no
+	is_debug = yes
+	complete_effect = {
+		set_country_flag = ROL_KMT_cpc_end
+		}
+    }
+	
+	ROL_KMT_lanzhou_crisis_loss_3 = {
+	fire_only_once = no
+	is_debug = yes
+	complete_effect = {
+		clr_country_flag = ROL_KMT_ma_end
+		clr_country_flag = ROL_KMT_cpc_end
+		}
+    }
 }
