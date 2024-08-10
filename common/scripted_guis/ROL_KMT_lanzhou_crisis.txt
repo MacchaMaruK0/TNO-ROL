@@ -49,6 +49,22 @@ scripted_gui = {
 			ROL_KMT_lanzhou_loss_2_visible = { 
 			has_country_flag = ROL_KMT_cpc_end
 			}
+			ROL_KMT_lanzhou_crisis_infor_visible = { 
+				OR = {
+					NOT = {
+					has_country_flag = ROL_KMT_ma_end
+					has_country_flag = ROL_KMT_cpc_end
+					}
+				}
+			}
+			ROL_KMT_close_visible = { 
+				OR = {
+					NOT = {
+					has_country_flag = ROL_KMT_ma_end
+					has_country_flag = ROL_KMT_cpc_end
+					}
+				}
+			}
 		}
 		effects = {
 			ROL_KMT_close_click = {

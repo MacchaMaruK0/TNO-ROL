@@ -361,10 +361,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 	ROL_KMT_CPC_attack = { #cpc周期性边境冲突
 	icon = GFX_decision_generic_clock
 		activation = {
-		    OR = {
 		    has_country_flag = ROL_KMT_red_blood
-			is_debug = yes
-			}
 		}
 		available = {
 			has_border_war = yes
@@ -782,10 +779,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 	ROL_KMT_start_the_machine = { #开动战争机器
 	icon = GFX_decision_generic_clock
 		activation = {
-		    OR = {
 		    has_country_flag = ROL_KMT_red_blood
-			is_debug = yes
-			}
 		}
 		available = {
 			has_border_war = yes

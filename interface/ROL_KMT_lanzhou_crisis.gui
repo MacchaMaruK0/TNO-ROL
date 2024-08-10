@@ -52,7 +52,7 @@ guiTypes = {
 		
 		iconType = {
 			name = "ROL_KMT_lanzhou_crisis_infor"
-			position = { x = 11 y = 553 }
+			position = { x = 11 y = 514 }
 			spriteType = "GFX_Burgundy_GUI_Info_Button"
 			pdx_tooltip = ROL_KMT_lanzhou_crisis_infor
 		}

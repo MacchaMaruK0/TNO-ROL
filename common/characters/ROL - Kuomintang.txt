@@ -289,12 +289,12 @@ characters = {
 			logistics_skill = 1
 		}
 		country_leader = {
-			desc = ""
+			desc = "KMT_ROL_Luo_Lie_1_desc"
 			expire = "1994.4.20"
 			ideology = paternalism_1_subtype
 		}
 		country_leader = {
-			desc = ""
+			desc = "KMT_ROL_Luo_Lie_1_desc"
 			expire = "1994.4.20"
 			ideology = despotism_military_junta_subtype
 		}
@@ -308,12 +308,12 @@ characters = {
 			}
 		}
 		country_leader = {
-			desc = ""
+			desc = "KMT_ROL_Luo_Lie_2_desc"
 			expire = "1994.4.20"
 			ideology = paternalism_1_subtype
 		}
 		country_leader = {
-			desc = ""
+			desc = "KMT_ROL_Luo_Lie_2_desc"
 			expire = "1994.4.20"
 			ideology = despotism_ROL_military_vanguard_subtype
 		}

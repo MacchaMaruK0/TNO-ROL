@@ -680,3 +680,24 @@ defined_text = {
 		localization_key = ROL_KMT_solidarity_cycle_putinto_tt_5
 	}
 }
+
+defined_text = {
+	name = Get_ROL_KMT_white_sun_tt
+	text = {
+		trigger = {
+			has_country_flag = ROL_KMT_ma_end
+		}
+		localization_key = Get_ROL_KMT_white_sun_tt_1
+	}
+	text = {
+		trigger = {
+		}
+		localization_key = Get_ROL_KMT_white_sun_tt_2
+	}
+	text = {
+		trigger = {
+			has_country_flag = ROL_KMT_cpc_end
+		}
+		localization_key = Get_ROL_KMT_white_sun_tt_3
+	}
+}
