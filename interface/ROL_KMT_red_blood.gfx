@@ -1,0 +1,125 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ROL_KMT_decentralization_of_supplies_icon" #分发物资的icon
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_decentralization_of_supplies_icon.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_set_warlords_icon" #设立督战队的icon
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_set_warlords_icon.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_kill_guerilla_icon" #围剿游击队的icon
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_kill_guerilla_icon.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_fortifications_icon" #加固防御工事的icon
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_fortifications_icon.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_strengthen_functions_icon" #加强战地指挥部职能的icon
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_strengthen_functions_icon.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_additional_police_officers_icon" #增派警总人员维持秩序的icon
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_additional_police_officers_icon.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_hoes_and_rapists_icon" #组建锄奸保安队的icon
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_hoes_and_rapists_icon.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_requisition_and_transportation_icon" #征调民夫协助运输的icon
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_requisition_and_transportation_icon.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_gather_veterans_icon" #召回退伍老兵训练新兵的icon
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_gather_veterans_icon.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_implementation_military_policy_icon" #执行军事优先政策的icon
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_implementation_military_policy_icon.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_attack_icon" #进行边境冲突的icon
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_attack_icon.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_kmt_botton" #KMT按钮
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_kmt_botton.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_cpc_botton" #CPC按钮
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_cpc_botton.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_red_blood_bg" #bg
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_red_blood_bg.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_red_blood_bg_1" #bg
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_red_blood_bg_1.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_red_blood_bar_full" #满进度条
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_red_blood_bar_full.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_solider_bar" #动员进度条
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_solider_bar.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_supply_bar" #物资进度条
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_supply_bar.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_level_bar" #战备等级进度条
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_level_bar.png"
+	}
+}
+
+spriteTypes = {
+	progressbartype = {
+		name = "GFX_ROL_KMT_solider_bar_full"
+		textureFile1 = "gfx/decision/KMT/red_blood/ROL_KMT_red_blood_bar_full.png"
+		textureFile2 = "gfx/decision/KMT/red_blood/ROL_KMT_solider_bar.png"
+		size = { x = 205 y = 25 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	
+	progressbartype = {
+		name = "GFX_ROL_KMT_supply_bar_full"
+		textureFile1 = "gfx/decision/KMT/red_blood/ROL_KMT_red_blood_bar_full.png"
+		textureFile2 = "gfx/decision/KMT/red_blood/ROL_KMT_supply_bar.png"
+		size = { x = 205 y = 25 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	
+	progressbartype = {
+		name = "GFX_ROL_KMT_level_bar_full"
+		textureFile1 = "gfx/decision/KMT/red_blood/ROL_KMT_red_blood_bar_full.png"
+		textureFile2 = "gfx/decision/KMT/red_blood/ROL_KMT_level_bar.png"
+		size = { x = 205 y = 25 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+}

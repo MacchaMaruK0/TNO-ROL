@@ -425,11 +425,26 @@
  kmt.1.t:0 "新官上任"
  kmt.2.t:0 "新官上任"
  kmt.3.t:0 "万事皆休"
+ kmt.6.t:0 "背刺"
+ kmt.6.d:0 "周至柔火急火燎地走进了行辕三青团总部大楼，他手上拿着一份电报，上面用醒目的红字标注着：特急。几个认识他的职员站在一旁用困惑的眼神看着他——这是怎么了？他没有理会，快步走上楼梯到四楼去。而四楼走廊的尽头就是三青团书记长张治中的办公室。\n张治中此时正靠在椅背上闭目养神，最近的一系列事情实在搅得他焦头烂额，这样的工作强度对一个已逾古稀之年的老人来说太苛刻了，他需要休息。但随即他听到了门外急促的脚步声，刚准备询问是谁，周至柔就直接推门而入。\n“出什么事了？”\n周至柔没有说话，而是把手中的电报递给他看，张治中接过开始仔细阅读起来。“近日行辕之形势危如累卵，继援实属忧心……而内部各同僚仍在相争不休，致使中共坐大、混乱加剧……”他越看越觉得心惊肉跳，双手止不住地颤抖。\n“继援愿率青海全体军民团结一心，接受昆明国府之直接领导，以期早日恢复西北稳定。”\n他看向周至柔，对方的眼里充满了愤怒与难以置信。\n“什么时候通电的？”\n“两个小时前。”\n“他怎么敢的？先是抗命不遵，现在倒好，要脱离行辕管辖了，把责任都推到我们身上，他自己倒是一身轻，搞得和他一点关系没有一样。这个王八蛋，真是……”张治中说着开始咳嗽起来。\n“事情已经发生了，现在重要的是该想想怎么应对才是，中央巴不得他归顺呢，咱们的处境危险了。罗列那群人估计也要拿这事大做文章。”\n“他手里有重兵，直接和他正面冲突不是办法。我一时也想不出什么太好的法子。”\n二人无言以对。"
+ kmt.6.a:0 "“快去把杨伯涛叫来。”"
  
  ###兰州危机gui
  ROL_KMT_lanzhou_crisisi_tt: "着手§B平息§!£GFX_KMT_lanzhou_crisis §R兰州危机§!
  ROL_KMT_lanzhou_crisis_infor: "§B千古风流人物，一时多少英豪。§!\n§R龙争虎斗漫劬劳，落得一场谈笑。§!\n§W--------------\n\n§!£GFX_ROL_KMT_lanzhou_texticon \n\n\n§W--------------\n§!在§g胡宗南将军§!去世后，新的£GFX_KMT_lixing_icon §B行辕主任§!尚未选出，加之派系斗争§Y日趋激烈§!，导致£GFX_KMT_lixing_icon §B行辕§!进入了短暂的绝对权力真空时期。而£GFX_KMT_kmt_icon §i滇府中央§!为了加强对行辕的控制，也派遣专员对选举进行监督。在此之前，行辕与£GFX_KMT_cpc_icon §R中共§!曾进行了消耗极大的£GFX_ROL_KMT_red_blood_war 边界轮战，故而无暇顾及民政事务，同时采取的一些军事化政策使得行辕内部民怨四起，£GFX_KMT_cpc_icon §R中共§!趁此机会对行辕开展了持续的渗透活动。从城市到农村、从知识分子到底层农民，几乎无处不有£GFX_KMT_cpc_icon §R共产党组织§!的迹象存在，近期£GFX_ROL_KMT_ma_clique_icon §g青海马继援部§!的公然抗命、袖手旁观更是大大削弱了£GFX_KMT_lixing_icon §B行辕国军§!的力量。现在，在§g胡宗南§!去世引发的一系列的示威游行以及骚乱事件当中，£GFX_KMT_cpc_icon §R中共§!作为幕后推手的形象越来越明显。而根据£GFX_KMT_lixing_icon §B行辕§!军统部门的调查表明，£GFX_KMT_cpc_icon §R中共甘肃省工委§!正计划在£GFX_ROL_KMT_lanzhou_icon 兰州发起一场£GFX_KMT_lanzhou_crisis §Y大型暴动§!以夺取该地控制权，而£GFX_ROL_KMT_lanzhou_icon 兰州城外，£GFX_ROL_KMT_ma_clique_icon §g青海马家军§!虽然到目前为止尚未有任何异常动向，不过，如果£GFX_KMT_lixing_icon §B行辕§!无力控制局面，而£GFX_ROL_KMT_ma_clique_icon §g马继援§!又与£GFX_KMT_kmt_icon §i滇府中央§!达成合作，那么他的兵锋必定将§e直指§!£GFX_ROL_KMT_lanzhou_icon 兰州。\n\n有鉴于此，行辕内部一致认为，想要守住£GFX_ROL_KMT_lanzhou_icon 兰州务必要完成以下两个目标：\n一、彻底镇压£GFX_ROL_KMT_lanzhou_icon 兰州市内的£GFX_KMT_cpc_icon §R共产暴乱分子§!\n二、尽量稳住£GFX_ROL_KMT_ma_clique_icon §g马继援§!，并说服或是恫吓他放弃出兵\n一旦£GFX_KMT_cpc_icon §R中共§!或£GFX_ROL_KMT_ma_clique_icon §g马继援§!掌握了局面，£GFX_KMT_lixing_icon §B行辕§!的命运将急转直下，§e甚至于失去一切权力，彻底被£GFX_KMT_kmt_icon §i滇府§!掌控。§!"
  kmt_6_a_tt:0 "§B£GFX_ROL_KMT_ma_clique_icon §g马继援§!已公开抗命，宣布青海省直接归属£GFX_KMT_kmt_icon §i滇府中央§!调遣以表衷心，只为自己在新一任行辕政府中谋得更好职位，我们虽§Y心知肚明§!，但§e无计可施...§!\n与此同时，£GFX_ROL_KMT_lanzhou_icon §d兰州§!城内，£GFX_KMT_cpc_icon §R我们的敌人§!蠢蠢欲动，他们在谋划一场颠覆行动，以夺取£GFX_ROL_KMT_lanzhou_icon §d兰州§!\n£GFX_ROL_KMT_lanzhou_icon §d兰州§!城外，£GFX_ROL_KMT_ma_clique_icon §g马继援§!的行为越发激进，一旦他与£GFX_KMT_kmt_icon §i滇府中央§!达成共识或£GFX_KMT_kmt_icon §i滇府中央§!失去耐心\n£GFX_ROL_KMT_ma_clique_icon §g马继援§!将出兵夺取§d兰州§!，西北行辕也会被£GFX_KMT_kmt_icon §i滇府中央§!所限，§e失去一切权力§!。\n在政治界面中解锁£decision_icon_small §W着手§!§B平息§!£GFX_KMT_lanzhou_crisis §R兰州危机§!GUI§!"
+ ROL_KMT_lanzhou_train_station_tt: "兰州火车站"
+ ROL_KMT_lanzhou_market_company_tt: "贸易大厦"
+ ROL_KMT_lanzhou_northwest_highway_tt: "西北公路局"
+ ROL_KMT_lanzhou_rivernorth_police_station_tt: "警察局河北分局"
+ ROL_KMT_lanzhou_police_station_tt: "警察总局"
+ ROL_KMT_lanzhou_northwest_edifice_tt: "西北大厦"
+ ROL_KMT_lanzhou_airport_tt: "飞行场"
+ ROL_KMT_lanzhou_zhongshan_bridge_tt: "中山桥"
+ ROL_KMT_lanzhou_rivernorth_hospital_tt: "河北医院"
+ ROL_KMT_lanzhou_martyrs_shrine_tt: "忠烈祠"
+ ROL_KMT_lanzhou_agriculture_school_tt: "农业学校"
+ ROL_KMT_lanzhou_province_goverment_tt: "兰州省政府"
  
  
  

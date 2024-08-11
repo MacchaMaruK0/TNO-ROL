@@ -1,6 +1,6 @@
 ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_国名_决议内容.txt命名
     ROL_KMT_decentralization_of_supplies = { #分发物资
-	icon = /
+	icon = GFX_ROL_KMT_decentralization_of_supplies_icon
 		activation = {
 		}
 		available = {
@@ -41,7 +41,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
     }
 	
 	ROL_KMT_set_warlords = { #设立督战队
-	icon = /
+	icon = GFX_ROL_KMT_set_warlords_icon
 		activation = {
 		}
 		available = {
@@ -81,7 +81,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
     }
 	
 	ROL_KMT_kill_guerilla = { #围剿游击队
-	icon = /
+	icon = GFX_ROL_KMT_kill_guerilla_icon
 		activation = {
 		}
 		available = {
@@ -130,7 +130,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
     }
 	
 	ROL_KMT_fortifications = { #加固防御工事
-	icon = /
+	icon = GFX_ROL_KMT_fortifications_icon
 		activation = {
 		}
 		available = {
@@ -169,7 +169,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
     }
 	
 	ROL_KMT_strengthen_functions = { #加强战地指挥部职能
-	    icon = /
+	    icon = GFX_ROL_KMT_strengthen_functions_icon
 		cost = 50
 		activation = {
 		}
@@ -206,7 +206,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
     }
 	
 	ROL_KMT_additional_police_officers = { #增派警总人员维持秩序
-	    icon = /
+	    icon = GFX_ROL_KMT_additional_police_officers_icon
 		cost = 25
 		activation = {
 		}
@@ -236,7 +236,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
     }
 	
 	ROL_KMT_hoes_and_rapists = { #组建锄奸保安队
-	    icon = /
+	    icon = GFX_ROL_KMT_hoes_and_rapists_icon
 		cost = 25
 		activation = {
 		}
@@ -266,7 +266,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
     }
 	
 	ROL_KMT_requisition_and_transportation = { #征调民夫协助运输
-	    icon = /
+	    icon = GFX_ROL_KMT_requisition_and_transportation_icon
 		cost = 25
 		activation = {
 		}
@@ -295,7 +295,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
     }
 	
 	ROL_KMT_gather_veterans = { #召回退伍老兵训练新兵
-	    icon = /
+	    icon = GFX_ROL_KMT_gather_veterans_icon
 		cost = 25
 		activation = {
 		}
@@ -324,7 +324,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
     }
 	
 	ROL_KMT_implementation_military_policy = { #执行军事优先政策
-	    icon = /
+	    icon = GFX_ROL_KMT_implementation_military_policy_icon
 		cost = 25
 		activation = {
 		}
@@ -377,7 +377,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
     }
 	
 	ROL_KMT_attack = { #主动边境冲突
-	icon = /
+	icon = GFX_ROL_KMT_attack_icon
 		activation = {
 		}
 		available = {

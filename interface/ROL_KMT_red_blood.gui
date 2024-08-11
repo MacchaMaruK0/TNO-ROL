@@ -9,5 +9,33 @@ guiTypes = {
 			pdx_tooltip = ROL_KMT_red_blood_info
 			pdx_tooltip_delayed = ROL_KMT_red_blood_delayed_info
 		}
+		
+		buttonType = {
+            name = "ROL_KMT_kmt_botton"
+            position = { x = 35 y = 85 }
+            spriteType = "GFX_ROL_KMT_kmt_botton"
+            pdx_tooltip = ROL_KMT_kmt_botton_tt
+        }
+		
+		buttonType = {
+            name = "ROL_KMT_cpc_botton"
+            position = { x = 200 y = 155 }
+            spriteType = "GFX_ROL_KMT_cpc_botton"
+            pdx_tooltip = ROL_KMT_cpc_botton_tt
+        }
+		
+		iconType = {
+			name = "ROL_KMT_red_blood_infor"
+			position = { x = 394 y = -65 }
+			spriteType = "GFX_Burgundy_GUI_Info_Button"
+			pdx_tooltip = ROL_KMT_red_blood_info
+			pdx_tooltip_delayed = ROL_KMT_red_blood_delayed_info
+		}
+		
+		iconType = {
+			name = "ROL_KMT_solider_bar_full_empty"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_ROL_KMT_solider_bar_full"
+		}
 	}
 }		

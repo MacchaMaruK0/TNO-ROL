@@ -56,6 +56,8 @@
  ROL_ROC_China_Airlines:0 "华航"
  ROL_ROC_KMT_orthodoxy:0 "党统"
  ROL_ROC_NRA_still_exists:0 "干城"
+ ROL_ROC_NRA_still_exists_desc:0 " "
+ ROL_ROC_NRA_still_exists_tt: ""
  ROL_ROC_rent_reduction:0 "减租"
  ROL_ROC_rip_apart:0 "撕裂"
  ROL_ROC_the_plum_blossom_remains_the_same:0 "梅花"

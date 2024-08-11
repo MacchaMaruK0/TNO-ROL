@@ -1,0 +1,181 @@
+division_template = {
+	name = "青年军"
+	division_names_group = ROL_KMT_infantry
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "步兵军"
+	division_names_group = ROL_KMT_infantry_2
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "青海步兵军"
+	division_names_group = ROL_KMT_infantry_3
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "青海骑兵军"
+	division_names_group = ROL_KMT_infantry_4
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+	support = {
+	signal_company = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = "8127"
+		division_template = "青年军"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = "7971"
+		division_template = "青年军"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = "1630"
+		division_template = "步兵军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = "1630"
+		division_template = "步兵军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = "12776"
+		division_template = "步兵军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = "13239"
+		division_template = "步兵军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = "10834"
+		division_template = "步兵军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = "4536"
+		division_template = "步兵军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = "10490"
+		division_template = "青海步兵军"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = "10490"
+		division_template = "青海骑兵军"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+}
+
+
+### Starting Production ###	

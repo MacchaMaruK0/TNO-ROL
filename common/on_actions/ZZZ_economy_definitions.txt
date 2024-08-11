@@ -3420,6 +3420,52 @@ on_actions = {
 
 				initiate_display_vars = yes
 			}
+			
+			ROC = { #
+				set_variable = { GDP = 2.0 } #in billions
+				set_variable = { GDP_growth = 7.1 }
+				set_variable = { income_tax_rate = 0.32 }
+				set_variable = { business_tax_rate = 0.22 }
+				set_variable = { poverty_rate = 28.4 }
+				set_variable = { poverty_monthly_change = 0.01 }
+				set_variable = { money_reserves = 0.0 } #in billions
+				set_variable = { national_debt = 0.5 } #in billions
+				set_variable = { misc_income = 0.01 }
+				set_variable = { misc_costs = 0.0 }
+				set_variable = { base_inflation_rate = 1.0 }
+
+				set_temp_variable = { temp_credit_rating = 4 }
+				set_temp_variable = { temp_credit_rating_min = 2 }
+				set_temp_variable = { temp_credit_rating_max = 5 }
+				econ_initialize_credit_rating_system = yes
+
+				set_variable = { economic_centralization = 60 }
+
+				initiate_display_vars = yes
+			}
+			
+			CPC = { #
+				set_variable = { GDP = 1.4 } #in billions
+				set_variable = { GDP_growth = 7.3 }
+				set_variable = { income_tax_rate = 0.32 }
+				set_variable = { business_tax_rate = 0.22 }
+				set_variable = { poverty_rate = 28.4 }
+				set_variable = { poverty_monthly_change = 0.01 }
+				set_variable = { money_reserves = 0.0 } #in billions
+				set_variable = { national_debt = 0.3 } #in billions
+				set_variable = { misc_income = 0.01 }
+				set_variable = { misc_costs = 0.0 }
+				set_variable = { base_inflation_rate = 1.0 }
+
+				set_temp_variable = { temp_credit_rating = 4 }
+				set_temp_variable = { temp_credit_rating_min = 2 }
+				set_temp_variable = { temp_credit_rating_max = 5 }
+				econ_initialize_credit_rating_system = yes
+
+				set_variable = { economic_centralization = 60 }
+
+				initiate_display_vars = yes
+			}
 
 			every_country = {
 				econ_reload_poverty_effects = yes

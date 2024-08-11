@@ -29,6 +29,12 @@ ideas = {
 			picture = ROL_ROC_NRA_still_exists
 			removal_cost = -1
 			modifier = {
+				custom_modifier_tooltip = ROL_ROC_NRA_still_exists_tt
+				army_speed_factor = -0.05
+				army_infantry_attack_factor = -0.05
+				modifier_army_sub_unit_irregular_infantry_attack_factor = -0.05
+				war_support_factor = 0.10
+				command_power_gain = 0.5
 			}
 		}
 		

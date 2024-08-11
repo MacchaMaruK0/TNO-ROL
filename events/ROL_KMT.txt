@@ -263,6 +263,142 @@ country_event = {
 }
 
 country_event = { 
+	id = kmt_border_war.7
+	title = kmt_border_war.7.t 
+	desc = kmt_border_war.7.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt_border_war.7"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt_border_war.7.a
+        add_political_power = 25
+		set_temp_variable = {
+			ROL_KMT_add_win_num_points_temp = 1
+		}
+		set_temp_variable = {
+		ROL_KMT_add_deduct_points = -8.5
+        }
+		ROL_KMT_add_deduct = yes
+			set_temp_variable = {
+			ROL_KMT_add_solider_points_temp = ROL_KMT_add_deduct_points
+			}
+			ROL_KMT_add_solider = yes
+			set_temp_variable = {
+			ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_points
+			}
+		ROL_KMT_add_level = yes	
+		set_temp_variable = {
+		ROL_KMT_add_supply_points_temp = ROL_KMT_add_deduct_points
+		}
+		ROL_KMT_add_supply = yes
+    }
+}
+
+country_event = { 
+	id = kmt_border_war.8
+	title = kmt_border_war.8.t 
+	desc = kmt_border_war.8.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt_border_war.8"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt_border_war.8.a
+        add_political_power = -50
+		set_temp_variable = {
+			ROL_KMT_add_win_num_points_temp = 1
+		}
+		set_temp_variable = {
+		ROL_CPC_add_deduct_points = -16.5
+        }
+		ROL_KMT_add_deduct = yes
+			set_temp_variable = {
+			ROL_KMT_add_solider_points_temp = ROL_KMT_add_deduct_points
+			}
+			ROL_KMT_add_solider = yes
+			set_temp_variable = {
+			ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_points
+			}
+		ROL_KMT_add_level = yes	
+		set_temp_variable = {
+		ROL_KMT_add_supply_points_temp = ROL_KMT_add_deduct_points
+		}
+		ROL_KMT_add_supply = yes
+    }
+}
+
+country_event = { 
+	id = kmt_border_war.2
+	title = kmt_border_war.2.t 
+	desc = kmt_border_war.2.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt_border_war.2"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt_border_war.2.a
+        add_political_power = 50
+		set_temp_variable = {
+			ROL_KMT_add_win_num_points_temp = 1
+		}
+		set_temp_variable = {
+		ROL_KMT_add_deduct_points = 8.5
+        }
+		ROL_KMT_add_deduct = yes
+		set_temp_variable = {
+		ROL_KMT_add_supply_points_temp = ROL_KMT_add_deduct_points
+		}
+		ROL_KMT_add_supply = yes
+    }
+}
+
+country_event = { 
+	id = kmt_border_war.1
+	title = kmt_border_war.1.t 
+	desc = kmt_border_war.1.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt_border_war.1"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt_border_war.1.a
+        add_political_power = -25
+			set_temp_variable = {
+			ROL_CPC_add_win_num_points_temp = 1
+		}
+		set_temp_variable = {
+		ROL_KMT_add_deduct_points = -8.5
+        }
+		ROL_KMT_add_deduct = yes
+		set_temp_variable = {
+		ROL_KMT_add_supply_points_temp = ROL_KMT_add_deduct_points
+		}
+		ROL_KMT_add_supply = yes
+    }
+}
+
+country_event = { 
 	id = kmt_border_war.5
 	title = kmt_border_war.5.t 
 	desc = kmt_border_war.5.d 
@@ -289,9 +425,9 @@ country_event = {
 		    defender = {
 		       state = 283
 		       num_province = 3
-		       on_win = kmt_border_war.7
-		       on_lose = kmt_border_war.8
-		       on_cancel = kmt_border_war.9
+		       on_win = kmt_border_war.1
+		       on_lose = kmt_border_war.2
+     	       on_cancel = kmt_border_war.3
 		    }
 		}
     }

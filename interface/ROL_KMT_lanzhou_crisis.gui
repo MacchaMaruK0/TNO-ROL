@@ -34,12 +34,12 @@ guiTypes = {
 			spriteType = "GFX_tiled_window_1b_no_border"
 		}
 		
-		iconType = {
-			name = "ROL_KMT_lanzhou_crisis_big"
-			position = { x = 9 y = 20 }
-			spriteType = "GFX_ROL_KMT_lanzhou_big"
+		#iconType = {
+			#name = "ROL_KMT_lanzhou_crisis_big"
+			#position = { x = 9 y = 20 }
+			#spriteType = "GFX_ROL_KMT_lanzhou_big"
 			#pdx_tooltip = ROL_KMT_lanzhou_crisis_infor
-		}
+		#}
 		
 		buttonType = {
 			name = "ROL_KMT_close"
@@ -49,6 +49,125 @@ guiTypes = {
 			clicksound = click_default
 			shortcut = "ESCAPE"
 		}
+		
+		buttonType = {
+            name = "ROL_KMT_lanzhou_west_country"
+            position = { x = 8 y = 15 }
+            spriteType = "GFX_ROL_KMT_lanzhou_west_country_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_west_country_tt
+        }
+		
+		iconType = {
+            name = "ROL_KMT_lanzhou_txt_icon"
+            position = { x = 370 y = 50 }
+            spriteType = "GFX_ROL_KMT_lanzhou_txt_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_train_station_tt
+        }
+		
+		buttonType = {
+            name = "ROL_KMT_lanzhou_outside_country"
+            position = { x = 290 y = 213 }
+            spriteType = "GFX_ROL_KMT_lanzhou_outside_country_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_outside_country_tt
+        }
+		
+		buttonType = {
+            name = "ROL_KMT_lanzhou_east_country"
+            position = { x = 483 y = 300 }
+            spriteType = "GFX_ROL_KMT_lanzhou_east_country_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_east_country_tt
+        }
+		
+		buttonType = {
+            name = "ROL_KMT_lanzhou_center_country"
+            position = { x = 433 y = 280 }
+            spriteType = "GFX_ROL_KMT_lanzhou_center_country_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_center_country_tt
+        }
+		
+		iconType = {
+            name = "ROL_KMT_lanzhou_train_station"
+            position = { x = 166 y = 257 }
+            spriteType = "GFX_ROL_KMT_lanzhou_train_station_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_train_station_tt
+        }
+		
+		iconType = {
+            name = "ROL_KMT_lanzhou_province_goverment"
+            position = { x = 522 y = 330 }
+            spriteType = "GFX_ROL_KMT_lanzhou_province_goverment_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_province_goverment_tt
+        }
+		
+		iconType = {
+            name = "ROL_KMT_lanzhou_market_company"
+            position = { x = 556 y = 418 }
+            spriteType = "GFX_ROL_KMT_lanzhou_market_company_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_market_company_tt
+        }
+		
+		iconType = {
+            name = "ROL_KMT_lanzhou_agriculture_school"
+            position = { x = 584 y = 462 }
+            spriteType = "GFX_ROL_KMT_lanzhou_agriculture_school_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_agriculture_school_tt
+        }
+		
+		iconType = {
+            name = "ROL_KMT_lanzhou_martyrs_shrine"
+            position = { x = 495 y = 408 }
+            spriteType = "GFX_ROL_KMT_lanzhou_martyrs_shrine_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_martyrs_shrine_tt
+        }
+		
+		iconType = {
+            name = "ROL_KMT_lanzhou_rivernorth_hospital"
+            position = { x = 510 y = 285 }
+            spriteType = "GFX_ROL_KMT_lanzhou_rivernorth_hospital_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_rivernorth_hospital_tt
+        }
+		
+		iconType = {
+            name = "ROL_KMT_lanzhou_zhongshan_bridge"
+            position = { x = 479 y = 307 }
+            spriteType = "GFX_ROL_KMT_lanzhou_zhongshan_bridge_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_zhongshan_bridge_tt
+        }
+		
+		iconType = {
+            name = "ROL_KMT_lanzhou_airport"
+            position = { x = 697 y = 452 }
+            spriteType = "GFX_ROL_KMT_lanzhou_airport_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_airport_tt
+        }
+		
+		iconType = {
+            name = "ROL_KMT_lanzhou_northwest_edifice"
+            position = { x = 485 y = 390 }
+            spriteType = "GFX_ROL_KMT_lanzhou_northwest_edifice_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_northwest_edifice_tt
+        }
+		
+		iconType = {
+            name = "ROL_KMT_lanzhou_northwest_highway"
+            position = { x = 464 y = 368 }
+            spriteType = "GFX_ROL_KMT_lanzhou_northwest_highway_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_northwest_highway_tt
+        }
+		
+		iconType = {
+            name = "ROL_KMT_lanzhou_rivernorth_police_station"
+            position = { x = 478 y = 304 }
+            spriteType = "GFX_ROL_KMT_lanzhou_rivernorth_police_station_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_rivernorth_police_station_tt
+        }
+		
+		iconType = {
+            name = "ROL_KMT_lanzhou_police_station"
+            position = { x = 521 y = 353 }
+            spriteType = "GFX_ROL_KMT_lanzhou_police_station_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_police_station_tt
+        }
 		
 		iconType = {
 			name = "ROL_KMT_lanzhou_crisis_infor"
