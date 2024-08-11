@@ -136,6 +136,10 @@
  
  ###赤血黄沙
  ROL_KMT_red_blood_Category: "§e赤血§!§w黄沙§!"
+ ROL_KMT_red_blood_decision_txt: "当前正在处理：[Get_ROL_KMT_red_blood_decision_tt]"
+ ROL_KMT_red_blood_decision_2_tt: "无"
+ ROL_KMT_red_blood_decision_1_tt: "§G后方事务§!"
+ ROL_KMT_red_blood_decision_tt: "§R前线事务§!"
  ROL_KMT_red_blood_info: "§e华表鹤来应有语，铜盘人去亦何心。§!\n§w兴亡谁识天公意，留著青城阅古今。§!\n§W--------------\n\n§!£GFX_ROL_KMT_yellow_salt_texticon \n\n\n§W--------------\n§!自抗战结束以来，£GFX_KMT_cpc_icon §R中共陕甘宁边区§!就一直与£GFX_KMT_kmt_icon §i行辕政府§!呈对峙状态，双方在数十年来的£GFX_ROL_KMT_red_blood_war §e边境拉锯战§!中死伤无数，而边界地区的居民更是§g十不存一§!。由于£GFX_KMT_kmt_icon 行辕首府兰州处于最前线，£GFX_KMT_kmt_icon §i行辕国军§!将采取一切可能的行动严防£GFX_KMT_cpc_icon §R中共军队§!的§w渗透和袭扰§!以保护行辕的各级机构。尽管£GFX_KMT_cpc_icon §R共军§!在实力上不如我们，但他们灵活多变的游击战术和近乎严苛的纪律性以及对国军内部将士的宣传攻势是我们最需要关注的问题，不过£GFX_KMT_kmt_icon §i国军§!也拥有着§w训练有素的部队§!和§w相对先进的装备§!，因此司令部需要随时关注前方局势并根据情况发展做出战术或战略上的调整。但随着冲突时间日渐增长，行辕的花费和负担都越来越大，加之胡宗南主任逐步恶化的身体，这场旷日持久的£GFX_ROL_KMT_red_blood_war §e冲突§!也许会在不久的将来宣告结束..."
  ROL_KMT_CPC_attack: "冲突正在升级..."
  ROL_KMT_attack: "进行边境冲突"

@@ -41,10 +41,10 @@ scripted_gui = {
 			ROL_KMT_solider_bar_full_empty = {
 				frame = ROL_KMT_add_solider_points
 			}
-			ROL_KMT_add_supply = {
+			ROL_KMT_supply_bar_full = {
 				frame = ROL_KMT_add_supply_points
 			}
-			ROL_KMT_add_level = {
+			ROL_KMT_level_bar_full = {
 				frame = ROL_KMT_add_level_points
 			}
 		}	

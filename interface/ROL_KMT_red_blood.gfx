@@ -93,33 +93,50 @@ spriteTypes = {
 		name = "GFX_ROL_KMT_level_bar" #战备等级进度条
 		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_level_bar.png"
 	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_txt_icon" #文字
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_txt_icon.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_yushu_icon" #玉树
+		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_yushu_icon.png"
+	}
+	
 }
 
 spriteTypes = {
 	progressbartype = {
 		name = "GFX_ROL_KMT_solider_bar_full"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/decision/KMT/red_blood/ROL_KMT_red_blood_bar_full.png"
-		textureFile2 = "gfx/decision/KMT/red_blood/ROL_KMT_solider_bar.png"
-		size = { x = 205 y = 25 }
+		textureFile2 = "gfx/interface/GUI/ROL_KMT_CD_png/empty.png"
+		size = { x = 25 y = 205 }
 		effectFile = "gfx/FX/progress.lua"
-		horizontal = yes
+		horizontal = no
 	}
 	
 	progressbartype = {
 		name = "GFX_ROL_KMT_supply_bar_full"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/decision/KMT/red_blood/ROL_KMT_red_blood_bar_full.png"
-		textureFile2 = "gfx/decision/KMT/red_blood/ROL_KMT_supply_bar.png"
-		size = { x = 205 y = 25 }
+		textureFile2 = "gfx/interface/GUI/ROL_KMT_CD_png/empty.png"
+		size = { x = 25 y = 205 }
 		effectFile = "gfx/FX/progress.lua"
-		horizontal = yes
+		horizontal = no
 	}
 	
 	progressbartype = {
 		name = "GFX_ROL_KMT_level_bar_full"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/decision/KMT/red_blood/ROL_KMT_red_blood_bar_full.png"
-		textureFile2 = "gfx/decision/KMT/red_blood/ROL_KMT_level_bar.png"
-		size = { x = 205 y = 25 }
+		textureFile2 = "gfx/interface/GUI/ROL_KMT_CD_png/empty.png"
+		size = { x = 25 y = 205 }
 		effectFile = "gfx/FX/progress.lua"
-		horizontal = yes
+		horizontal = no
 	}
 }
