@@ -34,10 +34,10 @@ ROL_KMT_red_blood_Category = {
 		original_tag = KMT
 	}
 	visible = {
-	    is_debug = yes
+	NOT = { has_country_flag = ROL_KMT_Hu_is_die }
 		OR = {
-		NOT = { has_country_flag = ROL_KMT_Hu_is_die }
 		has_country_flag = ROL_KMT_red_blood
+		is_debug = yes
 		}
 	}
 	scripted_gui = ROL_KMT_red_blood_ui_window
