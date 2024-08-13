@@ -306,7 +306,7 @@ add_ideas = {
 	tno_lgbt_rights_lgbt_outlawed
 	tno_minorities_oppression
 }
-
+oob = "ROL_CPC_units_1962"
 set_research_slots = 4
 ### Policy Effectiveness
 #可以不管

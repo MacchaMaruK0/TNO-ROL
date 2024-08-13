@@ -237,6 +237,8 @@ add_ideas = {
 
 set_country_flag = tno_defined_startup_effectiveness
 load_focus_tree = ROL_KMT_original
+oob = "ROL_KMT_units_1962"
+country_lock_all_division_template = yes
 
 # ECONOMIC LAWS
 set_variable = { tno_trade_laws_effectiveness = 50 }

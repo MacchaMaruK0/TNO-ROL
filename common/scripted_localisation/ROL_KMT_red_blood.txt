@@ -180,3 +180,25 @@ defined_text = {
 	    localization_key = [?ROL_KMT_add_level_efficiency_deduct|Y1]
 	}
 }
+
+defined_text = {
+    name = Get_ROL_KMT_red_blood_decision_tt
+	text = {
+	    trigger = {
+			has_country_flag = ROL_KMT_front_decision_selected
+		}	
+	    localization_key = ROL_KMT_red_blood_decision_1_tt
+	}
+	
+	text = {
+	    trigger = {
+			has_country_flag = ROL_KMT_behind_decision_selected
+		}	
+	    localization_key = ROL_KMT_red_blood_decision_tt
+	}
+	text = {
+	    trigger = {
+		}	
+	    localization_key = ROL_KMT_red_blood_decision_2_tt
+	}
+}
