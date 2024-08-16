@@ -76,3 +76,109 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = rol_chi_civil_war.3
+	title = rol_chi_civil_war.3.t
+	desc = rol_chi_civil_war.3.d 
+
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event rol_chi_civil_war.3"
+	}
+	
+	trigger = {
+		tag = XIN
+		date > 1964.01.01
+	}
+
+	fire_only_once = yes
+	is_triggered_only = no
+
+	option = { 
+		name = rol_chi_civil_war.3.a
+		958 = { set_demilitarized_zone = yes }
+		619 = { set_demilitarized_zone = yes }
+		618 = { set_demilitarized_zone = yes }
+		XIN = {
+			country_event = {
+			id = rol_chi_civil_war.4
+			days = 25
+			}
+		}	
+	}
+}
+
+country_event = {
+	id = rol_chi_civil_war.4
+	title = rol_chi_civil_war.4.t
+	desc = rol_chi_civil_war.4.d 
+
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event rol_chi_civil_war.4"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = { 
+		name = rol_chi_civil_war.4.a
+			XIW = { 
+			add_state_core = 958
+			transfer_state = 958
+			}
+			ETR = { 
+			add_state_core = 619
+			transfer_state = 619
+			add_state_core = 1964
+			transfer_state = 1964
+			}
+			XDU = {
+			add_state_core = 618
+			transfer_state = 618
+			}
+		958 = { set_demilitarized_zone = no }
+		619 = { set_demilitarized_zone = no }
+		618 = { set_demilitarized_zone = no }
+		XIN = {
+			country_event = {
+			id = rol_chi_civil_war.5
+			days = 25
+			}
+		}	
+	}
+}
+
+country_event = {
+	id = rol_chi_civil_war.5
+	title = rol_chi_civil_war.5.t
+	desc = rol_chi_civil_war.5.d 
+
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event rol_chi_civil_war.5"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = { 
+		name = rol_chi_civil_war.5.a
+		XIN = { 
+			declare_war_on = {
+				type = annex_everything
+				target = ETR
+			}
+		}
+		XDU = {
+			declare_war_on = {
+				type = annex_everything
+				target = XIN
+			}
+		}
+	}
+}

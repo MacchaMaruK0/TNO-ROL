@@ -2247,3 +2247,8 @@ XIW = {
 	color = rgb { 106 114 125 }
 	color_ui = rgb { 106 114 125 }
 }
+
+XDU = {
+	color = rgb { 205 92 92 }
+	color_ui = rgb { 205 92 92 }
+}

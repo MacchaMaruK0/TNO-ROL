@@ -136,6 +136,8 @@
  KMT_ROL_load_org_tree:0 "加载初始国策树"
  KMT_ROL_load_choose_before_tree:0 "加载竞选前国策树"
  ROL_KMT_red_blood_num:0 "直接拿下§e赤血§!§w黄沙§!"
+ start_XIN_civil_war:0 "引爆新疆内战"
+ ROL_Cheng_Siyuan_adpart:0 "开始云贵战争"
  
  ###赤血黄沙
  ROL_KMT_red_blood_Category: "§e赤血§!§w黄沙§!"
