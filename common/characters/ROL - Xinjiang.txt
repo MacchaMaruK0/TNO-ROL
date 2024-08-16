@@ -14,4 +14,18 @@ characters = {
 			}
 		}
 	}
+	
+	ROL_XIW_Anarchy = {
+		name = ROL_XIW_Anarchy
+		portraits = {
+			civilian = { large = "gfx/leaders/ZZZ/Portrait_ZZZ_Anarchy.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_ANARCHY_DESC"
+			ideology = socialist_subtype
+			traits = { }
+			expire = "3000.1.1"
+			id = -1
+		}
+	}
 }	

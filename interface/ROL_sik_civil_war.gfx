@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Anarchy_XIN_civil"
+		textureFile = "gfx/interface/anarchy/Anarchy_SCA.png"
+	}
+}

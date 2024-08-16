@@ -1,3 +1,4 @@
 KMT = "countries/Kuomintang.txt"
 CPC = "countries/Communist Party of China.txt"
 ROC = "countries/Republic Of China.txt"
+XIW = "countries/Xinjiang Wasteland.txt"

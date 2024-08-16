@@ -109,4 +109,15 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用GH_国�
 		country_event = rol_chi_civil_war.2 
 		}
     }
+	
+	start_XIN_civil_war = {
+	fire_only_once = no
+	is_debug = yes
+	complete_effect = {
+		XIW = { 
+			add_state_core = 958
+			transfer_state = 958
+			}
+		}
+    }
 }
