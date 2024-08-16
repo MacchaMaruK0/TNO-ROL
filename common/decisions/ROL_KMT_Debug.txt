@@ -114,9 +114,15 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用GH_国�
 	fire_only_once = no
 	is_debug = yes
 	complete_effect = {
-		XIW = { 
+			XIW = { 
 			add_state_core = 958
 			transfer_state = 958
+			}
+			ETR = { 
+			add_state_core = 619
+			transfer_state = 619
+			add_state_core = 1964
+			transfer_state = 1964
 			}
 		}
     }
