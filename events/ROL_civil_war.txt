@@ -1,0 +1,78 @@
+add_namespace = rol_chi_civil_war
+
+country_event = {
+	id = rol_chi_civil_war.1 
+	title = rol_chi_civil_war.1.t
+	desc = rol_chi_civil_war.1.d 
+
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event rol_chi_civil_war.1"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = { 
+		name = rol_chi_civil_war.1.a
+		annex_country = {
+		target = GUX
+		transfer_troops = no
+		}
+		every_owned_state = {
+		add_core_of = ROC
+		remove_core_of = GUZ
+		remove_core_of = GUX
+		}
+	}
+}
+
+country_event = {
+	id = rol_chi_civil_war.2 
+	title = rol_chi_civil_war.2.t
+	desc = rol_chi_civil_war.2.d 
+
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event rol_chi_civil_war.2"
+	}
+	
+	trigger = {
+		tag = GUZ
+		date > 1964.01.01
+	}
+
+	fire_only_once = yes
+	is_triggered_only = no
+
+	option = { 
+		name = rol_chi_civil_war.2.a
+		GUZ = {
+			leave_faction = yes
+			econ_leave_sphere = yes
+				declare_war_on = {
+				type = annex_everything
+				target = ROC
+			}
+		}
+		GUX = { 
+			add_state_core = 594
+			transfer_state = 594 
+			add_state_core = 599
+			transfer_state = 599
+			leave_faction = yes
+			econ_leave_sphere = yes
+			add_ideas = ROL_GUX_country_army
+			declare_war_on = {
+			type = annex_everything
+			target = GUZ
+			}
+			diplomatic_relation = { country = ROC relation = non_aggression_pact }
+		}
+		YUN = {
+			diplomatic_relation = { country = GUX relation = non_aggression_pact }
+		}
+	}
+}

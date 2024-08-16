@@ -1,0 +1,12 @@
+ideas = {
+    country = {
+		ROL_GUX_country_army = { #民团
+			allowed = { always = no }
+			picture = /
+			removal_cost = -1
+			modifier = {
+			ai_focus_defense_factor = 1.00
+			}
+		}
+	}
+}	

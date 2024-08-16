@@ -1,0 +1,18 @@
+characters = {
+	GUX_ROL_Cheng_Siyuan = {
+		name = GUX_ROL_Cheng_Siyuan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GUX/Portrait_GUZ_ROL_Cheng_Siyuan.png"
+			}
+		}
+		country_leader = {
+			desc = "GUX_ROL_Cheng_Siyuan_desc"
+			ideology = despotism_civilian_dictatorship_subtype
+			traits = {
+
+			}
+		}
+	}
+	
+}

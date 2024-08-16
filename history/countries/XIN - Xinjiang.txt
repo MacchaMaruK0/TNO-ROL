@@ -1,6 +1,6 @@
 ﻿capital = 917
 
-oob = "XIK_1962"
+oob = "ROL_XIN_1962"
 
 set_politics = {	
 	ruling_party = despotism

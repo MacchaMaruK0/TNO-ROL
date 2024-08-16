@@ -428,3 +428,8 @@ set_variable = {
 	tno_draft_exemptions_effectiveness = 19
 }
 
+diplomatic_relation = {
+	country = GUX
+	relation = military_access
+	active = yes
+}
