@@ -48,7 +48,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "ROL_XDU_Sai_Fuding_DESC"
-			ideology = communist_bolshevism_subtype_desc
+			ideology = communist_bolshevism_subtype
 			traits = { }
 		}
 	}
