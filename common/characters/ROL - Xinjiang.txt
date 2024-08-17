@@ -28,4 +28,28 @@ characters = {
 			id = -1
 		}
 	}
+	
+	ROL_ETR_Mohammed_Imin = {
+		name = ROL_ETR_Mohammed_Imin
+		portraits = {
+			civilian = { large = "gfx/leaders/ETR/Portrait_ROL_ETR_Mohammed_Imin.png" }
+		}
+		country_leader = {
+			desc = "ROL_ETR_Mohammed_Imin_DESC"
+			ideology = despotism_theocracy_subtype
+			traits = { }
+		}
+	}
+	
+	ROL_XDU_Sai_Fuding = {
+		name = ROL_XDU_Sai_Fuding
+		portraits = {
+			civilian = { large = "gfx/leaders/XDU/Portrait_ROL_XDU_Sai_Fuding.png" }
+		}
+		country_leader = {
+			desc = "ROL_XDU_Sai_Fuding_DESC"
+			ideology = communist_bolshevism_subtype_desc
+			traits = { }
+		}
+	}
 }	

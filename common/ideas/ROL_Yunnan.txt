@@ -13,6 +13,12 @@ ideas = {
 			picture = ROL_ROC_China_Airlines
 			removal_cost = -1
 			modifier = {
+			air_weather_penalty = -0.1
+			experience_gain_air_factor = 0.05	
+			}
+			targeted_modifier = {
+				tag = USA
+				industrial_factory_donations = 3
 			}
 		}
 		

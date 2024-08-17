@@ -8,6 +8,7 @@ add_manpower = 1000000
 fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
 recruit_character = XDU_Generic_Vacant
 
+
 set_politics = {
 	ruling_party = communist
 	last_election = "1962.1.1"
@@ -15,6 +16,8 @@ set_politics = {
 	elections_allowed = no
 }
     
+recruit_character = ROL_XDU_Sai_Fuding	
+	
 set_popularities = {
 	communist = 100
 }
