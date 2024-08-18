@@ -182,6 +182,11 @@
  ROL_KMT_red_blood_num:0 "直接拿下§e赤血§!§w黄沙§!"
  start_XIN_civil_war:0 "引爆新疆内战"
  ROL_Cheng_Siyuan_adpart:0 "开始云贵战争"
+ ROL_KMT_lanzhou_crisis_loss_1:0 "触发兰州危机£GFX_ROL_KMT_ma_clique_icon §g马继援§!结局"
+ ROL_KMT_lanzhou_crisis_loss_2:0 "触发兰州危机£GFX_KMT_cpc_icon §R起义成功§!结局"
+ ROL_KMT_lanzhou_crisis_loss_3:0 "别再§e乱玩§!调试决议了！重置£GFX_KMT_lanzhou_crisis 兰州危机状态"
+ ROL_Japan_leave_south_asia:0 "触发§Y日本势力退出东南亚§!（空壳子）"
+ ROL_Japan_leave_south_asia_desc:0 "你§e最好§!是一个§G开发人员§!，否则你不应该看到这些实验内容"
  
  ###赤血黄沙
  ROL_KMT_red_blood_Category: "§e赤血§!§w黄沙§!"

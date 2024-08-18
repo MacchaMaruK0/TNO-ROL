@@ -117,7 +117,10 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 	fire_only_once = no
 	is_debug = yes
 	complete_effect = {
-		country_event = rol_chi_civil_war.2 
+			GUZ = {
+				country_event = rol_chi_civil_war.2
+				set_country_flag = ROL_debug_CHI_first_war
+			}	
 		}
     }
 	
@@ -125,7 +128,20 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 	fire_only_once = no
 	is_debug = yes
 	complete_effect = {
-			country_event = rol_chi_civil_war.3
+			XIN = {
+				country_event = rol_chi_civil_war.3
+				set_country_flag = ROL_debug_XIN_civil_war
+			}	
+		}
+    }
+	
+	ROL_Japan_leave_south_asia = {
+	icon = GFX_decision_generic_visibility
+	fire_only_once = no
+	visible = { has_country_flag = ROL_text_decision }
+	is_debug = yes
+	complete_effect = {
+		country_event = ROL_golble_news.1	
 		}
     }
 }
