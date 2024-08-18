@@ -1,4 +1,5 @@
 add_namespace = kmt
+add_namespace = ROL_golble_news
 
 country_event = { 
 	id = kmt.666
@@ -14,4 +15,20 @@ country_event = {
 	option = { 
 		name = kmt.666.a
 	}	
+}
+
+news_event = { # 1
+	id = ROL_golble_news.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ROL_golble_news.1"}
+	title = ROL_golble_news.1.t
+	desc = ROL_golble_news.1.d
+	picture = /
+
+	is_triggered_only = yes
+
+	option = {
+		name = ROL_golble_news.1.a
+		set_temp_variable = { TNO_temp_super_event = token:SE_JAPAN_LEAVE_SOUTH_ASIA }
+		TNO_fire_super_event = yes
+	}
 }

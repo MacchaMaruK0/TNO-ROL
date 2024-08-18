@@ -1,0 +1,9 @@
+ideas = {
+
+	hidden_ideas = {
+		SE_JAPAN_LEAVE_SOUTH_ASIA = {}
+		SE_JAPAN_LEAVE_SOUTH_ASIA_D = {}
+		SE_JAPAN_LEAVE_SOUTH_ASIA_A = {}
+
+	}
+}
