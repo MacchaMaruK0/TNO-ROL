@@ -133,5 +133,35 @@ spriteTypes = {
 		name = "ROL_KMT_two_sun"
 		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_two_sun.png"
 	}
+	######兰州
 	
+	SpriteType = {
+		name = "ROL_KMT_prohibition_of_gatherings"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_prohibition_of_gatherings.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_promote_anti_spy"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_promote_anti_spy.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_army_police_people"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_army_police_people.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_country_inside"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_country_inside.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_supply_sufficient"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_supply_sufficient.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_summon_reserve_officers"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_summon_reserve_officers.png"
+	}
 }
