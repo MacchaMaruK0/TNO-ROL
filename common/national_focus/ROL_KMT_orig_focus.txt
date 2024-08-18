@@ -416,8 +416,10 @@ focus_tree = {
 		y = 8
 		cost = 1 #这是国策花费的政治点
         prerequisite = { 
-		focus = ROL_KMT_security_area
-		focus = ROL_KMT_draw_troops 
+		focus = ROL_KMT_security_area 
+		}
+		prerequisite = {
+		focus = ROL_KMT_draw_troops
 		}
 		ai_will_do = { 
 			factor = 10
@@ -543,6 +545,8 @@ focus_tree = {
 		cost = 1 #这是国策花费的政治点
         prerequisite = { 
 		focus = ROL_KMT_meet_commissioner
+		}
+		prerequisite = {
 		focus = ROL_KMT_cease_fire
 		}
 		ai_will_do = { 
@@ -643,6 +647,8 @@ focus_tree = {
 		cost = 1 #这是国策花费的政治点
         prerequisite = { 
 		focus = ROL_KMT_xining_letter
+		}
+		prerequisite = {
 		focus = ROL_KMT_stabilize_the_dictator
 		}
 		ai_will_do = { 
