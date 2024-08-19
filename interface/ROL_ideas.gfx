@@ -28,12 +28,12 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_ROL_KMT_gaolan_line"
-       	textureFile = "gfx/interface/ideas/national_spirits/KMT/idea_ROL_KMT_gaolan_line.png"
+       	textureFile = "gfx/interface/ideas/national_spirits/KMT/ROL_KMT_gaolan_line.png"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_ROL_KMT_protracted_conflicts"
-       	textureFile = "gfx/interface/ideas/national_spirits/KMT/idea_ROL_KMT_protracted_conflicts.png"
+       	textureFile = "gfx/interface/ideas/national_spirits/KMT/ROL_KMT_protracted_conflicts.png"
 	}
 	
 	spriteType = {
@@ -43,7 +43,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_ROL_KMT_set_warlords"
-       	textureFile = "gfx/interface/ideas/national_spirits/KMT/idea_ROL_KMT_set_warlords.png"
+       	textureFile = "gfx/interface/ideas/national_spirits/KMT/ROL_KMT_set_warlords.png"
 	}
 	######ROC
 	spriteType = {
