@@ -8,7 +8,7 @@ recruit_character = GUZ_ROL_He_Yingqin
 
 set_variable = { chi_influence = 0 }
 
-oob = "GUZ_1962"
+oob = "ROL_GUZ_units_1962"
 
 
 add_ideas = {
@@ -71,6 +71,7 @@ add_ideas = {
 }
 
 set_country_flag = tno_defined_startup_effectiveness
+country_lock_all_division_template = yes
 
 # ECONOMIC LAWS
 set_variable = { tno_trade_laws_effectiveness = 50 }

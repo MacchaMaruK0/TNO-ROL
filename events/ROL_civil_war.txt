@@ -63,24 +63,9 @@ country_event = {
 				target = ROC
 			}
 		}
-		GUX = { 
-			add_state_core = 594
-			transfer_state = 594 
-			add_state_core = 599
-			transfer_state = 599
-			leave_faction = yes
-			econ_leave_sphere = yes
-			add_ideas = ROL_GUX_country_army
-			declare_war_on = {
-			type = annex_everything
-			target = GUZ
-			}
-			diplomatic_relation = { country = ROC relation = non_aggression_pact }
+		ROC = {
+			country_event = { id = rol_chi_civil_war.6 days = 5 }
 		}
-		YUN = {
-			diplomatic_relation = { country = GUX relation = non_aggression_pact }
-		}
-		clr_country_flag = ROL_debug_CHI_first_war
 	}
 }
 
@@ -194,5 +179,41 @@ country_event = {
 				target = XIN
 			}
 		}
+	}
+}
+
+country_event = {
+	id = rol_chi_civil_war.6
+	title = rol_chi_civil_war.6.t
+	desc = rol_chi_civil_war.6.d 
+
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event rol_chi_civil_war.6"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = { 
+		name = rol_chi_civil_war.6.a
+		GUX = { 
+			add_state_core = 594
+			transfer_state = 594 
+			add_state_core = 599
+			transfer_state = 599
+			leave_faction = yes
+			econ_leave_sphere = yes
+			add_ideas = ROL_GUX_country_army
+			load_oob = "ROL_GUX_civil_war"
+			declare_war_on = {
+			type = annex_everything
+			target = GUZ
+			}
+			diplomatic_relation = { country = ROC relation = non_aggression_pact }
+		}
+		ROC = { diplomatic_relation = { country = GUX relation = non_aggression_pact } }
+		clr_country_flag = ROL_debug_CHI_first_war
 	}
 }

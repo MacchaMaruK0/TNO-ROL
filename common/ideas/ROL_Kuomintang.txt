@@ -62,7 +62,7 @@ ideas = {
 		    allowed = {
 				always = no
 			}
-			picture = /
+			picture = idea_ROL_KMT_gaolan_line
 			removal_cost = -1
 			modifier = {
 			    attrition = -0.05
@@ -76,7 +76,7 @@ ideas = {
 		    allowed = {
 				always = no
 			}
-			picture = /
+			picture = idea_ROL_KMT_protracted_conflicts
 			removal_cost = -1
 			modifier = {
 			   custom_modifier_tooltip = idea_ROL_KMT_protracted_conflicts_tt
@@ -101,7 +101,7 @@ ideas = {
 		    allowed = {
 				always = no
 			}
-			picture = /
+			picture = idea_ROL_KMT_set_warlords
 			removal_cost = -1
 			modifier = {
 			   army_speed_factor = 0.05
@@ -114,7 +114,7 @@ ideas = {
 		    allowed = {
 				always = no
 			}
-			picture = /
+			picture = ROL_KMT_kill_guerilla_icon
 			removal_cost = -1
 			modifier = {
 			   mobilization_speed = 0.10

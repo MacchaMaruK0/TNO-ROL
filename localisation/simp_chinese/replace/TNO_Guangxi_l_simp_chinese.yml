@@ -12,3 +12,6 @@
  GUX_ADJ:0 "壮"
  GUX_JAP_despotism:0 "广西治安区"
  GUX_ROL_Cheng_Siyuan:0 "程思远"
+ 
+ ROL_GUX_country_army:0 "仓促拼凑的武装"
+ ROL_GUX_country_army_tt: "§Y目前我们拥有§B4§!支临时武装，其中包括§G3§!支地方民团和§B1§!支市民军。这些临时武装面对正规军不堪一击，如果我们的起义§R没有§!及时得到£GFX_KMT_kmt_icon §B云南中央§!的响应，后果将§e不堪设想...§!§!"

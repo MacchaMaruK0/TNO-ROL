@@ -188,6 +188,8 @@ country_event = {
 		    ideology = despotism_military_junta_subtype
 		}
 		}
+		delete_unit_template_and_units = { division_template = "青海步兵军" }
+		delete_unit_template_and_units = { division_template = "青海骑兵军" }
 		custom_effect_tooltip = kmt_6_a_tt
 		hidden_effect = {
 		set_global_flag = tno_speed_warning

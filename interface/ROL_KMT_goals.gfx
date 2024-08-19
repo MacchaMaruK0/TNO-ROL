@@ -164,4 +164,69 @@ spriteTypes = {
 		name = "ROL_KMT_summon_reserve_officers"
 		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_summon_reserve_officers.png"
 	}
+	
+	SpriteType = {
+		name = "ROL_KMT_suppressing_strikes"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_suppressing_strikes.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_increase_security_forces"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_increase_security_forces.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_red_tide"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_red_tide.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_wild_horses"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_wild_horses.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_get_ready_to_fight"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_get_ready_to_fight.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_authorized_party"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_authorized_party.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_qinghai_corps"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_qinghai_corps.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_increase_seats"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_increase_seats.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_Well_dressed"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_Well_dressed.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_additional_lanzhou_police"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_additional_lanzhou_police.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_Coopt_the_garrison"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_Coopt_the_garrison.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_fake_drama_really_done"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_fake_drama_really_done.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_night_in_xining"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_night_in_xining.png"
+	}
 }

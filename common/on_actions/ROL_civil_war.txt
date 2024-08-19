@@ -16,7 +16,7 @@ on_actions = {
 				add_core_of = ROC
 				remove_core_of = GUZ
 				}
-				country_event = { id = rol_chi_civil_war.1 days = 5 }
+				country_event = { id = rol_chi_civil_war.1 days = 15 }
 				}
 				GUX = {
 				remove_ideas = ROL_GUX_country_army

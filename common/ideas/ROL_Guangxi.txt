@@ -5,7 +5,11 @@ ideas = {
 			picture = /
 			removal_cost = -1
 			modifier = {
-			ai_focus_defense_factor = 1.00
+			ai_focus_defense_factor = 2.00
+			army_speed_factor = -0.80
+			army_morale_factor = -0.25
+			attrition = 0.3
+			custom_modifier_tooltip = ROL_GUX_country_army_tt
 			}
 		}
 	}

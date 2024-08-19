@@ -14,6 +14,7 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 	#}
 	
 	KMT_ROL_load_org_tree = {
+		icon = GFX_decision_debug
 		cost = 0
 		fire_only_once = no
 		days_re_enable = 0
@@ -25,6 +26,7 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 	}
 	
 	KMT_ROL_load_choose_before_tree = {
+		icon = GFX_decision_debug
 		cost = 0
 		fire_only_once = no
 		days_re_enable = 0
@@ -36,6 +38,7 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 	}
 	
 	KMT_ROL_load_lanzhou_tree = {
+		icon = GFX_decision_debug
 		cost = 0
 		fire_only_once = no
 		days_re_enable = 0
@@ -47,6 +50,7 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 	}
 	
 	KMT_ROL_Luo_Lie_2_dec = {
+		icon = GFX_decision_debug
 		cost = 0
 		fire_only_once = no
 		days_re_enable = 0
@@ -58,6 +62,7 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 		}
 	}
 	Choose_Luo = {
+	icon = GFX_decision_debug
 	fire_only_once = no
 	is_debug = yes
 	complete_effect = {
@@ -68,6 +73,7 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
     }
 	
 	Start_lanzhou_crisis = {
+	icon = GFX_decision_debug
 	fire_only_once = no
 	is_debug = yes
 	complete_effect = {
@@ -78,6 +84,7 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
     }
 	
 	ROL_KMT_red_blood_num = {
+	icon = GFX_decision_debug
 	fire_only_once = no
 	is_debug = yes
 	complete_effect = {
@@ -89,6 +96,7 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
     }
 	
 	ROL_KMT_lanzhou_crisis_loss_1 = {
+	icon = GFX_decision_debug
 	fire_only_once = no
 	is_debug = yes
 	complete_effect = {
@@ -97,6 +105,7 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
     }
 	
 	ROL_KMT_lanzhou_crisis_loss_2 = {
+	icon = GFX_decision_debug
 	fire_only_once = no
 	is_debug = yes
 	complete_effect = {
@@ -105,6 +114,7 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
     }
 	
 	ROL_KMT_lanzhou_crisis_loss_3 = {
+	icon = GFX_decision_debug
 	fire_only_once = no
 	is_debug = yes
 	complete_effect = {
@@ -114,6 +124,7 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
     }
 	
 	ROL_Cheng_Siyuan_adpart = {
+	icon = GFX_decision_debug
 	fire_only_once = no
 	is_debug = yes
 	complete_effect = {
@@ -125,6 +136,7 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
     }
 	
 	start_XIN_civil_war = {
+	icon = GFX_decision_debug
 	fire_only_once = no
 	is_debug = yes
 	complete_effect = {
