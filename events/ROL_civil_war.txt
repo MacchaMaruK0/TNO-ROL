@@ -25,6 +25,7 @@ country_event = {
 		remove_core_of = GUZ
 		remove_core_of = GUX
 		}
+	set_cosmetic_tag = ROC_civil_war_despotism
 	}
 }
 
@@ -179,6 +180,7 @@ country_event = {
 				target = XIN
 			}
 		}
+		KMT = { country_event = rol_chi_civil_war.8 }
 	}
 }
 
@@ -215,5 +217,64 @@ country_event = {
 		}
 		ROC = { diplomatic_relation = { country = GUX relation = non_aggression_pact } }
 		clr_country_flag = ROL_debug_CHI_first_war
+	}
+}
+
+country_event = {
+	id = rol_chi_civil_war.7
+	title = rol_chi_civil_war.7.t
+	desc = rol_chi_civil_war.7.d 
+
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event rol_chi_civil_war.7"
+	}
+	
+	trigger = {
+		OR = { 
+			AND = { XIW = { exists = yes } NOT = { XDU = { exists = yes } ETR = { exists = yes } } }
+		}
+		tag = XIN
+	}
+
+	fire_only_once = yes
+	is_triggered_only = no
+
+	option = { 
+		name = rol_chi_civil_war.7.a
+		XIN = {
+		annex_country = {
+		target = XIW
+		transfer_troops = no
+		}
+		every_owned_state = {
+		add_core_of = XIN
+		remove_core_of = XIW
+		}
+		set_cosmetic_tag = XIN_Civil_war
+		}
+	}
+}
+
+country_event = {
+	id = rol_chi_civil_war.8
+	title = rol_chi_civil_war.8.t
+	desc = rol_chi_civil_war.8.d 
+
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event rol_chi_civil_war.8"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = { 
+		name = rol_chi_civil_war.8
+		set_temp_variable = { target = XIN }
+		set_temp_variable = { to_add = 1 }
+		TNO_add_num_volunteers = yes
 	}
 }

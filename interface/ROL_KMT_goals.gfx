@@ -229,4 +229,24 @@ spriteTypes = {
 		name = "ROL_KMT_night_in_xining"
 		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_night_in_xining.png"
 	}
+	
+	SpriteType = {
+		name = "ROL_KMT_black_pink_coming_in"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_black_pink_coming_in.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_standing_member"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_standing_member.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_infiltrate_the_ma_army"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_infiltrate_the_ma_army.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_mobilize_ma_military"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_mobilize_ma_military.png"
+	}
 }

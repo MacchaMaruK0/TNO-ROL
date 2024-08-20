@@ -22,6 +22,41 @@ on_actions = {
 				remove_ideas = ROL_GUX_country_army
 				}
 			}
+			
+			else_if = {
+				limit = {
+				ROOT = { original_tag = XDU }
+				FROM = { original_tag = XIN }
+				}
+				XIN = {
+				white_peace = XDU
+				annex_country = {
+				target = XDU
+				transfer_troops = no
+				}
+				every_owned_state = {
+				add_core_of = XIN
+				remove_core_of = XDU
+				}
+				}
+			}
+			else_if = {
+				limit = {
+				ROOT = { original_tag = ETR }
+				FROM = { original_tag = XIN }
+				}
+				XIN = {
+				white_peace = ETR
+				annex_country = {
+				target = ETR
+				transfer_troops = no
+				}
+				every_owned_state = {
+				add_core_of = XIN
+				remove_core_of = ETR
+				}
+				}
+			}
 		}	
 	}		
 }

@@ -10,6 +10,7 @@
  ROC_paternalism_DEF:0 "中华民国"
  ROC_despotism:0 "云南省"
  ROC_despotism_DEF:0 "中华民国"
+ ROC_civil_war_despotism:0 "中华民国国民政府"
 
  ###党派
  ROC_paternalism_party:0 "国民党"
