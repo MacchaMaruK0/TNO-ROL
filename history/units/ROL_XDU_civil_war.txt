@@ -26,5 +26,47 @@ division_template = {
 }
 
 units = {
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10674
+		division_template = "新盟步兵师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
 	
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4788
+		division_template = "新盟步兵师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1783
+		division_template = "独立骑兵团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7866
+		division_template = "独立骑兵团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
 }

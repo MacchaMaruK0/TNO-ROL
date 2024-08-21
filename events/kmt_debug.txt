@@ -10,10 +10,81 @@ country_event = {
 		log = "[GetDateText]: [Root.GetName]: event kmt.666"
 	}
 
+	trigger = {
+		has_country_flag = ROL_KMT_cpc_end
+	}
+
+	fire_only_once = no
 	is_triggered_only = yes
 
 	option = { 
 		name = kmt.666.a
+		promote_character = {
+		    character = KMT_ROL_Crush
+		    ideology = despotism_military_junta_subtype
+		}
+		set_popularities = {
+			despotism = 100
+		}
+		remove_ideas = KMT_ROL_minister_Zhang_Zhizhong_hog
+		remove_ideas = KMT_ROL_minister_Jiang_Jingguo_for
+		remove_ideas = KMT_ROL_minister_Yan_Jiagan_eco
+		remove_ideas = KMT_ROL_minister_Chen_Daqing_sec
+		remove_ideas = ROL_KMT_Economic_helmsman
+		remove_ideas = ROL_KMT_Protect_revival_base
+		remove_ideas = ROL_KMT_heteronomy
+		add_ideas = KMT_ROL_West_north_is_die
+		country_event = { id = kmt.667 days = 15 }
+	}	
+}
+
+country_event = { 
+	id = kmt.667
+	title = kmt.667.t 
+	desc = kmt.667.d
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.667"
+	}
+
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.667.a
+		QIN = {
+		change_tag_from = KMT
+		}
+		hidden_effect = {
+			CPC = {
+				country_event = { id = kmt.668 days = 15 }
+			}
+			QIN = {
+				country_event = kmt.670
+				promote_character = {
+					character = ROL_QIN_Ma_Jiyuan_1
+					ideology = despotism_military_junta_subtype
+				}
+			}
+		}
+		custom_effect_tooltip = kmt_667_a_tt
+	}	
+}
+
+country_event = { 
+	id = kmt.670
+	title = kmt.670.t 
+	desc = kmt.670.d
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.670"
+	}
+
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.670.a
+		country_event = kmt.670
+		set_country_flag = QIN_ROL_ma_end
 	}	
 }
 

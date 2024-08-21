@@ -1,0 +1,98 @@
+﻿division_template = {
+	name = "新疆步兵师"
+	division_names_group = XIN_INF_02 #Normal Equipment and Training
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "新疆骑兵旅"
+	division_names_group = XIN_CAV_02 #Normal Equipment and Training
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 0 y = 4 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4709
+		division_template = "新疆步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 12656
+		division_template = "新疆步兵师"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4704
+		division_template = "新疆步兵师"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 1703
+		division_template = "新疆步兵师"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1703
+		division_template = "新疆骑兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4709
+		division_template = "新疆骑兵旅"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	
+}

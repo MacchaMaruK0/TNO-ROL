@@ -7,3 +7,27 @@
  QIN_conservatism_party:0 "国民党行政公署"
  QIN_conservatism_party_long:0 "国民党行政公署(Guomindang Civilian Administrators)"
  ROL_QIN_Ma_Jiyuan:0 "马继援"
+ ROL_QIN_Ma_Jiyuan_1:0 "马继援"
+ 
+ ###focus
+ ROL_QIN_ma_end_focus:0 "大梦已觉"
+ ROL_QIN_run_down:0 "筋疲力竭"
+ ROL_QIN_all_destroy:0 "基业尽毁"
+ ROL_QIN_gather_the_stump:0 "收拢残部"
+ ROL_QIN_transfer_of_assets:0 "转移资产"
+ ROL_QIN_tightly_controlled:0 "严密控制"
+ ROL_QIN_return_center:0 "归顺中央"
+ ROL_QIN_dream_realized:0 "大梦已觉"
+ ROL_QIN_all_end_tt: "§e失败者无权操控§!"
+ 
+ #####decision
+ ROL_QIN_run_down_tt: "§e万事皆休§!"
+ ROL_QIN_run_down_Category:0 "§e筋疲力竭§!"
+ ROL_QIN_run_down_1:0 "§R天命已失...§!"
+ ROL_QIN_run_down_2:0 "§R天命已失...§!"
+ ROL_QIN_run_down_3:0 "§R天命已失...§!"
+ ROL_QIN_run_down_4:0 "§R天命已失...§!"
+ ROL_QIN_run_down_5:0 "§R天命已失...§!"
+ ROL_QIN_run_down_6:0 "§R天命已失...§!"
+ ROL_QIN_run_down_7:0 "§R天命已失...§!"
+ ROL_QIN_run_down_8:0 "§R天命已失...§!"

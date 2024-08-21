@@ -45,3 +45,15 @@ ROL_KMT_red_blood_Category = {
 	priority = 1000
 	visible_when_empty = yes
 }
+
+ROL_QIN_run_down_Category = {
+    icon = /
+	allowed = {
+		original_tag = QIN
+	}
+	visible = {
+		has_country_flag = QIN_ROL_ma_end
+	}
+	priority = 1000
+	visible_when_empty = yes
+}

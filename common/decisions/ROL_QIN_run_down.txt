@@ -1,0 +1,185 @@
+ROL_QIN_run_down_Category = {
+	ROL_QIN_run_down_1 = { 
+	    icon = /
+		fire_only_once = yes
+		activation = {
+			has_country_flag = QIN_ROL_ma_end
+		}
+		available = {
+			custom_trigger_tooltip = {
+			has_country_flag = ROL_QIN_run_down_1_flag
+			tooltip = ROL_QIN_run_down_tt	
+			}
+		}
+		days_mission_timeout = 7
+		allowed = {
+			tag = QIN
+		}
+	    timeout_effect = {
+		    load_focus_tree = ROL_QIN_ma_end_focus
+			mark_focus_tree_layout_dirty = yes
+			set_country_flag = ROL_QIN_run_down_2_flag
+		}
+    }
+	
+	ROL_QIN_run_down_2 = { 
+	    icon = /
+		fire_only_once = yes
+		activation = {
+			has_country_flag = QIN_ROL_ma_end
+			has_country_flag = ROL_QIN_run_down_2_flag
+		}
+		available = {
+			custom_trigger_tooltip = {
+			has_country_flag = ROL_QIN_run_down_1_flag
+			tooltip = ROL_QIN_run_down_tt	
+			}
+		}
+		days_mission_timeout = 7
+		allowed = {
+			tag = QIN
+		}
+	    timeout_effect = {
+		    complete_national_focus = ROL_QIN_run_down
+			set_country_flag = ROL_QIN_run_down_3_flag
+		}
+    }
+	
+	ROL_QIN_run_down_3 = { 
+	    icon = /
+		fire_only_once = yes
+		activation = {
+			has_country_flag = QIN_ROL_ma_end
+			has_country_flag = ROL_QIN_run_down_3_flag
+		}
+		available = {
+			custom_trigger_tooltip = {
+			has_country_flag = ROL_QIN_run_down_1_flag
+			tooltip = ROL_QIN_run_down_tt	
+			}
+		}
+		days_mission_timeout = 7
+		allowed = {
+			tag = QIN
+		}
+	    timeout_effect = {
+		    complete_national_focus = ROL_QIN_all_destroy
+			set_country_flag = ROL_QIN_run_down_4_flag
+		}
+    }
+	
+	ROL_QIN_run_down_4 = { 
+	    icon = /
+		fire_only_once = yes
+		activation = {
+			has_country_flag = QIN_ROL_ma_end
+			has_country_flag = ROL_QIN_run_down_4_flag
+		}
+		available = {
+			custom_trigger_tooltip = {
+			has_country_flag = ROL_QIN_run_down_1_flag
+			tooltip = ROL_QIN_run_down_tt	
+			}
+		}
+		days_mission_timeout = 7
+		allowed = {
+			tag = QIN
+		}
+	    timeout_effect = {
+		    complete_national_focus = ROL_QIN_gather_the_stump
+			set_country_flag = ROL_QIN_run_down_5_flag
+		}
+    }
+	
+	ROL_QIN_run_down_5 = { 
+	    icon = /
+		fire_only_once = yes
+		activation = {
+			has_country_flag = QIN_ROL_ma_end
+			has_country_flag = ROL_QIN_run_down_5_flag
+		}
+		available = {
+			custom_trigger_tooltip = {
+			has_country_flag = ROL_QIN_run_down_1_flag
+			tooltip = ROL_QIN_run_down_tt	
+			}
+		}
+		days_mission_timeout = 7
+		allowed = {
+			tag = QIN
+		}
+	    timeout_effect = {
+		    complete_national_focus = ROL_QIN_transfer_of_assets
+			set_country_flag = ROL_QIN_run_down_6_flag
+		}
+    }
+	
+	ROL_QIN_run_down_6 = { 
+	    icon = /
+		fire_only_once = yes
+		activation = {
+			has_country_flag = QIN_ROL_ma_end
+			has_country_flag = ROL_QIN_run_down_6_flag
+		}
+		available = {
+			custom_trigger_tooltip = {
+			has_country_flag = ROL_QIN_run_down_1_flag
+			tooltip = ROL_QIN_run_down_tt	
+			}
+		}
+		days_mission_timeout = 7
+		allowed = {
+			tag = QIN
+		}
+	    timeout_effect = {
+		    complete_national_focus = ROL_QIN_tightly_controlled
+			set_country_flag = ROL_QIN_run_down_7_flag
+		}
+    }
+	
+	ROL_QIN_run_down_7 = { 
+	    icon = /
+		fire_only_once = yes
+		activation = {
+			has_country_flag = QIN_ROL_ma_end
+			has_country_flag = ROL_QIN_run_down_7_flag
+		}
+		available = {
+			custom_trigger_tooltip = {
+			has_country_flag = ROL_QIN_run_down_1_flag
+			tooltip = ROL_QIN_run_down_tt	
+			}
+		}
+		days_mission_timeout = 7
+		allowed = {
+			tag = QIN
+		}
+	    timeout_effect = {
+		    complete_national_focus = ROL_QIN_return_center
+			set_country_flag = ROL_QIN_run_down_8_flag
+		}
+    }
+	
+	ROL_QIN_run_down_8 = { 
+	    icon = /
+		fire_only_once = yes
+		activation = {
+			has_country_flag = QIN_ROL_ma_end
+			has_country_flag = ROL_QIN_run_down_8_flag
+		}
+		available = {
+			custom_trigger_tooltip = {
+			has_country_flag = ROL_QIN_run_down_1_flag
+			tooltip = ROL_QIN_run_down_tt	
+			}
+		}
+		days_mission_timeout = 7
+		allowed = {
+			tag = QIN
+		}
+	    timeout_effect = {
+		    complete_national_focus = ROL_QIN_dream_realized
+			clr_country_flag = QIN_ROL_ma_end
+		}
+    }
+}

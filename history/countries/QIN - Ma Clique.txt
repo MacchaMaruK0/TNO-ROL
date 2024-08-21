@@ -1,6 +1,7 @@
 capital = 906
 
 recruit_character = ROL_QIN_Ma_Jiyuan
+recruit_character = ROL_QIN_Ma_Jiyuan_1
 # Vacant
 recruit_character = QIN_Generic_Vacant
 fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.

@@ -183,6 +183,7 @@ country_event = {
 		add_state_core = 604
 		transfer_state = 906
 		transfer_state = 604
+		add_ideas = ROC_autonomous_regions
 		promote_character = {
 		    character = ROL_QIN_Ma_Jiyuan
 		    ideology = despotism_military_junta_subtype

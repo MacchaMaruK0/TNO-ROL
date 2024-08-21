@@ -492,4 +492,20 @@ characters = {
 			logistics_skill = 2
 		}
 	}
+	
+	KMT_ROL_Crush = {
+		name = KMT_ROL_Crush  #当局崩溃
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Crush.dds"
+			}
+		}
+		country_leader = {
+			desc = "KMT_ROL_Crush_desc"
+			ideology = despotism_military_junta_subtype
+			traits = {
+
+			}
+		}
+	}
 }	

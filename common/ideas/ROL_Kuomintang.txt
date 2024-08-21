@@ -135,5 +135,25 @@ ideas = {
 			   land_reinforce_rate = 0.10
 			}
 		}
+		
+		KMT_ROL_West_north_is_die = {
+			allowed = {
+				always = no
+			}
+			picture = /
+			removal_cost = -1
+			modifier = {
+				surrender_limit = 1.0
+				army_org_factor = -1.0
+				supply_consumption_factor = 1.0
+				stability_factor = -1.0
+				political_power_factor = -0.5
+				war_support_factor = -0.5
+				conscription_factor = -0.5
+				training_time_factor = 1.0
+				army_morale_factor = -1.0
+				custom_modifier_tooltip = KMT_ROL_West_north_is_die_tt
+			}
+		}
 	}
 }

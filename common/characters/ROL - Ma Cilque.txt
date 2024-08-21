@@ -14,4 +14,20 @@ characters = {
 			}
 		}
 	}
+	
+	ROL_QIN_Ma_Jiyuan_1 = {
+		name = ROL_QIN_Ma_Jiyuan_1
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/QIN/Portrait_KMT_ROL_Ma_Jiyuan_1.png"
+			}
+		}
+		country_leader = {
+			desc = "ROL_QIN_Ma_Jiyuan_1_desc"
+			ideology = despotism_military_junta_subtype
+			traits = {
+
+			}
+		}
+	}
 }	

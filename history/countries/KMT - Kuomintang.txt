@@ -22,6 +22,8 @@ recruit_character = KMT_ROL_Yu_Guohua
 recruit_character = KMT_ROL_Yan_Jiagan_3
 recruit_character = KMT_ROL_Jiang_Jingguo_1
 
+recruit_character = KMT_ROL_Crush
+
 ####将领
 recruit_character = KMT_ROL_Gao_Kuiyuan
 recruit_character = KMT_ROL_Hu_Lian
