@@ -19,7 +19,8 @@ set_popularities = {
 }
 
 add_ideas = {
-
+		###COUNTRY###
+		ROC_autonomous_regions
     	### POLITICAL LAWS ###
         tno_political_parties_one_party_state
         tno_religious_rights_state_religion

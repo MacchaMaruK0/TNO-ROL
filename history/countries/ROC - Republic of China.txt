@@ -326,6 +326,12 @@ add_ideas = {
 }
 
 set_research_slots = 4
+
+### DIPLOMACY ###
+create_faction = ROL_United_Front
+add_to_faction = ROC
+
+
 ### Policy Effectiveness
 #可以不管
 set_country_flag = tno_defined_startup_effectiveness

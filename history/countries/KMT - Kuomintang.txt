@@ -169,6 +169,7 @@ set_popularities = {
 add_ideas = {
     #这里是开局国家精神以及顾问的设定
 	#Country#
+	ROC_xingyuan
 	ROL_KMT_Amidst_the_skies_of_the_sun
 	ROL_KMT_Protect_revival_base
 	ROL_KMT_heteronomy

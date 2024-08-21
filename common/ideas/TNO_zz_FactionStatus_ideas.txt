@@ -658,6 +658,8 @@ ideas = {
 			allowed = { always = no }
 			allowed_civil_war = { always = no }
 			modifier = {
+			annual_gdp_growth_factor = 0.05
+			GDP_to_sphere_leader_modifier = 0.05
 			}
 		}
 		###边区
@@ -666,6 +668,7 @@ ideas = {
 			allowed = { always = no }
 			allowed_civil_war = { always = no }
 			modifier = {
+			army_infantry_defence_factor = 0.15
 			}
 		}
 		###行辕
@@ -674,6 +677,7 @@ ideas = {
 			allowed = { always = no }
 			allowed_civil_war = { always = no }
 			modifier = {
+			army_infantry_defence_factor = 0.15
 			}
 		}
 		###自治区
@@ -682,6 +686,7 @@ ideas = {
 			allowed = { always = no }
 			allowed_civil_war = { always = no }
 			modifier = {
+			stability_factor = 0.10
 			}
 		}
 	}

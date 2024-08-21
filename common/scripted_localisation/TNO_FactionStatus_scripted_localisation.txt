@@ -752,6 +752,28 @@ defined_text = {
 		trigger = { has_idea = PRIM_loyalist }
 		localization_key = PRIM_loyalist
 	}
+	
+	###ROL_ROC
+	text = {
+		trigger = { has_idea = ROC_leader }
+		localization_key = ROC_leader
+	}
+	text = {
+		trigger = { has_idea = ROC_autonomous_regions }
+		localization_key = ROC_autonomous_regions
+	}
+	text = {
+		trigger = { has_idea = ROC_model_province }
+		localization_key = ROC_model_province
+	}
+	text = {
+		trigger = { has_idea = ROC_xingyuan }
+		localization_key = ROC_xingyuan
+	}
+	text = {
+		trigger = { has_idea = ROC_border }
+		localization_key = ROC_border
+	}
 
 
 	### Fallback/generic faction
@@ -921,6 +943,28 @@ defined_text = {
 	text = {
 		trigger = { has_idea = OFN_Interim_Authority }
 		localization_key = OFN_Interim_Authority_effect
+	}
+	
+	###ROL_ROC
+	text = {
+		trigger = { has_idea = ROC_leader }
+		localization_key = ROC_leader_effect
+	}
+	text = {
+		trigger = { has_idea = ROC_autonomous_regions }
+		localization_key = ROC_autonomous_regions_effect
+	}
+	text = {
+		trigger = { has_idea = ROC_model_province }
+		localization_key = ROC_model_province_effect
+	}
+	text = {
+		trigger = { has_idea = ROC_xingyuan }
+		localization_key = ROC_xingyuan_effect
+	}
+	text = {
+		trigger = { has_idea = ROC_border }
+		localization_key = ROC_border_effect
 	}
 }
 

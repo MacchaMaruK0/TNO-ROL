@@ -209,13 +209,14 @@ country_event = {
 			econ_leave_sphere = yes
 			add_ideas = ROL_GUX_country_army
 			load_oob = "ROL_GUX_civil_war"
+			add_ideas = ROC_model_province
 			declare_war_on = {
 			type = annex_everything
 			target = GUZ
 			}
 			diplomatic_relation = { country = ROC relation = non_aggression_pact }
 		}
-		ROC = { diplomatic_relation = { country = GUX relation = non_aggression_pact } }
+		ROC = { diplomatic_relation = { country = GUX relation = non_aggression_pact } add_to_faction = GUX }
 		clr_country_flag = ROL_debug_CHI_first_war
 	}
 }
@@ -253,7 +254,10 @@ country_event = {
 		remove_core_of = XIW
 		}
 		set_cosmetic_tag = XIN_Civil_war
+		remove_ideas = ROC_autonomous_regions
+		add_ideas = ROC_model_province
 		}
+		ROC = { add_to_faction = XIN }
 	}
 }
 
