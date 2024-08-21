@@ -262,6 +262,7 @@ oob = "ROL_ROC_units_1962"
 add_ideas = {
 	#这里是开局国家精神以及顾问的设定
 	#Country#
+	ROC_leader
 	ROL_ROC_betrayal
 	ROL_ROC_China_Airlines
 	ROL_ROC_KMT_orthodoxy
