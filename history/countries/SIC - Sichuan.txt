@@ -23,7 +23,7 @@ set_popularities = {
 }
 
 add_ideas = {
-        
+        Sphere_Chinese_Warlord
     ### POLITICAL LAWS ###
         tno_political_parties_one_party_state
         tno_religious_rights_state_religion
