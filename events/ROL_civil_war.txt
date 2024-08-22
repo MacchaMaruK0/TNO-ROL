@@ -219,7 +219,7 @@ country_event = {
 			}
 			diplomatic_relation = { country = ROC relation = non_aggression_pact }
 		}
-		ROC = { diplomatic_relation = { country = GUX relation = non_aggression_pact } add_to_faction = GUX }
+		ROC = { diplomatic_relation = { country = GUX relation = non_aggression_pact } add_to_faction = GUX set_autonomy = { target = GUX autonomous_state = autonomy_rol_roc_model_province } }
 		clr_country_flag = ROL_debug_CHI_first_war
 	}
 }

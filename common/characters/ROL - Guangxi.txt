@@ -8,7 +8,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "GUX_ROL_Cheng_Siyuan_desc"
-			ideology = despotism_civilian_dictatorship_subtype
+			ideology = paternalism_ROL_xunzheng_subtype
 			traits = {
 
 			}
