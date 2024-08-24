@@ -269,4 +269,39 @@ spriteTypes = {
 		name = "ROL_KMT_promise_autonomous_status"
 		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_promise_autonomous_status.png"
 	}
+	
+	SpriteType = {
+		name = "ROL_KMT_painfully_express_interests"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_painfully_express_interests.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_political_priority"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_political_priority.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_reorganize_social_order"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_reorganize_social_order.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_mobilize_revolution_youth"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_mobilize_revolution_youth.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_encourage_reporting"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_encourage_reporting.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_delegate_firing_authority"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_delegate_firing_authority.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_reduce_civilian_losses"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_reduce_civilian_losses.png"
+	}
 }

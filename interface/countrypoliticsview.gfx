@@ -216,7 +216,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_autonomy_rol_roc_model_province_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_warlord_regime.dds"
+		textureFile = "gfx/interface/autonomy/autonomy_rol_roc_model_province.png"
 	}
 
 	#-------------
