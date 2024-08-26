@@ -239,7 +239,7 @@ characters = {
 		name = KMT_ROL_Ma_Jiyuan #马继援
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Ma_Jiyuan.dds"
+				large = "gfx/leaders/QIN/Portrait_KMT_ROL_Ma_Jiyuan_1.dds"
 			}
 		}
 		country_leader = {

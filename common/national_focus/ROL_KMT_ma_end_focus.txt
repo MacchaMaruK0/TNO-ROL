@@ -1,0 +1,209 @@
+focus_tree = {
+	id = ROL_KMT_ma_end_focus #马家军结局国策树
+	country = {
+		factor = 0
+		modifier = {
+			add = 40
+			tag = KMT
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_run_down   #筋疲力竭
+		icon = ROL_KMT_run_down
+		x = 4
+		y = 0
+		cost = 1 #这是国策需要多少天 1=7天
+		ai_will_do = { 
+			factor = 10
+		}
+		allow_branch = { has_country_flag = ROL_KMT_run_down_2_flag }
+		available = {
+        custom_trigger_tooltip = {
+			has_country_flag = ROL_KMT_all_end
+			tooltip = ROL_KMT_all_end_tt	
+			}		
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		immediate = {
+
+		}
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_all_destroy   #基业尽毁
+		icon = ROL_KMT_all_destroy
+		x = 4
+		y = 1
+		cost = 1 #这是国策需要多少天 1=7天
+		prerequisite = { focus = ROL_KMT_run_down }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = {
+        custom_trigger_tooltip = {
+			has_country_flag = ROL_KMT_all_end
+			tooltip = ROL_KMT_all_end_tt	
+			}		
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		immediate = {
+
+		}
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_gather_the_stump   #收拢残部
+		icon = ROL_KMT_gather_the_stump
+		x = 2
+		y = 2
+		cost = 1 #这是国策需要多少天 1=7天
+		prerequisite = { focus = ROL_KMT_all_destroy }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = {
+        custom_trigger_tooltip = {
+			has_country_flag = ROL_KMT_all_end
+			tooltip = ROL_KMT_all_end_tt	
+			}		
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		immediate = {
+
+		}
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_transfer_of_assets   #转移资产
+		icon = ROL_KMT_transfer_of_assets
+		x = 4
+		y = 2
+		cost = 1 #这是国策需要多少天 1=7天
+		prerequisite = { focus = ROL_KMT_all_destroy }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = {
+        custom_trigger_tooltip = {
+			has_country_flag = ROL_KMT_all_end
+			tooltip = ROL_KMT_all_end_tt	
+			}		
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		immediate = {
+
+		}
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_tightly_controlled   #严密控制
+		icon = ROL_KMT_tightly_controlled
+		x = 6
+		y = 2
+		cost = 1 #这是国策需要多少天 1=7天
+		prerequisite = { focus = ROL_KMT_all_destroy }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = {
+        custom_trigger_tooltip = {
+			has_country_flag = ROL_KMT_all_end
+			tooltip = ROL_KMT_all_end_tt	
+			}		
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		immediate = {
+
+		}
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_return_center   #归顺中央
+		icon = ROL_KMT_return_center
+		x = 4
+		y = 3
+		cost = 1 #这是国策需要多少天 1=7天
+		prerequisite = { focus = ROL_KMT_tightly_controlled }
+		prerequisite = { focus = ROL_KMT_transfer_of_assets }
+		prerequisite = { focus = ROL_KMT_gather_the_stump }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = {
+        custom_trigger_tooltip = {
+			has_country_flag = ROL_KMT_all_end
+			tooltip = ROL_KMT_all_end_tt	
+			}		
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		immediate = {
+
+		}
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_dream_realized   #大梦已觉
+		icon = ROL_KMT_dream_realized
+		x = 4
+		y = 4
+		cost = 1 #这是国策需要多少天 1=7天
+		prerequisite = { focus = ROL_KMT_return_center }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = {
+        custom_trigger_tooltip = {
+			has_country_flag = ROL_KMT_all_end
+			tooltip = ROL_KMT_all_end_tt	
+			}		
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		immediate = {
+
+		}
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+}	

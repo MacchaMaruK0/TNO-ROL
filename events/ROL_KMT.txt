@@ -222,9 +222,45 @@ country_event = {
 		set_capital = { state = 1302 }
 		}
 		custom_effect_tooltip = kmt_7_a_tt
+		country_event = { id = kmt.8 days = 5 }
 		hidden_effect = {
 		set_country_flag = ROL_KMT_ma_end
 		}
+	}
+}
+
+country_event = { 
+	id = kmt.8
+	title = kmt.8.t 
+	desc = kmt.8.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.8"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.8.a
+		annex_country = {
+		target = QIN
+		transfer_troops = no
+		}
+		every_owned_state = {
+		add_core_of = KMT
+		remove_core_of = QIN
+		}
+		promote_character = {
+		    character = ROL_QIN_Ma_Jiyuan
+		    ideology = despotism_warlordism_subtype
+		}
+		set_popularities = {
+			despotism_1 = 100
+		}
+		set_capital = { state = 1302 }
+		custom_effect_tooltip = kmt_8_a_tt
 	}
 }
 

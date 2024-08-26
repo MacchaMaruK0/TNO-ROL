@@ -100,7 +100,7 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 	fire_only_once = no
 	is_debug = yes
 	complete_effect = {
-		set_country_flag = ROL_KMT_ma_end
+		country_event = kmt.7
 		}
     }
 	
