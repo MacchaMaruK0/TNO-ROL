@@ -304,4 +304,39 @@ spriteTypes = {
 		name = "ROL_KMT_reduce_civilian_losses"
 		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_reduce_civilian_losses.png"
 	}
+	
+	SpriteType = {
+		name = "ROL_KMT_delay_change"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_delay_change.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_restrict_activity"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_restrict_activity.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_notimed_transfer"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_notimed_transfer.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_ensure_safety"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_ensure_safety.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_movement_restrictions"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_movement_restrictions.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_romplete_ones_misery"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_romplete_ones_misery.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_guard_the_revive_base"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_guard_the_revive_base.png"
+	}
 }
