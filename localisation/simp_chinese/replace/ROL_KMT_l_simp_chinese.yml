@@ -192,7 +192,8 @@
  #debug
  ROL_KMT_Debug_Category:0 "§B烤馒头§!的小工具"
  ROL_KMT_Debug_Category_desc:0 " "
- KMT_ROL_Luo_Lie_2_dec:0 "让§Y第二阶段罗列§!上来"
+ KMT_ROL_Luo_Lie_2_dec:0 "§j加载£GFX_KMT_lixing_icon 罗列国策树§!"
+ KMT_ROL_zhang_dec:0 "§B加载£GFX_KMT_tpp_icon 张治中国策树§!"
  Choose_Luo:0 "支持§Y候选人§!"
  Start_lanzhou_crisis:0 "引爆£GFX_KMT_lanzhou_crisis §Y兰州危机§!"
  KMT_ROL_load_org_tree:0 "加载§Y初始§!国策树"
@@ -206,8 +207,28 @@
  ROL_KMT_lanzhou_crisis_loss_3:0 "别再§e乱玩§!§Y调试决议§!了！重置£GFX_KMT_lanzhou_crisis §Y兰州危机§!状态"
  ROL_Japan_leave_south_asia:0 "触发§Y日本势力退出东南亚§!（空壳子）"
  ROL_Japan_leave_south_asia_desc:0 "你§e最好§!是一个§G开发人员§!，否则你不应该看到这些实验内容"
- ROL_KMT_original:0 "初始国策树"
- ROL_KMT_lanzhou_crisis_focus:0 "兰州危机国策树"
+ ROL_KMT_original:0 "行辕主任胡宗南"
+ ROL_KMT_lanzhou_crisis_focus:0 "兰州危机"
+ ROL_KMT_luolie_focus:0 "行辕主任罗列"
+ ROL_KMT_zhangzhizhong_focus:0 "行辕主任张治中"
+ 
+ ###终局
+ ROL_KMT_ma_end_focus:0 "大梦已觉"
+ ROL_KMT_run_down:0 "筋疲力竭"
+ ROL_KMT_run_down_desc:0 ""
+ ROL_KMT_all_destroy:0 "基业尽毁"
+ ROL_KMT_all_destroy_desc:0 ""
+ ROL_KMT_gather_the_stump:0 "收拢残部"
+ ROL_KMT_gather_the_stump_desc:0 ""
+ ROL_KMT_transfer_of_assets:0 "转移资产"
+ ROL_KMT_transfer_of_assets_desc:0 ""
+ ROL_KMT_tightly_controlled:0 "严密控制"
+ ROL_KMT_tightly_controlled_desc:0 ""
+ ROL_KMT_return_center:0 "俯首称臣"
+ ROL_KMT_return_center_desc:0 ""
+ ROL_KMT_dream_realized:0 "大梦已觉"
+ ROL_KMT_dream_realized_desc:0 ""
+ ROL_KMT_all_end_tt: "§e失败者无权操控§!"
  
  ###赤血黄沙
  ROL_KMT_red_blood_Category: "§e赤血§!§w黄沙§!"
@@ -501,6 +522,7 @@
  KMT_ROL_West_north_is_die:0 "§e西北之殇§!"
  
  ###event
+ kmt_4_a_tt:0 "国策树变更为§Y代行辕主任罗列§!"
  kmt_5_a_tt:0 "我们将在争夺行辕主任的竞选中支持£GFX_KMT_lixing_icon 革军会和§g罗列§!将军\n在£decision_icon_small 决议栏中解锁§W白日之下§!"
  kmt_5_b_tt:0 "我们将在争夺行辕主任的竞选中支持£GFX_KMT_tpp_icon 三青团、£GFX_KMT_tumu_icon 土木系与£GFX_KMT_youth_army_icon 的共举领袖§i张治中§!\n解锁£decision_icon_small §Y决议§!栏内£GFX_ROL_KMT_choose_texticon §W白日之下§!"
  kmt.1.t:0 "新官上任"

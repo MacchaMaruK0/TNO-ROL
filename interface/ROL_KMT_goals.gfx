@@ -339,4 +339,5 @@ spriteTypes = {
 		name = "ROL_KMT_guard_the_revive_base"
 		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_guard_the_revive_base.png"
 	}
+	
 }

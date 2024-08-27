@@ -17,7 +17,6 @@ focus_tree = {
 		ai_will_do = { 
 			factor = 10
 		}
-		allow_branch = { has_country_flag = ROL_KMT_run_down_2_flag }
 		available = {
         custom_trigger_tooltip = {
 			has_country_flag = ROL_KMT_all_end

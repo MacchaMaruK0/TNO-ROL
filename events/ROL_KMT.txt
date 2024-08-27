@@ -125,6 +125,7 @@ country_event = {
 		}
 		set_country_flag = ROL_KMT_Hu_is_die
 		mark_focus_tree_layout_dirty = yes
+		custom_effect_tooltip = kmt_4_a_tt
 		country_event = {
 			id = kmt.5
 			days = 5
@@ -244,6 +245,11 @@ country_event = {
 
 	option = { 
 		name = kmt.8.a
+		remove_ideas = KMT_ROL_minister_Zhang_Zhizhong_hog
+		remove_ideas = KMT_ROL_minister_Jiang_Jingguo_for
+		remove_ideas = KMT_ROL_minister_Yan_Jiagan_eco
+		remove_ideas = KMT_ROL_minister_Chen_Daqing_sec
+		hidden_effect = {
 		annex_country = {
 		target = QIN
 		transfer_troops = no
@@ -252,8 +258,9 @@ country_event = {
 		add_core_of = KMT
 		remove_core_of = QIN
 		}
+		}
 		promote_character = {
-		    character = ROL_QIN_Ma_Jiyuan
+		    character = KMT_ROL_Ma_Jiyuan
 		    ideology = despotism_warlordism_subtype
 		}
 		set_popularities = {
@@ -261,6 +268,8 @@ country_event = {
 		}
 		set_capital = { state = 1302 }
 		custom_effect_tooltip = kmt_8_a_tt
+		load_focus_tree = ROL_KMT_ma_end_focus
+		mark_focus_tree_layout_dirty = yes
 	}
 }
 
