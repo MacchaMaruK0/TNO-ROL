@@ -14,52 +14,62 @@ guiTypes = {
 			pdx_tooltip = ROL_KMT_party_tt
 		}
 	}
-	
-    containerWindowType = {
+	containerWindowType = {
 		name = "ROL_KMT_party_GUI"
-		size = { height = 560 width = 1168 } 
+		size = { width = 1188 height = 812 }
 		position = { x = 238 y = 220 }
 		show_sound = open_sub_window
 		moveable = yes
 		clipping = no
-
+		
+		buttonType = {
+			name = "ROL_KMT_party_close"
+		 	position = { x = -60 y = 15 }
+			orientation = "UPPER_RIGHT"
+			spriteType = "GFX_Kartenhaus_CloseButton"
+			clicksound = click_default
+			shortcut = "ESCAPE"
+		}
+		
+		iconType = {
+		 	name = "ROL_KMT_party_infor"
+			position = { x = 954 y = 68 }
+		 	spriteType = "GFX_Burgundy_GUI_Info_Button"
+		 	pdx_tooltip = ROL_KMT_party_seat_infor
+		}
+		
 		background = {
 			name = "Background"
 			spriteType = "GFX_tiled_window_1b_no_border"
 		}
-		
-		# buttonType = {
-		# 	name = "ROL_KMT_party_close"
-		# 	position = { x = -60 y = 15 }
-		# 	orientation = "UPPER_RIGHT"
-		# 	spriteType = "GFX_Kartenhaus_CloseButton"
-		# 	clicksound = click_default
-		# 	shortcut = "ESCAPE"
-		# }
-		
-		# iconType = {
-		# 	name = "ROL_KMT_party_infor"
-		# 	position = { x = 11 y = 514 }
-		# 	spriteType = "GFX_Burgundy_GUI_Info_Button"
-		# 	pdx_tooltip = ROL_KMT_party_seat_infor
-		# }
-		
 		containerWindowType = {
-			name = "ROL_KMT_GUI_Party_Seats"
-			# size = { width = 1000 height = 500 }
-			position = { x = 40 y = 0 }
-			# orientation = UPPER_LEFT
-			
-			gridboxtype = {
-				name = "ROL_KMT_GUI_Party_Seats_GridBox"
-				position = { x = 40 y = 40 }
-				size = { width = 100%% height = 100%% }
-				slotsize = { width = 100%% height = 0 }
-				max_slots_horizontal = 1
-				add_horizontal = no
-			}
-		}
+			name = "ROL_KMT_party_1_GUI"
+			size = { height = 275 width = 275 } 
+			position = { x = 0 y = 312 }
+			show_sound = open_sub_window
+			moveable = no
+			clipping = no
 
+			background = {
+				name = "Background"
+				spriteType = "GFX_tiled_window_1b_no_border"
+			}
+		
+			containerWindowType = {
+				name = "ROL_KMT_GUI_Party_Seats"
+				position = { x = 40 y = 0 }
+			
+				gridboxtype = {
+					name = "ROL_KMT_GUI_Party_Seats_GridBox"
+					position = { x = 40 y = 40 }
+					size = { width = 100%% height = 100%% }
+					slotsize = { width = 100%% height = 0 }
+					max_slots_horizontal = 1
+					add_horizontal = no
+				}
+			}
+
+		}
 	}
 	
 	containerWindowType = {
@@ -69,6 +79,7 @@ guiTypes = {
 			name = "parliament_dot_icon"
 			quadTextureSprite = "GFX_ROL_KMT_party_seat"
 			position = { x = 0 y = 0 }
+			pdx_tooltip = "ROL_KMT_party_member_tt"
 		}
 	}
 }

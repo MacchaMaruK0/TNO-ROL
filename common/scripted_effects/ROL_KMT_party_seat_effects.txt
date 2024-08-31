@@ -3,11 +3,35 @@ ROL_KMT_rerender_party_seat = {
 	resize_array = {
 		array = ROL_KMT_party_faction
 		value = 1
-		size = 15
+		size = 7
 	}
 	resize_array = {
 		array = ROL_KMT_party_faction
 		value = 2
+		size = 8
+	}
+	
+	resize_array = {
+		array = ROL_KMT_party_faction
+		value = 3
+		size = 11
+	}
+	
+	resize_array = {
+		array = ROL_KMT_party_faction
+		value = 4
+		size = 14
+	}
+	
+	resize_array = {
+		array = ROL_KMT_party_faction
+		value = 5
+		size = 21
+	}
+	
+	resize_array = {
+		array = ROL_KMT_party_faction
+		value = 6
 		size = 25
 	}
 }
@@ -15,63 +39,63 @@ ROL_KMT_rerender_party_seat = {
 ROL_KMT_Party_seat_effects = {
 	# a
 	set_temp_variable = { TUMU_seat = 1 } #土木系
-	set_temp_variable = { TPP_seat = 2 } #三青团
-	set_temp_variable = { YOUTHARMY_seat = 3 } #青年军
+	set_temp_variable = { TAIZI_seat = 2 } #新太子党
+	set_temp_variable = { ZAIZAO_seat = 3 } #再造系
 	set_temp_variable = { HUNANGANG_seat = 4 } #湖南帮
-	set_temp_variable = { ZAIZAO_seat = 5 } #再造系
-	set_temp_variable = { TAIZI_seat = 6 } #新太子党
+	set_temp_variable = { YOUTHARMY_seat = 5 } #青年军
+	set_temp_variable = { TPP_seat = 6 } #三青团
 
 	clear_array = KMT_party_x
 	clear_array = KMT_party_y
 	# ROL_KMT_rerender_party_seat = yes
-	add_to_array = { KMT_party_x = 0 } #1
-	add_to_array = { KMT_party_y = 392 } 
-	add_to_array = { KMT_party_x = 120 } #2
-	add_to_array = { KMT_party_y = 392 }
-	add_to_array = { KMT_party_x = 89 } #3
-	add_to_array = { KMT_party_y = 392 }
-	add_to_array = { KMT_party_x = 133 } #4
-	add_to_array = { KMT_party_y = 392 }
-	add_to_array = { KMT_party_x = 178 } #5
-	add_to_array = { KMT_party_y = 392 }
-	add_to_array = { KMT_party_x = 222 } #6
-	add_to_array = { KMT_party_y = 392 }
-	add_to_array = { KMT_party_x = 5 } #7
-	add_to_array = { KMT_party_y = 338 }
-	add_to_array = { KMT_party_x = 51 } #8
-	add_to_array = { KMT_party_y = 337 }
-	add_to_array = { KMT_party_x = 96 } #9
-	add_to_array = { KMT_party_y = 338 }
-	add_to_array = { KMT_party_x = 142 } #10
-	add_to_array = { KMT_party_y = 337 }
-	add_to_array = { KMT_party_x = 187 } #11
-	add_to_array = { KMT_party_y = 340 }
-	add_to_array = { KMT_party_x = 18 } #12
-	add_to_array = { KMT_party_y = 285 }
-	add_to_array = { KMT_party_x = 65 } #13
-	add_to_array = { KMT_party_y = 283 }
-	add_to_array = { KMT_party_x = 233 } #14
-	add_to_array = { KMT_party_y = 343 }
-	add_to_array = { KMT_party_x = 112 } #15
-	add_to_array = { KMT_party_y = 287 }
-	add_to_array = { KMT_party_x = 38 } #16
-	add_to_array = { KMT_party_y = 235 }
-	add_to_array = { KMT_party_x = 161 } #17
-	add_to_array = { KMT_party_y = 286 }
-	add_to_array = { KMT_party_x = 89 } #18
-	add_to_array = { KMT_party_y = 233 }
-	add_to_array = { KMT_party_x = 209 } #19
-	add_to_array = { KMT_party_y = 292 }
-	add_to_array = { KMT_party_x = 137 } #20
-	add_to_array = { KMT_party_y = 240 }
-	add_to_array = { KMT_party_x = 65 } #21
-	add_to_array = { KMT_party_y = 188 }
-	add_to_array = { KMT_party_x = 257 } #22
-	add_to_array = { KMT_party_y = 300 }
-	add_to_array = { KMT_party_x = 120 } #23
-	add_to_array = { KMT_party_y = 187 }
-	add_to_array = { KMT_party_x = 192 } #24
-	add_to_array = { KMT_party_y = 240 }
-	add_to_array = { KMT_party_x = 98 } #25
-	add_to_array = { KMT_party_y = 145 }
+	add_to_array = { KMT_party_x = -150 } #1
+	add_to_array = { KMT_party_y = -53 } 
+	add_to_array = { KMT_party_x = -100 } #2
+	add_to_array = { KMT_party_y = -53 }
+	add_to_array = { KMT_party_x = -50 } #3
+	add_to_array = { KMT_party_y = -53 }
+	add_to_array = { KMT_party_x = -0 } #4
+	add_to_array = { KMT_party_y = -53 }
+	add_to_array = { KMT_party_x = 50 } #5
+	add_to_array = { KMT_party_y = -53 }
+	add_to_array = { KMT_party_x = -150 } #6
+	add_to_array = { KMT_party_y = -3 }
+	add_to_array = { KMT_party_x = -100 } #7
+	add_to_array = { KMT_party_y = -3 }
+	add_to_array = { KMT_party_x = -50 } #8
+	add_to_array = { KMT_party_y = -3 }
+	add_to_array = { KMT_party_x = 0 } #9
+	add_to_array = { KMT_party_y = -3 }
+	add_to_array = { KMT_party_x = 50 } #10
+	add_to_array = { KMT_party_y = -3 }
+	add_to_array = { KMT_party_x = -150 } #11
+	add_to_array = { KMT_party_y = 47 }
+	add_to_array = { KMT_party_x = -100 } #12
+	add_to_array = { KMT_party_y = 47 }
+	add_to_array = { KMT_party_x = -50 } #13
+	add_to_array = { KMT_party_y = 47 }
+	add_to_array = { KMT_party_x = 0 } #14
+	add_to_array = { KMT_party_y = 47 }
+	add_to_array = { KMT_party_x = 50 } #15
+	add_to_array = { KMT_party_y = 47 }
+	add_to_array = { KMT_party_x = -150 } #16
+	add_to_array = { KMT_party_y = 97 }
+	add_to_array = { KMT_party_x = -100 } #17
+	add_to_array = { KMT_party_y = 97 }
+	add_to_array = { KMT_party_x = -50 } #18
+	add_to_array = { KMT_party_y = 97 }
+	add_to_array = { KMT_party_x = 0 } #19
+	add_to_array = { KMT_party_y = 97 }
+	add_to_array = { KMT_party_x = 50 } #20
+	add_to_array = { KMT_party_y = 97 }
+	add_to_array = { KMT_party_x = -150 } #21
+	add_to_array = { KMT_party_y = 147 }
+	add_to_array = { KMT_party_x = -100 } #22
+	add_to_array = { KMT_party_y = 147 }
+	add_to_array = { KMT_party_x = -50 } #23
+	add_to_array = { KMT_party_y = 147 }
+	add_to_array = { KMT_party_x = 0 } #24
+	add_to_array = { KMT_party_y = 147 }
+	add_to_array = { KMT_party_x = 50 } #25
+	add_to_array = { KMT_party_y = 147 }
 }
