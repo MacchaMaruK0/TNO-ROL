@@ -31,7 +31,7 @@ recruit_character = KMT_ROL_Jiang_Weiguo
 recruit_character = KMT_ROL_Huang_Wei
 recruit_character = KMT_ROL_Xu_Peigen
 
-
+set_country_flag = ROL_KMT_seat_history
 set_war_support = 0.80
 set_stability = 1.00
 add_manpower = 400000

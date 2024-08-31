@@ -1,0 +1,84 @@
+guiTypes = {
+    containerWindowType = {
+		name = "ROL_KMT_Party_AccessButton"
+		size = { width = 220 height = 120 }
+		position = { x = 0 y = 289 }
+
+		buttonType = {
+			name = "ROL_KMT_Party_OpenButton"
+			quadTextureSprite = "GFX_ROL_KMT_open_party"
+			scale = 0.58
+			position = { x = 141 y = 40 }
+			clicksound = click_default
+			oversound = ui_menu_over
+			pdx_tooltip = ROL_KMT_party_tt
+		}
+	}
+	
+    containerWindowType = {
+		name = "ROL_KMT_party_GUI"
+		size = { height = 560 width = 1168 } 
+		position = { x = 238 y = 220 }
+		show_sound = open_sub_window
+		moveable = yes
+		clipping = no
+
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window_1b_no_border"
+		}
+		
+		buttonType = {
+			name = "ROL_KMT_party_close"
+			position = { x = -60 y = 15 }
+			orientation = "UPPER_RIGHT"
+			spriteType = "GFX_Kartenhaus_CloseButton"
+			clicksound = click_default
+			shortcut = "ESCAPE"
+		}
+		
+		iconType = {
+			name = "ROL_KMT_party_infor"
+			position = { x = 11 y = 514 }
+			spriteType = "GFX_Burgundy_GUI_Info_Button"
+			pdx_tooltip = ROL_KMT_party_seat_infor
+		}
+		
+		containerWindowType = {
+		name = "ROL_KMT_party_seat"
+		position = { x = 0 y = 0 }
+
+			iconType = {
+				name = "parliament_dot_icon"
+				quadTextureSprite = "GFX_ROL_KMT_party_seat"
+				#pdx_tooltip = " "
+			}
+	    }
+		
+		containerWindowType = {
+			name = "ROL_KMT_GUI_Party_Seats"
+			size = { width = 500 height = 200 }
+			position = { x = 150 y = 267 }
+			orientation = UPPER_LEFT
+			
+			gridboxtype = {
+				name = "ROL_KMT_GUI_Party_Seats_GridBox"
+				position = { x = 0 y = 0 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 100%% height = 0 }
+				max_slots_horizontal = 1
+				add_horizontal = no
+			}
+		}
+		containerWindowType = {
+		name = "ROL_KMT_Party_GUI_Seats_Entry"
+		position = { x = 0 y = 0 }
+		size = { width = 25 height = 25 }
+
+			iconType = {
+				name = "ROL_KMT_Party_GUI_Seats_Entry_Box"
+				spriteType = "GFX_Diet_Seat_Boxes"
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+#这个文件定义了党务GUI的素材
+spriteTypes = {
+	spriteType = {
+		name = GFX_ROL_KMT_open_party
+		texturefile = "gfx/interface/GUI/party_button.dds"
+	}
+	
+	spriteType = { #席位图
+		name = GFX_ROL_KMT_party_seat
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_seat.png"
+		noOfFrames = 6
+	}
+}	
