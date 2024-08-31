@@ -1,50 +1,19 @@
 ROL_KMT_rerender_party_seat = {
 	clear_array = ROL_KMT_party_faction
-	if = {
-		limit = { has_country_flag = ROL_KMT_seat_history }
-
-		resize_array = {
-			array = ROL_KMT_party_faction
-			value = 1
-			size = 7
-		}
-		
-		resize_array = {
-			array = ROL_KMT_party_faction
-			value = 2
-			size = 4
-		}
-		
-		resize_array = {
-			array = ROL_KMT_party_faction
-			value = 3
-			size = 7
-		}
-		
-		resize_array = {
-			array = ROL_KMT_party_faction
-			value = 4
-			size = 3
-		}
-		
-		resize_array = {
-			array = ROL_KMT_party_faction
-			value = 5
-			size = 3
-		}
-		
-		resize_array = {
-			array = ROL_KMT_party_faction
-			value = 6
-			size = 1
-		}
+	resize_array = {
+		array = ROL_KMT_party_faction
+		value = 1
+		size = 15
+	}
+	resize_array = {
+		array = ROL_KMT_party_faction
+		value = 2
+		size = 25
 	}
 }
 
-
-
 ROL_KMT_Party_seat_effects = {
-
+	# a
 	set_temp_variable = { TUMU_seat = 1 } #土木系
 	set_temp_variable = { TPP_seat = 2 } #三青团
 	set_temp_variable = { YOUTHARMY_seat = 3 } #青年军
@@ -54,10 +23,10 @@ ROL_KMT_Party_seat_effects = {
 
 	clear_array = KMT_party_x
 	clear_array = KMT_party_y
-
+	# ROL_KMT_rerender_party_seat = yes
 	add_to_array = { KMT_party_x = 0 } #1
 	add_to_array = { KMT_party_y = 392 } 
-	add_to_array = { KMT_party_x = 44 } #2
+	add_to_array = { KMT_party_x = 120 } #2
 	add_to_array = { KMT_party_y = 392 }
 	add_to_array = { KMT_party_x = 89 } #3
 	add_to_array = { KMT_party_y = 392 }

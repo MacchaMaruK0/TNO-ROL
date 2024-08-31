@@ -2,6 +2,8 @@ on_actions = { #
 	on_startup = {
 		effect = {
 			KMT = {
+				ROL_KMT_rerender_party_seat = yes
+				ROL_KMT_Party_seat_effects = yes
 			    set_variable = {
 					ROL_KMT_ROC_intervene_points = 3
 				}
