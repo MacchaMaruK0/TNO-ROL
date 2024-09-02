@@ -54,8 +54,8 @@ scripted_gui = {
 		
 		properties = {
 			parliament_dot_icon = {
-				x = KMT_party_x^ROL_KMT_party_faction_i
-				y = KMT_party_y^ROL_KMT_party_faction_i
+				# x = KMT_party_x^ROL_KMT_party_faction_i
+				# y = KMT_party_y^ROL_KMT_party_faction_i
 				frame = v
 			}
 		}

@@ -1,125 +1,71 @@
-ROL_KMT_rerender_party_seat = {
-	clear_array = ROL_KMT_party_faction
-	resize_array = {
-		array = ROL_KMT_party_faction
-		value = 1
-		size = ROL_TUMU_party_seat_size_points
-	}
-	resize_array = {
-		array = ROL_KMT_party_faction
-		value = 2
-		size = ROL_TAIZI_party_seat_size_points
-	}
-	
-	resize_array = {
-		array = ROL_KMT_party_faction
-		value = 3
-		size = ROL_ZAIZAO_party_seat_size_points
-	}
-	
-	resize_array = {
-		array = ROL_KMT_party_faction
-		value = 4
-		size = ROL_HUNANGANG_party_seat_size_points
-	}
-	
-	resize_array = {
-		array = ROL_KMT_party_faction
-		value = 5
-		size = ROL_YOUTHARMY_party_seat_size_points
-	}
-	
-	resize_array = {
-		array = ROL_KMT_party_faction
-		value = 6
-		size = ROL_TPP_party_seat_size_points
-	}
-}
 
 ROL_KMT_Party_seat_effects = {
-	# a
-	set_temp_variable = { TUMU_seat = 1 } #土木系
-	set_temp_variable = { TAIZI_seat = 2 } #新太子党
-	set_temp_variable = { ZAIZAO_seat = 3 } #再造系
-	set_temp_variable = { HUNANGANG_seat = 4 } #湖南帮
-	set_temp_variable = { YOUTHARMY_seat = 5 } #青年军
-	set_temp_variable = { TPP_seat = 6 } #三青团
-
-	clear_array = KMT_party_x
-	clear_array = KMT_party_y
-	# ROL_KMT_rerender_party_seat = yes
-	add_to_array = { KMT_party_x = -150 } #1
-	add_to_array = { KMT_party_y = -53 } 
-	add_to_array = { KMT_party_x = -100 } #2
-	add_to_array = { KMT_party_y = -53 }
-	add_to_array = { KMT_party_x = -50 } #3
-	add_to_array = { KMT_party_y = -53 }
-	add_to_array = { KMT_party_x = -0 } #4
-	add_to_array = { KMT_party_y = -53 }
-	add_to_array = { KMT_party_x = 50 } #5
-	add_to_array = { KMT_party_y = -53 }
-	add_to_array = { KMT_party_x = -150 } #6
-	add_to_array = { KMT_party_y = -3 }
-	add_to_array = { KMT_party_x = -100 } #7
-	add_to_array = { KMT_party_y = -3 }
-	add_to_array = { KMT_party_x = -50 } #8
-	add_to_array = { KMT_party_y = -3 }
-	add_to_array = { KMT_party_x = 0 } #9
-	add_to_array = { KMT_party_y = -3 }
-	add_to_array = { KMT_party_x = 50 } #10
-	add_to_array = { KMT_party_y = -3 }
-	add_to_array = { KMT_party_x = -150 } #11
-	add_to_array = { KMT_party_y = 47 }
-	add_to_array = { KMT_party_x = -100 } #12
-	add_to_array = { KMT_party_y = 47 }
-	add_to_array = { KMT_party_x = -50 } #13
-	add_to_array = { KMT_party_y = 47 }
-	add_to_array = { KMT_party_x = 0 } #14
-	add_to_array = { KMT_party_y = 47 }
-	add_to_array = { KMT_party_x = 50 } #15
-	add_to_array = { KMT_party_y = 47 }
-	add_to_array = { KMT_party_x = -150 } #16
-	add_to_array = { KMT_party_y = 97 }
-	add_to_array = { KMT_party_x = -100 } #17
-	add_to_array = { KMT_party_y = 97 }
-	add_to_array = { KMT_party_x = -50 } #18
-	add_to_array = { KMT_party_y = 97 }
-	add_to_array = { KMT_party_x = 0 } #19
-	add_to_array = { KMT_party_y = 97 }
-	add_to_array = { KMT_party_x = 50 } #20
-	add_to_array = { KMT_party_y = 97 }
-	add_to_array = { KMT_party_x = -150 } #21
-	add_to_array = { KMT_party_y = 147 }
-	add_to_array = { KMT_party_x = -100 } #22
-	add_to_array = { KMT_party_y = 147 }
-	add_to_array = { KMT_party_x = -50 } #23
-	add_to_array = { KMT_party_y = 147 }
-	add_to_array = { KMT_party_x = 0 } #24
-	add_to_array = { KMT_party_y = 147 }
-	add_to_array = { KMT_party_x = 50 } #25
-	add_to_array = { KMT_party_y = 147 }
-}
-ROL_TUMU_party_seat_size_effect = {
+	# 
 	set_variable = { ROL_KMT_party_TUMU = 7 }
 	set_variable = { ROL_KMT_party_TAIZI = 1 }
 	set_variable = { ROL_KMT_party_ZAIZAO = 3 }
 	set_variable = { ROL_KMT_party_HUNANGANG = 3 }
 	set_variable = { ROL_KMT_party_YOUTHARMY = 7 }
 	set_variable = { ROL_KMT_party_TPP = 4 }
-	add_to_variable = {
-		var = ROL_TUMU_party_seat_size_points #变量
-		value = ROL_TUMU_party_seat_size_points_temp #改变变量
-	}	
+}
+ROL_KMT_rerender_party_seat = {
+	clear_array = ROL_KMT_party_faction
 	set_variable = { ROL_TUMU_party_seat_size_points = ROL_KMT_party_TUMU }
+	resize_array = {
+		array = ROL_KMT_party_faction
+		value = 1
+		size = ROL_TUMU_party_seat_size_points
+	}
 	set_variable = { ROL_TAIZI_party_seat_size_points = ROL_KMT_party_TAIZI }
+	add_to_variable = {
+		ROL_TAIZI_party_seat_size_points = ROL_TUMU_party_seat_size_points
+	}
+	resize_array = {
+		array = ROL_KMT_party_faction
+		value = 2
+		size = ROL_TAIZI_party_seat_size_points
+	}
 	set_variable = { ROL_ZAIZAO_party_seat_size_points = ROL_KMT_party_ZAIZAO }
+	add_to_variable = {
+		ROL_ZAIZAO_party_seat_size_points = ROL_TAIZI_party_seat_size_points
+	}
+	resize_array = {
+		array = ROL_KMT_party_faction
+		value = 3
+		size = ROL_ZAIZAO_party_seat_size_points
+	}
 	set_variable = { ROL_HUNANGANG_party_seat_size_points = ROL_KMT_party_HUNANGANG }
+	add_to_variable = {
+		ROL_HUNANGANG_party_seat_size_points = ROL_ZAIZAO_party_seat_size_points
+	}
+	resize_array = {
+		array = ROL_KMT_party_faction
+		value = 4
+		size = ROL_HUNANGANG_party_seat_size_points
+	}
+	
 	set_variable = { ROL_YOUTHARMY_party_seat_size_points = ROL_KMT_party_YOUTHARMY }
+	add_to_variable = {
+		ROL_YOUTHARMY_party_seat_size_points = ROL_HUNANGANG_party_seat_size_points
+	}
+	resize_array = {
+		array = ROL_KMT_party_faction
+		value = 5
+		size = ROL_YOUTHARMY_party_seat_size_points
+	}
 	set_variable = { ROL_TPP_party_seat_size_points = ROL_KMT_party_TPP }
+	add_to_variable = {
+		ROL_TPP_party_seat_size_points = ROL_YOUTHARMY_party_seat_size_points
+	}
+	resize_array = {
+		array = ROL_KMT_party_faction
+		value = 6
+		size = ROL_TPP_party_seat_size_points
+	}
 }	
 
 ROL_KMT_operate_party_seat = {
-	 #改变席位
+	#改变席位
     add_to_variable = {
         var = ROL_KMT_operate_party_seat_points #变量
     }
@@ -146,45 +92,3 @@ ROL_KMT_operate_party_seat = {
 	}
 }
 
-ROL_TAIZI_party_seat_size_effect = {
-	add_to_variable = {
-		var = ROL_TAIZI_party_seat_size_points #变量
-	}
-	add_to_variable = { ROL_TAIZI_party_seat_size_points = ROL_seat_size_1_points }
-}
-
-ROL_ZAIZAO_party_seat_size_effect = {
-	add_to_variable = {
-		var = ROL_ZAIZAO_party_seat_size_points #变量
-	}
-	add_to_variable = { ROL_ZAIZAO_party_seat_size_points = ROL_seat_size_2_points }
-}
-
-ROL_HUNANGANG_party_seat_size_effect = {
-	add_to_variable = {
-		var = ROL_HUNANGANG_party_seat_size_points #变量
-	}
-	add_to_variable = { ROL_HUNANGANG_party_seat_size_points = ROL_seat_size_3_points }
-}
-
-ROL_YOUTHARMY_party_seat_size_effect = {
-	add_to_variable = {
-		var = ROL_YOUTHARMY_party_seat_size_points #变量
-	}
-	add_to_variable = { ROL_YOUTHARMY_party_seat_size_points = ROL_seat_size_4_points }
-}
-
-ROL_TPP_party_seat_size_effect = {
-	add_to_variable = {
-		var = ROL_TPP_party_seat_size_points #变量
-	}
-	add_to_variable = { ROL_TPP_party_seat_size_points = ROL_seat_size_5_points }
-}
-
-ROL_seat_size = {
-	set_variable = { ROL_seat_size_1_points = ROL_TUMU_party_seat_size_points }
-	set_variable = { ROL_seat_size_2_points = ROL_TAIZI_party_seat_size_points }
-	set_variable = { ROL_seat_size_3_points = ROL_ZAIZAO_party_seat_size_points }
-	set_variable = { ROL_seat_size_4_points = ROL_HUNANGANG_party_seat_size_points }
-	set_variable = { ROL_seat_size_5_points = ROL_YOUTHARMY_party_seat_size_points }
-}
