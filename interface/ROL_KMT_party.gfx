@@ -2,7 +2,7 @@
 spriteTypes = {
 	spriteType = {
 		name = GFX_ROL_KMT_open_party
-		texturefile = "gfx/interface/GUI/party_button.dds"
+		texturefile = "gfx/interface/GUI/party_button.png"
 	}
 	
 	spriteType = { #席位图
@@ -14,6 +14,5 @@ spriteTypes = {
 	spriteType = { #三青团
 		name = GFX_ROL_KMT_tpp_big_icon
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_tpp_big_icon.png"
-		scale = 0.5
 	}
 }	
