@@ -42,6 +42,98 @@ guiTypes = {
 			name = "Background"
 			spriteType = "GFX_tiled_window_1b_no_border"
 		}
+		
+		containerWindowType = {
+			name = "ROL_KMT_GUI_party_big_1"
+			size = { height = 200 width = 200 } 
+			position = { x = 7 y = 610 }
+			show_sound = open_sub_window
+			moveable = no
+			clipping = no
+			
+			background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window_1b_no_border"
+			}
+			
+			buttonType = {
+            name = "ROL_KMT_tpp_big"
+            position = { x = 27 y = 27 }
+            spriteType = "GFX_ROL_KMT_tpp_big_icon"
+            pdx_tooltip = ROL_KMT_tpp_big_tt
+			}
+		}
+		
+		containerWindowType = {
+			name = "ROL_KMT_GUI_party_big_2"
+			size = { height = 200 width = 200 } 
+			position = { x = 202 y = 610 }
+			show_sound = open_sub_window
+			moveable = no
+			clipping = no
+			
+			background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window_1b_no_border"
+			}
+		}
+		
+		containerWindowType = {
+			name = "ROL_KMT_GUI_party_big_3"
+			size = { height = 200 width = 200 } 
+			position = { x = 397 y = 610 }
+			show_sound = open_sub_window
+			moveable = no
+			clipping = no
+			
+			background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window_1b_no_border"
+			}
+		}
+		
+		containerWindowType = {
+			name = "ROL_KMT_GUI_party_big_4"
+			size = { height = 200 width = 200 } 
+			position = { x = 592 y = 610 }
+			show_sound = open_sub_window
+			moveable = no
+			clipping = no
+			
+			background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window_1b_no_border"
+			}
+		}
+		
+		containerWindowType = {
+			name = "ROL_KMT_GUI_party_big_5"
+			size = { height = 200 width = 200 } 
+			position = { x = 787 y = 610 }
+			show_sound = open_sub_window
+			moveable = no
+			clipping = no
+			
+			background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window_1b_no_border"
+			}
+		}
+		
+		containerWindowType = {
+			name = "ROL_KMT_GUI_party_big_6"
+			size = { height = 200 width = 200 } 
+			position = { x = 982 y = 610 }
+			show_sound = open_sub_window
+			moveable = no
+			clipping = no
+			
+			background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window_1b_no_border"
+			}
+		}
+		
 		containerWindowType = {
 			name = "ROL_KMT_party_1_GUI"
 			size = { height = 275 width = 275 } 

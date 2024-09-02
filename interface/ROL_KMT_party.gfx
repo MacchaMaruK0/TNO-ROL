@@ -10,4 +10,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_seat.png"
 		noOfFrames = 6
 	}
+	
+	spriteType = { #三青团
+		name = GFX_ROL_KMT_tpp_big_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_tpp_big_icon.png"
+		scale = 0.5
+	}
 }	
