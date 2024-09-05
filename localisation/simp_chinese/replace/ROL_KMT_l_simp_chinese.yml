@@ -555,12 +555,12 @@
  ###党务GUI
  ROL_KMT_party_member_tt: "这一常委席位被[ROL_KMT_party_faction_1]§R所占据§!"
  TUMU_seat: "£GFX_KMT_tumu_icon §Y土木系§!"
- TAIZI_seat: "§O新太子党§!"
+ TAIZI_seat: "§i新太子党§!"
  ZAIZAO_seat: "§g再造系§!"
  HUNANGANG_seat: "§j湖南帮§!"
  YOUTHARMY_seat: "£GFX_KMT_youth_army_icon §M青年军§!"
  TPP_seat: "£GFX_KMT_tpp_icon §G三青团§!"
- ROL_KMT_tpp_big_tt: "三青团的现任派系领袖是：§Y张治中§!\n\n\n\n\n\n\n£GFX_ROL_KMT_Zhang_Zhizhong_texticon \n\n\n\n\n\n\n\n\n\n目前三青团在常委中占有[?ROL_KMT_party_TPP]席"
+ ROL_KMT_tpp_big_tt: "£GFX_KMT_tpp_icon §G三青团§!\n\n\n\n\n\n\n£GFX_ROL_KMT_Zhang_Zhizhong_texticon \n\n\n\n\n\n§G书记长郑彦棻§!\n\n目前£GFX_KMT_tpp_icon §G三青团§!在常委中占有§G[?ROL_KMT_party_TPP]§!席"
  
  
  
