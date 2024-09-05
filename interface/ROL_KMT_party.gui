@@ -97,6 +97,13 @@ guiTypes = {
 			name = "Background"
 			spriteType = "GFX_tiled_window_1b_no_border"
 			}
+			
+			iconType = {
+            name = "ROL_KMT_tumu_big"
+            position = { x = 27 y = 27 }
+            spriteType = "GFX_ROL_KMT_tpp_big_icon"
+            pdx_tooltip = ROL_KMT_TUMU_big_tt
+			}
 		}
 		
 		containerWindowType = {
@@ -110,6 +117,13 @@ guiTypes = {
 			background = {
 			name = "Background"
 			spriteType = "GFX_tiled_window_1b_no_border"
+			}
+			
+			iconType = {
+            name = "ROL_KMT_zaizao_big"
+            position = { x = 27 y = 27 }
+            spriteType = "GFX_ROL_KMT_tpp_big_icon"
+            pdx_tooltip = ROL_KMT_Zaizao_big_tt
 			}
 		}
 		
@@ -125,6 +139,13 @@ guiTypes = {
 			name = "Background"
 			spriteType = "GFX_tiled_window_1b_no_border"
 			}
+			
+			iconType = {
+            name = "ROL_KMT_hunangang_big"
+            position = { x = 27 y = 27 }
+            spriteType = "GFX_ROL_KMT_tpp_big_icon"
+            pdx_tooltip = ROL_KMT_Hunangang_big_tt
+			}
 		}
 		
 		containerWindowType = {
@@ -138,6 +159,13 @@ guiTypes = {
 			background = {
 			name = "Background"
 			spriteType = "GFX_tiled_window_1b_no_border"
+			}
+			
+			iconType = {
+            name = "ROL_KMT_taizi_big"
+            position = { x = 27 y = 27 }
+            spriteType = "GFX_ROL_KMT_tpp_big_icon"
+            pdx_tooltip = ROL_KMT_Taizi_big_tt
 			}
 		}
 		

@@ -560,7 +560,12 @@
  HUNANGANG_seat: "§j湖南帮§!"
  YOUTHARMY_seat: "£GFX_KMT_youth_army_icon §M青年军§!"
  TPP_seat: "£GFX_KMT_tpp_icon §G三青团§!"
- ROL_KMT_tpp_big_tt: "£GFX_KMT_tpp_icon §G三青团§!\n\n\n\n\n\n\n£GFX_ROL_KMT_Zhang_Zhizhong_texticon \n\n\n\n\n\n§G书记长郑彦棻§!\n\n目前£GFX_KMT_tpp_icon §G三青团§!在常委中占有§G[?ROL_KMT_party_TPP]§!席"
+ ROL_KMT_tpp_big_tt: "£GFX_KMT_tpp_icon §G三青团§!\n\n\n\n\n\n\n£GFX_ROL_KMT_Zheng_texticon \n\n\n\n\n\n\n§G三青团§! - §G三青团书记长 郑彦棻§!\n\n目前§G三青团§!在常委中占有§G[?ROL_KMT_party_TPP]§!席"
+ ROL_KMT_Youtharmy_big_tt: "£GFX_KMT_youth_army_icon §M青年军§!\n\n\n\n\n\n\n£GFX_ROL_KMT_Jiang_texticon \n\n\n\n\n\n\n§M青年军§! - §M行辕秘书长 蒋经国§!\n\n目前£GFX_KMT_youth_army_icon §M青年军§!在常委中占有§M[?ROL_KMT_party_YOUTHARMY]§!席"
+ ROL_KMT_TUMU_big_tt: "£GFX_KMT_tumu_icon §Y土木系§!\n\n\n\n\n\n\n£GFX_ROL_KMT_Zhou_texticon \n\n\n\n\n\n\n§Y土木系§! - §Y行辕主任顾问 周至柔§!\n\n目前£GFX_KMT_tumu_icon §Y土木系§!在常委中占有§Y[?ROL_KMT_party_TUMU]§!席"
+ ROL_KMT_Zaizao_big_tt: "£GFX_ROL_KMT_zaizao_texticon §g再造系§!\n\n\n\n\n\n\n£GFX_ROL_KMT_Teng_texticon \n\n\n\n\n\n\n§g再造系§! - §g政大党部副主委 滕杰§!\n\n目前£GFX_ROL_KMT_zaizao_texticon §g再造系§!在常委中占有§g[?ROL_KMT_party_ZAIZAO]§!席"
+ ROL_KMT_Hunangang_big_tt: "£GFX_ROL_KMT_hunangang_texticon §j湖南帮§!\n\n\n\n\n\n\n£GFX_ROL_KMT_He_texticon \n\n\n\n\n\n\n§j湖南帮§! - §j行辕主任顾问 贺衷寒§!\n\n目前£GFX_ROL_KMT_hunangang_texticon §j湖南帮§!在常委中占有§j[?ROL_KMT_party_HUNANGANG]§!席"
+ ROL_KMT_Taizi_big_tt: "£GFX_ROL_KMT_taizi_texticon §i新太子党§!\n\n\n\n\n\n\n£GFX_ROL_KMT_twice_Jiang_texticon \n\n\n\n\n\n\n§i新太子党§! - §i行辕装甲第一师师长 蒋纬国§!\n\n目前£GFX_ROL_KMT_taizi_texticon §i新太子党§!在常委中占有§i[?ROL_KMT_party_TAIZI]§!席"
  
  
  

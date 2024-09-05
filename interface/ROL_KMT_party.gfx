@@ -20,4 +20,58 @@ spriteTypes = {
 		name = GFX_ROL_KMT_Youtharmy_big_icon
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_Youtharmy_big_icon.png"
 	}
+	
+	spriteType = { #三青团-郑彦棻
+		name = GFX_ROL_KMT_Zheng_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_Zheng_texticon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #青年军-蒋经国
+		name = GFX_ROL_KMT_Jiang_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_Jiang_texticon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #土木系-周至柔
+		name = GFX_ROL_KMT_Zhou_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_Zhou_texticon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #再造系-滕杰
+		name = GFX_ROL_KMT_Teng_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_Teng_texticon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #湖南帮-贺衷寒
+		name = GFX_ROL_KMT_He_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_He_texticon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #新太子党-蒋纬国
+		name = GFX_ROL_KMT_twice_Jiang_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_twice_Jiang_texticon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #新太子党
+		name = GFX_ROL_KMT_taizi_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_taizi_texticon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #湖南帮
+		name = GFX_ROL_KMT_hunangang_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_hunangang_texticon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #再造系
+		name = GFX_ROL_KMT_zaizao_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_zaizao_texticon.png"
+		legacy_lazy_load = no
+	}
 }	
