@@ -11,8 +11,13 @@ spriteTypes = {
 		noOfFrames = 6
 	}
 	
-	spriteType = { #三青团
+	spriteType = { #青年军
 		name = GFX_ROL_KMT_tpp_big_icon
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_tpp_big_icon.png"
+	}
+	
+	spriteType = { #三青团
+		name = GFX_ROL_KMT_Youtharmy_big_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_Youtharmy_big_icon.png"
 	}
 }	
