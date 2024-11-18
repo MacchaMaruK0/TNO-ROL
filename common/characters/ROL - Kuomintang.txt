@@ -20,7 +20,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "KMT_ROL_Hu_Zongnan_desc"
-			ideology = despotism_military_junta_subtype
+			ideology = despotism_ROL_Tridemism_Chiangism_subtype
 			traits = {
 
 			}
@@ -46,7 +46,7 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_ROL_ZHANG_ZHIZHONG_DESC"
 			expire = "2000.1.1"
-			ideology = paternalism_authoritarian_developmentalism_subtype
+			ideology = despotism_ROL_Tridemism_Tangkuo_system_subtype
 			traits = {
 			ROL_sincere
 			}
@@ -73,7 +73,7 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_CHIANG_CHINGKUO_DESC"
 			expire = "2000.1.1"
-			ideology = paternalism_authoritarian_developmentalism_subtype
+			ideology = despotism_ROL_Tridemism_Tangkuo_system_subtype
 			traits = { }
 			id = -1
 		}

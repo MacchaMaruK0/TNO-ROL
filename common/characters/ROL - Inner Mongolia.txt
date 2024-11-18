@@ -1,0 +1,49 @@
+characters = {
+    SUY_ROL_An_Chunshan = {
+		name = SUY_ROL_An_Chunshan  #安春山
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SUY/Portrait_SUY_ROL_An_Chunshan.dds"
+			}
+		}
+		
+		field_marshal = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+
+		country_leader = {
+			desc = "SUY_ROL_An_Chunshan_desc"
+			ideology = despotism_military_junta_subtype
+			traits = {
+			}
+		}
+	}
+
+    SUY_ROL_Wu_Lanfu = {
+		name = SUY_ROL_Wu_Lanfu  #乌兰夫
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SUY/Portrait_SUY_ROL_Wu_Lanfu.dds"
+			}
+		}
+		
+		field_marshal = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+        
+		country_leader = {
+			desc = "SUY_ROL_Wu_Lanfu_desc"
+			ideology = communist_bolshevism_subtype
+			traits = {
+			}
+		}
+	}
+}

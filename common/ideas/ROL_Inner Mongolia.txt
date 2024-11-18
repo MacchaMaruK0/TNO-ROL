@@ -1,0 +1,44 @@
+ideas = {
+	country = {
+		ROL_SUY_overtly_agree_covertly_oppose = {
+			#赤胆忠心
+			allowed = {
+				always = yes
+			}
+			picture = ROL_SUY_overtly_agree_covertly_oppose
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.15
+				army_core_defence_factor = 0.10
+			}
+		}
+
+        ROL_SUY_Inh_Ju_incident = {
+			#伊盟事变的回忆
+			allowed = {
+				always = yes
+			}
+			picture = ROL_SUY_Inh_Ju_incident
+			removal_cost = -1
+			modifier = {
+				conscription_factor = -0.3
+				stability_factor = -0.2
+                war_support_factor = -0.15
+			}
+		}
+
+		ROL_SUY_autonomy_of_Mongolia = {
+			#蒙古自治
+			allowed = {
+				always = yes
+			}
+			picture = ROL_SUY_autonomy_of_Mongolia
+			removal_cost = -1
+			modifier = {
+				conscription_factor = -0.3
+				stability_factor = -0.2
+                
+			}
+		}
+    }
+}

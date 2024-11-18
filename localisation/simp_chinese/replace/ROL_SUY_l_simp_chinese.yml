@@ -1,0 +1,29 @@
+﻿l_simp_chinese:
+ ###国家名
+ SUY_despotism:0 "绥远省"
+ SUY_despotism_DEF:0 "中华民国绥远省"
+ SUY_communist:0 "内蒙古自治政府"
+ SUY_communist_DEF:0 "内蒙古自治政府"
+
+ ###党派
+ SUY_despotism_party:0 "绥远省政府"
+ SUY_despotism_party_long:0 "绥远省政府"
+ SUY_communist_party:0 "内蒙古抗日游击队"
+ SUY_communist_party_long:0 "内蒙古抗日游击队"
+ SUY_progressivism_party:0 "内蒙古自治运动联合会"
+ SUY_progressivism_party_desc:0 "内蒙古自治运动联合会"
+ SUY_despotism_1_party:0 "国民党"
+ SUY_despotism_1_party_long:0 "国民党"
+ 
+
+ #人物
+ SUY_ROL_An_Chunshan:0 "安春山"
+ SUY_ROL_Wu_Lanfu:0 "乌兰夫"
+
+ 
+ ###民族精神
+ ROL_SUY_overtly_agree_covertly_oppose:0 "赤胆“忠心”"
+ ROL_SUY_overtly_agree_covertly_oppose_desc:
+ ROL_SUY_Inh_Ju_incident:0 "伊盟事变"
+ ROL_SUY_Inh_Ju_incident_desc:0 ""
+ 

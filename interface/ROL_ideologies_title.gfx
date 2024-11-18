@@ -1,0 +1,7 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_ROL_Tridemism_Chiangism_title"
+		texturefile = "gfx/interface/ROL_ideologies_title/ROL_Tridemism_Chiangism_title.dds"
+		legacy_lazy_load = no
+	}
+}

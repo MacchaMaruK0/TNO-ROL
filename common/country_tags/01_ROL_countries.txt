@@ -1,5 +1,9 @@
 KMT = "countries/Kuomintang.txt"
 CPC = "countries/Communist Party of China.txt"
 ROC = "countries/Republic Of China.txt"
+<<<<<<< Updated upstream
 XIW = "countries/Xinjiang Wasteland.txt"
 XDU = "countries/Xinjiang Democratic Unit.txt"
+=======
+SUY = "countries/Inner Mongolia.txt"
+>>>>>>> Stashed changes

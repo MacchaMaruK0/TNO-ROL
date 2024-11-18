@@ -322,6 +322,10 @@ defined_text = {
 		localization_key = liberal_conservatism_islamic_modernism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = liberal_conservatism_centrist_progressivism_subtype}
+		localization_key = liberal_conservatism_centrist_progressivism_subtype
+	}
+	text = {
 		localization_key = liberal_conservatism
 	}
 }
@@ -484,6 +488,14 @@ defined_text = {
 		localization_key = paternalism_authoritarian_developmentalism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = paternalism_herrerism_subtype }
+		localization_key = paternalism_herrerism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = paternalism_ROL_xunzheng_subtype }
+		localization_key = paternalism_ROL_xunzheng_subtype
+	}
+	text = {
 		localization_key = paternalism
 	}
 }
@@ -565,11 +577,18 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = despotism_aristocratic_republicanism_subtype }
 		localization_key = despotism_aristocratic_republicanism_subtype
-	}	
-	#ROL
+	}
 	text = {
-		trigger = { has_country_leader_ideology = despotism_military_vanguard_subtype }
-		localization_key = despotism_military_vanguard_subtype
+		trigger = { has_country_leader_ideology = despotism_ROL_Tridemism_Chiangism_subtype }
+		localization_key = despotism_ROL_Tridemism_Chiangism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = despotism_ROL_military_vanguard_subtype }
+		localization_key = despotism_ROL_military_vanguard_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = despotism_ROL_Tridemism_Tangkuo_system_subtype }
+		localization_key = despotism_ROL_Tridemism_Tangkuo_system_subtype
 	}
 	text = {
 		localization_key = despotism
@@ -751,6 +770,10 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = national_socialism_rosenbergite_tendency_subtype }
 		localization_key = national_socialism_rosenbergite_tendency_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = national_socialism_slavo_aryanism_subtype }
+		localization_key = national_socialism_slavo_aryanism_subtype
 	}
 	text = {
 		localization_key = national_socialism

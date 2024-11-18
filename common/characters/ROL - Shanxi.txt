@@ -1,20 +1,12 @@
 characters = {
-	SHX_fu_zuoyi = {
-		name = SHX_fu_zuoyi
+	SHX_Liang_Huazhi = {
+		name = SHX_Liang_Huazhi
 		portraits = {
-			civilian = { large = "gfx/leaders/SHX/Portrait_Shanxi_Fu_Zuoyi.dds" }
-			army = { large = "gfx/leaders/SHX/Portrait_Shanxi_Fu_Zuoyi.dds" }
-		}
-		corps_commander = {
-			traits = { infantry_officer career_officer war_hero }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 3
+			civilian = { large = "gfx/leaders/SHX/Portrait_SHX_Liang_Huazhi.dds" }
+			army = { large = "gfx/leaders/SHX/Portrait_SHX_Liang_Huazhi.dds" }
 		}
 		country_leader = {
-			desc = "POLITICS_FU_ZUOYI_DESC"
+			desc = ""
 			ideology = despotism_civilian_dictatorship_subtype
 			traits = { }
 			expire = "1999.1.1.1"

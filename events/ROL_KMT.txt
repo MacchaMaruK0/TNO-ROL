@@ -2,7 +2,7 @@ add_namespace = kmt
 add_namespace = kmt_south_asia
 add_namespace = kmt_border_war
 
-country_event = {
+country_event = { #变更为罗列路线
 	id = kmt.1 
 	title = kmt.1.t
 	desc = kmt.1.d 
@@ -38,7 +38,7 @@ country_event = {
 	}
 }
 
-country_event = { 
+country_event = { #变更为张治中路线
 	id = kmt.2 
 	title = kmt.2.t 
 	desc = kmt.2.d 
@@ -73,9 +73,9 @@ country_event = {
 		set_portraits = {
 			civilian = {
 			    large = "gfx/leaders/KMT/Portrait_KMT_ROL_Zhang_Zhizhong.dds"
-			}
-		}
-		}
+			    }
+		    }
+	    }
 		add_ideas = KMT_ROL_minister_Jiang_Jingguo_hog
 		add_ideas = KMT_ROL_minister_Yin_Jun_sec
 		add_ideas = KMT_ROL_minister_Yan_Jiagan_for
@@ -103,7 +103,7 @@ country_event = {
 	}
 }	
 
-country_event = { 
+country_event = { #胡宗南去世
 	id = kmt.4
 	title = kmt.4.t 
 	desc = kmt.4.d 

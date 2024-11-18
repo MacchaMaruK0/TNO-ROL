@@ -85,4 +85,19 @@ spriteTypes = {
 		name = "GFX_idea_ROL_ROC_China_Airlines"
 		textureFile = "gfx/interface/ideas/national_spirits/ROC/ROL_ROC_China_Airlines.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_ROL_SUY_Inh_Ju_incident"
+		textureFile = "gfx/interface/ideas/national_spirits/SUY/ROL_SUY_Inh_Ju_incident.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROL_SUY_overtly_agree_covertly_oppose"
+		textureFile = "gfx/interface/ideas/national_spirits/SUY/ROL_SUY_overtly_agree_covertly_oppose.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ROL_SUY_autonomy_of_Mongolia"
+		textureFile = "gfx/interface/ideas/national_spirits/SUY/ROL_SUY_autonomy_of_Mongolia.dds"
+	}
 }
