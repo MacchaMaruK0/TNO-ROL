@@ -1,12 +1,12 @@
 spritetypes = {
 	spritetype = {
 		name = "GFX_custom_header_TAW"
-		texturefile = "gfx/interface/custom_news_headers/custom_header_TAW.dds"
+		texturefile = "gfx/interface/ROL_custom_news_headers/custom_header_TAW.dds"
 		legacy_lazy_load = no
 	}
 	spritetype = {
 		name = "GFX_custom_header_ROC"
-		texturefile = "gfx/interface/custom_news_headers/custom_header_ROC.dds"
+		texturefile = "gfx/interface/ROL_custom_news_headers/custom_header_ROC.png"
 		legacy_lazy_load = no
 	}
 }

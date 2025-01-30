@@ -850,3 +850,4 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 		custom_effect_tooltip = ROL_KMT_start_the_machine_tt
 		}
 	}
+}

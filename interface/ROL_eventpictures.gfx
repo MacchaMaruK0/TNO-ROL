@@ -1,0 +1,26 @@
+spriteTypes = {
+
+	###################
+	### Kuomintang  ###
+	###################
+
+	spriteType = {
+		name = "GFX_report_event_KMT_Hu_die"
+		texturefile = "gfx/event_pictures/KMT/report_event_KMT_Hu_die.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_KMT_Chiang_and_Chou"
+		texturefile = "gfx/event_pictures/KMT/report_event_KMT_Chiang_and_Chou.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_KMT_Luo_Lie"
+		texturefile = "gfx/event_pictures/KMT/report_event_KMT_Luo_Lie.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_KMT_Zhang_Zhizhong"
+		texturefile = "gfx/event_pictures/KMT/report_event_KMT_Zhang_Zhizhong.dds"
+	}
+}

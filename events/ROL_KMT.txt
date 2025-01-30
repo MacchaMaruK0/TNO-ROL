@@ -7,7 +7,7 @@ country_event = { #变更为罗列路线
 	title = kmt.1.t
 	desc = kmt.1.d 
 
-	picture = /
+	picture = GFX_report_event_KMT_Zhang_Zhizhong
 
 	immediate = { 
 		log = "[GetDateText]: [Root.GetName]: event kmt.1"
@@ -16,24 +16,33 @@ country_event = { #变更为罗列路线
 	fire_only_once = no
 	is_triggered_only = yes
 
-	option = { 
+	option = {
 		name = kmt.1.a
-		remove_ideas = KMT_ROL_minister_Zhang_Zhizhong_hog
-		remove_ideas = KMT_ROL_minister_Jiang_Jingguo_for
-		remove_ideas = KMT_ROL_minister_Chen_Daqing_sec
-		promote_character = {
-		    character = KMT_ROL_Luo_Lie_2
-		    ideology = despotism_ROL_military_vanguard_subtype
-		}
-		add_ideas = KMT_ROL_minister_Deng_Wenyi_hog
-		add_ideas = KMT_ROL_minister_Peng_Mengji_sec
-		add_ideas = KMT_ROL_minister_Yuan_Shouqian_for
-		KMT_ROL_Yan_Jiagan = {
-			set_portraits = {
-				civilian = {
-					small = "gfx/interface/ideas/ministers/KMT/KMT_ROL_minister_Yan_Jiagan_eco_1.png"
-				}
+        custom_effect_tooltip = kmt_1_a_tt
+		hidden_effect = {
+		    remove_ideas = KMT_ROL_minister_Zhang_Zhizhong_hog
+		    remove_ideas = KMT_ROL_minister_Jiang_Jingguo_for
+		    remove_ideas = KMT_ROL_minister_Chen_Daqing_sec
+
+		    promote_character = {
+		        character = KMT_ROL_Luo_Lie_2
+		        ideology = despotism_ROL_military_vanguard_subtype	
+	        }
+
+		    add_ideas = KMT_ROL_minister_Deng_Wenyi_hog
+		    add_ideas = KMT_ROL_minister_Peng_Mengji_sec
+		    add_ideas = KMT_ROL_minister_Yuan_Shouqian_for
+
+		    KMT_ROL_Yan_Jiagan = {
+			    set_portraits = {
+				    civilian = {
+					    small = "gfx/interface/ideas/ministers/KMT/KMT_ROL_minister_Yan_Jiagan_eco_1.png"
+				    }
+			    }
 			}
+			news_event = {
+			    id = WORLD_KUOMINTANG.2
+		    }
 		}
 	}
 }
@@ -42,44 +51,56 @@ country_event = { #变更为张治中路线
 	id = kmt.2 
 	title = kmt.2.t 
 	desc = kmt.2.d 
-	picture = /
+	picture = GFX_report_event_KMT_Zhang_Zhizhong
 
-	immediate = { 
+	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event kmt.2"
 	}
 
 	fire_only_once = no 
 	is_triggered_only = yes
 
-	option = { 
-		name = kmt.2.a 
-		remove_ideas = KMT_ROL_minister_Zhang_Zhizhong_hog
-		remove_ideas = KMT_ROL_minister_Jiang_Jingguo_for
-		remove_ideas = KMT_ROL_minister_Yan_Jiagan_eco
-		remove_ideas = KMT_ROL_minister_Chen_Daqing_sec
-		set_politics = {
-            ruling_party = paternalism
-        }
-		set_party_name = {
-		    ideology = paternalism
-			long_name = KMT_despotism_party_long
-			name = KMT_despotism_party
-		}
-		promote_character = {
-		    character = KMT_ROL_Zhang_Zhizhong
-		    ideology = paternalism_authoritarian_developmentalism_subtype
-		}
-		KMT_ROL_Zhang_Zhizhong = {
-		set_portraits = {
-			civilian = {
-			    large = "gfx/leaders/KMT/Portrait_KMT_ROL_Zhang_Zhizhong.dds"
-			    }
+	option = {
+		name = kmt.2.a
+		custom_effect_tooltip = kmt_2_a_tt
+		hidden_effect = {
+		    remove_ideas = KMT_ROL_minister_Zhang_Zhizhong_hog
+		    remove_ideas = KMT_ROL_minister_Jiang_Jingguo_for
+		    remove_ideas = KMT_ROL_minister_Yan_Jiagan_eco
+		    remove_ideas = KMT_ROL_minister_Chen_Daqing_sec
+
+		    set_politics = {
+                ruling_party = despotism
+            }
+
+		    set_party_name = {
+		        ideology = despotism
+			    long_name = KMT_despotism_party_long
+			    name = KMT_despotism_party
 		    }
-	    }
-		add_ideas = KMT_ROL_minister_Jiang_Jingguo_hog
-		add_ideas = KMT_ROL_minister_Yin_Jun_sec
-		add_ideas = KMT_ROL_minister_Yan_Jiagan_for
-		add_ideas = KMT_ROL_minister_Yu_Guohua_eco
+
+		    promote_character = {
+		        character = KMT_ROL_Zhang_Zhizhong
+		        ideology = despotism_ROL_Tridemism_Tangkuo_system_subtype
+		    }
+
+		    KMT_ROL_Zhang_Zhizhong = {
+		        set_portraits = {
+			        civilian = {
+			            large = "gfx/leaders/KMT/Portrait_KMT_ROL_Zhang_Zhizhong.dds"
+			        }
+		        }
+	        }
+
+		    add_ideas = KMT_ROL_minister_Jiang_Jingguo_hog
+		    add_ideas = KMT_ROL_minister_Yin_Jun_sec
+		    add_ideas = KMT_ROL_minister_Yan_Jiagan_for
+		    add_ideas = KMT_ROL_minister_Yu_Guohua_eco
+
+			news_event = {
+			    id = WORLD_KUOMINTANG.1
+		    }
+		}
 	}
 }
 
@@ -107,7 +128,7 @@ country_event = { #胡宗南去世
 	id = kmt.4
 	title = kmt.4.t 
 	desc = kmt.4.d 
-	picture = /
+	picture = GFX_report_event_KMT_Hu_die
 
 	immediate = { 
 		log = "[GetDateText]: [Root.GetName]: event kmt.4"
@@ -118,17 +139,15 @@ country_event = { #胡宗南去世
 
 	option = { 
 		name = kmt.4.a 
-        kill_country_leader = yes
-		promote_character = {
-		    character = KMT_ROL_Luo_Lie
-		    ideology = despotism_military_junta_subtype
-		}
 		set_country_flag = ROL_KMT_Hu_is_die
+		complete_national_focus = ROL_KMT_Hu_will_die
 		mark_focus_tree_layout_dirty = yes
 		custom_effect_tooltip = kmt_4_a_tt
-		country_event = {
-			id = kmt.5
-			days = 5
+		    hidden_effect = {
+			    country_event = {
+			    id = kmt.9
+			    days = 1
+		    }
 		}
 	}
 }
@@ -270,6 +289,51 @@ country_event = {
 		custom_effect_tooltip = kmt_8_a_tt
 		load_focus_tree = ROL_KMT_ma_end_focus
 		mark_focus_tree_layout_dirty = yes
+	}
+}
+
+country_event = { #罗列代理主任
+	id = kmt.9
+	title = kmt.9.t 
+	desc = kmt.9.d 
+	picture = GFX_report_event_KMT_Chiang_and_Chou
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.9"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = {
+		name = kmt.9.a 
+		hidden_effect = {
+			kill_country_leader = yes
+		    promote_character = {
+		        character = KMT_ROL_Luo_Lie
+		        ideology = despotism_ROL_Tridemism_Chiangism_subtype
+		    }
+		}
+		mark_focus_tree_layout_dirty = yes
+		custom_effect_tooltip = kmt_9_a_tt
+	}
+}
+
+country_event = { #结果出炉
+	id = kmt.10
+	title = kmt.10.t 
+	desc = kmt.10.d 
+	picture = GFX_report_event_KMT_Zhang_Zhizhong
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.10"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = {
+		name = kmt.10.a 
 	}
 }
 

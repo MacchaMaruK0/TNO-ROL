@@ -1,0 +1,33 @@
+#World Events
+add_namespace = WORLD_KUOMINTANG
+
+news_event = { # 张治中继任西北行辕主任
+	id = WORLD_KUOMINTANG.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event WORLD_KUOMINTANG.1" }
+	title = WORLD_KUOMINTANG.1.t
+	desc = WORLD_KUOMINTANG.1.desc
+	picture = GFX_news_event_KMT_Chang_Win
+
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD_KUOMINTANG.1.a
+		trigger = { tag = KMT }
+	}
+}
+
+news_event = { # 罗列继任西北行辕主任
+	id = WORLD_KUOMINTANG.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event WORLD_KUOMINTANG.2" }
+	title = WORLD_KUOMINTANG.2.t
+	desc = WORLD_KUOMINTANG.2.desc
+	picture = GFX_news_event_KMT_Luo_Win
+
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD_KUOMINTANG.2.a
+		trigger = { tag = KMT }
+	}
+}
+

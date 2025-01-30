@@ -6,7 +6,7 @@ fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
 
 set_variable = { chi_influence = 0 }
 
-recruit_character = ROL_ETR_Mohammed_Imin
+recruit_character = XIN_Mohammed_Imin
 
 oob = "ETR_1962"
 

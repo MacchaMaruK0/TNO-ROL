@@ -1,0 +1,13 @@
+spritetypes = {
+	spritetype = {
+		name = "GFX_news_event_KMT_Chang_Win"
+		texturefile = "gfx/event_pictures/KMT/news_event_KMT_Chang_Win.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_news_event_KMT_Luo_Win"
+		texturefile = "gfx/event_pictures/KMT/news_event_KMT_Luo_Win.dds"
+		legacy_lazy_load = no
+	}
+}

@@ -16,7 +16,7 @@ set_politics = {
 	elections_allowed = no
 }
     
-recruit_character = ROL_XDU_Sai_Fuding	
+recruit_character = XIN_seypidin_eziz	
 	
 set_popularities = {
 	communist = 100

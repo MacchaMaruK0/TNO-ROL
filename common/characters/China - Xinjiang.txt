@@ -1,0 +1,107 @@
+characters = {
+   # Country leaders #
+    XIN_Burhan_Shehidi = {
+		name = XIN_Burhan_Shehidi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/XIN/Portrait_XIN_Burhan_Shehidi.png"
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			desc = "XIN_Bao_Erhan_desc"
+			ideology = communist_bolshevism_subtype
+			id = -1
+		}
+    }
+
+	XIN_Luo_Jialun = {
+		name = XIN_Luo_Jialun
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/XIN/Portrait_XIN_Luo_Jialun.png"
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			desc = "XIN_Luo_Jialun_desc"
+			ideology = despotism_ROL_Tridemism_Chiangism_subtype
+			id = -1
+		}
+    }
+
+	XIN_seypidin_eziz = {
+		name = XIN_seypidin_eziz
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/XIN/Portrait_XIN_seypidin_eziz.png"
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			desc = "XIN_seypidin_eziz_desc"
+			ideology = communist_bolshevism_subtype
+			id = -1
+		}
+    }
+
+	XIN_Mohammed_Imin = {
+		name = XIN_Mohammed_Imin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/XIN/Portrait_XIN_Mohammed_Imin.png"
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			desc = "XIN_Mohammed_Imin_desc"
+			ideology = despotism_islamic_nationalism_subtype
+			id = -1
+		}
+    }
+
+	XIN_Yulbars_Khan = {
+		name = XIN_Yulbars_Khan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/XIN/Portrait_XIN_Yulbars_Khan.png"
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			desc = "XIN_Yulbars_Khan_desc"
+			ideology = despotism_1
+			id = -1
+		}
+    }
+
+	XIN_Sheng_Shiji = {
+		name = XIN_Sheng_Shiji
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/XIN/Portrait_XIN_Sheng_Shiji.png"
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			desc = ""
+			ideology = despotism_2
+			id = -1
+		}
+    }
+
+	XIN_People_Groops = {
+		name = XIN_People_Groops
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/XIN/Portrait_XIN_People_Groops.png"
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			desc = ""
+			ideology = paternalism_transitioning_democracy_subtype
+			id = -1
+		}
+    }
+}

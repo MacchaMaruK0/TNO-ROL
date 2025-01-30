@@ -2,6 +2,10 @@ on_actions = { #
 	on_startup = {
 		effect = {
 			KMT = {
+				country_event = {
+					id = kmt.4
+					days = 44
+				}
 				ROL_KMT_Party_seat_effects = yes
 				ROL_KMT_rerender_party_seat = yes
 			    set_variable = {

@@ -374,15 +374,10 @@ defined_text = {
 		localization_key = GFX_ICW_PRIM_Loyalist
 	}
 
-	#Generic
-	text = {
-		localization_key = "GFX_generic_faction_small"
-	}
-	
-	###ROL_ROC
+    ###ROL_ROC
 	text = {
 		trigger = { has_idea = ROC_leader }
-		localization_key = "GFX_ROC_leader_Member"
+		localization_key = "GFX_UOC_ROC_Leader"
 	}
 	text = {
 		trigger = { has_idea = ROC_autonomous_regions }
@@ -394,11 +389,16 @@ defined_text = {
 	}
 	text = {
 		trigger = { has_idea = ROC_xingyuan }
-		localization_key = "GFX_ROC_xingyuan_Member"
+		localization_key = "GFX_UOC_ROC_Xingyuan"
 	}
 	text = {
 		trigger = { has_idea = ROC_border }
 		localization_key = "GFX_ROC_border_Member"
+	}
+
+	#Generic
+	text = {
+		localization_key = "GFX_generic_faction_small"
 	}
 }
 
