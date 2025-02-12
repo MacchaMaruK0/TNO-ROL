@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1964"
 
 	history = {
-		owner = ETR
+		owner = XIN
 		add_core_of = XIN
 		add_core_of = XDU
 		add_core_of = ETR

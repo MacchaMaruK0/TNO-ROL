@@ -8,22 +8,22 @@ spriteTypes = {
 	# }
 	spriteType = {
 		name = "GFX_idea_ROL_KMT_Amidst_the_skies_of_the_sun"
-		textureFile = "gfx/interface/ideas/national_spirits/KMT/ROL_KMT_Amidst_the_skies_of_the_sun.dds"
+		textureFile = "gfx/interface/ideas/national_spirits/KMT/ROL_KMT_Amidst_the_skies_of_the_sun.png"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_ROL_KMT_Protect_revival_base"
-		textureFile = "gfx/interface/ideas/national_spirits/KMT/ROL_KMT_Protect_revival_base.dds"
+		textureFile = "gfx/interface/ideas/national_spirits/KMT/ROL_KMT_Protect_revival_base.png"
 	}
 	
 	spriteType = {
 	 	name = "GFX_idea_ROL_KMT_heteronomy"
-		textureFile = "gfx/interface/ideas/national_spirits/KMT/ROL_KMT_heteronomy.dds"
+		textureFile = "gfx/interface/ideas/national_spirits/KMT/ROL_KMT_heteronomy.png"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_ROL_KMT_Economic_helmsman"
-       	textureFile = "gfx/interface/ideas/national_spirits/KMT/ROL_KMT_Economic_helmsman.dds"
+       	textureFile = "gfx/interface/ideas/national_spirits/KMT/ROL_KMT_Economic_helmsman.png"
 	}
 	
 	spriteType = {
@@ -88,16 +88,16 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_ROL_SUY_Inh_Ju_incident"
-		textureFile = "gfx/interface/ideas/national_spirits/SUY/ROL_SUY_Inh_Ju_incident.dds"
+		textureFile = "gfx/interface/ideas/national_spirits/SUY/ROL_SUY_Inh_Ju_incident.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ROL_SUY_overtly_agree_covertly_oppose"
-		textureFile = "gfx/interface/ideas/national_spirits/SUY/ROL_SUY_overtly_agree_covertly_oppose.dds"
+		textureFile = "gfx/interface/ideas/national_spirits/SUY/ROL_SUY_overtly_agree_covertly_oppose.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_ROL_SUY_autonomy_of_Mongolia"
-		textureFile = "gfx/interface/ideas/national_spirits/SUY/ROL_SUY_autonomy_of_Mongolia.dds"
+		textureFile = "gfx/interface/ideas/national_spirits/SUY/ROL_SUY_autonomy_of_Mongolia.png"
 	}
 }

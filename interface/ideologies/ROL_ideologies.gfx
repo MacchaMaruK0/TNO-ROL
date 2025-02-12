@@ -2,21 +2,21 @@ spriteTypes = {
 	# --- Subideologies --- #
 	spriteType = {
 		name = "GFX_ideology_paternalism_ROL_xunzheng_subtype"
-		texturefile = "gfx/interface/ideologies/paternalism_ROL_xunzheng_subtype.dds"
+		texturefile = "gfx/interface/ideologies/paternalism_ROL_xunzheng_subtype.png"
 	}
 	
 	spriteType = {
 		name = "GFX_ideology_despotism_ROL_military_vanguard_subtype"
-		texturefile = "gfx/interface/ideologies/despotism_ROL_military_vanguard_subtype.dds"
+		texturefile = "gfx/interface/ideologies/despotism_ROL_military_vanguard_subtype.png"
 	}
 
 	spriteType = {
 		name = "GFX_ideology_despotism_ROL_Tridemism_Chiangism_subtype"
-		texturefile = "gfx/interface/ideologies/despotism_ROL_Tridemism_Chiangism_subtype.dds"
+		texturefile = "gfx/interface/ideologies/despotism_ROL_Tridemism_Chiangism_subtype.png"
 	}
 
 	spriteType = {
 		name = "GFX_ideology_despotism_ROL_Tridemism_Tangkuo_system_subtype"
-		texturefile = "gfx/interface/ideologies/despotism_ROL_Tridemism_Tangkuo_system_subtype.dds"
+		texturefile = "gfx/interface/ideologies/despotism_ROL_Tridemism_Tangkuo_system_subtype.png"
 	}
 }

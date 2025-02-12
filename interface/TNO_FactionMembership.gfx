@@ -322,10 +322,10 @@ spriteTypes = {
 	###ROC
 	spriteType = {
 		name = "GFX_UOC_ROC_Leader"
-		textureFile = "gfx/interface/factions/status/GFX_UOC_ROC_Leader.dds"
+		textureFile = "gfx/interface/factions/status/GFX_UOC_ROC_Leader.png"
 	}
 	spriteType = {
 		name = "GFX_UOC_ROC_Xingyuan"
-		textureFile = "gfx/interface/factions/status/GFX_UOC_ROC_Xingyuan.dds"
+		textureFile = "gfx/interface/factions/status/GFX_UOC_ROC_Xingyuan.png"
 	}
 }
