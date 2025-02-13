@@ -1,4 +1,4 @@
-MON = {
-	color = rgb { 20 30 110 }
-	color_ui = rgb { 20 30 110 }
-}
+graphical_culture = asian_gfx
+graphical_culture_2d = asian_2d
+
+color = RGB{ 20 30 110 }
