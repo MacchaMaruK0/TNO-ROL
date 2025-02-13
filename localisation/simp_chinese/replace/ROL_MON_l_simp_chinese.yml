@@ -1,0 +1,15 @@
+﻿l_simp_chinese:
+ ###国家名
+ MON_communist:0 "蒙古人民共和国"
+ MON_communist_DEF:0 "蒙古人民共和国"
+
+ ###党派
+ MON_communist_party:0 "MPRP(蒙古人民革命党)"
+ MON_communist_party_long:0 "MPRP(蒙古人民革命党)"
+
+ #人物
+ MON_ROL_Sukhbaataryn_Yanjmaa:0 "苏赫巴托尔·彦吉玛"
+
+ 
+ ###民族精神
+ 

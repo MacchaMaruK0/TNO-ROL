@@ -1,0 +1,4 @@
+MON = {
+	color = rgb { 106 114 125 }
+	color_ui = rgb { 106 114 125 }
+}

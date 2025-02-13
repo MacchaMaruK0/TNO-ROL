@@ -1,0 +1,17 @@
+characters = {
+    MON_ROL_Sukhbaataryn_Yanjmaa = {
+		name = MON_ROL_Sukhbaataryn_Yanjmaa  #苏赫巴托尔·彦吉玛
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MON/MON_ROL_Sukhbaataryn_Yanjmaa.png"
+			}
+		}
+
+		country_leader = {
+			desc = "MON_ROL_Sukhbaataryn_Yanjmaa_desc"
+			ideology = communist_bolshevism_subtype
+			traits = {
+			}
+		}
+	}
+}
