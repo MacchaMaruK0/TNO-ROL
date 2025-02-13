@@ -108,6 +108,16 @@ spriteTypes = {
 		textureFile = "gfx/interface/factions/status/GFX_NLF.dds"
 	}
 
+	# ROC
+	spriteType = {
+		name = "GFX_UOC_ROC_Leader"
+		textureFile = "gfx/interface/factions/status/GFX_UOC_ROC_Leader.dds"
+	}
+	spriteType = {
+		name = "GFX_UOC_ROC_Xingyuan"
+		textureFile = "gfx/interface/factions/status/GFX_UOC_ROC_Xingyuan.dds"
+	}
+
 	# OFN
 	spriteType = {
 		name = "GFX_OFN_Leader"
@@ -317,15 +327,5 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ICW_PRIM_Loyalist"
 		textureFile = "gfx/interface/factions/status/GFX_ICW_PRIM_Loyalist.dds"
-	}
-	
-	###ROC
-	spriteType = {
-		name = "GFX_UOC_ROC_Leader"
-		textureFile = "gfx/interface/factions/status/GFX_UOC_ROC_Leader.png"
-	}
-	spriteType = {
-		name = "GFX_UOC_ROC_Xingyuan"
-		textureFile = "gfx/interface/factions/status/GFX_UOC_ROC_Xingyuan.png"
 	}
 }
