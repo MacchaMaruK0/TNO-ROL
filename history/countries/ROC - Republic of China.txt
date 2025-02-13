@@ -6,7 +6,7 @@ set_stability = 0.9
 set_war_support = 0.5
 add_manpower = 1000000
 #在这一部分，你需要把自己写的character招募，注意加在最后
-recruit_character = ROC_ROL_Long_Yun
+recruit_character = ROC_ROL_Li_Zongren
 recruit_character = ROC_ROL_Zhang_Junmai
 recruit_character = ROC_ROL_Zuo_Shunsheng
 recruit_character = ROC_ROL_Chen_Lifu

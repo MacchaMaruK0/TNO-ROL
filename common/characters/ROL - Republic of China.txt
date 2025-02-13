@@ -43,15 +43,15 @@ characters = {
 }
 
 characters = {
-	ROC_ROL_Long_Yun = {
-		name = ROC_ROL_Long_Yun
+	ROC_ROL_Li_Zongren = {
+		name = ROC_ROL_Li_Zongren
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ROC/Portrait_ROC_ROL_Long_Yun.dds"
+				large = "gfx/leaders/ROC/Portrait_ROC_ROL_Li_Zongren.png"
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_ROC_ROL_Long_Yun_DESC"
+			desc = "POLITICS_ROC_ROL_Li_Zongren_DESC"
 			ideology = paternalism_ROL_xunzheng_subtype
 			traits = {
 
