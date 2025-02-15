@@ -381,11 +381,11 @@ defined_text = {
 	}
 	text = {
 		trigger = { has_idea = ROC_autonomous_regions }
-		localization_key = "GFX_ROC_autonomous_regions_Member"
+		localization_key = "GFX_UOC_ROC_autonomous_regions"
 	}
 	text = {
 		trigger = { has_idea = ROC_model_province }
-		localization_key = "GFX_ROC_model_province_Member"
+		localization_key = "GFX_UOC_ROC_model_province"
 	}
 	text = {
 		trigger = { has_idea = ROC_xingyuan }
@@ -393,7 +393,7 @@ defined_text = {
 	}
 	text = {
 		trigger = { has_idea = ROC_border }
-		localization_key = "GFX_ROC_border_Member"
+		localization_key = "GFX_UOC_ROC_border_region"
 	}
 
 	#Generic
