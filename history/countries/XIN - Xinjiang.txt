@@ -28,6 +28,8 @@ recruit_character = XIN_People_Groops
 
 
 add_ideas = {
+	#Country#
+	ROC_xingyuan
 	
     #Political
 	tno_political_parties_one_party_state
