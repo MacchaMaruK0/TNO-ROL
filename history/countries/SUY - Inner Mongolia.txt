@@ -22,6 +22,7 @@ set_popularities = {
 
 add_ideas = {
         ###national spirits###
+		ROC_autonomous_regions
         ROL_SUY_overtly_agree_covertly_oppose
 		ROL_SUY_Inh_Ju_incident
 		ROL_SUY_autonomy_of_Mongolia
