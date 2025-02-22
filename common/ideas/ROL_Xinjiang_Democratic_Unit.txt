@@ -1,0 +1,44 @@
+ideas = {
+	country = {
+		ROL_XDU_go_alone = {
+			#踽踽独行
+			allowed = {
+				always = yes
+			}
+			picture = /
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		ROL_XDU_reform_old_reinvent_new = {
+			#革旧维新
+			allowed = {
+				always = no
+			}
+			picture = /
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		ROL_XDU_the_pain_of_asceticism = {
+			#苦行之路
+			allowed = {
+				always = no
+			}
+			picture = /
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		ROL_XDU_red_star_in_spacioussea = {
+			#瀚海红星
+			allowed = {
+				always = no
+			}
+			picture = /
+			removal_cost = -1
+			modifier = {
+			}
+		}
+	}
+}	
