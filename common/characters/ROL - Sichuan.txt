@@ -1,13 +1,13 @@
 characters = {
-	SIC_ROL_Lin_Jiyong = {
-		name = SIC_ROL_Lin_Jiyong
+	SIC_ROL_Yang_Sen = {
+		name = SIC_ROL_Yang_Sen
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SIC/Portrait_SIC_ROL_Lin_Jiyong.dds"
+				large = "gfx/leaders/SIC/Portrait_SIC_ROL_Yang_Sen.png"
 			}
 		}
 		country_leader = {
-			desc = "SIC_ROL_Lin_Jiyong_desc"
+			desc = "SIC_ROL_Yang_Sen_desc"
 			ideology = despotism_civilian_dictatorship_subtype
 			traits = {
 

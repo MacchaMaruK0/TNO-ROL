@@ -435,6 +435,11 @@ set_variable = {
 	tno_draft_exemptions_effectiveness = 19
 }
 
+declare_war_on = {
+	target = YUN
+	type = annex_everything
+}
+
 diplomatic_relation = {
 	country = GUX
 	relation = military_access
