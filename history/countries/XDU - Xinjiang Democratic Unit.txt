@@ -1,4 +1,4 @@
-﻿capital = 618
+capital = 618
 
 # Vacant
 set_stability = 0.9
@@ -16,7 +16,7 @@ set_politics = {
 	elections_allowed = no
 }
     
-recruit_character = XIN_seypidin_eziz	
+recruit_character = XIN_Seypidin_Eziz	
 	
 set_popularities = {
 	communist = 100

@@ -30,16 +30,16 @@ characters = {
 		}
     }
 
-	XIN_seypidin_eziz = {
-		name = XIN_seypidin_eziz
+	XIN_Seypidin_Eziz = {
+		name = XIN_Seypidin_Eziz
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/XIN/Portrait_XIN_seypidin_eziz.png"
+				large = "gfx/leaders/XIN/Portrait_XIN_Seypidin_Eziz.png"
 			}
 		}
 		country_leader = {
 			expire = "1999.1.1"
-			desc = "XIN_seypidin_eziz_desc"
+			desc = "XIN_Seypidin_Eziz_desc"
 			ideology = communist_bolshevism_subtype
 			id = -1
 		}

@@ -5,3 +5,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 }
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_ROL_XDU_title"
+		texturefile = "gfx/interface/ROL_ideologies_title/ROL_XDU_title.png"
+		legacy_lazy_load = no
+	}
+}
