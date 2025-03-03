@@ -35,7 +35,7 @@ ideas = {
 			modifier = {
 			gdp_growth_modifier = -0.05
 			consumer_goods_factor = 0.2
-			poverty_monthly_rate = -0.05
+			poverty_monthly_rate = 0.05
 			}
 		}
 		ROL_XDU_red_star_in_spacioussea = {
