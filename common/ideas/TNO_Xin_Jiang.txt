@@ -1,0 +1,34 @@
+ideas = {
+	country = {
+		ROL_XIN_heteronomy = { #受制于人（新）
+			allowed = {
+				always = yes
+			}
+			picture = /
+			removal_cost = -1
+			modifier = {
+				custom_modifier_tooltip = ROL_XIN_heteronomy_tt
+			}
+		}
+		
+		ROL_XIN_melon_and_been_all_cut = { #瓜剖豆分
+			allowed = {
+				always = yes
+			}
+			picture = /
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		
+		ROL_XIN_white_sun_fading = { #白日黯淡
+			allowed = {
+				always = yes
+			}
+			picture = /
+			removal_cost = -1
+			modifier = {
+			}
+		}
+	}
+}	

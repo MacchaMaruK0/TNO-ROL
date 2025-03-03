@@ -30,7 +30,9 @@ recruit_character = XIN_People_Groops
 add_ideas = {
 	#Country#
 	ROC_xingyuan
-	
+	ROL_XIN_heteronomy
+	ROL_XIN_melon_and_been_all_cut
+	ROL_XIN_white_sun_fading
     #Political
 	tno_political_parties_one_party_state
 	tno_religious_rights_secularism
