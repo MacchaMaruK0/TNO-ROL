@@ -16,6 +16,7 @@ state = {
 		victory_points = {
 			16856 1
 		}
+		set_demilitarized_zone = yes
 		set_state_flag = GDP_category_large_town
 		set_state_flag = GDP_regions_KMTghai
 		set_variable = { china_state_ref = 42 }
