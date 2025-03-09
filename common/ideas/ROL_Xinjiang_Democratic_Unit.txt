@@ -30,7 +30,7 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			picture = /
+			picture = ROL_XDU_the_pain_of_asceticism
 			removal_cost = -1
 			modifier = {
 			gdp_growth_modifier = -0.05
@@ -43,7 +43,7 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			picture = /
+			picture = ROL_XDU_red_star_in_spacioussea
 			removal_cost = -1
 			modifier = {
 			army_core_defence_factor = 0.1

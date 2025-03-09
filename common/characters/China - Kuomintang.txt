@@ -65,6 +65,9 @@ characters = {
 			slot = foreign_minister
 			idea_token = KMT_ROL_minister_Jiang_Jingguo_for
 			allowed = { original_tag = KMT }
+			traits = {
+				ROL_pioneer
+			}
 			ledger = civilian
 			cost = -1
 			can_be_fired = no
@@ -74,7 +77,8 @@ characters = {
 			desc = "POLITICS_CHIANG_CHINGKUO_DESC"
 			expire = "2000.1.1"
 			ideology = despotism_ROL_Tridemism_Tangkuo_system_subtype
-			traits = { }
+			traits = {
+			}
 			id = -1
 		}
 		country_leader = {
@@ -169,6 +173,9 @@ characters = {
 			slot = economy_minister
 			idea_token = KMT_ROL_minister_Yan_Jiagan_eco
 			allowed = { original_tag = KMT }
+			traits = {
+				ROL_technocrat
+			}
 			ledger = civilian
 			cost = -1
 			can_be_fired = no
@@ -199,6 +206,9 @@ characters = {
 			slot = security_minister
 			idea_token = KMT_ROL_minister_Chen_Daqing_sec
 			allowed = { original_tag = KMT }
+			traits = {
+				ROL_latecomer
+			}
 			ledger = civilian
 			cost = -1
 			can_be_fired = no
