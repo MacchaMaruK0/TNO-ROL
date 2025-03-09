@@ -100,4 +100,14 @@ spriteTypes = {
 		name = "GFX_idea_ROL_SUY_autonomy_of_Mongolia"
 		textureFile = "gfx/interface/ideas/national_spirits/SUY/ROL_SUY_autonomy_of_Mongolia.png"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_ROL_XDU_red_star_in_spacioussea"
+		textureFile = "gfx/interface/ideas/national_spirits/XDU/ROL_XDU_red_star_in_spacioussea.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ROL_XDU_the_pain_of_asceticism"
+		textureFile = "gfx/interface/ideas/national_spirits/XDU/ROL_XDU_the_pain_of_asceticism.png"
+	}
 }
