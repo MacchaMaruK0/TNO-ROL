@@ -115,8 +115,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "ROL_KMT_stabilize_the_dictator"
-		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_stabilize_the_dictator.png"
+		name = "ROL_KMT_replace_LUO"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_replace_LUO.png"
 	}
 	
 	SpriteType = {
@@ -130,8 +130,13 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "ROL_KMT_two_sun"
-		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_two_sun.png"
+		name = "ROL_KMT_national_revolution"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_national_revolution.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_military_revolution"
+		textureFile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_military_revolution.png"
 	}
 	######兰州
 	

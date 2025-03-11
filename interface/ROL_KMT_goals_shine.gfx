@@ -675,12 +675,12 @@ spriteTypes = {
         }
 		
 		spriteType = {
-		name = "ROL_KMT_stabilize_the_dictator_shine" #命名为国策ID_shine
-		texturefile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_stabilize_the_dictator.png" #与一般图标相同
+		name = "ROL_KMT_replace_LUO_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_replace_LUO.png" #与一般图标相同
 		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_stabilize_the_dictator.png" #与一般图标相同
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_replace_LUO.png" #与一般图标相同
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -692,7 +692,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_stabilize_the_dictator.png" #与一般图标相同
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_replace_LUO.png" #与一般图标相同
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -771,12 +771,12 @@ spriteTypes = {
         }
 		
 		spriteType = {
-		name = "ROL_KMT_two_sun_shine" #命名为国策ID_shine
-		texturefile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_two_sun.png" #与一般图标相同
+		name = "ROL_KMT_national_revolution_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_national_revolution.png" #与一般图标相同
 		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_two_sun.png" #与一般图标相同
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_national_revolution.png" #与一般图标相同
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -788,7 +788,39 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_two_sun.png" #与一般图标相同
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_national_revolution.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_military_revolution_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_military_revolution.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_military_revolution.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_original/ROL_KMT_military_revolution.png" #与一般图标相同
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)

@@ -594,8 +594,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_stabilize_the_dictator   #稳住独夫
-		icon = ROL_KMT_stabilize_the_dictator 
+		id = ROL_KMT_replace_LUO   #替换罗氏
+		icon = \ 
 		x = 17
 		y = 7
 		cost = 1 #这是国策花费的政治点
@@ -666,15 +666,46 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_two_sun   #二日竞空
-		icon = ROL_KMT_two_sun 
-		x = 11
+		id = ROL_KMT_national_revolution   #践行国民革命
+		icon = ROL_KMT_national_revolution 
+		x = 7
 		y = 9
 		cost = 1 #这是国策花费的政治点
         prerequisite = { 
 		focus = ROL_KMT_hexi_corridor
 		focus = ROL_KMT_establish_mechanisms
 		focus = ROL_KMT_control_prices
+		}
+		mutually_exclusive = {
+			focus = ROL_KMT_military_revolution
+		}
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_military_revolution   #掀起军事革命
+		icon = ROL_KMT_military_revolution 
+		x = 15
+		y = 9
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { 
+		focus = ROL_KMT_hexi_corridor
+		focus = ROL_KMT_establish_mechanisms
+		focus = ROL_KMT_control_prices
+		}
+		mutually_exclusive = {
+			focus = ROL_KMT_national_revolution
 		}
 		ai_will_do = { 
 			factor = 10
