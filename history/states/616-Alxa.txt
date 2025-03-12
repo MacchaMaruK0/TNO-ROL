@@ -4,7 +4,6 @@ state = {
 
 	history = {
 		owner = KMT
-		add_core_of = KMT
 		buildings = {
 			infrastructure = 1
 		}
