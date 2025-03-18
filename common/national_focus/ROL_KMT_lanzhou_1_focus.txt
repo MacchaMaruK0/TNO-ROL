@@ -495,7 +495,7 @@ focus_tree = {
 	
 	focus = {
 		id = ROL_KMT_social_anti_comi_network  #社会防共网
-		icon = ROL_KMT_delegate_firing_authority 
+		icon = ROL_KMT_social_anti_comi_network 
 		x = 27
 		y = 6
 		cost = 1 #这是国策花费的政治点
