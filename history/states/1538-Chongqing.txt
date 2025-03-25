@@ -8,8 +8,8 @@ state = {
 	}
 
 	history = {
-		owner = SIC
-		add_core_of = SIC
+		owner = CHI
+		add_core_of = CHI
 		buildings = {
 			prisons = 1
 			offices = 1
