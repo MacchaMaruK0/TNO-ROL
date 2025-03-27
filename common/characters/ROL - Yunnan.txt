@@ -1,0 +1,21 @@
+characters = {
+	YUN_ROL_Long_Shengwu = {
+		name = YUN_ROL_Long_Shengwu
+		portraits = {
+			civilian = { large = "gfx/leaders/YUN/Portrait_YUN_ROL_Long_Shengwu.png" }
+			army = {
+				large = "gfx/leaders/YUN/Portrait_YUN_ROL_Long_Shengwu.png"
+				small = "GFX_idea_Portrait_YUN_ROL_Long_Shengwu"
+			}
+		}
+		field_marshal = {
+		}
+		country_leader = {
+			desc = "POLITICS_YUN_ROL_Long_Shengwu_desc"
+			ideology = despotism_warlordism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+}	

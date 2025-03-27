@@ -2,7 +2,7 @@ capital = 2379
 
 # Vacant
 recruit_character = YUN_Generic_Vacant
-
+recruit_character = YUN_ROL_Long_Shengwu
 
 
 oob = /
@@ -12,8 +12,6 @@ set_country_flag = tno_playable_country
 
 set_stability = 0.90
 set_war_support = 0.43
-
-recruit_character = YUN_lu_han
 
 YUN_song_xilian = {
 	set_character_flag = YUN_WI_only_NRA
