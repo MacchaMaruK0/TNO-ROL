@@ -9,3 +9,4 @@ dependencies={
 	"The New Order: Last Days of Europe(CN.Ver)"
 }
 supported_version="1.14.*"
+path="C:/Users/Administrator/Documents/Paradox Interactive/Hearts of Iron IV/mod/GitHub/TNO-ROL"
