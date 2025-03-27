@@ -36,14 +36,26 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 		}
 	}
 	
-	KMT_ROL_load_lanzhou_tree = {
+	KMT_ROL_load_lanzhou_tree_1 = {
 		icon = GFX_decision_debug
 		cost = 0
 		fire_only_once = no
 		days_re_enable = 0
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision KMT_ROL_load_org_tree"
-			load_focus_tree = ROL_KMT_lanzhou_crisis_focus
+			log = "[GetDateText]: [Root.GetName]: Debug Decision KMT_ROL_load_lanzhou_tree_1"
+			load_focus_tree = ROL_KMT_lanzhou_crisis_1_focus
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	
+	KMT_ROL_load_lanzhou_tree_2 = {
+		icon = GFX_decision_debug
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 0
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision KMT_ROL_load_lanzhou_tree_2"
+			load_focus_tree = ROL_KMT_lanzhou_crisis_2_focus
 			mark_focus_tree_layout_dirty = yes
 		}
 	}

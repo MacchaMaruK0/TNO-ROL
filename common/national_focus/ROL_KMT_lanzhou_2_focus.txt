@@ -1,5 +1,5 @@
 focus_tree = {
-	id = ROL_KMT_lanzhou_crisis_focus #兰州危机国策
+	id = ROL_KMT_lanzhou_crisis_2_focus #罗列兰州危机国策
 	country = {
 		factor = 0
 		modifier = {
@@ -9,7 +9,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ROL_KMT_romplete_ones_misery   #祸不单行
+		id = ROL_KMT_romplete_ones_misery_1   #祸不单行
 		icon = ROL_KMT_romplete_ones_misery
 		x = 23
 		y = 0
@@ -32,12 +32,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ROL_KMT_wild_horses   #野马脱缰
+		id = ROL_KMT_wild_horses_1   #野马脱缰
 		icon = ROL_KMT_wild_horses 
 		x = 11
 		y = 1
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_romplete_ones_misery }
+        prerequisite = { focus = ROL_KMT_romplete_ones_misery_1 }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -53,125 +53,14 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_get_ready_to_fight   #厉兵秣马
+		id = ROL_KMT_get_ready_to_fight_1   #厉兵秣马
 		icon = ROL_KMT_get_ready_to_fight 
-		x = 11
-		y = 2
-		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_wild_horses }
-		mutually_exclusive = {
-		focus = ROL_KMT_black_pink_coming_in
-		focus = ROL_KMT_Well_dressed
-		}
-		ai_will_do = { 
-			factor = 10
-		}
-		available = { 
-		}
-		bypass = { 
-		}
-		cancel_if_invalid = yes 
-		continue_if_invalid = no 
-		available_if_capitulated = no 
-		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
-		}
-	}
-	
-	focus = {
-		id = ROL_KMT_additional_lanzhou_police  #增派警总人员
-		icon = ROL_KMT_additional_lanzhou_police 
-		x = 9
-		y = 3
-		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_get_ready_to_fight }
-		ai_will_do = { 
-			factor = 10
-		}
-		available = { 
-		}
-		bypass = { 
-		}
-		cancel_if_invalid = yes 
-		continue_if_invalid = no 
-		available_if_capitulated = no 
-		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
-		}
-	}
-	
-	focus = {
-		id = ROL_KMT_Reinforcement_troops_front  #增兵陕甘前线
-		icon = ROL_KMT_Reinforcement_troops_front 
-		x = 13
-		y = 3
-		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_get_ready_to_fight }
-		ai_will_do = { 
-			factor = 10
-		}
-		available = { 
-		}
-		bypass = { 
-		}
-		cancel_if_invalid = yes 
-		continue_if_invalid = no 
-		available_if_capitulated = no 
-		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
-		}
-	}
-	
-	focus = {
-		id = ROL_KMT_Coopt_the_garrison  #拉拢青海驻军
-		icon = ROL_KMT_Coopt_the_garrison 
-		x = 11
-		y = 4
-		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_Reinforcement_troops_front }
-		prerequisite = { focus = ROL_KMT_additional_lanzhou_police }
-		ai_will_do = { 
-			factor = 10
-		}
-		available = { 
-		}
-		bypass = { 
-		}
-		cancel_if_invalid = yes 
-		continue_if_invalid = no 
-		available_if_capitulated = no 
-		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
-		}
-	}
-	
-	focus = {
-		id = ROL_KMT_night_in_xining  #西宁一夜
-		icon = ROL_KMT_night_in_xining 
-		x = 11
-		y = 5
-		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_Coopt_the_garrison }
-		ai_will_do = { 
-			factor = 10
-		}
-		available = { 
-		}
-		bypass = { 
-		}
-		cancel_if_invalid = yes 
-		continue_if_invalid = no 
-		available_if_capitulated = no 
-		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
-		}
-	}
-	
-	focus = {
-		id = ROL_KMT_Well_dressed   #衣冠优孟
-		icon = ROL_KMT_Well_dressed 
 		x = 5
 		y = 2
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_wild_horses }
+        prerequisite = { focus = ROL_KMT_wild_horses_1 }
 		mutually_exclusive = {
-		focus = ROL_KMT_black_pink_coming_in
-		focus = ROL_KMT_get_ready_to_fight
+		focus = ROL_KMT_black_pink_coming_in_1
 		}
 		ai_will_do = { 
 			factor = 10
@@ -188,39 +77,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_qinghai_corps   #组建青海兵团
-		icon = ROL_KMT_qinghai_corps 
-		x = 3
-		y = 3
-		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_Well_dressed }
-		mutually_exclusive = {
-		focus = ROL_KMT_authorized_party
-		}
-		ai_will_do = { 
-			factor = 10
-		}
-		available = { 
-		}
-		bypass = { 
-		}
-		cancel_if_invalid = yes 
-		continue_if_invalid = no 
-		available_if_capitulated = no 
-		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
-		}
-	}
-	
-	focus = {
-		id = ROL_KMT_authorized_party   #授权青海党部
-		icon = ROL_KMT_authorized_party 
+		id = ROL_KMT_additional_lanzhou_police_1  #增派警总人员
+		icon = ROL_KMT_additional_lanzhou_police 
 		x = 7
 		y = 3
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_Well_dressed }
-		mutually_exclusive = {
-		focus = ROL_KMT_qinghai_corps
-		}
+        prerequisite = { focus = ROL_KMT_get_ready_to_fight_1 }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -236,15 +98,34 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_increase_seats   #增加参政席次
-		icon = ROL_KMT_increase_seats 
+		id = ROL_KMT_Reinforcement_troops_front_1  #监视前线
+		icon = ROL_KMT_Reinforcement_troops_front 
+		x = 3
+		y = 3
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_get_ready_to_fight_1 }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_Coopt_the_garrison_1  #拉拢青海驻军
+		icon = ROL_KMT_Coopt_the_garrison 
 		x = 5
 		y = 4
 		cost = 1 #这是国策花费的政治点
-		prerequisite = {
-			focus = ROL_KMT_authorized_party
-			focus = ROL_KMT_qinghai_corps
-		}
+        prerequisite = { focus = ROL_KMT_Reinforcement_troops_front_1 }
+		prerequisite = { focus = ROL_KMT_additional_lanzhou_police_1 }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -260,14 +141,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_fake_drama_really_done   #假戏真做
-		icon = ROL_KMT_fake_drama_really_done 
+		id = ROL_KMT_night_in_xining_1  #西宁一夜
+		icon = ROL_KMT_night_in_xining 
 		x = 5
 		y = 5
 		cost = 1 #这是国策花费的政治点
-		prerequisite = {
-			focus = ROL_KMT_increase_seats
-		}
+        prerequisite = { focus = ROL_KMT_Coopt_the_garrison_1 }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -282,16 +161,16 @@ focus_tree = {
 		}
 	}
 	
+	
 	focus = {
-		id = ROL_KMT_black_pink_coming_in   #粉墨登场
+		id = ROL_KMT_black_pink_coming_in_1   #掎挈伺诈
 		icon = ROL_KMT_black_pink_coming_in 
 		x = 17
 		y = 2
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_wild_horses }
+        prerequisite = { focus = ROL_KMT_wild_horses_1 }
 		mutually_exclusive = {
-		focus = ROL_KMT_Well_dressed
-		focus = ROL_KMT_get_ready_to_fight
+		focus = ROL_KMT_get_ready_to_fight_1
 		}
 		ai_will_do = { 
 			factor = 10
@@ -308,12 +187,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_standing_member  #纳入常任委员
+		id = ROL_KMT_standing_member_1  #纳入党部常委
 		icon = ROL_KMT_standing_member 
 		x = 15
 		y = 3
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_black_pink_coming_in }
+        prerequisite = { focus = ROL_KMT_black_pink_coming_in_1 }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -329,12 +208,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_infiltrate_the_ma_army  #渗透马氏军队
+		id = ROL_KMT_infiltrate_the_ma_army_1  #渗透马氏军队
 		icon = ROL_KMT_infiltrate_the_ma_army 
 		x = 19
 		y = 3
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_black_pink_coming_in }
+        prerequisite = { focus = ROL_KMT_black_pink_coming_in_1 }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -350,13 +229,13 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_promise_autonomous_status  #许诺自治地位
+		id = ROL_KMT_promise_autonomous_status_1  #许诺自治地位
 		icon = ROL_KMT_promise_autonomous_status 
 		x = 17
 		y = 4
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_infiltrate_the_ma_army }
-		prerequisite = { focus = ROL_KMT_standing_member }
+        prerequisite = { focus = ROL_KMT_infiltrate_the_ma_army_1 }
+		prerequisite = { focus = ROL_KMT_standing_member_1 }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -372,12 +251,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_ended_successfully  #圆满落幕
+		id = ROL_KMT_ended_successfully_1  #圆满落幕
 		icon = ROL_KMT_ended_successfully 
 		x = 17
 		y = 5
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_promise_autonomous_status }
+        prerequisite = { focus = ROL_KMT_promise_autonomous_status_1 }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -393,19 +272,16 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_end_the_warlords  #终结军阀武装
+		id = ROL_KMT_end_the_warlords_1  #终结军阀武装
 		icon = ROL_KMT_end_the_warlords 
 		x = 11
 		y = 6
 		cost = 1 #这是国策花费的政治点
         prerequisite = { 
-		focus = ROL_KMT_ended_successfully
+		focus = ROL_KMT_ended_successfully_1
 		}
 		prerequisite = { 
-		focus = ROL_KMT_night_in_xining
-		}
-		prerequisite = { 
-		focus = ROL_KMT_fake_drama_really_done
+		focus = ROL_KMT_night_in_xining_1
 		}
 		ai_will_do = { 
 			factor = 10
@@ -422,12 +298,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_red_tide   #赤潮席卷
+		id = ROL_KMT_red_tide_1   #赤潮席卷
 		icon = ROL_KMT_red_tide 
 		x = 35
 		y = 1
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_romplete_ones_misery }
+        prerequisite = { focus = ROL_KMT_romplete_ones_misery_1 }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -443,12 +319,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_reorganize_social_order   #重整社会秩序
-		icon = ROL_KMT_reorganize_social_order 
-		x = 29
+		id = ROL_KMT_identify_CPC_spy   #揪出共谍
+		icon = ROL_KMT_identify_CPC_spy 
+		x = 27
 		y = 2
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_red_tide }
+        prerequisite = { focus = ROL_KMT_red_tide_1 }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -464,12 +340,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_promote_anti_spy   #宣传防谍意识
-		icon = ROL_KMT_promote_anti_spy 
-		x = 27
+		id = ROL_KMT_better_than_indulge   #宁枉勿纵
+		icon = ROL_KMT_better_than_indulge 
+		x = 29
 		y = 3
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_reorganize_social_order }
+        prerequisite = { focus = ROL_KMT_identify_CPC_spy }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -485,12 +361,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_army_police_people   #军警民协力
-		icon = ROL_KMT_army_police_people 
-		x = 31
+		id = ROL_KMT_divide_responsibilities   #划分军民责任
+		icon = ROL_KMT_divide_responsibilities 
+		x = 25
 		y = 3
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_reorganize_social_order }
+        prerequisite = { focus = ROL_KMT_identify_CPC_spy }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -506,75 +382,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_suppressing_strikes  #压制罢课罢工
-		icon = ROL_KMT_suppressing_strikes 
-		x = 31
-		y = 4
-		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_army_police_people }
-		ai_will_do = { 
-			factor = 10
-		}
-		available = { 
-		}
-		bypass = { 
-		}
-		cancel_if_invalid = yes 
-		continue_if_invalid = no 
-		available_if_capitulated = no 
-		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
-		}
-	}
-	
-	focus = {
-		id = ROL_KMT_prohibition_of_gatherings  #全面禁止集会
-		icon = ROL_KMT_prohibition_of_gatherings 
-		x = 31
-		y = 5
-		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_suppressing_strikes }
-		ai_will_do = { 
-			factor = 10
-		}
-		available = { 
-		}
-		bypass = { 
-		}
-		cancel_if_invalid = yes 
-		continue_if_invalid = no 
-		available_if_capitulated = no 
-		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
-		}
-	}
-	
-	focus = {
-		id = ROL_KMT_encourage_reporting  #鼓励检举制度
-		icon = ROL_KMT_encourage_reporting 
-		x = 31
-		y = 6
-		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_prohibition_of_gatherings }
-		ai_will_do = { 
-			factor = 10
-		}
-		available = { 
-		}
-		bypass = { 
-		}
-		cancel_if_invalid = yes 
-		continue_if_invalid = no 
-		available_if_capitulated = no 
-		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
-		}
-	}
-	
-	focus = {
-		id = ROL_KMT_country_inside  #乡里保甲方案
+		id = ROL_KMT_country_inside_1  #乡里保甲单位
 		icon = ROL_KMT_country_inside 
-		x = 27
+		x = 25
 		y = 4
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_promote_anti_spy }
+        prerequisite = { focus = ROL_KMT_divide_responsibilities }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -590,12 +403,80 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_movement_restrictions  #限制城乡流动
-		icon = ROL_KMT_movement_restrictions 
+		id = ROL_KMT_suspend_position  #暂停法团职权
+		icon = ROL_KMT_suspend_position 
+		x = 23
+		y = 5
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_country_inside_1 }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_expand_labor_camps  #扩建劳动营
+		icon = ROL_KMT_expand_labor_camps 
+		x = 29
+		y = 4
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_better_than_indulge }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_suppressing_strikes  #压制罢工学潮
+		icon = ROL_KMT_suppressing_strikes 
 		x = 27
 		y = 5
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_country_inside }
+        prerequisite = { 
+			focus = ROL_KMT_country_inside_1
+			focus = ROL_KMT_expand_labor_camps
+			}
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+
+	focus = {
+		id = ROL_KMT_replacing_police #以军代警
+		icon = ROL_KMT_replacing_police 
+		x = 31
+		y = 5
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { 
+			focus = ROL_KMT_expand_labor_camps
+			}
 		ai_will_do = { 
 			factor = 10
 		}
@@ -611,12 +492,17 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_delegate_firing_authority  #下放开火权限
+		id = ROL_KMT_social_anti_comi_network_1  #社会防共网
 		icon = ROL_KMT_delegate_firing_authority 
 		x = 27
 		y = 6
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_movement_restrictions }
+        prerequisite = { 
+			focus = ROL_KMT_suspend_position
+			focus = ROL_KMT_suppressing_strikes
+
+			}
+		prerequisite = { focus = ROL_KMT_replacing_police }	
 		ai_will_do = { 
 			factor = 10
 		}
@@ -632,12 +518,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_ensure_safety   #确保专员安全
-		icon = ROL_KMT_ensure_safety 
+		id = ROL_KMT_take_over_communication_1   #接管通讯
+		icon = ROL_KMT_take_over_communication 
 		x = 35
 		y = 2
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_red_tide }
+        prerequisite = { focus = ROL_KMT_red_tide_1 }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -653,33 +539,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_painfully_express_interests   #痛陈利害
-		icon = ROL_KMT_painfully_express_interests 
-		x = 35
-		y = 3
-		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_ensure_safety }
-		ai_will_do = { 
-			factor = 10
-		}
-		available = { 
-		}
-		bypass = { 
-		}
-		cancel_if_invalid = yes 
-		continue_if_invalid = no 
-		available_if_capitulated = no 
-		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
-		}
-	}
-	
-	focus = {
-		id = ROL_KMT_increase_security_forces   #增加安保力量
+		id = ROL_KMT_increase_security_forces_1   #增加安保
 		icon = ROL_KMT_increase_security_forces 
 		x = 33
-		y = 4
+		y = 3
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_painfully_express_interests }
+        prerequisite = { focus = ROL_KMT_take_over_communication_1 }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -695,12 +560,34 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_notimed_transfer   #不定时转移
+		id = ROL_KMT_notimed_transfer_1   #定时转移
 		icon = ROL_KMT_notimed_transfer 
 		x = 37
+		y = 3
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_take_over_communication_1 }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+
+	focus = {
+		id = ROL_KMT_select_homework_1   #维持遴选作业
+		icon = ROL_KMT_select_homework 
+		x = 35
 		y = 4
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_painfully_express_interests }
+        prerequisite = { focus = ROL_KMT_notimed_transfer_1 }
+		prerequisite = { focus = ROL_KMT_increase_security_forces_1 }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -716,13 +603,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_restrict_activity   #限制行动
+		id = ROL_KMT_restrict_activity_1   #限制行动
 		icon = ROL_KMT_restrict_activity 
-		x = 35
+		x = 33
 		y = 5
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_notimed_transfer }
-		prerequisite = { focus = ROL_KMT_increase_security_forces }
+        prerequisite = { focus = ROL_KMT_select_homework_1 }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -738,12 +624,34 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_delay_change   #以拖待变
+		id = ROL_KMT_delay_change_1   #以拖待变
 		icon = ROL_KMT_delay_change 
+		x = 37
+		y = 5
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_select_homework_1 }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+
+	focus = {
+		id = ROL_KMT_report_central_1   #汇报中央
+		icon = ROL_KMT_report_central 
 		x = 35
 		y = 6
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_restrict_activity }
+        prerequisite = { focus = ROL_KMT_delay_change_1 }
+		prerequisite = { focus = ROL_KMT_restrict_activity_1 }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -759,12 +667,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_summon_reserve_officers   #召集预备军官
-		icon = ROL_KMT_summon_reserve_officers 
-		x = 41
+		id = ROL_KMT_mend_sheep_is_lost_1   #亡羊补牢
+		icon = ROL_KMT_mend_sheep_is_lost 
+		x = 43
 		y = 2
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_red_tide }
+        prerequisite = { focus = ROL_KMT_red_tide_1 }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -780,12 +688,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_political_priority   #政治作战优先
-		icon = ROL_KMT_political_priority 
+		id = ROL_KMT_summon_reserve_officers   #召集预备军人
+		icon = ROL_KMT_summon_reserve_officers 
 		x = 41
 		y = 3
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_summon_reserve_officers }
+        prerequisite = { focus = ROL_KMT_mend_sheep_is_lost_1 }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -801,12 +709,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_supply_sufficient #保证补给充足
+		id = ROL_KMT_supply_sufficient_1 #保证物资补给
 		icon = ROL_KMT_supply_sufficient
-		x = 39
-		y = 4
+		x = 45
+		y = 3
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_political_priority }
+        prerequisite = { focus = ROL_KMT_mend_sheep_is_lost_1 }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -822,12 +730,13 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_reduce_civilian_losses #减少平民损失
-		icon = ROL_KMT_reduce_civilian_losses
+		id = ROL_KMT_mobilize_RMA #动员革军会
+		icon = ROL_KMT_mobilize_RMA
 		x = 43
 		y = 4
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_political_priority }
+        prerequisite = { focus = ROL_KMT_summon_reserve_officers }
+		prerequisite = { focus = ROL_KMT_supply_sufficient_1 }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -841,15 +750,14 @@ focus_tree = {
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
 		}
 	}
-	
+
 	focus = {
-		id = ROL_KMT_mobilize_revolution_youth   #动员革命青年
-		icon = ROL_KMT_mobilize_revolution_youth 
-		x = 41
+		id = ROL_KMT_mobilize_youth_solider #动员青年军人
+		icon = ROL_KMT_mobilize_youth_solider
+		x = 39
 		y = 5
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_reduce_civilian_losses }
-		prerequisite = { focus = ROL_KMT_supply_sufficient }
+        prerequisite = { focus = ROL_KMT_mobilize_RMA }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -863,14 +771,58 @@ focus_tree = {
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
 		}
 	}
-	
+
 	focus = {
-		id = ROL_KMT_mobilize_ma_military   #调集马系军队
-		icon = ROL_KMT_mobilize_ma_military 
-		x = 41
+		id = ROL_KMT_recruiting_doctors_1 #征召军中医兵
+		icon = ROL_KMT_recruiting_doctors
+		x = 43
+		y = 5
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_mobilize_RMA }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+
+	focus = {
+		id = ROL_KMT_establish_eliminate_team #建立锄奸总队
+		icon = ROL_KMT_establish_eliminate_team
+		x = 47
+		y = 5
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_mobilize_RMA }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+
+	focus = {
+		id = ROL_KMT_army_police_people_1 #军民协力
+		icon = ROL_KMT_army_police_people
+		x = 43
 		y = 6
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_mobilize_revolution_youth }
+        prerequisite = { focus = ROL_KMT_mobilize_youth_solider }
+		prerequisite = { focus = ROL_KMT_recruiting_doctors_1 }
+		prerequisite = { focus = ROL_KMT_establish_eliminate_team }
 		ai_will_do = { 
 			factor = 10
 		}
@@ -886,15 +838,36 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ROL_KMT_guard_the_revive_base   #拱卫复兴基地
-		icon = ROL_KMT_guard_the_revive_base 
+		id = ROL_KMT_armageddon_1   #最终之决战
+		icon = ROL_KMT_armageddon 
 		x = 35
 		y = 7
 		cost = 1 #这是国策花费的政治点
-        prerequisite = { focus = ROL_KMT_delay_change }
-		prerequisite = { focus = ROL_KMT_mobilize_ma_military }
-		prerequisite = { focus = ROL_KMT_delegate_firing_authority }
-		prerequisite = { focus = ROL_KMT_encourage_reporting }
+		prerequisite = { focus = ROL_KMT_report_central_1 }
+		prerequisite = { focus = ROL_KMT_social_anti_comi_network_1 }
+		prerequisite = { focus = ROL_KMT_army_police_people_1 }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+
+	focus = {
+		id = ROL_KMT_guard_the_revive_base_1   #拱卫复兴基地
+		icon = ROL_KMT_guard_the_revive_base 
+		x = 23
+		y = 8
+		cost = 1 #这是国策花费的政治点
+		prerequisite = { focus = ROL_KMT_armageddon_1 }
+		prerequisite = { focus = ROL_KMT_end_the_warlords_1 }
 		ai_will_do = { 
 			factor = 10
 		}
