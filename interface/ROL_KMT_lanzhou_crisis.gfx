@@ -5,115 +5,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/Orchid_Badge.png"
 	}
 	
-	#spriteType = {
-		#name = GFX_ROL_KMT_lanzhou_big
-		#texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_big.png"
-	#}
-	
-	spriteType = {
-		name = GFX_ROL_KMT_lanzhou_loss_1
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_loss_1.png"
+	spriteType = { #基础素材
+		name = GFX_ROL_KMT_lanzhou_outer_frame_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_outer_frame_icon.png"
 	}
 	
-	spriteType = {
-		name = GFX_ROL_KMT_lanzhou_loss_2
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_loss_2.png"
-	}
-	
-	spriteType = {
-		name = GFX_ROL_KMT_ma_clique_icon
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_ma_clique_icon.png"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = GFX_ROL_KMT_lanzhou_icon
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_icon.png"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = { #西郊
-		name = GFX_ROL_KMT_lanzhou_west_country_icon
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_west_country_icon.png"
-	}
-	
-	spriteType = { #火车站
-		name = GFX_ROL_KMT_lanzhou_train_station_icon
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_train_station_icon.png"
-	}
-	
-	spriteType = { #文本
-		name = GFX_ROL_KMT_lanzhou_txt_icon
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_txt_icon.png"
-	}
-	
-	spriteType = { #城中
-		name = GFX_ROL_KMT_lanzhou_center_country_icon
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_center_country_icon.png"
-	}
-	
-	spriteType = { #外围
-		name = GFX_ROL_KMT_lanzhou_outside_country_icon
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_outside_country_icon.png"
-	}
-	
-	spriteType = { #东郊
-		name = GFX_ROL_KMT_lanzhou_east_country_icon
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_east_country_icon.png"
-	}
-	
-	spriteType = { #省政府
-		name = GFX_ROL_KMT_lanzhou_province_goverment_icon
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_province_goverment_icon.png"
-	}
-	
-	spriteType = { #忠烈祠
-		name = GFX_ROL_KMT_lanzhou_martyrs_shrine_icon
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_martyrs_shrine_icon.png"
-	}
-	
-	spriteType = { #河北医院
-		name = GFX_ROL_KMT_lanzhou_rivernorth_hospital_icon
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_rivernorth_hospital_icon.png"
-	}
-	
-	spriteType = { #贸易公司
-		name = GFX_ROL_KMT_lanzhou_market_company_icon
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_market_icon.png"
-	}
-	
-	spriteType = { #农业学院
-		name = GFX_ROL_KMT_lanzhou_agriculture_school_icon
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_agriculture_school_icon.png"
-	}
-	
-	spriteType = { #中山桥
-		name = GFX_ROL_KMT_lanzhou_zhongshan_bridge_icon
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_zhongshan_bridge_icon.png"
-	}
-	
-	spriteType = { #西北大厦
-		name = GFX_ROL_KMT_lanzhou_northwest_edifice_icon
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_northwest_edifice_icon.png"
-	}
-	
-	spriteType = { #西北公路局
-		name = GFX_ROL_KMT_lanzhou_northwest_highway_icon
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_northwest_highway_icon.png"
-	}
-	
-	spriteType = { #飞行场
-		name = GFX_ROL_KMT_lanzhou_airport_icon
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_airport_icon.png"
-	}
-	
-	spriteType = { #警察总局
-		name = GFX_ROL_KMT_lanzhou_police_station_icon
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_police_station_icon.png"
-	}
-	
-	spriteType = { #河北分局
-		name = GFX_ROL_KMT_lanzhou_rivernorth_police_station_icon
-		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_rivernorth_police_station_icon.png"
+	spriteType = { #例图1
+		name = GFX_ROL_KMT_lanzhou_example_1_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_example_1_icon.png"
 	}
 }	

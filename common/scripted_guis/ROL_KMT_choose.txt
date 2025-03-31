@@ -1,4 +1,4 @@
-###紧急状态，暂时冻结###scripted_gui = {
+scripted_gui = {
     ROL_KMT_Choose_Director_ui_window = {
 		context_type = decision_category
 		window_name = "ROL_KMT_Choose_Director_ui"

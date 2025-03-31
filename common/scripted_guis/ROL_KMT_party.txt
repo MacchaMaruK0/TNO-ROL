@@ -1,4 +1,4 @@
-###紧急状态，暂时冻结###scripted_gui = {
+scripted_gui = {
     ROL_KMT_Party_AccessButton = {
 		window_name = "ROL_KMT_Party_AccessButton"
 		context_type = player_context
