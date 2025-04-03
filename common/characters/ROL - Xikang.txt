@@ -3,7 +3,7 @@ characters = {
 		name = XIK_ROL_Liu_Wenhui
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/XIK/Portrait_XIK_ROL_Liu_Wenhui.dds"
+				large = "gfx/leaders/XIK/Portrait_XIK_ROL_Liu_Wenhui.png"
 			}
 		}
 		country_leader = {
