@@ -57,5 +57,80 @@ guiTypes = {
 			shortcut = "ESCAPE"
 		}
 		
+		containerWindowType = {
+			name = "ROL_KMT_GUI_lanzhou_affiliated_panel"
+			size = { height = 400 width = 450 } 
+			position = { x = 1220 y = 0 }
+			show_sound = open_sub_window
+			moveable = no
+			clipping = no
+			
+			background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window_1b_no_border"
+			}
+			
+			iconType = {
+            name = "ROL_KMT_lanzhou_manpower_icon"
+            position = { x = 27 y = 27 }
+            spriteType = "GFX_ROL_KMT_lanzhou_manpower_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_manpower_icon_tt
+			}
+			
+			iconType = {
+            name = "ROL_KMT_lanzhou_suppor_icon"
+            position = { x = 23 y = 107 }
+            spriteType = "GFX_ROL_KMT_lanzhou_suppor_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_suppor_icon_tt
+			}
+			
+			iconType = { 
+            # 人力 bar
+            name = "ROL_KMT_lanzhou_manpower" 
+            position = { x = 89 y = 44 } 
+            spriteType = "GFX_ROL_KMT_manpower_bill"
+			pdx_tooltip = ROL_KMT_manpower_txt
+			}
+			
+			iconType = { 
+            # 物资 bar
+            name = "ROL_KMT_lanzhou_suppor" 
+            position = { x = 89 y = 104 } 
+            spriteType = "GFX_ROL_KMT_lanzhou_suppor_bill"
+			pdx_tooltip = ROL_KMT_suppor_txt
+			}
+			
+			iconType = {
+			# 普通外框 - 人力
+            name = "ROL_KMT_lanzhou_outer_1_icon"
+            position = { x = 85 y = 40 }
+            spriteType = "GFX_ROL_KMT_lanzhou_outer_1_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_outer_1_tt
+			}
+			
+			iconType = {
+			# 闪烁外框 - 人力
+            name = "ROL_KMT_lanzhou_outer_2_icon"
+            position = { x = 85 y = 40 }
+            spriteType = "GFX_ROL_KMT_lanzhou_outer_2_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_outer_2_tt
+			}
+			
+			iconType = {
+			# 普通外框 - 物资
+            name = "ROL_KMT_lanzhou_outer_3_icon"
+            position = { x = 85 y = 100 }
+            spriteType = "GFX_ROL_KMT_lanzhou_outer_1_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_outer_3_tt
+			}
+			
+			iconType = {
+			# 闪烁外框 - 物资
+            name = "ROL_KMT_lanzhou_outer_4_icon"
+            position = { x = 85 y = 100 }
+            spriteType = "GFX_ROL_KMT_lanzhou_outer_2_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_outer_4_tt
+			}
+		}
 	}		
 }

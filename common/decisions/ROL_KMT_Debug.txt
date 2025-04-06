@@ -120,6 +120,30 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 		}
     }
 	
+	ROL_KMT_lanzhou_crisis_debug_1 = {
+	icon = GFX_decision_debug
+	fire_only_once = no
+	is_debug = yes
+		complete_effect = {
+			set_temp_variable ={
+			ROL_KMT_lanzhou_manpower_num_temp = -60
+			}
+			ROL_KMT_lanzhou_manpower = yes
+		}
+    }
+	
+	ROL_KMT_lanzhou_crisis_debug_2 = {
+	icon = GFX_decision_debug
+	fire_only_once = no
+	is_debug = yes
+		complete_effect = {
+			set_temp_variable ={
+			ROL_KMT_lanzhou_suppor_num_temp = -60
+			}
+			ROL_KMT_lanzhou_suppor = yes
+		}
+    }
+	
 	ROL_KMT_lanzhou_crisis_loss_1 = {
 	icon = GFX_decision_debug
 	fire_only_once = no

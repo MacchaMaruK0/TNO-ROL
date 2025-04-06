@@ -14,4 +14,48 @@ spriteTypes = {
 		name = GFX_ROL_KMT_lanzhou_example_1_icon
 		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_example_1_icon.png"
 	}
+	
+	spriteType = { #普通外框1
+		name = GFX_ROL_KMT_lanzhou_outer_1_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_outer_1_icon.png"
+	}
+	
+	frameAnimatedSpriteType = {
+        name = "GFX_ROL_KMT_lanzhou_outer_2_icon"
+        texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_outer_2_icon.png"
+        noOfFrames = 2
+		animation_rate_fps = 8
+		looping = yes
+		play_on_show = yes
+    }
+	
+	spriteType = { #人力
+		name = GFX_ROL_KMT_lanzhou_manpower_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_manpower_icon.png"
+	}
+	
+	spriteType = { #物资
+		name = GFX_ROL_KMT_lanzhou_suppor_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_suppor_icon.png"
+	}
+	
+	progressbartype = {
+		name = "GFX_ROL_KMT_manpower_bill"
+		textureFile1 = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_manpower_bill_full.png"
+		textureFile2 = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_bill_empty.png"
+		size = { x = 178 y = 19 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+		steps = 100
+	}
+	
+	progressbartype = {
+		name = "GFX_ROL_KMT_lanzhou_suppor_bill"
+		textureFile1 = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_suppor_bill_full.png"
+		textureFile2 = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_bill_empty.png"
+		size = { x = 178 y = 19 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+		steps = 100
+	}
 }	

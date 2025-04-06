@@ -76,5 +76,31 @@ scripted_gui = {
 				}
 			}
 		}
+		
+		triggers = {
+			ROL_KMT_lanzhou_outer_1_icon_visible = {
+				check_variable = { ROL_KMT_lanzhou_manpower_num > 30.1 }
+			}
+			ROL_KMT_lanzhou_outer_2_icon_visible = {
+				check_variable = { ROL_KMT_lanzhou_manpower_num < 30.1 }
+			}
+			
+			ROL_KMT_lanzhou_outer_3_icon_visible = {
+				check_variable = { ROL_KMT_lanzhou_suppor_num > 45.1 }
+			}
+			ROL_KMT_lanzhou_outer_4_icon_visible = {
+				check_variable = { ROL_KMT_lanzhou_suppor_num < 45.1 }
+			}
+		}
+		
+		properties = {
+			ROL_KMT_lanzhou_manpower = {
+				frame = ROL_KMT_lanzhou_manpower_num
+			}
+			
+			ROL_KMT_lanzhou_suppor = {
+				frame = ROL_KMT_lanzhou_suppor_num
+			}
+		}
 	}
 }	

@@ -1,0 +1,57 @@
+ROL_KMT_lanzhou_manpower = {
+    #增加兰州危机人力
+    add_to_variable = {
+        var = ROL_KMT_lanzhou_manpower_num #人力变量
+        value = ROL_KMT_lanzhou_manpower_num_temp #改变人力变量
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_lanzhou_manpower_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_lanzhou_manpower_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_lanzhou_manpower_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_lanzhou_manpower_num
+		min = 1
+		max = 100
+	}
+}
+
+ROL_KMT_lanzhou_suppor = {
+    #增加兰州危机物资
+    add_to_variable = {
+        var = ROL_KMT_lanzhou_suppor_num #物资变量
+        value = ROL_KMT_lanzhou_suppor_num_temp #改变物资变量
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_lanzhou_suppor_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_lanzhou_suppor_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_lanzhou_suppor_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_lanzhou_suppor_num
+		min = 1
+		max = 100
+	}
+}

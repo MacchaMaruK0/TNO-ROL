@@ -159,4 +159,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/texticon/ROL_KMT_red_blood/ROL_KMT_choose_texticon.png"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_man_power_y_texticon" #兰州危机人力的texticon
+		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/man_power_y_texticon.dds"
+		legacy_lazy_load = no
+	}
 }

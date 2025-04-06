@@ -50,6 +50,13 @@ on_actions = { #
 				set_variable = {
 					ROL_KMT_add_level_points = 25
 				}
+				set_variable = {
+					ROL_KMT_lanzhou_manpower_num = 80
+				}
+				
+				set_variable = {
+					ROL_KMT_lanzhou_suppor_num = 80
+				}
 				##杂项法律
 				misc_law_ROL_KMT_startup = yes
 			}
