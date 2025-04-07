@@ -101,6 +101,14 @@ scripted_gui = {
 			ROL_KMT_lanzhou_suppor = {
 				frame = ROL_KMT_lanzhou_suppor_num
 			}
+			
+			ROL_KMT_lanzhou_control = {
+				frame = ROL_KMT_lanzhou_control_num
+			}
+			
+			ROL_KMT_lanzhou_ruin = {
+				frame = ROL_KMT_lanzhou_ruin_num
+			}
 		}
 	}
 }	

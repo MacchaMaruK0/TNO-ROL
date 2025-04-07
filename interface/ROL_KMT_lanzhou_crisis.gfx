@@ -43,7 +43,7 @@ spriteTypes = {
 		name = "GFX_ROL_KMT_manpower_bill"
 		textureFile1 = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_manpower_bill_full.png"
 		textureFile2 = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_bill_empty.png"
-		size = { x = 178 y = 19 }
+		size = { x = 268 y = 19 }
 		effectFile = "gfx/FX/progress.lua"
 		horizontal = yes
 		steps = 100
@@ -53,9 +53,29 @@ spriteTypes = {
 		name = "GFX_ROL_KMT_lanzhou_suppor_bill"
 		textureFile1 = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_suppor_bill_full.png"
 		textureFile2 = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_bill_empty.png"
-		size = { x = 178 y = 19 }
+		size = { x = 268 y = 19 }
 		effectFile = "gfx/FX/progress.lua"
 		horizontal = yes
+		steps = 100
+	}
+	
+	progressbartype = {
+		name = "GFX_ROL_KMT_lanzhou_control_bill"
+		textureFile1 = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_control_full.png"
+		textureFile2 = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_control_empty.png"
+		size = { x = 144 y = 144 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+		steps = 100
+	}
+	
+	progressbartype = {
+		name = "GFX_ROL_KMT_lanzhou_ruin_bill"
+		textureFile1 = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_ruin_full.png"
+		textureFile2 = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_ruin_empty.png"
+		size = { x = 119 y = 141 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
 		steps = 100
 	}
 }	

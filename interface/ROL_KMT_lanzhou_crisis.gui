@@ -48,18 +48,9 @@ guiTypes = {
             #pdx_tooltip = ROL_KMT_lanzhou_train_station_tt
         }
 		
-		buttonType = {
-			name = "ROL_KMT_close"
-			position = { x = -60 y = 15 }
-			orientation = "UPPER_RIGHT"
-			spriteType = "GFX_Kartenhaus_CloseButton"
-			clicksound = click_default
-			shortcut = "ESCAPE"
-		}
-		
 		containerWindowType = {
 			name = "ROL_KMT_GUI_lanzhou_affiliated_panel"
-			size = { height = 400 width = 450 } 
+			size = { height = 475 width = 412 } 
 			position = { x = 1220 y = 0 }
 			show_sound = open_sub_window
 			moveable = no
@@ -72,14 +63,14 @@ guiTypes = {
 			
 			iconType = {
             name = "ROL_KMT_lanzhou_manpower_icon"
-            position = { x = 27 y = 27 }
+            position = { x = 36 y = 113 }
             spriteType = "GFX_ROL_KMT_lanzhou_manpower_icon"
             pdx_tooltip = ROL_KMT_lanzhou_manpower_icon_tt
 			}
 			
 			iconType = {
             name = "ROL_KMT_lanzhou_suppor_icon"
-            position = { x = 23 y = 107 }
+            position = { x = 30 y = 227 }
             spriteType = "GFX_ROL_KMT_lanzhou_suppor_icon"
             pdx_tooltip = ROL_KMT_lanzhou_suppor_icon_tt
 			}
@@ -87,7 +78,7 @@ guiTypes = {
 			iconType = { 
             # 人力 bar
             name = "ROL_KMT_lanzhou_manpower" 
-            position = { x = 89 y = 44 } 
+            position = { x = 99 y = 127 } 
             spriteType = "GFX_ROL_KMT_manpower_bill"
 			pdx_tooltip = ROL_KMT_manpower_txt
 			}
@@ -95,7 +86,7 @@ guiTypes = {
 			iconType = { 
             # 物资 bar
             name = "ROL_KMT_lanzhou_suppor" 
-            position = { x = 89 y = 104 } 
+            position = { x = 99 y = 229 } 
             spriteType = "GFX_ROL_KMT_lanzhou_suppor_bill"
 			pdx_tooltip = ROL_KMT_suppor_txt
 			}
@@ -103,7 +94,7 @@ guiTypes = {
 			iconType = {
 			# 普通外框 - 人力
             name = "ROL_KMT_lanzhou_outer_1_icon"
-            position = { x = 85 y = 40 }
+            position = { x = 95 y = 123 }
             spriteType = "GFX_ROL_KMT_lanzhou_outer_1_icon"
             pdx_tooltip = ROL_KMT_lanzhou_outer_1_tt
 			}
@@ -111,7 +102,7 @@ guiTypes = {
 			iconType = {
 			# 闪烁外框 - 人力
             name = "ROL_KMT_lanzhou_outer_2_icon"
-            position = { x = 85 y = 40 }
+            position = { x = 95 y = 123 }
             spriteType = "GFX_ROL_KMT_lanzhou_outer_2_icon"
             pdx_tooltip = ROL_KMT_lanzhou_outer_2_tt
 			}
@@ -119,7 +110,7 @@ guiTypes = {
 			iconType = {
 			# 普通外框 - 物资
             name = "ROL_KMT_lanzhou_outer_3_icon"
-            position = { x = 85 y = 100 }
+            position = { x = 95 y = 225 }
             spriteType = "GFX_ROL_KMT_lanzhou_outer_1_icon"
             pdx_tooltip = ROL_KMT_lanzhou_outer_3_tt
 			}
@@ -127,10 +118,57 @@ guiTypes = {
 			iconType = {
 			# 闪烁外框 - 物资
             name = "ROL_KMT_lanzhou_outer_4_icon"
-            position = { x = 85 y = 100 }
+            position = { x = 95 y = 225 }
             spriteType = "GFX_ROL_KMT_lanzhou_outer_2_icon"
             pdx_tooltip = ROL_KMT_lanzhou_outer_4_tt
 			}
+			
+			iconType = { 
+            # 控制力度 bar
+            name = "ROL_KMT_lanzhou_control" 
+            position = { x = 50 y = 305 } 
+            spriteType = "GFX_ROL_KMT_lanzhou_control_bill"
+			pdx_tooltip = ROL_KMT_control_txt
+			}
+			
+			iconType = { 
+            # 毁坏度 bar
+            name = "ROL_KMT_lanzhou_ruin" 
+            position = { x = 262 y = 305 } 
+            spriteType = "GFX_ROL_KMT_lanzhou_ruin_bill"
+			#pdx_tooltip = ROL_KMT_ruin_txt
+			}
+			
+			iconType = {
+			name = "ROL_KMT_lanzhou_control_infor"
+			position = { x = 12 y = 15 }
+			spriteType = "GFX_Burgundy_GUI_Info_Button"
+			pdx_tooltip = ROL_KMT_lanzhou_control_info
+			pdx_tooltip_delayed = ROL_KMT_lanzhou_control_delayed_info
+			}
+			
+			buttonType = {
+			name = "ROL_KMT_close"
+			position = { x = -60 y = 15 }
+			orientation = "UPPER_RIGHT"
+			spriteType = "GFX_Kartenhaus_CloseButton"
+			clicksound = click_default
+			shortcut = "ESCAPE"
+			}
 		}
+		
+		containerWindowType = {
+			name = "ROL_KMT_GUI_lanzhou_use_panel"
+			size = { height = 455 width = 412 } 
+			position = { x = 1220 y = 470 }
+			show_sound = open_sub_window
+			moveable = no
+			clipping = no
+			
+			background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window_1b_no_border"
+			}
+		}	
 	}		
 }

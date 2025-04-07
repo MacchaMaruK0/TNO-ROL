@@ -592,7 +592,10 @@
  ROL_KMT_lanzhou_outer_2_tt: "当前总共可支配的£GFX_ROL_KMT_man_power_y_texticon §Y可供调遣人力§!为§e[?ROL_KMT_lanzhou_manpower_num]%§!\n£GFX_ROL_KMT_man_power_y_texticon §Y可供调遣人力§!§G越多§!，意味着我们能在每个地区进行的行动§G越多§!，同理，若人力告急，则状况会持续恶化，因此，尽量保持人力高于§e衰退阈值§!，一旦低于§e衰退阈值§!，进度框会通过§R闪§!§B烁§!提示。\n§W你已低于§!§e阈值§!§W，请尽快回升，以挽回局势。§!"
  ROL_KMT_lanzhou_outer_3_tt: "当前总共可支配的£GFX_ROL_KMT_red_blood_supply §Y可供使用物资§!为§G[?ROL_KMT_lanzhou_suppor_num]%§!\n£GFX_ROL_KMT_red_blood_supply §Y可供使用物资§!§G越多§!，意味着我们能在每个地区投入并维持行动规模§G越大§!，同理，若物资告急，则行动效果会大打折扣乃至于无法展开行动，因此，尽量保持物资高于§e匮乏阈值§!，一旦低于§e匮乏阈值§!，进度框会通过§R闪§!§B烁§!提示。\n£GFX_ROL_KMT_red_blood_supply §Y可供使用物资§!的§e匮乏阈值§!是§R45%§!"
  ROL_KMT_lanzhou_outer_4_tt: "当前总共可支配的£GFX_ROL_KMT_red_blood_supply §Y可供使用物资§!为§e[?ROL_KMT_lanzhou_suppor_num]%§!\n£GFX_ROL_KMT_red_blood_supply §Y可供使用物资§!§G越多§!，意味着我们能在每个地区投入并维持行动规模§G越大§!，同理，若物资告急，则行动效果会大打折扣乃至于无法展开行动，因此，尽量保持物资高于§e匮乏阈值§!，一旦低于§e匮乏阈值§!，进度框会通过§R闪§!§B烁§!提示。\n§W你已低于§!§e阈值§!§W，请尽快回升，以继续行动。§!"
- 
+ ROL_KMT_control_txt: "当前，我们对这一地区的控制度是：[?ROL_KMT_lanzhou_control_num]%\n目前的情况是：[Get_ROL_KMT_control_tt]"
+ ROL_KMT_lanzhou_control_tt_1: "£GFX_KMT_cpc_icon §R敌人§!§e占据上风§!"
+ ROL_KMT_lanzhou_control_tt_2: "£GFX_KMT_kmt_icon §B势均§!£GFX_KMT_cpc_icon §R力敌§!"
+ ROL_KMT_lanzhou_control_tt_3: "£GFX_KMT_kmt_icon §B我们§!§G占据上风§!"
  
  ###党务GUI
  ROL_KMT_party_member_tt: "这一常委席位被[ROL_KMT_party_faction_1]§R所占据§!"

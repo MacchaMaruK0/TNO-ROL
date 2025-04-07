@@ -1,0 +1,28 @@
+defined_text = {
+	name = Get_ROL_KMT_control_tt
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_control_num < 33.3 }
+		}
+		localization_key = ROL_KMT_lanzhou_control_tt_1
+	}
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_lanzhou_control_num > 33.3
+			}
+		    check_variable = {				
+			            ROL_KMT_lanzhou_control_num < 66.6
+			}
+		}
+		localization_key = ROL_KMT_lanzhou_control_tt_2
+	}
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_lanzhou_control_num > 66.6
+			}
+		}
+		localization_key = ROL_KMT_lanzhou_control_tt_3
+	}
+}
