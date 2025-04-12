@@ -799,3 +799,21 @@ country_event = {
 		name = kmt.30.a 
 	}
 }
+
+country_event = { 
+	id = kmt.44
+	title = kmt.44.t 
+	desc = kmt.44.d 
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.44"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.44.a 
+	}
+}

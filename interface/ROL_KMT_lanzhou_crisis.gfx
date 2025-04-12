@@ -20,6 +20,38 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_outer_1_icon.png"
 	}
 	
+	spriteType = { #联合抗战演讲
+		name = GFX_ROL_KMT_lanzhou_speech_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_speech_icon.png"
+	}
+	
+	spriteType = { #成立青年服务总队
+		name = GFX_ROL_KMT_lanzhou_youth_server_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_youth_server_icon.png"
+	}
+	
+	spriteType = { #封禁亲共刊物
+		name = GFX_ROL_KMT_lanzhou_banned_cpc_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_banned_cpc_icon.png"
+	}
+	
+	spriteType = { #联络社会贤达
+		name = GFX_ROL_KMT_lanzhou_liaise_dignitaries_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_liaise_dignitaries_icon.png"
+	}
+	
+	spriteType = { #渗透学运工运
+		name = GFX_ROL_KMT_lanzhou_osmotic_movements_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_osmotic_movements_icon.png"
+	}
+	
+	spriteType = { #组织三青团宣传队
+		name = GFX_ROL_KMT_lanzhou_propaganda_teams_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_propaganda_teams_icon.png"
+	}
+	
+	
+	
 	frameAnimatedSpriteType = {
         name = "GFX_ROL_KMT_lanzhou_outer_2_icon"
         texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_outer_2_icon.png"

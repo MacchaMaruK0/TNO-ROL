@@ -351,14 +351,22 @@ focus_tree = {
 		ai_will_do = { 
 			factor = 10
 		}
-		available = { 
+		available = {
 		}
-		bypass = { 
+		bypass = {
+			custom_trigger_tooltip = {
+			has_country_flag = ROL_KMT_first_end
+			tooltip = ROL_KMT_ROC_first_end_tt	
+			}
 		}
 		cancel_if_invalid = yes 
 		continue_if_invalid = no 
 		available_if_capitulated = no 
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		custom_effect_tooltip = ROL_KMT_promote_spy_tt_1
+		country_event = kmt.44
+		custom_effect_tooltip = ROL_KMT_promote_spy_tt_2
+		custom_effect_tooltip = ROL_KMT_promote_spy_tt
 		}
 	}
 	
