@@ -16,6 +16,11 @@ spriteTypes = {
 	}
 	
 	spriteType = { #普通外框1
+		name = GFX_ROL_KMT_front_1_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_front_1_icon.png"
+	}
+	
+	spriteType = { #第一区
 		name = GFX_ROL_KMT_lanzhou_outer_1_icon
 		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_outer_1_icon.png"
 	}
@@ -48,6 +53,26 @@ spriteTypes = {
 	spriteType = { #组织三青团宣传队
 		name = GFX_ROL_KMT_lanzhou_propaganda_teams_icon
 		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_propaganda_teams_icon.png"
+	}
+	
+	spriteType = { #闹钟
+		name = GFX_ROL_KMT_lanzhou_clock_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_clock_icon.png"
+	}
+	
+	spriteType = { #闹钟-红
+		name = GFX_ROL_KMT_lanzhou_clock_red_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_clock_red_icon.png"
+	}
+	
+	spriteType = { #闹钟-绿
+		name = GFX_ROL_KMT_lanzhou_clock_green_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_clock_green_icon.png"
+	}
+	
+	spriteType = { #闹钟-黄
+		name = GFX_ROL_KMT_lanzhou_clock_yellow_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_clock_yellow_icon.png"
 	}
 	
 	

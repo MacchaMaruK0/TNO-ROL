@@ -804,7 +804,7 @@ country_event = {
 	id = kmt.44
 	title = kmt.44.t 
 	desc = kmt.44.d 
-	picture = /
+	picture = GFX_kmt_event_44
 
 	immediate = { 
 		log = "[GetDateText]: [Root.GetName]: event kmt.44"
@@ -814,6 +814,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = { 
-		name = kmt.44.a 
+		name = kmt.44.a
+		custom_effect_tooltip = kmt_44_a_tt
 	}
 }

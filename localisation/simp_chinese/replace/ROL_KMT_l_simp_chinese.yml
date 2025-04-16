@@ -601,9 +601,21 @@
  ROL_KMT_promote_spy_tt_1: "§e虽仍不见硝烟，§!§B但已身处战场。§!"
  ROL_KMT_promote_spy_tt_2: "我们将进一步着手针对£GFX_KMT_cpc_icon §R共产党人§!的情报网，并反过来收集他们的情报，分析其行动方针。"
  kmt.44.t:0 "第二战线"
+ kmt.44.d:0 "兰州城的夜是寂静的夜。街边的路灯因为灯火管制早早熄灯，陈禄生借着月光在黑暗中努力睁着眼睛默念路线，绕开了几道关卡和巡逻的军警，摸向钢厂的废弃厂房。\n钻过树丛掩藏的院墙破洞和铁锈门，仓库里两人高的箱子堆成一个小角落，陈禄生总算是到场，他来得很迟，同志们已经围坐在箱子搭成的桌椅前，微弱的烛光在角落里跳动着，映出陈禄生对面坐着的中年男人的脸庞。\n“郑老师，您不应该进城来的，太冒险了。”\n“形势严峻，组织的一些决定要以更加稳妥的方式传递，泄密带给我们的教训太沉痛了。”男人不紧不慢地说着。郑友城扫视了一圈在场的代表，这些年轻人是兰州进步学生的领头羊，是革命的希望、中国的未来。正因此，他的每一句话都显得无比重要，“禄生，城北学校的同志们近期可以调动吗？”\n“可以，组织需要的话我们随时都能出动。”\n“很好。”男人的神情愈发严肃，紧盯着跳动的火烛，烛光虽亮，但在四处漏风的厂房中仍然随时可能熄灭：“最近风头紧，大家工作的时候一定要小心。”\n“最近出现了一个新的情况：学校中有些拥护国民党的学生，组成了团体，频频挑衅、攻讦我们，在学校里鼓动反共氛围。有些立场摇摆、意志不坚定的同学很受影响。”陈禄生旁边的学生眉头紧锁，话语中充满忧虑。\n“这明显是敌人的新政策，要跟我们搞针锋相对！绝对不能妥协！”陈禄生答道。\n“没错，在这种情况下，我们才更要发起行动，打击反动派的气焰。省工委指示，我们要在本月15号前发起一次联动全城的大游行，诉求是取消戒严、军警退出校园……”\n“所有人不准动！”锈蚀的铁门在猛撞下彻底倒塌，巨响中雪白的光柱如利剑般刺穿仓库，霎时间把微弱的烛光吞没，二十个军警冲进仓库，他们的身影在强光下如一堵墙，黑压压地扑过来。\n“分头走！”郑友城推倒面前的箱子，抄起文件跑向小门，被两个追上去的军警用枪托砸倒。跑得慢的女同学被抓着头发按在地上。靠窗的陈禄生翻过窗口，一落地就被几个黑洞洞的枪口堵在墙边。带头的军官拿起散落一地的文件看了几眼，挥挥手下了命令：全部带走。"
+ kmt.44.a:0 "他踩灭了地上的烛光。"
+ kmt_44_a_tt: "§eLet Them Hate So Long as They Fear§!"
+ ROL_KMT_lanzhou_banned_cpc_botton_tt: "§Y封禁亲共刊物§!\n\n§Y花费：§!\n§g政治点数：20\n我们将使用100人力 £GFX_ROL_KMT_man_power_y_texticon  50物资£GFX_ROL_KMT_red_blood_supply §!\n\n§Y效果：§!"
+ ROL_KMT_lanzhou_osmotic_movements_botton_tt: "§Y渗透学运工运§!\n\n§Y花费：§!\n§g指挥点数：20\n我们将使用150人力£GFX_ROL_KMT_man_power_y_texticon  100物资£GFX_ROL_KMT_red_blood_supply §!\n\n§Y效果：§!\n"
  ROL_KMT_ROC_first_end_tt: "£GFX_KMT_lanzhou_crisis §R兰州危机§!：§G宣传攻势§!阶段已经结束"
  ROL_KMT_promote_anti_spy_desc:0 "曾几何时，由蒋委员长建立的情报体系监督官僚，打击不法分子。而时至今日，共产党人的情报网已深扎根于兰州城中，时刻酝酿着颠覆的阴谋，伺机而动。目前，我们没有精力也不愿以“宁可错杀三千”的态度去对所有可疑人员进行甄别，因此，一个新的方案已呼之欲出，通过进行防谍宣传，建立奖励措施，从基层动摇并打击共产党人的谍报网。与此同时，我们也应对他们进一步的进行了解，以不在这场没有硝烟的战争中落得下风。"
- ROL_KMT_speech_botton_tt: "举行联合抗战演讲\n£political_power_texticon 10 £GFX_ROL_KMT_man_power_y_texticon 20 £GFX_ROL_KMT_red_blood_supply 25"
+ ROL_KMT_speech_botton_tt: "举行联合抗战演讲\n£political_power_texticon 10 £GFX_ROL_KMT_man_power_y_texticon 20 £GFX_ROL_KMT_red_blood_supply 25 "
+ lanzhou_time: "[?ROL_KMT_lanzhou_weely]"
+ lanzhou_time_1: "[?ROL_KMT_lanzhou_weely_1]"
+ ROL_KMT_lanzhou_clock_green_tt: "£GFX_KMT_lanzhou_crisis §R兰州危机§!阶段1：§G宣传攻势§!阶段\n\n介于兰州城内的危机局势，兰州戒严司令部已展开行动，应对£GFX_KMT_cpc_icon §R共产党人§!的密谋与威胁：\n\n\n\n\n\n\n£GFX_ROL_KMT_lanzhou_commonder \n\n\n\n\n\n\n§Y戒严总司令§!黄维提供的§G修正§!为：\n敌人的每个周期造成的§q毁坏度§!略微§w下降§!；\n我方每个周期的§y物资获取量§!略微§w增加§!；\n--------------\n宣传，政治运动中不可或缺的一部分，£GFX_KMT_cpc_icon §R共产党人§!在兰州所酝酿的§e阴谋§!对于我们而言并非§Y无迹可寻§!，街头巷尾的§o可疑传单§!、挑动情绪的§A宣传口号§!、§Z游行运动§!、§u罢工罢课§!...\n\n他们的§e手段§!已被我们§G知悉§!，而围绕话语权方面的战争才§g刚刚开始§!，封杀他们的声音，传播我们的声音，只有如此才能占据舆论的高地，是时候§u彻查那些来源不明的小报§!，§o撕毁随意张贴的传单§!，§Z逮捕煽动演讲的不法分子了§!。\n\n在现阶段，£GFX_KMT_kmt_icon §B我们§!与£GFX_KMT_cpc_icon §R敌人§!的行动都限制在小范围的§g互相掣肘§!上，尽可能的让对方的宣传攻势失败是首要目的，不要§j激化矛盾§!，也不要§q坐视不管§!。\n--------------\n距离£GFX_KMT_lanzhou_crisis §R兰州危机§!：§G宣传攻势§!阶段结束还有[?ROL_KMT_lanzhou_weely_2]天。"
+ 
+ ROL_KMT_lanzhou_clock_yellow_tt: "£GFX_KMT_lanzhou_crisis §R兰州危机§!阶段2：§Y市民冲突§!阶段\n\n介于兰州城内的危机局势，兰州戒严司令部已展开行动，应对£GFX_KMT_cpc_icon §R共产党人§!的密谋与威胁：\n\n\n\n\n\n\n£GFX_ROL_KMT_lanzhou_commonder \n\n\n\n\n\n\n§Y戒严总司令§!黄维提供的§G修正§!为：\n敌人的每个周期造成的§q毁坏度§!略微§w下降§!；\n我方每个周期的§y物资获取量§!略微§w增加§!；\n--------------\n§Y市民团体之间的冲突§!已宣告£GFX_KMT_lanzhou_crisis §R兰州危机§!进入第二阶段。£GFX_KMT_cpc_icon §R敌人§!§g不再满足于§!使用§G宣传§!作为主要手段，而是将§V摩擦烈度§!推向§R新的高峰§!，§u街头巷尾愤怒的市民团体§!，§o时刻巡逻的军警§!，§Z正在被撕裂的社会§!，现在的兰州城就像是一个§e巨大的火药桶§!，§A坐在其上§!，§q人人自危§!。\n\n在现阶段，£GFX_KMT_kmt_icon §B我们§!与£GFX_KMT_cpc_icon §R敌人§!的行动已升级为§g团体冲突§!，可以解锁更加§V激进§!的手段，暴力在所难免，不要§j优柔寡断§!，也尽可能不要§q火上浇油§!。\n--------------\n距离£GFX_KMT_lanzhou_crisis §R兰州危机§!：§Y市民冲突§!阶段结束还有[?ROL_KMT_lanzhou_weely_2]天。"
+ 
+ ROL_KMT_lanzhou_clock_red_tt: "£GFX_KMT_lanzhou_crisis §R兰州危机§!阶段3：§e武装暴动§!阶段\n\n介于兰州城内的危机局势，兰州戒严司令部已展开行动，应对£GFX_KMT_cpc_icon §R共产党人§!的密谋与威胁：\n\n\n\n\n\n\n£GFX_ROL_KMT_lanzhou_commonder \n\n\n\n\n\n\n§Y戒严总司令§!黄维提供的§G修正§!为：\n敌人的每个周期造成的§q毁坏度§!略微§w下降§!；\n我方每个周期的§y物资获取量§!略微§w增加§!；\n--------------\n两个月间酝酿的§Y冲突§!终于§e全面爆发§!，由£GFX_KMT_cpc_icon §R兰工委§!领导的§q武装暴动§!已在兰州城内§u肆虐§!，他们的最终目标是§o夺取兰州§!，在每一条街巷之间，我们的军警将与他们进行战斗，此事关乎§A行辕之存亡§!，§Z切万分谨慎对待§!。\n\n在现阶段，£GFX_KMT_kmt_icon §B我们§!与£GFX_KMT_cpc_icon §R敌人§!的行动已升级为§e全面对抗§!，已解锁最终手段，§q不惜一切代价保卫兰州§!，§V敌人的攻势不会持续太久§!。\n--------------\n距离£GFX_KMT_lanzhou_crisis §R兰州危机§!：§e武装暴动§!阶段结束还有[?ROL_KMT_lanzhou_weely_2]天，只要挺过最后的风暴，我们的敌人将§q无力继续行动§!。"
  
  ###党务GUI
  ROL_KMT_party_member_tt: "这一常委席位被[ROL_KMT_party_faction_1]§R所占据§!"

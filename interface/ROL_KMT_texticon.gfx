@@ -165,4 +165,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/man_power_y_texticon.dds"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_lanzhou_commonder" #兰州危机司令的texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/lanzhou_commonder.png"
+		legacy_lazy_load = no
+	}
 }

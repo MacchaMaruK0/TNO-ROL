@@ -23,4 +23,9 @@ spriteTypes = {
 		name = "GFX_report_event_KMT_Zhang_Zhizhong"
 		texturefile = "gfx/event_pictures/KMT/report_event_KMT_Zhang_Zhizhong.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_kmt_event_44"
+		texturefile = "gfx/event_pictures/KMT/kmt_event_44.png"
+	}
 }

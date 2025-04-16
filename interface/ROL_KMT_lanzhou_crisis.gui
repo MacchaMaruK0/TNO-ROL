@@ -46,6 +46,77 @@ guiTypes = {
             spriteType = "GFX_ROL_KMT_lanzhou_example_1_icon"
             #pdx_tooltip = ROL_KMT_lanzhou_train_station_tt
         }
+		
+		containerWindowType = {
+            name = "ROL_KMT_GUI_lanzhou_time_frame"
+            size = { height = 110 width = 155 } 
+            position = { x = 1220 y = -105 }
+            show_sound = open_sub_window
+            moveable = no
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType = "GFX_tiled_window_1b_no_border"
+            }
+			
+			iconType = {
+            name = "ROL_KMT_lanzhou_clock_1_icon"
+            position = { x = 10 y = 14 }
+            spriteType = "GFX_ROL_KMT_lanzhou_clock_icon"
+            #pdx_tooltip = ROL_KMT_lanzhou_clock_1_tt
+			}
+			
+			iconType = {
+            name = "ROL_KMT_lanzhou_clock_2_icon"
+            position = { x = 78 y = 14 }
+            spriteType = "GFX_ROL_KMT_lanzhou_clock_icon"
+            #pdx_tooltip = ROL_KMT_lanzhou_clock_2_tt
+			}
+			
+			iconType = {
+            name = "ROL_KMT_lanzhou_clock_green_icon"
+            position = { x = 84 y = 38 }
+            spriteType = "GFX_ROL_KMT_lanzhou_clock_green_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_clock_green_tt
+			}
+			
+			iconType = {
+            name = "ROL_KMT_lanzhou_clock_yellow_icon"
+            position = { x = 84 y = 38 }
+            spriteType = "GFX_ROL_KMT_lanzhou_clock_yellow_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_clock_yellow_tt
+			}
+			
+			iconType = {
+            name = "ROL_KMT_lanzhou_clock_red_icon"
+            position = { x = 84 y = 38 }
+            spriteType = "GFX_ROL_KMT_lanzhou_clock_red_icon"
+            pdx_tooltip = ROL_KMT_lanzhou_clock_red_tt
+			}
+			
+			
+			instantTextboxType = {
+			name = "txt_lanzhou_time"
+			position = { x = 38 y = 36 }
+			font = "aldrich_22_outline"
+			text = "lanzhou_time"
+			maxWidth = 1
+			maxHeight = 1
+			alwaystransparent = yes
+			}
+			
+			instantTextboxType = {
+			name = "txt_lanzhou_time_1"
+			position = { x = 100 y = 57 }
+			font = "aldrich_22_outline"
+			text = "lanzhou_time_1"
+			maxWidth = 40
+			maxHeight = 15
+			alwaystransparent = yes
+			fixedsize = no
+			}
+		}	
         
         containerWindowType = {
             name = "ROL_KMT_GUI_lanzhou_affiliated_panel"
@@ -58,6 +129,12 @@ guiTypes = {
             background = {
                 name = "Background"
                 spriteType = "GFX_tiled_window_1b_no_border"
+            }
+			
+			iconType = {
+                name = "ROL_KMT_front_1_icon"
+                position = { x = 150 y = 27 }
+                spriteType = "GFX_ROL_KMT_front_1_icon"
             }
             
             iconType = {
@@ -132,7 +209,7 @@ guiTypes = {
             
             iconType = {
                 name = "ROL_KMT_lanzhou_control_infor"
-                position = { x = 12 y = 15 }
+                position = { x = 20 y = 20 }
                 spriteType = "GFX_Burgundy_GUI_Info_Button"
                 pdx_tooltip = ROL_KMT_lanzhou_control_info
                 pdx_tooltip_delayed = ROL_KMT_lanzhou_control_delayed_info
@@ -179,7 +256,7 @@ guiTypes = {
             name = "ROL_KMT_lanzhou_banned_cpc_icon"
             position = { x = 150 y = 190 }
             spriteType = "GFX_ROL_KMT_lanzhou_banned_cpc_icon"
-            #pdx_tooltip = ROL_KMT_speech_botton_tt
+            pdx_tooltip = ROL_KMT_lanzhou_banned_cpc_botton_tt
 			}
 			
 			buttonType = {
@@ -193,7 +270,7 @@ guiTypes = {
             name = "ROL_KMT_lanzhou_osmotic_movements_icon"
             position = { x = 290 y = 190 }
             spriteType = "GFX_ROL_KMT_lanzhou_osmotic_movements_icon"
-            #pdx_tooltip = ROL_KMT_speech_botton_tt
+            pdx_tooltip = ROL_KMT_lanzhou_osmotic_movements_botton_tt
 			}
 			
 			buttonType = {

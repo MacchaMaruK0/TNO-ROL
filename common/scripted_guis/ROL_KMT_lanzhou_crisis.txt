@@ -93,6 +93,19 @@ scripted_gui = {
 			}
 		}
 		
+		triggers = {
+			ROL_KMT_lanzhou_clock_green_icon_visible = {
+				check_variable = { ROL_KMT_lanzhou_weely_1 > 60.1 }
+			}
+			ROL_KMT_lanzhou_clock_yellow_icon_visible = {
+				check_variable = { ROL_KMT_lanzhou_weely_1 < 60.1 }
+				check_variable = { ROL_KMT_lanzhou_weely_1 > 30.1 }
+			}
+			ROL_KMT_lanzhou_clock_red_icon_visible = {
+				check_variable = { ROL_KMT_lanzhou_weely_1 < 30.1 }
+			}
+		}
+		
 		properties = {
 			ROL_KMT_lanzhou_manpower = {
 				frame = ROL_KMT_lanzhou_manpower_num
