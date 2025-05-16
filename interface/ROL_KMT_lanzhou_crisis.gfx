@@ -20,6 +20,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_front_1_icon.png"
 	}
 	
+	spriteType = { #普通外框2
+		name = GFX_ROL_KMT_front_2_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_front_2_icon.png"
+	}
+	
 	spriteType = { #第一区
 		name = GFX_ROL_KMT_lanzhou_outer_1_icon
 		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_outer_1_icon.png"

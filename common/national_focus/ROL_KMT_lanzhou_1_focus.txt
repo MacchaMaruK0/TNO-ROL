@@ -28,6 +28,7 @@ focus_tree = {
 
 		}
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		custom_effect_tooltip = ROL_KMT_romplete_ones_misery_tt
 		}
 	}
 
@@ -338,6 +339,9 @@ focus_tree = {
 		continue_if_invalid = no 
 		available_if_capitulated = no 
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		custom_effect_tooltip = ROL_KMT_give_tit_for_tat_tt
+		add_political_power = 50
+		add_command_power = 30
 		}
 	}
 	
@@ -382,12 +386,17 @@ focus_tree = {
 		}
 		available = { 
 		}
-		bypass = { 
+		bypass = {
+			custom_trigger_tooltip = {
+				has_country_flag = ROL_KMT_first_end
+				tooltip = ROL_KMT_ROC_first_end_tt	
+			}
 		}
 		cancel_if_invalid = yes 
 		continue_if_invalid = no 
 		available_if_capitulated = no 
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		custom_effect_tooltip = ROL_KMT_rooted_in_the_people_tt
 		}
 	}
 	
@@ -503,7 +512,7 @@ focus_tree = {
 	
 	focus = {
 		id = ROL_KMT_social_anti_comi_network  #社会防共网
-		icon = ROL_KMT_social_anti_comi_network 
+		icon = ROL_KMT_delegate_firing_authority 
 		x = 27
 		y = 6
 		cost = 1 #这是国策花费的政治点

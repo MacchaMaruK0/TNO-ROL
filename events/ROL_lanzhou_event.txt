@@ -1,0 +1,364 @@
+add_namespace = kmt_lanzhou_event ###测试2是周期触发CPC隐形事件 测试1、3-19是按钮隐形控制事件 20+是遮盖用控制flag隐形事件
+
+country_event = { #测试1
+	id = kmt_lanzhou_event.1
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.1"
+		set_country_flag = ROL_KMT_1_use
+		set_temp_variable = {
+			ROL_KMT_lanzhou_manpower_num_temp = 2
+		}
+		
+		set_temp_variable = {
+			ROL_KMT_lanzhou_suppor_num_temp = -3
+		}
+		
+		set_temp_variable = {
+			ROL_KMT_lanzhou_control_num_temp = 5
+		}
+		
+		ROL_KMT_lanzhou_control = yes
+		ROL_KMT_lanzhou_suppor = yes
+		ROL_KMT_lanzhou_manpower = yes
+		add_political_power = -10
+		country_event = {
+			id = kmt_lanzhou_event.20
+			days = 3
+		}
+	}
+	title = kmt_lanzhou_event.1.t
+	desc = kmt_lanzhou_event.1.desc
+	picture = \
+	hidden = yes
+
+	is_triggered_only = yes
+
+	option = {
+	}
+}
+
+country_event = { #测试2
+	id = kmt_lanzhou_event.2
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.2"
+		if = {
+		`	limit = {
+				NOT = {
+					has_country_flag = ROL_KMT_weekly_2
+				}	
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_num_temp = -5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_num_temp = 5
+			}
+			ROL_KMT_lanzhou_control = yes
+			ROL_KMT_lanzhou_ruin = yes
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = ROL_KMT_weekly_2
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_num_temp = -3
+			}
+			ROL_KMT_lanzhou_ruin = yes
+			clr_country_flag = ROL_KMT_weekly_2
+		}
+		country_event = {
+			id = kmt_lanzhou_event.2
+			days = 7
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = ROL_KMT_weekly_3
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_num_temp = 2.5
+			}
+			ROL_KMT_lanzhou_control = yes
+			clr_country_flag = ROL_KMT_weekly_3
+		}
+		country_event = {
+			id = kmt_lanzhou_event.2
+			days = 7
+		}
+	}
+	title = kmt_lanzhou_event.2.t
+	desc = kmt_lanzhou_event.2.desc
+	picture = \
+
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+	}
+}
+
+country_event = { #测试3
+	id = kmt_lanzhou_event.3
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.3"
+		set_country_flag = ROL_KMT_weekly_2
+		set_country_flag = ROL_KMT_3_use
+		add_political_power = 25
+		add_command_power = -20
+		set_temp_variable = {
+			ROL_KMT_lanzhou_control_num_temp = 12.5
+		}
+		set_temp_variable = {
+			ROL_KMT_lanzhou_manpower_num_temp = 10
+		}
+		ROL_KMT_lanzhou_manpower = yes
+		ROL_KMT_lanzhou_control = yes
+		set_temp_variable = { temp_econ_spending_amount = 0.010 }
+		econ_spend_money_once_effect_raw_money = yes
+		
+		country_event = {
+			id = kmt_lanzhou_event.21
+			days = 3
+		}
+	}
+	title = kmt_lanzhou_event.3.t
+	desc = kmt_lanzhou_event.3.desc
+	picture = \
+
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+	}
+}
+
+country_event = { #测试4
+	id = kmt_lanzhou_event.4
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.4"
+		set_country_flag = ROL_KMT_4_use
+		add_political_power = -10
+		set_temp_variable = {
+			ROL_KMT_lanzhou_suppor_num_temp = -5
+		}
+		set_temp_variable = {
+			ROL_KMT_lanzhou_manpower_num_temp = 7.5
+		}		
+		set_temp_variable = {
+			ROL_KMT_lanzhou_control_num_temp = 5
+		}
+		ROL_KMT_lanzhou_control = yes
+		ROL_KMT_lanzhou_suppor = yes
+		ROL_KMT_lanzhou_manpower = yes
+		set_temp_variable = { temp_econ_spending_amount = 0.005 }
+		econ_spend_money_once_effect_raw_money = yes
+		
+		country_event = {
+			id = kmt_lanzhou_event.22
+			days = 3
+		}
+	}
+	title = kmt_lanzhou_event.4.t
+	desc = kmt_lanzhou_event.4.desc
+	picture = \
+
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+	}
+}
+
+country_event = { #测试5
+	id = kmt_lanzhou_event.5
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.5"
+		set_country_flag = ROL_KMT_5_use
+		add_political_power = -15
+		set_temp_variable = {
+			ROL_KMT_lanzhou_manpower_num_temp = -7.5
+		}		
+		set_temp_variable = {
+			ROL_KMT_lanzhou_control_num_temp = 5
+		}
+		ROL_KMT_lanzhou_control = yes
+		ROL_KMT_lanzhou_manpower = yes
+		
+		country_event = {
+			id = kmt_lanzhou_event.23
+			days = 3
+		}
+	}
+	title = kmt_lanzhou_event.5.t
+	desc = kmt_lanzhou_event.5.desc
+	picture = \
+
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+	}
+}
+
+country_event = { #测试6
+	id = kmt_lanzhou_event.6
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.6"
+		set_country_flag = ROL_KMT_6_use
+		add_political_power = -15
+		set_temp_variable = {
+			ROL_KMT_lanzhou_manpower_num_temp = -7.5
+		}
+		set_temp_variable = {
+			ROL_KMT_lanzhou_suppor_num_temp = -7.5
+		}
+		set_temp_variable = {
+			ROL_KMT_lanzhou_control_num_temp = 7.5
+		}
+		set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_num_temp = -7.5
+		}
+		ROL_KMT_lanzhou_control = yes
+		ROL_KMT_lanzhou_suppor = yes
+		ROL_KMT_lanzhou_manpower = yes
+		ROL_KMT_lanzhou_ruin = yes
+		
+		country_event = {
+			id = kmt_lanzhou_event.24
+			days = 3
+		}
+	}
+	title = kmt_lanzhou_event.6.t
+	desc = kmt_lanzhou_event.6.desc
+	picture = \
+
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+	}
+}
+
+country_event = { #测试7
+	id = kmt_lanzhou_event.7
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.7"
+		set_country_flag = ROL_KMT_7_use
+		add_political_power = -20
+		add_political_power = 25
+		set_temp_variable = {
+			ROL_KMT_lanzhou_manpower_num_temp = -10
+		}
+		set_temp_variable = {
+			ROL_KMT_lanzhou_suppor_num_temp = 2.5
+		}
+		set_country_flag = ROL_KMT_weekly_3
+		ROL_KMT_lanzhou_suppor = yes
+		ROL_KMT_lanzhou_manpower = yes
+		
+		country_event = {
+			id = kmt_lanzhou_event.25
+			days = 3
+		}
+	}
+	title = kmt_lanzhou_event.7.t
+	desc = kmt_lanzhou_event.7.desc
+	picture = \
+
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+	}
+}
+
+country_event = { #测试20
+	id = kmt_lanzhou_event.20
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.20"
+		clr_country_flag = ROL_KMT_1_use
+	}
+	title = kmt_lanzhou_event.20.t
+	desc = kmt_lanzhou_event.20.desc
+	picture = \
+
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+	}
+}
+
+country_event = { #测试21
+	id = kmt_lanzhou_event.21
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.21"
+		clr_country_flag = ROL_KMT_3_use
+	}
+	title = kmt_lanzhou_event.21.t
+	desc = kmt_lanzhou_event.21.desc
+	picture = \
+
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+	}
+}
+
+country_event = { #测试22
+	id = kmt_lanzhou_event.22
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.22"
+		clr_country_flag = ROL_KMT_4_use
+	}
+	title = kmt_lanzhou_event.22.t
+	desc = kmt_lanzhou_event.22.desc
+	picture = \
+
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+	}
+}
+
+country_event = { #测试23
+	id = kmt_lanzhou_event.23
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.23"
+		clr_country_flag = ROL_KMT_5_use
+	}
+	title = kmt_lanzhou_event.23.t
+	desc = kmt_lanzhou_event.23.desc
+	picture = \
+
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+	}
+}
+
+country_event = { #测试24
+	id = kmt_lanzhou_event.24
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.24"
+		clr_country_flag = ROL_KMT_6_use
+	}
+	title = kmt_lanzhou_event.24.t
+	desc = kmt_lanzhou_event.24.desc
+	picture = \
+
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+	}
+}
+
+country_event = { #测试25
+	id = kmt_lanzhou_event.25
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.25"
+		clr_country_flag = ROL_KMT_7_use
+	}
+	title = kmt_lanzhou_event.25.t
+	desc = kmt_lanzhou_event.25.desc
+	picture = \
+
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+	}
+}

@@ -2145,4 +2145,774 @@ spriteTypes = {
 		}
             legacy_lazy_load = no
         }
+		
+		spriteType = {
+		name = "ROL_KMT_call_airtransport_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_call_airtransport.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_call_airtransport.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_call_airtransport.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_mobilize_military_tumu_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_mobilize_military_tumu.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_mobilize_military_tumu.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_mobilize_military_tumu.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_each_performs_functions_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_each_performs_functions.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_each_performs_functions.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_each_performs_functions.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_report_central_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_report_central.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_report_central.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_report_central.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_take_over_communication_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_take_over_communication.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_take_over_communication.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_take_over_communication.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_select_homework_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_select_homework.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_select_homework.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_select_homework.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_corporate_action_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_corporate_action.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_corporate_action.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_corporate_action.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_rooted_in_the_people_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_rooted_in_the_people.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_rooted_in_the_people.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_rooted_in_the_people.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_give_tit_for_tat_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_give_tit_for_tat.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_give_tit_for_tat.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_give_tit_for_tat.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_party_branch_authority_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_party_branch_authority.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_party_branch_authority.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_party_branch_authority.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_mend_sheep_is_lost_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_mend_sheep_is_lost.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_mend_sheep_is_lost.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_mend_sheep_is_lost.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_recruiting_doctors_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_recruiting_doctors.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_recruiting_doctors.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_recruiting_doctors.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_mobilize_RMA_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_mobilize_RMA.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_mobilize_RMA.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_mobilize_RMA.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_mobilize_youth_solider_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_mobilize_youth_solider.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_mobilize_youth_solider.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_mobilize_youth_solider.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_identify_CPC_spy_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_identify_CPC_spy.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_identify_CPC_spy.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_identify_CPC_spy.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_better_than_indulge_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_better_than_indulge.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_better_than_indulge.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_better_than_indulge.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_establish_eliminate_team_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_establish_eliminate_team.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_establish_eliminate_team.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_establish_eliminate_team.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_replacing_police_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_replacing_police.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_replacing_police.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_replacing_police.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_promote_military_officers_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_promote_military_officers.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_promote_military_officers.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_promote_military_officers.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		###
+		
+		spriteType = {
+		name = "ROL_KMT_divide_responsibilities_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_divide_responsibilities.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_divide_responsibilities.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_divide_responsibilities.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_responsibility_distinguish_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_responsibility_distinguish.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_responsibility_distinguish.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_responsibility_distinguish.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_suspend_position_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_suspend_position.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_suspend_position.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_suspend_position.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_expand_labor_camps_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_expand_labor_camps.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_expand_labor_camps.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_expand_labor_camps.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
+		
+		spriteType = {
+		name = "ROL_KMT_armageddon_shine" #命名为国策ID_shine
+		texturefile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_armageddon.png" #与一般图标相同
+		#下半部分只需要修改animationmaskfile保证与上面texturefile相同即可
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_armageddon.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_armageddon.png" #与一般图标相同
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+		    animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+            legacy_lazy_load = no
+        }
 }

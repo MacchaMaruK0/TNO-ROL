@@ -75,6 +75,42 @@ scripted_gui = {
 					clr_country_flag = ROL_KMT_lanzhou_crisis_GUI_Open
 				}
 			}
+			
+			ROL_KMT_lanzhou_speech_button_click = {
+				country_event = {
+				id = kmt_lanzhou_event.1
+				}
+			}
+			
+			ROL_KMT_lanzhou_osmotic_movements_botton_click = {
+				country_event = {
+				id = kmt_lanzhou_event.3
+				}
+			}
+			
+			ROL_KMT_lanzhou_liaise_dignitaries_button_click = {
+				country_event = {
+				id = kmt_lanzhou_event.4
+				}
+			}
+			
+			ROL_KMT_lanzhou_propaganda_teams_button_click = {
+				country_event = {
+				id = kmt_lanzhou_event.5
+				}
+			}
+			
+			ROL_KMT_lanzhou_youth_server_button_click = {
+				country_event = {
+				id = kmt_lanzhou_event.6
+				}
+			}
+			
+			ROL_KMT_lanzhou_banned_cpc_button_click = {
+				country_event = {
+				id = kmt_lanzhou_event.7
+				}
+			}
 		}
 		
 		triggers = {
@@ -103,6 +139,27 @@ scripted_gui = {
 			}
 			ROL_KMT_lanzhou_clock_red_icon_visible = {
 				check_variable = { ROL_KMT_lanzhou_weely_1 < 30.1 }
+			}
+		}
+		
+		triggers = {
+			ROL_KMT_lanzhou_1_visible = {
+				has_country_flag = ROL_KMT_1_use
+			}
+			ROL_KMT_lanzhou_2_icon_visible = {
+				has_country_flag = ROL_KMT_3_use
+			}
+			ROL_KMT_lanzhou_3_icon_visible = {
+				has_country_flag = ROL_KMT_4_use
+			}
+			ROL_KMT_lanzhou_4_icon_visible = {
+				has_country_flag = ROL_KMT_5_use
+			}
+			ROL_KMT_lanzhou_5_icon_visible = {
+				has_country_flag = ROL_KMT_6_use
+			}
+			ROL_KMT_lanzhou_6_icon_visible = {
+				has_country_flag = ROL_KMT_7_use
 			}
 		}
 		

@@ -344,5 +344,126 @@ spriteTypes = {
 		name = "ROL_KMT_guard_the_revive_base"
 		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_guard_the_revive_base.png"
 	}
+	###
+	SpriteType = {
+		name = "ROL_KMT_call_airtransport"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_call_airtransport.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_mobilize_military_tumu"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_mobilize_military_tumu.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_each_performs_functions"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_each_performs_functions.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_report_central"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_report_central.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_take_over_communication"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_take_over_communication.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_select_homework"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_select_homework.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_corporate_action"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_corporate_action.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_rooted_in_the_people"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_rooted_in_the_people.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_give_tit_for_tat"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_give_tit_for_tat.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_party_branch_authority"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_party_branch_authority.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_mend_sheep_is_lost"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_mend_sheep_is_lost.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_recruiting_doctors"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_recruiting_doctors.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_mobilize_RMA"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_mobilize_RMA.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_mobilize_youth_solider"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_mobilize_youth_solider.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_identify_CPC_spy"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_identify_CPC_spy.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_better_than_indulge"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_better_than_indulge.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_establish_eliminate_team"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_establish_eliminate_team.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_replacing_police"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_replacing_police.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_promote_military_officers"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_promote_military_officers.png"
+	}
+	
+	###
+	SpriteType = {
+		name = "ROL_KMT_divide_responsibilities"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_divide_responsibilities.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_responsibility_distinguish"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_responsibility_distinguish.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_suspend_position"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_suspend_position.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_expand_labor_camps"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_expand_labor_camps.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_armageddon"
+		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_armageddon.png"
+	}
 	
 }

@@ -28,6 +28,7 @@ focus_tree = {
 
 		}
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		custom_effect_tooltip = ROL_KMT_romplete_ones_misery_tt
 		}
 	}
 
