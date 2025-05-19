@@ -16,27 +16,11 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "ROL_KMT_party_GUI"
-		size = { width = 1188 height = 812 }
+		size = { width = 1203 height = 818 }
 		position = { x = 238 y = 220 }
 		show_sound = open_sub_window
 		moveable = yes
 		clipping = no
-		
-		buttonType = {
-			name = "ROL_KMT_party_close"
-		 	position = { x = -60 y = 15 }
-			orientation = "UPPER_RIGHT"
-			spriteType = "GFX_Kartenhaus_CloseButton"
-			clicksound = click_default
-			shortcut = "ESCAPE"
-		}
-		
-		iconType = {
-		 	name = "ROL_KMT_party_infor"
-			position = { x = 954 y = 68 }
-		 	spriteType = "GFX_Burgundy_GUI_Info_Button"
-		 	pdx_tooltip = ROL_KMT_party_seat_infor
-		}
 		
 		background = {
 			name = "Background"
@@ -56,7 +40,7 @@ guiTypes = {
 			spriteType = "GFX_tiled_window_1b_no_border"
 			}
 			
-			iconType = {
+			buttonType = {
             name = "ROL_KMT_tpp_big"
             position = { x = 27 y = 27 }
             spriteType = "GFX_ROL_KMT_tpp_big_icon"
@@ -101,7 +85,7 @@ guiTypes = {
 			iconType = {
             name = "ROL_KMT_tumu_big"
             position = { x = 27 y = 27 }
-            spriteType = "GFX_ROL_KMT_tpp_big_icon"
+            spriteType = "GFX_ROL_KMT_tumu_big_icon"
             pdx_tooltip = ROL_KMT_TUMU_big_tt
 			}
 		}
@@ -122,7 +106,7 @@ guiTypes = {
 			iconType = {
             name = "ROL_KMT_zaizao_big"
             position = { x = 27 y = 27 }
-            spriteType = "GFX_ROL_KMT_tpp_big_icon"
+            spriteType = "GFX_ROL_KMT_zaizao_big_icon"
             pdx_tooltip = ROL_KMT_Zaizao_big_tt
 			}
 		}
@@ -143,9 +127,31 @@ guiTypes = {
 			iconType = {
             name = "ROL_KMT_hunangang_big"
             position = { x = 27 y = 27 }
-            spriteType = "GFX_ROL_KMT_tpp_big_icon"
+            spriteType = "GFX_ROL_KMT_hunangang_big_icon"
             pdx_tooltip = ROL_KMT_Hunangang_big_tt
 			}
+		}
+		
+		containerWindowType = {
+			name = "ROL_KMT_control_1_GUI"
+			size = { height = 803 width = 605 } 
+			position = { x = 593 y = 8 }
+			show_sound = open_sub_window
+			moveable = no
+			clipping = no
+
+			background = {
+				name = "Background"
+				spriteType = "GFX_tiled_window_1b_no_border"
+			}
+			
+			iconType = {
+                name = "ROL_KMT_party_control_infor"
+                position = { x = 555 y = 20 }
+                spriteType = "GFX_Burgundy_GUI_Info_Button"
+                pdx_tooltip = ROL_KMT_party_control_info
+                pdx_tooltip_delayed = ROL_KMT_party_control_delayed_info
+            }
 		}
 		
 		containerWindowType = {
@@ -164,7 +170,7 @@ guiTypes = {
 			iconType = {
             name = "ROL_KMT_taizi_big"
             position = { x = 27 y = 27 }
-            spriteType = "GFX_ROL_KMT_tpp_big_icon"
+            spriteType = "GFX_ROL_KMT_taizi_big_icon"
             pdx_tooltip = ROL_KMT_Taizi_big_tt
 			}
 		}
@@ -176,6 +182,15 @@ guiTypes = {
 			show_sound = open_sub_window
 			moveable = no
 			clipping = no
+			
+			buttonType = {
+			name = "ROL_KMT_party_close"
+		 	position = { x = -579 y = 15 }
+			orientation = "UPPER_RIGHT"
+			spriteType = "GFX_Kartenhaus_CloseButton"
+			clicksound = click_default
+			shortcut = "ESCAPE"
+			}
 
 			background = {
 				name = "Background"
@@ -188,7 +203,7 @@ guiTypes = {
 			
 				gridboxtype = {
 					name = "ROL_KMT_GUI_Party_Seats_GridBox"
-					position = { x = 25 y = 0 }
+					position = { x = 220 y = 0 }
 					size = { width = 100%% height = 100%% }
 					slotsize = { width = 80 height = 80 }
 					max_slots_horizontal = 5
@@ -198,7 +213,7 @@ guiTypes = {
 			}
 
 		}
-	}
+	}	
 	
 	containerWindowType = {
 		name = "ROL_KMT_party_seat"
@@ -210,4 +225,5 @@ guiTypes = {
 			pdx_tooltip = "ROL_KMT_party_member_tt"
 		}
 	}
+	
 }

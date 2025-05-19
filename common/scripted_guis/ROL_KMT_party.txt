@@ -59,5 +59,19 @@ scripted_gui = {
 				frame = v
 			}
 		}
+		
+		effects = {
+			ROL_KMT_tpp_big_click = {
+				if = {
+					limit = {
+						has_country_flag = ROL_KMT_control_1_flag
+					}
+					clr_country_flag = ROL_KMT_control_1_flag
+				}
+				else = {
+					set_country_flag = ROL_KMT_control_1_flag
+				}
+			}
+		}	
 	}
-}	
+}

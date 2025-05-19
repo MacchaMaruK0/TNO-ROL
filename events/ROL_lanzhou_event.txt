@@ -118,7 +118,7 @@ country_event = { #测试3
 		
 		country_event = {
 			id = kmt_lanzhou_event.21
-			days = 3
+			days = 7
 		}
 	}
 	title = kmt_lanzhou_event.3.t
@@ -184,7 +184,7 @@ country_event = { #测试5
 		
 		country_event = {
 			id = kmt_lanzhou_event.23
-			days = 3
+			days = 5
 		}
 	}
 	title = kmt_lanzhou_event.5.t
@@ -222,7 +222,7 @@ country_event = { #测试6
 		
 		country_event = {
 			id = kmt_lanzhou_event.24
-			days = 3
+			days = 5
 		}
 	}
 	title = kmt_lanzhou_event.6.t
@@ -254,7 +254,7 @@ country_event = { #测试7
 		
 		country_event = {
 			id = kmt_lanzhou_event.25
-			days = 3
+			days = 7
 		}
 	}
 	title = kmt_lanzhou_event.7.t

@@ -21,6 +21,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_Youtharmy_big_icon.png"
 	}
 	
+	spriteType = { #土木系
+		name = GFX_ROL_KMT_tumu_big_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_tumu_big_icon.png"
+	}
+	
+	spriteType = { #再造系
+		name = GFX_ROL_KMT_zaizao_big_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_zaizao_big_icon.png"
+	}
+	
+	spriteType = { #新太子
+		name = GFX_ROL_KMT_taizi_big_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_taizi_big_icon.png"
+	}
+	
+	spriteType = { #湖南帮
+		name = GFX_ROL_KMT_hunangang_big_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_hunangang_big_icon.png"
+	}
+	
 	spriteType = { #三青团-郑彦棻
 		name = GFX_ROL_KMT_Zheng_texticon
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_Zheng_texticon.png"

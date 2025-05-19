@@ -52,6 +52,13 @@ characters = {
 			}
 			id = -1
 		}
+		country_leader = {
+			desc = "POLITICS_CHIANG_CHINGKUO_DESC"
+			expire = "2000.1.1"
+			ideology = despotism_2_subtype
+			traits = { }
+			id = -1
+		}
 	}
 	
 	KMT_ROL_Jiang_Jingguo = {
@@ -79,13 +86,6 @@ characters = {
 			ideology = despotism_ROL_Tridemism_Tangkuo_system_subtype
 			traits = {
 			}
-			id = -1
-		}
-		country_leader = {
-			desc = "POLITICS_CHIANG_CHINGKUO_DESC"
-			expire = "2000.1.1"
-			ideology = paternalism_subtype
-			traits = { }
 			id = -1
 		}
 	}
@@ -232,6 +232,38 @@ characters = {
 		}
 	}
 	
+	KMT_ROL_People = {
+		name = KMT_ROL_People
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KMT/Portrait_KMT_ROL_People.dds"
+			}
+		}
+		country_leader = {
+			desc = "KMT_ROL_People_desc"
+			ideology = conservatism_paternalistic_conservatism_subtype
+			traits = {
+
+			}
+		}
+	}
+	
+	KMT_ROL_Gao_Yihan = {
+		name = KMT_ROL_Gao_Yihan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Gao_Yihan.dds"
+			}
+		}
+		country_leader = {
+			desc = "KMT_ROL_Gao_Yihan_desc"
+			ideology = paternalism_national_conservatism_subtype
+			traits = {
+
+			}
+		}
+	}
+	
 	KMT_ROL_Teng_Jie = {
 		name = KMT_ROL_Teng_Jie #滕杰
 		portraits = {
@@ -246,11 +278,6 @@ characters = {
 
 			}
 		}
-		country_leader = {
-			desc = ""
-			expire = "1994.4.20"
-			ideology = despotism_3_subtype
-		}
 	}
 	KMT_ROL_Ma_Jiyuan = {
 		name = KMT_ROL_Ma_Jiyuan #马继援
@@ -262,7 +289,7 @@ characters = {
 		country_leader = {
 			desc = ""
 			expire = "1994.4.20"
-			ideology = despotism_1_subtype
+			ideology = despotism_4_subtype
 		}
 	}
 	KMT_ROL_Zhou_Zhirou = { #周至柔
@@ -275,7 +302,7 @@ characters = {
 		country_leader = {
 			desc = ""
 			expire = "1994.4.20"
-			ideology = paternalism_1_subtype
+			ideology = despotism_3_subtype
 		}
 	}
 	
@@ -301,11 +328,6 @@ characters = {
 		country_leader = {
 			desc = "KMT_ROL_Luo_Lie_1_desc"
 			expire = "1994.4.20"
-			ideology = despotism_3_subtype
-		}
-		country_leader = {
-			desc = "KMT_ROL_Luo_Lie_1_desc"
-			expire = "1994.4.20"
 			ideology = despotism_ROL_Tridemism_Chiangism_subtype
 		}
 	}
@@ -316,11 +338,6 @@ characters = {
 			civilian = {
 				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Luo_Lie_2.dds"
 			}
-		}
-		country_leader = {
-			desc = "KMT_ROL_Luo_Lie_2_desc"
-			expire = "1994.4.20"
-			ideology = paternalism_1_subtype
 		}
 		country_leader = {
 			desc = "KMT_ROL_Luo_Lie_2_desc"

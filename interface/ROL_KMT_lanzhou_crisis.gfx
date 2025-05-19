@@ -80,6 +80,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_clock_yellow_icon.png"
 	}
 	
+	spriteType = { #遮盖
+		name = GFX_ROL_KMT_action_lock_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_action_lock_icon.png"
+	}
+	
 	
 	
 	frameAnimatedSpriteType = {

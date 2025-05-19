@@ -22,6 +22,9 @@ recruit_character = KMT_ROL_Yu_Guohua
 recruit_character = KMT_ROL_Yan_Jiagan_3
 recruit_character = KMT_ROL_Jiang_Jingguo_1
 
+recruit_character = KMT_ROL_Gao_Yihan
+recruit_character = KMT_ROL_People
+
 ####将领
 recruit_character = KMT_ROL_Gao_Kuiyuan
 recruit_character = KMT_ROL_Hu_Lian
@@ -158,12 +161,13 @@ set_politics = {
 }
 
 set_popularities = {
-	communist = 1
-	paternalism = 14
-	paternalism_1 = 17
-	despotism_1 = 5
-	despotism_3 = 18
-	despotism = 45 
+	communist = 7
+	paternalism = 4
+	conservatism = 6
+	despotism_2 = 20
+	despotism_3 = 15
+	despotism_4 = 10
+	despotism = 38 
 }
 
 add_ideas = {

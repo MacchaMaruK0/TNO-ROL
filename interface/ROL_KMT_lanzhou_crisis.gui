@@ -293,6 +293,42 @@ guiTypes = {
             pdx_tooltip = ROL_KMT_lanzhou_control_1_info
             pdx_tooltip_delayed = ROL_KMT_lanzhou_control_1_delayed_info
             }
+			
+			iconType = {
+                name = "ROL_KMT_lanzhou_1"
+                position = { x = 15 y = 75 }
+                spriteType = "GFX_ROL_KMT_action_lock_icon"
+            }
+			
+			iconType = {
+                name = "ROL_KMT_lanzhou_3"
+                position = { x = 290 y = 190 }
+                spriteType = "GFX_ROL_KMT_action_lock_icon"
+            }
+			
+			iconType = {
+                name = "ROL_KMT_lanzhou_4"
+                position = { x = 150 y = 75 }
+                spriteType = "GFX_ROL_KMT_action_lock_icon"
+            }
+			
+			iconType = {
+                name = "ROL_KMT_lanzhou_5"
+                position = { x = 290 y = 75 }
+                spriteType = "GFX_ROL_KMT_action_lock_icon"
+            }
+			
+			iconType = {
+                name = "ROL_KMT_lanzhou_6"
+                position = { x = 15 y = 190 }
+                spriteType = "GFX_ROL_KMT_action_lock_icon"
+            }
+			
+			iconType = {
+                name = "ROL_KMT_lanzhou_7"
+                position = { x = 150 y = 190 }
+                spriteType = "GFX_ROL_KMT_action_lock_icon"
+            }
         }
     }
 }

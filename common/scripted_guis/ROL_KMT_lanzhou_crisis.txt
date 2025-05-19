@@ -146,19 +146,19 @@ scripted_gui = {
 			ROL_KMT_lanzhou_1_visible = {
 				has_country_flag = ROL_KMT_1_use
 			}
-			ROL_KMT_lanzhou_2_icon_visible = {
+			ROL_KMT_lanzhou_3_visible = {
 				has_country_flag = ROL_KMT_3_use
 			}
-			ROL_KMT_lanzhou_3_icon_visible = {
+			ROL_KMT_lanzhou_4_visible = {
 				has_country_flag = ROL_KMT_4_use
 			}
-			ROL_KMT_lanzhou_4_icon_visible = {
+			ROL_KMT_lanzhou_5_visible = {
 				has_country_flag = ROL_KMT_5_use
 			}
-			ROL_KMT_lanzhou_5_icon_visible = {
+			ROL_KMT_lanzhou_6_visible = {
 				has_country_flag = ROL_KMT_6_use
 			}
-			ROL_KMT_lanzhou_6_icon_visible = {
+			ROL_KMT_lanzhou_7_visible = {
 				has_country_flag = ROL_KMT_7_use
 			}
 		}

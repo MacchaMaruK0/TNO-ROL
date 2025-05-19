@@ -6,18 +6,20 @@
  KMT_paternalism_DEF:0 "中华民国西北行辕"
 
  ###党派
- KMT_despotism_party:0 "西北行辕"
- KMT_despotism_party_long:0 "西北行辕"
- KMT_communist_party:0 "中共游击队"
- KMT_communist_party_long:0 "中共游击队"
- KMT_paternalism_party:0 "国民党-青年军系"
- KMT_paternalism_party_long:0 "国民党-青年军系"
- KMT_paternalism_1_party:0 "国民党-土木系"
- KMT_paternalism_1_party_long:0 "国民党-土木系"
- KMT_despotism_1_party:0 "国民党-马家军"
- KMT_despotism_1_party_long:0 "国民党-马家军"
- KMT_despotism_3_party:0 "国民党-革军会"
- KMT_despotism_3_party_long:0 "国民党-革命军人同志会"
+ KMT_despotism_party:0 "国民革命军-西北行辕"
+ KMT_despotism_party_long:0 "国民革命军-西北行辕"
+ KMT_communist_party:0 "中国共产党-甘肃省工委"
+ KMT_communist_party_long:0 "中国共产党-甘肃省工委"
+ KMT_conservatism_party:0 "各职业团体"
+ KMT_conservatism_party_long:0 "甘宁青各职业团体"
+ KMT_paternalism_party:0 "中国国民党-监察委员会西北监察使署"
+ KMT_paternalism_party_long:0 "中国国民党-监察委员会西北监察使署"
+ KMT_despotism_2_party:0 "三民主义青年团"
+ KMT_despotism_2_party_long:0 "三民主义青年团"
+ KMT_despotism_3_party:0 "国民革命军-第十八军"
+ KMT_despotism_3_party_long:0 "国民革命军-第十八军"
+ KMT_despotism_4_party:0 "青海省政府"
+ KMT_despotism_4_party_long:0 "青海省政府"
  
 
  #人物
@@ -43,6 +45,8 @@
  KMT_ROL_Yan_Jiagan_3:0 "严家淦"
  KMT_ROL_Jiang_Jingguo_1:0 "蒋经国"
  KMT_ROL_Crush:0 "§e当局崩溃§!"
+ KMT_ROL_People:0 "职团代表"
+ KMT_ROL_Gao_Yihan:0 "高一涵"
  
  ###民族精神
  ROL_KMT_Amidst_the_skies_of_the_sun:0 "白日依山尽"
@@ -636,12 +640,13 @@
  HUNANGANG_seat: "§j湖南帮§!"
  YOUTHARMY_seat: "£GFX_KMT_youth_army_icon §M青年军§!"
  TPP_seat: "£GFX_KMT_tpp_icon §G三青团§!"
- ROL_KMT_tpp_big_tt: "£GFX_KMT_tpp_icon §G三青团§!\n\n\n\n\n\n\n£GFX_ROL_KMT_Zheng_texticon \n\n\n\n\n\n\n§G三青团§! - §G三青团书记长 郑彦棻§!\n\n目前§G三青团§!在常委中占有§G[?ROL_KMT_party_TPP]§!席"
+ ROL_KMT_tpp_big_tt: "£GFX_KMT_tpp_icon §G三青团§!\n\n\n\n\n\n\n£GFX_ROL_KMT_Zheng_texticon \n\n\n\n\n\n\n§G三青团§! - §G三青团书记长 郑彦棻§!\n\n三民主义青年团，简称三青团。由蒋委员长授意筹办，于1938年4月正式成立的国民党外围团体。旨在整合青年力量、巩固统治并争取抗战时期青年群体的政治支持。同年7月于武昌设立中央团部，胡宗南将军兼任中央团部干事及组织处处长，并主导陕西支团部筹建，1939年4月陕西支团筹备处成立，标志组织向地方扩展。\n大战结束后，三青团仍得到保留，并逐渐发展为一股不可忽略的政治力量，张治中、蒋经国先后担任过三青团书记长一职。随着胡宗南病逝，新主任选举结束，党与团之间的松散关系也成了党务系统中的一块缺陷，党团合并似乎迫在眉睫，但在处处掣肘的行辕内部政治中，一切真的会遂如人意吗？\n\n目前£GFX_KMT_tpp_icon §G三青团§!在常委中占有§G[?ROL_KMT_party_TPP]§!席"
  ROL_KMT_Youtharmy_big_tt: "£GFX_KMT_youth_army_icon §M青年军§!\n\n\n\n\n\n\n£GFX_ROL_KMT_Jiang_texticon \n\n\n\n\n\n\n§M青年军§! - §M行辕秘书长 蒋经国§!\n\n目前£GFX_KMT_youth_army_icon §M青年军§!在常委中占有§M[?ROL_KMT_party_YOUTHARMY]§!席"
- ROL_KMT_TUMU_big_tt: "£GFX_KMT_tumu_icon §Y土木系§!\n\n\n\n\n\n\n£GFX_ROL_KMT_Zhou_texticon \n\n\n\n\n\n\n§Y土木系§! - §Y行辕主任顾问 周至柔§!\n\n目前£GFX_KMT_tumu_icon §Y土木系§!在常委中占有§Y[?ROL_KMT_party_TUMU]§!席"
+ ROL_KMT_TUMU_big_tt: "£GFX_KMT_tumu_icon §Y土木系§!\n\n\n\n\n\n\n£GFX_ROL_KMT_Zhou_texticon \n\n\n\n\n\n\n§Y土木系§! - §Y行辕主任顾问 周至柔§!\n\n土木系，亦称陈诚系，是国民革命军的军事派系之一，由陈诚为核心人物。其渊源可追溯至1928年12月，以北伐期间收编的北洋闽军第十七军为基础，整合国民革命军总司令部警卫第一、二、三团及第三师第九团，整编为国民革命军第十一师。首任师长曹万顺，不久由副师长陈诚接任，后该部扩编为第十八军。因"十一"合为"土"、"十八"合为"木"，故外界以"土木系"代指陈诚派系。\n该军系将领多出身于第十一师与第十八军，或与陈诚存在密切人事关联。作为陈诚嫡系部队，其以严格军纪著称：既杜绝虚报兵员现象，又注重吸纳官兵建议，自抗战前便以精锐闻名。\n陈诚因病去世后，土木系也随之逐渐式微，以胡宗南为首的黄埔系-中央军有意打压，昔日的精锐部队如今也废弛不堪，但无论怎么讲，土木系仍然是行辕内部无可忽视的一股强劲的政治和军事力量，如进行行辕内部的军事改革，就必须考虑他们的意见。\n\n目前£GFX_KMT_tumu_icon §Y土木系§!在常委中占有§Y[?ROL_KMT_party_TUMU]§!席"
  ROL_KMT_Zaizao_big_tt: "£GFX_ROL_KMT_zaizao_texticon §g再造系§!\n\n\n\n\n\n\n£GFX_ROL_KMT_Teng_texticon \n\n\n\n\n\n\n§g再造系§! - §g政大党部副主委 滕杰§!\n\n目前£GFX_ROL_KMT_zaizao_texticon §g再造系§!在常委中占有§g[?ROL_KMT_party_ZAIZAO]§!席"
  ROL_KMT_Hunangang_big_tt: "£GFX_ROL_KMT_hunangang_texticon §j湖南帮§!\n\n\n\n\n\n\n£GFX_ROL_KMT_He_texticon \n\n\n\n\n\n\n§j湖南帮§! - §j行辕主任顾问 贺衷寒§!\n\n目前£GFX_ROL_KMT_hunangang_texticon §j湖南帮§!在常委中占有§j[?ROL_KMT_party_HUNANGANG]§!席"
  ROL_KMT_Taizi_big_tt: "£GFX_ROL_KMT_taizi_texticon §i新太子党§!\n\n\n\n\n\n\n£GFX_ROL_KMT_twice_Jiang_texticon \n\n\n\n\n\n\n§i新太子党§! - §i行辕装甲第一师师长 蒋纬国§!\n\n目前£GFX_ROL_KMT_taizi_texticon §i新太子党§!在常委中占有§i[?ROL_KMT_party_TAIZI]§!席"
+ ROL_KMT_party_control_info: "§M政治两字的意思，浅而言之。§!\n§j政就是众人的事，治就是管理，管理众人的事便是政治。§!——孙逸仙\n§W--------------\n\n§!£GFX_ROL_KMT_lanzhou_texticon \n\n\n§W--------------\n§!§g胡宗南将军§!在任的§q最后几年§!，£GFX_KMT_kmt_icon §B行辕§!内部的权力斗争已§R几近无法调和§!，党同伐异、山头林立§j也成常态§!。随着§g胡宗南§!的身体状况§e每况愈下§!，£GFX_KMT_kmt_icon §B行辕§!内部的大小事务也转为§i秘阁议事§!的形式，由各派遴选的§Y常任委员§!商议决定。主任选举结束后，重新审视常委和党务整顿已被§G提上日程§!。军事主导的§Y常任委员会§!的常委席位已被瓜分给不同派系，某一派的§Y常任委员§!多少能够直观地体现出这一派别的实力，也代表这一派别在行辕内部事务决断上的§V话语权§!。拉拢意识形态和利益相近的§Y其他派别委员§!可以有效的在常委中取得优势，己方阵营的§Y常委§!也有可能因其他派别的说服或收买而转投。无论如何需记住，§J没有永恒的朋友，也没有永恒的敌人，只有永恒的利益。§!\n\n通过操作§MGUI面板§!，对§Y常委§!进行控制、洗牌。或说服收买，或打压破坏，尽可能的维持主导地位，必要时可以动用§R非常手段§!，在行辕内部的事务决断上避免掣肘，某些情况下，§o出让利益§!换取政治资源也不失为一种手段。\n\n§e五帝三皇神圣事，骗了无涯过客...§!"
  
  
  
