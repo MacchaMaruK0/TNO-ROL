@@ -94,4 +94,23 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_zaizao_texticon.png"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = { #大框
+		name = GFX_ROL_KMT_party_big_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_big_icon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #主任委员张治中
+		name = GFX_ROL_KMT_zhang_1_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_zhang_1_icon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #书记长蒋经国
+		name = GFX_ROL_KMT_jiang_1_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_jiang_1_icon.png"
+		legacy_lazy_load = no
+	}
+	
 }	
