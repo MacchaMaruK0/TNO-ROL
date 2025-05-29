@@ -412,7 +412,11 @@ focus_tree = {
 		}
 		available = { 
 		}
-		bypass = { 
+		bypass = {
+			custom_trigger_tooltip = {
+			has_country_flag = ROL_KMT_second_end
+			tooltip = ROL_KMT_ROC_second_end_tt	
+			}
 		}
 		cancel_if_invalid = yes 
 		continue_if_invalid = no 
@@ -454,7 +458,11 @@ focus_tree = {
 		}
 		available = { 
 		}
-		bypass = { 
+		bypass = {
+			custom_trigger_tooltip = {
+			has_country_flag = ROL_KMT_second_end
+			tooltip = ROL_KMT_ROC_second_end_tt	
+			}
 		}
 		cancel_if_invalid = yes 
 		continue_if_invalid = no 
@@ -478,7 +486,11 @@ focus_tree = {
 		}
 		available = { 
 		}
-		bypass = { 
+		bypass = {
+			custom_trigger_tooltip = {
+			has_country_flag = ROL_KMT_second_end
+			tooltip = ROL_KMT_ROC_second_end_tt	
+			}
 		}
 		cancel_if_invalid = yes 
 		continue_if_invalid = no 
@@ -501,7 +513,11 @@ focus_tree = {
 		}
 		available = { 
 		}
-		bypass = { 
+		bypass = {
+			custom_trigger_tooltip = {
+			has_country_flag = ROL_KMT_second_end
+			tooltip = ROL_KMT_ROC_second_end_tt	
+			}
 		}
 		cancel_if_invalid = yes 
 		continue_if_invalid = no 

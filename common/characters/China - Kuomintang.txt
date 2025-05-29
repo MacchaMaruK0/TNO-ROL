@@ -3,10 +3,10 @@ characters = {
 		name = KMT_ROL_Hu_Zongnan  #胡宗南
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Hu_Zongnan.dds"
+				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Hu_Zongnan.png"
 			}
 			army = {
-				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Hu_Zongnan.dds"
+				large = "gfx/leaders/KMT/Portrait_KMT_ROL_Hu_Zongnan.png"
 				small = "GFX_idea_KMT_ROL_Hu_Zongnan"
 			}
 		}
