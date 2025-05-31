@@ -1,5 +1,23 @@
 #|===============| TNO Game Rules |===============|#
 
+### Tips & Tricks Toggle
+tips_and_tricks_status = {
+	name = "TIPS_AND_TRICKS_STATUS"
+	group = "RULE_GROUP_GAME_SETUP"
+	default = {
+		name = TIPS_AND_TRICKS_DEFAULT
+		text = "RULE_OPTION_TIPS_AND_TRICKS_DEFAULT"
+		desc = "RULE_OPTION_TIPS_AND_TRICKS_DEFAULT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = TIPS_AND_TRICKS_DISABLED
+		text = "RULE_OPTION_TIPS_AND_TRICKS_DISABLED"
+		desc = "RULE_OPTION_TIPS_AND_TRICKS_DISABLED_DESC"
+		allow_achievements = yes
+	}
+}
+
 ### Britain Content
 britain_content_status = {
 	name = "BRITAIN_CONTENT_STATUS"
@@ -89,9 +107,9 @@ burgundy_collapse_status = {
 		allow_achievements = yes
 	}
 	option = {
-		name = BURGUNDY_COLLAPSE_ENSURED
-		text = "BURGUNDY_COLLAPSE_ENSURED"
-		desc = "BURGUNDY_COLLAPSE_ENSURED_DESC"
+		name = BURGUNDY_COLLAPSE_FIFTYFIFTY
+		text = "BURGUNDY_COLLAPSE_FIFTYFIFTY"
+		desc = "BURGUNDY_COLLAPSE_FIFTYFIFTY_DESC"
 		allow_achievements = no
 	}
 	option = {
@@ -661,31 +679,6 @@ GER_HITLER_HEIR = {
 #		allow_achievements = yes
 #	}
 #}
-
-# Slovakia [Politics/Faction]
-
-SLO_ULTIMATUM = {
-	name = SLO_ULTIMATUM
-	group = "RULE_GROUP_TNO_RULES_EUROPE_EINHEITSPAKT"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_SLO_ULTIMATUM_RANDOM"
-		desc = "RULE_OPTION_SLO_ULTIMATUM_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = SLO_ULTIMATUM_ACCEPT
-		text = "RULE_OPTION_SLO_ULTIMATUM_ACCEPT"
-		desc = "RULE_OPTION_SLO_ULTIMATUM_ACCEPT_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = SLO_ULTIMATUM_REFUSE
-		text = "RULE_OPTION_SLO_ULTIMATUM_REFUSE"
-		desc = "RULE_OPTION_SLO_ULTIMATUM_REFUSE_DESC"
-		allow_achievements = yes
-	}
-}
 
 # Germany - Albert Speer [Ideology]
 
@@ -1725,43 +1718,6 @@ FRA_MONARCHIST_ELECTION_OUTCOME = {
 	}
 }
 
-# Sidos' France - Foreign Policy
-
-FRA_SIDOS_PATH = {
-	name = FRA_SIDOS_PATH
-	group = "RULE_GROUP_TNO_RULES_WESTERN_EUROPE"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_FRA_SIDOS_PATH_RANDOM"
-		desc = "RULE_OPTION_FRA_SIDOS_PATH_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = FRA_SIDOS_PATH_GERMANY
-		text = "RULE_OPTION_FRA_SIDOS_PATH_GERMANY"
-		desc = "RULE_OPTION_FRA_SIDOS_PATH_GERMANY_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = FRA_SIDOS_PATH_ITALY
-		text = "RULE_OPTION_FRA_SIDOS_PATH_ITALY"
-		desc = "RULE_OPTION_FRA_SIDOS_PATH_ITALY_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = FRA_SIDOS_PATH_IBERIA
-		text = "RULE_OPTION_FRA_SIDOS_PATH_IBERIA"
-		desc = "RULE_OPTION_FRA_SIDOS_PATH_IBERIA_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = FRA_SIDOS_PATH_ISOLATION
-		text = "RULE_OPTION_FRA_SIDOS_PATH_ISOLATION"
-		desc = "RULE_OPTION_FRA_SIDOS_PATH_ISOLATION_DESC"
-		allow_achievements = yes
-	}
-}
-
 # France - Post-Reclamation Election
 
 FRA_POST_RECLAMATION_ELECTION = {
@@ -2120,98 +2076,6 @@ DEN_PATH = {
 	}
 }
 
-# Finland - 1963 election
-
-FIN_1963_ELECTIONS = {
-	name = FIN_1963_ELECTIONS
-	group = "RULE_GROUP_TNO_RULES_NORTHERN_EUROPE"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_FIN_1963_ELECTIONS_RANDOM"
-		desc = "RULE_OPTION_FIN_1963_ELECTIONS_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = { # Erkki Lindfors [Progressivism]
-		name = FIN_1963_ELECTIONS_SDP
-		text = "RULE_OPTION_FIN_1963_ELECTIONS_SDP"
-		desc = "RULE_OPTION_FIN_1963_ELECTIONS_SDP_DESC"
-		allow_achievements = yes
-	}
-	option = { # Johan Otto Söderhjelm [Liberalism]
-		name = FIN_1963_ELECTIONS_RKP
-		text = "RULE_OPTION_FIN_1963_ELECTIONS_RKP"
-		desc = "RULE_OPTION_FIN_1963_ELECTIONS_RKP_DESC"
-		allow_achievements = yes
-	}
-	option = { # Johannes Virolainen [Liberal Conservatism]
-		name = FIN_1963_ELECTIONS_ML
-		text = "RULE_OPTION_FIN_1963_ELECTIONS_ML"
-		desc = "RULE_OPTION_FIN_1963_ELECTIONS_ML_DESC"
-		allow_achievements = yes
-	}
-	option = { # Veikko Vennamo [Conservatism]
-		name = FIN_1963_ELECTIONS_SMP
-		text = "RULE_OPTION_FIN_1963_ELECTIONS_SMP"
-		desc = "RULE_OPTION_FIN_1963_ELECTIONS_SMP_DESC"
-		allow_achievements = yes
-	}
-	option = { # Niilo Kosola [Paternalism]
-		name = FIN_1963_ELECTIONS_KOK
-		text = "RULE_OPTION_FIN_1963_ELECTIONS_KOK"
-		desc = "RULE_OPTION_FIN_1963_ELECTIONS_KOK_DESC"
-		allow_achievements = yes
-	}
-}
-
-# Finland - 1966 election
-
-FIN_1966_ELECTIONS = {
-	name = FIN_1966_ELECTIONS
-	group = "RULE_GROUP_TNO_RULES_NORTHERN_EUROPE"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_FIN_1966_ELECTIONS_RANDOM"
-		desc = "RULE_OPTION_FIN_1966_ELECTIONS_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = { # Ensio Kytömaa [Communism]
-		name = FIN_1966_ELECTIONS_SKP
-		text = "RULE_OPTION_FIN_1966_ELECTIONS_SKP"
-		desc = "RULE_OPTION_FIN_1966_ELECTIONS_SKP_DESC"
-		allow_achievements = yes
-	}
-	option = { # Mauno Koivisto [Progressivism]
-		name = FIN_1966_ELECTIONS_SDP
-		text = "RULE_OPTION_FIN_1966_ELECTIONS_SDP"
-		desc = "RULE_OPTION_FIN_1966_ELECTIONS_SDP_DESC"
-		allow_achievements = yes
-	}
-	option = { # Jan-Magnus Jansson [Liberalism]
-		name = FIN_1966_ELECTIONS_RKP
-		text = "RULE_OPTION_FIN_1966_ELECTIONS_RKP"
-		desc = "RULE_OPTION_FIN_1966_ELECTIONS_RKP_DESC"
-		allow_achievements = yes
-	}
-	option = { # Veikko Pihlajamäki [Liberal Conservatism]
-		name = FIN_1966_ELECTIONS_ML
-		text = "RULE_OPTION_FIN_1966_ELECTIONS_ML"
-		desc = "RULE_OPTION_FIN_1966_ELECTIONS_ML_DESC"
-		allow_achievements = yes
-	}
-	option = { # Veikko Vennamo [Conservatism]
-		name = FIN_1966_ELECTIONS_SMP
-		text = "RULE_OPTION_FIN_1966_ELECTIONS_SMP"
-		desc = "RULE_OPTION_FIN_1966_ELECTIONS_SMP_DESC"
-		allow_achievements = yes
-	}
-	option = { # Tuure Junnila [Paternalism]
-		name = FIN_1966_ELECTIONS_KOK
-		text = "RULE_OPTION_FIN_1966_ELECTIONS_KOK"
-		desc = "RULE_OPTION_FIN_1966_ELECTIONS_KOK_DESC"
-		allow_achievements = yes
-	}
-}
-
 # Finland - 1967 Presidential Elections
 
 FIN_1967_PRESIDENT_PATH = {
@@ -2245,141 +2109,6 @@ FIN_1967_PRESIDENT_PATH = {
 		name = FIN_1967_PRESIDENT_PATH_FAGERHOLM
 		text = "RULE_OPTION_FIN_1967_PRESIDENT_PATH_FAGERHOLM"
 		desc = "RULE_OPTION_FIN_1967_PRESIDENT_PATH_FAGERHOLM_DESC"
-		allow_achievements = yes
-	}
-}
-
-# Finland - 1969 election
-
-FIN_1969_ELECTIONS = {
-	name = FIN_1969_ELECTIONS
-	group = "RULE_GROUP_TNO_RULES_NORTHERN_EUROPE"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_FIN_1969_ELECTIONS_RANDOM"
-		desc = "RULE_OPTION_FIN_1969_ELECTIONS_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = { # Teuvo Aura [Communism]
-		name = FIN_1969_ELECTIONS_SKP
-		text = "RULE_OPTION_FIN_1969_ELECTIONS_SKP"
-		desc = "RULE_OPTION_FIN_1969_ELECTIONS_SKP_DESC"
-		allow_achievements = yes
-	}
-	option = { # Aarne Saarinen [Socialism]
-		name = FIN_1969_ELECTIONS_SDTP
-		text = "RULE_OPTION_FIN_1969_ELECTIONS_SDTP"
-		desc = "RULE_OPTION_FIN_1969_ELECTIONS_SDTP_DESC"
-		allow_achievements = yes
-	}
-	option = { # Mauno Koivisto [Progressivism]
-		name = FIN_1969_ELECTIONS_SDP
-		text = "RULE_OPTION_FIN_1969_ELECTIONS_SDP"
-		desc = "RULE_OPTION_FIN_1969_ELECTIONS_SDP_DESC"
-		allow_achievements = yes
-	}
-	option = { # Jan-Magnus Jansson [Liberalism]
-		name = FIN_1969_ELECTIONS_RKP
-		text = "RULE_OPTION_FIN_1969_ELECTIONS_RKP"
-		desc = "RULE_OPTION_FIN_1969_ELECTIONS_RKP_DESC"
-		allow_achievements = yes
-	}
-	option = { # Veikko Pihlajamäki [Liberal Conservatism]
-		name = FIN_1969_ELECTIONS_ML
-		text = "RULE_OPTION_FIN_1969_ELECTIONS_ML"
-		desc = "RULE_OPTION_FIN_1969_ELECTIONS_ML_DESC"
-		allow_achievements = yes
-	}
-	option = { # Veikko Vennamo [Conservatism]
-		name = FIN_1969_ELECTIONS_SMP
-		text = "RULE_OPTION_FIN_1969_ELECTIONS_SMP"
-		desc = "RULE_OPTION_FIN_1969_ELECTIONS_SMP_DESC"
-		allow_achievements = yes
-	}
-	option = { # Kullervo Rainio [Paternalism]
-		name = FIN_1969_ELECTIONS_KOK
-		text = "RULE_OPTION_FIN_1969_ELECTIONS_KOK"
-		desc = "RULE_OPTION_FIN_1969_ELECTIONS_KOK_DESC"
-		allow_achievements = yes
-	}
-}
-
-# Finland - 1972 election
-
-FIN_1972_ELECTIONS = {
-	name = FIN_1972_ELECTIONS
-	group = "RULE_GROUP_TNO_RULES_NORTHERN_EUROPE"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_FIN_1972_ELECTIONS_RANDOM"
-		desc = "RULE_OPTION_FIN_1972_ELECTIONS_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = { # Olavi Borg [Communism]
-		name = FIN_1972_ELECTIONS_SKP
-		text = "RULE_OPTION_FIN_1972_ELECTIONS_SKP"
-		desc = "RULE_OPTION_FIN_1972_ELECTIONS_SKP_DESC"
-		allow_achievements = yes
-	}
-	option = { # Aarne Saarinen [Socialism]
-		name = FIN_1972_ELECTIONS_SDTP
-		text = "RULE_OPTION_FIN_1972_ELECTIONS_SDTP"
-		desc = "RULE_OPTION_FIN_1972_ELECTIONS_SDTP_DESC"
-		allow_achievements = yes
-	}
-	option = { # Pirkko Työläjärvi [Progressivism]
-		name = FIN_1972_ELECTIONS_SDP
-		text = "RULE_OPTION_FIN_1972_ELECTIONS_SDP"
-		desc = "RULE_OPTION_FIN_1972_ELECTIONS_SDP_DESC"
-		allow_achievements = yes
-	}
-	option = { # Carl Olof Tallgren [Liberalism]
-		name = FIN_1972_ELECTIONS_RKP
-		text = "RULE_OPTION_FIN_1972_ELECTIONS_RKP"
-		desc = "RULE_OPTION_FIN_1972_ELECTIONS_RKP_DESC"
-		allow_achievements = yes
-	}
-	option = { # Taisto Tähkämaa [Liberal Conservatism]
-		name = FIN_1972_ELECTIONS_ML
-		text = "RULE_OPTION_FIN_1972_ELECTIONS_ML"
-		desc = "RULE_OPTION_FIN_1972_ELECTIONS_ML_DESC"
-		allow_achievements = yes
-	}
-	option = { # Veikko Vennamo [Conservatism]
-		name = FIN_1972_ELECTIONS_SMP
-		text = "RULE_OPTION_FIN_1972_ELECTIONS_SMP"
-		desc = "RULE_OPTION_FIN_1972_ELECTIONS_SMP_DESC"
-		allow_achievements = yes
-	}
-	option = { # Eero Lattula [Paternalism]
-		name = FIN_1972_ELECTIONS_KOK
-		text = "RULE_OPTION_FIN_1972_ELECTIONS_KOK"
-		desc = "RULE_OPTION_FIN_1972_ELECTIONS_KOK_DESC"
-		allow_achievements = yes
-	}
-}
-
-# Finland - Legalization of the Communist Party
-
-FIN_COMMUNIST_PARTY_FATE = {
-	name = FIN_COMMUNIST_PARTY_FATE
-	group = "RULE_GROUP_TNO_RULES_NORTHERN_EUROPE"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_FIN_COMMUNIST_PARTY_FATE_RANDOM"
-		desc = "RULE_OPTION_FIN_COMMUNIST_PARTY_FATE_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = FIN_COMMUNIST_PARTY_FATE_LEGAL
-		text = "RULE_OPTION_FIN_COMMUNIST_PARTY_FATE_LEGAL"
-		desc = "RULE_OPTION_FIN_COMMUNIST_PARTY_FATE_LEGAL_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = FIN_COMMUNIST_PARTY_FATE_ILLEGAL
-		text = "RULE_OPTION_FIN_COMMUNIST_PARTY_FATE_ILLEGAL"
-		desc = "RULE_OPTION_FIN_COMMUNIST_PARTY_FATE_ILLEGAL"
 		allow_achievements = yes
 	}
 }
@@ -2482,7 +2211,7 @@ UPA_LEADER_PATH = {
 	}
 }
 
-# Republic of Ukraine - Pillars of the Revolution [Ideology]
+# Ukrainian People's Republic - Pillars of the Revolution [Ideology]
 
 FUK_LEADER_PATH = {
 	name = FUK_LEADER_PATH
@@ -2509,6 +2238,77 @@ FUK_LEADER_PATH = {
 		name = FUK_LEADER_PATH_POPULIST
 		text = "RULE_OPTION_FUK_LEADER_PATH_POPULIST"
 		desc = "RULE_OPTION_FUK_LEADER_PATH_POPULIST_DESC"
+		allow_achievements = yes
+	}
+}
+
+# Moskowien Leadership Succession
+
+MOSKOWIEN_RK_OR_ARMY = {
+	name = MOSKOWIEN_RK_OR_ARMY
+	group = "RULE_GROUP_TNO_RULES_EASTERN_EUROPE"
+	option = {
+		name = MOSKOWIEN_RK_OR_ARMY_OUTCOME_RANDOM
+		text = "RULE_OPTION_MOSKOWIEN_RK_OR_ARMY_OUTCOME_RANDOM"
+		desc = "RULE_OPTION_MOSKOWIEN_RK_OR_ARMY_OUTCOME_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = MOSKOWIEN_RK_OR_ARMY_OUTCOME_RK
+		text = "RULE_OPTION_MOSKOWIEN_RK_OR_ARMY_OUTCOME_RK"
+		desc = "RULE_OPTION_MOSKOWIEN_RK_OR_ARMY_OUTCOME_RK_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = MOSKOWIEN_RK_OR_ARMY_OUTCOME_ARMY
+		text = "RULE_OPTION_MOSKOWIEN_RK_OR_ARMY_OUTCOME_ARMY"
+		desc = "RULE_OPTION_MOSKOWIEN_RK_OR_ARMY_OUTCOME_ARMY_DESC"
+		allow_achievements = yes
+	}
+}
+
+MOSKOWIEN_GLOB_OR_HELL = {
+	name = MOSKOWIEN_GLOB_OR_HELL
+	group = "RULE_GROUP_TNO_RULES_EASTERN_EUROPE"
+	option = {
+		name = MOSKOWIEN_GLOB_OR_HELL_OUTCOME_RANDOM
+		text = "RULE_OPTION_MOSKOWIEN_GLOB_OR_HELL_OUTCOME_RANDOM"
+		desc = "RULE_OPTION_MOSKOWIEN_GLOB_OR_HELL_OUTCOME_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = MOSKOWIEN_GLOB_OR_HELL_OUTCOME_GLOB
+		text = "RULE_OPTION_MOSKOWIEN_GLOB_OR_HELL_OUTCOME_GLOB"
+		desc = "RULE_OPTION_MOSKOWIEN_GLOB_OR_HELL_OUTCOME_GLOB_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = MOSKOWIEN_GLOB_OR_HELL_OUTCOME_HELL
+		text = "RULE_OPTION_MOSKOWIEN_GLOB_OR_HELL_OUTCOME_HELL"
+		desc = "RULE_OPTION_MOSKOWIEN_GLOB_OR_HELL_OUTCOME_HELL_DESC"
+		allow_achievements = yes
+	}
+}
+
+MOSKOWIEN_OKT_OR_NOT = {
+	name = MOSKOWIEN_OKT_OR_NOT
+	group = "RULE_GROUP_TNO_RULES_EASTERN_EUROPE"
+	option = {
+		name = MOSKOWIEN_OKT_OR_NOT_OUTCOME_RANDOM
+		text = "RULE_OPTION_MOSKOWIEN_OKT_OR_NOT_OUTCOME_RANDOM"
+		desc = "RULE_OPTION_MOSKOWIEN_OKT_OR_NOT_OUTCOME_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = MOSKOWIEN_OKT_OR_NOT_OUTCOME_OKT
+		text = "RULE_OPTION_MOSKOWIEN_OKT_OR_NOT_OUTCOME_OKT"
+		desc = "RULE_OPTION_MOSKOWIEN_OKT_OR_NOT_OUTCOME_OKT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = MOSKOWIEN_OKT_OR_NOT_OUTCOME_NOT
+		text = "RULE_OPTION_MOSKOWIEN_OKT_OR_NOT_OUTCOME_NOT"
+		desc = "RULE_OPTION_MOSKOWIEN_OKT_OR_NOT_OUTCOME_NOT_DESC"
 		allow_achievements = yes
 	}
 }
@@ -2543,212 +2343,6 @@ CAU_IDEOLOGY_PATH = {
 		allow_achievements = yes
 	}
 }
-
-# Moskowien's Dissolution - Fate of the Wladimir region
-
-WLADIMIR_REGION_PATH = {
-	name = WLADIMIR_REGION_PATH
-	group = "RULE_GROUP_TNO_RULES_EASTERN_EUROPE"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_WLADIMIR_REGION_PATH_RANDOM"
-		desc = "RULE_OPTION_WLADIMIR_REGION_PATH_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = WLADIMIR_REGION_PATH_LUF
-		text = "RULE_OPTION_WLADIMIR_REGION_PATH_LUF"
-		desc = "RULE_OPTION_WLADIMIR_REGION_PATH_LUF_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = WLADIMIR_REGION_PATH_TVER
-		text = "RULE_OPTION_WLADIMIR_REGION_PATH_TVER"
-		desc = "RULE_OPTION_WLADIMIR_REGION_PATH_TVER_DESC"
-		allow_achievements = yes
-	}
-}
-
-
-# Moskowien's Dissolution - Fate of the Torzhok region
-
-TVR_VS_RZHEV_PATH = {
-	name = TVR_VS_RZHEV_PATH
-	group = "RULE_GROUP_TNO_RULES_EASTERN_EUROPE"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_TVR_VS_RZHEV_PATH_RANDOM"
-		desc = "RULE_OPTION_TVR_VS_RZHEV_PATH_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = TVR_VS_RZHEV_PATH_TVR
-		text = "RULE_OPTION_TVR_VS_RZHEV_PATH_TVR"
-		desc = "RULE_OPTION_TVR_VS_RZHEV_PATH_TVR_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = TVR_VS_RZHEV_PATH_RZHEV
-		text = "RULE_OPTION_TVR_VS_RZHEV_PATH_RZHEV"
-		desc = "RULE_OPTION_TVR_VS_RZHEV_PATH_RZHEV_DESC"
-		allow_achievements = yes
-	}
-}
-
-
-# Moskowien's Dissolution - Fate of the Holmgard region
-
-HOLMGARD_PATH = {
-	name = HOLMGARD_PATH
-	group = "RULE_GROUP_TNO_RULES_EASTERN_EUROPE"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_HOLMGARD_PATH_RANDOM"
-		desc = "RULE_OPTION_HOLMGARD_PATH_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = HOLMGARD_PATH_OZL
-		text = "RULE_OPTION_HOLMGARD_PATH_OZL"
-		desc = "RULE_OPTION_HOLMGARD_PATH_OZL_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = HOLMGARD_PATH_PSK
-		text = "RULE_OPTION_HOLMGARD_PATH_PSK"
-		desc = "RULE_OPTION_HOLMGARD_PATH_PSK_DESC"
-		allow_achievements = yes
-	}
-}
-
-
-# Moskowien's Dissolution - Fate of the Tambow and Penza regions
-
-TAMBOW_PATH = {
-	name = TAMBOW_PATH
-	group = "RULE_GROUP_TNO_RULES_EASTERN_EUROPE"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_TAMBOW_PATH_RANDOM"
-		desc = "RULE_OPTION_TAMBOW_PATH_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = TAMBOW_PATH_OZT
-		text = "RULE_OPTION_TAMBOW_PATH_OZT"
-		desc = "RULE_OPTION_TAMBOW_PATH_OZT_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = TAMBOW_PATH_SHI
-		text = "RULE_OPTION_TAMBOW_PATH_SHI"
-		desc = "RULE_OPTION_TAMBOW_PATH_SHI_DESC"
-		allow_achievements = yes
-	}
-}
-
-# Moskowien's Dissolution - Fate of the Nevdubstrow region
-
-PARTISAN_PATH = {
-	name = PARTISAN_PATH
-	group = "RULE_GROUP_TNO_RULES_EASTERN_EUROPE"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_PARTISAN_PATH_RANDOM"
-		desc = "RULE_OPTION_PARTISAN_PATH_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = PARTISAN_PATH_PFT
-		text = "RULE_OPTION_PARTISAN_PATH_PFT"
-		desc = "RULE_OPTION_PARTISAN_PATH_PFT_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = PARTISAN_PATH_SNP
-		text = "RULE_OPTION_PARTISAN_PATH_SNP"
-		desc = "RULE_OPTION_PARTISAN_PATH_SNP_DESC"
-		allow_achievements = yes
-	}
-}
-
-# Moskowien's Dissolution - Fate of the Kaluga and Gschatsk regions
-
-KALUGA_PATH = {
-	name = KALUGA_PATH
-	group = "RULE_GROUP_TNO_RULES_EASTERN_EUROPE"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_KALUGA_PATH_RANDOM"
-		desc = "RULE_OPTION_KALUGA_PATH_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = KALUGA_PATH_ORL_OZO
-		text = "RULE_OPTION_KALUGA_PATH_ORL_OZO"
-		desc = "RULE_OPTION_KALUGA_PATH_ORL_OZO_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = KALUGA_PATH_RFS
-		text = "RULE_OPTION_KALUGA_PATH_RFS"
-		desc = "RULE_OPTION_KALUGA_PATH_RFS_DESC"
-		allow_achievements = yes
-	}
-}
-
-
-# Moskowien's Dissolution - Fate of the Pokrow region
-
-POKROW_PATH = {
-	name = POKROW_PATH
-	group = "RULE_GROUP_TNO_RULES_EASTERN_EUROPE"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_POKROW_PATH_RANDOM"
-		desc = "RULE_OPTION_POKROW_PATH_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = POKROW_PATH_PAU
-		text = "RULE_OPTION_POKROW_PATH_PAU"
-		desc = "RULE_OPTION_POKROW_PATH_PAU_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = POKROW_PATH_POP
-		text = "RULE_OPTION_POKROW_PATH_POP"
-		desc = "RULE_OPTION_POKROW_PATH_POP_DESC"
-		allow_achievements = yes
-	}
-}
-
-
-# Moskowien's Dissolution - Fate of the Astrakhan region
-
-ASTRAKHAN_PATH = {
-	name = ASTRAKHAN_PATH
-	group = "RULE_GROUP_TNO_RULES_EASTERN_EUROPE"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_ASTRAKHAN_PATH_RANDOM"
-		desc = "RULE_OPTION_ASTRAKHAN_PATH_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = ASTRAKHAN_PATH_PAU
-		text = "RULE_OPTION_ASTRAKHAN_PATH_PAU"
-		desc = "RULE_OPTION_ASTRAKHAN_PATH_PAU_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = ASTRAKHAN_PATH_OZA
-		text = "RULE_OPTION_ASTRAKHAN_PATH_OZA"
-		desc = "RULE_OPTION_ASTRAKHAN_PATH_OZA_DESC"
-		allow_achievements = yes
-	}
-}
-
 
 ####################################
 ### ITALIAN EMPIRE - TRIUMVIRATE ###
@@ -3090,33 +2684,6 @@ SCORZA_ECON = {
 		allow_achievements = yes
 	}
 }
-
-
-# Scorza's Oil Crisis Policy (Politics)
-
-SCORZA_OIL_CRISIS_POLICY = {
-	name = SCORZA_OIL_CRISIS_POLICY
-	group = "RULE_GROUP_TNO_RULES_ITALIAN_EMPIRE_TRIUMVIRATE"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_SCORZA_OIL_CRISIS_POLICY_RANDOM"
-		desc = "RULE_OPTION_SCORZA_OIL_CRISIS_POLICY_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = SCORZA_OIL_CRISIS_POLICY_CRUSH_BAATH
-		text = "RULE_OPTION_SCORZA_OIL_CRISIS_POLICY_CRUSH_BAATH"
-		desc = "RULE_OPTION_SCORZA_OIL_CRISIS_POLICY_CRUSH_BAATH_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = SCORZA_OIL_CRISIS_POLICY_STRIKE_SAUDI
-		text = "RULE_OPTION_SCORZA_OIL_CRISIS_POLICY_STRIKE_SAUDI"
-		desc = "RULE_OPTION_SCORZA_OIL_CRISIS_POLICY_STRIKE_SAUDI_DESC"
-		allow_achievements = yes
-	}
-}
-
 
 ###################
 ### THE BALKANS ###
@@ -3547,29 +3114,6 @@ BUL_MAC_NEGOTIATION_PATH = {
 		name = BUL_MAC_NEGOTIATION_PATH_FAILED
 		text = "RULE_OPTION_BUL_MAC_NEGOTIATION_PATH_FAILED"
 		desc = "RULE_OPTION_BUL_MAC_NEGOTIATION_PATH_FAILED_DESC"
-		allow_achievements = yes
-	}
-}
-
-BUL_MAC_WAR_PATH = {
-	name = BUL_MAC_WAR_PATH
-	group = "RULE_GROUP_TNO_RULES_BALKANS"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_BUL_MAC_WAR_PATH_RANDOM"
-		desc = "RULE_OPTION_BUL_MAC_WAR_PATH_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = RULE_OPTION_BUL_MAC_WAR_PATH_MACEDONIA_VICTORY
-		text = "RULE_OPTION_BUL_MAC_WAR_PATH_MACEDONIA_VICTORY"
-		desc = "RULE_OPTION_BUL_MAC_WAR_PATH_MACEDONIA_VICTORY_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = RULE_OPTION_BUL_MAC_WAR_PATH_BULGARIA_VICTORY
-		text = "RULE_OPTION_BUL_MAC_WAR_PATH_BULGARIA_VICTORY"
-		desc = "RULE_OPTION_BUL_MAC_WAR_PATH_BULGARIA_VICTORY_DESC"
 		allow_achievements = yes
 	}
 }
@@ -4360,133 +3904,206 @@ BSQ_PATH = {
 ### TURKEY - TRIUMVIRATE ###
 ############################
 
-# Turkey - ITW defeat elections [Ideology]
+# Turkey - Spring Protests
 
-TUR_ITW_DEFEAT_ELECTION_PATH = {
-	name = "TUR_ITW_DEFEAT_ELECTION_PATH"
+TUR_SPRING_PROTESTS_PATH = {
+	name = "TUR_SPRING_PROTESTS_PATH"
 	group = "RULE_GROUP_TNO_RULES_OTHER_TRIUMVIRATE"
 	option = {
 		name = DEFAULT
-		text = "RULE_OPTION_TUR_ITW_DEFEAT_ELECTION_PATH_RANDOM"
-		desc = "RULE_OPTION_TUR_ITW_DEFEAT_ELECTION_PATH_RANDOM_DESC"
+		text = "RULE_OPTION_TUR_SPRING_PROTESTS_PATH_RANDOM"
+		desc = "RULE_OPTION_TUR_SPRING_PROTESTS_PATH_RANDOM_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = TUR_ITW_DEFEAT_ELECTION_PATH_DYP_NO_COUP
-		text = "RULE_OPTION_TUR_ITW_DEFEAT_ELECTION_PATH_DYP_NO_COUP"
-		desc = "RULE_OPTION_TUR_ITW_DEFEAT_ELECTION_PATH_DYP_NO_COUP_DESC"
+		name = TUR_SPRING_PROTESTS_PATH_NEGOTIATIONS
+		text = "RULE_OPTION_TUR_SPRING_PROTESTS_PATH_NEGOTIATIONS"
+		desc = "RULE_OPTION_TUR_SPRING_PROTESTS_PATH_NEGOTIATIONS_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = TUR_ITW_DEFEAT_ELECTION_PATH_DYP_YES_COUP
-		text = "RULE_OPTION_TUR_ITW_DEFEAT_ELECTION_PATH_DYP_YES_COUP"
-		desc = "RULE_OPTION_TUR_ITW_DEFEAT_ELECTION_PATH_DYP_YES_COUP_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = TUR_ITW_DEFEAT_ELECTION_PATH_CHP_STABLE
-		text = "RULE_OPTION_TUR_ITW_DEFEAT_ELECTION_PATH_CHP_STABLE"
-		desc = "RULE_OPTION_TUR_ITW_DEFEAT_ELECTION_PATH_CHP_STABLE_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = TUR_ITW_DEFEAT_ELECTION_PATH_CHP_REVOLT
-		text = "RULE_OPTION_TUR_ITW_DEFEAT_ELECTION_PATH_CHP_REVOLT"
-		desc = "RULE_OPTION_TUR_ITW_DEFEAT_ELECTION_PATH_CHP_REVOLT_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = TUR_ITW_DEFEAT_ELECTION_PATH_UDP_STABLE
-		text = "RULE_OPTION_TUR_ITW_DEFEAT_ELECTION_PATH_UDP_STABLE"
-		desc = "RULE_OPTION_TUR_ITW_DEFEAT_ELECTION_PATH_UDP_STABLE_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = TUR_ITW_DEFEAT_ELECTION_PATH_UDP_REVOLT
-		text = "RULE_OPTION_TUR_ITW_DEFEAT_ELECTION_PATH_UDP_REVOLT"
-		desc = "RULE_OPTION_TUR_ITW_DEFEAT_ELECTION_PATH_UDP_REVOLT_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = TUR_ITW_DEFEAT_ELECTION_PATH_UDP_COUP
-		text = "RULE_OPTION_TUR_ITW_DEFEAT_ELECTION_PATH_UDP_COUP"
-		desc = "RULE_OPTION_TUR_ITW_DEFEAT_ELECTION_PATH_UDP_COUP_DESC"
+		name = TUR_SPRING_PROTESTS_PATH_PROTESTS_CRUSHED
+		text = "RULE_OPTION_TUR_SPRING_PROTESTS_PATH_PROTESTS_CRUSHED"
+		desc = "RULE_OPTION_TUR_SPRING_PROTESTS_PATH_PROTESTS_CRUSHED_DESC"
 		allow_achievements = yes
 	}
 }
 
-# CHP - Left or Right?
+# Turkey - 1963 Elections [Ideology]
 
-TUR_CHP_PATH = {
-	name = "TUR_CHP_PATH"
+TUR_1963_ELECTION_PATH = {
+	name = "TUR_1963_ELECTION_PATH"
 	group = "RULE_GROUP_TNO_RULES_OTHER_TRIUMVIRATE"
 	option = {
 		name = DEFAULT
-		text = "RULE_OPTION_TUR_CHP_PATH_RANDOM"
-		desc = "RULE_OPTION_TUR_CHP_PATH_RANDOM_DESC"
+		text = "RULE_OPTION_TUR_1963_ELECTION_PATH_RANDOM"
+		desc = "RULE_OPTION_TUR_1963_ELECTION_PATH_RANDOM_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = TUR_CHP_PATH_LEFT
-		text = "RULE_OPTION_TUR_CHP_PATH_LEFT"
-		desc = "RULE_OPTION_TUR_CHP_PATH_LEFT_DESC"
+		name = TUR_1963_ELECTION_PATH_CHP_LEFT
+		text = "RULE_OPTION_TUR_1963_ELECTION_PATH_CHP_LEFT"
+		desc = "RULE_OPTION_TUR_1963_ELECTION_PATH_CHP_LEFT_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = TUR_CHP_PATH_RIGHT
-		text = "RULE_OPTION_TUR_CHP_PATH_RIGHT"
-		desc = "RULE_OPTION_TUR_CHP_PATH_RIGHT_DESC"
+		name = TUR_1963_ELECTION_PATH_CHP_RIGHT
+		text = "RULE_OPTION_TUR_1963_ELECTION_PATH_CHP_RIGHT"
+		desc = "RULE_OPTION_TUR_1963_ELECTION_PATH_CHP_RIGHT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = TUR_1963_ELECTION_PATH_UDP_MENDERES
+		text = "RULE_OPTION_TUR_1963_ELECTION_PATH_UDP_MENDERES"
+		desc = "RULE_OPTION_TUR_1963_ELECTION_PATH_UDP_MENDERES_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = TUR_1963_ELECTION_PATH_UDP_DEMIREL
+		text = "RULE_OPTION_TUR_1963_ELECTION_PATH_UDP_DEMIREL"
+		desc = "RULE_OPTION_TUR_1963_ELECTION_PATH_UDP_DEMIREL_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = TUR_1963_ELECTION_PATH_UDP_BILGIC
+		text = "RULE_OPTION_TUR_1963_ELECTION_PATH_UDP_BILGIC"
+		desc = "RULE_OPTION_TUR_1963_ELECTION_PATH_UDP_BILGIC_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = TUR_1963_ELECTION_PATH_DYP_SOCIALISTS
+		text = "RULE_OPTION_TUR_1963_ELECTION_PATH_DYP_SOCIALISTS"
+		desc = "RULE_OPTION_TUR_1963_ELECTION_PATH_DYP_SOCIALISTS_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = TUR_1963_ELECTION_PATH_DYP_LIBERALS
+		text = "RULE_OPTION_TUR_1963_ELECTION_PATH_DYP_LIBERALS"
+		desc = "RULE_OPTION_TUR_1963_ELECTION_PATH_DYP_LIBERALS_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = TUR_1963_ELECTION_PATH_22_APRIL_INCIDENT
+		text = "RULE_OPTION_TUR_1963_ELECTION_PATH_22_APRIL_INCIDENT"
+		desc = "RULE_OPTION_TUR_1963_ELECTION_PATH_22_APRIL_INCIDENT_DESC"
 		allow_achievements = yes
 	}
 }
 
+# Turkey - Military Coup
 
-# Turkey - Dashnak Revolt
-
-TUR_POST_ITW_VICTORY = {
-	name = "TUR_POST_ITW_VICTORY"
+TUR_MILITARY_COUP_PATH = {
+	name = "TUR_MILITARY_COUP_PATH"
 	group = "RULE_GROUP_TNO_RULES_OTHER_TRIUMVIRATE"
 	option = {
 		name = DEFAULT
-		text = "RULE_OPTION_TUR_POST_ITW_VICTORY_RANDOM"
-		desc = "RULE_OPTION_TUR_POST_ITW_VICTORY_RANDOM_DESC"
+		text = "RULE_OPTION_TUR_MILITARY_COUP_PATH_RANDOM"
+		desc = "RULE_OPTION_TUR_MILITARY_COUP_PATH_RANDOM_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = TUR_POST_ITW_VICTORY_NO_REVOLT
-		text = "RULE_OPTION_TUR_POST_ITW_VICTORY_NO_REVOLT"
-		desc = "RULE_OPTION_TUR_POST_ITW_VICTORY_NO_REVOLT_DESC"
+		name = TUR_MILITARY_COUP_PATH_YES
+		text = "RULE_OPTION_TUR_MILITARY_COUP_PATH_YES"
+		desc = "RULE_OPTION_TUR_MILITARY_COUP_PATH_YES_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = TUR_POST_ITW_VICTORY_YES_REVOLT
-		text = "RULE_OPTION_TUR_POST_ITW_VICTORY_YES_REVOLT"
-		desc = "RULE_OPTION_TUR_POST_ITW_VICTORY_YES_REVOLT_DESC"
+		name = TUR_MILITARY_COUP_PATH_NO
+		text = "RULE_OPTION_TUR_MILITARY_COUP_PATH_NO"
+		desc = "RULE_OPTION_TUR_MILITARY_COUP_PATH_NO_DESC"
 		allow_achievements = yes
 	}
 }
 
-# Turkey - Dashnak Revolt Type [Ideology]
+# Turkey - Fate of the Junta
 
-TUR_REVOLT_PATH = {
-	name = "TUR_REVOLT_PATH"
+TUR_FATE_OF_THE_JUNTA_PATH = {
+	name = "TUR_FATE_OF_THE_JUNTA_PATH"
 	group = "RULE_GROUP_TNO_RULES_OTHER_TRIUMVIRATE"
 	option = {
 		name = DEFAULT
-		text = "RULE_OPTION_TUR_REVOLT_PATH_RANDOM"
-		desc = "RULE_OPTION_TUR_REVOLT_PATH_RANDOM_DESC"
+		text = "RULE_OPTION_TUR_FATE_OF_THE_JUNTA_PATH_RANDOM"
+		desc = "RULE_OPTION_TUR_FATE_OF_THE_JUNTA_PATH_RANDOM_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = TUR_REVOLT_PATH_COMMUNIST
-		text = "RULE_OPTION_TUR_REVOLT_PATH_COMMUNIST"
-		desc = "RULE_OPTION_TUR_REVOLT_PATH_COMMUNIST_DESC"
+		name = TUR_FATE_OF_THE_JUNTA_PATH_CONSTITUTIONALISTS_ERIM_SUCCESS
+		text = "RULE_OPTION_TUR_FATE_OF_THE_JUNTA_PATH_CONSTITUTIONALISTS_ERIM_SUCCESS"
+		desc = "RULE_OPTION_TUR_FATE_OF_THE_JUNTA_PATH_CONSTITUTIONALISTS_ERIM_SUCCESS_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = TUR_REVOLT_PATH_ULTRANAT
-		text = "RULE_OPTION_TUR_REVOLT_PATH_ULTRANAT"
-		desc = "RULE_OPTION_TUR_REVOLT_PATH_ULTRANAT_DESC"
+		name = TUR_FATE_OF_THE_JUNTA_PATH_CONSTITUTIONALISTS_ERIM_FAILURE
+		text = "RULE_OPTION_TUR_FATE_OF_THE_JUNTA_PATH_CONSTITUTIONALISTS_ERIM_FAILURE"
+		desc = "RULE_OPTION_TUR_FATE_OF_THE_JUNTA_PATH_CONSTITUTIONALISTS_ERIM_FAILURE_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = TUR_FATE_OF_THE_JUNTA_PATH_RADICALS
+		text = "RULE_OPTION_TUR_FATE_OF_THE_JUNTA_PATH_RADICALS"
+		desc = "RULE_OPTION_TUR_FATE_OF_THE_JUNTA_PATH_RADICALS_DESC"
+		allow_achievements = yes
+	}
+}
+
+# Turkey - Rogue Generals' Insurrection
+
+TUR_ROGUE_GENERALS_INSURRECTION_PATH = {
+	name = "TUR_ROGUE_GENERALS_INSURRECTION_PATH"
+	group = "RULE_GROUP_TNO_RULES_OTHER_TRIUMVIRATE"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_TUR_ROGUE_GENERALS_INSURRECTION_PATH_RANDOM"
+		desc = "RULE_OPTION_TUR_ROGUE_GENERALS_INSURRECTION_PATH_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = TUR_ROGUE_GENERALS_INSURRECTION_PATH_REGIME_CONSOLIDATION
+		text = "RULE_OPTION_TUR_ROGUE_GENERALS_INSURRECTION_PATH_REGIME_CONSOLIDATION"
+		desc = "RULE_OPTION_TUR_ROGUE_GENERALS_INSURRECTION_PATH_REGIME_CONSOLIDATION_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = TUR_ROGUE_GENERALS_INSURRECTION_PATH_COUP_DCP_ELECTED
+		text = "RULE_OPTION_TUR_ROGUE_GENERALS_INSURRECTION_PATH_COUP_DCP_ELECTED"
+		desc = "RULE_OPTION_TUR_ROGUE_GENERALS_INSURRECTION_PATH_COUP_DCP_ELECTED_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = TUR_ROGUE_GENERALS_INSURRECTION_PATH_COUP_SDP_ELECTED
+		text = "RULE_OPTION_TUR_ROGUE_GENERALS_INSURRECTION_PATH_COUP_SDP_ELECTED"
+		desc = "RULE_OPTION_TUR_ROGUE_GENERALS_INSURRECTION_PATH_COUP_SDP_ELECTED_DESC"
+		allow_achievements = yes
+	}
+}
+
+# Turkey - Kemalist Power Struggle
+
+TUR_KEMALIST_POWER_STRUGGLE_PATH = {
+	name = "TUR_KEMALIST_POWER_STRUGGLE_PATH"
+	group = "RULE_GROUP_TNO_RULES_OTHER_TRIUMVIRATE"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_TUR_KEMALIST_POWER_STRUGGLE_PATH_RANDOM"
+		desc = "RULE_OPTION_TUR_KEMALIST_POWER_STRUGGLE_PATH_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = TUR_KEMALIST_POWER_STRUGGLE_PATH_RADICALS_ULKU_FACTION
+		text = "RULE_OPTION_TUR_KEMALIST_POWER_STRUGGLE_PATH_RADICALS_ULKU_FACTION"
+		desc = "RULE_OPTION_TUR_KEMALIST_POWER_STRUGGLE_PATH_RADICALS_ULKU_FACTION_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = TUR_KEMALIST_POWER_STRUGGLE_PATH_RADICALS_YON_FACTION
+		text = "RULE_OPTION_TUR_KEMALIST_POWER_STRUGGLE_PATH_RADICALS_YON_FACTION"
+		desc = "RULE_OPTION_TUR_KEMALIST_POWER_STRUGGLE_PATH_RADICALS_YON_FACTION_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = TUR_KEMALIST_POWER_STRUGGLE_PATH_CENTRISTS
+		text = "RULE_OPTION_TUR_KEMALIST_POWER_STRUGGLE_PATH_CENTRISTS"
+		desc = "RULE_OPTION_TUR_KEMALIST_POWER_STRUGGLE_PATH_CENTRISTS_DESC"
 		allow_achievements = yes
 	}
 }
@@ -4526,7 +4143,7 @@ TUR_FACTION = {
 	}
 }
 
-# Turkey - Election 1971 [Ideology]
+# Turkey - 1971 General Elections [Ideology]
 
 TUR_ELECTION_71_PATH = {
 	name = "TUR_ELECTION_71_PATH"
@@ -4538,45 +4155,101 @@ TUR_ELECTION_71_PATH = {
 		allow_achievements = yes
 	}
 	option = {
-		name = TUR_ELECTION_71_PATH_TIP
-		text = "RULE_OPTION_TUR_ELECTION_71_PATH_TIP"
-		desc = "RULE_OPTION_TUR_ELECTION_71_PATH_TIP_DESC"
+		name = TUR_ELECTION_71_PATH_LEFT_KEMALISTS
+		text = "RULE_OPTION_TUR_ELECTION_71_PATH_LEFT_KEMALISTS"
+		desc = "RULE_OPTION_TUR_ELECTION_71_PATH_LEFT_KEMALISTS_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = TUR_ELECTION_71_PATH_SODEP
-		text = "RULE_OPTION_TUR_ELECTION_71_PATH_SODEP"
-		desc = "RULE_OPTION_TUR_ELECTION_71_PATH_SODEP_DESC"
+		name = TUR_ELECTION_71_PATH_RIGHT_KEMALISTS
+		text = "RULE_OPTION_TUR_ELECTION_71_PATH_RIGHT_KEMALISTS"
+		desc = "RULE_OPTION_TUR_ELECTION_71_PATH_RIGHT_KEMALISTS_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = TUR_ELECTION_71_PATH_LCHP
-		text = "RULE_OPTION_TUR_ELECTION_71_PATH_LCHP"
-		desc = "RULE_OPTION_TUR_ELECTION_71_PATH_LCHP_DESC"
+		name = TUR_ELECTION_71_PATH_POPULISTS
+		text = "RULE_OPTION_TUR_ELECTION_71_PATH_POPULISTS"
+		desc = "RULE_OPTION_TUR_ELECTION_71_PATH_POPULISTS_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = TUR_ELECTION_71_PATH_RCHP
-		text = "RULE_OPTION_TUR_ELECTION_71_PATH_RCHP"
-		desc = "RULE_OPTION_TUR_ELECTION_71_PATH_RCHP_DESC"
+		name = TUR_ELECTION_71_PATH_NATIONALIST_CONSERVATIVES
+		text = "RULE_OPTION_TUR_ELECTION_71_PATH_NATIONALIST_CONSERVATIVES"
+		desc = "RULE_OPTION_TUR_ELECTION_71_PATH_NATIONALIST_CONSERVATIVES_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = TUR_ELECTION_71_PATH_DP
-		text = "RULE_OPTION_TUR_ELECTION_71_PATH_DP"
-		desc = "RULE_OPTION_TUR_ELECTION_71_PATH_DP_DESC"
+		name = TUR_ELECTION_71_PATH_LIBERALS
+		text = "RULE_OPTION_TUR_ELECTION_71_PATH_LIBERALS"
+		desc = "RULE_OPTION_TUR_ELECTION_71_PATH_LIBERALS_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = TUR_ELECTION_71_PATH_AP
-		text = "RULE_OPTION_TUR_ELECTION_71_PATH_AP"
-		desc = "RULE_OPTION_TUR_ELECTION_71_PATH_AP_DESC"
+		name = TUR_ELECTION_71_PATH_SOCIALISTS_REFORM
+		text = "RULE_OPTION_TUR_ELECTION_71_PATH_SOCIALISTS_REFORM"
+		desc = "RULE_OPTION_TUR_ELECTION_71_PATH_SOCIALISTS_REFORM_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = TUR_ELECTION_71_PATH_MPN
-		text = "RULE_OPTION_TUR_ELECTION_71_PATH_MPN"
-		desc = "RULE_OPTION_TUR_ELECTION_71_PATH_MPN_DESC"
+		name = TUR_ELECTION_71_PATH_SOCIALISTS_REVOLUTION
+		text = "RULE_OPTION_TUR_ELECTION_71_PATH_SOCIALISTS_REVOLUTION"
+		desc = "RULE_OPTION_TUR_ELECTION_71_PATH_SOCIALISTS_REVOLUTION_DESC"
+		allow_achievements = yes
+	}
+}
+
+# Armenia - Fate of Sellefyan
+
+ARM_FATE_OF_SELLEFYAN = {
+	name = "ARM_FATE_OF_SELLEFYAN"
+	group = "RULE_GROUP_TNO_RULES_OTHER_TRIUMVIRATE"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_ARM_FATE_OF_SELLEFYAN_RANDOM"
+		desc = "RULE_OPTION_ARM_FATE_OF_SELLEFYAN_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = ARM_FATE_OF_SELLEFYAN_OUSTED
+		text = "RULE_OPTION_ARM_FATE_OF_SELLEFYAN_OUSTED"
+		desc = "RULE_OPTION_ARM_FATE_OF_SELLEFYAN_OUSTED_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = ARM_FATE_OF_SELLEFYAN_COLLAPSE
+		text = "RULE_OPTION_ARM_FATE_OF_SELLEFYAN_COLLAPSE"
+		desc = "RULE_OPTION_ARM_FATE_OF_SELLEFYAN_COLLAPSE_DESC"
+		allow_achievements = yes
+	}
+}
+
+# Armenia - 1966 Elections
+
+ARM_1966_ELECTION = {
+	name = "ARM_1966_ELECTION"
+	group = "RULE_GROUP_TNO_RULES_OTHER_TRIUMVIRATE"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_ARM_1966_ELECTION_RANDOM"
+		desc = "RULE_OPTION_ARM_1966_ELECTION_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = ARM_1966_ELECTION_LIB
+		text = "RULE_OPTION_ARM_1966_ELECTION_LIB"
+		desc = "RULE_OPTION_ARM_1966_ELECTION_LIB_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = ARM_1966_ELECTION_LIBCON
+		text = "RULE_OPTION_ARM_1966_ELECTION_LIBCON"
+		desc = "RULE_OPTION_ARM_1966_ELECTION_LIBCON_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = ARM_1966_ELECTION_SOC
+		text = "RULE_OPTION_ARM_1966_ELECTION_SOC"
+		desc = "RULE_OPTION_ARM_1966_ELECTION_SOC_DESC"
 		allow_achievements = yes
 	}
 }
@@ -4727,494 +4400,6 @@ ENG_RESISTANCE_ROUTE = {
 		allow_achievements = yes
 	}
 }
-
-# England - Kingdom of England (Government/Collaborationists) [Ideology]
-
-#COLLAB_ideology_route = {
-#	name = "COLLAB_IDEOLOGY_ROUTE"
-#	group = "RULE_GROUP_TNO_RULES_BRITISH_ISLES"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_COLLAB_IDEOLOGY_ROUTE_RANDOM"
-#		desc = "RULE_OPTION_COLLAB_IDEOLOGY_ROUTE_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = COLLAB_IDEOLOGY_ROUTE_SOCCON
-#		text = "RULE_OPTION_COLLAB_IDEOLOGY_ROUTE_SOCCON"
-#		desc = "RULE_OPTION_COLLAB_IDEOLOGY_ROUTE_SOCCON_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = COLLAB_IDEOLOGY_ROUTE_AUTHDEM
-#		text = "RULE_OPTION_COLLAB_IDEOLOGY_ROUTE_AUTHDEM"
-#		desc = "RULE_OPTION_COLLAB_IDEOLOGY_ROUTE_AUTHDEM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = COLLAB_IDEOLOGY_ROUTE_FASCISM
-#		text = "RULE_OPTION_COLLAB_IDEOLOGY_ROUTE_FASCISM"
-#		desc = "RULE_OPTION_COLLAB_IDEOLOGY_ROUTE_FASCISM_DESC"
-#		allow_achievements = yes
-#	}
-#}
-
-# Collaborationists England - 2nd Election [Ideology]
-
-#COLLAB_SECOND_ELECTIOM = {
-#	name = "COLLAB_SECOND_ELECTIOM"
-#	group = "RULE_GROUP_TNO_RULES_BRITISH_ISLES"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_COLLAB_SECOND_ELECTIOM_RANDOM"
-#		desc = "RULE_OPTION_COLLAB_SECOND_ELECTIOM_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = COLLAB_SECOND_ELECTIOM_SOCCON
-#		text = "RULE_OPTION_COLLAB_SECOND_ELECTIOM_SOCCON"
-#		desc = "RULE_OPTION_COLLAB_SECOND_ELECTIOM_SOCCON_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = COLLAB_SECOND_ELECTIOM_AUTHDEM
-#		text = "RULE_OPTION_COLLAB_SECOND_ELECTIOM_AUTHDEM"
-#		desc = "RULE_OPTION_COLLAB_SECOND_ELECTIOM_AUTHDEM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = COLLAB_SECOND_ELECTIOM_FASCISM
-#		text = "RULE_OPTION_COLLAB_SECOND_ELECTIOM_FASCISM"
-#		desc = "RULE_OPTION_COLLAB_SECOND_ELECTIOM_FASCISM_DESC"
-#		allow_achievements = yes
-#	}
-#}
-
-# Collaborationists England - Coup [Ideology]
-
-#COLLAB_COUP = {
-#	name = "COLLAB_COUP"
-#	group = "RULE_GROUP_TNO_RULES_BRITISH_ISLES"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_COLLAB_COUP_RANDOM"
-#		desc = "RULE_OPTION_COLLAB_COUP_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = COLLAB_COUP_NO
-#		text = "RULE_OPTION_COLLAB_COUP_NO"
-#		desc = "RULE_OPTION_COLLAB_COUP_NO_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = COLLAB_COUP_BUTLER
-#		text = "RULE_OPTION_COLLAB_COUP_BUTLER"
-#		desc = "RULE_OPTION_COLLAB_COUP_BUTLER_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = COLLAB_COUP_MONTY
-#		text = "RULE_OPTION_COLLAB_COUP_MONTY"
-#		desc = "RULE_OPTION_COLLAB_COUP_MONTY_DESC"
-#		allow_achievements = yes
-#	}
-#}
-
-# England - UE's policy [Ideology]
-
-#ENG_UE_ROUTE = {
-#	name = "ENG_UE_ROUTE"
-#	group = "RULE_GROUP_TNO_RULES_BRITISH_ISLES"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_ENG_UE_ROUTE_RANDOM"
-#		desc = "RULE_OPTION_ENG_UE_ROUTE_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = ENG_UE_ROUTE_MAC
-#		text = "RULE_OPTION_ENG_UE_ROUTE_MAC"
-#		desc = "RULE_OPTION_ENG_UE_ROUTE_MAC_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = ENG_UE_ROUTE_MAUD
-#		text = "RULE_OPTION_ENG_UE_ROUTE_MAUD"
-#		desc = "RULE_OPTION_ENG_UE_ROUTE_MAUD_DESC"
-#		allow_achievements = yes
-#	}
-#}
-
-# Thatcher-Cornawall Negotiation
-
-#ENG_GER_CORNAWALL_NEGOTIATION_PATH = {
-#	name = ENG_GER_CORNAWALL_NEGOTIATION_PATH
-#	group = "RULE_GROUP_TNO_RULES_BRITISH_ISLES"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_ENG_GER_CORNAWALL_NEGOTIATION_PATH_RANDOM"
-#		desc = "RULE_OPTION_ENG_GER_CORNAWALL_NEGOTIATION_PATH_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = ENG_GER_CORNAWALL_NEGOTIATION_PATH_PEACEFUL
-#		text = "RULE_OPTION_ENG_GER_CORNAWALL_NEGOTIATION_PATH_PEACEFUL"
-#		desc = "RULE_OPTION_ENG_GER_CORNAWALL_NEGOTIATION_PATH_PEACEFUL_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = ENG_GER_CORNAWALL_NEGOTIATION_PATH_COMPROMISE
-#		text = "RULE_OPTION_ENG_GER_CORNAWALL_NEGOTIATION_PATH_COMPROMISE"
-#		desc = "RULE_OPTION_ENG_GER_CORNAWALL_NEGOTIATION_PATH_COMPROMISE_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = ENG_GER_CORNAWALL_NEGOTIATION_PATH_MILITARY
-#		text = "RULE_OPTION_ENG_GER_CORNAWALL_NEGOTIATION_PATH_MILITARY"
-#		desc = "RULE_OPTION_ENG_GER_CORNAWALL_NEGOTIATION_PATH_MILITARY_DESC"
-#		allow_achievements = yes
-#	}
-#}
-
-
-# Macmilian's Englang - Army Reform
-
-#ENG_GENERAL_PLAN_PATH = {
-#	name = ENG_GENERAL_PLAN_PATH
-#	group = "RULE_GROUP_TNO_RULES_BRITISH_ISLES"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_ENG_GENERAL_PLAN_PATH_RANDOM"
-#		desc = "RULE_OPTION_ENG_GENERAL_PLAN_PATH_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = ENG_GENERAL_PLAN_PATH_BAKER
-#		text = "RULE_OPTION_ENG_GENERAL_PLAN_PATH_BAKER"
-#		desc = "RULE_OPTION_ENG_GENERAL_PLAN_PATH_BAKER_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = ENG_GENERAL_PLAN_PATH_MONTY
-#		text = "RULE_OPTION_ENG_GENERAL_PLAN_PATH_MONTY"
-#		desc = "RULE_OPTION_ENG_GENERAL_PLAN_PATH_MONTY_DESC"
-#		allow_achievements = yes
-#	}
-#}
-
-# Macmilian's Englang - Foreign Business
-
-#ENG_TRADE_PATH = {
-#	name = ENG_TRADE_PATH
-#	group = "RULE_GROUP_TNO_RULES_BRITISH_ISLES"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_ENG_TRADE_PATH_RANDOM"
-#		desc = "RULE_OPTION_ENG_TRADE_PATH_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = ENG_TRADE_PATH_OVER_THE_ATLANTIC
-#		text = "RULE_OPTION_ENG_TRADE_PATH_OVER_THE_ATLANTIC"
-#		desc = "RULE_OPTION_ENG_TRADE_PATH_OVER_THE_ATLANTIC_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = ENG_TRADE_PATH_NOT_HERE_OR_THERE
-#		text = "RULE_OPTION_ENG_TRADE_PATH_NOT_HERE_OR_THERE"
-#		desc = "RULE_OPTION_ENG_TRADE_PATH_NOT_HERE_OR_THERE_DESC"
-#		allow_achievements = yes
-#	}
-#}
-
-# England - His Majesty's Most Loyal Resistance (HMMLR) [Ideology]
-
-#HMMLR_ideology_route = {
-#	name = "HMMLR_IDEOLOGY_ROUTE"
-#	group = "RULE_GROUP_TNO_RULES_BRITISH_ISLES"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_HMMLR_IDEOLOGY_ROUTE_RANDOM"
-#		desc = "RULE_OPTION_HMMLR_IDEOLOGY_ROUTE_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = HMMLR_IDEOLOGY_ROUTE_SOCCON
-#		text = "RULE_OPTION_HMMLR_IDEOLOGY_ROUTE_SOCCON"
-#		desc = "RULE_OPTION_HMMLR_IDEOLOGY_ROUTE_SOCCON_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = HMMLR_IDEOLOGY_ROUTE_LIBSOC
-#		text = "RULE_OPTION_HMMLR_IDEOLOGY_ROUTE_LIBSOC"
-#		desc = "RULE_OPTION_HMMLR_IDEOLOGY_ROUTE_LIBSOC_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = HMMLR_IDEOLOGY_ROUTE_DESPOTISM
-#		text = "RULE_OPTION_HMMLR_IDEOLOGY_ROUTE_DESPOTISM"
-#		desc = "RULE_OPTION_HMMLR_IDEOLOGY_ROUTE_DESPOTISM_DESC"
-#		allow_achievements = yes
-#	}
-#}
-
-# HMMLR England - 2nd Election [Ideology]
-
-#HMMLR_SECOND_ELECTION = {
-#	name = "HMMLR_SECOND_ELECTION"
-#	group = "RULE_GROUP_TNO_RULES_BRITISH_ISLES"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_HMMLR_SECOND_ELECTION_RANDOM"
-#		desc = "RULE_OPTION_HMMLR_SECOND_ELECTION_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = HMMLR_SECOND_ELECTION_SOCCON
-#		text = "RULE_OPTION_HMMLR_SECOND_ELECTION_SOCCON"
-#		desc = "RULE_OPTION_HMMLR_SECOND_ELECTION_SOCCON_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = HMMLR_SECOND_ELECTION_LIBSOC
-#		text = "RULE_OPTION_HMMLR_SECOND_ELECTION_LIBSOC"
-#		desc = "RULE_OPTION_HMMLR_SECOND_ELECTION_LIBSOC_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = HMMLR_SECOND_ELECTION_DESPOTISM
-#		text = "RULE_OPTION_HMMLR_SECOND_ELECTION_DESPOTISM"
-#		desc = "RULE_OPTION_HMMLR_SECOND_ELECTION_DESPOTISM_DESC"
-#		allow_achievements = yes
-#	}
-#}
-
-# HMMLR England - Coup [Ideology]
-
-#HMMLR_COUP = {
-#	name = "HMMLR_COUP"
-#	group = "RULE_GROUP_TNO_RULES_BRITISH_ISLES"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_HMMLR_COUP_RANDOM"
-#		desc = "RULE_OPTION_HMMLR_COUP_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = HMMLR_COUP_NO
-#		text = "RULE_OPTION_HMMLR_COUP_NO"
-#		desc = "RULE_OPTION_HMMLR_COUP_NO_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = HMMLR_COUP_BIRCH
-#		text = "RULE_OPTION_HMMLR_COUP_BIRCH"
-#		desc = "RULE_OPTION_HMMLR_COUP_BIRCH_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = HMMLR_COUP_YDL
-#		text = "RULE_OPTION_HMMLR_COUP_YDL"
-#		desc = "RULE_OPTION_HMMLR_COUP_YDL_DESC"
-#		allow_achievements = yes
-#	}
-#}
-
-# Wales - The 1963 Elections [Ideology]
-
-#WAL_elections_1963 = {
-#	name = "WAL_ELECTIONS_1963"
-#	group = "RULE_GROUP_TNO_RULES_BRITISH_ISLES"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_WAL_ELECTIONS_1963_RANDOM"
-#		desc = "RULE_OPTION_WAL_ELECTIONS_1963_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = WAL_ELECTIONS_1963_CYMRU_GOCH
-#		text = "RULE_OPTION_WAL_ELECTIONS_1963_CYMRU_GOCH"
-#		desc = "RULE_OPTION_WAL_ELECTIONS_1963_CYMRU_GOCH_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = WAL_ELECTIONS_1963_INDEPENDENTS
-#		text = "RULE_OPTION_WAL_ELECTIONS_1963_INDEPENDENTS"
-#		desc = "RULE_OPTION_WAL_ELECTIONS_1963_INDEPENDENTS_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = WAL_ELECTIONS_1963_FREE_WALES_ARMY_COUP
-#		text = "RULE_OPTION_WAL_ELECTIONS_1963_FREE_WALES_ARMY_COUP"
-#		desc = "RULE_OPTION_WAL_ELECTIONS_1963_FREE_WALES_ARMY_COUP_DESC"
-#		allow_achievements = yes
-#	}
-#}
-
-# Scotland - The 1962 Elections [Ideology]
-
-#SCO_elections_1962 = {
-#	name = "SCO_ELECTIONS_1962"
-#	group = "RULE_GROUP_TNO_RULES_BRITISH_ISLES"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_SCO_ELECTIONS_1962_RANDOM"
-#		desc = "RULE_OPTION_SCO_ELECTIONS_1962_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = SCO_ELECTIONS_1962_SNP
-#		text = "RULE_OPTION_SCO_ELECTIONS_1962_SNP"
-#		desc = "RULE_OPTION_SCO_ELECTIONS_1962_SNP_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = SCO_ELECTIONS_1962_ILP
-#		text = "RULE_OPTION_SCO_ELECTIONS_1962_ILP"
-#		desc = "RULE_OPTION_SCO_ELECTIONS_1962_ILP_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = SCO_ELECTIONS_1962_UP
-#		text = "RULE_OPTION_SCO_ELECTIONS_1962_UP"
-#		desc = "RULE_OPTION_SCO_ELECTIONS_1962_UP_DESC"
-#		allow_achievements = yes
-#	}
-#
-#}
-
-# Scotland - The 1966 Elections [Ideology]
-
-#SCO_elections_1966 = {
-#	name = "SCO_ELECTIONS_1966"
-#	group = "RULE_GROUP_TNO_RULES_BRITISH_ISLES"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_SCO_ELECTIONS_1966_RANDOM"
-#		desc = "RULE_OPTION_SCO_ELECTIONS_1966_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = SCO_ELECTIONS_1966_SNP
-#		text = "RULE_OPTION_SCO_ELECTIONS_1966_SNP"
-#		desc = "RULE_OPTION_SCO_ELECTIONS_1966_SNP_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = SCO_ELECTIONS_1966_ILP
-#		text = "RULE_OPTION_SCO_ELECTIONS_1966_ILP"
-#		desc = "RULE_OPTION_SCO_ELECTIONS_1966_ILP_DESC"
-#		allow_achievements = yes
-#	}
-#	option = { #HMMLR must win
-#		name = SCO_ELECTIONS_1966_UP
-#		text = "RULE_OPTION_SCO_ELECTIONS_1966_UP"
-#		desc = "RULE_OPTION_SCO_ELECTIONS_1966_UP_DESC"
-#		allow_achievements = yes
-#	}
-#
-#}
-
-# Scotland - The 1970 Elections [Ideology]
-
-#SCO_elections_1970 = {
-#	name = "SCO_ELECTIONS_1970"
-#	group = "RULE_GROUP_TNO_RULES_BRITISH_ISLES"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_SCO_ELECTIONS_1970_RANDOM"
-#		desc = "RULE_OPTION_SCO_ELECTIONS_1970_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = SCO_ELECTIONS_1970_SNP
-#		text = "RULE_OPTION_SCO_ELECTIONS_1970_SNP"
-#		desc = "RULE_OPTION_SCO_ELECTIONS_1970_SNP_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = SCO_ELECTIONS_1970_ILP
-#		text = "RULE_OPTION_SCO_ELECTIONS_1970_ILP"
-#		desc = "RULE_OPTION_SCO_ELECTIONS_1970_ILP_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = SCO_ELECTIONS_1970_UP
-#		text = "RULE_OPTION_SCO_ELECTIONS_1970_UP"
-#		desc = "RULE_OPTION_SCO_ELECTIONS_1970_UP_DESC"
-#		allow_achievements = yes
-#	}
-#
-#}
-
-# England/Wales - Welsh-English Reunification [Unification]
-
-#ENG_WALES_REUNIFICATION = {
-#	name = "ENG_WALES_REUNIFICATION"
-#	group = "RULE_GROUP_TNO_RULES_BRITISH_ISLES"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_ENG_WALES_REUNIFICATION_RANDOM"
-#		desc = "RULE_OPTION_ENG_WALES_REUNIFICATION_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = ENG_WALES_REUNIFICATION_PEACEFUL
-#		text = "RULE_OPTION_ENG_WALES_REUNIFICATION_PEACEFUL"
-#		desc = "RULE_OPTION_ENG_WALES_REUNIFICATION_PEACEFUL_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = ENG_WALES_REUNIFICATION_WAR
-#		text = "RULE_OPTION_ENG_WALES_REUNIFICATION_WAR"
-#		desc = "RULE_OPTION_ENG_WALES_REUNIFICATION_WAR_DESC"
-#		allow_achievements = yes
-#	}
-#}
-
-# England/Scotland - Scottish-English Reunification [Unification]
-
-#ENG_SCOTLAND_REUNIFICATION = {
-#	name = "ENG_SCOTLAND_REUNIFICATION"
-#	group = "RULE_GROUP_TNO_RULES_BRITISH_ISLES"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_ENG_SCOTLAND_REUNIFICATION_RANDOM"
-#		desc = "RULE_OPTION_ENG_SCOTLAND_REUNIFICATION_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = ENG_SCOTLAND_REUNIFICATION_STATUS_QUO
-#		text = "RULE_OPTION_ENG_SCOTLAND_REUNIFICATION_PEACEFUL"
-#		desc = "RULE_OPTION_ENG_SCOTLAND_REUNIFICATION_PEACEFUL_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = ENG_SCOTLAND_REUNIFICATION_UNION_OF_EQUALS
-#		text = "RULE_OPTION_ENG_SCOTLAND_REUNIFICATION_UNION_OF_EQUALS"
-#		desc = "RULE_OPTION_ENG_SCOTLAND_REUNIFICATION_UNION_OF_EQUALS_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = ENG_SCOTLAND_REUNIFICATION_SCOTTISH_COUNCIL
-#		text = "RULE_OPTION_ENG_SCOTLAND_REUNIFICATION_SCOTTISH_COUNCIL"
-#		desc = "RULE_OPTION_ENG_SCOTLAND_REUNIFICATION_SCOTTISH_COUNCIL_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = ENG_SCOTLAND_REUNIFICATION_LIMITED_AUTONOMY
-#		text = "RULE_OPTION_ENG_SCOTLAND_REUNIFICATION_LIMITED_AUTONOMY"
-#		desc = "RULE_OPTION_ENG_SCOTLAND_REUNIFICATION_LIMITED_AUTONOMY_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = ENG_SCOTLAND_REUNIFICATION_WAR
-#		text = "RULE_OPTION_ENG_SCOTLAND_REUNIFICATION_WAR"
-#		desc = "RULE_OPTION_ENG_SCOTLAND_REUNIFICATION_WAR_DESC"
-#		allow_achievements = yes
-#	}
-#}
 
 # Ireland (Political Path)
 
@@ -7257,9 +6442,65 @@ BRA_1965_elections = {
 	}
 }
 
+# Brazil - Fate of Adhemar [Politics]
+
+BRA_ADHEMAR_FATE = {
+	name = "BRA_ADHEMAR_FATE"
+	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MAJORS"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_BRA_ADHEMAR_FATE_RANDOM"
+		desc = "RULE_OPTION_BRA_ADHEMAR_FATE_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "BRA_ADHEMAR_FATE_SURVIVES"
+		text = "RULE_OPTION_BRA_ADHEMAR_FATE_SURVIVES"
+		desc = "RULE_OPTION_BRA_ADHEMAR_FATE_SURVIVES_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "BRA_ADHEMAR_FATE_DIES"
+		text = "RULE_OPTION_BRA_ADHEMAR_FATE_DIES"
+		desc = "RULE_OPTION_BRA_ADHEMAR_FATE_DIES_DESC"
+		allow_achievements = yes
+	}
+}
+
+# Brazil - General Strike [Politics]
+
+BRA_STRIKE_FATE = {
+	name = "BRA_STRIKE_FATE"
+	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MAJORS"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_BRA_STRIKE_FATE_RANDOM"
+		desc = "RULE_OPTION_BRA_STRIKE_FATE_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "BRA_STRIKE_FATE_VICTORY"
+		text = "RULE_OPTION_BRA_STRIKE_FATE_VICTORY"
+		desc = "RULE_OPTION_BRA_STRIKE_FATE_VICTORY_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "BRA_STRIKE_FATE_COMPROMISE"
+		text = "RULE_OPTION_BRA_STRIKE_FATE_COMPROMISE"
+		desc = "RULE_OPTION_BRA_STRIKE_FATE_COMPROMISE_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "BRA_STRIKE_FATE_COUP"
+		text = "RULE_OPTION_BRA_STRIKE_FATE_COUP"
+		desc = "RULE_OPTION_BRA_STRIKE_FATE_COUP_DESC"
+		allow_achievements = yes
+	}
+}
+
 # Brazil - Imperial Presidency [Ideology]
 
-BRA_imperial_presidency = {
+BRA_IMPERIAL_PRESIDENCY = {
 	name = "BRA_IMPERIAL_PRESIDENCY"
 	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MAJORS"
 	option = {
@@ -7268,12 +6509,12 @@ BRA_imperial_presidency = {
 		desc = "RULE_OPTION_BRA_IMPERIAL_PRESIDENCY_RANDOM_DESC"
 		allow_achievements = yes
 	}
-	option = {
-		name = "BRA_IMPERIAL_PRESIDENCY_LACERDA_AGAINST"
-		text = "RULE_OPTION_BRA_IMPERIAL_PRESIDENCY_LACERDA_AGAINST"
-		desc = "RULE_OPTION_BRA_IMPERIAL_PRESIDENCY_LACERDA_AGAINST_DESC"
-		allow_achievements = yes
-	}
+	# option = {
+	# 	name = "BRA_IMPERIAL_PRESIDENCY_LACERDA_AGAINST"
+	# 	text = "RULE_OPTION_BRA_IMPERIAL_PRESIDENCY_LACERDA_AGAINST"
+	# 	desc = "RULE_OPTION_BRA_IMPERIAL_PRESIDENCY_LACERDA_AGAINST_DESC"
+	# 	allow_achievements = yes
+	# }
 	option = {
 		name = "BRA_IMPERIAL_PRESIDENCY_LACERDA_COUP"
 		text = "RULE_OPTION_BRA_IMPERIAL_PRESIDENCY_LACERDA_COUP"
@@ -7290,7 +6531,7 @@ BRA_imperial_presidency = {
 
 # Brazil - The Military Junta [Politics]
 
-BRA_military_junta = {
+BRA_MILITARY_JUNTA = {
 	name = "BRA_MILITARY_JUNTA"
 	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MAJORS"
 	option = {
@@ -7315,7 +6556,7 @@ BRA_military_junta = {
 
 # Brazil - 1965 Presidential Elections (Military)
 
-BRA_military_election = {
+BRA_MILITARY_ELECTION = {
 	name = "BRA_MILITARY_ELECTION"
 	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MAJORS"
 	option = {
@@ -7680,6 +6921,199 @@ ARG_SKELETON_CTP_COUP = { # Licastro coup if Menem/Isabel/Anchorena VP
 	}
 }
 
+# Chile
+
+CHL_SKELETON_CHRISTMAS_WAR = { # Christmas War
+	name = CHL_SKELETON_CHRISTMAS_WAR
+	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MAJORS"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_RANDOM"
+		desc = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = CHL_SKELETON_CHRISTMAS_WAR_ARG
+		text = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_ARG"
+		desc = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_ARG_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = CHL_SKELETON_CHRISTMAS_WAR_HOLD
+		text = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_HOLD"
+		desc = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_HOLD_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = CHL_SKELETON_CHRISTMAS_WAR_RETAKE
+		text = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_RETAKE"
+		desc = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_RETAKE_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = CHL_SKELETON_CHRISTMAS_WAR_CHL
+		text = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_CHL"
+		desc = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_CHL_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = CHL_SKELETON_CHRISTMAS_WAR_NO
+		text = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_NO"
+		desc = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_NO_DESC"
+		allow_achievements = yes
+	}
+}
+
+CHL_SKELETON_ALESSANDRI_TERM = { # Alessandri's Term
+	name = "CHL_SKELETON_ALESSANDRI_TERM"
+	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MAJORS"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_CHL_SKELETON_ALESSANDRI_TERM_RANDOM"
+		desc = "RULE_OPTION_CHL_SKELETON_ALESSANDRI_TERM_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "CHL_SKELETON_ALESSANDRI_TERM_RESIGNS"
+		text = "RULE_OPTION_CHL_SKELETON_ALESSANDRI_TERM_RESIGNS"
+		desc = "RULE_OPTION_CHL_SKELETON_ALESSANDRI_TERM_RESIGNS_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "CHL_SKELETON_ALESSANDRI_TERM_STAYS"
+		text = "RULE_OPTION_CHL_SKELETON_ALESSANDRI_TERM_STAYS"
+		desc = "RULE_OPTION_CHL_SKELETON_ALESSANDRI_TERM_STAYS_DESC"
+		allow_achievements = yes
+	}
+}
+
+CHL_SKELETON_PHILIPPI_TERM = { # Philippi's Term
+	name = "CHL_SKELETON_PHILIPPI_TERM"
+	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MAJORS"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_CHL_SKELETON_PHILIPPI_TERM_RANDOM"
+		desc = "RULE_OPTION_CHL_SKELETON_PHILIPPI_TERM_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "CHL_SKELETON_PHILIPPI_TERM_FAILURE"
+		text = "RULE_OPTION_CHL_SKELETON_PHILIPPI_TERM_FAILURE"
+		desc = "RULE_OPTION_CHL_SKELETON_PHILIPPI_TERM_FAILURE_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "CHL_SKELETON_PHILIPPI_TERM_SUCCESS"
+		text = "RULE_OPTION_CHL_SKELETON_PHILIPPI_TERM_SUCCESS"
+		desc = "RULE_OPTION_CHL_SKELETON_PHILIPPI_TERM_SUCCESS_DESC"
+		allow_achievements = yes
+	}
+}
+
+CHL_SKELETON_OCTOBER_CRISIS = { # October Crisis
+	name = "CHL_SKELETON_OCTOBER_CRISIS"
+	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MAJORS"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_CHL_SKELETON_OCTOBER_CRISIS_RANDOM"
+		desc = "RULE_OPTION_CHL_SKELETON_OCTOBER_CRISIS_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "CHL_SKELETON_OCTOBER_CRISIS_ALLENDE"
+		text = "RULE_OPTION_CHL_SKELETON_OCTOBER_CRISIS_ALLENDE"
+		desc = "RULE_OPTION_CHL_SKELETON_OCTOBER_CRISIS_ALLENDE_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "CHL_SKELETON_OCTOBER_CRISIS_PRAT"
+		text = "RULE_OPTION_CHL_SKELETON_OCTOBER_CRISIS_PRAT"
+		desc = "RULE_OPTION_CHL_SKELETON_OCTOBER_CRISIS_PRAT_DESC"
+		allow_achievements = yes
+	}
+}
+
+CHL_SKELETON_1964_ELECTIONS = { # 1964 Elections
+	name = "CHL_SKELETON_1964_ELECTIONS"
+	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MAJORS"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_CHL_SKELETON_1964_ELECTIONS_RANDOM"
+		desc = "RULE_OPTION_CHL_SKELETON_1964_ELECTIONS_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "CHL_SKELETON_1964_ELECTIONS_RETTIG"
+		text = "RULE_OPTION_CHL_SKELETON_1964_ELECTIONS_RETTIG"
+		desc = "RULE_OPTION_CHL_SKELETON_1964_ELECTIONS_RETTIG_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "CHL_SKELETON_1964_ELECTIONS_FREI"
+		text = "RULE_OPTION_CHL_SKELETON_1964_ELECTIONS_FREI"
+		desc = "RULE_OPTION_CHL_SKELETON_1964_ELECTIONS_FREI_DESC"
+		allow_achievements = yes
+	}
+}
+
+CHL_SKELETON_VIAUX_COUP = { # Viaux coup
+	name = "CHL_SKELETON_VIAUX_COUP"
+	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MAJORS"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_CHL_SKELETON_VIAUX_COUP_RANDOM"
+		desc = "RULE_OPTION_CHL_SKELETON_VIAUX_COUP_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "CHL_SKELETON_VIAUX_COUP_SUCCESS"
+		text = "RULE_OPTION_CHL_SKELETON_VIAUX_COUP_SUCCESS"
+		desc = "RULE_OPTION_CHL_SKELETON_VIAUX_COUP_SUCCESS_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "CHL_SKELETON_VIAUX_COUP_FAILS"
+		text = "RULE_OPTION_CHL_SKELETON_VIAUX_COUP_FAILS"
+		desc = "RULE_OPTION_CHL_SKELETON_VIAUX_COUP_FAILS_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "CHL_SKELETON_VIAUX_COUP_MERINO"
+		text = "RULE_OPTION_CHL_SKELETON_VIAUX_COUP_MERINO"
+		desc = "RULE_OPTION_CHL_SKELETON_VIAUX_COUP_MERINO_DESC"
+		allow_achievements = yes
+	}
+}
+
+CHL_SKELETON_PRAT_SELF_COUP = { # Prat self-coup
+	name = "CHL_SKELETON_PRAT_SELF_COUP"
+	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MAJORS"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_CHL_SKELETON_PRAT_SELF_COUP_RANDOM"
+		desc = "RULE_OPTION_CHL_SKELETON_PRAT_SELF_COUP_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "CHL_SKELETON_PRAT_SELF_COUP_SUCCESS"
+		text = "RULE_OPTION_CHL_SKELETON_PRAT_SELF_COUP_SUCCESS"
+		desc = "RULE_OPTION_CHL_SKELETON_PRAT_SELF_COUP_SUCCESS_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "CHL_SKELETON_PRAT_SELF_COUP_FAILS"
+		text = "RULE_OPTION_CHL_SKELETON_PRAT_SELF_COUP_FAILS"
+		desc = "RULE_OPTION_CHL_SKELETON_PRAT_SELF_COUP_FAILS_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "CHL_SKELETON_PRAT_SELF_COUP_DEPOSED"
+		text = "RULE_OPTION_CHL_SKELETON_PRAT_SELF_COUP_DEPOSED"
+		desc = "RULE_OPTION_CHL_SKELETON_PRAT_SELF_COUP_DEPOSED_DESC"
+		allow_achievements = yes
+	}
+}
+
 ##########################################
 ### South America – Minor Countries #
 ##########################################
@@ -7883,30 +7317,184 @@ SUR_INDEPENDENCE = {
 	}
 }
 
-# Santa Cruz - Banzer's Coup
+# Cayenne - Independence Referendum
 
-STC_BANZER_COUP = {
-	name = "STC_BANZER_COUP"
+GUC_INDEPENDENCE = {
+	name = "GUC_INDEPENDENCE"
 	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MINORS"
 	option = {
 		name = DEFAULT
-		text = "RULE_OPTION_STC_BANZER_COUP_RANDOM"
-		desc = "RULE_OPTION_STC_BANZER_COUP_RANDOM_DESC"
+		text = "RULE_OPTION_GUC_INDEPENDENCE_RANDOM"
+		desc = "RULE_OPTION_GUC_INDEPENDENCE_RANDOM_DESC"
 		allow_achievements = yes
 	}
-	option = { # Banzer Coup Successful [Despotism]
-		name = STC_BANZER_COUP_SUCCESS
-		text = "RULE_OPTION_STC_BANZER_COUP_SUCCESS"
-		desc = "RULE_OPTION_STC_BANZER_COUP_SUCCESS_DESC"
+	option = {
+		name = GUC_INDEPENDENCE_DISASTER
+		text = "RULE_OPTION_GUC_INDEPENDENCE_DISASTER"
+		desc = "RULE_OPTION_GUC_INDEPENDENCE_DISASTER_DESC"
 		allow_achievements = yes
 	}
-	option = { # Banzer Coup Fails [Paternalism]
-		name = STC_BANZER_COUP_FAIL
-		text = "RULE_OPTION_STC_BANZER_COUP_FAIL"
-		desc = "RULE_OPTION_STC_BANZER_COUP_FAIL_DESC"
+	option = {
+		name = GUC_INDEPENDENCE_LOSE
+		text = "RULE_OPTION_GUC_INDEPENDENCE_LOSE"
+		desc = "RULE_OPTION_GUC_INDEPENDENCE_LOSE_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = GUC_INDEPENDENCE_LEGITIMACY
+		text = "RULE_OPTION_GUC_INDEPENDENCE_LEGITIMACY"
+		desc = "RULE_OPTION_GUC_INDEPENDENCE_LEGITIMACY_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = GUC_INDEPENDENCE_ANGER
+		text = "RULE_OPTION_GUC_INDEPENDENCE_ANGER"
+		desc = "RULE_OPTION_GUC_INDEPENDENCE_ANGER_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = GUC_INDEPENDENCE_GOOD
+		text = "RULE_OPTION_GUC_INDEPENDENCE_GOOD"
+		desc = "RULE_OPTION_GUC_INDEPENDENCE_GOOD_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = GUC_INDEPENDENCE_GOLDEN
+		text = "RULE_OPTION_GUC_INDEPENDENCE_GOLDEN"
+		desc = "RULE_OPTION_GUC_INDEPENDENCE_GOLDEN_DESC"
 		allow_achievements = yes
 	}
 }
+
+# Bolivia - Andean Treaty Negatiation
+BOL_ANDEAN_TREATY = {
+	name = "BOL_ANDEAN_TREATY"
+	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MINORS"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_BOL_ANDEAN_TREATY_RANDOM"
+		desc = "RULE_OPTION_BOL_ANDEAN_TREATY_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = BOL_ANDEAN_TREATY_FAIL
+		text = "RULE_OPTION_BOL_ANDEAN_TREATY_FAIL"
+		desc = "RULE_OPTION_BOL_ANDEAN_TREATY_FAIL_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = BOL_ANDEAN_TREATY_SUCCESS
+		text = "RULE_OPTION_BOL_ANDEAN_TREATY_SUCCESS"
+		desc = "RULE_OPTION_BOL_ANDEAN_TREATY_SUCCESS_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = BOL_ANDEAN_TREATY_BRASUCCESS
+		text = "RULE_OPTION_BOL_ANDEAN_TREATY_BRASUCCESS"
+		desc = "RULE_OPTION_BOL_ANDEAN_TREATY_BRASUCCESS_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = BOL_ANDEAN_TREATY_ARGSUCCESS
+		text = "RULE_OPTION_BOL_ANDEAN_TREATY_ARGSUCCESS"
+		desc = "RULE_OPTION_BOL_ANDEAN_TREATY_ARGSUCCESS_DESC"
+		allow_achievements = yes
+	}
+}
+
+# Bolivia - Mining War
+
+BOL_MINING_WAR = {
+	name = "BOL_MINING_WAR"
+	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MINORS"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_BOL_MINING_WAR_RANDOM"
+		desc = "RULE_OPTION_BOL_MINING_WAR_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = { # Government Wins [Despotism]
+		name = BOL_MINING_WAR_GOVERNMENT
+		text = "RULE_OPTION_BOL_MINING_WAR_GOVERNMENT"
+		desc = "RULE_OPTION_BOL_MINING_WAR_GOVERNMENT_DESC"
+		allow_achievements = yes
+	}
+	option = { # Nationalist Wins [Despotism/Paternalism]
+		name = BOL_MINING_WAR_NATIONALIST
+		text = "RULE_OPTION_BOL_MINING_WAR_NATIONALIST"
+		desc = "RULE_OPTION_BOL_MINING_WAR_NATIONALIST_DESC"
+		allow_achievements = yes
+	}
+	option = { # Falangist Wins [Fascism]
+		name = BOL_MINING_WAR_FALANGIST
+		text = "RULE_OPTION_BOL_MINING_WAR_FALANGIST"
+		desc = "RULE_OPTION_BOL_MINING_WAR_FALANGIST_DESC"
+		allow_achievements = yes
+	}
+	option = { # Leftist Coup [Socialism]
+		name = BOL_MINING_WAR_LEFTIST
+		text = "RULE_OPTION_BOL_MINING_WAR_LEFTIST"
+		desc = "RULE_OPTION_BOL_MINING_WAR_LEFTIST_DESC"
+		allow_achievements = yes
+	}
+}
+
+# Bolivia - Politics
+
+BOL_POLITICS_1967 = {
+	name = "BOL_POLITICS_1967"
+	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MINORS"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_BOL_POLITICS_1967_RANDOM"
+		desc = "RULE_OPTION_BOL_POLITICS_1967_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = { # Military Junta [Despotism]
+		name = BOL_POLITICS_1967_JUNTA
+		text = "RULE_OPTION_BOL_POLITICS_1967_JUNTA"
+		desc = "RULE_OPTION_BOL_POLITICS_1967_JUNTA_DESC"
+		allow_achievements = yes
+	}
+	option = { # Oligarchy [Paternalism]
+		name = BOL_POLITICS_1967_OLIGARCHY
+		text = "RULE_OPTION_BOL_POLITICS_1967_OLIGARCHY"
+		desc = "RULE_OPTION_BOL_POLITICS_1967_OLIGARCHY_DESC"
+		allow_achievements = yes
+	}
+	option = { # Democratisation [Paternalism]
+		name = BOL_POLITICS_1967_DEMOCRATISATION
+		text = "RULE_OPTION_BOL_POLITICS_1967_DEMOCRATISATION"
+		desc = "RULE_OPTION_BOL_POLITICS_1967_DEMOCRATISATION_DESC"
+		allow_achievements = yes
+	}
+}
+
+
+# Santa Cruz - Banzer's Coup
+
+# STC_BANZER_COUP = {
+# 	name = "STC_BANZER_COUP"
+# 	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MINORS"
+# 	option = {
+# 		name = DEFAULT
+# 		text = "RULE_OPTION_STC_BANZER_COUP_RANDOM"
+# 		desc = "RULE_OPTION_STC_BANZER_COUP_RANDOM_DESC"
+# 		allow_achievements = yes
+# 	}
+# 	option = { # Banzer Coup Successful [Despotism]
+# 		name = STC_BANZER_COUP_SUCCESS
+# 		text = "RULE_OPTION_STC_BANZER_COUP_SUCCESS"
+# 		desc = "RULE_OPTION_STC_BANZER_COUP_SUCCESS_DESC"
+# 		allow_achievements = yes
+# 	}
+# 	option = { # Banzer Coup Fails [Paternalism]
+# 		name = STC_BANZER_COUP_FAIL
+# 		text = "RULE_OPTION_STC_BANZER_COUP_FAIL"
+# 		desc = "RULE_OPTION_STC_BANZER_COUP_FAIL_DESC"
+# 		allow_achievements = yes
+# 	}
+# }
 
 # Paraguay Government Decisions
 
@@ -7920,15 +7508,9 @@ PAR_government_response = {
 		allow_achievements = yes
 	}
 	option = {
-		name = "PAR_GOVERNMENT_RESPONSE_REFORM"
-		text = "RULE_OPTION_PAR_GOVERNMENT_RESPONSE_REFORM"
-		desc = "RULE_OPTION_PAR_GOVERNMENT_RESPONSE_REFORM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = "PAR_GOVERNMENT_RESPONSE_STATUS_QUO"
-		text = "RULE_OPTION_PAR_GOVERNMENT_RESPONSE_STATUS_QUO"
-		desc = "RULE_OPTION_PAR_GOVERNMENT_RESPONSE_STATUS_QUO_DESC"
+		name = "PAR_GOVERNMENT_RESPONSE_GUION_ROJO"
+		text = "RULE_OPTION_PAR_GOVERNMENT_RESPONSE_GUION_ROJO"
+		desc = "RULE_OPTION_PAR_GOVERNMENT_RESPONSE_GUION_ROJO_DESC"
 		allow_achievements = yes
 	}
 	option = {
@@ -7938,6 +7520,32 @@ PAR_government_response = {
 		allow_achievements = yes
 	}
 }
+
+# Post-Bush War Democraticos Path
+
+PAR_democraticos = {
+	name = "PAR_DEMOCRATICOS"
+	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MINORS"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_PAR_DEMOCRATICOS_RANDOM"
+		desc = "RULE_OPTION_PAR_DEMOCRATICOS_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "PAR_DEMOCRATICOS_SUCCESS"
+		text = "RULE_OPTION_PAR_DEMOCRATICOS_SUCCESS"
+		desc = "RULE_OPTION_PAR_DEMOCRATICOS_SUCCESS_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "PAR_DEMOCRATICOS_FAILURE"
+		text = "RULE_OPTION_PAR_DEMOCRATICOS_FAILURE"
+		desc = "RULE_OPTION_PAR_DEMOCRATICOS_FAILURE_DESC"
+		allow_achievements = yes
+	}
+}
+
 
 # Paraguay Bush War [Ideology]
 
@@ -7962,37 +7570,12 @@ PAR_bush_war = {
 		desc = "RULE_OPTION_PAR_BUSH_WAR_FULNA_VICTORY_DESC"
 		allow_achievements = yes
 	}
-	option = {
-		name = "PAR_BUSH_WAR_FDG_VICTORY"
-		text = "RULE_OPTION_PAR_BUSH_WAR_FDG_VICTORY"
-		desc = "RULE_OPTION_PAR_BUSH_WAR_FDG_VICTORY_DESC"
-		allow_achievements = yes
-	}
-}
-
-# Post-Bush War Democraticos Path
-
-PAR_democraticos = {
-	name = "PAR_DEMOCRATICOS"
-	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MINORS"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_PAR_DEMOCRATICOS_RANDOM"
-		desc = "RULE_OPTION_PAR_DEMOCRATICOS_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = "PAR_DEMOCRATICOS_CHAVEZ"
-		text = "RULE_OPTION_PAR_DEMOCRATICOS_CHAVEZ"
-		desc = "RULE_OPTION_PAR_DEMOCRATICOS_CHAVEZ_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = "PAR_DEMOCRATICOS_STROESSNER"
-		text = "RULE_OPTION_PAR_DEMOCRATICOS_STROESSNER"
-		desc = "RULE_OPTION_PAR_DEMOCRATICOS_STROESSNER_DESC"
-		allow_achievements = yes
-	}
+	#option = {
+	#	name = "PAR_BUSH_WAR_FDG_VICTORY"
+	#	text = "RULE_OPTION_PAR_BUSH_WAR_FDG_VICTORY"
+	#	desc = "RULE_OPTION_PAR_BUSH_WAR_FDG_VICTORY_DESC"
+	#	allow_achievements = yes
+	#}
 }
 
 # Paraguay Battle of Asuncion [Ideology]
@@ -8007,236 +7590,49 @@ PAR_battle_asuncion = {
 		allow_achievements = yes
 	}
 	option = {
-		name = "PAR_BATTLE_ASUNCION_COMMUNIST_VICTORY"
-		text = "RULE_OPTION_PAR_BATTLE_ASUNCION_COMMUNIST_VICTORY"
-		desc = "RULE_OPTION_PAR_BATTLE_ASUNCION_COMMUNIST_VICTORY_DESC"
+		name = "PAR_BATTLE_ASUNCION_LIBERAL_VICTORY"
+		text = "RULE_OPTION_PAR_BATTLE_ASUNCION_LIBERAL_VICTORY"
+		desc = "RULE_OPTION_PAR_BATTLE_ASUNCION_LIBERAL_VICTORY_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = "PAR_BATTLE_ASUNCION_COMMUNIST_DEFEAT"
-		text = "RULE_OPTION_PAR_BATTLE_ASUNCION_COMMUNIST_DEFEAT"
-		desc = "RULE_OPTION_PAR_BATTLE_ASUNCION_COMMUNIST_DEFEAT_DESC"
+		name = "PAR_BATTLE_ASUNCION_FEBRARISTA_VICTORY"
+		text = "RULE_OPTION_PAR_BATTLE_ASUNCION_FEBRARISTA_VICTORY"
+		desc = "RULE_OPTION_PAR_BATTLE_ASUNCION_FEBRARISTA_VICTORY_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "PAR_BATTLE_ASUNCION_COMMUNIST_VICTORY"
+		text = "RULE_OPTION_PAR_BATTLE_ASUNCION_COMMUNIST_VICTORY"
+		desc = "RULE_OPTION_PAR_BATTLE_ASUNCION_COMMUNIST_VICTORY_DESC"
 		allow_achievements = yes
 	}
 }
 
 # Paraguayan Elections (After Communist Defeat)
 
-PAR_elections = {
-	name = "PAR_ELECTIONS"
-	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MINORS"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_PAR_ELECTIONS_RANDOM"
-		desc = "RULE_OPTION_PAR_ELECTIONS_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = "PAR_ELECTIONS_FEBRERISTS"
-		text = "RULE_OPTION_PAR_ELECTIONS_FEBRERISTS"
-		desc = "RULE_OPTION_PAR_ELECTIONS_FEBRERISTS_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = "PAR_ELECTIONS_LIBERALS"
-		text = "RULE_OPTION_PAR_ELECTIONS_LIBERALS"
-		desc = "RULE_OPTION_PAR_ELECTIONS_LIBERALS_DESC"
-		allow_achievements = yes
-	}
-}
-
-# Chile
-
-CHL_SKELETON_CHRISTMAS_WAR = { # Christmas War
-	name = CHL_SKELETON_CHRISTMAS_WAR
-	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MINORS"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_RANDOM"
-		desc = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = CHL_SKELETON_CHRISTMAS_WAR_ARG
-		text = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_ARG"
-		desc = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_ARG_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = CHL_SKELETON_CHRISTMAS_WAR_HOLD
-		text = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_HOLD"
-		desc = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_HOLD_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = CHL_SKELETON_CHRISTMAS_WAR_RETAKE
-		text = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_RETAKE"
-		desc = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_RETAKE_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = CHL_SKELETON_CHRISTMAS_WAR_CHL
-		text = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_CHL"
-		desc = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_CHL_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = CHL_SKELETON_CHRISTMAS_WAR_NO
-		text = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_NO"
-		desc = "RULE_OPTION_CHL_SKELETON_CHRISTMAS_WAR_NO_DESC"
-		allow_achievements = yes
-	}
-}
-
-CHL_SKELETON_ALESSANDRI_TERM = { # Alessandri's Term
-	name = "CHL_SKELETON_ALESSANDRI_TERM"
-	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MINORS"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_CHL_SKELETON_ALESSANDRI_TERM_RANDOM"
-		desc = "RULE_OPTION_CHL_SKELETON_ALESSANDRI_TERM_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = "CHL_SKELETON_ALESSANDRI_TERM_RESIGNS"
-		text = "RULE_OPTION_CHL_SKELETON_ALESSANDRI_TERM_RESIGNS"
-		desc = "RULE_OPTION_CHL_SKELETON_ALESSANDRI_TERM_RESIGNS_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = "CHL_SKELETON_ALESSANDRI_TERM_STAYS"
-		text = "RULE_OPTION_CHL_SKELETON_ALESSANDRI_TERM_STAYS"
-		desc = "RULE_OPTION_CHL_SKELETON_ALESSANDRI_TERM_STAYS_DESC"
-		allow_achievements = yes
-	}
-}
-
-CHL_SKELETON_PHILIPPI_TERM = { # Philippi's Term
-	name = "CHL_SKELETON_PHILIPPI_TERM"
-	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MINORS"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_CHL_SKELETON_PHILIPPI_TERM_RANDOM"
-		desc = "RULE_OPTION_CHL_SKELETON_PHILIPPI_TERM_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = "CHL_SKELETON_PHILIPPI_TERM_FAILURE"
-		text = "RULE_OPTION_CHL_SKELETON_PHILIPPI_TERM_FAILURE"
-		desc = "RULE_OPTION_CHL_SKELETON_PHILIPPI_TERM_FAILURE_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = "CHL_SKELETON_PHILIPPI_TERM_SUCCESS"
-		text = "RULE_OPTION_CHL_SKELETON_PHILIPPI_TERM_SUCCESS"
-		desc = "RULE_OPTION_CHL_SKELETON_PHILIPPI_TERM_SUCCESS_DESC"
-		allow_achievements = yes
-	}
-}
-
-CHL_SKELETON_OCTOBER_CRISIS = { # October Crisis
-	name = "CHL_SKELETON_OCTOBER_CRISIS"
-	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MINORS"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_CHL_SKELETON_OCTOBER_CRISIS_RANDOM"
-		desc = "RULE_OPTION_CHL_SKELETON_OCTOBER_CRISIS_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = "CHL_SKELETON_OCTOBER_CRISIS_ALLENDE"
-		text = "RULE_OPTION_CHL_SKELETON_OCTOBER_CRISIS_ALLENDE"
-		desc = "RULE_OPTION_CHL_SKELETON_OCTOBER_CRISIS_ALLENDE_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = "CHL_SKELETON_OCTOBER_CRISIS_PRAT"
-		text = "RULE_OPTION_CHL_SKELETON_OCTOBER_CRISIS_PRAT"
-		desc = "RULE_OPTION_CHL_SKELETON_OCTOBER_CRISIS_PRAT_DESC"
-		allow_achievements = yes
-	}
-}
-
-CHL_SKELETON_1964_ELECTIONS = { # 1964 Elections
-	name = "CHL_SKELETON_1964_ELECTIONS"
-	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MINORS"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_CHL_SKELETON_1964_ELECTIONS_RANDOM"
-		desc = "RULE_OPTION_CHL_SKELETON_1964_ELECTIONS_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = "CHL_SKELETON_1964_ELECTIONS_RETTIG"
-		text = "RULE_OPTION_CHL_SKELETON_1964_ELECTIONS_RETTIG"
-		desc = "RULE_OPTION_CHL_SKELETON_1964_ELECTIONS_RETTIG_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = "CHL_SKELETON_1964_ELECTIONS_FREI"
-		text = "RULE_OPTION_CHL_SKELETON_1964_ELECTIONS_FREI"
-		desc = "RULE_OPTION_CHL_SKELETON_1964_ELECTIONS_FREI_DESC"
-		allow_achievements = yes
-	}
-}
-
-CHL_SKELETON_VIAUX_COUP = { # Viaux coup
-	name = "CHL_SKELETON_VIAUX_COUP"
-	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MINORS"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_CHL_SKELETON_VIAUX_COUP_RANDOM"
-		desc = "RULE_OPTION_CHL_SKELETON_VIAUX_COUP_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = "CHL_SKELETON_VIAUX_COUP_SUCCESS"
-		text = "RULE_OPTION_CHL_SKELETON_VIAUX_COUP_SUCCESS"
-		desc = "RULE_OPTION_CHL_SKELETON_VIAUX_COUP_SUCCESS_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = "CHL_SKELETON_VIAUX_COUP_FAILS"
-		text = "RULE_OPTION_CHL_SKELETON_VIAUX_COUP_FAILS"
-		desc = "RULE_OPTION_CHL_SKELETON_VIAUX_COUP_FAILS_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = "CHL_SKELETON_VIAUX_COUP_MERINO"
-		text = "RULE_OPTION_CHL_SKELETON_VIAUX_COUP_MERINO"
-		desc = "RULE_OPTION_CHL_SKELETON_VIAUX_COUP_MERINO_DESC"
-		allow_achievements = yes
-	}
-}
-
-CHL_SKELETON_PRAT_SELF_COUP = { # Prat self-coup
-	name = "CHL_SKELETON_PRAT_SELF_COUP"
-	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MINORS"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_CHL_SKELETON_PRAT_SELF_COUP_RANDOM"
-		desc = "RULE_OPTION_CHL_SKELETON_PRAT_SELF_COUP_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = "CHL_SKELETON_PRAT_SELF_COUP_SUCCESS"
-		text = "RULE_OPTION_CHL_SKELETON_PRAT_SELF_COUP_SUCCESS"
-		desc = "RULE_OPTION_CHL_SKELETON_PRAT_SELF_COUP_SUCCESS_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = "CHL_SKELETON_PRAT_SELF_COUP_FAILS"
-		text = "RULE_OPTION_CHL_SKELETON_PRAT_SELF_COUP_FAILS"
-		desc = "RULE_OPTION_CHL_SKELETON_PRAT_SELF_COUP_FAILS_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = "CHL_SKELETON_PRAT_SELF_COUP_DEPOSED"
-		text = "RULE_OPTION_CHL_SKELETON_PRAT_SELF_COUP_DEPOSED"
-		desc = "RULE_OPTION_CHL_SKELETON_PRAT_SELF_COUP_DEPOSED_DESC"
-		allow_achievements = yes
-	}
-}
+# PAR_elections = {
+# 	name = "PAR_ELECTIONS"
+# 	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MINORS"
+# 	option = {
+# 		name = DEFAULT
+# 		text = "RULE_OPTION_PAR_ELECTIONS_RANDOM"
+# 		desc = "RULE_OPTION_PAR_ELECTIONS_RANDOM_DESC"
+# 		allow_achievements = yes
+# 	}
+# 	option = {
+# 		name = "PAR_ELECTIONS_FEBRERISTS"
+# 		text = "RULE_OPTION_PAR_ELECTIONS_FEBRERISTS"
+# 		desc = "RULE_OPTION_PAR_ELECTIONS_FEBRERISTS_DESC"
+# 		allow_achievements = yes
+# 	}
+# 	option = {
+# 		name = "PAR_ELECTIONS_LIBERALS"
+# 		text = "RULE_OPTION_PAR_ELECTIONS_LIBERALS"
+# 		desc = "RULE_OPTION_PAR_ELECTIONS_LIBERALS_DESC"
+# 		allow_achievements = yes
+# 	}
+# }
 
 # Andean Pact (Chile-Peru)
 
@@ -8253,6 +7649,12 @@ ANDEAN_PACT_CREATION = { #Creation of the Andean Pact
 		name = ANDEAN_PACT_CREATION_YES
 		text = "RULE_OPTION_ANDEAN_PACT_CREATION_YES"
 		desc = "RULE_OPTION_ANDEAN_PACT_CREATION_YES_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = ANDEAN_PACT_CREATION_NO
+		text = "RULE_OPTION_ANDEAN_PACT_CREATION_NO"
+		desc = "RULE_OPTION_ANDEAN_PACT_CREATION_NO_DESC"
 		allow_achievements = yes
 	}
 }
@@ -8438,18 +7840,18 @@ URG_64_COUP= { #1964 Coup
 		desc = "RULE_OPTION_URG_64_COUP_NO_DESC"
 		allow_achievements = yes
 	}
-	option = {
-		name = URG_64_COUP_HERRERIST_NO
-		text = "RULE_OPTION_URG_64_COUP_HERRERIST_NO"
-		desc = "RULE_OPTION_URG_64_COUP_HERRERIST_NO_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = URG_64_COUP_HERRERIST_FAILED
-		text = "RULE_OPTION_URG_64_COUP_HERRERIST_FAILED"
-		desc = "RULE_OPTION_URG_64_COUP_HERRERIST_FAILED_DESC"
-		allow_achievements = yes
-	}
+	# option = {
+	# 	name = URG_64_COUP_HERRERIST_NO
+	# 	text = "RULE_OPTION_URG_64_COUP_HERRERIST_NO"
+	# 	desc = "RULE_OPTION_URG_64_COUP_HERRERIST_NO_DESC"
+	# 	allow_achievements = yes
+	# }
+	# option = {
+	# 	name = URG_64_COUP_HERRERIST_FAILED
+	# 	text = "RULE_OPTION_URG_64_COUP_HERRERIST_FAILED"
+	# 	desc = "RULE_OPTION_URG_64_COUP_HERRERIST_FAILED_DESC"
+	# 	allow_achievements = yes
+	# }
 	option = {
 		name = URG_64_COUP_TERRIST
 		text = "RULE_OPTION_URG_64_COUP_TERRIST"
@@ -8468,12 +7870,12 @@ URG_64_COUP= { #1964 Coup
 		desc = "RULE_OPTION_URG_64_COUP_GESTIDO_FAILED_FASH_DESC"
 		allow_achievements = yes
 	}
-	option = {
-		name = URG_64_COUP_GESTIDO_SUCCESS_FASH
-		text = "RULE_OPTION_URG_64_COUP_GESTIDO_SUCCESS_FASH"
-		desc = "RULE_OPTION_URG_64_COUP_GESTIDO_SUCCESS_FASH_DESC"
-		allow_achievements = yes
-	}
+	# option = {
+	# 	name = URG_64_COUP_GESTIDO_SUCCESS_FASH
+	# 	text = "RULE_OPTION_URG_64_COUP_GESTIDO_SUCCESS_FASH"
+	# 	desc = "RULE_OPTION_URG_64_COUP_GESTIDO_SUCCESS_FASH_DESC"
+	# 	allow_achievements = yes
+	# }
 }
 
 URG_65_LISTA_PRIMARY = { # Lista 15 Primary
@@ -8558,28 +7960,28 @@ URG_GESTIDO_REVOLUTION = { #Gestido's Revolution
 }
 
 
-URG_MORATORIO_COUP = { #Pablo Moratorio Coup
-	name = URG_MORATORIO_COUP
-	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MINORS"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_URG_MORATORIO_COUP_RANDOM"
-		desc = "RULE_OPTION_URG_MORATORIO_COUP_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = URG_MORATORIO_COUP_NO
-		text = "RULE_OPTION_URG_MORATORIO_COUP_NO"
-		desc = "RULE_OPTION_URG_MORATORIO_COUP_NO_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = URG_MORATORIO_COUP_YES
-		text = "RULE_OPTION_URG_MORATORIO_COUP_YES"
-		desc = "RULE_OPTION_URG_MORATORIO_COUP_YES_DESC"
-		allow_achievements = yes
-	}
-}
+#URG_MORATORIO_COUP = { #Pablo Moratorio Coup
+#	name = URG_MORATORIO_COUP
+#	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MINORS"
+#	option = {
+#		name = DEFAULT
+#		text = "RULE_OPTION_URG_MORATORIO_COUP_RANDOM"
+#		desc = "RULE_OPTION_URG_MORATORIO_COUP_RANDOM_DESC"
+#		allow_achievements = yes
+#	}
+#	option = {
+#		name = URG_MORATORIO_COUP_NO
+#		text = "RULE_OPTION_URG_MORATORIO_COUP_NO"
+#		desc = "RULE_OPTION_URG_MORATORIO_COUP_NO_DESC"
+#		allow_achievements = yes
+#	}
+#	option = {
+#		name = URG_MORATORIO_COUP_YES
+#		text = "RULE_OPTION_URG_MORATORIO_COUP_YES"
+#		desc = "RULE_OPTION_URG_MORATORIO_COUP_YES_DESC"
+#		allow_achievements = yes
+#	}
+#}
 
 COL_PINILLA_CHECK = { #Pinilla Check
 	name = COL_PINILLA_CHECK
@@ -8700,45 +8102,10 @@ CLL_POSTWAR_ELECTION = { #Revolutionary Colombia's Postwar Election
 		desc = "RULE_OPTION_CLL_POSTWAR_ELECTION_SOCIALIST_DESC"
 		allow_achievements = yes
 	}
-	option = { # Comunistas (Communists)
-		name = CLL_POSTWAR_ELECTION_COMMUNIST
-		text = "RULE_OPTION_CLL_POSTWAR_ELECTION_COMMUNIST"
-		desc = "RULE_OPTION_CLL_POSTWAR_ELECTION_COMMUNIST_DESC"
-		allow_achievements = yes
-	}
-	option = { # ANAPO (Paternalists)
-		name = CLL_POSTWAR_ELECTION_ANAPO
-		text = "RULE_OPTION_CLL_POSTWAR_ELECTION_ANAPO"
-		desc = "RULE_OPTION_CLL_POSTWAR_ELECTION_ANAPO_DESC"
-		allow_achievements = yes
-	}
-	option = { # Deadlock
+	option = { # Deadlock - Communist Putsch
 		name = CLL_POSTWAR_ELECTION_DEADLOCK
 		text = "RULE_OPTION_CLL_POSTWAR_ELECTION_DEADLOCK"
 		desc = "RULE_OPTION_CLL_POSTWAR_ELECTION_DEADLOCK_DESC"
-		allow_achievements = yes
-	}
-}	
-
-CLL_DEADLOCK = {
-	name = CLL_DEADLOCK
-	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MINORS"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_CLL_DEADLOCK_RANDOM"
-		desc = "RULE_OPTION_CLL_DEADLOCK_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = { # Liberales Gaitanistas (Progressives)
-		name = CLL_DEADLOCK_GAITANISTA
-		text = "RULE_OPTION_CLL_DEADLOCK_GAITANISTA"
-		desc = "RULE_OPTION_CLL_DEADLOCK_GAITANISTA_DESC"
-		allow_achievements = yes
-	}
-	option = { # Communist Coup
-		name = CLL_DEADLOCK_COMMUNIST
-		text = "RULE_OPTION_CLL_DEADLOCK_COMMUNIST"
-		desc = "RULE_OPTION_CLL_DEADLOCK_COMMUNIST_DESC"
 		allow_achievements = yes
 	}
 }
@@ -8765,12 +8132,6 @@ CLC_PUTSCH = {
 		desc = "RULE_OPTION_CLC_PUTSCH_OLIGARCH_DESC"
 		allow_achievements = yes
 	}
-	option = { # Catholic
-		name = CLC_PUTSCH_CATHOLIC
-		text = "RULE_OPTION_CLC_PUTSCH_CATHOLIC"
-		desc = "RULE_OPTION_CLC_PUTSCH_CATHOLIC_DESC"
-		allow_achievements = yes
-	}
 }
 
 CLC_PARTY_LEADERSHIP = {
@@ -8794,27 +8155,10 @@ CLC_PARTY_LEADERSHIP = {
 		desc = "RULE_OPTION_CLC_PARTY_LEADERSHIP_GERMANY_DESC"
 		allow_achievements = yes
 	}
-}
-
-CLC_CATHOLIC_STRUGGLE = {
-	name = CLC_CATHOLIC_STRUGGLE
-	group = "RULE_GROUP_TNO_RULES_SOUTH_AMERICA_MINORS"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_CLC_CATHOLIC_STRUGGLE_RANDOM"
-		desc = "RULE_OPTION_CLC_CATHOLIC_STRUGGLE_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = { # Catholics Hold
-		name = CLC_CATHOLIC_STRUGGLE_HOLD
-		text = "RULE_OPTION_CLC_CATHOLIC_STRUGGLE_HOLD"
-		desc = "RULE_OPTION_CLC_CATHOLIC_STRUGGLE_HOLD_DESC"
-		allow_achievements = yes
-	}
-	option = { # Los Pajaros Coup
-		name = CLC_CATHOLIC_STRUGGLE_PAJAROS
-		text = "RULE_OPTION_CLC_CATHOLIC_STRUGGLE_PAJAROS"
-		desc = "RULE_OPTION_CLC_CATHOLIC_STRUGGLE_PAJAROS_DESC"
+	option = { # Pro-Iberia
+		name = CLC_PARTY_LEADERSHIP_IBERIA
+		text = "RULE_OPTION_CLC_PARTY_LEADERSHIP_IBERIA"
+		desc = "RULE_OPTION_CLC_PARTY_LEADERSHIP_IBERIA_DESC"
 		allow_achievements = yes
 	}
 }
@@ -9183,35 +8527,55 @@ YUN_TYPE_PATH = {
 	}
 }
 
-# KMT
-KMT_PATH = {
-    name = KMT_PATH
+# Yunnan - Decentralization or Centralization?
+
+YUN_INTEGRATION_OUTCOME = {
+	name = "YUN_INTEGRATION_OUTCOME"
 	group = "RULE_GROUP_TNO_RULES_EAST_ASIA"
-	option = { # Random
+	option = {
 		name = DEFAULT
-		text = "RULE_OPTION_KUOMINTANG_PATH_RANDOM"
-		desc = "RULE_OPTION_KUOMINTANG_PATH_RANDOM_DESC"
+		text = "RULE_OPTION_YUN_INTEGRATION_OUTCOME_RANDOM"
+		desc = "RULE_OPTION_YUN_INTEGRATION_OUTCOME_RANDOM_DESC"
 		allow_achievements = yes
 	}
-	option = { # Zhang-Chiang
-		name = KMT_PATH_ZHANG
-		text = "RULE_OPTION_KMT_ZHANG_PATH_RANDOM"
-		desc = "RULE_OPTION_KMT_ZHANG_PATH_RANDOM_DESC"
+	option = {
+		name = "YUN_INTEGRATION_OUTCOME_CENTRALIZED"
+		text = "RULE_OPTION_YUN_INTEGRATION_OUTCOME_CENTRALIZED"
+		desc = "RULE_OPTION_YUN_INTEGRATION_OUTCOME_CENTRALIZED_DESC"
 		allow_achievements = yes
 	}
-	option = { # Luo-Teng
-		name = KMT_PATH_LUO
-		text = "RULE_OPTION_KMT_LUO_PATH_RANDOM"
-		desc = "RULE_OPTION_KMT_LUO_PATH_RANDOM_DESC"
+	option = {
+		name = "YUN_INTEGRATION_OUTCOME_DECENTRALISED"
+		text = "RULE_OPTION_YUN_INTEGRATION_OUTCOME_DECENTRALISED"
+		desc = "RULE_OPTION_YUN_INTEGRATION_OUTCOME_DECENTRALISED_DESC"
 		allow_achievements = yes
 	}
-	option = { # Ma（bad end）
-		name = KMT_PATH_MA
-		text = "RULE_OPTION_KMT_MA_PATH_RANDOM"
-		desc = "RULE_OPTION_KMT_MA_PATH_RANDOM_DESC"
+}
+
+## Yunnan - The Battle of Sichuan
+
+the_battle_of_sichuan = {
+	name = THE_BATTLE_OF_SICHUAN
+	group = "RULE_GROUP_TNO_RULES_EAST_ASIA"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_THE_BATTLE_OF_SICHUAN_RANDOM"
+		desc = "RULE_OPTION_THE_BATTLE_OF_SICHUAN_RANDOM_DESC"
 		allow_achievements = yes
 	}
-}	
+	option = {
+		name = THE_BATTLE_OF_SICHUAN_YUN_NATIONAL_PROTECTION_ARMY
+		text = "RULE_OPTION_THE_BATTLE_OF_SICHUAN_YUN_NATIONAL_PROTECTION_ARMY"
+		desc = "RULE_OPTION_THE_BATTLE_OF_SICHUAN_YUN_NATIONAL_PROTECTION_ARMY_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = THE_BATTLE_OF_SICHUAN_CHI_REPUBLIC_OF_CHINA
+		text = "RULE_OPTION_THE_BATTLE_OF_SICHUAN_CHI_REPUBLIC_OF_CHINA"
+		desc = "RULE_OPTION_THE_BATTLE_OF_SICHUAN_CHI_REPUBLIC_OF_CHINA_DESC"
+		allow_achievements = yes
+	}
+}
 
 # Manchukuo [Ideology]
 
@@ -9928,38 +9292,13 @@ FPR_FERTIG_COUP = {
 		desc = "RULE_OPTION_FPR_FERTIG_COUP_FAIL_DESC"
 		allow_achievements = yes
 	}
-	option = { # Unsuccesful - Magsaysay's Countercoup -> Garcia [Oligarchy]
+	option = { # Unsuccessful - Magsaysay's Countercoup -> Garcia [Oligarchy]
 		name = FPR_FERTIG_COUP_COUNTERCOUP
 		text = "RULE_OPTION_FPR_FERTIG_COUP_COUNTERCOUP"
 		desc = "RULE_OPTION_FPR_FERTIG_COUP_COUNTERCOUP_DESC"
 		allow_achievements = yes
 	}
 }
-
-# US Forces in the Philippines
-
-#UPH_ideology = {
-#	name = "UPH_IDEOLOGY"
-#	group = "RULE_GROUP_TNO_RULES_SOUTHEAST_ASIA"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_UPH_IDEOLOGY_RANDOM"
-#		desc = "RULE_OPTION_UPH_IDEOLOGY_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = "UPH_IDEOLOGY_FAILED_RECONSTRUCTION"
-#		text = "RULE_OPTION_UPH_IDEOLOGY_FAILED_RECONSTRUCTION"
-#		desc = "RULE_OPTION_UPH_IDEOLOGY_FAILED_RECONSTRUCTION_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = "UPH_IDEOLOGY_ROMULO"
-#		text = "RULE_OPTION_UPH_IDEOLOGY_ROMULO"
-#		desc = "RULE_OPTION_UPH_IDEOLOGY_ROMULO_DESC"
-#		allow_achievements = yes
-#	}
-#}
 
 # Free Philippines - Postwar Presidential Elections
 
@@ -9972,6 +9311,12 @@ FPR_POSTWAR_ELECTIONS = {
 		desc = "RULE_OPTION_FPR_POSTWAR_ELECTIONS_RANDOM_DESC"
 		allow_achievements = yes
 	}
+	#option = {
+	#	name = "FPR_POSTWAR_ELECTIONS_FAILED_RECONSTRUCTION"
+	#	text = "RULE_OPTION_FPR_POSTWAR_ELECTIONS_FAILED_RECONSTRUCTION"
+	#	desc = "RULE_OPTION_FPR_POSTWAR_ELECTIONS_FAILED_RECONSTRUCTION_DESC"
+	#	allow_achievements = yes
+	#}
 	option = { # Nacionalista Party (Either Magsaysay or Garcia [Oligarchy])
 		name = FPR_POSTWAR_ELECTIONS_NACIONALISTA
 		text = "RULE_OPTION_FPR_POSTWAR_ELECTIONS_NACIONALISTA"
@@ -10016,37 +9361,6 @@ united_filipino_front = {
 		allow_achievements = yes
 	}
 }
-
-# Coalition Government of the Philippines
-
-#SPH_coalition_path = {
-#	name = "SPH_COALITION_PATH"
-#	group = "RULE_GROUP_TNO_RULES_SOUTHEAST_ASIA"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_SPH_COALITION_PATH_RANDOM"
-#		desc = "RULE_OPTION_SPH_COALITION_PATH_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = "SPH_COALITION_PATH_FAILED_RECONSTRUCTION"
-#		text = "RULE_OPTION_SPH_COALITION_PATH_FAILED_RECONSTRUCTION"
-#		desc = "RULE_OPTION_SPH_COALITION_PATH_FAILED_RECONSTRUCTION_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = "SPH_COALITION_PATH_TARUC"
-#		text = "RULE_OPTION_SPH_COALITION_PATH_TARUC"
-#		desc = "RULE_OPTION_SPH_COALITION_PATH_TARUC_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = "SPH_COALITION_PATH_TANADA"
-#		text = "RULE_OPTION_SPH_COALITION_PATH_TANADA"
-#		desc = "RULE_OPTION_SPH_COALITION_PATH_TANADA_DESC"
-#		allow_achievements = yes
-#	}
-#}
 
 # Vietnam - Fallout of Yon-go Sakusen
 
@@ -10341,105 +9655,136 @@ LAO_SECOND_REPUBLICAN_ELECTION = {
 	}
 }
 
-# Cambodia - 1965 Phnom Penh Protests
-
-CAM_PROTEST = {
-	name = CAM_PROTEST
+# Cambodia / Kampuchea - Fate of Achar Sok's Government
+CAM_POST_ACHAR_SOK = {
+	name = CAM_POST_ACHAR_SOK
 	group = "RULE_GROUP_TNO_RULES_SOUTHEAST_ASIA"
 	option = {
 		name = DEFAULT
-		text = "RULE_OPTION_CAM_PROTEST_RANDOM"
-		desc = "RULE_OPTION_CAM_PROTEST_RANDOM_DESC"
+		text = "RULE_OPTION_CAM_POST_ACHAR_SOK_RANDOM"
+		desc = "RULE_OPTION_CAM_POST_ACHAR_SOK_RANDOM_DESC"
 		allow_achievements = yes
 	}
-	option = { # Sihanouk stays in Phnom Penh
-		name = CAM_PROTEST_SIHANOUK
-		text = "RULE_OPTION_CAM_PROTEST_SIHANOUK"
-		desc = "RULE_OPTION_CAM_PROTEST_SIHANOUK_DESC"
+	option = { # 
+		name = CAM_POST_ACHAR_SOK_LON_NOL # Lon Nol is PM
+		text = "RULE_OPTION_CAM_POST_ACHAR_SOK_LON_NOL"
+		desc = "RULE_OPTION_CAM_POST_ACHAR_SOK_LON_NOL_DESC"
 		allow_achievements = yes
 	}
-	option = { # Lon Nol Coups Government
-		name = CAM_PROTEST_COUP
-		text = "RULE_OPTION_CAM_PROTEST_COUP"
-		desc = "RULE_OPTION_CAM_PROTEST_COUP_DESC"
+	option = { # Martial law is instated
+		name = CAM_POST_ACHAR_SOK_MARTIAL_LAW
+		text = "RULE_OPTION_CAM_POST_ACHAR_SOK_MARTIAL_LAW"
+		desc = "RULE_OPTION_CAM_POST_ACHAR_SOK_MARTIAL_LAW_DESC"
 		allow_achievements = yes
 	}
 }
 
-# Cambodia - National Assembly Plot
+# Cambodia / Kampuchea - Civil War
 
-CAM_ASSEMBLY_PLOT = {
-	name = CAM_ASSEMBLY_PLOT
+CAM_CIVIL_WAR = {
+	name = CAM_CIVIL_WAR
 	group = "RULE_GROUP_TNO_RULES_SOUTHEAST_ASIA"
 	option = {
 		name = DEFAULT
-		text = "RULE_OPTION_CAM_ASSEMBLY_PLOT_RANDOM"
-		desc = "RULE_OPTION_CAM_ASSEMBLY_PLOT_RANDOM_DESC"
+		text = "RULE_OPTION_CAM_CIVIL_WAR_RANDOM"
+		desc = "RULE_OPTION_CAM_CIVIL_WAR_RANDOM_DESC"
 		allow_achievements = yes
 	}
-	option = { # Sihanouk becomes Despotic
-		name = CAM_ASSEMBLY_PLOT_NO
-		text = "RULE_OPTION_CAM_ASSEMBLY_PLOT_NO"
-		desc = "RULE_OPTION_CAM_ASSEMBLY_PLOT_NO_DESC"
+	option = { # Government holds on
+		name = CAM_CIVIL_WAR_GOV
+		text = "RULE_OPTION_CAM_CIVIL_WAR_GOV"
+		desc = "RULE_OPTION_CAM_CIVIL_WAR_GOV_DESC"
 		allow_achievements = yes
 	}
-	option = { # Lon Nol Coups Government
-		name = CAM_ASSEMBLY_PLOT_YES
-		text = "RULE_OPTION_CAM_ASSEMBLY_PLOT_YES"
-		desc = "RULE_OPTION_CAM_ASSEMBLY_PLOT_YES_DESC"
+	option = { # Hu Nim wins
+		name = CAM_CIVIL_WAR_HU_NIM
+		text = "RULE_OPTION_CAM_CIVIL_WAR_HU_NIM"
+		desc = "RULE_OPTION_CAM_CIVIL_WAR_HU_NIM_DESC"
+		allow_achievements = yes
+	}
+	option = { # Sihanouk wins
+		name = CAM_CIVIL_WAR_SIHANOUK
+		text = "RULE_OPTION_CAM_CIVIL_WAR_SIHANOUK"
+		desc = "RULE_OPTION_CAM_CIVIL_WAR_SIHANOUK_DESC"
 		allow_achievements = yes
 	}
 }
 
-# Cambodia - Khmer Serei Protests
+# Cambodia / Kampuchea - Fate of Pach Chhuoen's Government
 
-CAM_SEREI = {
-	name = CAM_SEREI
+CAM_POST_CHHUOEN = {
+	name = CAM_POST_CHHUOEN
 	group = "RULE_GROUP_TNO_RULES_SOUTHEAST_ASIA"
 	option = {
 		name = DEFAULT
-		text = "RULE_OPTION_CAM_SEREI_RANDOM"
-		desc = "RULE_OPTION_CAM_SEREI_RANDOM_DESC"
+		text = "RULE_OPTION_CAM_POST_CHHUOEN_RANDOM"
+		desc = "RULE_OPTION_CAM_POST_CHHUOEN_RANDOM_DESC"
 		allow_achievements = yes
 	}
-	option = { # Republican Revolution [Not the 1994 one]
-		name = CAM_SEREI_REVOLUTION
-		text = "RULE_OPTION_CAM_SEREI_REVOLUTION"
-		desc = "RULE_OPTION_CAM_SEREI_REVOLUTION_DESC"
+	option = { # Son Ngoc Thành is placed under House Arrest
+		name = CAM_POST_CHHUOEN_ARREST
+		text = "RULE_OPTION_CAM_POST_CHHUOEN_ARREST"
+		desc = "RULE_OPTION_CAM_POST_CHHUOEN_ARREST_DESC"
 		allow_achievements = yes
 	}
-	option = { # Lon Nol Holds
-		name = CAM_SEREI_MONARCHY
-		text = "RULE_OPTION_CAM_SEREI_MONARCHY"
-		desc = "RULE_OPTION_CAM_SEREI_MONARCHY_DESC"
+	option = { # Son Ngoc Thành is couped
+		name = CAM_POST_CHHUOEN_COUP
+		text = "RULE_OPTION_CAM_POST_CHHUOEN_COUP"
+		desc = "RULE_OPTION_CAM_POST_CHHUOEN_COUP_DESC"
+		allow_achievements = yes
+	}
+	option = { # Pach Chhoen is Assassinated
+		name = CAM_POST_CHHUOEN_ASSASSINATION
+		text = "RULE_OPTION_CAM_POST_CHHUOEN_ASSASSINATION"
+		desc = "RULE_OPTION_CAM_POST_CHHUOEN_ASSASSINATION_DESC"
 		allow_achievements = yes
 	}
 }
 
-# Cambodia - General Elections
+# Cambodia / Kampuchea - Pach Chhoen's successor
 
-CAM_ELECTION = {
-	name = CAM_ELECTION
+CAM_PACH_SUCCESSOR = {
+	name = CAM_PACH_SUCCESSOR
 	group = "RULE_GROUP_TNO_RULES_SOUTHEAST_ASIA"
 	option = {
 		name = DEFAULT
-		text = "RULE_OPTION_CAM_ELECTION_RANDOM"
-		desc = "RULE_OPTION_CAM_ELECTION_RANDOM_DESC"
+		text = "RULE_OPTION_CAM_PACH_SUCCESSOR_RANDOM"
+		desc = "RULE_OPTION_CAM_PACH_SUCCESSOR_RANDOM_DESC"
 		allow_achievements = yes
 	}
-	option = { # In Tam [Liberal Conservatism]
-		name = CAM_ELECTION_IN_TAM
-		text = "RULE_OPTION_CAM_ELECTION_IN_TAM"
-		desc = "RULE_OPTION_CAM_ELECTION_IN_TAM_DESC"
+	option = { # 
+		name = CAM_PACH_SUCCESSOR_SAMPHAN # Khieu Samphan is Appointed Prime Minister
+		text = "RULE_OPTION_CAM_PACH_SUCCESSOR_SAMPHAN"
+		desc = "RULE_OPTION_CAM_PACH_SUCCESSOR_SAMPHAN_DESC"
 		allow_achievements = yes
 	}
-	option = { # Sisowath Sirik Matak [National Conservatism]
-		name = CAM_ELECTION_SISOWATH
-		text = "RULE_OPTION_CAM_ELECTION_SISOWATH"
-		desc = "RULE_OPTION_CAM_ELECTION_SISOWATH_DESC"
+	option = { # Ea Sichau is Appointed Prime Minister
+		name = CAM_PACH_SUCCESSOR_SICHAU
+		text = "RULE_OPTION_CAM_PACH_SUCCESSOR_SICHAU"
+		desc = "RULE_OPTION_CAM_PACH_SUCCESSOR_SICHAU_DESC"
 		allow_achievements = yes
 	}
 }
+
+# Cambodia / Kampuchea - Japanese Invasion
+
+CAM_JAPAN_INVASION = {
+	name = CAM_JAPAN_INVASION
+	group = "RULE_GROUP_TNO_RULES_SOUTHEAST_ASIA"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_CAM_JAPAN_INVASION_DEFAULT"
+		desc = "RULE_OPTION_CAM_JAPAN_INVASION_DEFAULT_DESC"
+		allow_achievements = yes
+	}
+	option = { # 
+		name = CAM_JAPAN_INVASION_NO # No Japanese invasion
+		text = "RULE_OPTION_CAM_JAPAN_INVASION_NO"
+		desc = "RULE_OPTION_CAM_JAPAN_INVASION_NO_DESC"
+		allow_achievements = yes
+	}
+}
+
 
 # Indonesia - Ideology
 
@@ -10547,95 +9892,108 @@ INS_ARAFURA_CRISIS = {
 	}
 }
 
-##############################
-### ASIA - SOUTHERN ASIA ###
-##############################
+################################
+##### ASIA - SOUTH ASIA #####
+################################
 
-# Republic of India - 1964 Elections
+# Lucknow Conference
 
-IND_64_ELECTION_PATH = {
-	name = IND_64_ELECTION_PATH
+IND_LUCKNOW_CONFERENCE_PATH = {
+	name = IND_LUCKNOW_CONFERENCE_PATH
 	group = "RULE_GROUP_TNO_RULES_SOUTHERN_ASIA"
 	option = { # Random
 		name = DEFAULT
-		text = "RULE_OPTION_IND_64_ELECTION_PATH_RANDOM"
-		desc = "RULE_OPTION_IND_64_ELECTION_PATH_RANDOM_DESC"
+		text = "RULE_OPTION_IND_LUCKNOW_CONFERENCE_PATH_RANDOM"
+		desc = "RULE_OPTION_IND_LUCKNOW_CONFERENCE_PATH_RANDOM_DESC"
 		allow_achievements = yes
 	}
-	option = { # Lal Bahadur Shastri, Democratic Socialism
-		name = IND_64_ELECTION_PATH_DEMOCRATIC_SOCIALISM
-		text = "RULE_OPTION_IND_64_ELECTION_PATH_DEMOCRATIC_SOCIALISM"
-		desc = "RULE_OPTION_IND_64_ELECTION_PATH_DEMOCRATIC_SOCIALISM_DESC"
+	option = { # 
+		name = IND_LUCKNOW_CONFERENCE_PATH_SUCCESS
+		text = "RULE_OPTION_IND_LUCKNOW_CONFERENCE_PATH_SUCCESS"
+		desc = "RULE_OPTION_IND_LUCKNOW_CONFERENCE_PATH_SUCCESS_DESC"
 		allow_achievements = yes
 	}
-	option = { # C. Rajagopalchari, Liberal Democracy
-		name = IND_64_ELECTION_PATH_LIBERAL_DEMOCRACY
-		text = "RULE_OPTION_IND_64_ELECTION_PATH_LIBERAL_DEMOCRACY"
-		desc = "RULE_OPTION_IND_64_ELECTION_PATH_LIBERAL_DEMOCRACY_DESC"
+	option = { # 
+		name = IND_LUCKNOW_CONFERENCE_PATH_FAILURE
+		text = "RULE_OPTION_IND_LUCKNOW_CONFERENCE_PATH_FAILURE"
+		desc = "RULE_OPTION_IND_LUCKNOW_CONFERENCE_PATH_FAILURE_DESC"
 		allow_achievements = yes
 	}
-	option = { # J. B. Kripalani, Agrarian Socialism
-		name = IND_64_ELECTION_PATH_AGRARIAN_SOCIALISM
-		text = "RULE_OPTION_IND_64_ELECTION_PATH_AGRARIAN_SOCIALISM"
-		desc = "RULE_OPTION_IND_64_ELECTION_PATH_AGRARIAN_SOCIALISM_DESC"
+}
+
+# Republic of India - 1967 Elections
+
+IND_67_ELECTION_PATH = {
+	name = IND_67_ELECTION_PATH
+	group = "RULE_GROUP_TNO_RULES_SOUTHERN_ASIA"
+	option = { # Random
+		name = DEFAULT
+		text = "RULE_OPTION_IND_67_ELECTION_PATH_RANDOM"
+		desc = "RULE_OPTION_IND_67_ELECTION_PATH_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = { # Yashvantrao Chavan, Reformist Socialism
+		name = IND_67_ELECTION_PATH_REFORMIST_SOCIALISM
+		text = "RULE_OPTION_IND_67_ELECTION_PATH_REFORMIST_SOCIALISM"
+		desc = "RULE_OPTION_IND_67_ELECTION_PATH_REFORMIST_SOCIALISM_DESC"
+		allow_achievements = yes
+	}
+	option = { # Morarji Desai, Paternalistic Conservatism
+		name = IND_67_ELECTION_PATH_PATERNALISTIC_CONSERVATISM
+		text = "RULE_OPTION_IND_67_ELECTION_PATH_PATERNALISTIC_CONSERVATISM"
+		desc = "RULE_OPTION_IND_67_ELECTION_PATH_PATERNALISTIC_CONSERVATISM_DESC"
+		allow_achievements = yes
+	}
+	option = { # Chakravarti Rajagopalachari, Classical Liberalism
+		name = IND_67_ELECTION_PATH_CLASSICAL_LIBERALISM
+		text = "RULE_OPTION_IND_67_ELECTION_PATH_CLASSICAL_LIBERALISM"
+		desc = "RULE_OPTION_IND_67_ELECTION_PATH_CLASSICAL_LIBERALISM_DESC"
 		allow_achievements = yes
 	}
 }
 
 # Republic of India - 1972 Elections
 
-#IND_72_ELECTION_PATH = {
-#	name = IND_72_ELECTION_PATH
-#	group = "RULE_GROUP_TNO_RULES_SOUTHERN_ASIA"
-#	option = { # Random
-#		name = DEFAULT
-#		text = "RULE_OPTION_IND_72_ELECTION_PATH_RANDOM"
-#		desc = "RULE_OPTION_IND_72_ELECTION_PATH_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = { # Namboodiripad wins
-#		name = IND_72_ELECTION_PATH_SOCIALIST
-#		text = "RULE_OPTION_IND_72_ELECTION_PATH_SOCIALIST"
-#		desc = "RULE_OPTION_IND_72_ELECTION_PATH_SOCIALIST_DESC"
-#		allow_achievements = yes
-#	}
-#	option = { # Vidyalankar wins
-#		name = IND_72_ELECTION_PATH_PROGRESSIVE
-#		text = "RULE_OPTION_IND_72_ELECTION_PATH_PROGRESSIVE"
-#		desc = "RULE_OPTION_IND_72_ELECTION_PATH_PROGRESSIVE_DESC"
-#		allow_achievements = yes
-#	}
-#	option = { # Reddy wins
-#		name = IND_72_ELECTION_PATH_CONSERVATIVE
-#		text = "RULE_OPTION_IND_72_ELECTION_PATH_CONSERVATIVE"
-#		desc = "RULE_OPTION_IND_72_ELECTION_PATH_CONSERVATIVE_DESC"
-#		allow_achievements = yes
-#	}
-#	option = { # Bagri wins
-#		name = IND_72_ELECTION_PATH_AGRARIAN_SOCIALIST
-#		text = "RULE_OPTION_IND_72_ELECTION_PATH_AGRARIAN_SOCIALIST"
-#		desc = "RULE_OPTION_IND_72_ELECTION_PATH_AGRARIAN_SOCIALIST_DESC"
-#		allow_achievements = yes
-#	}
-#	option = { # Ranga wins
-#		name = IND_72_ELECTION_PATH_LIBERAL
-#		text = "RULE_OPTION_IND_72_ELECTION_PATH_LIBERAL"
-#		desc = "RULE_OPTION_IND_72_ELECTION_PATH_LIBERAL_DESC"
-#		allow_achievements = yes
-#	}
-#	option = { # Vira wins
-#		name = IND_72_ELECTION_PATH_PATERNALIST
-#		text = "RULE_OPTION_IND_72_ELECTION_PATH_PATERNALIST"
-#		desc = "RULE_OPTION_IND_72_ELECTION_PATH_PATERNALIST_DESC"
-#		allow_achievements = yes
-#	}
-#	option = { # Bihari wins
-#		name = IND_72_ELECTION_PATH_FASCIST
-#		text = "RULE_OPTION_IND_72_ELECTION_PATH_FASCIST"
-#		desc = "RULE_OPTION_IND_72_ELECTION_PATH_FASCIST_DESC"
-#		allow_achievements = yes
-#	}
-#}
+IND_72_ELECTION_PATH = {
+	name = IND_72_ELECTION_PATH
+	group = "RULE_GROUP_TNO_RULES_SOUTHERN_ASIA"
+	option = { # Random
+		name = DEFAULT
+		text = "RULE_OPTION_IND_72_ELECTION_PATH_RANDOM"
+		desc = "RULE_OPTION_IND_72_ELECTION_PATH_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = { # INC - Congress Socialist Forum
+		name = IND_72_ELECTION_PATH_INCSOC
+		text = "RULE_OPTION_IND_72_ELECTION_PATH_INCSOC"
+		desc = "RULE_OPTION_IND_72_ELECTION_PATH_INCSOC_DESC"
+		allow_achievements = yes
+	}
+	option = { # INC - Socialist
+		name = IND_72_ELECTION_PATH_INCPRO
+		text = "RULE_OPTION_IND_72_ELECTION_PATH_INCPRO"
+		desc = "RULE_OPTION_IND_72_ELECTION_PATH_INCPRO_DESC"
+		allow_achievements = yes
+	}
+	option = { # INC - Democratic
+		name = IND_72_ELECTION_PATH_INCDEM
+		text = "RULE_OPTION_IND_72_ELECTION_PATH_INCDEM"
+		desc = "RULE_OPTION_IND_72_ELECTION_PATH_INCDEM_DESC"
+		allow_achievements = yes
+	}
+	option = { # Swatantra Party
+		name = IND_72_ELECTION_PATH_LIB
+		text = "RULE_OPTION_IND_72_ELECTION_PATH_LIB"
+		desc = "RULE_OPTION_IND_72_ELECTION_PATH_LIB_DESC"
+		allow_achievements = yes
+	}
+	option = { # Charan Singh
+		name = IND_72_ELECTION_PATH_CHARAN_SINGH
+		text = "RULE_OPTION_IND_72_ELECTION_PATH_CHARAN_SINGH"
+		desc = "RULE_OPTION_IND_72_ELECTION_PATH_CHARAN_SINGH_DESC"
+		allow_achievements = yes
+	}
+}
 
 # Azad Hind - Bose's Resignation
 
@@ -10648,16 +10006,22 @@ AZH_BOSE_RESIGNATION_PATH = {
 		desc = "RULE_OPTION_AZH_BOSE_RESIGNATION_PATH_RANDOM_DESC"
 		allow_achievements = yes
 	}
-	option = { # Resignation 
-		name = AZH_BOSE_RESIGNATION_PATH_YES
-		text = "RULE_OPTION_AZH_BOSE_RESIGNATION_PATH_YES"
-		desc = "RULE_OPTION_AZH_BOSE_RESIGNATION_PATH_YES_DESC"
-		allow_achievements = yes
-	}
 	option = { # He stays
 		name = AZH_BOSE_RESIGNATION_PATH_NO
 		text = "RULE_OPTION_AZH_BOSE_RESIGNATION_PATH_NO"
 		desc = "RULE_OPTION_AZH_BOSE_RESIGNATION_PATH_NO_DESC"
+		allow_achievements = yes
+	}
+	option = { # Resignation; Chatterji
+		name = AZH_BOSE_RESIGNATION_PATH_YES_CHATTERJI
+		text = "RULE_OPTION_AZH_BOSE_RESIGNATION_PATH_YES_CHATTERJI"
+		desc = "RULE_OPTION_AZH_BOSE_RESIGNATION_PATH_YES_CHATTERJI_DESC"
+		allow_achievements = yes
+	}
+	option = { # Resignation; Raghavan
+		name = AZH_BOSE_RESIGNATION_PATH_YES_RAGHAVAN
+		text = "RULE_OPTION_AZH_BOSE_RESIGNATION_PATH_YES_RAGHAVAN"
+		desc = "RULE_OPTION_AZH_BOSE_RESIGNATION_PATH_YES_RAGHAVAN_DESC"
 		allow_achievements = yes
 	}
 }
@@ -10673,24 +10037,198 @@ AZH_BOSE_SUCCESSOR_PATH = {
 		desc = "RULE_OPTION_AZH_BOSE_SUCCESSOR_PATH_RANDOM_DESC"
 		allow_achievements = yes
 	}
-	option = { # M.Z Kiani, Military Junta
-		name = AZH_BOSE_SUCCESSOR_PATH_SOCIAL_NATIONALISM
-		text = "RULE_OPTION_AZH_BOSE_SUCCESSOR_PATH_SOCIAL_NATIONALISM"
-		desc = "RULE_OPTION_AZH_BOSE_SUCCESSOR_PATH_SOCIAL_NATIONALISM_DESC"
+	option = { # Amiya Nath Bose, PerDict
+		name = AZH_BOSE_SUCCESSOR_PATH_AMIYA_NATH_BOSE
+		text = "RULE_OPTION_AZH_BOSE_SUCCESSOR_PATH_AMIYA_NATH_BOSE"
+		desc = "RULE_OPTION_AZH_BOSE_SUCCESSOR_PATH_AMIYA_NATH_BOSE_DESC"
 		allow_achievements = yes
 	}
-	option = { # Mohan Singh, Left-Wing Nationalism
-		name = AZH_BOSE_SUCCESSOR_PATH_LEFT_WING_POPULISM
-		text = "RULE_OPTION_AZH_BOSE_SUCCESSOR_PATH_LEFT_WING_POPULISM"
-		desc = "RULE_OPTION_AZH_BOSE_SUCCESSOR_PATH_LEFT_WING_POPULISM_DESC"
+	option = { # Samar Guha, LW Corp
+		name = AZH_BOSE_SUCCESSOR_PATH_SAMAR_GUHA
+		text = "RULE_OPTION_AZH_BOSE_SUCCESSOR_PATH_SAMAR_GUHA"
+		desc = "RULE_OPTION_AZH_BOSE_SUCCESSOR_PATH_SAMAR_GUHA_DESC"
 		allow_achievements = yes
 	}
-	#option = { # Sheel Bhadra Yagee, National Communism
-	#	name = AZH_BOSE_SUCCESSOR_PATH_NATIONAL_COMMUNISM
-	#	text = "RULE_OPTION_AZH_BOSE_SUCCESSOR_PATH_NATIONAL_COMMUNISM"
-	#	desc = "RULE_OPTION_AZH_BOSE_SUCCESSOR_PATH_NATIONAL_COMMUNISM_DESC"
-	#	allow_achievements = yes
-	#}
+	option = { # Anand Mohan Sahay, Social Nationalism
+		name = AZH_BOSE_SUCCESSOR_PATH_ANAND_MOHAN_SAHAY
+		text = "RULE_OPTION_AZH_BOSE_SUCCESSOR_PATH_ANAND_MOHAN_SAHAY"
+		desc = "RULE_OPTION_AZH_BOSE_SUCCESSOR_PATH_ANAND_MOHAN_SAHAY_DESC"
+		allow_achievements = yes
+	}
+}
+
+# Azad Hind - Oil Crisis - Chatterji
+
+AZH_OIL_CRISIS_CHATTERJI_PATH = {
+	name = AZH_OIL_CRISIS_CHATTERJI_PATH
+	group = "RULE_GROUP_TNO_RULES_SOUTHERN_ASIA"
+	option = { # Random
+		name = DEFAULT
+		text = "RULE_OPTION_AZH_OIL_CRISIS_CHATTERJI_PATH_RANDOM"
+		desc = "RULE_OPTION_AZH_OIL_CRISIS_CHATTERJI_PATH_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = { # 
+		name = AZH_OIL_CRISIS_CHATTERJI_PATH_CHATTERJI_SUCCESS
+		text = "RULE_OPTION_AZH_OIL_CRISIS_CHATTERJI_PATH_CHATTERJI_SUCCESS"
+		desc = "RULE_OPTION_AZH_OIL_CRISIS_CHATTERJI_PATH_CHATTERJI_SUCCESS_DESC"
+		allow_achievements = yes
+	}
+	option = { # 
+		name = AZH_OIL_CRISIS_CHATTERJI_PATH_REMOVED_BY_PARTY
+		text = "RULE_OPTION_AZH_OIL_CRISIS_CHATTERJI_PATH_REMOVED_BY_PARTY"
+		desc = "RULE_OPTION_AZH_OIL_CRISIS_CHATTERJI_PATH_REMOVED_BY_PARTY_DESC"
+		allow_achievements = yes
+	}
+	option = { # 
+		name = AZH_OIL_CRISIS_CHATTERJI_PATH_REMOVED_BY_ARMY
+		text = "RULE_OPTION_AZH_OIL_CRISIS_CHATTERJI_PATH_REMOVED_BY_ARMY"
+		desc = "RULE_OPTION_AZH_OIL_CRISIS_CHATTERJI_PATH_REMOVED_BY_ARMY_DESC"
+		allow_achievements = yes
+	}
+}
+
+# Azad Hind - Oil Crisis - Raghavan
+
+AZH_OIL_CRISIS_RAGHAVAN_PATH = {
+	name = AZH_OIL_CRISIS_RAGHAVAN_PATH
+	group = "RULE_GROUP_TNO_RULES_SOUTHERN_ASIA"
+	option = { # Random
+		name = DEFAULT
+		text = "RULE_OPTION_AZH_OIL_CRISIS_RAGHAVAN_PATH_RANDOM"
+		desc = "RULE_OPTION_AZH_OIL_CRISIS_RAGHAVAN_PATH_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = { # 
+		name = AZH_OIL_CRISIS_RAGHAVAN_PATH_RAGHAVAN_SUCCESS
+		text = "RULE_OPTION_AZH_OIL_CRISIS_RAGHAVAN_PATH_RAGHAVAN_SUCCESS"
+		desc = "RULE_OPTION_AZH_OIL_CRISIS_RAGHAVAN_PATH_RAGHAVAN_SUCCESS_DESC"
+		allow_achievements = yes
+	}
+	option = { # 
+		name = AZH_OIL_CRISIS_RAGHAVAN_PATH_REMOVED_BY_PARTY
+		text = "RULE_OPTION_AZH_OIL_CRISIS_RAGHAVAN_PATH_REMOVED_BY_PARTY"
+		desc = "RULE_OPTION_AZH_OIL_CRISIS_RAGHAVAN_PATH_REMOVED_BY_PARTY_DESC"
+		allow_achievements = yes
+	}
+	option = { # 
+		name = AZH_OIL_CRISIS_RAGHAVAN_PATH_REMOVED_BY_ARMY
+		text = "RULE_OPTION_AZH_OIL_CRISIS_RAGHAVAN_PATH_REMOVED_BY_ARMY"
+		desc = "RULE_OPTION_AZH_OIL_CRISIS_RAGHAVAN_PATH_REMOVED_BY_ARMY_DESC"
+		allow_achievements = yes
+	}
+}
+
+# United India - 1965 General Elections
+
+IND_UNIFIED_65_ELECTIONS_PATH = {
+	name = IND_UNIFIED_65_ELECTIONS_PATH
+	group = "RULE_GROUP_TNO_RULES_SOUTHERN_ASIA"
+	option = { # Random
+		name = DEFAULT
+		text = "RULE_OPTION_IND_UNIFIED_65_ELECTIONS_PATH_RANDOM"
+		desc = "RULE_OPTION_IND_UNIFIED_65_ELECTIONS_PATH_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = { # 
+		name = IND_UNIFIED_65_ELECTIONS_PATH_INC
+		text = "RULE_OPTION_IND_UNIFIED_65_ELECTIONS_PATH_INC"
+		desc = "RULE_OPTION_IND_UNIFIED_65_ELECTIONS_PATH_INC_DESC"
+		allow_achievements = yes
+	}
+	option = { # 
+		name = IND_UNIFIED_65_ELECTIONS_PATH_HSS
+		text = "RULE_OPTION_IND_UNIFIED_65_ELECTIONS_PATH_HSS"
+		desc = "RULE_OPTION_IND_UNIFIED_65_ELECTIONS_PATH_HSS_DESC"
+		allow_achievements = yes
+	}
+}
+
+# United India - 1970 General Elections
+
+IND_UNIFIED_70_ELECTIONS_PATH = {
+	name = IND_UNIFIED_70_ELECTIONS_PATH
+	group = "RULE_GROUP_TNO_RULES_SOUTHERN_ASIA"
+	option = { # Random
+		name = DEFAULT
+		text = "RULE_OPTION_IND_UNIFIED_70_ELECTIONS_PATH_RANDOM"
+		desc = "RULE_OPTION_IND_UNIFIED_70_ELECTIONS_PATH_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = { # 
+		name = IND_UNIFIED_70_ELECTIONS_PATH_INC
+		text = "RULE_OPTION_IND_UNIFIED_70_ELECTIONS_PATH_INC"
+		desc = "RULE_OPTION_IND_UNIFIED_70_ELECTIONS_PATH_INC_DESC"
+		allow_achievements = yes
+	}
+	option = { # 
+		name = IND_UNIFIED_70_ELECTIONS_PATH_INC_STATE_OF_EMERGENCY
+		text = "RULE_OPTION_IND_UNIFIED_70_ELECTIONS_PATH_INC_STATE_OF_EMERGENCY"
+		desc = "RULE_OPTION_IND_UNIFIED_70_ELECTIONS_PATH_INC_STATE_OF_EMERGENCY_DESC"
+		allow_achievements = yes
+	}
+	option = { # 
+		name = IND_UNIFIED_70_ELECTIONS_PATH_AIJF
+		text = "RULE_OPTION_IND_UNIFIED_70_ELECTIONS_PATH_AIJF"
+		desc = "RULE_OPTION_IND_UNIFIED_70_ELECTIONS_PATH_AIJF_DESC"
+		allow_achievements = yes
+	}
+}
+
+# United India - Rebuilding the Party-State
+
+IND_UNIFIED_PARTY_STATE_PATH = {
+	name = IND_UNIFIED_PARTY_STATE_PATH
+	group = "RULE_GROUP_TNO_RULES_SOUTHERN_ASIA"
+	option = { # Random
+		name = DEFAULT
+		text = "RULE_OPTION_IND_UNIFIED_PARTY_STATE_PATH_RANDOM"
+		desc = "RULE_OPTION_IND_UNIFIED_PARTY_STATE_PATH_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = { # 
+		name = IND_UNIFIED_PARTY_STATE_PATH_SUCCESS
+		text = "RULE_OPTION_IND_UNIFIED_PARTY_STATE_PATH_SUCCESS"
+		desc = "RULE_OPTION_IND_UNIFIED_PARTY_STATE_PATH_SUCCESS_DESC"
+		allow_achievements = yes
+	}
+	option = { # 
+		name = IND_UNIFIED_PARTY_STATE_PATH_COUP
+		text = "RULE_OPTION_IND_UNIFIED_PARTY_STATE_PATH_COUP"
+		desc = "RULE_OPTION_IND_UNIFIED_PARTY_STATE_PATH_COUP_DESC"
+		allow_achievements = yes
+	}
+}
+
+# Pakistan - 1969 General Elections
+
+PAK_69_ELECTIONS_PATH = {
+	name = PAK_69_ELECTIONS_PATH
+	group = "RULE_GROUP_TNO_RULES_SOUTHERN_ASIA"
+	option = { # Random
+		name = DEFAULT
+		text = "RULE_OPTION_PAK_69_ELECTIONS_PATH_RANDOM"
+		desc = "RULE_OPTION_PAK_69_ELECTIONS_PATH_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = { # 
+		name = PAK_69_ELECTIONS_PATH_NOON
+		text = "RULE_OPTION_PAK_69_ELECTIONS_PATH_NOON"
+		desc = "RULE_OPTION_PAK_69_ELECTIONS_PATH_NOON_DESC"
+		allow_achievements = yes
+	}
+	option = { # 
+		name = PAK_69_ELECTIONS_PATH_DAULTANA
+		text = "RULE_OPTION_PAK_69_ELECTIONS_PATH_DAULTANA"
+		desc = "RULE_OPTION_PAK_69_ELECTIONS_PATH_DAULTANA_DESC"
+		allow_achievements = yes
+	}
+	option = { # 
+		name = PAK_69_ELECTIONS_PATH_BHUTTO
+		text = "RULE_OPTION_PAK_69_ELECTIONS_PATH_BHUTTO"
+		desc = "RULE_OPTION_PAK_69_ELECTIONS_PATH_BHUTTO_DESC"
+		allow_achievements = yes
+	}
 }
 
 # Afghanistan - 1965 Elections
@@ -11071,7 +10609,7 @@ UTL_PATH = {
 	option = { # Random
 		name = DEFAULT
 		text = "RULE_OPTION_UTL_PATH_RANDOM"
-		desc = "RULE_OPTION_TAJ_PATH_RANDOM_DESC"
+		desc = "RULE_OPTION_UTL_PATH_RANDOM_DESC"
 		allow_achievements = yes
 	}
 	option = {
@@ -11292,38 +10830,7 @@ JOR_PATH_SUCCESSOR = {
 	}
 }
 
-# Syrian Politics (Decolonization)
-
-SYR_POLITICS_PEACE = {
-	name = SYR_POLITICS_PEACE
-	group = "RULE_GROUP_TNO_RULES_ASIA_THE_LEVANT"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_SYR_POLITICS_PEACE_RANDOM"
-		desc = "RULE_OPTION_SYR_POLITICS_PEACE_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = { #Auth Dem
-		name = SYR_POLITICS_PEACE_ADIB
-		text = "RULE_OPTION_SYR_POLITICS_PEACE_ADIB"
-		desc = "RULE_OPTION_SYR_POLITICS_PEACE_ADIB_DESC"
-		allow_achievements = yes
-	}
-	option = { #Socialism
-		name = SYR_POLITICS_PEACE_AFLAQ
-		text = "RULE_OPTION_SYR_POLITICS_PEACE_AFLAQ"
-		desc = "RULE_OPTION_SYR_POLITICS_PEACE_AFLAQ_DESC"
-		allow_achievements = yes
-	}
-	option = { #Communist
-		name = SYR_POLITICS_PEACE_JADID
-		text = "RULE_OPTION_SYR_POLITICS_PEACE_JADID"
-		desc = "RULE_OPTION_SYR_POLITICS_PEACE_JADID_DESC"
-		allow_achievements = yes
-	}
-}
-
-#Syrian Politics (Revolt)
+#Syrian Revolution
 
 SYR_POLITICS_REVOLUTION = {
 	name = SYR_POLITICS_REVOLUTION
@@ -12191,9 +11698,9 @@ SAM_SUCCESSOR = {
 		allow_achievements = yes
 	}
 	option = {
-		name = "SAM_SUCCESSOR_OKTAN"
-		text = "RULE_OPTION_SAM_SUCCESSOR_OKTAN"
-		desc = "RULE_OPTION_SAM_SUCCESSOR_OKTAN_DESC"
+		name = "SAM_SUCCESSOR_ARTSEZO"
+		text = "RULE_OPTION_SAM_SUCCESSOR_ARTSEZO"
+		desc = "RULE_OPTION_SAM_SUCCESSOR_ARTSEZO_DESC"
 		allow_achievements = yes
 	}
 }
@@ -12222,9 +11729,9 @@ SAM_ROUTE = {
 		allow_achievements = yes
 	}
 	option = {
-		name = "SAM_ROUTE_OKTAN"
-		text = "RULE_OPTION_SAM_ROUTE_OKTAN"
-		desc = "RULE_OPTION_SAM_ROUTE_OKTAN_DESC"
+		name = "SAM_ROUTE_ARTSEZO"
+		text = "RULE_OPTION_SAM_ROUTE_ARTSEZO"
+		desc = "RULE_OPTION_SAM_ROUTE_ARTSEZO_DESC"
 		allow_achievements = yes
 	}
 }
@@ -13425,6 +12932,137 @@ AST_LEADERSHIP_SPILL_PATH = {
 		name = "AST_LEADERSHIP_SPILL_PATH_YES"
 		text = "RULE_OPTION_AST_LEADERSHIP_SPILL_PATH_YES"
 		desc = "RULE_OPTION_AST_LEADERSHIP_SPILL_PATH_YES_DESC"
+		allow_achievements = yes
+	}
+}
+
+# New Zealand - 1963 General Election https://youtu.be/WchseC9aKTU?si=Tf0KSsj0K283dMrd
+
+NZL_ELECTION_63_OUTCOME = {
+	name = "NZL_ELECTION_63_OUTCOME"
+	group = "RULE_GROUP_TNO_RULES_OCEANIA"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_NZL_ELECTION_63_OUTCOME_RANDOM"
+		desc = "RULE_OPTION_NZL_ELECTION_63_OUTCOME_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "NZL_ELECTION_63_OUTCOME_NATIONAL"
+		text = "RULE_OPTION_NZL_ELECTION_63_OUTCOME_NATIONAL"
+		desc = "RULE_OPTION_NZL_ELECTION_63_OUTCOME_NATIONAL_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "NZL_ELECTION_63_OUTCOME_LABOUR"
+		text = "RULE_OPTION_NZL_ELECTION_63_OUTCOME_LABOUR"
+		desc = "RULE_OPTION_NZL_ELECTION_63_OUTCOME_LABOUR_DESC"
+		allow_achievements = yes
+	}
+}
+
+# New Zealand - 1966 General Election
+
+NZL_ELECTION_66_OUTCOME = {
+	name = "NZL_ELECTION_66_OUTCOME"
+	group = "RULE_GROUP_TNO_RULES_OCEANIA"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_NZL_ELECTION_66_OUTCOME_RANDOM"
+		desc = "RULE_OPTION_NZL_ELECTION_66_OUTCOME_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "NZL_ELECTION_66_OUTCOME_NATIONAL"
+		text = "RULE_OPTION_NZL_ELECTION_66_OUTCOME_NATIONAL"
+		desc = "RULE_OPTION_NZL_ELECTION_66_OUTCOME_NATIONAL_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "NZL_ELECTION_66_OUTCOME_LABOUR"
+		text = "RULE_OPTION_NZL_ELECTION_66_OUTCOME_LABOUR"
+		desc = "RULE_OPTION_NZL_ELECTION_66_OUTCOME_LABOUR_DESC"
+		allow_achievements = yes
+	}
+}
+
+# New Zealand - 1969 General Election
+
+NZL_ELECTION_69_OUTCOME = {
+	name = "NZL_ELECTION_69_OUTCOME"
+	group = "RULE_GROUP_TNO_RULES_OCEANIA"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_NZL_ELECTION_69_OUTCOME_RANDOM"
+		desc = "RULE_OPTION_NZL_ELECTION_69_OUTCOME_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "NZL_ELECTION_69_OUTCOME_NATIONAL"
+		text = "RULE_OPTION_NZL_ELECTION_69_OUTCOME_NATIONAL"
+		desc = "RULE_OPTION_NZL_ELECTION_69_OUTCOME_NATIONAL_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "NZL_ELECTION_69_OUTCOME_LABOUR"
+		text = "RULE_OPTION_NZL_ELECTION_69_OUTCOME_LABOUR"
+		desc = "RULE_OPTION_NZL_ELECTION_69_OUTCOME_LABOUR_DESC"
+		allow_achievements = yes
+	}
+}
+
+# New Zealand - General Strike
+
+NZL_GENERAL_STRIKE_OUTCOME = {
+	name = "NZL_GENERAL_STRIKE_OUTCOME"
+	group = "RULE_GROUP_TNO_RULES_OCEANIA"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_NZL_GENERAL_STRIKE_OUTCOME_RANDOM"
+		desc = "RULE_OPTION_NZL_GENERAL_STRIKE_OUTCOME_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "NZL_GENERAL_STRIKE_OUTCOME_RESOLVED"
+		text = "RULE_OPTION_NZL_GENERAL_STRIKE_OUTCOME_RESOLVED"
+		desc = "RULE_OPTION_NZL_GENERAL_STRIKE_OUTCOME_RESOLVED_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "NZL_GENERAL_STRIKE_OUTCOME_RESIGNATION"
+		text = "RULE_OPTION_NZL_GENERAL_STRIKE_OUTCOME_RESIGNATION"
+		desc = "RULE_OPTION_NZL_GENERAL_STRIKE_OUTCOME_RESIGNATION_DESC"
+		allow_achievements = yes
+	}
+}
+
+# New Zealand - 1972 General Election
+
+NZL_ELECTION_72_OUTCOME = {
+	name = "NZL_ELECTION_72_OUTCOME"
+	group = "RULE_GROUP_TNO_RULES_OCEANIA"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_NZL_ELECTION_72_OUTCOME_RANDOM"
+		desc = "RULE_OPTION_NZL_ELECTION_72_OUTCOME_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "NZL_ELECTION_72_OUTCOME_NATIONAL"
+		text = "RULE_OPTION_NZL_ELECTION_72_OUTCOME_NATIONAL"
+		desc = "RULE_OPTION_NZL_ELECTION_72_OUTCOME_NATIONAL_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "NZL_ELECTION_72_OUTCOME_LABOUR"
+		text = "RULE_OPTION_NZL_ELECTION_72_OUTCOME_LABOUR"
+		desc = "RULE_OPTION_NZL_ELECTION_72_OUTCOME_LABOUR_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "NZL_ELECTION_72_OUTCOME_SOCCRED"
+		text = "RULE_OPTION_NZL_ELECTION_72_OUTCOME_SOCCRED"
+		desc = "RULE_OPTION_NZL_ELECTION_72_OUTCOME_SOCCRED_DESC"
 		allow_achievements = yes
 	}
 }
@@ -14738,6 +14376,315 @@ CDL_SAA_JOIN = {
 	}
 }
 
+# antarctica ODF AAG stuff
+
+AAG_TESTING = {
+	name = "AAG_TESTING"
+	group = "RULE_GROUP_TNO_RULES_DEEP_FREEZE"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_AAG_TESTING_RANDOM"
+		desc = "RULE_OPTION_AAG_TESTING_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAG_TESTING_SUCCESS_FULL
+		text = "RULE_OPTION_AAG_TESTING_SUCCESS_FULL"
+		desc = "RULE_OPTION_AAG_TESTING_SUCCESS_FULL_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAG_TESTING_SUCCESS_MED
+		text = "RULE_OPTION_AAG_TESTING_SUCCESS_MED"
+		desc = "RULE_OPTION_AAG_TESTING_SUCCESS_MED_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAG_TESTING_SUCCESS_SMALL
+		text = "RULE_OPTION_AAG_TESTING_SUCCESS_SMALL"
+		desc = "RULE_OPTION_AAG_TESTING_SUCCESS_SMALL_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAG_TESTING_FAILURE
+		text = "RULE_OPTION_AAG_TESTING_FAILURE"
+		desc = "RULE_OPTION_AAG_TESTING_FAILURE_DESC"
+		allow_achievements = yes
+	}
+}
+
+AAG_NUCLEAR = {
+	name = "AAG_NUCLEAR"
+	group = "RULE_GROUP_TNO_RULES_DEEP_FREEZE"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_AAG_NUCLEAR_RANDOM"
+		desc = "RULE_OPTION_AAG_NUCLEAR_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAG_NUCLEAR_SUCCESS
+		text = "RULE_OPTION_AAG_NUCLEAR_SUCCESS"
+		desc = "RULE_OPTION_AAG_NUCLEAR_SUCCESS_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAG_NUCLEAR_FAILURE
+		text = "RULE_OPTION_AAG_NUCLEAR_FAILURE"
+		desc = "RULE_OPTION_AAG_NUCLEAR_FAILURE_DESC"
+		allow_achievements = yes
+	}
+}
+
+AAG_ask_supplies_choice = {
+	name = "AAG_ASK_SUPPLIES_CHOICE"
+	group = "RULE_GROUP_TNO_RULES_DEEP_FREEZE"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_AAG_ASK_SUPPLIES_CHOICE_RANDOM"
+		desc = "RULE_OPTION_AAG_ASK_SUPPLIES_CHOICE_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAG_ASK_SUPPLIES_CHOICE_ARGENTINA
+		text = "RULE_OPTION_AAG_ASK_SUPPLIES_CHOICE_ARGENTINA"
+		desc = "RULE_OPTION_AAG_ASK_SUPPLIES_CHOICE_ARGENTINA_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAG_ASK_SUPPLIES_CHOICE_OFN
+		text = "RULE_OPTION_AAG_ASK_SUPPLIES_CHOICE_OFN"
+		desc = "RULE_OPTION_AAG_ASK_SUPPLIES_CHOICE_OFN_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAG_ASK_SUPPLIES_CHOICE_SCHILD
+		text = "RULE_OPTION_AAG_ASK_SUPPLIES_CHOICE_SCHILD"
+		desc = "RULE_OPTION_AAG_ASK_SUPPLIES_CHOICE_SCHILD_DESC"
+		allow_achievements = yes
+	}
+}
+
+AAG_ask_supplies_ofn_response = {
+	name = "AAG_ASK_SUPPLIES_OFN_RESPONSE"
+	group = "RULE_GROUP_TNO_RULES_DEEP_FREEZE"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_AAG_ASK_SUPPLIES_OFN_RESPONSE_RANDOM"
+		desc = "RULE_OPTION_AAG_ASK_SUPPLIES_OFN_RESPONSE_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAG_ASK_SUPPLIES_OFN_RESPONSE_YES
+		text = "RULE_OPTION_AAG_ASK_SUPPLIES_OFN_RESPONSE_YES"
+		desc = "RULE_OPTION_AAG_ASK_SUPPLIES_OFN_RESPONSE_YES_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAG_ASK_SUPPLIES_OFN_RESPONSE_NO
+		text = "RULE_OPTION_AAG_ASK_SUPPLIES_OFN_RESPONSE_NO"
+		desc = "RULE_OPTION_AAG_ASK_SUPPLIES_OFN_RESPONSE_NO_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAG_ASK_SUPPLIES_OFN_RESPONSE_INVADE
+		text = "RULE_OPTION_AAG_ASK_SUPPLIES_OFN_RESPONSE_INVADE"
+		desc = "RULE_OPTION_AAG_ASK_SUPPLIES_OFN_RESPONSE_INVADE_DESC"
+		allow_achievements = yes
+	}
+}
+
+AAG_ask_supplies_schild_response = {
+	name = "AAG_ASK_SUPPLIES_SCHILD_RESPONSE"
+	group = "RULE_GROUP_TNO_RULES_DEEP_FREEZE"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_AAG_ASK_SUPPLIES_SCHILD_RESPONSE_RANDOM"
+		desc = "RULE_OPTION_AAG_ASK_SUPPLIES_SCHILD_RESPONSE_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAG_ASK_SUPPLIES_SCHILD_RESPONSE_YES
+		text = "RULE_OPTION_AAG_ASK_SUPPLIES_SCHILD_RESPONSE_YES"
+		desc = "RULE_OPTION_AAG_ASK_SUPPLIES_SCHILD_RESPONSE_YES_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAG_ASK_SUPPLIES_SCHILD_RESPONSE_NO
+		text = "RULE_OPTION_AAG_ASK_SUPPLIES_SCHILD_RESPONSE_NO"
+		desc = "RULE_OPTION_AAG_ASK_SUPPLIES_SCHILD_RESPONSE_NO_DESC"
+		allow_achievements = yes
+	}
+}
+
+AAG_fate = {
+	name = "AAG_FATE"
+	group = "RULE_GROUP_TNO_RULES_DEEP_FREEZE"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_AAG_FATE_RANDOM"
+		desc = "RULE_OPTION_AAG_FATE_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAG_FATE_SURVIVE
+		text = "RULE_OPTION_AAG_FATE_SURVIVE"
+		desc = "RULE_OPTION_AAG_FATE_SURVIVE_DESC"
+		allow_achievements = yes
+	}
+	# option = {
+	# 	name = AAG_FATE_PARTITIONED
+	# 	text = "RULE_OPTION_AAG_FATE_PARTITIONED"
+	# 	desc = "RULE_OPTION_AAG_FATE_PARTITIONED_DESC"
+	# 	allow_achievements = yes
+	# }
+	option = {
+		name = AAG_FATE_STARVED
+		text = "RULE_OPTION_AAG_FATE_STARVED"
+		desc = "RULE_OPTION_AAG_FATE_STARVED_DESC"
+		allow_achievements = yes
+	}
+}
+
+# AAG_ss_attack_leak = {
+# 	name = "AAG_SS_ATTACK_LEAK"
+# 	group = "RULE_GROUP_TNO_RULES_DEEP_FREEZE"
+# 	option = {
+# 		name = DEFAULT
+# 		text = "RULE_OPTION_AAG_SS_ATTACK_LEAK_RANDOM"
+# 		desc = "RULE_OPTION_AAG_SS_ATTACK_LEAK_RANDOM_DESC"
+# 		allow_achievements = yes
+# 	}
+# 	option = {
+# 		name = AAG_SS_ATTACK_LEAK_YES
+# 		text = "RULE_OPTION_AAG_SS_ATTACK_LEAK_YES"
+# 		desc = "RULE_OPTION_AAG_SS_ATTACK_LEAK_YES_DESC"
+# 		allow_achievements = yes
+# 	}
+# 	option = {
+# 		name = AAG_SS_ATTACK_LEAK_NO
+# 		text = "RULE_OPTION_AAG_SS_ATTACK_LEAK_NO"
+# 		desc = "RULE_OPTION_AAG_SS_ATTACK_LEAK_NO_DESC"
+# 		allow_achievements = yes
+# 	}
+# }
+
+AAG_new_admin = {
+	name = "AAG_NEW_ADMIN"
+	group = "RULE_GROUP_TNO_RULES_DEEP_FREEZE"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_AAG_NEW_ADMIN_RANDOM"
+		desc = "RULE_OPTION_AAG_NEW_ADMIN_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAG_NEW_ADMIN_SCIENTIFIC
+		text = "RULE_OPTION_AAG_NEW_ADMIN_SCIENTIFIC"
+		desc = "RULE_OPTION_AAG_NEW_ADMIN_SCIENTIFIC_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAG_NEW_ADMIN_MILITARY
+		text = "RULE_OPTION_AAG_NEW_ADMIN_MILITARY"
+		desc = "RULE_OPTION_AAG_NEW_ADMIN_MILITARY_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAG_NEW_ADMIN_CIVILIAN
+		text = "RULE_OPTION_AAG_NEW_ADMIN_CIVILIAN"
+		desc = "RULE_OPTION_AAG_NEW_ADMIN_CIVILIAN_DESC"
+		allow_achievements = yes
+	}
+}
+
+AAO_OP_SC = {
+	name = "AAO_OP_SC"
+	group = "RULE_GROUP_TNO_RULES_DEEP_FREEZE"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_AAO_OP_SC_RANDOM"
+		desc = "RULE_OPTION_AAO_OP_SC_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAO_OP_SC_SUCCESS_FULL
+		text = "RULE_OPTION_AAO_OP_SC_SUCCESS_FULL"
+		desc = "RULE_OPTION_AAO_OP_SC_SUCCESS_FULL_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAO_OP_SC_SUCCESS
+		text = "RULE_OPTION_AAO_OP_SC_SUCCESS"
+		desc = "RULE_OPTION_AAO_OP_SC_SUCCESS_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAO_OP_SC_FAILURE
+		text = "RULE_OPTION_AAO_OP_SC_FAILURE"
+		desc = "RULE_OPTION_AAO_OP_SC_FAILURE_DESC"
+		allow_achievements = yes
+	}
+}
+
+AAO_SUCCESSOR = {
+	name = "AAO_SUCCESSOR"
+	group = "RULE_GROUP_TNO_RULES_DEEP_FREEZE"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_AAO_SUCCESSOR_RANDOM"
+		desc = "RULE_OPTION_AAO_SUCCESSOR_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAO_SUCCESSOR_USA
+		text = "RULE_OPTION_AAO_SUCCESSOR_USA"
+		desc = "RULE_OPTION_AAO_SUCCESSOR_USA_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAO_SUCCESSOR_AST
+		text = "RULE_OPTION_AAO_SUCCESSOR_AST"
+		desc = "RULE_OPTION_AAO_SUCCESSOR_AST_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAO_SUCCESSOR_NZL
+		text = "RULE_OPTION_AAO_SUCCESSOR_NZL"
+		desc = "RULE_OPTION_AAO_SUCCESSOR_NZL_DESC"
+		allow_achievements = yes
+	}
+}
+
+AAA_OP90 = {
+	name = "AAA_OP90"
+	group = "RULE_GROUP_TNO_RULES_DEEP_FREEZE"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_AAA_OP90_RANDOM"
+		desc = "RULE_OPTION_AAA_OP90_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAA_OP90_MAJOR_SUCCESS
+		text = "RULE_OPTION_AAA_OP90_MAJOR_SUCCESS"
+		desc = "RULE_OPTION_AAA_OP90_MAJOR_SUCCESS_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAA_OP90_MINOR_SUCCESS
+		text = "RULE_OPTION_AAA_OP90_MINOR_SUCCESS"
+		desc = "RULE_OPTION_AAA_OP90_MINOR_SUCCESS_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = AAA_OP90_FAILURE
+		text = "RULE_OPTION_AAA_OP90_FAILURE"
+		desc = "RULE_OPTION_AAA_OP90_FAILURE_DESC"
+		allow_achievements = yes
+	}
+}
+
 ################################
 ### Cheats, buffs and misc - Europe ######
 ################################
@@ -14794,36 +14741,6 @@ ITA_COUP_CHEAT = {
 		name = ITA_COUP_CHEAT_DISABLED
 		text = "RULE_OPTION_ITA_COUP_CHEAT_DISABLED"
 		desc = "RULE_OPTION_ITA_COUP_CHEAT_DISABLED_DESC"
-		allow_achievements = yes
-	}
-}
-
-#Greece-Turkish border dispute
-greece_turkish_border_dispute_outcome = {
-	name = GREECE_TURKISH_BORDER_DISPUTE_OUTCOME
-	group = "RULE_GROUP_TNO_RULES_CHEATS_AND_BUFFS_EUROPE"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_GREECE_TURKISH_BORDER_DISPUTE_OUTCOME_RANDOM"
-		desc = "RULE_OPTION_GREECE_TURKISH_BORDER_DISPUTE_OUTCOME_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = GREECE_TURKISH_BORDER_DISPUTE_OUTCOME_GRE_HELLENIC_STATE
-		text = "RULE_OPTION_GREECE_TURKISH_BORDER_DISPUTE_OUTCOME_GRE_HELLENIC_STATE"
-		desc = "RULE_OPTION_GREECE_TURKISH_BORDER_DISPUTE_OUTCOME_GRE_HELLENIC_STATE_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = GREECE_TURKISH_BORDER_DISPUTE_OUTCOME_DRAW
-		text = "RULE_OPTION_GREECE_TURKISH_BORDER_DISPUTE_OUTCOME_DRAW"
-		desc = "RULE_OPTION_GREECE_TURKISH_BORDER_DISPUTE_OUTCOME_DRAW_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = GREECE_TURKISH_BORDER_DISPUTE_OUTCOME_TUR_REPUBLIC_OF_TURKEY
-		text = "RULE_OPTION_GREECE_TURKISH_BORDER_DISPUTE_OUTCOME_TUR_REPUBLIC_OF_TURKEY"
-		desc = "RULE_OPTION_GREECE_TURKISH_BORDER_DISPUTE_OUTCOME_TUR_REPUBLIC_OF_TURKEY_DESC"
 		allow_achievements = yes
 	}
 }
@@ -14995,73 +14912,6 @@ ukraine_civil_war_outcome = {
 	}
 }
 
-# Moskowien Civil War [War Outcome]
-
-MOSKOWIEN_CIVIL_WAR_OUTCOME = {
-	name = MOSKOWIEN_CIVIL_WAR_OUTCOME
-	group = "RULE_GROUP_TNO_RULES_CHEATS_AND_BUFFS_EUROPE"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_MOSKOWIEN_CIVIL_WAR_OUTCOME_RANDOM"
-		desc = "RULE_OPTION_MOSKOWIEN_CIVIL_WAR_OUTCOME_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = MOSKOWIEN_CIVIL_WAR_OUTCOME_SHI
-		text = "RULE_OPTION_MOSKOWIEN_CIVIL_WAR_OUTCOME_SHI"
-		desc = "RULE_OPTION_MOSKOWIEN_CIVIL_WAR_OUTCOME_SHI_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = MOSKOWIEN_CIVIL_WAR_OUTCOME_TVR
-		text = "RULE_OPTION_MOSKOWIEN_CIVIL_WAR_OUTCOME_TVR"
-		desc = "RULE_OPTION_MOSKOWIEN_CIVIL_WAR_OUTCOME_TVR_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = MOSKOWIEN_CIVIL_WAR_OUTCOME_SNP
-		text = "RULE_OPTION_MOSKOWIEN_CIVIL_WAR_OUTCOME_SNP"
-		desc = "RULE_OPTION_MOSKOWIEN_CIVIL_WAR_OUTCOME_SNP_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = MOSKOWIEN_CIVIL_WAR_OUTCOME_PSK
-		text = "RULE_OPTION_MOSKOWIEN_CIVIL_WAR_OUTCOME_PSK"
-		desc = "RULE_OPTION_MOSKOWIEN_CIVIL_WAR_OUTCOME_PSK_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = MOSKOWIEN_CIVIL_WAR_OUTCOME_OZL
-		text = "RULE_OPTION_MOSKOWIEN_CIVIL_WAR_OUTCOME_OZL"
-		desc = "RULE_OPTION_MOSKOWIEN_CIVIL_WAR_OUTCOME_OZL_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = MOSKOWIEN_CIVIL_WAR_OUTCOME_ORL
-		text = "RULE_OPTION_MOSKOWIEN_CIVIL_WAR_OUTCOME_ORL"
-		desc = "RULE_OPTION_MOSKOWIEN_CIVIL_WAR_OUTCOME_ORL_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = MOSKOWIEN_CIVIL_WAR_OUTCOME_PAU
-		text = "RULE_OPTION_MOSKOWIEN_CIVIL_WAR_OUTCOME_PAU"
-		desc = "RULE_OPTION_MOSKOWIEN_CIVIL_WAR_OUTCOME_PAU_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = MOSKOWIEN_CIVIL_WAR_OUTCOME_POP
-		text = "RULE_OPTION_MOSKOWIEN_CIVIL_WAR_OUTCOME_POP"
-		desc = "RULE_OPTION_MOSKOWIEN_CIVIL_WAR_OUTCOME_POP_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = MOSKOWIEN_CIVIL_WAR_OUTCOME_POV
-		text = "RULE_OPTION_MOSKOWIEN_CIVIL_WAR_OUTCOME_POV"
-		desc = "RULE_OPTION_MOSKOWIEN_CIVIL_WAR_OUTCOME_POV_DESC"
-		allow_achievements = yes
-	}
-}
-
 # Poland Uprising
 
 poland_uprising_outcome = {
@@ -15108,6 +14958,29 @@ SERBIA_CIVIL_WAR_OUTCOME = {
 		name = SERBIA_CIVIL_WAR_OUTCOME_GMS
 		text = "RULE_OPTION_SERBIA_CIVIL_WAR_OUTCOME_GMS"
 		desc = "RULE_OPTION_SERBIA_CIVIL_WAR_OUTCOME_GMS_DESC"
+		allow_achievements = yes
+	}
+}
+
+BUL_MAC_WAR_PATH = {
+	name = BUL_MAC_WAR_PATH
+	group = "RULE_GROUP_TNO_RULES_CHEATS_AND_BUFFS_EUROPE"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_BUL_MAC_WAR_PATH_RANDOM"
+		desc = "RULE_OPTION_BUL_MAC_WAR_PATH_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RULE_OPTION_BUL_MAC_WAR_PATH_MACEDONIA_VICTORY
+		text = "RULE_OPTION_BUL_MAC_WAR_PATH_MACEDONIA_VICTORY"
+		desc = "RULE_OPTION_BUL_MAC_WAR_PATH_MACEDONIA_VICTORY_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RULE_OPTION_BUL_MAC_WAR_PATH_BULGARIA_VICTORY
+		text = "RULE_OPTION_BUL_MAC_WAR_PATH_BULGARIA_VICTORY"
+		desc = "RULE_OPTION_BUL_MAC_WAR_PATH_BULGARIA_VICTORY_DESC"
 		allow_achievements = yes
 	}
 }
@@ -15211,12 +15084,6 @@ FRA_CIVIL_WAR_BUFF = {
 		name = FRA_CIVIL_WAR_BUFF_FMM
 		text = "RULE_OPTION_FRA_CIVIL_WAR_BUFF_FMM"
 		desc = "RULE_OPTION_FRA_CIVIL_WAR_BUFF_FMM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = FRA_CIVIL_WAR_BUFF_FGR
-		text = "RULE_OPTION_FRA_CIVIL_WAR_BUFF_FGR"
-		desc = "RULE_OPTION_FRA_CIVIL_WAR_BUFF_FGR_DESC"
 		allow_achievements = yes
 	}
 	option = {
@@ -15394,7 +15261,6 @@ KARELIAN_WAR_OUTCOME = {
 		allow_achievements = yes
 	}
 }
-
 
 ################################
 ### Cheats, buffs and misc - Russia ######
@@ -16345,6 +16211,107 @@ INDONESIA_CIVIL_WAR_OUTCOME = {
 	}
 }
 
+INDIAN_REUNIFICATION_WAR_OUTCOME = {
+	name = INDIAN_REUNIFICATION_WAR_OUTCOME
+	group = "RULE_GROUP_TNO_RULES_CHEATS_AND_BUFFS_ASIA"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_INDIAN_REUNIFICATION_WAR_OUTCOME_RANDOM"
+		desc = "RULE_OPTION_INDIAN_REUNIFICATION_WAR_OUTCOME_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = INDIAN_REUNIFICATION_WAR_OUTCOME_IND
+		text = "RULE_OPTION_INDIAN_REUNIFICATION_WAR_OUTCOME_IND"
+		desc = "RULE_OPTION_INDIAN_REUNIFICATION_WAR_OUTCOME_IND_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = INDIAN_REUNIFICATION_WAR_OUTCOME_AZH
+		text = "RULE_OPTION_INDIAN_REUNIFICATION_WAR_OUTCOME_AZH"
+		desc = "RULE_OPTION_INDIAN_REUNIFICATION_WAR_OUTCOME_AZH_DESC"
+		allow_achievements = yes
+	}
+}
+
+OPERATION_BIN_QASIM_WAR_OUTCOME = {
+	name = OPERATION_BIN_QASIM_WAR_OUTCOME
+	group = "RULE_GROUP_TNO_RULES_CHEATS_AND_BUFFS_ASIA"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_OPERATION_BIN_QASIM_WAR_OUTCOME_RANDOM"
+		desc = "RULE_OPTION_OPERATION_BIN_QASIM_WAR_OUTCOME_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = OPERATION_BIN_QASIM_WAR_OUTCOME_SUCCESS
+		text = "RULE_OPTION_OPERATION_BIN_QASIM_WAR_OUTCOME_SUCCESS"
+		desc = "RULE_OPTION_OPERATION_BIN_QASIM_WAR_OUTCOME_SUCCESS_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = OPERATION_BIN_QASIM_WAR_OUTCOME_FAILURE
+		text = "RULE_OPTION_OPERATION_BIN_QASIM_WAR_OUTCOME_FAILURE"
+		desc = "RULE_OPTION_OPERATION_BIN_QASIM_WAR_OUTCOME_FAILURE_DESC"
+		allow_achievements = yes
+	}
+}
+
+PAK_SUBCONTINENTAL_CRISIS_OUTCOME = {
+	name = PAK_SUBCONTINENTAL_CRISIS_OUTCOME
+	group = "RULE_GROUP_TNO_RULES_CHEATS_AND_BUFFS_ASIA"
+	option = {
+		name = DEFAULT
+		text = "PAK_SUBCONTINENTAL_CRISIS_OUTCOME_RANDOM"
+		desc = "PAK_SUBCONTINENTAL_CRISIS_OUTCOME_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = PAK_SUBCONTINENTAL_CRISIS_OUTCOME_PAKISTAN
+		text = "PAK_SUBCONTINENTAL_CRISIS_OUTCOME_PAKISTAN"
+		desc = "PAK_SUBCONTINENTAL_CRISIS_OUTCOME_PAKISTAN_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = PAK_SUBCONTINENTAL_CRISIS_OUTCOME_STALEMATE
+		text = "PAK_SUBCONTINENTAL_CRISIS_OUTCOME_STALEMATE"
+		desc = "PAK_SUBCONTINENTAL_CRISIS_OUTCOME_STALEMATE_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = PAK_SUBCONTINENTAL_CRISIS_OUTCOME_INDIA
+		text = "PAK_SUBCONTINENTAL_CRISIS_OUTCOME_INDIA"
+		desc = "PAK_SUBCONTINENTAL_CRISIS_OUTCOME_INDIA_DESC"
+		allow_achievements = yes
+	}
+}
+
+# Warlord Insurrection in China
+
+warlord_insurrection_outcome = {
+	name = WARLORD_INSURRECTION_OUTCOME
+	group = "RULE_GROUP_TNO_RULES_CHEATS_AND_BUFFS_ASIA"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_WARLORD_INSURRECTION_OUTCOME_RANDOM"
+		desc = "RULE_OPTION_WARLORD_INSURRECTION_OUTCOME_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = WARLORD_INSURRECTION_OUTCOME_YUN_NATIONAL_PROTECTION_ARMY
+		text = "RULE_OPTION_WARLORD_INSURRECTION_OUTCOME_YUN_NATIONAL_PROTECTION_ARMY"
+		desc = "RULE_OPTION_WARLORD_INSURRECTION_OUTCOME_YUN_NATIONAL_PROTECTION_ARMY_DESC"
+		allow_achievements = yes
+	}
+	#option = { #Not needed since they always win without gamerules
+	#	name = WARLORD_INSURRECTION_OUTCOME_CHI_REPUBLIC_OF_CHINA
+	#	text = "RULE_OPTION_WARLORD_INSURRECTION_OUTCOME_CHI_REPUBLIC_OF_CHINA"
+	#	desc = "RULE_OPTION_WARLORD_INSURRECTION_OUTCOME_CHI_REPUBLIC_OF_CHINA_DESC"
+	#	allow_achievements = yes
+	#}
+}
+
+
 # Lebanese Civil War buff
 
 lebanon_civil_war_outcome = {
@@ -16808,29 +16775,6 @@ KSI_KTG_WAR_OUTCOME = {
 	}
 }
 
-BTS_ZIM_WAR_OUTCOME = {
-	name = BTS_ZIM_WAR_OUTCOME
-	group = "RULE_GROUP_TNO_RULES_CHEATS_AND_BUFFS_AFRICA"
-	option = {
-		name = DEFAULT
-		text = "RULE_OPTION_BTS_ZIM_WAR_OUTCOME_RANDOM"
-		desc = "RULE_OPTION_BTS_ZIM_WAR_OUTCOME_RANDOM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = BTS_ZIM_WAR_OUTCOME_ZIM
-		text = "RULE_OPTION_BTS_ZIM_WAR_OUTCOME_ZIM"
-		desc = "RULE_OPTION_BTS_ZIM_WAR_OUTCOME_ZIM_DESC"
-		allow_achievements = yes
-	}
-	option = {
-		name = BTS_ZIM_WAR_OUTCOME_BTS
-		text = "RULE_OPTION_BTS_ZIM_WAR_OUTCOME_BTS"
-		desc = "RULE_OPTION_BTS_ZIM_WAR_OUTCOME_BTS_DESC"
-		allow_achievements = yes
-	}
-}
-
 TNZ_ZZB_WAR_OUTCOME = {
 	name = TNZ_ZZB_WAR_OUTCOME
 	group = "RULE_GROUP_TNO_RULES_CHEATS_AND_BUFFS_AFRICA"
@@ -17013,9 +16957,9 @@ PUERTO_PLATA_INVANSION_OUTCOME = {
 		allow_achievements = yes
 	}
 	option = {
-		name = PUERTO_PLATA_INVANSION_OUTCOME_REV_VICTORY
-		text = "RULE_OPTION_PUERTO_PLATA_INVANSION_OUTCOME_REV_VICTORY"
-		desc = "RULE_OPTION_PUERTO_PLATA_INVANSION_OUTCOME_REV_VICTORY_DESC"
+		name = PUERTO_PLATA_INVANSION_OUTCOME_RAM_VICTORY
+		text = "RULE_OPTION_PUERTO_PLATA_INVANSION_OUTCOME_RAM_VICTORY"
+		desc = "RULE_OPTION_PUERTO_PLATA_INVANSION_OUTCOME_RAM_VICTORY_DESC"
 		allow_achievements = yes
 	}
 	option = {
@@ -17025,9 +16969,21 @@ PUERTO_PLATA_INVANSION_OUTCOME = {
 		allow_achievements = yes
 	}
 	option = {
+		name = PUERTO_PLATA_INVANSION_OUTCOME_REV_VICTORY
+		text = "RULE_OPTION_PUERTO_PLATA_INVANSION_OUTCOME_REV_VICTORY"
+		desc = "RULE_OPTION_PUERTO_PLATA_INVANSION_OUTCOME_REV_VICTORY_DESC"
+		allow_achievements = yes
+	}
+	option = {
 		name = PUERTO_PLATA_INVANSION_OUTCOME_BAL_CEASEFIRE
 		text = "RULE_OPTION_PUERTO_PLATA_INVANSION_OUTCOME_BAL_CEASEFIRE"
 		desc = "RULE_OPTION_PUERTO_PLATA_INVANSION_OUTCOME_BAL_CEASEFIRE_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = PUERTO_PLATA_INVANSION_OUTCOME_DOM_AGREEMENT
+		text = "RULE_OPTION_PUERTO_PLATA_INVANSION_OUTCOME_DOM_AGREEMENT"
+		desc = "RULE_OPTION_PUERTO_PLATA_INVANSION_OUTCOME_DOM_AGREEMENT_DESC"
 		allow_achievements = yes
 	}
 }
@@ -17106,30 +17062,105 @@ TRUJILLO_BLITZ_OUTCOME = {
 	}	
 }
 
-# Bolivia-Santa Cruz War Outcome
+# Brazilian Civil War Outcome
 
-BOL_STC_WAR_OUTCOME = {
-	name = BOL_STC_WAR_OUTCOME
+BRA_WAR_OUTCOME = {
+	name = BRA_WAR_OUTCOME
 	group = "RULE_GROUP_TNO_RULES_CHEATS_AND_BUFFS_AMERICA"
 	option = {
 		name = DEFAULT
-		text = "RULE_OPTION_BOL_STC_WAR_OUTCOME_RANDOM"
-		desc = "RULE_OPTION_BOL_STC_WAR_OUTCOME_RANDOM_DESC"
+		text = "RULE_OPTION_BRA_WAR_OUTCOME_RANDOM"
+		desc = "RULE_OPTION_BRA_WAR_OUTCOME_RANDOM_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = BOL_STC_WAR_OUTCOME_BOL
-		text = "RULE_OPTION_BOL_STC_WAR_OUTCOME_BOL"
-		desc = "RULE_OPTION_BOL_STC_WAR_OUTCOME_BOL_DESC"
+		name = BRA_WAR_OUTCOME_BRA
+		text = "RULE_OPTION_BRA_WAR_OUTCOME_BRA"
+		desc = "RULE_OPTION_BRA_WAR_OUTCOME_BRA_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = BOL_STC_WAR_OUTCOME_STC
-		text = "RULE_OPTION_BOL_STC_WAR_OUTCOME_STC"
-		desc = "RULE_OPTION_BOL_STC_WAR_OUTCOME_STC_DESC"
+		name = BRA_WAR_OUTCOME_BRR
+		text = "RULE_OPTION_BRA_WAR_OUTCOME_BRR"
+		desc = "RULE_OPTION_BRA_WAR_OUTCOME_BRR_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = BRA_WAR_OUTCOME_GUN
+		text = "RULE_OPTION_BRA_WAR_OUTCOME_GUN"
+		desc = "RULE_OPTION_BRA_WAR_OUTCOME_GUN_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = BRA_WAR_OUTCOME_CAS
+		text = "RULE_OPTION_BRA_WAR_OUTCOME_CAS"
+		desc = "RULE_OPTION_BRA_WAR_OUTCOME_CAS_DESC"
 		allow_achievements = yes
 	}
 }
+
+# South Atlantic War Outcome
+
+BRA_ARG_WAR_OUTCOME = {
+	name = BRA_ARG_WAR_OUTCOME
+	group = "RULE_GROUP_TNO_RULES_CHEATS_AND_BUFFS_AMERICA"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_BRA_ARG_WAR_OUTCOME_RANDOM"
+		desc = "RULE_OPTION_BRA_ARG_WAR_OUTCOME_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = BRA_ARG_WAR_OUTCOME_NONE
+		text = "RULE_OPTION_BRA_ARG_WAR_OUTCOME_NONE"
+		desc = "RULE_OPTION_BRA_ARG_WAR_OUTCOME_NONE_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = BRA_ARG_WAR_OUTCOME_BRA
+		text = "RULE_OPTION_BRA_ARG_WAR_OUTCOME_BRA"
+		desc = "RULE_OPTION_BRA_ARG_WAR_OUTCOME_BRA_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = BRA_ARG_WAR_OUTCOME_ARG
+		text = "RULE_OPTION_BRA_ARG_WAR_OUTCOME_ARG"
+		desc = "RULE_OPTION_BRA_ARG_WAR_OUTCOME_ARG_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = BRA_ARG_WAR_OUTCOME_STALEMATE
+		text = "RULE_OPTION_BRA_ARG_WAR_OUTCOME_STALEMATE"
+		desc = "RULE_OPTION_BRA_ARG_WAR_OUTCOME_STALEMATE_DESC"
+		allow_achievements = yes
+	}
+}
+
+
+# Bolivia-Santa Cruz War Outcome
+
+# BOL_STC_WAR_OUTCOME = {
+# 	name = BOL_STC_WAR_OUTCOME
+# 	group = "RULE_GROUP_TNO_RULES_CHEATS_AND_BUFFS_AMERICA"
+# 	option = {
+# 		name = DEFAULT
+# 		text = "RULE_OPTION_BOL_STC_WAR_OUTCOME_RANDOM"
+# 		desc = "RULE_OPTION_BOL_STC_WAR_OUTCOME_RANDOM_DESC"
+# 		allow_achievements = yes
+# 	}
+# 	option = {
+# 		name = BOL_STC_WAR_OUTCOME_BOL
+# 		text = "RULE_OPTION_BOL_STC_WAR_OUTCOME_BOL"
+# 		desc = "RULE_OPTION_BOL_STC_WAR_OUTCOME_BOL_DESC"
+# 		allow_achievements = yes
+# 	}
+# 	option = {
+# 		name = BOL_STC_WAR_OUTCOME_STC
+# 		text = "RULE_OPTION_BOL_STC_WAR_OUTCOME_STC"
+# 		desc = "RULE_OPTION_BOL_STC_WAR_OUTCOME_STC_DESC"
+# 		allow_achievements = yes
+# 	}
+# }
 
 # The United States of America (USA) - RFK's Assassination [Politics]
 
@@ -17298,56 +17329,6 @@ BRA_bill_pass_cheat = {
 #		name = MONGOLIAN_CIVIL_WAR_OUTCOME_PRC_PEOPLE'S_REVOLUTIONARY_COUNCIL
 #		text = "RULE_OPTION_MONGOLIAN_CIVIL_WAR_OUTCOME_PRC_PEOPLE'S_REVOLUTIONARY_COUNCIL"
 #		desc = "RULE_OPTION_MONGOLIAN_CIVIL_WAR_OUTCOME_PRC_PEOPLE'S_REVOLUTIONARY_COUNCIL_DESC"
-#		allow_achievements = yes
-#	}
-#}
-
-## Yunnan - The Battle of Sichuan
-
-#the_battle_of_sichuan = {
-#	name = THE_BATTLE_OF_SICHUAN
-#	group = "RULE_GROUP_TNO_RULES_CHEATS_AND_BUFFS"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_THE_BATTLE_OF_SICHUAN_RANDOM"
-#		desc = "RULE_OPTION_THE_BATTLE_OF_SICHUAN_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = THE_BATTLE_OF_SICHUAN_YUN_NATIONAL_PROTECTION_ARMY
-#		text = "RULE_OPTION_THE_BATTLE_OF_SICHUAN_YUN_NATIONAL_PROTECTION_ARMY"
-#		desc = "RULE_OPTION_THE_BATTLE_OF_SICHUAN_YUN_NATIONAL_PROTECTION_ARMY_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = THE_BATTLE_OF_SICHUAN_CHI_REPUBLIC_OF_CHINA
-#		text = "RULE_OPTION_THE_BATTLE_OF_SICHUAN_CHI_REPUBLIC_OF_CHINA"
-#		desc = "RULE_OPTION_THE_BATTLE_OF_SICHUAN_CHI_REPUBLIC_OF_CHINA_DESC"
-#		allow_achievements = yes
-#	}
-#}
-
-# Warlord Insurrection in China
-
-#warlord_insurrection_outcome = {
-#	name = WARLORD_INSURRECTION_OUTCOME
-#	group = "RULE_GROUP_TNO_RULES_CHEATS_AND_BUFFS"
-#	option = {
-#		name = DEFAULT
-#		text = "RULE_OPTION_WARLORD_INSURRECTION_OUTCOME_RANDOM"
-#		desc = "RULE_OPTION_WARLORD_INSURRECTION_OUTCOME_RANDOM_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = WARLORD_INSURRECTION_OUTCOME_YUN_NATIONAL_PROTECTION_ARMY
-#		text = "RULE_OPTION_WARLORD_INSURRECTION_OUTCOME_YUN_NATIONAL_PROTECTION_ARMY"
-#		desc = "RULE_OPTION_WARLORD_INSURRECTION_OUTCOME_YUN_NATIONAL_PROTECTION_ARMY_DESC"
-#		allow_achievements = yes
-#	}
-#	option = {
-#		name = WARLORD_INSURRECTION_OUTCOME_CHI_REPUBLIC_OF_CHINA
-#		text = "RULE_OPTION_WARLORD_INSURRECTION_OUTCOME_CHI_REPUBLIC_OF_CHINA"
-#		desc = "RULE_OPTION_WARLORD_INSURRECTION_OUTCOME_CHI_REPUBLIC_OF_CHINA_DESC"
 #		allow_achievements = yes
 #	}
 #}
