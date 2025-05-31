@@ -110,4 +110,24 @@ spriteTypes = {
 		name = "GFX_idea_ROL_XDU_the_pain_of_asceticism"
 		textureFile = "gfx/interface/ideas/national_spirits/XDU/ROL_XDU_the_pain_of_asceticism.png"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_ROL_XDU_go_alone"
+		textureFile = "gfx/interface/ideas/national_spirits/XDU/ROL_XDU_go_alone.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ROL_XDU_reform_old_reinvent_new"
+		textureFile = "gfx/interface/ideas/national_spirits/XDU/ROL_XDU_reform_old_reinvent_new.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ROL_XIN_white_sun_fading"
+		textureFile = "gfx/interface/ideas/national_spirits/XIN/ROL_XIN_white_sun_fading.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ROL_XIN_melon_and_been_all_cut"
+		textureFile = "gfx/interface/ideas/national_spirits/XIN/ROL_XIN_melon_and_been_all_cut.png"
+	}
 }

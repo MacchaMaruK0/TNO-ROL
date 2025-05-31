@@ -5,7 +5,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
-			picture = /
+			picture = ROL_XDU_go_alone
 			removal_cost = -1
 			modifier = {
 			political_power_cost = 1.0
@@ -17,7 +17,7 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			picture = /
+			picture = ROL_XDU_reform_old_reinvent_new
 			removal_cost = -1
 			modifier = {
 			political_power_factor = 0.05

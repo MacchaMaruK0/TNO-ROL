@@ -274,7 +274,7 @@ fire_nuclear_war = {
 		# Other special checks
 		if = {
 			limit = {
-				OMS = {	exists = yes }
+				OMS = { exists = yes }
 			}
 			set_global_flag = OMS_PostApoc_Event
 		}
@@ -344,13 +344,27 @@ copy_government_of_ROOT = {
 
 get_current_government_type = {
 	set_temp_variable = { current_gov = current_party_ideology_group }
+	if = {
+		limit = { has_elections = yes }
+		set_country_flag = current_gov_had_elections
+	}
 }
 
 restore_previous_government_type = {
 	hidden_effect = {
-		meta_effect = {
-			text = { set_politics = { ruling_party = [PARTY] } }
-			PARTY = "[?current_gov.GetTokenKey]"
+		if = {
+			limit = { has_country_flag = current_gov_had_elections }
+			clr_country_flag = current_gov_had_elections
+			meta_effect = {
+				text = { set_politics = { ruling_party = [PARTY] elections_allowed = yes } }
+				PARTY = "[?current_gov.GetTokenKey]"
+			}
+		}
+		else = {
+			meta_effect = {
+				text = { set_politics = { ruling_party = [PARTY] elections_allowed = no } }
+				PARTY = "[?current_gov.GetTokenKey]"
+			}
 		}
 	}
 }
@@ -715,6 +729,12 @@ TNO_div_limiter_calculate_unit_cap = {
 				check_variable = { num_divisions > TNOLimiterIndustry }
 				check_variable = { num_divisions = TNOLimiterIndustry }
 			}
+			NOT = { #for sacw dynamic army building, this cant increase lag too much can it :trellwater:
+				OR = {
+					BRA = { is_ai = no }
+					ARG = { is_ai = no }
+				}
+			}
 		}
 		set_country_flag = TNO_DIVISIONS_CAPPED
 	}
@@ -783,6 +803,15 @@ TNO_cancel_border_war_effect = {
 	# Add additional logging to identify the states causing the issue
 	else = {
 		log = "[GetDateText]: [Root.GetName]: NO BORDER WAR FOUND BETWEEN [ROOT.attacker_scope.GetName] and [ROOT.defender_scope.GetName]"
+	}
+}
+
+# Simplified even more by Janey
+# Simplified even more more by Feda
+change_ruling_party_pop = {
+	add_popularity = {
+		ideology = ROOT
+		popularity = ruling_party_pop_temp
 	}
 }
 
@@ -1590,5 +1619,112 @@ round_var_down = {
 	if = {
 		limit = { check_variable = { rvar > old_val } }
 		subtract_from_temp_variable = { rvar = 1 }
+	}
+}
+
+dynamic_building_effect = {
+	### Explaining how this works - Marethyu ###
+	## Accepts token values for various buildings (Usable arguements: dockyard, schools, offices, hospitals, barracks, prisons, fuel_silos, synthetic_refinery, and thermoelectric_plant)
+	## Accepts any number above 0
+	## Certain buildings are capped. Ex: You can only have 3 of a certain building, such as schools, offices, hospitals etc., in a state (the count also includes the newly built ones.)
+	## Will automatically adjust the amount of buildings built based on the amount of building slots. 
+	## When scoping, it accepts random states or specific states. If using the effect for a random state, make sure to put the limit trigger "dynamic_building_applicable = yes" to ensure it properly looks for suitable states. If it's a specific state, no need to put the limit trigger, since the effect has the trigger within it as well.
+
+	dynamic_building_cap_effect = yes
+
+	if = {
+		limit = {
+			dynamic_building_applicable = yes
+		}
+		meta_effect = {
+			text = {
+				if = {
+					limit = { #For buildings without a specific cap
+						check_variable = { modifier@local_building_slots < [BUILDING_AMOUNT] }
+						NOT = { check_variable = { modifier@local_building_slots = 0 } }
+					}
+					while_loop_effect = {
+						limit = {
+							NOT = { check_variable = { modifier@local_building_slots = [BUILDING_AMOUNT] } }
+						}
+						subtract_from_temp_variable = { building_amount = 1 }
+					}
+					add_building_construction = {
+						type = [BUILDING_TYPE]
+						level = [BUILDING_AMOUNT]
+						instant_build = yes
+					}
+				}
+				else = {
+					add_building_construction = {
+						type = [BUILDING_TYPE]
+						level = [BUILDING_AMOUNT]
+						instant_build = yes
+					}
+				}
+			}
+			BUILDING_TYPE = "[?building.GetTokenKey]"
+			BUILDING_AMOUNT = "[?building_amount|.0]"
+		}
+		log = "[GetDateText]: [Root.GetName]: Built a total of [?building_amount] [?building.GetTokenKey] in [THIS.GetName]"
+	}
+	else = {
+		custom_effect_tooltip = dynamic_building_effect_tt
+		log = "[GetDateText]: [Root.GetName]: Failed to build [?building_amount] [?building.GetTokenKey] in [THIS.GetName] due to [GetBuildingReason]"
+	}
+}
+
+dynamic_building_cap_effect = {
+	if = {
+		limit = {
+			OR = {
+				check_variable = { building = token:schools } 
+				check_variable = { building = token:offices }
+				check_variable = { building = token:prisons }
+				check_variable = { building = token:barracks }
+				check_variable = { building = token:hospitals }
+			}
+		}
+		meta_effect = {
+			text = {
+				set_temp_variable = { new_building = building_level@[BUILDING_TYPE] }
+				add_to_temp_variable = { new_building = building_amount }
+				while_loop_effect = {
+					limit = { check_variable = { new_buildings > 3 } }
+					subtract_from_temp_variable = { building_amount = 1 }
+					subtract_from_temp_variable = { new_building = 1 }
+				}
+			}
+			BUILDING_TYPE = "[?building.GetTokenKey]"
+		}
+		log = "[GetDateText]: [Root.GetName]: Predicted total amount of [?building.GetTokenKey] in [THIS.GetName] is now [?new_building]"
+	}
+	if = {
+		limit = { 
+			check_variable = { building = token:thermoelectric_plant }
+			has_state_category = pastoral
+		}
+		set_temp_variable = { new_thermoelectric_plant = building_level@thermoelectric_plant }
+		add_to_temp_variable = { new_thermoelectric_plant = building_amount }
+		while_loop_effect = {
+			limit = { check_variable = { new_thermoelectric_plant > 1 } }
+			subtract_from_temp_variable = { building_amount = 1 }
+			subtract_from_temp_variable = { new_thermoelectric_plant = 1 }
+			log = "[GetDateText]: [Root.GetName]: Predicted total amount of thermoelectric_plant in [THIS.GetName]: [?new_thermoelectric_plant]"
+		}
+	}
+	if = {
+		limit = { 
+			check_variable = { building = token:thermoelectric_plant }
+			NOT = { has_state_category = pastoral }
+		}
+		set_temp_variable = { new_thermoelectric_plant = building_level@thermoelectric_plant }
+		add_to_temp_variable = { new_thermoelectric_plant = building_amount }
+		while_loop_effect = {
+			limit = { check_variable = { new_thermoelectric_plant > 2 } }
+			subtract_from_temp_variable = { building_amount = 1 }
+			subtract_from_temp_variable = { new_thermoelectric_plant = 1 }
+			log = "[GetDateText]: [Root.GetName]: Predicted total amount of thermoelectric_plant in [THIS.GetName]: [?new_thermoelectric_plant]"
+		}
 	}
 }

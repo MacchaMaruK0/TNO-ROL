@@ -31,6 +31,7 @@ state = {
 		victory_points = {
 			19926 7
 		}
+		set_demilitarized_zone = yes
 		set_variable = { china_state_ref = 15 }
 		set_variable = { china_region_ref = 2 }
 	}

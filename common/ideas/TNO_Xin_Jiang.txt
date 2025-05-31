@@ -4,7 +4,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
-			picture = /
+			picture = ROL_KMT_heteronomy
 			removal_cost = -1
 			modifier = {
 				custom_modifier_tooltip = ROL_XIN_heteronomy_tt
@@ -15,7 +15,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
-			picture = /
+			picture = ROL_XIN_melon_and_been_all_cut
 			removal_cost = -1
 			modifier = {
 			}
@@ -25,7 +25,7 @@ ideas = {
 			allowed = {
 				always = yes
 			}
-			picture = /
+			picture = ROL_XIN_white_sun_fading
 			removal_cost = -1
 			modifier = {
 			}

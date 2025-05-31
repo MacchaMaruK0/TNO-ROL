@@ -215,6 +215,9 @@ scripted_gui = {
 				has_political_power < 0
 				}
 			}
+			ROL_KMT_cpc_end_icon_visible = {
+				has_country_flag = ROL_KMT_lanzhou_cpc_end
+			}
 		}
 		
 		triggers = {

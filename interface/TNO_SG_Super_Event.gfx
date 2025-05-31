@@ -354,10 +354,37 @@ spriteTypes = {
 		name = "GFX_SE_OPERATION_SEALION_2"
 		textureFile = "gfx/superevent_pictures/Sealion2.png"
 	}
-	###ROL
 	spriteType = {
-		name = "GFX_SE_JAPAN_LEAVE_SOUTH_ASIA"
-		textureFile = "gfx/superevent_pictures/indonesian_civil_war.png"
+		name = "GFX_SE_INDIAN_REUNIFICATION_WAR"
+		textureFile = "gfx/superevent_pictures/indian_reunification_war.png"
+	}
+	spriteType = {
+		name = "GFX_SE_INDIAN_PEACEFUL_REUNIFICATION"
+		textureFile = "gfx/superevent_pictures/Indian-peaceful-reunification.png"
+	}
+	spriteType = {
+		name = "GFX_SE_INDIAN_PEACEFUL_REUNIFICATION_REMIX"
+		textureFile = "gfx/superevent_pictures/Indian-peaceful-reunification.png"
+	}
+	spriteType = {
+		name = "GFX_SE_BRAZIL_GOES_NUCLEAR"
+		textureFile = "gfx/superevent_pictures/TNO_SACW_Brazil_nuke_superevent_pic.dds"
+	}
+	spriteType = {
+		name = "GFX_SE_SOUTH_AMERICA_NUCLEAR_EXCHANGE"
+		textureFile = "gfx/superevent_pictures/SA_nuclear_exchange.dds"
+	}
+	spriteType = {
+		name = "GFX_SE_SOUTH_ATLANTIC_WAR"
+		textureFile = "gfx/superevent_pictures/south_atlantic_war.png"
+	}
+	spriteType = {
+		name = "GFX_SE_ARAB_UNIFICATION"
+		textureFile = "gfx/superevent_pictures/arab_unification.png"
+	}
+	spriteType = {
+		name = "GFX_SE_BRAZILIAN_CIVIL_WAR"
+		textureFile = "gfx/superevent_pictures/brazilian_civil_war.png"
 	}
 	##USE SUPER_EVENT_MAKER_GUI IN USEFUL PYTHON PROGRAMS TO MAKE NEW SUPER EVENTS##
 }
