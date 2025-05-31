@@ -11,6 +11,9 @@ state = {
 		owner = ROC
 		add_core_of = ROC
 		victory_points = {
+			10413 2
+		}
+		victory_points = {
 			19780 1
 		}
 		victory_points = {

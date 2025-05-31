@@ -7,14 +7,17 @@ state = {
 		add_core_of = GUZ
 		buildings = {
 			infrastructure = 4
+			prisons = 1
+			barracks = 1
 			air_base = 3
 		}
 		victory_points = {
 			19473 13
 		}
+		add_extra_state_shared_building_slots = 1
+		set_state_flag = GDP_category_rural
 		set_variable = { china_state_ref = 19 }
 		set_variable = { china_region_ref = 2 }
-		set_state_flag = state_category_large_town
 	}
 
 	provinces = {
@@ -22,6 +25,6 @@ state = {
 	}
 	manpower = 2636549
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

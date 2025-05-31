@@ -111,6 +111,42 @@ scripted_gui = {
 				id = kmt_lanzhou_event.7
 				}
 			}
+			
+			ROL_KMT_additional_representatives_button_click = {
+				country_event = {
+				id = kmt_lanzhou_event.8
+				}
+			}
+			
+			ROL_KMT_deployment_support_button_click = {
+				country_event = {
+				id = kmt_lanzhou_event.9
+				}
+			}
+			
+			ROL_KMT_reorganization_party_button_click = {
+				country_event = {
+				id = kmt_lanzhou_event.10
+				}
+			}
+			
+			ROL_KMT_dismantle_regiment_button_click = {
+				country_event = {
+				id = kmt_lanzhou_event.11
+				}
+			}
+			
+			ROL_KMT_deregulation_botton_click = {
+				country_event = {
+				id = kmt_lanzhou_event.12
+				}
+			}
+			
+			ROL_KMT_village_police_button_click = {
+				country_event = {
+				id = kmt_lanzhou_event.13
+				}
+			}
 		}
 		
 		triggers = {
@@ -144,22 +180,90 @@ scripted_gui = {
 		
 		triggers = {
 			ROL_KMT_lanzhou_1_visible = {
+				OR = {
 				has_country_flag = ROL_KMT_1_use
+				has_political_power < 0
+				}
 			}
 			ROL_KMT_lanzhou_3_visible = {
+				OR = {
 				has_country_flag = ROL_KMT_3_use
+				has_political_power < 0
+				}
 			}
 			ROL_KMT_lanzhou_4_visible = {
+				OR = {
 				has_country_flag = ROL_KMT_4_use
+				has_political_power < 0
+				}
 			}
 			ROL_KMT_lanzhou_5_visible = {
+				OR = {
 				has_country_flag = ROL_KMT_5_use
+				has_political_power < 0
+				}
 			}
 			ROL_KMT_lanzhou_6_visible = {
+				OR = {
 				has_country_flag = ROL_KMT_6_use
+				has_political_power < 0
+				}
 			}
 			ROL_KMT_lanzhou_7_visible = {
+				OR = {
 				has_country_flag = ROL_KMT_7_use
+				has_political_power < 0
+				}
+			}
+		}
+		
+		triggers = {
+			ROL_KMT_lanzhou_speech_button_visible = {
+				NOT = { has_country_flag = ROL_KMT_first_end }
+			}
+			
+			ROL_KMT_lanzhou_osmotic_movements_botton_visible = {
+				NOT = { has_country_flag = ROL_KMT_first_end }
+			}
+			
+			ROL_KMT_lanzhou_liaise_dignitaries_button_visible = {
+				NOT = { has_country_flag = ROL_KMT_first_end }
+			}
+			
+			ROL_KMT_lanzhou_propaganda_teams_button_visible = {
+				NOT = { has_country_flag = ROL_KMT_first_end }
+			}
+			
+			ROL_KMT_lanzhou_youth_server_button_visible = {
+				NOT = { has_country_flag = ROL_KMT_first_end }
+			}
+			
+			ROL_KMT_lanzhou_banned_cpc_button_visible = {
+				NOT = { has_country_flag = ROL_KMT_first_end }
+			}
+			
+			ROL_KMT_additional_representatives_button_visible = {
+				has_country_flag = ROL_KMT_second_start
+			}
+			
+			ROL_KMT_deployment_support_button_visible = {
+				has_country_flag = ROL_KMT_second_start
+			}
+			
+			ROL_KMT_reorganization_party_button_visible = {
+				has_country_flag = ROL_KMT_second_start
+			}
+			
+			ROL_KMT_dismantle_regiment_button_visible = {
+				has_country_flag = ROL_KMT_second_start
+			}
+			
+			ROL_KMT_deregulation_botton_visible = {
+				has_country_flag = ROL_KMT_second_start
+			}
+			
+			ROL_KMT_village_police_button_visible = {
+				has_country_flag = ROL_KMT_second_start
 			}
 		}
 		

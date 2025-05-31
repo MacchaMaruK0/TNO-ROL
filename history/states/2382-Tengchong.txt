@@ -13,6 +13,7 @@ state = {
 		}
 		buildings = {
 			infrastructure = 2
+			barracks = 1
 		}
 		set_variable = { china_state_ref = 20 }
 		set_variable = { china_region_ref = 2 }

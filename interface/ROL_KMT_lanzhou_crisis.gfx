@@ -85,6 +85,41 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_action_lock_icon.png"
 	}
 	
+	spriteType = { #增补职团代表
+		name = GFX_ROL_KMT_additional_representatives_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_additional_representatives_icon.png"
+	}
+	
+	spriteType = { #调拨财政支援
+		name = GFX_ROL_KMT_deployment_support_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_deployment_support_icon.png"
+	}
+	
+	spriteType = { #重组职团党部
+		name = GFX_ROL_KMT_reorganization_party_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_reorganization_party_icon.png"
+	}
+	
+	spriteType = { #成立乡村警队
+		name = GFX_ROL_KMT_village_police_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_village_police_icon.png"
+	}
+	
+	spriteType = { #瓦解亲共职团
+		name = GFX_ROL_KMT_dismantle_regiment_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_dismantle_regiment_icon.png"
+	}
+	
+	spriteType = { #放松职团管制
+		name = GFX_ROL_KMT_deregulation_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_deregulation_icon.png"
+	}
+	
+	spriteType = { #保卫后方 联合抗战
+		name = GFX_ROL_KMT_cpc_end_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_cpc_end_icon.png"
+	}
+	
 	
 	
 	frameAnimatedSpriteType = {

@@ -20,12 +20,8 @@ state = {
 		victory_points = {
 			10004 2
 		}
-		set_variable = {
-			china_state_ref = 19
-		}
-		set_variable = {
-			china_region_ref = 4
-		}
+		set_variable = { china_state_ref = 19 }
+		set_variable = { china_region_ref = 4 }
 	}
 
 	provinces = {
@@ -33,6 +29,6 @@ state = {
 	}
 	manpower = 2397999
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

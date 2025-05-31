@@ -4,7 +4,6 @@ state = {
 	resources = {
 		steel = 4.000
 		aluminium = 3.000
-		power = 4.000
 	}
 
 	history = {
@@ -28,11 +27,11 @@ state = {
 		set_variable = { china_region_ref = 7 }
 	}
 
-	provinces={
+	provinces = {
 		1959 4960 8976 10854 12706 14948 16664 16696 19415 19541 19563 19595 
 	}
 	manpower = 451335
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

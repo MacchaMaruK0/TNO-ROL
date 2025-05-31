@@ -17,10 +17,11 @@ state = {
 		buildings = {
 			infrastructure = 3
 			prisons = 1
+			barracks = 1
 		}
 		set_variable = { china_state_ref = 20 }
 		set_variable = { china_region_ref = 2 }
-		set_state_flag = state_category_large_town
+		#set_state_flag = GDP_category_town
 	}
 
 	provinces = {
@@ -28,6 +29,6 @@ state = {
 	}
 	manpower = 3326638
 	buildings_max_level_factor = 1.000
-	state_category = town
+	state_category = pastoral
 	local_supplies = 0.000
 }

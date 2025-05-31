@@ -13,14 +13,19 @@ state = {
 			17053 14
 		}
 		victory_points = {
-			4167 2
+			4167 3
+		}
+		victory_points = {
+			16993 3
 		}
 		buildings = {
 			infrastructure = 3
 		}
+		add_extra_state_shared_building_slots = 1
 		set_state_flag = GDP_regions_south_shaanxi
 		set_variable = { china_state_ref = 39 }
 		set_variable = { china_region_ref = 5 }
+		set_state_flag = GDP_category_rural
 	}
 
 	provinces = {
@@ -28,6 +33,6 @@ state = {
 	}
 	manpower = 2611936
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

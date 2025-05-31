@@ -6,7 +6,10 @@ state = {
 		owner = CPC
 		add_core_of = CPC
 		victory_points = {
-			1933 7
+			1933 4
+		}
+		victory_points = {
+			19513 7
 		}
 		buildings = {
 			infrastructure = 2
@@ -22,6 +25,6 @@ state = {
 	}
 	manpower = 2666408
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

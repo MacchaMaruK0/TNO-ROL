@@ -8,9 +8,12 @@ state = {
 		buildings = {
 			infrastructure = 3
 		}
+		add_extra_state_shared_building_slots = 2
+		set_demilitarized_zone = yes
 		set_state_flag = GDP_regions_chuanxi
 		set_variable = { china_state_ref = 17 }
 		set_variable = { china_region_ref = 2 }
+		set_state_flag = GDP_category_town
 		victory_points = {
 			19819 17
 		}
@@ -30,6 +33,6 @@ state = {
 	}
 	manpower = 5006907
 	buildings_max_level_factor = 2.000
-	state_category = rural
+	state_category = pastoral
 	local_supplies = 0.000
 }

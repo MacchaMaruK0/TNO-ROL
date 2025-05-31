@@ -24,10 +24,11 @@ guiTypes = {
     containerWindowType = {
         name = "ROL_KMT_lanzhou_crisis_GUI"
         size = { height = 925 width = 1225 } 
-        position = { x = 238 y = 220 }
+        position = { x = 68 y = 107 }
         show_sound = open_sub_window
         moveable = yes
         clipping = no
+		centerposition = yes
         background = {
             name = "Background"
             spriteType = "GFX_tiled_window_1b_no_border"
@@ -252,10 +253,24 @@ guiTypes = {
 			}
 			
 			buttonType = {
+            name = "ROL_KMT_reorganization_party_button"
+            position = { x = 15 y = 75 }
+            spriteType = "GFX_ROL_KMT_reorganization_party_icon"
+            pdx_tooltip = ROL_KMT_reorganization_party_tt
+			}
+			
+			buttonType = {
             name = "ROL_KMT_lanzhou_youth_server_button"
             position = { x = 15 y = 190 }
             spriteType = "GFX_ROL_KMT_lanzhou_youth_server_icon"
             pdx_tooltip = ROL_KMT_lanzhou_youth_server_tt
+			}
+			
+			buttonType = {
+            name = "ROL_KMT_village_police_button"
+            position = { x = 15 y = 190 }
+            spriteType = "GFX_ROL_KMT_village_police_icon"
+            pdx_tooltip = ROL_KMT_village_police_tt
 			}
 			
 			buttonType = {
@@ -266,10 +281,24 @@ guiTypes = {
 			}
 			
 			buttonType = {
+            name = "ROL_KMT_dismantle_regiment_button"
+            position = { x = 150 y = 190 }
+            spriteType = "GFX_ROL_KMT_dismantle_regiment_icon"
+            pdx_tooltip = ROL_KMT_dismantle_regiment_tt
+			}
+			
+			buttonType = {
             name = "ROL_KMT_lanzhou_liaise_dignitaries_button"
             position = { x = 150 y = 75 }
             spriteType = "GFX_ROL_KMT_lanzhou_liaise_dignitaries_icon"
             pdx_tooltip = ROL_KMT_lanzhou_liaise_dignitaries_tt
+			}
+			
+			buttonType = {
+            name = "ROL_KMT_additional_representatives_button"
+            position = { x = 150 y = 75 }
+            spriteType = "GFX_ROL_KMT_additional_representatives_icon"
+            pdx_tooltip = ROL_KMT_additional_representatives_tt
 			}
 			
 			buttonType = {
@@ -280,10 +309,24 @@ guiTypes = {
 			}
 			
 			buttonType = {
+            name = "ROL_KMT_deregulation_botton"
+            position = { x = 290 y = 190 }
+            spriteType = "GFX_ROL_KMT_deregulation_icon"
+            pdx_tooltip = ROL_KMT_deregulation_tt
+			}
+			
+			buttonType = {
             name = "ROL_KMT_lanzhou_propaganda_teams_button"
             position = { x = 290 y = 75 }
             spriteType = "GFX_ROL_KMT_lanzhou_propaganda_teams_icon"
             pdx_tooltip = ROL_KMT_lanzhou_propaganda_teams_tt
+			}
+			
+			buttonType = {
+            name = "ROL_KMT_deployment_support_button"
+            position = { x = 290 y = 75 }
+            spriteType = "GFX_ROL_KMT_deployment_support_icon"
+            pdx_tooltip = ROL_KMT_deployment_support_tt
 			}
 			
 			iconType = {
@@ -329,6 +372,12 @@ guiTypes = {
                 position = { x = 150 y = 190 }
                 spriteType = "GFX_ROL_KMT_action_lock_icon"
             }
+        }
+		
+		iconType = {
+            name = "ROL_KMT_cpc_end_icon"
+            position = { x = 5 y = 5 }
+            spriteType = "GFX_ROL_KMT_cpc_end_icon"
         }
     }
 }

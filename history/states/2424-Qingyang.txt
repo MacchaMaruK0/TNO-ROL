@@ -10,10 +10,13 @@ state = {
 		owner = CPC
 		add_core_of = CPC
 		victory_points = {
-			19490 2
+			517 2
 		}
 		victory_points = {
-			517 2
+			3745 3
+		}
+		victory_points = {
+			19490 3
 		}
 		buildings = {
 			infrastructure = 2

@@ -25,7 +25,7 @@ state = {
 		}
 		set_variable = { china_state_ref = 41 }
 		set_variable = { china_region_ref = 5 }
-		set_state_flag = GDP_regions_CPCsu
+		set_state_flag = GDP_regions_gansu
 	}
 
 	provinces = {

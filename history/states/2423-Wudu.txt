@@ -6,10 +6,14 @@ state = {
 		owner = CPC
 		add_core_of = CPC
 		victory_points = {
-			19724 2
+			7397 4
+		}
+		victory_points = {
+			19724 3
 		}
 		buildings = {
 			infrastructure = 2
+			barracks = 1
 		}
 		set_variable = { china_state_ref = 40 }
 		set_variable = { china_region_ref = 5 }
