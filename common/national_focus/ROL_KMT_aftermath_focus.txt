@@ -1,0 +1,362 @@
+focus_tree = {
+	id = ROL_KMT_aftermath #兰州危机善后国策
+	country = {
+		factor = 0
+		modifier = {
+			add = 40
+			tag = KMT
+		}
+	}
+	focus = {
+		id = ROL_KMT_everything_settled   #尘埃落定
+		icon = ROL_KMT_everything_settled
+		x = 11
+		y = 0
+		cost = 1 #这是国策需要多少天 1=7天
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		immediate = {
+
+		}
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_organize_a_group  #筹组善后团体
+		icon = ROL_KMT_organize_a_group
+		x = 5
+		y = 1
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_everything_settled }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_relief_office  #设立灾胞救济处
+		icon = ROL_KMT_relief_office
+		x = 2
+		y = 2
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_organize_a_group }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_work_relief  #以工代赈
+		icon = ROL_KMT_work_relief 
+		x = 2
+		y = 3
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_relief_office }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_request_association  #提请回协设立西北分会
+		icon = ROL_KMT_request_association 
+		x = 3
+		y = 4
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_establish_office }
+		prerequisite = { focus = ROL_KMT_work_relief }
+		mutually_exclusive = { focus = ROL_KMT_establish_association }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_rectify_party_in_qinghai  #整顿青海党政
+		icon = ROL_KMT_rectify_party_in_qinghai 
+		x = 8
+		y = 2
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_organize_a_group }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_establish_office  #设立屯垦督办公署
+		icon = ROL_KMT_establish_office
+		x = 8
+		y = 3
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_rectify_party_in_qinghai }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_establish_association  #成立西北回民救国协会
+		icon = ROL_KMT_establish_association 
+		x = 7
+		y = 4
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_establish_office }
+		prerequisite = { focus = ROL_KMT_work_relief }
+		mutually_exclusive = { focus = ROL_KMT_request_association }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_establish_leader_status  #确立领袖地位
+		icon = ROL_KMT_establish_leader_status 
+		x = 16
+		y = 1
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_everything_settled }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_new_member  #新任常委
+		icon = ROL_KMT_new_member
+		x = 13
+		y = 2
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_establish_leader_status }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_financial_planning  #财政初步规划
+		icon = ROL_KMT_financial_planning 
+		x = 13
+		y = 3
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_new_member }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_restore_democracy  #恢复党内民主
+		icon = ROL_KMT_restore_democracy 
+		x = 14
+		y = 4
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_financial_planning }
+		prerequisite = { focus = ROL_KMT_promote_young_cadres }
+		mutually_exclusive = { focus = ROL_KMT_reiterate_principle }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_liquidation_duty  #清算渎职
+		icon = ROL_KMT_liquidation_duty 
+		x = 19
+		y = 2
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_establish_leader_status }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_promote_young_cadres  #提拔青年干部
+		icon = ROL_KMT_promote_young_cadres
+		x = 19
+		y = 3
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_liquidation_duty }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_reiterate_principle  #重申领袖原则
+		icon = ROL_KMT_reiterate_principle 
+		x = 18
+		y = 4
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { focus = ROL_KMT_financial_planning }
+		prerequisite = { focus = ROL_KMT_promote_young_cadres }
+		mutually_exclusive = { focus = ROL_KMT_restore_democracy }
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+	
+	focus = {
+		id = ROL_KMT_revolution_revitalize  #革命复兴
+		icon = ROL_KMT_revolution_revitalize 
+		x = 11
+		y = 5
+		cost = 1 #这是国策花费的政治点
+        prerequisite = { 
+		focus = ROL_KMT_reiterate_principle
+		focus = ROL_KMT_restore_democracy
+		}
+		prerequisite = { 
+		focus = ROL_KMT_establish_association
+		focus = ROL_KMT_request_association
+		}
+		ai_will_do = { 
+			factor = 10
+		}
+		available = { 
+		}
+		bypass = { 
+		}
+		cancel_if_invalid = yes 
+		continue_if_invalid = no 
+		available_if_capitulated = no 
+		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		}
+	}
+}	

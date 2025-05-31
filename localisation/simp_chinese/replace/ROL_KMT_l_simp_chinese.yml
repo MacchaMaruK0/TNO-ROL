@@ -648,6 +648,27 @@
  ROL_KMT_lanzhou_clock_yellow_tt: "£GFX_KMT_lanzhou_crisis §R兰州危机§!阶段2：§Y市民冲突§!阶段\n\n介于兰州城内的危机局势，兰州戒严司令部已展开行动，应对£GFX_KMT_cpc_icon §R共产党人§!的密谋与威胁：\n\n\n\n\n\n\n£GFX_ROL_KMT_lanzhou_commonder \n\n\n\n\n\n\n§Y戒严总司令§!黄维提供的§G修正§!为：\n敌人的每个周期造成的§q毁坏度§!略微§w下降§!；\n我方每个周期的§y物资获取量§!略微§w增加§!；\n--------------\n§Y市民团体之间的冲突§!已宣告£GFX_KMT_lanzhou_crisis §R兰州危机§!进入第二阶段。£GFX_KMT_cpc_icon §R敌人§!§g不再满足于§!使用§G宣传§!作为主要手段，而是将§V摩擦烈度§!推向§R新的高峰§!，§u街头巷尾愤怒的市民团体§!，§o时刻巡逻的军警§!，§Z正在被撕裂的社会§!，现在的兰州城就像是一个§e巨大的火药桶§!，§A坐在其上§!，§q人人自危§!。\n\n在现阶段，£GFX_KMT_kmt_icon §B我们§!与£GFX_KMT_cpc_icon §R敌人§!的行动已升级为§g团体冲突§!，可以解锁更加§V激进§!的手段，暴力在所难免，不要§j优柔寡断§!，也尽可能不要§q火上浇油§!。\n--------------\n距离£GFX_KMT_lanzhou_crisis §R兰州危机§!：§Y市民冲突§!阶段结束还有[?ROL_KMT_lanzhou_weely_2]天。"
  
  ROL_KMT_lanzhou_clock_red_tt: "£GFX_KMT_lanzhou_crisis §R兰州危机§!阶段3：§e武装暴动§!阶段\n\n介于兰州城内的危机局势，兰州戒严司令部已展开行动，应对£GFX_KMT_cpc_icon §R共产党人§!的密谋与威胁：\n\n\n\n\n\n\n£GFX_ROL_KMT_lanzhou_commonder \n\n\n\n\n\n\n§Y戒严总司令§!黄维提供的§G修正§!为：\n敌人的每个周期造成的§q毁坏度§!略微§w下降§!；\n我方每个周期的§y物资获取量§!略微§w增加§!；\n--------------\n两个月间酝酿的§Y冲突§!终于§e全面爆发§!，由£GFX_KMT_cpc_icon §R兰工委§!领导的§q武装暴动§!已在兰州城内§u肆虐§!，他们的最终目标是§o夺取兰州§!，在每一条街巷之间，我们的军警将与他们进行战斗，此事关乎§A行辕之存亡§!，§Z切万分谨慎对待§!。\n\n在现阶段，£GFX_KMT_kmt_icon §B我们§!与£GFX_KMT_cpc_icon §R敌人§!的行动已升级为§e全面对抗§!，已解锁最终手段，§q不惜一切代价保卫兰州§!，§V敌人的攻势不会持续太久§!。\n--------------\n距离£GFX_KMT_lanzhou_crisis §R兰州危机§!：§e武装暴动§!阶段结束还有[?ROL_KMT_lanzhou_weely_2]天，只要挺过最后的风暴，我们的敌人将§q无力继续行动§!。"
+ 
+ 
+ #####兰州危机善后
+ KMT_ROL_load_lanzhou_aftermath: "加载£GFX_KMT_lanzhou_crisis §R兰州危机§!善后国策树"
+ ROL_KMT_everything_settled: "尘埃落定"
+ ROL_KMT_organize_a_group: "筹组善后团体"
+ ROL_KMT_relief_office: "设立灾胞救济处"
+ ROL_KMT_work_relief: "以工代赈"
+ ROL_KMT_request_association: "提请回协设立西北分会"
+ ROL_KMT_rectify_party_in_qinghai: "整顿青海党政"
+ ROL_KMT_establish_office: "设立屯垦督办公署"
+ ROL_KMT_establish_association: "成立西北回民救国协会"
+ ROL_KMT_establish_leader_status: "确立领袖地位"
+ ROL_KMT_new_member: "新任常委"
+ ROL_KMT_financial_planning: "财政初步规划"
+ ROL_KMT_restore_democracy: "恢复党内民主"
+ ROL_KMT_liquidation_duty: "清算渎职"
+ ROL_KMT_promote_young_cadres: "提拔青年干部"
+ ROL_KMT_reiterate_principle: "重申领袖原则"
+ ROL_KMT_revolution_revitalize: "革命复兴"
+ ROL_KMT_aftermath: "£GFX_KMT_lanzhou_crisis §R兰州危机§!善后国策树"
   
  ###党务GUI
  ROL_KMT_party_member_tt: "这一常委席位被[ROL_KMT_party_faction_1]§R所占据§!"
