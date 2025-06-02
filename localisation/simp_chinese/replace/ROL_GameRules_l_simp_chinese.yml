@@ -1,11 +1,9 @@
 ﻿l_simp_chinese:
- KMT_PATH: "西北行辕之命运"
- RULE_OPTION_KMT_ZHANG_PATH_RANDOM: "三派共举领袖张治中"
- RULE_OPTION_KMT_LUO_PATH_RANDOM: "革军会领袖罗列"
- RULE_OPTION_KMT_MA_PATH_RANDOM: "地方军阀马继援"
- RULE_OPTION_KUOMINTANG_PATH_RANDOM: "默认 - AI随机"
- RULE_OPTION_KMT_ZHANG_PATH_RANDOM_DESC: "在1962行辕主任之选举中，三青团、青年军、土木系共举领袖张治中胜出。"
- RULE_OPTION_KMT_LUO_PATH_RANDOM_DESC: "在1962行辕主任之选举中，革军会领袖罗列胜出"
- RULE_OPTION_KMT_MA_PATH_RANDOM_DESC: "在1962行辕主任之选举中，久久悬而未决导致中央铁腕介入，并任命马继援为行辕主任"
- 
+ YUN_TYPE_PATH: "£ROL_game_rule_flag_KMT 西北行辕之命运"
+ RULE_OPTION_YUN_TYPE_PATH_RANDOM: "默认 - AI随机"
+ RULE_OPTION_YUN_TYPE_PATH_RANDOM_DESC: "随着§g胡宗南将军§!的§R去世§!，§B西北行辕§!自建立以来首次陷入前所未有的§e混乱§!之中，新的主任人选将从§B张治中§!与§j罗列§!中选举而出，怀揣着对未来未知的恐惧，所有人站在十字路口之前。"
+ RULE_OPTION_YUN_TYPE_PATH_YES_CONFERENCE: "§B三派共举领袖张治中§!"
+ RULE_OPTION_YUN_TYPE_PATH_YES_CONFERENCE_DESC: "§B和平将军张治中§!在主任遴选中获得§G胜利§!，他将带着§B西北行辕§!走向稳定的未来。暂停攘外安内，缓和与§R共产主义§!及§R陕甘宁边区§!间的对立。"
+ RULE_OPTION_YUN_TYPE_PATH_NOT_CONFERENCE: "§j革军会领袖罗列§!"
+ RULE_OPTION_YUN_TYPE_PATH_NOT_CONFERENCE_DESC: "被认为是过渡主任的§j参谋长罗列§!§G真除§!主任，他将带着§B西北行辕§!走向§g蒋介石§!生前所致力的未来。并加紧实行§j恐怖统治§!，攘外安内。"
 

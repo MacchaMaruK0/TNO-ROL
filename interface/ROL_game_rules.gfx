@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ROL_game_rule_flag_KMT"
+		texturefile = "gfx/flags/small/KMT.tga"
+		legacy_lazy_load = no
+	}
+}
