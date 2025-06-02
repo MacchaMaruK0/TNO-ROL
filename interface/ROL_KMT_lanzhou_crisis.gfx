@@ -120,6 +120,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_cpc_end_icon.png"
 	}
 	
+	spriteType = { #第一区按钮
+		name = GFX_ROL_KMT_first_area_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_first_area_icon.png"
+	}
+	
+	spriteType = { #第二区按钮
+		name = GFX_ROL_KMT_second_area_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_second_area_icon.png"
+	}
+	
+	spriteType = { #第三区按钮
+		name = GFX_ROL_KMT_third_area_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_third_area_icon.png"
+	}
+	
+	spriteType = { #第四区按钮
+		name = GFX_ROL_KMT_forth_area_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_forth_area_icon.png"
+	}
+	
 	
 	
 	frameAnimatedSpriteType = {

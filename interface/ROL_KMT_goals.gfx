@@ -541,4 +541,9 @@ spriteTypes = {
 		name = "ROL_KMT_financial_planning"
 		textureFile = "gfx/interface/goals/ROL_KMT_aftermath/ROL_KMT_financial_planning.png"
 	}
+	
+	SpriteType = {
+		name = "ROL_KMT_revolution_revitalize"
+		textureFile = "gfx/interface/goals/ROL_KMT_aftermath/ROL_KMT_revolution_revitalize.png"
+	}
 }
