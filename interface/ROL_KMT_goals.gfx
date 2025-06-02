@@ -466,4 +466,79 @@ spriteTypes = {
 		textureFile = "gfx/interface/goals/ROL_KMT_lanzhou_focus/ROL_KMT_armageddon.png"
 	}
 	
+	###
+	SpriteType = {
+		name = "ROL_KMT_relief_office"
+		textureFile = "gfx/interface/goals/ROL_KMT_aftermath/ROL_KMT_relief_office.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_establish_office"
+		textureFile = "gfx/interface/goals/ROL_KMT_aftermath/ROL_KMT_establish_office.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_promote_young_cadres"
+		textureFile = "gfx/interface/goals/ROL_KMT_aftermath/ROL_KMT_promote_young_cadres.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_reiterate_principle"
+		textureFile = "gfx/interface/goals/ROL_KMT_aftermath/ROL_KMT_reiterate_principle.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_restore_democracy"
+		textureFile = "gfx/interface/goals/ROL_KMT_aftermath/ROL_KMT_restore_democracy.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_work_relief"
+		textureFile = "gfx/interface/goals/ROL_KMT_aftermath/ROL_KMT_work_relief.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_rectify_party_in_qinghai"
+		textureFile = "gfx/interface/goals/ROL_KMT_aftermath/ROL_KMT_rectify_party_in_qinghai.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_new_member"
+		textureFile = "gfx/interface/goals/ROL_KMT_aftermath/ROL_KMT_new_member.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_liquidation_duty"
+		textureFile = "gfx/interface/goals/ROL_KMT_aftermath/ROL_KMT_liquidation_duty.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_establish_association"
+		textureFile = "gfx/interface/goals/ROL_KMT_aftermath/ROL_KMT_establish_association.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_request_association"
+		textureFile = "gfx/interface/goals/ROL_KMT_aftermath/ROL_KMT_request_association.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_everything_settled"
+		textureFile = "gfx/interface/goals/ROL_KMT_aftermath/ROL_KMT_everything_settled.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_organize_a_group"
+		textureFile = "gfx/interface/goals/ROL_KMT_aftermath/ROL_KMT_organize_a_group.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_establish_leader_status"
+		textureFile = "gfx/interface/goals/ROL_KMT_aftermath/ROL_KMT_establish_leader_status.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_financial_planning"
+		textureFile = "gfx/interface/goals/ROL_KMT_aftermath/ROL_KMT_financial_planning.png"
+	}
 }

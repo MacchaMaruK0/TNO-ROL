@@ -695,3 +695,19 @@ country_event = { #测试98
 	option = {
 	}
 }
+
+
+country_event = { #测试444
+	id = kmt_lanzhou_event.444
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.444"
+		set_country_flag = ROL_KMT_lanzhou_cpc_end
+	}
+	title = kmt_lanzhou_event.444.t
+	desc = kmt_lanzhou_event.444.desc
+	picture = \
+
+	is_triggered_only = yes
+	option = {
+	}
+}

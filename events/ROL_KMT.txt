@@ -204,17 +204,49 @@ country_event = {
 		transfer_state = 906
 		transfer_state = 604
 		add_ideas = ROC_autonomous_regions
-		promote_character = {
-		    character = ROL_QIN_Ma_Jiyuan
-		    ideology = despotism_military_junta_subtype
-		}
+			promote_character = {
+				character = ROL_QIN_Ma_Jiyuan
+				ideology = despotism_military_junta_subtype
+			}
 		}
 		delete_unit_template_and_units = { division_template = "青海步兵军" }
 		delete_unit_template_and_units = { division_template = "青海骑兵军" }
 		custom_effect_tooltip = kmt_6_a_tt
-		hidden_effect = {
-		set_global_flag = tno_speed_warning
-		set_country_flag = ROL_KMT_lanzhou_crisis_start
+		if = {
+			limit = {has_country_flag = ROL_KMT_choose_Zhang}
+			load_focus_tree = ROL_KMT_lanzhou_crisis_1_focus
+			hidden_effect = {
+				country_event = {
+					id = kmt_lanzhou_event.2
+					days = 7
+				}
+				country_event = {
+					id = kmt_lanzhou_event.101
+					days = 7
+				}
+				country_event = {
+					id = kmt_lanzhou_event.99
+					days = 30
+				}
+			}
+		}
+		else_if = {
+			limit = {has_country_flag = ROL_KMT_choose_Luo}
+			load_focus_tree = ROL_KMT_lanzhou_crisis_2_focus
+			hidden_effect = {
+				country_event = {
+					id = kmt_lanzhou_event.2
+					days = 7
+				}
+				country_event = {
+					id = kmt_lanzhou_event.101
+					days = 7
+				}
+				country_event = {
+					id = kmt_lanzhou_event.99
+					days = 30
+				}
+			}
 		}
 	}
 }
