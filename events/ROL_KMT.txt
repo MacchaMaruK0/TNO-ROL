@@ -228,6 +228,7 @@ country_event = {
 					id = kmt_lanzhou_event.99
 					days = 30
 				}
+			set_country_flag = ROL_KMT_lanzhou_first_area	
 			}
 		}
 		else_if = {

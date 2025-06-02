@@ -113,3 +113,177 @@ ROL_KMT_lanzhou_ruin = {
 		max = 100
 	}
 }
+
+ROL_KMT_lanzhou_ruin_2 = {
+    #增加兰州危机毁坏度（第二区）
+    add_to_variable = {
+        var = ROL_KMT_lanzhou_ruin_2_num #控制变量
+        value = ROL_KMT_lanzhou_ruin_2_num_temp #改变控制变量
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_lanzhou_ruin_2_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_lanzhou_ruin_2_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_lanzhou_ruin_2_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_lanzhou_ruin_2_num
+		min = 1
+		max = 100
+	}
+}
+
+ROL_KMT_lanzhou_ruin_3 = {
+    #增加兰州危机毁坏度（第三区）
+    add_to_variable = {
+        var = ROL_KMT_lanzhou_ruin_3_num #控制变量
+        value = ROL_KMT_lanzhou_ruin_3_num_temp #改变控制变量
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_lanzhou_ruin_3_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_lanzhou_ruin_3_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_lanzhou_ruin_3_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_lanzhou_ruin_3_num
+		min = 1
+		max = 100
+	}
+}
+
+ROL_KMT_lanzhou_ruin_4 = {
+    #增加兰州危机毁坏度（第四区）
+    add_to_variable = {
+        var = ROL_KMT_lanzhou_ruin_4_num #控制变量
+        value = ROL_KMT_lanzhou_ruin_4_num_temp #改变控制变量
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_lanzhou_ruin_4_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_lanzhou_ruin_4_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_lanzhou_ruin_4_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_lanzhou_ruin_4_num
+		min = 1
+		max = 100
+	}
+}
+
+ROL_KMT_lanzhou_control_2 = {
+    #增加兰州危机控制力度（第二区）
+    add_to_variable = {
+        var = ROL_KMT_lanzhou_control_2_num #控制变量
+        value = ROL_KMT_lanzhou_control_2_num_temp #改变控制变量
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_lanzhou_control_2_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_lanzhou_control_2_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_lanzhou_control_2_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_lanzhou_control_2_num
+		min = 1
+		max = 100
+	}
+}
+
+ROL_KMT_lanzhou_control_3 = {
+    #增加兰州危机控制力度（第三区）
+    add_to_variable = {
+        var = ROL_KMT_lanzhou_control_3_num #控制变量
+        value = ROL_KMT_lanzhou_control_3_num_temp #改变控制变量
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_lanzhou_control_3_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_lanzhou_control_3_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_lanzhou_control_3_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_lanzhou_control_3_num
+		min = 1
+		max = 100
+	}
+}
+
+ROL_KMT_lanzhou_control_4 = {
+    #增加兰州危机控制力度（第四区）
+    add_to_variable = {
+        var = ROL_KMT_lanzhou_control_4_num #控制变量
+        value = ROL_KMT_lanzhou_control_4_num_temp #改变控制变量
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_lanzhou_control_4_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_lanzhou_control_4_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_lanzhou_control_4_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_lanzhou_control_4_num
+		min = 1
+		max = 100
+	}
+}

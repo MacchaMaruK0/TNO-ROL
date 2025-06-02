@@ -63,9 +63,33 @@ on_actions = { #
 				}
 				
 				set_variable = {
+					ROL_KMT_lanzhou_control_2_num = 33
+				}
+				
+				set_variable = {
+					ROL_KMT_lanzhou_control_3_num = 75
+				}
+				
+				set_variable = {
+					ROL_KMT_lanzhou_control_4_num = 15
+				}
+				######
+				set_variable = {
 					ROL_KMT_lanzhou_ruin_num = 50
 				}
 				
+				set_variable = {
+					ROL_KMT_lanzhou_ruin_2_num = 33
+				}
+				
+				set_variable = {
+					ROL_KMT_lanzhou_ruin_3_num = 75
+				}
+				
+				set_variable = {
+					ROL_KMT_lanzhou_ruin_4_num = 15
+				}
+				######
 				set_variable = {
 					ROL_KMT_lanzhou_weely = 7
 				}

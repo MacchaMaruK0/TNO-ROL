@@ -26,3 +26,118 @@ defined_text = {
 		localization_key = ROL_KMT_lanzhou_control_tt_3
 	}
 }
+
+defined_text = {
+	name = Get_ROL_KMT_lanzhou_area_tt
+	text = {
+		trigger = {
+			has_country_flag = ROL_KMT_lanzhou_first_area
+		}
+		localization_key = ROL_KMT_lanzhou_first_area_tt_1
+	}
+	text = {
+		trigger = {
+			has_country_flag = ROL_KMT_lanzhou_second_area
+		}
+		localization_key = ROL_KMT_lanzhou_second_area_tt_2
+	}
+	text = {
+		trigger = {
+			has_country_flag = ROL_KMT_lanzhou_third_area
+		}
+		localization_key = ROL_KMT_lanzhou_third_area_tt_3
+	}
+	text = {
+		trigger = {
+			has_country_flag = ROL_KMT_lanzhou_forth_area
+		}
+		localization_key = ROL_KMT_lanzhou_forth_area_tt_4
+	}
+}
+
+defined_text = {
+	name = Get_ROL_KMT_control_2_tt
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_control_2_num < 33.3 }
+		}
+		localization_key = ROL_KMT_lanzhou_control_2_tt_1
+	}
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_lanzhou_control_2_num > 33.3
+			}
+		    check_variable = {				
+			            ROL_KMT_lanzhou_control_2_num < 66.6
+			}
+		}
+		localization_key = ROL_KMT_lanzhou_control_2_tt_2
+	}
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_lanzhou_control_2_num > 66.6
+			}
+		}
+		localization_key = ROL_KMT_lanzhou_control_2_tt_3
+	}
+}
+
+defined_text = {
+	name = Get_ROL_KMT_control_3_tt
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_control_3_num < 33.3 }
+		}
+		localization_key = ROL_KMT_lanzhou_control_3_tt_1
+	}
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_lanzhou_control_3_num > 33.3
+			}
+		    check_variable = {				
+			            ROL_KMT_lanzhou_control_3_num < 66.6
+			}
+		}
+		localization_key = ROL_KMT_lanzhou_control_3_tt_2
+	}
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_lanzhou_control_3_num > 66.6
+			}
+		}
+		localization_key = ROL_KMT_lanzhou_control_3_tt_3
+	}
+}
+
+defined_text = {
+	name = Get_ROL_KMT_control_4_tt
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_control_4_num < 33.3 }
+		}
+		localization_key = ROL_KMT_lanzhou_control_4_tt_1
+	}
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_lanzhou_control_4_num > 33.3
+			}
+		    check_variable = {				
+			            ROL_KMT_lanzhou_control_4_num < 66.6
+			}
+		}
+		localization_key = ROL_KMT_lanzhou_control_4_tt_2
+	}
+	text = {
+		trigger = {
+			check_variable = {				
+			            ROL_KMT_lanzhou_control_4_num > 66.6
+			}
+		}
+		localization_key = ROL_KMT_lanzhou_control_4_tt_3
+	}
+}
