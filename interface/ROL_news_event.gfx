@@ -10,4 +10,9 @@ spritetypes = {
 		texturefile = "gfx/event_pictures/KMT/news_event_KMT_Luo_Win.dds"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_TNO_OpeningScreen_Poster_KMT"
+		textureFile = "gfx/interface/opening_screen/TNO_OpeningScreen_Poster_Kuomintang.dds"
+	}
 }

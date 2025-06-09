@@ -1,0 +1,30 @@
+defined_text = { ######这里是KMT的开局介绍
+	name = Get_FolderLoc_KMT
+	
+	text = {
+		trigger = {
+			check_variable = { f = 101 }
+		}
+		localization_key = KMT_CountryInfo_Folder.101
+	}
+}
+
+defined_text = {
+	name = Get_ContentLoc_KMT
+	text = {
+		trigger = {
+			check_variable = { f = 1 }
+		}
+		localization_key = KMT_CountryInfo_Content.1
+	}
+}
+
+defined_text = {
+	name = Get_ContentLoc_desc_KMT
+	text = {
+		trigger = {
+			check_variable = { f = 1 }
+		}
+		localization_key = KMT_CountryInfo_Content_desc.1
+	}
+}

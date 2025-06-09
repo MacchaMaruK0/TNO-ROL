@@ -15,6 +15,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_example_1_icon.png"
 	}
 	
+	spriteType = { #例图2
+		name = GFX_ROL_KMT_lanzhou_example_2_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_example_2_icon.png"
+	}
+	
+	spriteType = { #例图3
+		name = GFX_ROL_KMT_lanzhou_example_3_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_example_3_icon.png"
+	}
+	
+	spriteType = { #例图4
+		name = GFX_ROL_KMT_lanzhou_example_4_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lanzhou_example_4_icon.png"
+	}
+	
 	spriteType = { #普通外框1
 		name = GFX_ROL_KMT_front_1_icon
 		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_front_1_icon.png"
@@ -115,6 +130,36 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_deregulation_icon.png"
 	}
 	
+	spriteType = { #分发武器弹药
+		name = GFX_ROL_KMT_distribution_weapons_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_distribution_weapons_icon.png"
+	}
+	
+	spriteType = { #加强锄奸力度
+		name = GFX_ROL_KMT_hoeing_strength_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_hoeing_strength_icon.png"
+	}
+	
+	spriteType = { #炮击重点区域
+		name = GFX_ROL_KMT_shelling_pointarea_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_shelling_pointarea_icon.png"
+	}
+	
+	spriteType = { #武装青年团员
+		name = GFX_ROL_KMT_armed_regiments_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_armed_regiments_icon.png"
+	}
+	
+	spriteType = { #训练预备役军人
+		name = GFX_ROL_KMT_training_reserves_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_training_reserves_icon.png"
+	}
+	
+	spriteType = { #转运伤员物资
+		name = GFX_ROL_KMT_transshipment_supplies_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_transshipment_supplies_icon.png"
+	}
+	
 	spriteType = { #保卫后方 联合抗战
 		name = GFX_ROL_KMT_cpc_end_icon
 		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_cpc_end_icon.png"
@@ -138,6 +183,11 @@ spriteTypes = {
 	spriteType = { #第四区按钮
 		name = GFX_ROL_KMT_forth_area_icon
 		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_forth_area_icon.png"
+	}
+	
+	spriteType = { #锁定按钮
+		name = GFX_ROL_KMT_lock_area_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/ROL_KMT_lock_area_icon.png"
 	}
 	
 	

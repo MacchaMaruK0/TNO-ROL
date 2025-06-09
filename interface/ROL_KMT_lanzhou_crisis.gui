@@ -43,8 +43,29 @@ guiTypes = {
         
         iconType = {
             name = "ROL_KMT_lanzhou_example_1_icon"
-            position = { x = 20 y = 110 }
+            position = { x = 20 y = 16 }
             spriteType = "GFX_ROL_KMT_lanzhou_example_1_icon"
+            #pdx_tooltip = ROL_KMT_lanzhou_train_station_tt
+        }
+		
+		iconType = {
+            name = "ROL_KMT_lanzhou_example_2_icon"
+            position = { x = 20 y = 16 }
+            spriteType = "GFX_ROL_KMT_lanzhou_example_2_icon"
+            #pdx_tooltip = ROL_KMT_lanzhou_train_station_tt
+        }
+		
+		iconType = {
+            name = "ROL_KMT_lanzhou_example_3_icon"
+            position = { x = 20 y = 16 }
+            spriteType = "GFX_ROL_KMT_lanzhou_example_3_icon"
+            #pdx_tooltip = ROL_KMT_lanzhou_train_station_tt
+        }
+		
+		iconType = {
+            name = "ROL_KMT_lanzhou_example_4_icon"
+            position = { x = 20 y = 16 }
+            spriteType = "GFX_ROL_KMT_lanzhou_example_4_icon"
             #pdx_tooltip = ROL_KMT_lanzhou_train_station_tt
         }
 		
@@ -339,6 +360,13 @@ guiTypes = {
             spriteType = "GFX_ROL_KMT_reorganization_party_icon"
             pdx_tooltip = ROL_KMT_reorganization_party_tt
 			}
+			######第三阶段
+			buttonType = {
+            name = "ROL_KMT_distribution_weapons_button"
+            position = { x = 15 y = 75 }
+            spriteType = "GFX_ROL_KMT_distribution_weapons_icon"
+            pdx_tooltip = ROL_KMT_distribution_weapons_tt
+			}
 			######
 			buttonType = {
             name = "ROL_KMT_lanzhou_youth_server_button"
@@ -394,6 +422,13 @@ guiTypes = {
             position = { x = 15 y = 190 }
             spriteType = "GFX_ROL_KMT_village_police_icon"
             pdx_tooltip = ROL_KMT_village_police_tt
+			}
+			######第三阶段
+			buttonType = {
+            name = "ROL_KMT_armed_regiments_button"
+            position = { x = 15 y = 190 }
+            spriteType = "GFX_ROL_KMT_armed_regiments_icon"
+            pdx_tooltip = ROL_KMT_armed_regiments_tt
 			}
 			######
 			buttonType = {
@@ -451,6 +486,13 @@ guiTypes = {
             spriteType = "GFX_ROL_KMT_dismantle_regiment_icon"
             pdx_tooltip = ROL_KMT_dismantle_regiment_tt
 			}
+			########第三阶段
+			buttonType = {
+            name = "ROL_KMT_training_reserves_button"
+            position = { x = 150 y = 190 }
+            spriteType = "GFX_ROL_KMT_training_reserves_icon"
+            pdx_tooltip = ROL_KMT_training_reserves_tt
+			}
 			########
 			buttonType = {
             name = "ROL_KMT_lanzhou_liaise_dignitaries_button"
@@ -506,6 +548,13 @@ guiTypes = {
             position = { x = 150 y = 75 }
             spriteType = "GFX_ROL_KMT_additional_representatives_icon"
             pdx_tooltip = ROL_KMT_additional_representatives_tt
+			}
+			#######第三阶段
+			buttonType = {
+            name = "ROL_KMT_hoeing_strength_button"
+            position = { x = 150 y = 75 }
+            spriteType = "GFX_ROL_KMT_hoeing_strength_icon"
+            pdx_tooltip = ROL_KMT_hoeing_strength_tt
 			}
 			#######
 			buttonType = {
@@ -563,6 +612,13 @@ guiTypes = {
             spriteType = "GFX_ROL_KMT_deregulation_icon"
             pdx_tooltip = ROL_KMT_deregulation_tt
 			}
+			#########第三阶段
+			buttonType = {
+            name = "ROL_KMT_transshipment_supplies_botton"
+            position = { x = 290 y = 190 }
+            spriteType = "GFX_ROL_KMT_transshipment_supplies_icon"
+            pdx_tooltip = ROL_KMT_transshipment_supplies_tt
+			}
 			#########
 			buttonType = {
             name = "ROL_KMT_lanzhou_propaganda_teams_button"
@@ -618,6 +674,13 @@ guiTypes = {
             position = { x = 290 y = 75 }
             spriteType = "GFX_ROL_KMT_deployment_support_icon"
             pdx_tooltip = ROL_KMT_deployment_support_tt
+			}
+			##########第三阶段
+			buttonType = {
+            name = "ROL_KMT_shelling_pointarea_button"
+            position = { x = 290 y = 75 }
+            spriteType = "GFX_ROL_KMT_shelling_pointarea_icon"
+            pdx_tooltip = ROL_KMT_shelling_pointarea_tt
 			}
 			##########
 			iconType = {
@@ -804,5 +867,32 @@ guiTypes = {
             spriteType = "GFX_ROL_KMT_forth_area_icon"
             pdx_tooltip = ROL_KMT_forth_area_tt
 		}
+		iconType = {
+            name = "ROL_KMT_lock_first_area"
+			position = { x = 0 y = -22 }
+			spriteType = "GFX_ROL_KMT_lock_area_icon"
+            pdx_tooltip = ROL_KMT_lock_area_tt
+        }
+		
+		iconType = {
+            name = "ROL_KMT_lock_second_area"
+			position = { x = 217 y = -22 }
+			spriteType = "GFX_ROL_KMT_lock_area_icon"
+            pdx_tooltip = ROL_KMT_lock_area_tt
+        }
+		
+		iconType = {
+            name = "ROL_KMT_lock_third_area"
+			position = { x = 434 y = -22 }
+			spriteType = "GFX_ROL_KMT_lock_area_icon"
+            pdx_tooltip = ROL_KMT_lock_area_tt
+        }
+		
+		iconType = {
+            name = "ROL_KMT_lock_forth_area"
+			position = { x = 651 y = -22 }
+			spriteType = "GFX_ROL_KMT_lock_area_icon"
+            pdx_tooltip = ROL_KMT_lock_area_tt
+        }
     }
 }

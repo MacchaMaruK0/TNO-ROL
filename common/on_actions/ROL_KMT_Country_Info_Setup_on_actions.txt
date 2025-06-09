@@ -1,0 +1,17 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				if = {
+					limit = {
+						original_tag = KMT
+					}
+					add_to_array = { CountryInfo_array_main = 101 }
+					add_to_array = { CountryInfo_array_main = 1 }
+					add_to_array = { CountryInfo_folder_country_101 = 1 }
+				}
+				set_country_flag = CountryInfo_HasCustomCloseButton
+			}
+		}
+	}
+}

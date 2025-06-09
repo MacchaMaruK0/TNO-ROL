@@ -849,5 +849,25 @@ country_event = {
 	option = { 
 		name = kmt.44.a
 		custom_effect_tooltip = kmt_44_a_tt
+		country_event = { id = kmt.45 days = 1 }
+	}
+}
+
+country_event = { 
+	id = kmt.45
+	title = kmt.45.t 
+	desc = kmt.45.d 
+	picture = GFX_kmt_event_45
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.45"
+	}
+
+	fire_only_once = no 
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt.45.a
+		custom_effect_tooltip = kmt_45_a_tt
 	}
 }

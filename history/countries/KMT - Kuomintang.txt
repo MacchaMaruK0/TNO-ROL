@@ -276,3 +276,6 @@ set_variable = { tno_conscription_effectiveness = 50 }
 set_variable = { tno_military_supervision_effectiveness = 50 }
 set_variable = { tno_training_effectiveness = 50 }
 set_variable = { tno_draft_exemptions_effectiveness = 50 }
+
+set_country_flag = TNO_Country_Info_Screen_Visible
+set_country_flag = tno_playable_country
