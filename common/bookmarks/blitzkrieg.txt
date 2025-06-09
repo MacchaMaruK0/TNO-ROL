@@ -10,7 +10,7 @@ bookmarks = {
 		desc = "THENEWORDER_DESC"
 		date = 1962.1.1.1
 		picture = "GFX_select_date_1939"
-		default_country = "AAO"
+		default_country = "KMT"
 		default = yes
 
 		effect = {
@@ -163,14 +163,14 @@ bookmarks = {
 			history = "BRA_THENEWORDER_DESC"
 			ideology = liberalism
 			ideas = {
-				BRA_idea_rampant_corruption
-				BRA_idea_industrialisation_crisis_campaign
-				BRA_idea_overbearing_military
+				BRA_the_populist_republic
+				BRA_overbearing_military
+				BRA_idea_Lobster_conflict
 			}
 			focuses = {
-				BRA_operation_lobster
+				BRA_vargass_true_successor
 				BRA_Fireworks_in_Rio
-				BRA_Coffee_With_Neves
+				BRA_new_tools_greatest_manager
 			}
 		}
 
@@ -473,7 +473,7 @@ bookmarks = {
 			history = "ANG_THENEWORDER_DESC"
 			ideology = national_socialism
 
-			ideas={
+			ideas = {
 				ANG_Afrikaner_Airstrip
 				ANG_Away_In_The_Clouds
 				ANG_Incoherent_Bookkeeping
@@ -490,7 +490,7 @@ bookmarks = {
 			history = "COG_THENEWORDER_DESC"
 			ideology = national_socialism
 
-			ideas={
+			ideas = {
 				COG_Heart_Of_Afrika_7
 				COG_Hands_Off_Administration
 				COG_Soldiers_Of_Fortune
@@ -507,7 +507,7 @@ bookmarks = {
 			history = "GRO_THENEWORDER_DESC"
 			ideology = national_socialism
 
-			ideas={
+			ideas = {
 				GRO_Just_Another_Camp
 				GRO_Aryan_Only_SS
 				GRO_The_Unending_War
