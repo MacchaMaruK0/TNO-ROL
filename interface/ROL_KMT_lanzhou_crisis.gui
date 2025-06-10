@@ -64,7 +64,7 @@ guiTypes = {
 		
 		iconType = {
             name = "ROL_KMT_lanzhou_example_4_icon"
-            position = { x = 20 y = 16 }
+            position = { x = 20 y = 110 }
             spriteType = "GFX_ROL_KMT_lanzhou_example_4_icon"
             #pdx_tooltip = ROL_KMT_lanzhou_train_station_tt
         }

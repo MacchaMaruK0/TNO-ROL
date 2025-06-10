@@ -2432,6 +2432,7 @@ country_event = { #测试99
 	id = kmt_lanzhou_event.99
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.99"
+		hidden_effect = {
 		set_country_flag = ROL_KMT_first_end
 		set_country_flag = ROL_KMT_second_start
 		clr_country_flag = ROL_KMT_1_use
@@ -2458,6 +2459,7 @@ country_event = { #测试99
 		clr_country_flag = ROL_KMT_54_use
 		clr_country_flag = ROL_KMT_64_use
 		clr_country_flag = ROL_KMT_74_use
+		}
 	}
 	title = kmt_lanzhou_event.99.t
 	desc = kmt_lanzhou_event.99.desc
@@ -2465,6 +2467,8 @@ country_event = { #测试99
 
 	is_triggered_only = yes
 	option = {
+		name = kmt_lanzhou_event.99.a 
+		custom_effect_tooltip = kmt_lanzhou_99_tt
 	}
 }
 
@@ -2474,6 +2478,7 @@ country_event = { #测试98
 		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.98"
 		clr_country_flag = ROL_KMT_first_end
 		clr_country_flag = ROL_KMT_second_start
+		clr_country_flag = ROL_KMT_third_start
 		clr_country_flag = ROL_KMT_1_use
 		clr_country_flag = ROL_KMT_3_use
 		clr_country_flag = ROL_KMT_4_use
@@ -2512,6 +2517,7 @@ country_event = { #测试
 	id = kmt_lanzhou_event.100
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.100"
+		hidden_effect = {
 		set_country_flag = ROL_KMT_first_end
 		clr_country_flag = ROL_KMT_second_start
 		set_country_flag = ROL_KMT_third_start
@@ -2539,6 +2545,7 @@ country_event = { #测试
 		clr_country_flag = ROL_KMT_54_use
 		clr_country_flag = ROL_KMT_64_use
 		clr_country_flag = ROL_KMT_74_use
+		}
 	}
 	title = kmt_lanzhou_event.100.t
 	desc = kmt_lanzhou_event.100.desc
@@ -2546,6 +2553,8 @@ country_event = { #测试
 
 	is_triggered_only = yes
 	option = {
+		name = kmt_lanzhou_event.100.a 
+		custom_effect_tooltip = kmt_lanzhou_100_tt
 	}
 }
 

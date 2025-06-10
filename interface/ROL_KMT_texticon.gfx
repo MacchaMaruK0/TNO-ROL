@@ -161,6 +161,30 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_ROL_KMT_ma_clique_icon" #马家军的texticon
+		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/ROL_KMT_ma_clique_icon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_lanzhou_first_icon" #第一阶段的texticon
+		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/ROL_KMT_lanzhou_first_icon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_lanzhou_second_icon" #第二阶段的texticon
+		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/ROL_KMT_lanzhou_second_icon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_ROL_KMT_lanzhou_second_icon" #第三阶段的texticon
+		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/ROL_KMT_lanzhou_third_icon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
 		name = "GFX_ROL_KMT_man_power_y_texticon" #兰州危机人力的texticon
 		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/man_power_y_texticon.dds"
 		legacy_lazy_load = no
