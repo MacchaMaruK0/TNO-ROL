@@ -22,7 +22,6 @@ state = {
 		buildings = {
 			infrastructure = 2
 			air_base = 2
-			thermoelectric_plant = 1
 		}
 		set_variable = { china_state_ref = 41 }
 		set_variable = { china_region_ref = 5 }

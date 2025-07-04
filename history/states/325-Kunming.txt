@@ -11,6 +11,7 @@ state = {
 	history = {
 		owner = ROC
 		add_core_of = ROC
+		add_core_of = YUN
 		victory_points = {
 			7446 31
 		}
@@ -23,9 +24,9 @@ state = {
 		buildings = {
 			air_base = 2
 			barracks = 1
-			offices = 2
+			offices = 1
 			schools = 1
-			prisons = 2
+			prisons = 1
 			infrastructure = 4
 			thermoelectric_plant = 2
 		}

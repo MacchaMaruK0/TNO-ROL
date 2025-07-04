@@ -11,8 +11,8 @@ state = {
 
 	history = {
 		owner = YUN
-		add_core_of = YUN
 		add_core_of = ROC
+		add_core_of = YUN
 		add_extra_state_shared_building_slots = 1
 		victory_points = {
 			1114 13
@@ -34,7 +34,8 @@ state = {
 		}
 		buildings = {
 			infrastructure = 2
-			prisons = 1
+			air_base = 1
+			thermoelectric_plant = 1
 			offices = 1
 			barracks = 1
 		}

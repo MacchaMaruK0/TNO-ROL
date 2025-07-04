@@ -20,7 +20,6 @@ state = {
 		victory_points = {
 			19496 5
 		}
-		set_demilitarized_zone = yes
 		set_state_flag = GDP_regions_chuandong
 		set_variable = { china_state_ref = 16 }
 		set_variable = { china_region_ref = 2 }
