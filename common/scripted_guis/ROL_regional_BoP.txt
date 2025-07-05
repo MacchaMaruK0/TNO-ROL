@@ -84,12 +84,6 @@ scripted_gui = {
 					set_temp_variable = { fopo_button_tab_frame = 1 }
 				}
 			}
-			production_btn_visible = {
-				check_variable = {selected_decision_tabs_id = 1}
-			}
-			competitiveness_btn_visible = {
-				check_variable = {selected_decision_tabs_id = 1}
-			}
 			conflict_status_visible = {
 				always = yes
 			}

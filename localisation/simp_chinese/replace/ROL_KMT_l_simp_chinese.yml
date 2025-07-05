@@ -240,6 +240,7 @@
  ROL_KMT_Debug_Category:0 "§B烤馒头§!的小工具"
  ROL_KMT_Debug_Category_desc:0 " "
  KMT_ROL_Add_Bop_Bar_2_1:0 "加载地区冲突界面第二栏第一格"
+ KMT_ROL_Add_Bop_Bar_2_2:0 "加载地区冲突界面第二栏第二格"
  KMT_ROL_Luo_Lie_2_dec:0 "§j加载£GFX_KMT_lixing_icon 罗列兰州危机后国策树§!"
  KMT_ROL_zhang_dec:0 "§B加载£GFX_KMT_tpp_icon 张治中兰州危机后国策树§!"
  Choose_Luo:0 "支持§Y候选人§!"
@@ -769,6 +770,8 @@
  ROL_regional_info_icon_tt: "PLACEHOLDER-信息按钮"
  ROL_regional_info_icon_tt_delayed: "PLACEHOLDER-信息按钮延迟提示"
  BOP_BUTTON:0 "[GetBOPbuttonname]"
+ KMT_desicion_tab_name:0 "占位符，需要补充Scripted_loc，请抄DOP"
+
  
  #####bookmark
  BOOKMARK_KUOMINTANG_BLOCKER: "§B西北行辕§!"
