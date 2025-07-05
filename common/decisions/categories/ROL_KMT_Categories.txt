@@ -10,7 +10,7 @@ ROL_KMT_Debug_Category = { #这部分是决议类，用debug决议作为示范�
     }
     priority = 778
     visible_when_empty = yes #这是保证在没有决议的情况下，该决议类仍能被看到，在写GUI时尤为重要
-	scripted_gui = ROL_KMT_debug_ui_window
+	# scripted_gui = ROL_KMT_debug_ui_window
 }
 
 ROL_KMT_Choose_Director_Category = {   ###选主任
@@ -33,6 +33,7 @@ ROL_KMT_red_blood_Category = { #地区冲突
 	allowed = {
 		original_tag = KMT
 	}
+	# visible = { has_country_flag = ROL_KMT_fopo }
 	visible = {
 		NOT = { has_country_flag = ROL_KMT_Hu_is_die }
 		OR = {
@@ -41,7 +42,7 @@ ROL_KMT_red_blood_Category = { #地区冲突
 		}
 		has_country_flag = ROL_KMT_fopo
 	}
-	visible_when_empty = yes
+	#visible_when_empty = yes
 }
 
 ROL_KMT_bar_text_Category = {

@@ -3,6 +3,8 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 	icon = GFX_ROL_KMT_decentralization_of_supplies_icon
 		visible = {
 			has_country_flag = ROL_KMT_behind_decision_selected
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }#显示在第二栏
+			#需要显示在第几槽的话 用这个：check_variable = { selected_decision_tabs_id = 1(第几个就直接写几) }
 		}
 		activation = {
 		}
@@ -47,6 +49,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 	icon = GFX_ROL_KMT_set_warlords_icon
 		visible = {
 			has_country_flag = ROL_KMT_behind_decision_selected
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
 		}
 		activation = {
 		}
@@ -90,6 +93,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 	icon = GFX_ROL_KMT_kill_guerilla_icon
 		visible = {
 			has_country_flag = ROL_KMT_behind_decision_selected
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
 		}
 		activation = {
 		}
@@ -143,6 +147,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 		visible = {
 			has_country_flag = ROL_KMT_behind_decision_selected
 			has_country_flag = ROL_KMT_decision_front_done
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
 		}
 		activation = {
 		}
@@ -187,6 +192,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 		visible = {
 			has_country_flag = ROL_KMT_behind_decision_selected
 			has_country_flag = ROL_KMT_decision_front_done
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
 		}
 		activation = {
 		}
@@ -227,6 +233,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 		cost = 25
 		visible = {
 			has_country_flag = ROL_KMT_front_decision_selected
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
 		}
 		activation = {
 		}
@@ -260,6 +267,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 		cost = 25
 		visible = {
 			has_country_flag = ROL_KMT_front_decision_selected
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
 		}
 		activation = {
 		}
@@ -293,6 +301,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 		cost = 25
 		visible = {
 			has_country_flag = ROL_KMT_front_decision_selected
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
 		}
 		activation = {
 		}
@@ -326,6 +335,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 		visible = {
 			has_country_flag = ROL_KMT_front_decision_selected
 			has_country_flag = ROL_KMT_decision_behind_done
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
 		}
 		activation = {
 		}
@@ -359,6 +369,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 		visible = {
 			has_country_flag = ROL_KMT_front_decision_selected
 			has_country_flag = ROL_KMT_decision_behind_done
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
 		}
 		activation = {
 		}
@@ -412,9 +423,11 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 	
 	ROL_KMT_attack = { #主动边境冲突
 	icon = GFX_ROL_KMT_attack_icon
+		visible =  {check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }}
 		activation = {
 		}
 		available = {
+			
 			    if = {		
 		        limit = {
 			    has_country_flag = ROL_KMT_flag_add_solider
@@ -709,9 +722,7 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 				ROL_KMT_add_solider = yes
 				custom_effect_tooltip = ROL_KMT_flag_add_supply_level_tt
 			    }
-			    
-			}
-			else_if = {
+			    else_if = {
 		        limit = {
 				has_country_flag = ROL_KMT_flag_add_solider
 				has_country_flag = ROL_KMT_flag_add_supply
@@ -805,6 +816,8 @@ ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_
 				ROL_KMT_add_solider = yes
 				custom_effect_tooltip = ROL_KMT_flag_add_solider_level_tt
 			}
+			}
+			
 		remove_effect = {
 		country_event = { id = kmt_border_war.5 }
 		}
