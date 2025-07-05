@@ -239,6 +239,7 @@
  #debug
  ROL_KMT_Debug_Category:0 "§B烤馒头§!的小工具"
  ROL_KMT_Debug_Category_desc:0 " "
+ KMT_ROL_Add_Bop_Bar_2_1:0 "加载地区冲突界面第二栏第一格"
  KMT_ROL_Add_Bop_Bar_2_2:0 "加载地区冲突界面第二栏第二格"
  KMT_ROL_Luo_Lie_2_dec:0 "§j加载£GFX_KMT_lixing_icon 罗列兰州危机后国策树§!"
  KMT_ROL_zhang_dec:0 "§B加载£GFX_KMT_tpp_icon 张治中兰州危机后国策树§!"
