@@ -1,8 +1,82 @@
-
 # Adds 'conflict_id' to the list of active conflicts
 # 致ROL制作组CODER：如果你没有完全把握你弄懂了整个冷战gui，不要动这个东西！因为我也不懂::heart:: ——Sorrowful men
 
 # Arguments: TabName (token)
+
+ROL_add_tab = {
+	custom_effect_tooltip = ROL_regional_add_tab_tt
+	if = {
+		limit = { NOT = { is_in_array = { ROL_KMT_enabled_tabs = decision_tabs_id } } }
+		add_to_array = { ROL_KMT_enabled_tabs = decision_tabs_id }
+
+		set_variable = { selected_decision_tabs_id = decision_tabs_id }
+		clear_array = world_conflict_guis
+		add_to_array = { world_conflict_guis = selected_conflict_id }
+
+		
+	}
+	if = {
+		limit = {
+			decision_tabs_id = 1
+		}
+		clr_country_flag = ROL_regional_off
+	}
+	# set_temp_variable = { alert_id = token:Alert_Proxy_War_Active }
+	# add_TNO_alert_unless_exists = yes
+	# 需要补充弹窗提醒 ::heart:: ——stakataka_3030
+	# hidden_effect = {
+	# 	if = {
+	# 		limit = {
+	# 			check_variable = { NATIONAL_cp_gain_proxy = 0 }
+	# 		}
+	# 		add_dynamic_modifier = { modifier = PROXYNATIONAL_CP_GAIN }
+	# 	}
+	# 	add_to_variable = { NATIONAL_cp_gain_proxy = 0.07 }
+	# }
+	# 如果要发cp和pp在这里设置
+}
+
+# Removes `conflict_id` from the list of active conflicts
+DOP_remove_tab = {
+	custom_effect_tooltip = DOP_SCW_remove_tab_tt
+	if = {
+		limit = { is_in_array = { ROL_KMT_enabled_tabs = decision_tabs_id } }
+		remove_from_array = { array = ROL_KMT_enabled_tabs value = decision_tabs_id }
+	}
+
+	if = {
+		limit = { check_variable = { selected_decision_tabs_id = decision_tabs_id } }
+
+		set_variable = { selected_conflict_id = -1 }
+
+		if = {
+			limit = {
+				decision_tabs_id = 1
+			}
+			set_country_flag = ROL_regional_off
+		}
+	}
+
+	# if = {
+	# 	limit = {
+	# 		check_variable = { TNO_active_conflicts^num = 0 }
+	# 	}
+	# 	set_temp_variable = { alert_id = token:Alert_Proxy_War_Active }
+	# 	remove_TNO_alert = yes
+	# }
+	# 需要补充弹窗提醒 ::heart:: ——stakataka_3030
+	# hidden_effect = {
+	# 	add_to_variable = { NATIONAL_cp_gain_proxy = -0.07 }
+	# 	if = {
+	# 		limit = {
+	# 			check_variable = { NATIONAL_cp_gain_proxy = 0 }
+	# 		}
+	# 		remove_dynamic_modifier = { modifier = PROXYNATIONAL_CP_GAIN }
+	# 	}
+	# }
+	# 如果要发cp和pp在这里设置
+}
+
 TNO_BoP_ROLregional_AddTab = {
 	custom_effect_tooltip = TNO_BoP_AddTab_ROLregional_tt
 	add_to_array = { TNO_BoP_Tabs = TabName }

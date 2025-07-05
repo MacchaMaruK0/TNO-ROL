@@ -1,3 +1,4 @@
 # 致ROL制作组CODER：如果你没有完全把握你弄懂了整个冷战gui，不要动这个东西！因为我也不懂::heart:: ——Sorrowful men
 
 BoP_Tab_ROLregional_KMT = { decision_category = ROL_KMT_regional_category }
+BoP_Tab_ROLregional1_KMT = { decision_category = ROL_KMT_red_blood_Category }

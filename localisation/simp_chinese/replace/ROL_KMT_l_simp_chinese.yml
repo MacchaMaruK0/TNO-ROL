@@ -278,7 +278,7 @@
  ROL_KMT_all_end_tt: "§e失败者无权操控§!"
  
  ###赤血黄沙
- ROL_KMT_red_blood_Category: "§e赤血§!§w黄沙§!"
+ ROL_KMT_red_blood_Category: "§e西北§!戡乱§w战争§!"
  ROL_KMT_red_blood_decision_txt: "当前正在处理：[Get_ROL_KMT_red_blood_decision_tt]"
  ROL_KMT_red_blood_decision_2_tt: "无"
  ROL_KMT_red_blood_decision_1_tt: "§G后方事务§!"
@@ -756,6 +756,7 @@
  
  ######地区冲突
  BoP_Tab_ROLregional: "抗日统一战线"
+ BoP_Tab_ROLregional1: "地区冲突"
  BOP_BUTTON_NOT_ROL: "外交事务"
  BOP_BUTTON_KMT: "地区冲突"
  BOP_TOOLTIP:1 "[GetBOPbuttonintro]"
@@ -763,6 +764,7 @@
  BOP_TOOLTIP_NOT_ROL: "§F点击管理§Y外交§!、§Y全球冲突§!和你的§Y情报机构§!。§!"
  TNO_GlobalConflicts_GUI_Title: "全球冲突"
  ROL_regional_GUI_Title: "抗日统一战线"
+ ROL_regional1_GUI_Title: "地区冲突"
  ROL_regional_info_icon_tt: "PLACEHOLDER-信息按钮"
  ROL_regional_info_icon_tt_delayed: "PLACEHOLDER-信息按钮延迟提示"
  BOP_BUTTON:0 "[GetBOPbuttonname]"

@@ -37,11 +37,77 @@ guiTypes = {
             position = { x = 513 y = 67 }
             spriteType = "GFX_BoP_Base_Vertical_Divider_Full"
         }
-        # Decisions Divider
+
         iconType = {
-            name = "GlobalConflicts_GUI_DecisionDivider"
-            position = { x = 529 y = 154 }
-            spriteType = "GFX_BoP_Decision_Divider"
+            name = "tabs"
+            spriteType = "GFX_fopo_crisis_box"
+            position = { x = 2 y = 72 }
+            alwaystransparent = yes
+        }
+    }
+}	
+
+guiTypes = {
+	containerWindowType = {
+		name = "ROL_regional_generic_topbar"
+		position = { x = 29 y = 131 }
+		size = { width = 496 height = 506 }
+
+		iconType = {
+			name = "seal"
+			position = { x = 98 y = 75 }
+		}
+
+		instantTextBoxType = {
+			name = "fopo_desc"
+			position = { x = 8 y = 10 }
+			text = fopo_desc_text
+			font = "aldrich_18_outline"
+			maxWidth = 480
+			maxHeight = 500
+			alwaystransparent = yes
+		}
+	}
+	#
+	containerWindowType = {
+        name = "ROL_regional1_base_container"
+        position = { x = 25 y = 19 }
+        size = { height = 618 width = 500 }
+		
+		
+
+        ### Top Bar ###
+        containerWindowType = {
+            name = "ROL_regional1_TOPBAR"
+            position = { x = 41 y = -24 }
+            
+            # Title
+            instantTextBoxType = {
+                name = "GlobalConflicts_GUI_Title"
+                position = { x = 0 y = 0 }
+                font = "vt323_72_WT_outline"
+                text = [GetGC1name]
+                maxWidth = 857
+                maxHeight = 58
+                format = center
+                fixedsize = yes
+                alwaystransparent = yes
+            }
+
+            # Info Button
+            iconType = {
+                name = "ROL_regional1_GUI_InfoBtn"
+                spriteType = "GFX_ParliamentMechanic_InfoButton"
+                position = { x = 901 y = 29 }
+                pdx_tooltip = "ROL_regional1_info_icon_tt"
+                pdx_tooltip_delayed = "ROL_regional1_info_icon_tt_delayed"
+            }
+        }
+        # Vertical Divider
+        iconType = {
+            name = "GlobalConflicts_GUI_VerticalDivider"
+            position = { x = 513 y = 67 }
+            spriteType = "GFX_BoP_Base_Vertical_Divider_Full"
         }
 
         iconType = {
@@ -50,48 +116,117 @@ guiTypes = {
             position = { x = 2 y = 72 }
             alwaystransparent = yes
         }
+		
+		containerWindowType = {
+        name = "ROL_KMT_red_blood_ui"
+        size = { width = 600 height = 350 }
+			iconType = {
+				name = "ROL_KMT_red_blood_infor"
+				position = { x = 394 y = -65 }
+				spriteType = "GFX_Burgundy_GUI_Info_Button"
+				pdx_tooltip = ROL_KMT_red_blood_info
+				pdx_tooltip_delayed = ROL_KMT_red_blood_delayed_info
+			}
+		
+			iconType = {
+				name = "ROL_KMT_red_blood_bg"
+				position = { x = 25 y = 260 }
+				spriteType = "GFX_ROL_KMT_red_blood_bg"
+			}
+		
+			iconType = {
+				name = "ROL_KMT_txt_icon"
+				position = { x = 3 y = 200 }
+				spriteType = "GFX_ROL_KMT_txt_icon"
+			}
+		
+			buttonType = {
+				name = "ROL_KMT_kmt_botton"
+				position = { x = 47 y = 264 }
+				spriteType = "GFX_ROL_KMT_kmt_botton"
+				pdx_tooltip = ROL_KMT_kmt_botton_tt
+			}
+		
+			buttonType = {
+				name = "ROL_KMT_cpc_botton"
+				position = { x = 211 y = 326 }
+				spriteType = "GFX_ROL_KMT_cpc_botton"
+				pdx_tooltip = ROL_KMT_cpc_botton_tt
+			}
+		
+			iconType = {
+				name = "ROL_KMT_yushu_icon"
+				position = { x = 25 y = 357 }
+				spriteType = "GFX_ROL_KMT_yushu_icon"
+			}
+		
+			iconType = {
+				name = "ROL_KMT_solider_bar_full_empty"
+				position = { x = 336 y = 250 }
+				spriteType = "GFX_ROL_KMT_solider_bar_full"
+			}
+		
+			iconType = {
+				name = "ROL_KMT_solider_bar"
+				position = { x = 336 y = 283 }
+				spriteType = "GFX_ROL_KMT_solider_bar"
+			}
+		
+			iconType = {
+				name = "ROL_KMT_supply_bar_full"
+				position = { x = 396 y = 250 }
+				spriteType = "GFX_ROL_KMT_supply_bar_full"
+			}
+		
+			iconType = {
+				name = "ROL_KMT_supply_bar"
+				position = { x = 396 y = 283 }
+				spriteType = "GFX_ROL_KMT_supply_bar"
+			}
+		
+			iconType = {
+				name = "ROL_KMT_level_bar_full"
+				position = { x = 456 y = 250 }
+				spriteType = "GFX_ROL_KMT_level_bar_full"
+			}
+		
+			iconType = {
+				name = "ROL_KMT_level_bar"
+				position = { x = 456 y = 283 }
+				spriteType = "GFX_ROL_KMT_level_bar"
+			}
+		
+			instantTextBoxType={
+				name = "ROL_KMT_red_blood_decision_txt"
+				position = { x = 0 y = 500 }
+				font = "aldrich_22_outline"
+				maxWidth = 460
+				maxHeight = 32
+				text = "ROL_KMT_red_blood_decision_txt"
+				format = center
+				fixedsize = yes
+			}
+		}
+		
+		containerWindowType = {
+			name = "tabs_container"
+			horizontalScrollbar = "top_horizontal_slider"
+			size = { width = 500 height = 90 }
+			position = { x = 520 y = 70 }
+			margin = { top = 0 left = 0 bottom = 0 right = 0 }
 
-        containerWindowType = {
-            name = "tabs_container"
-            horizontalScrollbar = "top_horizontal_slider"
-            size = { width = 500 height = 90 }
-            position = { x = 520 y = 70 }
-            margin = { top = 0 left = 0 bottom = 0 right = 0 }
-
-            background = {
-                name = "Background"
-                quadTextureSprite ="GFX_tiled_window_transparent"
-            }
-    
-            gridboxtype = {
-                name = "decision_tabs"
-                position = { x = 0 y = 15 }
-                size = { width = 480 height = 45 }
-                slotsize = { width = 120 height = 45 }
-                add_horizontal = yes
-            }
-        }
-        buttonType = {
-            name = "production_btn"
-            spriteType = "GFX_pro_button"
-            position = { x = 12 y = 120 }
-            pdx_tooltip = manage_production_tt
-        }
-        buttonType = {
-            name = "competitiveness_btn"
-            spriteType = "GFX_con_button"
-            position = { x = 256 y = 120 }
-            pdx_tooltip = manage_competitiveness_tt
-        }    
-        iconType = {
-            name = "conflict_status"
-            spriteType = "GFX_fopo_conflict_status"
-            position = { x = 12 y = 82 }
-            alwaystransparent = yes
-        }
-        containerWindowType = {
-            name = "conflict_guis_container"
-            position = { x = 4 y = 112 }
-        }
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_transparent"
+			}
+	
+			gridboxtype = {
+				name = "decision_tabs"
+				position = { x = 0 y = 15 }
+				size = { width = 480 height = 45 }
+				slotsize = { width = 120 height = 45 }
+				add_horizontal = yes
+			}
+		}
     }
-}		
+}	

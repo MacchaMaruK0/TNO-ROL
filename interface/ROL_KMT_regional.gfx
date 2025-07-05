@@ -1,7 +1,12 @@
 #这个文件定义了地区冲突的素材
 spriteTypes = {
 	spriteType = { #ROL_KMT_regional_category
-	name = "GFX_BoP_Tab_ROLregional_Icon"
+	name = "GFX_BoP_Tab_ROLregional_Icon" ###统一战线
+	textureFile = "gfx/interface/bop/GFX_BoP_Tab_Espionage_Icon.dds"
+	}
+	
+	spriteType = { #ROL_KMT_regional_1_category
+	name = "GFX_BoP_Tab_ROLregional1_Icon" ###地区冲突
 	textureFile = "gfx/interface/bop/GFX_BoP_Tab_Espionage_Icon.dds"
 	}
 }	

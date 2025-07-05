@@ -29,7 +29,7 @@ ROL_KMT_Choose_Director_Category = {   ###选主任
 	visible_when_empty = yes
 }
 
-ROL_KMT_red_blood_Category = {
+ROL_KMT_red_blood_Category = { #地区冲突
     icon = GFX_ROL_KMT_red_blood_icon
 	allowed = {
 		original_tag = KMT
@@ -40,8 +40,8 @@ ROL_KMT_red_blood_Category = {
 		has_country_flag = ROL_KMT_red_blood
 		is_debug = yes
 		}
+		has_country_flag = ROL_KMT_fopo
 	}
-	scripted_gui = ROL_KMT_red_blood_ui_window
 	priority = 1000
 	visible_when_empty = yes
 }
@@ -71,7 +71,7 @@ ROL_QIN_run_down_Category = {
 	visible_when_empty = yes
 }
 
-ROL_KMT_regional_category = {#地区冲突
+ROL_KMT_regional_category = {#统一战线
 	allowed = { original_tag = KMT }
-	visible = { is_debug = yes }
+	visible = { has_country_flag = ROL_KMT_regional }
 }

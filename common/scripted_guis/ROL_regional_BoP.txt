@@ -15,4 +15,102 @@ scripted_gui = {
 		ai_enabled = { always = no }
 		visible = { check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional } } 
 	}	
+	
+	
+	ROL_regional1_base_container = {
+		window_name = "ROL_regional1_base_container"
+		context_type = player_context
+		parent_window_name = powerbalanceview
+		ai_enabled = { always = no }
+		visible = { check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 } }
+		
+		dynamic_lists = {
+			decision_tabs = {
+				array = ROL_KMT_enabled_tabs
+				index = allowed_decision_tab
+				value = allowed_decision_tab_id
+				entry_container = ROL_KMT_regional_decisions_tab
+			}
+		}
+		
+		effects = {
+			decision_tab_icon_click = {
+				set_variable = { selected_decision_tabs_id = allowed_decision_tab_id }
+				clear_array = ROL_the_gui_showing_now
+				add_to_array = { ROL_the_gui_showing_now = allowed_decision_tab_id }
+			}
+			tab_click = {
+				set_variable = { selected_decision_tabs_id = allowed_decision_tab_id }
+				clear_array = ROL_the_gui_showing_now
+				add_to_array = { ROL_the_gui_showing_now = allowed_decision_tab_id }
+			}
+			
+		}
+
+		triggers = {
+			decision_tab_icon_visible = {
+				if = {
+					limit = {
+						check_variable = { selected_decision_tabs_id = allowed_decision_tab_id }
+					}
+					set_temp_variable = { fopo_button_tab_frame = 2 }
+				}
+				else = {
+					set_temp_variable = { fopo_button_tab_frame = 1 }
+				}
+			}
+			production_btn_visible = {
+				check_variable = {selected_decision_tabs_id = 1}
+			}
+			competitiveness_btn_visible = {
+				check_variable = {selected_decision_tabs_id = 1}
+			}
+			conflict_status_visible = {
+				always = yes
+			}
+			conflict_title_visible = {
+				NOT = {	has_country_flag = ROL_regional_off	}
+			}
+			info_tab_visible = {
+				TNO_fopo_show_info_tab = yes
+			}
+		}
+
+		properties = {
+			tab_bg = {
+				frame = fopo_button_tab_frame
+			}
+			tab = {
+				frame = fopo_button_tab_frame
+			}
+			decision_tab_icon = {
+				image = "[Get_ROLregional_desicion_tab_icon]"
+			}
+		}
+		
+	}
+	
+	ROL_regional_generic_topbar = {
+		window_name = "ROL_regional_generic_topbar"
+		context_type = player_context
+		parent_window_name = powerbalanceview
+
+		visible = {
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
+			tag = GNG
+			NOT = {has_country_flag = ROL_regional_off}
+		}
+
+		triggers = {
+			info_tab_visible = {
+				ROL_regional_show_info_box = yes
+			}
+		}
+
+		properties = {
+			seal = {
+				image = "[Get_fopo_seal]"
+			}
+		}
+	}
 }	
