@@ -45,6 +45,31 @@ scripted_gui = {
 				add_to_array = { ROL_the_gui_showing_now = allowed_decision_tab_id }
 			}
 			
+			ROL_KMT_kmt_botton_click = {
+				if = {
+					limit = {
+						has_country_flag = ROL_KMT_front_decision_selected
+					}
+					clr_country_flag = ROL_KMT_front_decision_selected
+				}
+				else = {
+					set_country_flag = ROL_KMT_front_decision_selected
+					clr_country_flag = ROL_KMT_behind_decision_selected
+				}
+			}
+			ROL_KMT_cpc_botton_click = {
+				if = {
+					limit = {
+						has_country_flag = ROL_KMT_behind_decision_selected
+					}
+					clr_country_flag = ROL_KMT_behind_decision_selected
+				}
+				else = {
+					set_country_flag = ROL_KMT_behind_decision_selected
+					clr_country_flag = ROL_KMT_front_decision_selected
+				}
+			}
+			
 		}
 
 		triggers = {
@@ -85,6 +110,16 @@ scripted_gui = {
 			}
 			decision_tab_icon = {
 				image = "[Get_ROLregional_desicion_tab_icon]"
+			}
+			
+			ROL_KMT_solider_bar_full_empty = {
+				frame = ROL_KMT_add_solider_points
+			}
+			ROL_KMT_supply_bar_full = {
+				frame = ROL_KMT_add_supply_points
+			}
+			ROL_KMT_level_bar_full = {
+				frame = ROL_KMT_add_level_points
 			}
 		}
 		

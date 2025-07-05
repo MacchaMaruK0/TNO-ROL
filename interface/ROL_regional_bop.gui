@@ -120,13 +120,6 @@ guiTypes = {
 		containerWindowType = {
         name = "ROL_KMT_red_blood_ui"
         size = { width = 600 height = 350 }
-			iconType = {
-				name = "ROL_KMT_red_blood_infor"
-				position = { x = 394 y = -65 }
-				spriteType = "GFX_Burgundy_GUI_Info_Button"
-				pdx_tooltip = ROL_KMT_red_blood_info
-				pdx_tooltip_delayed = ROL_KMT_red_blood_delayed_info
-			}
 		
 			iconType = {
 				name = "ROL_KMT_red_blood_bg"
