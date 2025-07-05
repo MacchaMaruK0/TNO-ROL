@@ -28,7 +28,7 @@ country_event = { #测试1
 	}
 	title = kmt_lanzhou_event.1.t
 	desc = kmt_lanzhou_event.1.desc
-	picture = \
+	##picture = \
 	hidden = yes
 
 	is_triggered_only = yes
@@ -65,7 +65,7 @@ country_event = { #测试200
 	}
 	title = kmt_lanzhou_event.200.t
 	desc = kmt_lanzhou_event.200.desc
-	picture = \
+	##picture = \
 	hidden = yes
 
 	is_triggered_only = yes
@@ -102,7 +102,7 @@ country_event = { #测试201
 	}
 	title = kmt_lanzhou_event.201.t
 	desc = kmt_lanzhou_event.201.desc
-	picture = \
+	##picture = \
 	hidden = yes
 
 	is_triggered_only = yes
@@ -139,7 +139,7 @@ country_event = { #测试202
 	}
 	title = kmt_lanzhou_event.202.t
 	desc = kmt_lanzhou_event.202.desc
-	picture = \
+	##picture = \
 	hidden = yes
 
 	is_triggered_only = yes
@@ -156,7 +156,7 @@ country_event = { #测试400
 	}
 	title = kmt_lanzhou_event.400.t
 	desc = kmt_lanzhou_event.400.desc
-	picture = \
+	##picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -172,7 +172,7 @@ country_event = { #测试401
 	}
 	title = kmt_lanzhou_event.401.t
 	desc = kmt_lanzhou_event.401.desc
-	picture = \
+	##picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -188,7 +188,7 @@ country_event = { #测试402
 	}
 	title = kmt_lanzhou_event.402.t
 	desc = kmt_lanzhou_event.402.desc
-	picture = \
+	##picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -282,7 +282,7 @@ country_event = { #测试2
 	}
 	title = kmt_lanzhou_event.2.t
 	desc = kmt_lanzhou_event.2.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -376,7 +376,7 @@ country_event = { #测试333
 	}
 	title = kmt_lanzhou_event.333.t
 	desc = kmt_lanzhou_event.333.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -470,7 +470,7 @@ country_event = { #测试334
 	}
 	title = kmt_lanzhou_event.334.t
 	desc = kmt_lanzhou_event.334.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -564,7 +564,7 @@ country_event = { #测试335
 	}
 	title = kmt_lanzhou_event.334.t
 	desc = kmt_lanzhou_event.334.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -624,7 +624,7 @@ country_event = { #测试101
 	}
 	title = kmt_lanzhou_event.101.t
 	desc = kmt_lanzhou_event.101.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -659,7 +659,7 @@ country_event = { #测试3
 	}
 	title = kmt_lanzhou_event.3.t
 	desc = kmt_lanzhou_event.3.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -694,7 +694,7 @@ country_event = { #测试203
 	}
 	title = kmt_lanzhou_event.203.t
 	desc = kmt_lanzhou_event.203.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -729,7 +729,7 @@ country_event = { #测试204
 	}
 	title = kmt_lanzhou_event.204.t
 	desc = kmt_lanzhou_event.204.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -764,7 +764,7 @@ country_event = { #测试205
 	}
 	title = kmt_lanzhou_event.205.t
 	desc = kmt_lanzhou_event.205.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -780,7 +780,7 @@ country_event = { #测试403
 	}
 	title = kmt_lanzhou_event.403.t
 	desc = kmt_lanzhou_event.403.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -796,7 +796,7 @@ country_event = { #测试404
 	}
 	title = kmt_lanzhou_event.404.t
 	desc = kmt_lanzhou_event.404.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -812,7 +812,7 @@ country_event = { #测试405
 	}
 	title = kmt_lanzhou_event.405.t
 	desc = kmt_lanzhou_event.405.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -840,7 +840,7 @@ country_event = { #测试12
 	}
 	title = kmt_lanzhou_event.12.t
 	desc = kmt_lanzhou_event.12.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -868,7 +868,7 @@ country_event = { #测试230
 	}
 	title = kmt_lanzhou_event.230.t
 	desc = kmt_lanzhou_event.230.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -896,7 +896,7 @@ country_event = { #测试231
 	}
 	title = kmt_lanzhou_event.231.t
 	desc = kmt_lanzhou_event.231.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -924,7 +924,7 @@ country_event = { #测试232
 	}
 	title = kmt_lanzhou_event.232.t
 	desc = kmt_lanzhou_event.232.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -960,7 +960,7 @@ country_event = { #测试4
 	}
 	title = kmt_lanzhou_event.4.t
 	desc = kmt_lanzhou_event.4.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -996,7 +996,7 @@ country_event = { #测试206
 	}
 	title = kmt_lanzhou_event.206.t
 	desc = kmt_lanzhou_event.206.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1032,7 +1032,7 @@ country_event = { #测试207
 	}
 	title = kmt_lanzhou_event.207.t
 	desc = kmt_lanzhou_event.207.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1068,7 +1068,7 @@ country_event = { #测试208
 	}
 	title = kmt_lanzhou_event.208.t
 	desc = kmt_lanzhou_event.208.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1084,7 +1084,7 @@ country_event = { #测试406
 	}
 	title = kmt_lanzhou_event.406.t
 	desc = kmt_lanzhou_event.406.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1100,7 +1100,7 @@ country_event = { #测试407
 	}
 	title = kmt_lanzhou_event.407.t
 	desc = kmt_lanzhou_event.407.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1116,7 +1116,7 @@ country_event = { #测试408
 	}
 	title = kmt_lanzhou_event.408.t
 	desc = kmt_lanzhou_event.408.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1146,7 +1146,7 @@ country_event = { #测试5
 	}
 	title = kmt_lanzhou_event.5.t
 	desc = kmt_lanzhou_event.5.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1176,7 +1176,7 @@ country_event = { #测试209
 	}
 	title = kmt_lanzhou_event.209.t
 	desc = kmt_lanzhou_event.209.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1206,7 +1206,7 @@ country_event = { #测试210
 	}
 	title = kmt_lanzhou_event.210.t
 	desc = kmt_lanzhou_event.210.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1236,7 +1236,7 @@ country_event = { #测试211
 	}
 	title = kmt_lanzhou_event.211.t
 	desc = kmt_lanzhou_event.211.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1252,7 +1252,7 @@ country_event = { #测试409
 	}
 	title = kmt_lanzhou_event.409.t
 	desc = kmt_lanzhou_event.409.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1268,7 +1268,7 @@ country_event = { #测试410
 	}
 	title = kmt_lanzhou_event.410.t
 	desc = kmt_lanzhou_event.410.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1284,7 +1284,7 @@ country_event = { #测试411
 	}
 	title = kmt_lanzhou_event.411.t
 	desc = kmt_lanzhou_event.411.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1322,7 +1322,7 @@ country_event = { #测试6
 	}
 	title = kmt_lanzhou_event.6.t
 	desc = kmt_lanzhou_event.6.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1360,7 +1360,7 @@ country_event = { #测试212
 	}
 	title = kmt_lanzhou_event.212.t
 	desc = kmt_lanzhou_event.212.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1398,7 +1398,7 @@ country_event = { #测试213
 	}
 	title = kmt_lanzhou_event.213.t
 	desc = kmt_lanzhou_event.213.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1436,7 +1436,7 @@ country_event = { #测试214
 	}
 	title = kmt_lanzhou_event.214.t
 	desc = kmt_lanzhou_event.214.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1452,7 +1452,7 @@ country_event = { #测试412
 	}
 	title = kmt_lanzhou_event.412.t
 	desc = kmt_lanzhou_event.412.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1468,7 +1468,7 @@ country_event = { #测试413
 	}
 	title = kmt_lanzhou_event.413.t
 	desc = kmt_lanzhou_event.413.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1484,7 +1484,7 @@ country_event = { #测试414
 	}
 	title = kmt_lanzhou_event.414.t
 	desc = kmt_lanzhou_event.414.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1515,7 +1515,7 @@ country_event = { #测试13
 	}
 	title = kmt_lanzhou_event.13.t
 	desc = kmt_lanzhou_event.13.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1546,7 +1546,7 @@ country_event = { #测试233
 	}
 	title = kmt_lanzhou_event.233.t
 	desc = kmt_lanzhou_event.233.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1577,7 +1577,7 @@ country_event = { #测试234
 	}
 	title = kmt_lanzhou_event.234.t
 	desc = kmt_lanzhou_event.234.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1608,7 +1608,7 @@ country_event = { #测试235
 	}
 	title = kmt_lanzhou_event.235.t
 	desc = kmt_lanzhou_event.235.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1640,7 +1640,7 @@ country_event = { #测试7
 	}
 	title = kmt_lanzhou_event.7.t
 	desc = kmt_lanzhou_event.7.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1672,7 +1672,7 @@ country_event = { #测试215
 	}
 	title = kmt_lanzhou_event.215.t
 	desc = kmt_lanzhou_event.215.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1704,7 +1704,7 @@ country_event = { #测试216
 	}
 	title = kmt_lanzhou_event.216.t
 	desc = kmt_lanzhou_event.216.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1736,7 +1736,7 @@ country_event = { #测试217
 	}
 	title = kmt_lanzhou_event.217.t
 	desc = kmt_lanzhou_event.217.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1752,7 +1752,7 @@ country_event = { #测试415
 	}
 	title = kmt_lanzhou_event.415.t
 	desc = kmt_lanzhou_event.415.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1768,7 +1768,7 @@ country_event = { #测试416
 	}
 	title = kmt_lanzhou_event.416.t
 	desc = kmt_lanzhou_event.416.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1784,7 +1784,7 @@ country_event = { #测试417
 	}
 	title = kmt_lanzhou_event.417.t
 	desc = kmt_lanzhou_event.417.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1838,7 +1838,7 @@ country_event = { #测试11
 	}
 	title = kmt_lanzhou_event.11.t
 	desc = kmt_lanzhou_event.11.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1892,7 +1892,7 @@ country_event = { #测试227
 	}
 	title = kmt_lanzhou_event.227.t
 	desc = kmt_lanzhou_event.227.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -1946,7 +1946,7 @@ country_event = { #测试228
 	}
 	title = kmt_lanzhou_event.228.t
 	desc = kmt_lanzhou_event.228.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -2000,7 +2000,7 @@ country_event = { #测试229
 	}
 	title = kmt_lanzhou_event.229.t
 	desc = kmt_lanzhou_event.229.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -2030,7 +2030,7 @@ country_event = { #测试8
 	}
 	title = kmt_lanzhou_event.8.t
 	desc = kmt_lanzhou_event.8.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -2060,7 +2060,7 @@ country_event = { #测试218
 	}
 	title = kmt_lanzhou_event.218.t
 	desc = kmt_lanzhou_event.218.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -2090,7 +2090,7 @@ country_event = { #测试219
 	}
 	title = kmt_lanzhou_event.219.t
 	desc = kmt_lanzhou_event.219.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -2120,7 +2120,7 @@ country_event = { #测试220
 	}
 	title = kmt_lanzhou_event.220.t
 	desc = kmt_lanzhou_event.220.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -2147,7 +2147,7 @@ country_event = { #测试9
 	}
 	title = kmt_lanzhou_event.9.t
 	desc = kmt_lanzhou_event.9.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -2174,7 +2174,7 @@ country_event = { #测试221
 	}
 	title = kmt_lanzhou_event.221.t
 	desc = kmt_lanzhou_event.221.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -2201,7 +2201,7 @@ country_event = { #测试222
 	}
 	title = kmt_lanzhou_event.222.t
 	desc = kmt_lanzhou_event.222.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -2228,7 +2228,7 @@ country_event = { #测试223
 	}
 	title = kmt_lanzhou_event.223.t
 	desc = kmt_lanzhou_event.223.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -2252,7 +2252,7 @@ country_event = { #测试10
 	}
 	title = kmt_lanzhou_event.10.t
 	desc = kmt_lanzhou_event.10.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -2276,7 +2276,7 @@ country_event = { #测试224
 	}
 	title = kmt_lanzhou_event.224.t
 	desc = kmt_lanzhou_event.224.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -2300,7 +2300,7 @@ country_event = { #测试225
 	}
 	title = kmt_lanzhou_event.225.t
 	desc = kmt_lanzhou_event.225.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -2324,7 +2324,7 @@ country_event = { #测试226
 	}
 	title = kmt_lanzhou_event.226.t
 	desc = kmt_lanzhou_event.226.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -2340,7 +2340,7 @@ country_event = { #测试20
 	}
 	title = kmt_lanzhou_event.20.t
 	desc = kmt_lanzhou_event.20.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -2356,7 +2356,7 @@ country_event = { #测试21
 	}
 	title = kmt_lanzhou_event.21.t
 	desc = kmt_lanzhou_event.21.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -2372,7 +2372,7 @@ country_event = { #测试22
 	}
 	title = kmt_lanzhou_event.22.t
 	desc = kmt_lanzhou_event.22.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -2388,7 +2388,7 @@ country_event = { #测试23
 	}
 	title = kmt_lanzhou_event.23.t
 	desc = kmt_lanzhou_event.23.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -2404,7 +2404,7 @@ country_event = { #测试24
 	}
 	title = kmt_lanzhou_event.24.t
 	desc = kmt_lanzhou_event.24.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -2420,7 +2420,7 @@ country_event = { #测试25
 	}
 	title = kmt_lanzhou_event.25.t
 	desc = kmt_lanzhou_event.25.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	hidden = yes
@@ -2463,7 +2463,7 @@ country_event = { #测试99
 	}
 	title = kmt_lanzhou_event.99.t
 	desc = kmt_lanzhou_event.99.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	option = {
@@ -2506,7 +2506,7 @@ country_event = { #测试98
 	}
 	title = kmt_lanzhou_event.98.t
 	desc = kmt_lanzhou_event.98.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	option = {
@@ -2549,7 +2549,7 @@ country_event = { #测试
 	}
 	title = kmt_lanzhou_event.100.t
 	desc = kmt_lanzhou_event.100.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	option = {
@@ -2567,7 +2567,7 @@ country_event = { #测试444
 	}
 	title = kmt_lanzhou_event.444.t
 	desc = kmt_lanzhou_event.444.desc
-	picture = \
+	#picture = \
 
 	is_triggered_only = yes
 	option = {

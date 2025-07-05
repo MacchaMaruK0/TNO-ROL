@@ -74,8 +74,6 @@ guiTypes = {
         position = { x = 25 y = 19 }
         size = { height = 618 width = 500 }
 		
-		
-
         ### Top Bar ###
         containerWindowType = {
             name = "ROL_regional1_TOPBAR"

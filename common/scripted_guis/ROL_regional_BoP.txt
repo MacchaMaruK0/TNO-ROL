@@ -132,7 +132,6 @@ scripted_gui = {
 
 		visible = {
 			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
-			tag = GNG
 			NOT = {has_country_flag = ROL_regional_off}
 		}
 

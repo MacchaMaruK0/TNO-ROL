@@ -12,8 +12,6 @@ ROL_add_tab = {
 		set_variable = { selected_decision_tabs_id = decision_tabs_id }
 		clear_array = world_conflict_guis
 		add_to_array = { world_conflict_guis = selected_conflict_id }
-
-		
 	}
 	if = {
 		limit = {
