@@ -758,8 +758,14 @@
  BoP_Tab_ROLregional: "抗日统一战线"
  BOP_BUTTON_NOT_ROL: "外交事务"
  BOP_BUTTON_KMT: "地区冲突"
- BOP_TOOLTIP_KMT: "§F点击在四分五裂的中华大地上展开§Y外交§!、解决§Y冲突§!、维护§Y统一战线§!。§!"
+ BOP_TOOLTIP:1 "[GetBOPbuttonintro]"
+ BOP_TOOLTIP_KMT:1 "§F在四分五裂的中华大地上展开§Y外交§!、解决§Y冲突§!、维护§Y统一战线§!。§!"
  BOP_TOOLTIP_NOT_ROL: "§F点击管理§Y外交§!、§Y全球冲突§!和你的§Y情报机构§!。§!"
+ TNO_GlobalConflicts_GUI_Title: "全球冲突"
+ ROL_regional_GUI_Title: "抗日统一战线"
+ ROL_regional_info_icon_tt: "PLACEHOLDER-信息按钮"
+ ROL_regional_info_icon_tt_delayed: "PLACEHOLDER-信息按钮延迟提示"
+ BOP_BUTTON:0 "[GetBOPbuttonname]"
  
  #####bookmark
  BOOKMARK_KUOMINTANG_BLOCKER: "§B西北行辕§!"

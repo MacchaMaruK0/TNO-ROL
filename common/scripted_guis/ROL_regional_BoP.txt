@@ -1,8 +1,18 @@
-TNO_SG_politics_bop_cover = {
-    context_type = player_context
-    parent_window_token = politics_tab
-    window_name = "ROL_SG_politics_bop_cover"
-    visible = {
-        has_any_power_balance = yes
-    }
-}
+scripted_gui = {	
+	ROL_SG_politics_bop_cover = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "ROL_SG_politics_bop_cover"
+		visible = {
+			has_any_power_balance = yes
+		}
+	}
+	
+	ROL_regional_base_container = {
+		window_name = "ROL_regional_base_container"
+		context_type = player_context
+		parent_window_name = powerbalanceview
+		ai_enabled = { always = no }
+		visible = { check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional } } 
+	}	
+}	

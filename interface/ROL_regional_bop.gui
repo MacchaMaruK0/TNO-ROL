@@ -1,0 +1,97 @@
+guiTypes = {    
+	containerWindowType = {
+        name = "ROL_regional_base_container"
+        position = { x = 25 y = 19 }
+        size = { height = 618 width = 500 }
+
+        ### Top Bar ###
+        containerWindowType = {
+            name = "ROL_regional_TOPBAR"
+            position = { x = 41 y = -24 }
+            
+            # Title
+            instantTextBoxType = {
+                name = "GlobalConflicts_GUI_Title"
+                position = { x = 0 y = 0 }
+                font = "vt323_72_WT_outline"
+                text = [GetGCname]
+                maxWidth = 857
+                maxHeight = 58
+                format = center
+                fixedsize = yes
+                alwaystransparent = yes
+            }
+
+            # Info Button
+            iconType = {
+                name = "ROL_regional_GUI_InfoBtn"
+                spriteType = "GFX_ParliamentMechanic_InfoButton"
+                position = { x = 901 y = 29 }
+                pdx_tooltip = "ROL_regional_info_icon_tt"
+                pdx_tooltip_delayed = "ROL_regional_info_icon_tt_delayed"
+            }
+        }
+        # Vertical Divider
+        iconType = {
+            name = "GlobalConflicts_GUI_VerticalDivider"
+            position = { x = 513 y = 67 }
+            spriteType = "GFX_BoP_Base_Vertical_Divider_Full"
+        }
+        # Decisions Divider
+        iconType = {
+            name = "GlobalConflicts_GUI_DecisionDivider"
+            position = { x = 529 y = 154 }
+            spriteType = "GFX_BoP_Decision_Divider"
+        }
+
+        iconType = {
+            name = "tabs"
+            spriteType = "GFX_fopo_crisis_box"
+            position = { x = 2 y = 72 }
+            alwaystransparent = yes
+        }
+
+        containerWindowType = {
+            name = "tabs_container"
+            horizontalScrollbar = "top_horizontal_slider"
+            size = { width = 500 height = 90 }
+            position = { x = 520 y = 70 }
+            margin = { top = 0 left = 0 bottom = 0 right = 0 }
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_transparent"
+            }
+    
+            gridboxtype = {
+                name = "decision_tabs"
+                position = { x = 0 y = 15 }
+                size = { width = 480 height = 45 }
+                slotsize = { width = 120 height = 45 }
+                add_horizontal = yes
+            }
+        }
+        buttonType = {
+            name = "production_btn"
+            spriteType = "GFX_pro_button"
+            position = { x = 12 y = 120 }
+            pdx_tooltip = manage_production_tt
+        }
+        buttonType = {
+            name = "competitiveness_btn"
+            spriteType = "GFX_con_button"
+            position = { x = 256 y = 120 }
+            pdx_tooltip = manage_competitiveness_tt
+        }    
+        iconType = {
+            name = "conflict_status"
+            spriteType = "GFX_fopo_conflict_status"
+            position = { x = 12 y = 82 }
+            alwaystransparent = yes
+        }
+        containerWindowType = {
+            name = "conflict_guis_container"
+            position = { x = 4 y = 112 }
+        }
+    }
+}		

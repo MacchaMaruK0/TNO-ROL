@@ -346,22 +346,27 @@ guiTypes = {
 	containerWindowType = {
 		name = "ROL_SG_politics_bop_cover"
 		position = { x = 367 y = 483 }
-		instantTextBoxType = {
-			name = "ROL_cover_button"
-			quadTextureSprite = "GFX_tno_button_148x34"
-			font = "Bomb_16"
-			Orientation = "UPPER_LEFT"
-			text = "BOP_BUTTON"
-			maxWidth = 148
-			maxHeight = 34
-			alwaystransparent = yes
-		}
 		
 		iconType = {
 			name = "cover_button_ROL_icon"
 			quadTextureSprite = "GFX_tno_button_148x34"
 			alwaystransparent = yes
 		}
+		
+		instantTextBoxType = {
+			name = "ROL_cover_button"
+			quadTextureSprite = "GFX_tno_button_148x34"
+			font = "Bomb_16"
+			text = "BOP_BUTTON"
+			maxWidth = 148
+			maxHeight = 34
+			alwaystransparent = yes
+			format = center
+			position = { x = 0 y = 9 }
+			Orientation = "CENTER"
+		}
+		
+		
 		
 	}
 
