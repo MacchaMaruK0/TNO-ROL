@@ -164,5 +164,11 @@ spriteTypes = {
 		name = GFX_ROL_KMT_party_bureau_investigation_icon
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_bureau_investigation_icon.png"
 	}
+	####
+	spriteType = { #研究院-李焕
+		name = GFX_ROL_KMT_Lihuan_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_Lihuan_texticon.png"
+		legacy_lazy_load = no
+	}
 	
 }	

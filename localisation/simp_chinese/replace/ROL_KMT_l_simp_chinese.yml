@@ -239,7 +239,6 @@
  #debug
  ROL_KMT_Debug_Category:0 "§B烤馒头§!的小工具"
  ROL_KMT_Debug_Category_desc:0 " "
- KMT_ROL_Add_Bop_Bar_2_1:0 "加载地区冲突界面第二栏第一格"
  KMT_ROL_Add_Bop_Bar_2_2:0 "加载地区冲突界面第二栏第二格"
  KMT_ROL_Luo_Lie_2_dec:0 "§j加载£GFX_KMT_lixing_icon 罗列兰州危机后国策树§!"
  KMT_ROL_zhang_dec:0 "§B加载£GFX_KMT_tpp_icon 张治中兰州危机后国策树§!"
@@ -755,6 +754,7 @@
  ROL_KMT_party_5: "秘書長"
  ROL_KMT_party_button_2_info: "点击切换至处理党务事务"
  ROL_KMT_party_button_1_info: "点击切换至处理常委事务"
+ ROL_KMT_party_rev_school_tt: "§Y革命实践研究院§!\n§W--------------\n§!1945年，随着何应钦投降，东亚战争至此暂告一段落。国民党在痛定思痛之余，检讨失败的原因，缺乏基层建设是根本问题之一。鉴于三民主义青年团并未达到预期的效果，因此决定另起炉灶，由张治中与卫立煌共同创建革命实践研究院。之后，§Y革命实践研究院§!长期作为培训青年干部的机构存在，为党国培养更多优秀青年干部以继续进行抗战事业。\n\n在卫立煌去世后，西南提出由张治中接替卫立煌，但遭到强硬蒋派反对，最终只得作罢，改为推举胡宗南担任长官，而又卫立煌与张治中建立的§Y革命实践研究院§!亦逐渐衰微，乃至形同虚设。\n§W--------------\n\n\n\n\n\n§!£GFX_ROL_KMT_Lihuan_texticon \n\n\n\n\n\n§W--------------\n§Y革命实践研究院§!现任院长为：§Y李焕§!\n\n当前对其投入的§G党政资源§!为[?ROL_KMT_party_youth_green_num|Y1]\n当前对其施加的§R影响力§!为[?ROL_KMT_party_youth_red_num|Y1]\n§W--------------\n§!点击与§Y革命实践研究院§!进行互动"
  
  ######地区冲突
  BoP_Tab_ROLregional: "抗日统一战线"
@@ -767,8 +767,8 @@
  TNO_GlobalConflicts_GUI_Title: "全球冲突"
  ROL_regional_GUI_Title: "抗日统一战线"
  ROL_regional1_GUI_Title: "地区冲突"
- ROL_regional_info_icon_tt: "PLACEHOLDER-信息按钮"
- ROL_regional_info_icon_tt_delayed: "PLACEHOLDER-信息按钮延迟提示"
+ ROL_regional_info_icon_tt: "§Y抗日统一战线§!"
+ ROL_regional_info_icon_tt_delayed: "§Y1945年，东亚的枪炮声逐渐平息，日本人虽在中国取得了较大成果，但其未能彻底取得胜利。大规模的战斗不再出现，但抵抗之火仍旧在全国各地燃烧，中国依然团结在名为统一战线的旗帜之下。\n\n然而，虽统一战线名义上仍然存在，但其内部已然是四分五裂，各路军阀看似服从云南国民党中央的领导，实则都有着自己的利益打算，对其命令也多有不从。不过，在可以预见的未来，假若出现一位可以统领西部的领袖，统一战线也将浴火重生，再一次团结起中国人民，对侵略者发起进攻…§!"
  BOP_BUTTON:0 "[GetBOPbuttonname]"
  KMT_desicion_tab_name:0 "占位符，需要补充Scripted_loc，请抄DOP"
 
