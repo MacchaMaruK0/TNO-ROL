@@ -58,6 +58,22 @@ scripted_gui = {
 				# y = KMT_party_y^ROL_KMT_party_faction_i
 				frame = v
 			}
+			####
+			ROL_KMT_youth_green_bar = {
+				frame = ROL_KMT_party_youth_green_num
+			}
+			
+			ROL_KMT_youth_red_bar = {
+				frame = ROL_KMT_party_youth_red_num
+			}
+			####
+			ROL_KMT_CBI_green_bar = {
+				frame = ROL_KMT_party_CBI_green_num
+			}
+			
+			ROL_KMT_CBI_red_bar = {
+				frame = ROL_KMT_party_CBI_red_num
+			}
 		}
 		
 		effects = {
@@ -72,6 +88,104 @@ scripted_gui = {
 					set_country_flag = ROL_KMT_control_1_flag
 				}
 			}
+			
+			ROL_KMT_party_button_2_button_click = {
+				set_country_flag = ROL_KMT_party_suppor_visible
+			}
+			
+			ROL_KMT_party_button_1_button_click = {
+				clr_country_flag = ROL_KMT_party_suppor_visible
+			}
 		}	
+		
+		triggers = {
+			ROL_KMT_party_big_icon_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			
+			ROL_KMT_party_suppor_big_icon_visible = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
+			
+			txt_ROL_KMT_party_1_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			txt_ROL_KMT_party_2_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			txt_ROL_KMT_party_3_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			txt_ROL_KMT_party_4_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			txt_ROL_KMT_party_5_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			
+			ROL_KMT_tpp_big_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			ROL_KMT_Youtharmy_big_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			ROL_KMT_tumu_big_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			ROL_KMT_hunangang_big_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			ROL_KMT_taizi_big_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			ROL_KMT_zaizao_big_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			
+			ROL_KMT_zhang_1_icon_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			ROL_KMT_jiang_1_icon_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			
+			ROL_KMT_party_button_2_button_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			ROL_KMT_party_button_1_button_visible = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
+			
+			parliament_dot_icon_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			
+			#####
+			
+			ROL_KMT_youth_green_bar_visible = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
+			
+			ROL_KMT_youth_red_bar_visible = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
+			
+			ROL_KMT_CBI_green_bar_visible = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
+			
+			ROL_KMT_CBI_red_bar_visible = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
+			
+			#####
+			ROL_KMT_party_rev_school_visible = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
+			
+			ROL_KMT_party_bureau_investigation_visible = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
+		}
 	}
 }

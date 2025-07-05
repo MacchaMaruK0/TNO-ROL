@@ -1,0 +1,61 @@
+scripted_gui = {
+	ROL_KMT_bar_text_ui_window = {
+		context_type = decision_category
+		window_name = "ROL_KMT_bar_text_ui_window"
+		
+		dynamic_lists = {
+			ROL_KMT_bar_text_line_1 = {
+			array = ROL_KMT_bar_text_line_segments
+			entry_container = ROL_KMT_bar_text_target
+			value = segment_value
+			index = segment_idx
+			}
+			
+			ROL_KMT_bar_text_vbars = {
+                array = ROL_KMT_bar_text_line_vbars
+                entry_container = ROL_KMT_text_Graph_vbar
+                index = vbar_idx
+            }
+
+            ROL_KMT_bar_text_hbars = {
+                array = ROL_KMT_bar_text_line_hbar
+                entry_container = ROL_KMT_text_Graph_hbar
+                index = hbar_idx
+            }
+		}
+		
+		triggers= {
+			hbar_visible = {
+                set_temp_variable = { hmod = hbar_idx }
+                modulo_temp_variable = { hmod = 4 } ###意为/4取余，若为0则使用粗线
+                check_variable = { hmod = 0 }
+            }
+            hbar_light_visible = {
+                set_temp_variable = { hmod = hbar_idx }
+                modulo_temp_variable = { hmod = 4 } ###意为/4取余，若不为0则使用细线
+                check_variable = { hmod > 0 }
+            }
+			
+			####vabr
+			vbar_visible = {
+                  check_variable = { ROL_KMT_bar_text_line_vbars^vbar_idx > -1 }
+            }
+            vbar_light_visible = {
+                check_variable = { ROL_KMT_bar_text_line_vbars^vbar_idx = -1.01 }
+            }
+		}
+		
+		properties = {
+            ROL_KMT_line_segment = {
+                frame = segment_value
+            }
+			
+			vbar = {
+                y = ROL_KMT_text_graph_vbar_offsets^vbar_idx
+            }
+            vbar_light = {
+                y = ROL_KMT_text_graph_vbar_offsets^vbar_idx
+            }
+		}
+	}
+}	

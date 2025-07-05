@@ -46,6 +46,19 @@ ROL_KMT_red_blood_Category = {
 	visible_when_empty = yes
 }
 
+ROL_KMT_bar_text_Category = {
+    icon = /
+	allowed = {
+		original_tag = KMT
+	}
+	visible = {
+		is_debug = yes
+	}
+	scripted_gui = ROL_KMT_bar_text_ui_window
+	priority = 1000
+	visible_when_empty = yes
+}
+
 ROL_QIN_run_down_Category = {
     icon = /
 	allowed = {
