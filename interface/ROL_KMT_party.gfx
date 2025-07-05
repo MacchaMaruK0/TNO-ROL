@@ -101,6 +101,12 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
+	spriteType = { #大框
+		name = GFX_ROL_KMT_party_suppor_big_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_suppor_big_icon.png"
+		legacy_lazy_load = no
+	}
+	
 	spriteType = { #主任委员张治中
 		name = GFX_ROL_KMT_zhang_1_icon
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_zhang_1_icon.png"
@@ -111,6 +117,52 @@ spriteTypes = {
 		name = GFX_ROL_KMT_jiang_1_icon
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_jiang_1_icon.png"
 		legacy_lazy_load = no
+	}
+	###
+	spriteType = { #切换按钮1
+		name = GFX_ROL_KMT_party_button_1_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_button_1_icon.png"
+	}
+	
+	spriteType = { #切换按钮2
+		name = GFX_ROL_KMT_party_button_2_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_button_2_icon.png"
+	}
+	
+	#####
+	progressbartype = {
+		name = GFX_ROL_KMT_youth_green_bar_bill
+		textureFile1 = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_youth_green_bar_full.png"
+		textureFile2 = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_youth_circle_bar_empty.png"
+		size = {
+			x = 176
+			y = 176
+		}
+		effectFile = "gfx/FX/progress_radial.lua"
+		horizontal = yes
+	}
+	
+	progressbartype = {
+		name = GFX_ROL_KMT_youth_red_bar_bill
+		textureFile1 = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_youth_red_bar_full.png"
+		textureFile2 = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_youth_circle_bar_empty.png"
+		size = {
+			x = 156
+			y = 156
+		}
+		effectFile = "gfx/FX/progress_radial.lua"
+		horizontal = yes
+	}
+	
+	####
+	spriteType = { #革命实践研究院
+		name = GFX_ROL_KMT_party_rev_school_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_rev_school_icon.png"
+	}
+	
+	spriteType = { #调查局
+		name = GFX_ROL_KMT_party_bureau_investigation_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_bureau_investigation_icon.png"
 	}
 	
 }	

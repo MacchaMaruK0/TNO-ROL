@@ -179,7 +179,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_ROL_KMT_lanzhou_second_icon" #第三阶段的texticon
+		name = "GFX_ROL_KMT_lanzhou_third_icon" #第三阶段的texticon
 		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/ROL_KMT_lanzhou_third_icon.png"
 		legacy_lazy_load = no
 	}

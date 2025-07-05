@@ -17,7 +17,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "ROL_KMT_party_GUI"
 		size = { width = 1280 height = 968 }
-		position = { x = 238 y = 220 }
+		position = { x = 148 y = 90 }
 		show_sound = open_sub_window
 		moveable = yes
 		clipping = no
@@ -33,6 +33,40 @@ guiTypes = {
             spriteType = "GFX_ROL_KMT_party_big_icon"
         }
 		
+		iconType = { 
+			name = "ROL_KMT_party_suppor_big_icon" 
+			position = { x = 18 y = 18 } 
+            spriteType = "GFX_ROL_KMT_party_suppor_big_icon"
+        }
+		######研究院双条
+		iconType = { 
+            name = "ROL_KMT_youth_green_bar" 
+            position = { x = 120 y = 180 } 
+            spriteType = "GFX_ROL_KMT_youth_green_bar_bill"
+            pdx_tooltip = ROL_KMT_youth_green_tt
+        }
+		
+		iconType = { 
+            name = "ROL_KMT_youth_red_bar" 
+            position = { x = 130 y = 190 } 
+            spriteType = "GFX_ROL_KMT_youth_red_bar_bill"
+            pdx_tooltip = ROL_KMT_youth_red_tt
+        }
+		######
+		iconType = { 
+            name = "ROL_KMT_CBI_green_bar" 
+            position = { x = 379 y = 183 } 
+            spriteType = "GFX_ROL_KMT_youth_green_bar_bill"
+            pdx_tooltip = ROL_KMT_CBI_green_tt
+        }
+		
+		iconType = { 
+            name = "ROL_KMT_CBI_red_bar" 
+            position = { x = 389 y = 193 } 
+            spriteType = "GFX_ROL_KMT_youth_red_bar_bill"
+            pdx_tooltip = ROL_KMT_CBI_red_tt
+        }
+		######
 		instantTextboxType = {
 			name = "txt_ROL_KMT_party_1"
 			position = { x = 285 y = 150 }
@@ -103,7 +137,21 @@ guiTypes = {
             spriteType = "GFX_ROL_KMT_tpp_big_icon"
             pdx_tooltip = ROL_KMT_Youtharmy_big_tt
 		}
+		####
+		buttonType = {
+            name = "ROL_KMT_party_rev_school"
+            position = { x = 152 y = 212 }
+            spriteType = "GFX_ROL_KMT_party_rev_school_icon"
+            pdx_tooltip = ROL_KMT_party_rev_school_tt
+		}
 		
+		buttonType = {
+            name = "ROL_KMT_party_bureau_investigation"
+            position = { x = 411 y = 216 }
+            spriteType = "GFX_ROL_KMT_party_bureau_investigation_icon"
+            pdx_tooltip = ROL_KMT_party_CBI_tt
+		}
+		####
 		iconType = {
             name = "ROL_KMT_Youtharmy_big"
             position = { x = 75 y = 739 }
@@ -159,6 +207,24 @@ guiTypes = {
             spriteType = "GFX_ROL_KMT_jiang_1_icon"
         }
 		
+		buttonType = {
+			name = "ROL_KMT_party_button_2_button"
+		 	position = { x = 1047 y = 130 }
+			orientation = "UPPER_LEFT"
+			spriteType = "GFX_ROL_KMT_party_button_2_icon"
+			pdx_tooltip = ROL_KMT_party_button_2_info
+		}
+		
+		buttonType = {
+			name = "ROL_KMT_party_button_1_button"
+		 	position = { x = 1047 y = 130 }
+			orientation = "UPPER_LEFT"
+			spriteType = "GFX_ROL_KMT_party_button_1_icon"
+			pdx_tooltip = ROL_KMT_party_button_1_info
+		}
+		
+			
+		
 		containerWindowType = {
 			name = "ROL_KMT_GUI_Party_Seats"
 			position = { x = 5 y = -12 }
@@ -174,7 +240,9 @@ guiTypes = {
 			}
 		}
 
-	}	
+	}
+	
+	
 	
 	containerWindowType = {
 		name = "ROL_KMT_party_seat"

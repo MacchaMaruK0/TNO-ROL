@@ -1,0 +1,90 @@
+guiTypes = {
+
+
+	containerWindowType = {
+		name = "ROL_KMT_bar_text_target"
+		
+		iconType = {
+			name = "ROL_KMT_line_segment"
+			spriteType = "GFX_text_gui_Linegraph_Potential"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = ROL_KMT_graph_tt
+		}
+	}
+
+	containerWindowType = {
+        name = "ROL_KMT_text_Graph_vbar"
+
+        iconType = {
+            name = "vbar"
+            spriteType = "GFX_ROL_KMT_text_Graph_Vbar"
+            position = { x = 0 y = 0 }
+        }
+        iconType = {
+            name = "vbar_light"
+            spriteType = "GFX_ROL_KMT_text_Graph_Vbar_Light"
+            position = { x = 0 y = 0 }
+        }
+    }
+
+    containerWindowType = {
+        name = "ROL_KMT_text_Graph_hbar"
+
+        iconType = {
+            name = "hbar"
+            spriteType = "GFX_ROL_KMT_text_Graph_Hbar"
+            position = { x = 0 y = 0 }
+        }
+        iconType = {
+            name = "hbar_light"
+            spriteType = "GFX_ROL_KMT_text_Graph_Hbar_Light"
+            position = { x = 0 y = 0 }
+        }
+	}	
+			
+			
+			
+	containerWindowType = {
+		name = "ROL_KMT_bar_text_ui_window"
+		size = { width = 600 height = 350 }
+		
+		containerWindowType = {
+			name = "graph"
+			position = { x = 100 y = 110 }
+			
+			iconType = {
+				name = "graph_back"
+				spriteType = GFX_ROL_KMT_text_Back
+				position = { x = -2 y = 1 }
+			}
+			
+			containerWindowType = {
+			name = "ROL_KMT_bar_text"
+			position = { x = -172 y = 0 }
+
+				gridboxtype = {
+					name = "ROL_KMT_bar_text_line_1"
+					position = { x = -2 y = 1 }
+					size = { width = 360 height = 200 }
+					slotsize = { width = 15 height = 200 }
+				}
+				
+				gridboxtype = {
+                    name = "ROL_KMT_bar_text_vbars"
+                    position = { x = 164 y = 201 }
+                    size = { width = 360 height = 200 }
+                    slotsize = { width = 360 height = 0 }
+                    max_slots_horizontal = 1 ###不让两条线并排出现
+                    add_horizontal = no
+                }
+                gridboxtype = {
+                    name = "ROL_KMT_bar_text_hbars"
+                    position = { x = -1 y = 2 }
+                    size = { width = 360 height = 200 }
+                    slotsize = { width = 15 height = 0 }
+                    add_horizontal = yes
+                }
+			}
+		}	
+	}
+}	
