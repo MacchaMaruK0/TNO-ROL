@@ -239,7 +239,6 @@
  #debug
  ROL_KMT_Debug_Category:0 "§B烤馒头§!的小工具"
  ROL_KMT_Debug_Category_desc:0 " "
- KMT_ROL_Add_Bop_Bar_2_1:0 "加载地区冲突界面第二栏第一格"
  KMT_ROL_Luo_Lie_2_dec:0 "§j加载£GFX_KMT_lixing_icon 罗列兰州危机后国策树§!"
  KMT_ROL_zhang_dec:0 "§B加载£GFX_KMT_tpp_icon 张治中兰州危机后国策树§!"
  Choose_Luo:0 "支持§Y候选人§!"
@@ -754,6 +753,7 @@
  ROL_KMT_party_5: "秘書長"
  ROL_KMT_party_button_2_info: "点击切换至处理党务事务"
  ROL_KMT_party_button_1_info: "点击切换至处理常委事务"
+ ROL_KMT_party_rev_school_tt: "§Y革命实践研究院§!\n§W--------------\n§!1945年，随着何应钦投降，东亚战争至此暂告一段落。国民党在痛定思痛之余，设立中央改造委员会，检讨失败的原因。鉴于三民主义青年团并未达到预期的效果，因此决定另起炉灶，由张治中与卫立煌共同创建革命实践研究院。之后，§Y革命实践研究院§!长期作为统战机构存在，继续协调国共关系以继续进行抗战事业。\n\n在卫立煌去世后，西南提出由张治中接替卫立煌，但遭到强硬蒋派反对，最终只得作罢，改为推举胡宗南担任长官，至此，国共合作已是名存实亡，而为继续协调国共合作的§Y革命实践研究院§!亦成为无人问津的虚职。\n§W--------------\n\n\n\n\n\n§!£GFX_ROL_KMT_Lihuan_texticon \n\n\n\n\n\n§W--------------\n§Y革命实践研究院§!现任院长为：§Y李焕§!\n\n当前对其投入的§G党政资源§!为[?ROL_KMT_party_youth_green_num|Y1]\n当前对其施加的§R影响力§!为[?ROL_KMT_party_youth_red_num|Y1]\n§W--------------\n§!点击与§Y革命实践研究院§!进行互动"
  
  ######地区冲突
  BoP_Tab_ROLregional: "抗日统一战线"
