@@ -1,0 +1,22 @@
+add_namespace = ROL_BoP_event
+
+country_event = {
+	id = ROL_BoP_event.1 
+	title = ROL_BoP_event.1.t
+	desc = ROL_BoP_event.1.d 
+
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ROL_BoP_event.1"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = { 
+		name = ROL_BoP_event.1.a
+		set_temp_variable = { TabName = token:BoP_Tab_ROLregional }
+		TNO_BoP_ROLregional_AddTab = yes
+	}
+}

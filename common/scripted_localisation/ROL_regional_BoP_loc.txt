@@ -1,0 +1,27 @@
+BOP_BUTTON:0 "[GetBOPbuttonname]"
+
+defined_text = {
+	name = GetBOPbuttonname
+	text = {
+		trigger = {
+			Tag = KMT
+		}
+		localization_key = BOP_BUTTON_KMT
+	}
+	text = {
+		localization_key = BOP_BUTTON_NOT_ROL
+	}
+}
+
+defined_text = {
+	name = GetBOPbuttonintro
+	text = {
+		trigger = {
+			Tag = KMT
+		}
+		localization_key = BOP_TOOLTIP_KMT
+	}
+	text = {
+		localization_key = BOP_TOOLTIP_NOT_ROL
+	}
+}

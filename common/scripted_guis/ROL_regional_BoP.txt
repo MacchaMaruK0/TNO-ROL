@@ -1,0 +1,8 @@
+TNO_SG_politics_bop_cover = {
+    context_type = player_context
+    parent_window_token = politics_tab
+    window_name = "ROL_SG_politics_bop_cover"
+    visible = {
+        has_any_power_balance = yes
+    }
+}

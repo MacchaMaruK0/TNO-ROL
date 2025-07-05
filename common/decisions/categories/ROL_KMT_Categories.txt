@@ -70,3 +70,8 @@ ROL_QIN_run_down_Category = {
 	priority = 1000
 	visible_when_empty = yes
 }
+
+ROL_KMT_regional_category = {#地区冲突
+	allowed = { original_tag = KMT }
+	visible = { is_debug = yes }
+}

@@ -1,0 +1,7 @@
+#这个文件定义了地区冲突的素材
+spriteTypes = {
+	spriteType = { #ROL_KMT_regional_category
+	name = "GFX_BoP_Tab_ROLregional_Icon"
+	textureFile = "gfx/interface/bop/GFX_BoP_Tab_Espionage_Icon.dds"
+	}
+}	
