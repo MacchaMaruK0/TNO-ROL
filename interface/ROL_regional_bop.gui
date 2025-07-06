@@ -154,7 +154,7 @@ guiTypes = {
 				text = "ROL_KMT_red_blood_act_txt"
 				format = center
 				fixedsize = yes
-				pdx_tooltip = ROL_KMT_red_blood_act_info
+				pdx_tooltip = "ROL_KMT_red_blood_act_info"
 			}
 		
 			
@@ -170,6 +170,7 @@ guiTypes = {
 			background = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window_transparent"
+				alwaystransparent = yes
 			}
 	
 			gridboxtype = {
