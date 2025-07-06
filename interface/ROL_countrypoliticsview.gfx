@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_country_selection_bg_ROL"
+		textureFile = "gfx/interface/GUI/country_selection_rol.dds"
+	}
+	spriteType = {
+		name = "GFX_country_selection_cover_ROL"
+		textureFile = "gfx/interface/GUI/country_cover.dds"
+	}
+}
