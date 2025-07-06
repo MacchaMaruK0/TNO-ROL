@@ -171,4 +171,10 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
+	spriteType = { #调查局-王昇
+		name = GFX_ROL_KMT_Wangsheng_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_Wangsheng_texticon.png"
+		legacy_lazy_load = no
+	}
+	
 }	

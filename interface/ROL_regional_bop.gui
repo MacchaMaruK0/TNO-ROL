@@ -127,75 +127,47 @@ guiTypes = {
 		
 			iconType = {
 				name = "ROL_KMT_red_blood_bg"
-				position = { x = 25 y = 260 }
+				position = { x = 125 y = 260 }
 				spriteType = "GFX_ROL_KMT_red_blood_bg"
+			}
+			
+			iconType = {
+				name = "ROL_KMT_red_blood_infor"
+				position = { x = 5 y = 75 }
+				spriteType = "GFX_Burgundy_GUI_Info_Button"
+				pdx_tooltip = ROL_KMT_red_blood_info
+				pdx_tooltip_delayed = ROL_KMT_red_blood_delayed_info
 			}
 		
 			iconType = {
 				name = "ROL_KMT_txt_icon"
-				position = { x = 3 y = 200 }
+				position = { x = 45 y = 80 }
 				spriteType = "GFX_ROL_KMT_txt_icon"
 			}
 		
 			buttonType = {
 				name = "ROL_KMT_kmt_botton"
-				position = { x = 47 y = 264 }
+				position = { x = 147 y = 264 }
 				spriteType = "GFX_ROL_KMT_kmt_botton"
 				pdx_tooltip = ROL_KMT_kmt_botton_tt
 			}
 		
 			buttonType = {
 				name = "ROL_KMT_cpc_botton"
-				position = { x = 211 y = 326 }
+				position = { x = 311 y = 326 }
 				spriteType = "GFX_ROL_KMT_cpc_botton"
 				pdx_tooltip = ROL_KMT_cpc_botton_tt
 			}
 		
 			iconType = {
 				name = "ROL_KMT_yushu_icon"
-				position = { x = 25 y = 357 }
+				position = { x = 125 y = 357 }
 				spriteType = "GFX_ROL_KMT_yushu_icon"
-			}
-		
-			iconType = {
-				name = "ROL_KMT_solider_bar_full_empty"
-				position = { x = 336 y = 250 }
-				spriteType = "GFX_ROL_KMT_solider_bar_full"
-			}
-		
-			iconType = {
-				name = "ROL_KMT_solider_bar"
-				position = { x = 336 y = 283 }
-				spriteType = "GFX_ROL_KMT_solider_bar"
-			}
-		
-			iconType = {
-				name = "ROL_KMT_supply_bar_full"
-				position = { x = 396 y = 250 }
-				spriteType = "GFX_ROL_KMT_supply_bar_full"
-			}
-		
-			iconType = {
-				name = "ROL_KMT_supply_bar"
-				position = { x = 396 y = 283 }
-				spriteType = "GFX_ROL_KMT_supply_bar"
-			}
-		
-			iconType = {
-				name = "ROL_KMT_level_bar_full"
-				position = { x = 456 y = 250 }
-				spriteType = "GFX_ROL_KMT_level_bar_full"
-			}
-		
-			iconType = {
-				name = "ROL_KMT_level_bar"
-				position = { x = 456 y = 283 }
-				spriteType = "GFX_ROL_KMT_level_bar"
 			}
 		
 			instantTextBoxType={
 				name = "ROL_KMT_red_blood_decision_txt"
-				position = { x = 0 y = 500 }
+				position = { x = 100 y = 500 }
 				font = "aldrich_22_outline"
 				maxWidth = 460
 				maxHeight = 32

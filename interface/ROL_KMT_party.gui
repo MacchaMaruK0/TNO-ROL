@@ -211,7 +211,7 @@ guiTypes = {
 			name = "ROL_KMT_party_button_2_button"
 		 	position = { x = 1047 y = 130 }
 			orientation = "UPPER_LEFT"
-			spriteType = "GFX_ROL_KMT_party_button_2_icon"
+			spriteType = "GFX_ROL_KMT_party_button_1_icon"
 			pdx_tooltip = ROL_KMT_party_button_2_info
 		}
 		
@@ -219,7 +219,7 @@ guiTypes = {
 			name = "ROL_KMT_party_button_1_button"
 		 	position = { x = 1047 y = 130 }
 			orientation = "UPPER_LEFT"
-			spriteType = "GFX_ROL_KMT_party_button_1_icon"
+			spriteType = "GFX_ROL_KMT_party_button_2_icon"
 			pdx_tooltip = ROL_KMT_party_button_1_info
 		}
 		

@@ -51,3 +51,57 @@ defined_text = {
 		localization_key = TNO_GlobalConflicts_GUI_Title
 	} 
 }
+
+defined_text = {
+	name = Get_ROLregional_desicion_tab_icon
+	text = { #西北戡乱
+		trigger = { check_variable = { allowed_decision_tab_id = 1 }  }
+		localization_key = "GFX_fopo_malaysia_civil_war_icon_us"
+	}
+	text = { #
+		trigger = { check_variable = { allowed_decision_tab_id = 2 }  }
+		localization_key = "GFX_fopo_iran_civil_war_icon_us"
+	}
+	text = { #
+		localization_key = "GFX_fopo_iran_civil_war_icon_us_early"
+	}
+}
+defined_text = {
+	name = Get_ROLregional_desicion_tab_name
+	text = {
+		trigger = {	
+			or = {
+				check_variable = { allowed_decision_tab_id = 1 }
+				check_variable = { runned_decision_tab_id = 1 }
+			}
+		}
+		localization_key = ROLregional_desicion_name_1
+	}
+	text = {
+		trigger = {	
+			or = {
+				check_variable = { allowed_decision_tab_id = 2 }
+			}
+		}
+		localization_key = ROLregional_desicion_name_2
+	}
+	text = {
+		trigger = {	
+			or = {
+				check_variable = { allowed_decision_tab_id = 3 }
+			}
+		}
+		localization_key = ROLregional_desicion_name_3
+	}
+	text = {
+		trigger = {	
+			or = {
+				check_variable = { allowed_decision_tab_id = 4 }
+			}
+		}
+		localization_key = ROLregional_desicion_name_4
+	}
+	text = { # 防溢出
+		localization_key = ROLregional_desicion_name_blank
+	}
+}

@@ -10,3 +10,9 @@ spriteTypes = {
 	textureFile = "gfx/interface/bop/GFX_BoP_Tab_Espionage_Icon.dds"
 	}
 }	
+spriteTypes = {
+	spriteType = { #戡乱左侧图
+	name = "GFX_ROL_bop_redblood_insiderbar" ###
+	textureFile = "gfx/interface/bop/ROL_bop_insider_bar/.png"
+	}
+}	
