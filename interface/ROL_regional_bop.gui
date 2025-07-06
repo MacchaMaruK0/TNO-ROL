@@ -145,9 +145,28 @@ guiTypes = {
 				spriteType = "GFX_ROL_bop_redblood_insiderbar"
 			}
 			
+			iconType = {
+				name = "ROL_bop_redblood_occlusion_icon"
+				position = { x = 534 y = 158 }
+				spriteType = "GFX_BOL_hide_first_decision"
+			}
+			
+			iconType = {
+				name = "ROL_KMT_redblood_mobilization_icon"
+				position = { x = 540 y = 164 }
+				spriteType = "GFX_PAR_mobilization"
+			}
+			
+			buttonType = {
+				name = "ROL_KMT_redblood_front_button"
+				spriteType = "GFX_PAR_group_button"
+				position = { x = 534 y = 158 }
+				pdx_tooltip = "ROL_KMT_redblood_front_infor"
+			}
+			
 			instantTextBoxType={
 				name = "ROL_KMT_red_blood_act_txt"
-				position = { x = 703 y = 125 }
+				position = { x = 703 y = 185 }
 				font = "aldrich_22_outline"
 				maxWidth = 350
 				maxHeight = 32
