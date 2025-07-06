@@ -4,9 +4,7 @@ state = {
 
 	history = {
 		owner = XDU
-		add_core_of = XIN
 		add_core_of = XDU
-		add_core_of = ETR
 		buildings = {
 			infrastructure = 2
 		}

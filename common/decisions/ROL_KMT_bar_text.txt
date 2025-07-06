@@ -1,0 +1,77 @@
+ROL_KMT_bar_text_Category = {
+
+	KMT_ROL_text_line_number = {
+		icon = GFX_decision_debug
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 0
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision KMT_ROL_text_line_number"
+			add_to_array = {ROL_KMT_bar_text_line_segments = 10000.20000}
+			add_to_array = {ROL_KMT_bar_text_line_segments = 20000.30000}
+			add_to_array = {ROL_KMT_bar_text_line_segments = 30000.40000}
+			add_to_array = {ROL_KMT_bar_text_line_segments = 40000.50000}
+			add_to_array = {ROL_KMT_bar_text_line_segments = 50000.50000}
+		}
+	}
+	
+	KMT_ROL_text_vbar_number = {
+		icon = GFX_decision_debug
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 0
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision KMT_ROL_text_vbar_number"
+			clear_array = ROL_KMT_bar_text_line_vbars
+			add_to_array = {ROL_KMT_bar_text_line_vbars = 1}
+			add_to_array = {ROL_KMT_bar_text_line_vbars = -1.01}
+			add_to_array = {ROL_KMT_bar_text_line_vbars = 1}
+			add_to_array = {ROL_KMT_bar_text_line_vbars = -1.01}
+			add_to_array = {ROL_KMT_bar_text_line_vbars = 1}
+			add_to_array = {ROL_KMT_bar_text_line_vbars = -1.01}
+			add_to_array = {ROL_KMT_bar_text_line_vbars = 1}
+			add_to_array = {ROL_KMT_bar_text_line_vbars = -1.01}
+			add_to_array = {ROL_KMT_bar_text_line_vbars = 1}
+			add_to_array = {ROL_KMT_bar_text_line_vbars = -1.01}
+			
+			clear_array = ROL_KMT_bar_text_line_hbar
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+			add_to_array = {ROL_KMT_bar_text_line_hbar= 0}
+
+			
+			clear_array = ROL_KMT_text_graph_vbar_offsets
+			add_to_array = {ROL_KMT_text_graph_vbar_offsets = 0}
+			add_to_array = {ROL_KMT_text_graph_vbar_offsets = -25}
+			add_to_array = {ROL_KMT_text_graph_vbar_offsets = -50}
+			add_to_array = {ROL_KMT_text_graph_vbar_offsets = -75}
+			add_to_array = {ROL_KMT_text_graph_vbar_offsets = -100}
+			add_to_array = {ROL_KMT_text_graph_vbar_offsets = -125}
+			add_to_array = {ROL_KMT_text_graph_vbar_offsets = -150}
+			add_to_array = {ROL_KMT_text_graph_vbar_offsets = -175}
+			add_to_array = {ROL_KMT_text_graph_vbar_offsets = -200}
+		}
+	}
+	
+}	

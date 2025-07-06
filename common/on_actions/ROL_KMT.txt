@@ -101,6 +101,20 @@ on_actions = { #
 				set_variable = {
 					ROL_KMT_lanzhou_weely_1 = 90
 				}
+				#####
+				set_variable = {
+					ROL_KMT_party_youth_green_num = 70
+				}
+				set_variable = {
+					ROL_KMT_party_youth_red_num = 45
+				}
+				
+				set_variable = {
+					ROL_KMT_party_CBI_green_num = 25
+				}
+				set_variable = {
+					ROL_KMT_party_CBI_red_num = 60
+				}
 				##杂项法律
 				misc_law_ROL_KMT_startup = yes
 			}

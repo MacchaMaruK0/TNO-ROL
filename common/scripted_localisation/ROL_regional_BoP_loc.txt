@@ -1,0 +1,53 @@
+
+
+defined_text = {
+	name = GetBOPbuttonname
+	text = {
+		trigger = {
+			Tag = KMT
+		}
+		localization_key = BOP_BUTTON_KMT
+	}
+	text = {
+		localization_key = BOP_BUTTON_NOT_ROL
+	}
+}
+
+defined_text = {
+	name = GetBOPbuttonintro
+	text = {
+		trigger = {
+			Tag = KMT
+		}
+		localization_key = BOP_TOOLTIP_KMT
+	}
+	text = {
+		localization_key = BOP_TOOLTIP_NOT_ROL
+	}
+}
+
+defined_text = {
+	name = GetGCname
+	text = {
+		trigger = {
+			Tag = KMT
+		}
+		localization_key = ROL_regional_GUI_Title
+	}
+	text = {
+		localization_key = TNO_GlobalConflicts_GUI_Title
+	} 
+}
+
+defined_text = {
+	name = GetGC1name
+	text = {
+		trigger = {
+			Tag = KMT
+		}
+		localization_key = ROL_regional1_GUI_Title
+	}
+	text = {
+		localization_key = TNO_GlobalConflicts_GUI_Title
+	} 
+}

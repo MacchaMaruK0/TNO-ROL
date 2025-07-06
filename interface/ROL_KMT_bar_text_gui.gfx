@@ -1,0 +1,40 @@
+spriteTypes = {
+	progressbartype = {
+		name = GFX_text_gui_Linegraph_Potential
+		steps = 1000000
+		color = { 0.015 0.200 0.250 0.0 }
+		colortwo = { 1 0.76 0.05 1 }
+		size = { 
+			x = 15
+			y = 200
+		}
+		effectFile = "gfx/FX/line_graph_2.lua"
+	}
+	
+	spriteType = {
+        name = "GFX_ROL_KMT_text_Back" 
+        texturefile = "gfx/interface/guangdong_gui/econ_gui/graph_back.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_ROL_KMT_text_Graph_Back" 
+        texturefile = "gfx/interface/guangdong_gui/econ_gui/graph_back.dds"
+    }
+    spriteType = {
+        name = "GFX_ROL_KMT_text_Graph_Vbar" 
+        texturefile = "gfx/interface/guangdong_gui/econ_gui/graph_vbar.dds"
+    }
+    spriteType = {
+        name = "GFX_ROL_KMT_text_Graph_Vbar_Light" 
+        texturefile = "gfx/interface/guangdong_gui/econ_gui/graph_vbar_light.dds"
+    }
+    spriteType = {
+        name = "GFX_ROL_KMT_text_Graph_Hbar" 
+        texturefile = "gfx/interface/guangdong_gui/econ_gui/graph_hbar.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_ROL_KMT_text_Graph_Hbar_Light" 
+        texturefile = "gfx/interface/guangdong_gui/econ_gui/graph_hbar_light.dds"
+    }
+}

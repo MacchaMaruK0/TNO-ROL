@@ -20,7 +20,7 @@ state = {
 		victory_points = {
 			10911 1
 		}
-		set_variable = { china_state_ref = 43 }
+		set_variable = { china_state_ref = 60 }
 		set_variable = { china_region_ref = 5 }
 	}
 
