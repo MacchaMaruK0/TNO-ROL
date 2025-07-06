@@ -124,12 +124,6 @@ guiTypes = {
 		containerWindowType = {
         name = "ROL_KMT_red_blood_ui"
         size = { width = 600 height = 350 }
-		
-			iconType = {
-				name = "ROL_KMT_red_blood_bg"
-				position = { x = 125 y = 260 }
-				spriteType = "GFX_ROL_KMT_red_blood_bg"
-			}
 			
 			iconType = {
 				name = "ROL_KMT_red_blood_infor"
@@ -144,37 +138,26 @@ guiTypes = {
 				position = { x = 45 y = 80 }
 				spriteType = "GFX_ROL_KMT_txt_icon"
 			}
-		
-			buttonType = {
-				name = "ROL_KMT_kmt_botton"
-				position = { x = 147 y = 264 }
-				spriteType = "GFX_ROL_KMT_kmt_botton"
-				pdx_tooltip = ROL_KMT_kmt_botton_tt
-			}
-		
-			buttonType = {
-				name = "ROL_KMT_cpc_botton"
-				position = { x = 311 y = 326 }
-				spriteType = "GFX_ROL_KMT_cpc_botton"
-				pdx_tooltip = ROL_KMT_cpc_botton_tt
-			}
-		
+			
 			iconType = {
-				name = "ROL_KMT_yushu_icon"
-				position = { x = 125 y = 357 }
-				spriteType = "GFX_ROL_KMT_yushu_icon"
+				name = "ROL_bop_redblood_insiderbar_icon"
+				position = { x = 8 y = 140 }
+				spriteType = "GFX_ROL_bop_redblood_insiderbar"
 			}
-		
+			
 			instantTextBoxType={
-				name = "ROL_KMT_red_blood_decision_txt"
-				position = { x = 100 y = 500 }
+				name = "ROL_KMT_red_blood_act_txt"
+				position = { x = 703 y = 125 }
 				font = "aldrich_22_outline"
-				maxWidth = 460
+				maxWidth = 350
 				maxHeight = 32
-				text = "ROL_KMT_red_blood_decision_txt"
+				text = "ROL_KMT_red_blood_act_txt"
 				format = center
 				fixedsize = yes
+				pdx_tooltip = ROL_KMT_red_blood_act_info
 			}
+		
+			
 		}
 		
 		containerWindowType = {

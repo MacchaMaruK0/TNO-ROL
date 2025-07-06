@@ -115,6 +115,11 @@ on_actions = { #
 				set_variable = {
 					ROL_KMT_party_CBI_red_num = 60
 				}
+				
+				#####
+				set_variable = {
+					ROL_KMT_red_blood_act_num = 0
+				}
 				##杂项法律
 				misc_law_ROL_KMT_startup = yes
 			}

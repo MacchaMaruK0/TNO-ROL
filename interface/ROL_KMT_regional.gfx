@@ -13,6 +13,6 @@ spriteTypes = {
 spriteTypes = {
 	spriteType = { #戡乱左侧图
 	name = "GFX_ROL_bop_redblood_insiderbar" ###
-	textureFile = "gfx/interface/bop/ROL_bop_insider_bar/.png"
+	textureFile = "gfx/interface/bop/ROL_bop_insider_bar/ROL_bop_insidebar_redblood.png"
 	}
 }	

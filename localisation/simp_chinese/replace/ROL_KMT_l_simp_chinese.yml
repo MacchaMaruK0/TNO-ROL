@@ -774,6 +774,8 @@
  BOP_BUTTON:0 "[GetBOPbuttonname]"
  KMT_desicion_tab_name:0 "[Get_ROLregional_desicion_tab_name]"
  ROLregional_desicion_name_1: "§Y西北戡乱战争§!"
+ ROL_KMT_red_blood_act_txt: "§Y我们还能着手进行[?ROL_KMT_red_blood_act_num]/2项戡乱行动§!"
+ ROL_KMT_red_blood_act_info: "受限于戡乱局势，我们至多只能同时进行2项戡乱行动。"
 
  
  #####bookmark
