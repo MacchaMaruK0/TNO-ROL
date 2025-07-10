@@ -1,405 +1,83 @@
-ROL_KMT_red_blood_Category = { #这个文件是具体的决议文件，使用GH_国名_决议内容.txt命名
-    ROL_KMT_decentralization_of_supplies = { #分发物资
-	icon = GFX_ROL_KMT_decentralization_of_supplies_icon
-		visible = {
-			has_country_flag = ROL_KMT_behind_decision_selected
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }#显示在第二栏
-			#需要显示在第几槽的话 用这个：check_variable = { selected_decision_tabs_id = 1(第几个就直接写几) }
-		}
-		activation = {
-		}
-		available = {
-		custom_trigger_tooltip = {
-		    check_variable = {
-			ROL_KMT_add_supply_points > 21
-			}
-			tooltip = ROL_KMT_decentralization_of_supplies_tt
-			}
-			NOT = { has_border_war = yes }
-		}
-		allowed = {
-			tag = KMT
-		}
-		custom_cost_trigger = {
-		    check_variable = {
-			ROL_KMT_add_supply_points > 21
-			}
-		}
-		custom_cost_text = ROL_KMT_decision_cost_30_supply
-        days_re_enable = 14
+ROL_KMT_red_blood_Category = { ##地区冲突
+    KMT_ROL_bop_placeholding = {
+		icon = GFX_decision_debug
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 0
+		priority = 20000
+		visible = { check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 } }
 		complete_effect = {
-		hidden_effect = {
-		set_temp_variable = {
-		ROL_KMT_add_deduct_points = -20
+			log = "[GetDateText]: [Root.GetName]: Debug Decision KMT_ROL_bop_placeholding"
 		}
-		ROL_KMT_add_deduct = yes
-		set_temp_variable = {
-		ROL_KMT_add_supply_points_temp = ROL_KMT_add_deduct_points
-		}
-		ROL_KMT_add_supply = yes
-		}
-		custom_effect_tooltip = ROL_KMT_decentralization_of_supplies_1_tt
-		add_stability = 0.05
-		add_war_support = 0.15
-		add_timed_idea = { idea = idea_ROL_KMT_decentralization_of_supplies days = 15 }
-		}
-    }
+	}
 	
-	ROL_KMT_set_warlords = { #设立督战队
-	icon = GFX_ROL_KMT_set_warlords_icon
-		visible = {
-			has_country_flag = ROL_KMT_behind_decision_selected
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
-		}
+	KMT_ROL_bop_redblood_finnal = { ###7天倒计时
+	    icon = GFX_decision_generic_clock
 		activation = {
+			has_country_flag = ROL_KMT_red_blood
 		}
-		available = {
-		custom_trigger_tooltip = {
-		    check_variable = {
-			ROL_KMT_add_solider_points > 21
+		available = { 
+		    custom_trigger_tooltip = {
+			has_country_flag = KMT_ROL_bop_redblood_finnal
+			tooltip = KMT_ROL_bop_redblood_finnal_tt
 			}
-			tooltip = ROL_KMT_set_warlords_tt
-			}
-			has_border_war = yes
 		}
+		visible = { check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 } }
+		days_mission_timeout = 7
 		allowed = {
 			tag = KMT
 		}
-		custom_cost_trigger = {
-		    check_variable = {
-			ROL_KMT_add_solider_points > 21
+		######芝士倒计时
+		timeout_effect = {
+		·	activate_misson = KMT_ROL_bop_redblood_finnal
+			if = { limit = { check_variable = { ROL_KMT_redblood_Linxia_control_num > 49.9 } }
+				set_temp_variable = {
+					ROL_KMT_redblood_control_area_num_temp = 1
+				}
+				ROL_KMT_redblood_control_area = yes
 			}
+			if = { limit = { check_variable = { ROL_KMT_redblood_Lintao_control_num > 49.9 } }
+				set_temp_variable = {
+					ROL_KMT_redblood_control_area_num_temp = 1
+				}
+				ROL_KMT_redblood_control_area = yes
+			}
+			if = { limit = { check_variable = { ROL_KMT_redblood_Tianshui_control_num > 49.9 } }
+				set_temp_variable = {
+					ROL_KMT_redblood_control_area_num_temp = 1
+				}
+				ROL_KMT_redblood_control_area = yes
+			}
+			if = { limit = { check_variable = { ROL_KMT_redblood_Gannan_control_num > 49.9 } }
+				set_temp_variable = {
+					ROL_KMT_redblood_control_area_num_temp = 1
+				}
+				ROL_KMT_redblood_control_area = yes
+			}
+			if = { limit = { check_variable = { ROL_KMT_redblood_Minzhou_control_num > 49.9 } }
+				set_temp_variable = {
+					ROL_KMT_redblood_control_area_num_temp = 1
+				}
+				ROL_KMT_redblood_control_area = yes
+			}
+			if = { limit = { check_variable = { ROL_KMT_redblood_Guoluo_control_num > 49.9 } }
+				set_temp_variable = {
+					ROL_KMT_redblood_control_area_num_temp = 1
+				}
+				ROL_KMT_redblood_control_area = yes
+			}
+			if = { limit = { check_variable = { ROL_KMT_redblood_control_area_num > 3 } }
+				set_temp_variable = {
+					ROL_KMT_bop_redblood_win_num_temp = 1
+				}
+				ROL_KMT_bop_redblood_win = yes
+			}
+			set_variable = { ROL_KMT_redblood_control_area_num = 0 }
+			custom_effect_tooltip = ROL_KMT_redblood_control_area_tt
+			
 		}
-		custom_cost_text = ROL_KMT_decision_cost_20_solider
-        days_re_enable = 14
 		complete_effect = {
-		hidden_effect = {
-		set_temp_variable = {
-		ROL_KMT_add_deduct_points = -20
-		}
-		ROL_KMT_add_deduct = yes
-		set_temp_variable = {
-		ROL_KMT_add_solider_points_temp = ROL_KMT_add_deduct_points
-		}
-		ROL_KMT_add_solider = yes
-		}
-		custom_effect_tooltip = ROL_KMT_set_warlords_1_tt
-		TNO_improve_military_supervision_policy_effectiveness_low = yes
-		add_timed_idea = { idea = idea_ROL_KMT_set_warlords days = 15 }
-		}
-    }
-	
-	ROL_KMT_kill_guerilla = { #围剿游击队
-	icon = GFX_ROL_KMT_kill_guerilla_icon
-		visible = {
-			has_country_flag = ROL_KMT_behind_decision_selected
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
-		}
-		activation = {
-		}
-		available = {
-		custom_trigger_tooltip = {
-		    check_variable = {
-			ROL_KMT_add_solider_points > 11
-			}
-			check_variable = {
-			ROL_KMT_add_level_points > 11
-			}
-			tooltip = ROL_KMT_kill_guerilla_tt
-			}
-			NOT = { has_border_war = yes }
-		}
-		allowed = {
-			tag = KMT
-		}
-		custom_cost_trigger = {
-		    check_variable = {
-			ROL_KMT_add_solider_points > 11
-			}
-			check_variable = {
-			ROL_KMT_add_level_points > 11
-			}
-		}
-		custom_cost_text = ROL_KMT_decision_cost_10_solider_10_level
-        days_re_enable = 14
-		complete_effect = {
-		hidden_effect = {
-		set_temp_variable = {
-		ROL_KMT_add_deduct_points = -10
-		}
-		ROL_KMT_add_deduct = yes
-		set_temp_variable = {
-		ROL_KMT_add_solider_points_temp = ROL_KMT_add_deduct_points
-		}
-		ROL_KMT_add_solider = yes
-		set_temp_variable = {
-		ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_points
-		}
-		ROL_KMT_add_level = yes
-		}
-		custom_effect_tooltip = ROL_KMT_kill_guerilla_1_tt
-		add_timed_idea = { idea = idea_ROL_KMT_kill_guerilla days = 15 }
-		}
-    }
-	
-	ROL_KMT_fortifications = { #加固防御工事
-	icon = GFX_ROL_KMT_fortifications_icon
-		visible = {
-			has_country_flag = ROL_KMT_behind_decision_selected
-			has_country_flag = ROL_KMT_decision_front_done
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
-		}
-		activation = {
-		}
-		available = {
-		custom_trigger_tooltip = {
-			check_variable = {
-			ROL_KMT_add_level_points > 21
-			}
-			tooltip = ROL_KMT_fortifications_tt
-			}
-			NOT = { has_border_war = yes }
-		}
-		allowed = {
-			tag = KMT
-		}
-		custom_cost_trigger = {
-			check_variable = {
-			ROL_KMT_add_level_points > 21
-			}
-		}
-		custom_cost_text = ROL_KMT_decision_cost_20_level
-        days_re_enable = 14
-		complete_effect = {
-		hidden_effect = {
-		set_temp_variable = {
-		ROL_KMT_add_deduct_points = -20
-		}
-		ROL_KMT_add_deduct = yes
-		set_temp_variable = {
-		ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_points
-		}
-		ROL_KMT_add_level = yes
-		}
-		custom_effect_tooltip = ROL_KMT_fortifications_1_tt
-		add_timed_idea = { idea = idea_ROL_KMT_fortifications days = 15 }
-		}
-    }
-	
-	ROL_KMT_strengthen_functions = { #加强战地指挥部职能
-	    icon = GFX_ROL_KMT_strengthen_functions_icon
-		cost = 50
-		visible = {
-			has_country_flag = ROL_KMT_behind_decision_selected
-			has_country_flag = ROL_KMT_decision_front_done
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
-		}
-		activation = {
-		}
-		available = {
-			has_border_war = yes
-		}
-		allowed = {
-			tag = KMT
-		}
-        days_re_enable = 14
-		days_remove = 7
-		complete_effect = {
-		}
-		remove_effect = {
-			set_temp_variable = {
-			ROL_KMT_add_deduct_1_points = 15
-			}
-		ROL_KMT_add_deduct_1 = yes
-			set_temp_variable = {
-			ROL_KMT_add_deduct_2_points = 10
-			}
-		ROL_KMT_add_deduct_2 = yes
-			set_temp_variable = {
-			ROL_KMT_add_solider_points_temp = ROL_KMT_add_deduct_2_points
-			}
-		ROL_KMT_add_solider = yes
-			set_temp_variable = {
-			ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_1_points
-			}
-		ROL_KMT_add_level = yes	
-		set_country_flag = 	ROL_KMT_flag_add_solider
-		custom_effect_tooltip = ROL_KMT_strengthen_functions_tt
-		}
-    }
-	
-	ROL_KMT_additional_police_officers = { #增派警总人员维持秩序
-	    icon = GFX_ROL_KMT_additional_police_officers_icon
-		cost = 25
-		visible = {
-			has_country_flag = ROL_KMT_front_decision_selected
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
-		}
-		activation = {
-		}
-		available = {
-			NOT = { has_border_war = yes }
-		}
-		allowed = {
-			tag = KMT
-		}
-        days_re_enable = 14
-		days_remove = 7
-		complete_effect = {
-		}
-		remove_effect = {
-			add_stability = 0.05
-			TNO_improve_security_policy_effectiveness_low = yes
-		set_temp_variable = {
-		ROL_KMT_add_deduct_points = 7.5
-        }
-		ROL_KMT_add_deduct = yes
-		set_temp_variable = {
-		ROL_KMT_add_supply_efficiency_points_temp = ROL_KMT_add_deduct_points
-		}
-		ROL_KMT_add_supply_efficiency = yes
-		custom_effect_tooltip = ROL_KMT_additional_police_officers_tt
-		}
-    }
-	
-	ROL_KMT_hoes_and_rapists = { #组建锄奸保安队
-	    icon = GFX_ROL_KMT_hoes_and_rapists_icon
-		cost = 25
-		visible = {
-			has_country_flag = ROL_KMT_front_decision_selected
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
-		}
-		activation = {
-		}
-		available = {
-			has_border_war = yes
-		}
-		allowed = {
-			tag = KMT
-		}
-        days_re_enable = 14
-		days_remove = 7
-		complete_effect = {
-		}
-		remove_effect = {
-			add_war_support = 0.05
-			TNO_improve_security_policy_effectiveness_low = yes
-		set_temp_variable = {
-		ROL_KMT_add_deduct_1_points = 7.5
-        }
-		ROL_KMT_add_deduct_1 = yes
-		set_temp_variable = {
-		ROL_KMT_add_level_efficiency_points_temp = ROL_KMT_add_deduct_1_points
-		}
-		ROL_KMT_add_level_efficiency = yes
-		custom_effect_tooltip = ROL_KMT_hoes_and_rapists_tt
-		}
-    }
-	
-	ROL_KMT_requisition_and_transportation = { #征调民夫协助运输
-	    icon = GFX_ROL_KMT_requisition_and_transportation_icon
-		cost = 25
-		visible = {
-			has_country_flag = ROL_KMT_front_decision_selected
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
-		}
-		activation = {
-		}
-		available = {
-			NOT = { has_border_war = yes }
-		}
-		allowed = {
-			tag = KMT
-		}
-        days_re_enable = 14
-		days_remove = 7
-		complete_effect = {
-		}
-		remove_effect = {
-		set_country_flag = 	ROL_KMT_flag_add_supply
-		set_temp_variable = {
-		ROL_KMT_add_deduct_points = 12.5
-        }
-		ROL_KMT_add_deduct = yes
-		set_temp_variable = {
-		ROL_KMT_add_supply_points_temp = ROL_KMT_add_deduct_points
-		}
-		ROL_KMT_add_supply = yes
-		custom_effect_tooltip = ROL_KMT_requisition_and_transportation_tt
-		}
-    }
-	
-	ROL_KMT_gather_veterans = { #召回退伍老兵训练新兵
-	    icon = GFX_ROL_KMT_gather_veterans_icon
-		cost = 25
-		visible = {
-			has_country_flag = ROL_KMT_front_decision_selected
-			has_country_flag = ROL_KMT_decision_behind_done
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
-		}
-		activation = {
-		}
-		available = {
-			has_border_war = yes
-		}
-		allowed = {
-			tag = KMT
-		}
-        days_re_enable = 14
-		days_remove = 7
-		complete_effect = {
-		}
-		remove_effect = {
-		army_experience = 10
-		set_temp_variable = {
-		ROL_KMT_add_deduct_points = 7.5
-        }
-		ROL_KMT_add_deduct = yes
-		set_temp_variable = {
-		ROL_KMT_add_solider_points_temp = ROL_KMT_add_deduct_points
-		}
-		ROL_KMT_add_solider = yes
-		custom_effect_tooltip = ROL_KMT_gather_veterans_tt
-		}
-    }
-	
-	ROL_KMT_implementation_military_policy = { #执行军事优先政策
-	    icon = GFX_ROL_KMT_implementation_military_policy_icon
-		cost = 25
-		visible = {
-			has_country_flag = ROL_KMT_front_decision_selected
-			has_country_flag = ROL_KMT_decision_behind_done
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
-		}
-		activation = {
-		}
-		available = {
-			has_border_war = yes
-		}
-		allowed = {
-			tag = KMT
-		}
-        days_re_enable = 14
-		days_remove = 7
-		complete_effect = {
-		}
-		remove_effect = {
-		add_stability = -0.03
-		add_war_support = -0.03
-		add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 200
-				producer = ROOT
-			}
-		set_temp_variable = {
-		ROL_KMT_add_deduct_points = 15.5
-        }
-		ROL_KMT_add_deduct = yes
-		set_temp_variable = {
-		ROL_KMT_add_level_points_temp = ROL_KMT_add_deduct_points
-		}
-		ROL_KMT_add_solider = yes
-		custom_effect_tooltip = ROL_KMT_implementation_military_policy_tt
-		}
+		    
+	    }
     }
 }

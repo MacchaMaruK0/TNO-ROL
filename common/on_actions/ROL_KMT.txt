@@ -8,6 +8,52 @@ on_actions = { #
 				}
 				ROL_KMT_Party_seat_effects = yes
 				ROL_KMT_rerender_party_seat = yes
+				#########
+				set_variable = {
+					ROL_KMT_redblood_Linxia_control_num = 95
+				}
+				
+				set_variable = {
+					ROL_KMT_redblood_Lintao_control_num = 55
+				}
+				
+				set_variable = {
+					ROL_KMT_redblood_Tianshui_control_num = 25
+				}
+				
+				set_variable = {
+					ROL_KMT_redblood_Minzhou_control_num = 35
+				}
+				
+				set_variable = {
+					ROL_KMT_redblood_Gannan_control_num = 65
+				}
+				
+				set_variable = {
+					ROL_KMT_redblood_Guoluo_control_num = 85
+				}
+				
+				set_variable = {
+					ROL_KMT_redblood_control_area_num = 0
+				}
+				
+				
+				set_variable = {
+					ROL_KMT_bop_redblood_win_num = 0
+				}
+				
+				set_variable = {
+					ROL_KMT_bop_marebellion_prepare_num = 0
+				}
+				
+				set_variable = {
+					ROL_KMT_bop_marebellion_nervous_num = 30
+				}
+				
+				set_variable = {
+					ROL_KMT_bop_marebellion_opportunity_num = 0
+				}
+				#########
 			    set_variable = {
 					ROL_KMT_ROC_intervene_points = 3
 				}
@@ -32,24 +78,7 @@ on_actions = { #
 				set_variable = {
 					ROL_KMT_a_call_for_unity_var_num = 15
 				}
-				set_variable = {
-					ROL_KMT_add_solider_efficiency = 45
-				}
-				set_variable = {
-					ROL_KMT_add_supply_points = 30
-				}
-				set_variable = {
-					ROL_KMT_add_solider_points = 15
-				}
-				set_variable = {
-					ROL_KMT_add_level_efficiency_points = 45
-				}
-				set_variable = {
-					ROL_KMT_add_supply_efficiency_points = 45
-				}
-				set_variable = {
-					ROL_KMT_add_level_points = 25
-				}
+				#########
 				set_variable = {
 					ROL_KMT_lanzhou_manpower_num = 80
 				}

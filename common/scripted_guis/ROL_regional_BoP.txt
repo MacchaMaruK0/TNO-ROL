@@ -44,32 +44,272 @@ scripted_gui = {
 				clear_array = ROL_the_gui_showing_now
 				add_to_array = { ROL_the_gui_showing_now = allowed_decision_tab_id }
 			}
-			
-			ROL_KMT_kmt_botton_click = {
+			#######
+			ROL_bop_redblood_cpc_Linxia_button_click = {
 				if = {
-					limit = {
-						has_country_flag = ROL_KMT_front_decision_selected
-					}
-					clr_country_flag = ROL_KMT_front_decision_selected
-				}
-				else = {
-					set_country_flag = ROL_KMT_front_decision_selected
-					clr_country_flag = ROL_KMT_behind_decision_selected
-				}
-			}
-			ROL_KMT_cpc_botton_click = {
-				if = {
-					limit = {
-						has_country_flag = ROL_KMT_behind_decision_selected
-					}
-					clr_country_flag = ROL_KMT_behind_decision_selected
-				}
-				else = {
-					set_country_flag = ROL_KMT_behind_decision_selected
-					clr_country_flag = ROL_KMT_front_decision_selected
+					clr_country_flag = ROL_bop_redblood_cpc_Lintao_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Lintao_highlight
+					set_country_flag = ROL_bop_redblood_cpc_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Gannan_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
 				}
 			}
 			
+			ROL_bop_redblood_cpc_Linxia_highlight_button_click = {
+				if = {
+					clr_country_flag = ROL_bop_redblood_cpc_Linxia_highlight
+				}
+			}
+			
+			ROL_bop_redblood_kmt_Linxia_button_click = {
+				if = {
+					clr_country_flag = ROL_bop_redblood_cpc_Lintao_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Lintao_highlight
+					set_country_flag = ROL_bop_redblood_kmt_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Gannan_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+				}
+			}
+			
+			ROL_bop_redblood_kmt_Linxia_highlight_button_click = {
+				if = {
+					clr_country_flag = ROL_bop_redblood_kmt_Linxia_highlight
+				}
+			}
+			########
+			ROL_bop_redblood_cpc_Lintao_button_click = {
+				if = {
+					set_country_flag = ROL_bop_redblood_cpc_Lintao_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Gannan_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+				}
+			}
+			
+			ROL_bop_redblood_cpc_Lintao_highlight_button_click = {
+				if = {
+					clr_country_flag = ROL_bop_redblood_cpc_Lintao_highlight
+				}
+			}
+			
+			ROL_bop_redblood_kmt_Lintao_button_click = {
+				if = {
+					set_country_flag = ROL_bop_redblood_kmt_Lintao_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Gannan_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+				}
+			}
+			
+			ROL_bop_redblood_kmt_Lintao_highlight_button_click = {
+				if = {
+					clr_country_flag = ROL_bop_redblood_kmt_Lintao_highlight
+				}
+			}
+			########
+			ROL_bop_redblood_cpc_Tianshui_button_click = {
+				if = {
+					set_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Lintao_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Lintao_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Gannan_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+				}
+			}
+			
+			ROL_bop_redblood_cpc_Tianshui_highlight_button_click = {
+				if = {
+					clr_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight
+				}
+			}
+			
+			ROL_bop_redblood_kmt_Tianshui_button_click = {
+				if = {
+					set_country_flag = ROL_bop_redblood_kmt_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Lintao_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Lintao_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Gannan_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+				}
+			}
+			
+			ROL_bop_redblood_kmt_Tianshui_highlight_button_click = {
+				if = {
+					clr_country_flag = ROL_bop_redblood_kmt_Tianshui_highlight
+				}
+			}
+			#######
+			ROL_bop_redblood_cpc_Minzhou_button_click = {
+				if = {
+					set_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Lintao_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Lintao_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Gannan_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+				}
+			}
+			
+			ROL_bop_redblood_cpc_Minzhou_highlight_button_click = {
+				if = {
+					clr_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight
+				}
+			}
+			
+			ROL_bop_redblood_kmt_Minzhou_button_click = {
+				if = {
+					set_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Lintao_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Lintao_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Gannan_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+				}
+			}
+			
+			ROL_bop_redblood_kmt_Minzhou_highlight_button_click = {
+				if = {
+					clr_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight
+				}
+			}
+			
+			########
+			ROL_bop_redblood_cpc_Gannan_button_click = {
+				if = {
+					set_country_flag = ROL_bop_redblood_cpc_Gannan_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Lintao_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Lintao_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+				}
+			}
+			
+			ROL_bop_redblood_cpc_Gannan_highlight_button_click = {
+				if = {
+					clr_country_flag = ROL_bop_redblood_cpc_Gannan_highlight
+				}
+			}
+			
+			ROL_bop_redblood_kmt_Gannan_button_click = {
+				if = {
+					set_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Lintao_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Lintao_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+				}
+			}
+			
+			ROL_bop_redblood_kmt_Gannan_highlight_button_click = {
+				if = {
+					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
+				}
+			}
+			
+			########
+			ROL_bop_redblood_cpc_Guoluo_button_click = {
+				if = {
+					set_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Lintao_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Lintao_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Gannan_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
+				}
+			}
+			
+			ROL_bop_redblood_cpc_Guoluo_highlight_button_click = {
+				if = {
+					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
+				}
+			}
+			
+			ROL_bop_redblood_kmt_Guoluo_button_click = {
+				if = {
+					set_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Lintao_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Lintao_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Linxia_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight
+					clr_country_flag = ROL_bop_redblood_cpc_Gannan_highlight
+					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
+				}
+			}
+			
+			ROL_bop_redblood_kmt_Guoluo_highlight_button_click = {
+				if = {
+					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+				}
+			}
 		}
 
 		triggers = {
@@ -93,7 +333,133 @@ scripted_gui = {
 			info_tab_visible = {
 				TNO_fopo_show_info_tab = yes
 			}
+			
+			####
+			ROL_bop_redblood_cpc_Linxia_button_visible = {
+				check_variable = { ROL_KMT_redblood_Linxia_control_num < 49.9 }
+				NOT = { has_country_flag = ROL_bop_redblood_cpc_Linxia_highlight }
+			}
+			
+			ROL_bop_redblood_cpc_Linxia_highlight_button_visible = {
+				check_variable = { ROL_KMT_redblood_Linxia_control_num < 49.9 }
+				has_country_flag = ROL_bop_redblood_cpc_Linxia_highlight
+			}
+			
+			ROL_bop_redblood_kmt_Linxia_button_visible = {
+				check_variable = { ROL_KMT_redblood_Linxia_control_num > 49.9 }
+				NOT = { has_country_flag = ROL_bop_redblood_kmt_Linxia_highlight }
+			}
+			
+			ROL_bop_redblood_kmt_Linxia_highlight_button_visible = {
+				check_variable = { ROL_KMT_redblood_Linxia_control_num > 49.9 }
+				has_country_flag = ROL_bop_redblood_kmt_Linxia_highlight
+			}
+			####
+			ROL_bop_redblood_cpc_Lintao_button_visible = {
+				check_variable = { ROL_KMT_redblood_Lintao_control_num < 49.9 }
+				NOT = { has_country_flag = ROL_bop_redblood_cpc_Lintao_highlight }
+			}
+			
+			ROL_bop_redblood_cpc_Lintao_highlight_button_visible = {
+				check_variable = { ROL_KMT_redblood_Lintao_control_num < 49.9 }
+				has_country_flag = ROL_bop_redblood_cpc_Lintao_highlight
+			}
+			
+			ROL_bop_redblood_kmt_Lintao_button_visible = {
+				check_variable = { ROL_KMT_redblood_Lintao_control_num > 49.9 }
+				NOT = { has_country_flag = ROL_bop_redblood_kmt_Lintao_highlight }
+			}
+			
+			ROL_bop_redblood_kmt_Lintao_highlight_button_visible = {
+				check_variable = { ROL_KMT_redblood_Lintao_control_num > 49.9 }
+				has_country_flag = ROL_bop_redblood_kmt_Lintao_highlight
+			}
+			#####
+			ROL_bop_redblood_cpc_Tianshui_button_visible = {
+				check_variable = { ROL_KMT_redblood_Tianshui_control_num < 49.9 }
+				NOT = { has_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight }
+			}
+			
+			ROL_bop_redblood_cpc_Tianshui_highlight_button_visible = {
+				check_variable = { ROL_KMT_redblood_Tianshui_control_num < 49.9 }
+				has_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight
+			}
+			
+			ROL_bop_redblood_kmt_Tianshui_button_visible = {
+				check_variable = { ROL_KMT_redblood_Tianshui_control_num > 49.9 }
+				NOT = { has_country_flag = ROL_bop_redblood_kmt_Tianshui_highlight }
+			}
+			
+			ROL_bop_redblood_kmt_Tianshui_highlight_button_visible = {
+				check_variable = { ROL_KMT_redblood_Tianshui_control_num > 49.9 }
+				has_country_flag = ROL_bop_redblood_kmt_Tianshui_highlight
+			}
+			
+			#####
+			ROL_bop_redblood_cpc_Minzhou_button_visible = {
+				check_variable = { ROL_KMT_redblood_Minzhou_control_num < 49.9 }
+				NOT = { has_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight }
+			}
+			
+			ROL_bop_redblood_cpc_Minzhou_highlight_button_visible = {
+				check_variable = { ROL_KMT_redblood_Minzhou_control_num < 49.9 }
+				has_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight
+			}
+			
+			ROL_bop_redblood_kmt_Minzhou_button_visible = {
+				check_variable = { ROL_KMT_redblood_Minzhou_control_num > 49.9 }
+				NOT = { has_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight }
+			}
+			
+			ROL_bop_redblood_kmt_Minzhou_highlight_button_visible = {
+				check_variable = { ROL_KMT_redblood_Minzhou_control_num > 49.9 }
+				has_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight
+			}
+			
+			#####
+			ROL_bop_redblood_cpc_Gannan_button_visible = {
+				check_variable = { ROL_KMT_redblood_Gannan_control_num < 49.9 }
+				NOT = { has_country_flag = ROL_bop_redblood_cpc_Gannan_highlight }
+			}
+			
+			ROL_bop_redblood_cpc_Gannan_highlight_button_visible = {
+				check_variable = { ROL_KMT_redblood_Gannan_control_num < 49.9 }
+				has_country_flag = ROL_bop_redblood_cpc_Gannan_highlight
+			}
+			
+			ROL_bop_redblood_kmt_Gannan_button_visible = {
+				check_variable = { ROL_KMT_redblood_Gannan_control_num > 49.9 }
+				NOT = { has_country_flag = ROL_bop_redblood_kmt_Gannan_highlight }
+			}
+			
+			ROL_bop_redblood_kmt_Gannan_highlight_button_visible = {
+				check_variable = { ROL_KMT_redblood_Gannan_control_num > 49.9 }
+				has_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
+			}
+			
+			#####
+			ROL_bop_redblood_cpc_Guoluo_button_visible = {
+				check_variable = { ROL_KMT_redblood_Guoluo_control_num < 49.9 }
+				NOT = { has_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight }
+			}
+			
+			ROL_bop_redblood_cpc_Guoluo_highlight_button_visible = {
+				check_variable = { ROL_KMT_redblood_Guoluo_control_num < 49.9 }
+				has_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
+			}
+			
+			ROL_bop_redblood_kmt_Guoluo_button_visible = {
+				check_variable = { ROL_KMT_redblood_Guoluo_control_num > 49.9 }
+				NOT = { has_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight }
+			}
+			
+			ROL_bop_redblood_kmt_Guoluo_highlight_button_visible = {
+				check_variable = { ROL_KMT_redblood_Guoluo_control_num > 49.9 }
+				has_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+			}
+			
 		}
+			
 
 		properties = {
 			tab_bg = {
@@ -104,16 +470,6 @@ scripted_gui = {
 			}
 			decision_tab_icon = {
 				image = "[Get_ROLregional_desicion_tab_icon]"
-			}
-			
-			ROL_KMT_solider_bar_full_empty = {
-				frame = ROL_KMT_add_solider_points
-			}
-			ROL_KMT_supply_bar_full = {
-				frame = ROL_KMT_add_supply_points
-			}
-			ROL_KMT_level_bar_full = {
-				frame = ROL_KMT_add_level_points
 			}
 		}
 		

@@ -15,4 +15,149 @@ spriteTypes = {
 	name = "GFX_ROL_bop_redblood_insiderbar" ###
 	textureFile = "gfx/interface/bop/ROL_bop_insider_bar/ROL_bop_insidebar_redblood.png"
 	}
+	
+	spriteType = { #临夏-cpc
+	name = "GFX_ROL_bop_redblood_cpc_Linxia" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_cpc_Linxia.png"
+	}
+	
+	spriteType = { #临夏highlight-cpc
+	name = "GFX_ROL_bop_redblood_cpc_Linxia_highlight" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_cpc_Linxia_highlight.png"
+	}
+	
+	spriteType = { #临夏-kmt
+	name = "GFX_ROL_bop_redblood_kmt_Linxia" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_kmt_Linxia.png"
+	}
+	
+	spriteType = { #临夏highlight-kmt
+	name = "GFX_ROL_bop_redblood_kmt_Linxia_highlight" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_kmt_Linxia_highlight.png"
+	}
+	
+	spriteType = { #临洮-cpc
+	name = "GFX_ROL_bop_redblood_cpc_Lintao" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_cpc_Lintao.png"
+	}
+	
+	spriteType = { #临洮highlight-cpc
+	name = "GFX_ROL_bop_redblood_cpc_Lintao_highlight" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_cpc_Lintao_highlight.png"
+	}
+	
+	spriteType = { #临洮-kmt
+	name = "GFX_ROL_bop_redblood_kmt_Lintao" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_kmt_Lintao.png"
+	}
+	
+	spriteType = { #临洮highlight-kmt
+	name = "GFX_ROL_bop_redblood_kmt_Lintao_highlight" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_kmt_Lintao_highlight.png"
+	}
+	
+	spriteType = { #天水-cpc
+	name = "GFX_ROL_bop_redblood_cpc_Tianshui" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_cpc_Tianshui.png"
+	}
+	
+	spriteType = { #天水highlight-cpc
+	name = "GFX_ROL_bop_redblood_cpc_Tianshui_highlight" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_cpc_Tianshui_highlight.png"
+	}
+	
+	spriteType = { #天水-kmt
+	name = "GFX_ROL_bop_redblood_kmt_Tianshui" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_kmt_Tianshui.png"
+	}
+	
+	spriteType = { #天水highlight-kmt
+	name = "GFX_ROL_bop_redblood_kmt_Tianshui_highlight" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_kmt_Tianshui_highlight.png"
+	}
+	
+	spriteType = { #岷州-cpc
+	name = "GFX_ROL_bop_redblood_cpc_Minzhou" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_cpc_Minzhou.png"
+	}
+	
+	spriteType = { #岷州highlight-cpc
+	name = "GFX_ROL_bop_redblood_cpc_Minzhou_highlight" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_cpc_Minzhou_highlight.png"
+	}
+	
+	spriteType = { #岷州-kmt
+	name = "GFX_ROL_bop_redblood_kmt_Minzhou" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_kmt_Minzhou.png"
+	}
+	
+	spriteType = { #岷州highlight-kmt
+	name = "GFX_ROL_bop_redblood_kmt_Minzhou_highlight" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_kmt_Minzhou_highlight.png"
+	}
+	
+	spriteType = { #甘南-cpc
+	name = "GFX_ROL_bop_redblood_cpc_Gannan" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_cpc_Gannan.png"
+	}
+	
+	spriteType = { #甘南highlight-cpc
+	name = "GFX_ROL_bop_redblood_cpc_Gannan_highlight" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_cpc_Gannan_highlight.png"
+	}
+	
+	spriteType = { #甘南-kmt
+	name = "GFX_ROL_bop_redblood_kmt_Gannan" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_kmt_Gannan.png"
+	}
+	
+	spriteType = { #甘南highlight-kmt
+	name = "GFX_ROL_bop_redblood_kmt_Gannan_highlight" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_kmt_Gannan_highlight.png"
+	}
+	
+	spriteType = { #果洛-cpc
+	name = "GFX_ROL_bop_redblood_cpc_Guoluo" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_cpc_Guoluo.png"
+	}
+	
+	spriteType = { #果洛highlight-cpc
+	name = "GFX_ROL_bop_redblood_cpc_Guoluo_highlight" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_cpc_Guoluo_highlight.png"
+	}
+	
+	spriteType = { #果洛-kmt
+	name = "GFX_ROL_bop_redblood_kmt_Guoluo" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_kmt_Guoluo.png"
+	}
+	
+	spriteType = { #果洛highlight-kmt
+	name = "GFX_ROL_bop_redblood_kmt_Guoluo_highlight" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_kmt_Guoluo_highlight.png"
+	}
+	#######
+	spriteType = { #边框
+	name = "GFX_ROL_bop_redblood_frame" ###
+	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_frame.dds"
+	}
 }	
+
+spriteTypes = {
+	spriteType = { #先机
+	name = "GFX_ROL_KMT_bop_marebellion_opportunity" ###
+	textureFile = "gfx/interface/texticon/ROL_KMT_red_blood/ROL_KMT_bop_marebellion_opportunity.png"
+	legacy_lazy_load = no
+	}
+	
+	spriteType = { #紧张度
+	name = "GFX_ROL_KMT_bop_marebellion_nervous" ###
+	textureFile = "gfx/interface/texticon/ROL_KMT_red_blood/ROL_KMT_bop_marebellion_nervous.png"
+	legacy_lazy_load = no
+	}
+	
+	spriteType = { #准备度
+	name = "GFX_ROL_KMT_bop_marebellion_prepare" ###
+	textureFile = "gfx/interface/texticon/ROL_KMT_red_blood/ROL_KMT_bop_marebellion_prepare.png"
+	legacy_lazy_load = no
+	}
+}

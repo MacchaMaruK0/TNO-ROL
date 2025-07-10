@@ -164,6 +164,26 @@ spriteTypes = {
 		name = GFX_ROL_KMT_party_bureau_investigation_icon
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_bureau_investigation_icon.png"
 	}
+	
+	spriteType = { #职团
+		name = GFX_ROL_KMT_party_professional_group_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_professional_group_icon.png"
+	}
+	
+	spriteType = { #经建会
+		name = GFX_ROL_KMT_party_ECM_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_ECM_icon.png"
+	}
+	
+	spriteType = { #参谋室
+		name = GFX_ROL_KMT_party_secretary_office_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_secretary_office_icon.png"
+	}
+	
+	spriteType = { #政工处
+		name = GFX_ROL_KMT_party_PWD_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_PWD_icon.png"
+	}
 	####
 	spriteType = { #研究院-李焕
 		name = GFX_ROL_KMT_Lihuan_texticon

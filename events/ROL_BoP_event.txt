@@ -22,5 +22,6 @@ country_event = {
 		TNO_BoP_ROLregional_AddTab = yes
 		set_country_flag = ROL_KMT_fopo
 		set_country_flag = ROL_KMT_regional
+		set_country_flag = ROL_KMT_red_blood
 	}
 }

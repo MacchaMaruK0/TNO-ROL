@@ -186,6 +186,22 @@ scripted_gui = {
 			ROL_KMT_party_bureau_investigation_visible = {
 				has_country_flag = ROL_KMT_party_suppor_visible
 			}
+			
+			ROL_KMT_party_professional_group_visible = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
+			
+			ROL_KMT_party_ECM_visible = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
+			
+			ROL_KMT_party_secretary_office_visible = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
+			
+			ROL_KMT_party_PWD_visible = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
 		}
 	}
 }

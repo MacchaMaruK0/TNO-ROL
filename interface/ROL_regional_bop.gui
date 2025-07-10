@@ -164,6 +164,180 @@ guiTypes = {
 				pdx_tooltip = "ROL_KMT_redblood_front_infor"
 			}
 			
+			
+			####Linxia
+			buttonType = {
+				name = "ROL_bop_redblood_cpc_Linxia_button"
+				spriteType = "GFX_ROL_bop_redblood_cpc_Linxia"
+				position = { x = 181 y = 177 }
+				pdx_tooltip = "ROL_bop_redblood_cpc_Linxia_infor"
+			}
+			
+			buttonType = {
+				name = "ROL_bop_redblood_kmt_Linxia_button"
+				spriteType = "GFX_ROL_bop_redblood_kmt_Linxia"
+				position = { x = 181 y = 177 }
+				pdx_tooltip = "ROL_bop_redblood_kmt_Linxia_infor"
+			}
+			
+			buttonType = {
+				name = "ROL_bop_redblood_cpc_Linxia_highlight_button"
+				spriteType = "GFX_ROL_bop_redblood_cpc_Linxia_highlight"
+				position = { x = 181 y = 177 }
+				pdx_tooltip = "ROL_bop_redblood_cpc_Linxia_highlight_infor"
+			}
+			
+			buttonType = {
+				name = "ROL_bop_redblood_kmt_Linxia_highlight_button"
+				spriteType = "GFX_ROL_bop_redblood_kmt_Linxia_highlight"
+				position = { x = 181 y = 177 }
+				pdx_tooltip = "ROL_bop_redblood_kmt_Linxia_highlight_infor"
+			}
+			
+			####Lintao
+			buttonType = {
+				name = "ROL_bop_redblood_cpc_Lintao_button"
+				spriteType = "GFX_ROL_bop_redblood_cpc_Lintao"
+				position = { x = 257 y = 177 }
+				pdx_tooltip = "ROL_bop_redblood_cpc_Lintao_infor"
+			}
+			
+			buttonType = {
+				name = "ROL_bop_redblood_kmt_Lintao_button"
+				spriteType = "GFX_ROL_bop_redblood_kmt_Lintao"
+				position = { x = 257 y = 177 }
+				pdx_tooltip = "ROL_bop_redblood_kmt_Lintao_infor"
+			}
+			
+			buttonType = {
+				name = "ROL_bop_redblood_cpc_Lintao_highlight_button"
+				spriteType = "GFX_ROL_bop_redblood_cpc_Lintao_highlight"
+				position = { x = 257 y = 177 }
+			}
+			
+			buttonType = {
+				name = "ROL_bop_redblood_kmt_Lintao_highlight_button"
+				spriteType = "GFX_ROL_bop_redblood_kmt_Lintao_highlight"
+				position = { x = 257 y = 177 }
+			}
+			
+			#####Tianshui
+			buttonType = {
+				name = "ROL_bop_redblood_cpc_Tianshui_button"
+				spriteType = "GFX_ROL_bop_redblood_cpc_Tianshui"
+				position = { x = 306 y = 250 }
+				pdx_tooltip = "ROL_bop_redblood_cpc_Tianshui_infor"
+			}
+			
+			buttonType = {
+				name = "ROL_bop_redblood_cpc_Tianshui_highlight_button"
+				spriteType = "GFX_ROL_bop_redblood_cpc_Tianshui_highlight"
+				position = { x = 306 y = 250 }
+			}
+			
+			buttonType = {
+				name = "ROL_bop_redblood_kmt_Tianshui_button"
+				spriteType = "GFX_ROL_bop_redblood_kmt_Tianshui"
+				position = { x = 306 y = 250 }
+				pdx_tooltip = "ROL_bop_redblood_kmt_Tianshui_infor"
+			}
+			
+			buttonType = {
+				name = "ROL_bop_redblood_kmt_Tianshui_highlight_button"
+				spriteType = "GFX_ROL_bop_redblood_kmt_Tianshui_highlight"
+				position = { x = 306 y = 250 }
+			}
+			
+			######Minzhou
+			buttonType = {
+				name = "ROL_bop_redblood_cpc_Minzhou_button"
+				spriteType = "GFX_ROL_bop_redblood_cpc_Minzhou"
+				position = { x = 276 y = 256 }
+				pdx_tooltip = "ROL_bop_redblood_cpc_Minzhou_infor"
+			}
+			
+			buttonType = {
+				name = "ROL_bop_redblood_cpc_Minzhou_highlight_button"
+				spriteType = "GFX_ROL_bop_redblood_cpc_Minzhou_highlight"
+				position = { x = 276 y = 256 }
+			}
+			
+			buttonType = {
+				name = "ROL_bop_redblood_kmt_Minzhou_button"
+				spriteType = "GFX_ROL_bop_redblood_kmt_Minzhou"
+				position = { x = 276 y = 256 }
+				pdx_tooltip = "ROL_bop_redblood_kmt_Minzhou_infor"
+			}
+			
+			buttonType = {
+				name = "ROL_bop_redblood_kmt_Minzhou_highlight_button"
+				spriteType = "GFX_ROL_bop_redblood_kmt_Minzhou_highlight"
+				position = { x = 276 y = 256 }
+			}
+			
+			######Gannan
+			buttonType = {
+				name = "ROL_bop_redblood_cpc_Gannan_button"
+				spriteType = "GFX_ROL_bop_redblood_cpc_Gannan"
+				position = { x = 202 y = 240 }
+				pdx_tooltip = "ROL_bop_redblood_cpc_Gannan_infor"
+			}
+			
+			buttonType = {
+				name = "ROL_bop_redblood_cpc_Gannan_highlight_button"
+				spriteType = "GFX_ROL_bop_redblood_cpc_Gannan_highlight"
+				position = { x = 202 y = 240 }
+			}
+			
+			buttonType = {
+				name = "ROL_bop_redblood_kmt_Gannan_button"
+				spriteType = "GFX_ROL_bop_redblood_kmt_Gannan"
+				position = { x = 202 y = 240 }
+				pdx_tooltip = "ROL_bop_redblood_kmt_Gannan_infor"
+			}
+			
+			buttonType = {
+				name = "ROL_bop_redblood_kmt_Gannan_highlight_button"
+				spriteType = "GFX_ROL_bop_redblood_kmt_Gannan_highlight"
+				position = { x = 202 y = 240 }
+			}
+			
+			######Guoluo
+			
+			buttonType = {
+				name = "ROL_bop_redblood_cpc_Guoluo_button"
+				spriteType = "GFX_ROL_bop_redblood_cpc_Guoluo"
+				position = { x = 215 y = 363 }
+				pdx_tooltip = "ROL_bop_redblood_cpc_Guoluo_infor"
+			}
+			
+			buttonType = {
+				name = "ROL_bop_redblood_cpc_Guoluo_highlight_button"
+				spriteType = "GFX_ROL_bop_redblood_cpc_Guoluo_highlight"
+				position = { x = 215 y = 363 }
+			}
+			
+			buttonType = {
+				name = "ROL_bop_redblood_kmt_Guoluo_button"
+				spriteType = "GFX_ROL_bop_redblood_kmt_Guoluo"
+				position = { x = 215 y = 363 }
+				pdx_tooltip = "ROL_bop_redblood_kmt_Guoluo_infor"
+			}
+			
+			buttonType = {
+				name = "ROL_bop_redblood_kmt_Guoluo_highlight_button"
+				spriteType = "GFX_ROL_bop_redblood_kmt_Guoluo_highlight"
+				position = { x = 215 y = 363 }
+			}
+			
+			########frame
+			iconType = {
+				name = "ROL_bop_redblood_frame_icon"
+				position = { x = 180 y = 140 }
+				spriteType = "GFX_ROL_bop_redblood_frame"
+				alwaystransparent = yes
+			}
+			
 			instantTextBoxType={
 				name = "ROL_KMT_red_blood_act_txt"
 				position = { x = 703 y = 185 }
@@ -174,6 +348,30 @@ guiTypes = {
 				format = center
 				fixedsize = yes
 				pdx_tooltip = "ROL_KMT_red_blood_act_info"
+			}
+			
+			instantTextBoxType={
+				name = "ROL_KMT_red_blood_act_area_txt"
+				position = { x = 70 y = 500 }
+				font = "aldrich_30_outline"
+				maxWidth = 350
+				maxHeight = 32
+				text = "ROL_KMT_red_blood_act_area_txt"
+				format = center
+				fixedsize = yes
+				#pdx_tooltip = "ROL_KMT_red_blood_act_info"
+			}
+			
+			instantTextBoxType={
+				name = "ROL_KMT_red_blood_control_txt"
+				position = { x = 65 y = 550 }
+				font = "aldrich_30_outline"
+				maxWidth = 400
+				maxHeight = 32
+				text = "ROL_KMT_red_blood_control_txt"
+				format = center
+				fixedsize = yes
+				#pdx_tooltip = "ROL_KMT_red_blood_act_info"
 			}
 		
 			

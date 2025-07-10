@@ -124,3 +124,323 @@ ROL_KMT_red_blood_act = {
 		max = 2
 	}
 }
+
+
+ROL_KMT_redblood_Linxia_control = {
+    #控制度-临夏
+    add_to_variable = {
+        var = ROL_KMT_redblood_Linxia_control_num #
+        value = ROL_KMT_redblood_Linxia_control_num_temp #
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_redblood_Linxia_control_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_redblood_Linxia_control_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_redblood_Linxia_control_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_redblood_Linxia_control_num
+		min = 1
+		max = 100
+	}
+}
+
+ROL_KMT_redblood_Lintao_control = {
+    #控制度-临洮
+    add_to_variable = {
+        var = ROL_KMT_redblood_Lintao_control_num #
+        value = ROL_KMT_redblood_Lintao_control_num_temp #
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_redblood_Lintao_control_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_redblood_Lintao_control_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_redblood_Lintao_control_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_redblood_Lintao_control_num
+		min = 1
+		max = 100
+	}
+}
+
+ROL_KMT_redblood_Tianshui_control = {
+    #控制度-天水
+    add_to_variable = {
+        var = ROL_KMT_redblood_Tianshui_control_num #
+        value = ROL_KMT_redblood_Tianshui_control_num_temp #
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_redblood_Tianshui_control_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_redblood_Tianshui_control_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_redblood_Tianshui_control_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_redblood_Tianshui_control_num
+		min = 1
+		max = 100
+	}
+}
+
+ROL_KMT_redblood_Minzhou_control = {
+    #控制度-岷州
+    add_to_variable = {
+        var = ROL_KMT_redblood_Minzhou_control_num #
+        value = ROL_KMT_redblood_Minzhou_control_num_temp #
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_redblood_Minzhou_control_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_redblood_Minzhou_control_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_redblood_Minzhou_control_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_redblood_Minzhou_control_num
+		min = 1
+		max = 100
+	}
+}
+
+ROL_KMT_redblood_Gannan_control = {
+    #控制度-甘南
+    add_to_variable = {
+        var = ROL_KMT_redblood_Gannan_control_num #
+        value = ROL_KMT_redblood_Gannan_control_num_temp #
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_redblood_Gannan_control_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_redblood_Gannan_control_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_redblood_Gannan_control_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_redblood_Gannan_control_num
+		min = 1
+		max = 100
+	}
+}
+
+ROL_KMT_redblood_Guoluo_control = {
+    #控制度-果洛
+    add_to_variable = {
+        var = ROL_KMT_redblood_Guoluo_control_num #
+        value = ROL_KMT_redblood_Guoluo_control_num_temp #
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_redblood_Guoluo_control_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_redblood_Guoluo_control_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_redblood_Guoluo_control_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_redblood_Guoluo_control_num
+		min = 1
+		max = 100
+	}
+}
+
+ROL_KMT_redblood_control_area = {
+    #控制度-总地区数
+    add_to_variable = {
+        var = ROL_KMT_redblood_control_area_num #
+        value = ROL_KMT_redblood_control_area_num_temp #
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_redblood_control_area_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_redblood_control_area_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_redblood_control_area_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_redblood_control_area_num
+		min = 0
+		max = 6
+	}
+}
+
+ROL_KMT_bop_redblood_win = {
+    #胜利次数
+    add_to_variable = {
+        var = ROL_KMT_bop_redblood_win_num #
+        value = ROL_KMT_bop_redblood_win_num_temp #
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_bop_redblood_win_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_bop_redblood_win_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_bop_redblood_win_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_bop_redblood_win_num
+		min = 0
+		max = 30
+	}
+}
+
+ROL_KMT_bop_marebellion_opportunity = {
+    #先机
+    add_to_variable = {
+        var = ROL_KMT_bop_marebellion_opportunity_num #
+        value = ROL_KMT_bop_marebellion_opportunity_num_temp #
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_bop_marebellion_opportunity_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_bop_marebellion_opportunity_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_bop_marebellion_opportunity_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_bop_marebellion_opportunity_num
+		min = 0
+		max = 30
+	}
+}
+
+ROL_KMT_bop_marebellion_prepare = {
+    #准备度
+    add_to_variable = {
+        var = ROL_KMT_bop_marebellion_prepare_num #
+        value = ROL_KMT_bop_marebellion_prepare_num_temp #
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_bop_marebellion_prepare_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_bop_marebellion_prepare_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_bop_marebellion_prepare_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_bop_marebellion_prepare_num
+		min = 0
+		max = 100
+	}
+}
+
+ROL_KMT_bop_marebellion_nervous = {
+    #紧张度
+    add_to_variable = {
+        var = ROL_KMT_bop_marebellion_nervous_num #
+        value = ROL_KMT_bop_marebellion_prepare_num_temp #
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_bop_marebellion_prepare_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_bop_marebellion_prepare_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_bop_marebellion_prepare_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_bop_marebellion_nervous_num
+		min = 0
+		max = 100
+	}
+}

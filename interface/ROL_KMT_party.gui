@@ -41,28 +41,28 @@ guiTypes = {
 		######研究院双条
 		iconType = { 
             name = "ROL_KMT_youth_green_bar" 
-            position = { x = 120 y = 180 } 
+            position = { x = 120 y = 200 } 
             spriteType = "GFX_ROL_KMT_youth_green_bar_bill"
             pdx_tooltip = ROL_KMT_youth_green_tt
         }
 		
 		iconType = { 
             name = "ROL_KMT_youth_red_bar" 
-            position = { x = 130 y = 190 } 
+            position = { x = 130 y = 210 } 
             spriteType = "GFX_ROL_KMT_youth_red_bar_bill"
             pdx_tooltip = ROL_KMT_youth_red_tt
         }
 		######
 		iconType = { 
             name = "ROL_KMT_CBI_green_bar" 
-            position = { x = 379 y = 183 } 
+            position = { x = 379 y = 203 } 
             spriteType = "GFX_ROL_KMT_youth_green_bar_bill"
             pdx_tooltip = ROL_KMT_CBI_green_tt
         }
 		
 		iconType = { 
             name = "ROL_KMT_CBI_red_bar" 
-            position = { x = 389 y = 193 } 
+            position = { x = 389 y = 213 } 
             spriteType = "GFX_ROL_KMT_youth_red_bar_bill"
             pdx_tooltip = ROL_KMT_CBI_red_tt
         }
@@ -140,16 +140,44 @@ guiTypes = {
 		####
 		buttonType = {
             name = "ROL_KMT_party_rev_school"
-            position = { x = 152 y = 212 }
+            position = { x = 152 y = 232 }
             spriteType = "GFX_ROL_KMT_party_rev_school_icon"
             pdx_tooltip = ROL_KMT_party_rev_school_tt
 		}
 		
 		buttonType = {
             name = "ROL_KMT_party_bureau_investigation"
-            position = { x = 411 y = 216 }
+            position = { x = 411 y = 236 }
             spriteType = "GFX_ROL_KMT_party_bureau_investigation_icon"
             pdx_tooltip = ROL_KMT_party_CBI_tt
+		}
+		####
+		buttonType = {
+            name = "ROL_KMT_party_ECM"
+            position = { x = 152 y = 476 }
+            spriteType = "GFX_ROL_KMT_party_ECM_icon"
+            pdx_tooltip = ROL_KMT_party_ECM_tt
+		}
+		
+		buttonType = {
+            name = "ROL_KMT_party_professional_group"
+            position = { x = 413 y = 466 }
+            spriteType = "GFX_ROL_KMT_party_professional_group_icon"
+            pdx_tooltip = ROL_KMT_party_professional_group_tt
+		}
+		####
+		buttonType = {
+            name = "ROL_KMT_party_PWD"
+            position = { x = 152 y = 726 }
+            spriteType = "GFX_ROL_KMT_party_PWD_icon"
+            pdx_tooltip = ROL_KMT_party_PWD_tt
+		}
+		
+		buttonType = {
+            name = "ROL_KMT_party_secretary_office"
+            position = { x = 411 y = 707 }
+            spriteType = "GFX_ROL_KMT_party_secretary_office_icon"
+            pdx_tooltip = ROL_KMT_party_secretary_office_tt
 		}
 		####
 		iconType = {

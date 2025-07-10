@@ -105,3 +105,140 @@ defined_text = {
 		localization_key = ROLregional_desicion_name_blank
 	}
 }
+
+defined_text = {
+	name = Get_ROL_KMT_redblood_control_area
+	text = { #西北戡乱-控制地区
+		trigger = { check_variable = { ROL_KMT_redblood_control_area_tooltip_num_temp > 3 }  }
+		localization_key = "ROL_KMT_redblood_control_area_1"
+	}
+	text = { #
+		trigger = { check_variable = { ROL_KMT_redblood_control_area_tooltip_num_temp = 3 }  }
+		localization_key = "ROL_KMT_redblood_control_area_2"
+	}
+	text = { #
+		trigger = { check_variable = { ROL_KMT_redblood_control_area_tooltip_num_temp < 3 }  }
+		localization_key = "ROL_KMT_redblood_control_area_3"
+	}
+}
+
+defined_text = {
+	name = Get_ROLregional_redblood_areaname
+	text = { #西北戡乱-对应地区
+		trigger = { 
+			OR = { 
+				has_country_flag = ROL_bop_redblood_cpc_Linxia_highlight 
+				has_country_flag = ROL_bop_redblood_kmt_Linxia_highlight 
+			}  
+		}
+		localization_key = "ROLregional_redblood_areaname_Linxia"
+	}
+	text = { 
+		trigger = { 
+			OR = { 
+				has_country_flag = ROL_bop_redblood_cpc_Lintao_highlight 
+				has_country_flag = ROL_bop_redblood_kmt_Lintao_highlight 
+			}  
+		}
+		localization_key = "ROLregional_redblood_areaname_Lintao"
+	}
+	text = { 
+		trigger = { 
+			OR = { 
+				has_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight 
+				has_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight 
+			}  
+		}
+		localization_key = "ROLregional_redblood_areaname_Minzhou"
+	}
+	text = { 
+		trigger = { 
+			OR = { 
+				has_country_flag = ROL_bop_redblood_cpc_Gannan_highlight 
+				has_country_flag = ROL_bop_redblood_kmt_Gannan_highlight 
+			}  
+		}
+		localization_key = "ROLregional_redblood_areaname_Gannan"
+	}
+	text = { 
+		trigger = { 
+			OR = { 
+				has_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight 
+				has_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight 
+			}  
+		}
+		localization_key = "ROLregional_redblood_areaname_Guoluo"
+	}
+	
+	text = { 
+		trigger = { 
+			OR = { 
+				has_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight 
+				has_country_flag = ROL_bop_redblood_kmt_Tianshui_highlight 
+			}  
+		}
+		localization_key = "ROLregional_redblood_areaname_Tianshui"
+	}
+	
+	text = { 
+		localization_key = "ROLregional_redblood_areaname_none"
+	}
+}
+defined_text = {
+	name = Get_ROLregional_redblood_areacontrol
+	text = { #西北戡乱-对应地区控制度
+		trigger = { 
+			OR = { 
+				has_country_flag = ROL_bop_redblood_cpc_Linxia_highlight 
+				has_country_flag = ROL_bop_redblood_kmt_Linxia_highlight 
+			}  
+		}
+		localization_key = "ROLregional_redblood_areacontrol_Linxia"
+	}
+	text = { 
+		trigger = { 
+			OR = { 
+				has_country_flag = ROL_bop_redblood_cpc_Lintao_highlight 
+				has_country_flag = ROL_bop_redblood_kmt_Lintao_highlight 
+			}  
+		}
+		localization_key = "ROLregional_redblood_areacontrol_Lintao"
+	}
+	text = { 
+		trigger = { 
+			OR = { 
+				has_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight 
+				has_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight 
+			}  
+		}
+		localization_key = "ROLregional_redblood_areacontrol_Minzhou"
+	}
+	text = { 
+		trigger = { 
+			OR = { 
+				has_country_flag = ROL_bop_redblood_cpc_Gannan_highlight 
+				has_country_flag = ROL_bop_redblood_kmt_Gannan_highlight 
+			}  
+		}
+		localization_key = "ROLregional_redblood_areacontrol_Gannan"
+	}
+	text = { 
+		trigger = { 
+			OR = { 
+				has_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight 
+				has_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight 
+			}  
+		}
+		localization_key = "ROLregional_redblood_areacontrol_Guoluo"
+	}
+	
+	text = { 
+		trigger = { 
+			OR = { 
+				has_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight 
+				has_country_flag = ROL_bop_redblood_kmt_Tianshui_highlight 
+			}  
+		}
+		localization_key = "ROLregional_redblood_areacontrol_Tianshui"
+	}
+}

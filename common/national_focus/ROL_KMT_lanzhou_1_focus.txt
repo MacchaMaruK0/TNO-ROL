@@ -50,6 +50,7 @@ focus_tree = {
 		continue_if_invalid = no 
 		available_if_capitulated = no 
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+		custom_effect_tooltip = ROL_KMT_wild_horses_tt
 		}
 	}
 	
@@ -74,7 +75,36 @@ focus_tree = {
 		cancel_if_invalid = yes 
 		continue_if_invalid = no 
 		available_if_capitulated = no 
+		select_effect = {
+			if = {
+				limit = {
+					OR = {
+						check_variable = {
+							ROL_KMT_bop_marebellion_opportunity_num = 7
+						}
+						check_variable = {
+							ROL_KMT_bop_marebellion_opportunity_num > 7
+						}
+					}
+				}
+				set_temp_variable = {
+					ROL_KMT_bop_marebellion_opportunity_num_temp = -7
+				}
+				ROL_KMT_bop_marebellion_opportunity = yes
+				complete_national_focus = ROL_KMT_get_ready_to_fight
+			}
+		}
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+			set_temp_variable = {
+					ROL_KMT_bop_marebellion_prepare_num_temp = 5
+				}
+			ROL_KMT_bop_marebellion_prepare = yes
+			set_temp_variable = {
+					ROL_KMT_bop_marebellion_nervous_num_temp = 5
+				}
+			ROL_KMT_bop_marebellion_nervous = yes
+			custom_effect_tooltip = ROL_KMT_get_ready_to_fight_tt
+			custom_effect_tooltip = ROL_KMT_get_ready_to_fight_1_tt
 		}
 	}
 	
