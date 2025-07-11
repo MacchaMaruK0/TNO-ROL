@@ -179,6 +179,9 @@ add_ideas = {
 	ROL_KMT_heteronomy
 	ROL_KMT_Economic_helmsman
 	
+	###hidden###
+	KMT_ROL_CBI_1_idea
+	
     #Ministers
 	KMT_ROL_minister_Zhang_Zhizhong_hog
 	KMT_ROL_minister_Jiang_Jingguo_for

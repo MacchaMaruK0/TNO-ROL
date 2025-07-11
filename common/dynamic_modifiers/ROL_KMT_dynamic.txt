@@ -1,0 +1,10 @@
+ROL_KMT_party_1_dynamic_modifier = { ###研究院动态精神
+	political_power_gain = ROL_KMT_party_1_pp_var
+	stability_factor = ROL_KMT_party_1_st_var
+	admin_efficiency_monthly_rate = ROL_KMT_party_1_ef_var
+}
+
+ROL_KMT_party_2_dynamic_modifier = { ###调查局动态精神
+	encryption_factor = ROL_KMT_party_2_ef_var
+	decryption_factor = ROL_KMT_party_2_df_var
+}

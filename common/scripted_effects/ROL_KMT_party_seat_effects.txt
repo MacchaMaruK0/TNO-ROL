@@ -119,6 +119,17 @@ ROL_KMT_party_youth_green = {
 		min = 1
 		max = 100
 	}
+	set_variable = { ROL_KMT_party_1_pp_var = ROL_KMT_party_youth_green_num}
+	add_to_variable = { ROL_KMT_party_1_pp_var = -50 }
+	multiply_variable = {  ROL_KMT_party_1_pp_var = 0.02 }
+	
+	set_variable = { ROL_KMT_party_1_st_var = ROL_KMT_party_youth_green_num}
+	add_to_variable = { ROL_KMT_party_1_st_var = -50 }
+	multiply_variable = {  ROL_KMT_party_1_st_var = 0.005 }
+	
+	set_variable = { ROL_KMT_party_1_ef_var = ROL_KMT_party_youth_green_num}
+	add_to_variable = { ROL_KMT_party_1_ef_var = -50 }
+	multiply_variable = {  ROL_KMT_party_1_ef_var = 0.05 }
 }
 
 ROL_KMT_party_youth_red = {
@@ -153,8 +164,8 @@ ROL_KMT_party_youth_red = {
 ROL_KMT_party_CBI_green = {
     #增加绿条
     add_to_variable = {
-        var = ROL_KMT_party_CBI_green_num #youth的绿条变量
-        value = ROL_KMT_party_CBI_green_num_temp #改变youth的绿条变量
+        var = ROL_KMT_party_CBI_green_num #CBI的绿条变量
+        value = ROL_KMT_party_CBI_green_num_temp #改变CBI的绿条变量
     }
     
     if = {
@@ -177,6 +188,13 @@ ROL_KMT_party_CBI_green = {
 		min = 1
 		max = 100
 	}
+	set_variable = { ROL_KMT_party_2_ef_var = ROL_KMT_party_CBI_green_num}
+	add_to_variable = { ROL_KMT_party_2_ef_var = -50 }
+	multiply_variable = {  ROL_KMT_party_2_ef_var = 0.01 }
+	
+	set_variable = { ROL_KMT_party_2_df_var = ROL_KMT_party_CBI_green_num}
+	add_to_variable = { ROL_KMT_party_2_df_var = -50 }
+	multiply_variable = {  ROL_KMT_party_2_df_var = 0.01 }
 }
 
 ROL_KMT_party_CBI_red = {
@@ -207,3 +225,61 @@ ROL_KMT_party_CBI_red = {
 		max = 100
 	}
 }
+
+ROL_KMT_CBI_Leveler = {
+	if = {
+		limit = {
+			check_variable = {
+				OR = {
+					ROL_KMT_party_CBI_green_num > 25
+					ROL_KMT_party_CBI_green_num = 25
+				}	
+				ROL_KMT_party_CBI_green_num < 50
+			}
+		}
+		swap_ideas = {
+			add_idea = KMT_ROL_CBI_1_idea
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				OR = {
+					ROL_KMT_party_CBI_green_num > 50
+					ROL_KMT_party_CBI_green_num = 50
+				}	
+				ROL_KMT_party_CBI_green_num < 75
+			}
+		}
+		swap_ideas = {
+			remove_idea = KMT_ROL_CBI_1_idea
+			add_idea = KMT_ROL_CBI_2_idea
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				OR = {
+					ROL_KMT_party_CBI_green_num > 75
+					ROL_KMT_party_CBI_green_num = 75
+				}	
+				ROL_KMT_party_CBI_green_num < 100
+			}
+		}
+		swap_ideas = {
+			remove_idea = KMT_ROL_CBI_2_idea
+			add_idea = KMT_ROL_CBI_3_idea
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				ROL_KMT_party_CBI_green_num = 100
+			}
+		}
+		swap_ideas = {
+			remove_idea = KMT_ROL_CBI_3_idea
+			add_idea = KMT_ROL_CBI_4_idea
+		}
+	}
+}	
