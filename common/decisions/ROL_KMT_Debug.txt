@@ -212,6 +212,16 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 		ROL_KMT_party_youth_green = yes
 		}
     }
+
+	ROL_KMT_PARTY_TEST_2 = {
+	icon = GFX_decision_debug
+	fire_only_once = no
+	is_debug = yes
+	complete_effect = {
+		set_temp_variable = { ROL_KMT_party_CBI_green_num_temp = 20 }
+		ROL_KMT_party_CBI_green = yes
+		}
+    }
 	
 	ROL_Japan_leave_south_asia = {
 	icon = GFX_decision_generic_visibility

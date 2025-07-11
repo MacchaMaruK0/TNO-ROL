@@ -50,32 +50,44 @@ defined_text = {
 	}
 }
 
-Get_ROL_KMT_CBI_idea = {
+defined_text = {
+	name = Get_ROL_KMT_CBI_idea
 	text = {
 		trigger = {
-			has_idea = KMT_ROL_CBI_1_idea
+			KMT = {
+				has_idea = KMT_ROL_CBI_1_idea
+			}
 		}
 		localization_key = "ROL_KMT_CBI_idea_1_tt"
 	}
 	
 	text = {
 		trigger = {
-			has_idea = KMT_ROL_CBI_2_idea
+			KMT = {
+				has_idea = KMT_ROL_CBI_2_idea
+			}
 		}
 		localization_key = "ROL_KMT_CBI_idea_2_tt"
 	}
 	
 	text = {
 		trigger = {
-			has_idea = KMT_ROL_CBI_3_idea
+			KMT = {
+				has_idea = KMT_ROL_CBI_3_idea
+			}
 		}
 		localization_key = "ROL_KMT_CBI_idea_3_tt"
 	}
 	
 	text = {
 		trigger = {
-			has_idea = KMT_ROL_CBI_4_idea
+			KMT = {
+				has_idea = KMT_ROL_CBI_4_idea
+			}
 		}
 		localization_key = "ROL_KMT_CBI_idea_4_tt"
+	}
+	text = {
+		localization_key = "ROL_KMT_CBI_idea_none_tt"
 	}
 }

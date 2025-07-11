@@ -155,55 +155,56 @@ ideas = {
 				custom_modifier_tooltip = KMT_ROL_West_north_is_die_tt
 			}
 		}
-		hidden_ideas = {
-			KMT_ROL_CBI_1_idea = {
-				allowed = {
-					always = no
-				}
-				picture = /
-				removal_cost = -1
-				modifier = {
-					send_volunteer_size = 1
-				}
+
+	}
+	hidden_ideas = {
+		KMT_ROL_CBI_1_idea = {
+			# allowed = {
+			# 	always = no
+			# }
+			picture = /
+			removal_cost = -1
+			modifier = {
+				send_volunteer_size = 1
 			}
 		}
-		
-		hidden_ideas = {
-			KMT_ROL_CBI_2_idea = {
-				allowed = {
-					always = no
-				}
-				picture = /
-				removal_cost = -1
-				modifier = {
-					send_volunteer_size = 2
-				}
+	}
+	
+	hidden_ideas = {
+		KMT_ROL_CBI_2_idea = {
+			# allowed = {
+			# 	always = no
+			# }
+			picture = /
+			removal_cost = -1
+			modifier = {
+				send_volunteer_size = 2
 			}
 		}
-		
-		hidden_ideas = {
-			KMT_ROL_CBI_3_idea = {
-				allowed = {
-					always = no
-				}
-				picture = /
-				removal_cost = -1
-				modifier = {
-					send_volunteer_size = 3
-				}
+	}
+	
+	hidden_ideas = {
+		KMT_ROL_CBI_3_idea = {
+			allowed = {
+				always = no
+			}
+			picture = /
+			removal_cost = -1
+			modifier = {
+				send_volunteer_size = 3
 			}
 		}
-		
-		hidden_ideas = {
-			KMT_ROL_CBI_4_idea = {
-				allowed = {
-					always = no
-				}
-				picture = /
-				removal_cost = -1
-				modifier = {
-					send_volunteer_size = 4
-				}
+	}
+	
+	hidden_ideas = {
+		KMT_ROL_CBI_4_idea = {
+			allowed = {
+				always = no
+			}
+			picture = /
+			removal_cost = -1
+			modifier = {
+				send_volunteer_size = 4
 			}
 		}
 	}

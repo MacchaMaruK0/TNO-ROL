@@ -23,6 +23,6 @@ country_event = {
 		add_dynamic_modifier = { modifier = ROL_KMT_party_2_dynamic_modifier }
 		set_temp_variable = { ROL_KMT_party_CBI_green_num = 0.1 }
 		ROL_KMT_party_CBI_green = yes
-		ROL_KMT_CBI_Leveler = yes
+		
 	}
 }

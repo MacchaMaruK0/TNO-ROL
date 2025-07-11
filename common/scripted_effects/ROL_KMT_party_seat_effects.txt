@@ -195,6 +195,8 @@ ROL_KMT_party_CBI_green = {
 	set_variable = { ROL_KMT_party_2_df_var = ROL_KMT_party_CBI_green_num}
 	add_to_variable = { ROL_KMT_party_2_df_var = -50 }
 	multiply_variable = {  ROL_KMT_party_2_df_var = 0.01 }
+
+	hidden_effect = { ROL_KMT_CBI_Leveler = yes }
 }
 
 ROL_KMT_party_CBI_red = {
@@ -230,56 +232,63 @@ ROL_KMT_CBI_Leveler = {
 	if = {
 		limit = {
 			check_variable = {
-				OR = {
-					ROL_KMT_party_CBI_green_num > 25
-					ROL_KMT_party_CBI_green_num = 25
-				}	
-				ROL_KMT_party_CBI_green_num < 50
+				ROL_KMT_party_CBI_green_num < 25
 			}
 		}
-		swap_ideas = {
-			add_idea = KMT_ROL_CBI_1_idea
-		}
+		ROL_KMT_CBI_effect_clear_effect = yes
 	}
 	else_if = {
 		limit = {
-			check_variable = {
-				OR = {
-					ROL_KMT_party_CBI_green_num > 50
-					ROL_KMT_party_CBI_green_num = 50
-				}	
-				ROL_KMT_party_CBI_green_num < 75
+			AND = {
+					OR = {
+						check_variable = { ROL_KMT_party_CBI_green_num > 25 }
+						check_variable = { ROL_KMT_party_CBI_green_num = 25 }
+					}	
+					check_variable = { ROL_KMT_party_CBI_green_num < 50 }
+				}
 			}
-		}
-		swap_ideas = {
-			remove_idea = KMT_ROL_CBI_1_idea
-			add_idea = KMT_ROL_CBI_2_idea
-		}
+		ROL_KMT_CBI_effect_clear_effect = yes
+		add_ideas = KMT_ROL_CBI_1_idea
 	}
 	else_if = {
 		limit = {
-			check_variable = {
+			AND = {
 				OR = {
-					ROL_KMT_party_CBI_green_num > 75
-					ROL_KMT_party_CBI_green_num = 75
+					check_variable = { ROL_KMT_party_CBI_green_num > 50 }
+					check_variable = { ROL_KMT_party_CBI_green_num = 50 }
 				}	
-				ROL_KMT_party_CBI_green_num < 100
+				check_variable = { ROL_KMT_party_CBI_green_num < 75 }
 			}
 		}
-		swap_ideas = {
-			remove_idea = KMT_ROL_CBI_2_idea
-			add_idea = KMT_ROL_CBI_3_idea
-		}
+		ROL_KMT_CBI_effect_clear_effect = yes
+		add_ideas = KMT_ROL_CBI_2_idea
 	}
 	else_if = {
 		limit = {
-			check_variable = {
-				ROL_KMT_party_CBI_green_num = 100
+			AND = {
+				OR = {
+					check_variable = { ROL_KMT_party_CBI_green_num > 75 }
+					check_variable = { ROL_KMT_party_CBI_green_num = 75 }
+				}	
+				check_variable = { ROL_KMT_party_CBI_green_num < 100 }
 			}
+
 		}
-		swap_ideas = {
-			remove_idea = KMT_ROL_CBI_3_idea
-			add_idea = KMT_ROL_CBI_4_idea
+		ROL_KMT_CBI_effect_clear_effect = yes
+		add_ideas = KMT_ROL_CBI_3_idea
+	}
+	else_if = {
+		limit = {
+			check_variable = { ROL_KMT_party_CBI_green_num = 100 }
 		}
+		ROL_KMT_CBI_effect_clear_effect = yes
+		add_ideas = KMT_ROL_CBI_4_idea
 	}
 }	
+
+ROL_KMT_CBI_effect_clear_effect = {
+	remove_ideas = KMT_ROL_CBI_1_idea
+	remove_ideas = KMT_ROL_CBI_2_idea
+	remove_ideas = KMT_ROL_CBI_3_idea
+	remove_ideas = KMT_ROL_CBI_4_idea
+}
