@@ -75,6 +75,38 @@ scripted_gui = {
 			ROL_KMT_CBI_red_bar = {
 				frame = ROL_KMT_party_CBI_red_num
 			}
+			####
+			ROL_KMT_ECM_green_bar = {
+				frame = ROL_KMT_party_ECM_green_num
+			}
+			
+			ROL_KMT_ECM_red_bar = {
+				frame = ROL_KMT_party_ECM_red_num
+			}
+			####
+			ROL_KMT_party_professional_group_green_bar = {
+				frame = ROL_KMT_party_professional_group_green_num
+			}
+			
+			ROL_KMT_party_professional_group_red_bar = {
+				frame = ROL_KMT_party_professional_group_red_num
+			}
+			####
+			ROL_KMT_party_PWD_green_bar = {
+				frame = ROL_KMT_party_PWD_green_num
+			}
+			
+			ROL_KMT_party_PWD_red_bar = {
+				frame = ROL_KMT_party_PWD_red_num
+			}
+			####
+			ROL_KMT_party_secretary_office_green_bar = {
+				frame = ROL_KMT_party_secretary_office_green_num
+			}
+			
+			ROL_KMT_party_secretary_office_red_bar = {
+				frame = ROL_KMT_party_secretary_office_red_num
+			}
 		}
 		
 		effects = {
@@ -176,6 +208,38 @@ scripted_gui = {
 			}
 			
 			ROL_KMT_CBI_red_bar_visible = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
+			
+			ROL_KMT_ECM_green_bar_visible = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
+			
+			ROL_KMT_ECM_red_bar_visible = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
+			
+			ROL_KMT_party_professional_group_green_bar_visible = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
+			
+			ROL_KMT_party_professional_group_red_bar_visible = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
+			
+			ROL_KMT_party_PWD_green_bar_visible = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
+			
+			ROL_KMT_party_PWD_red_bar_visible = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
+			
+			ROL_KMT_party_secretary_office_green_bar_visible = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
+			
+			ROL_KMT_party_secretary_office_red_bar_visible = {
 				has_country_flag = ROL_KMT_party_suppor_visible
 			}
 			

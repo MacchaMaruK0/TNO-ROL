@@ -144,7 +144,34 @@ on_actions = { #
 				set_variable = {
 					ROL_KMT_party_CBI_red_num = 60
 				}
+				#####
+				set_variable = {
+					ROL_KMT_party_ECM_green_num = 45
+				}
+				set_variable = {
+					ROL_KMT_party_ECM_red_num = 60
+				}
 				
+				set_variable = {
+					ROL_KMT_party_professional_group_green_num = 30
+				}
+				set_variable = {
+					ROL_KMT_party_professional_group_red_num = 30
+				}
+				#####
+				set_variable = {
+					ROL_KMT_party_PWD_green_num = 60
+				}
+				set_variable = {
+					ROL_KMT_party_PWD_red_num = 20
+				}
+				#####
+				set_variable = {
+					ROL_KMT_party_secretary_office_green_num = 65
+				}
+				set_variable = {
+					ROL_KMT_party_secretary_office_red_num = 45
+				}
 				#####
 				set_variable = {
 					ROL_KMT_red_blood_act_num = 0

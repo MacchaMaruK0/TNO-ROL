@@ -60,12 +60,63 @@ defined_text = {
 			    PSR_pid_main^ROL_KMT_party_faction_i = 1
 			}
 		}
-		localization_key = "PlaceHolder"
+		localization_key = "ROL_Jiangjing_Guo"
 	}#加人物加在这里，用texticon直接放在yml里
 	text = {
 		localization_key = "[?PSR_pid_main^ROL_KMT_party_faction_i]"
 	}
 }
+defined_text = {
+	name = Get_ROL_KMT_ECM_idea
+	text = {
+		trigger = {
+			KMT = {
+				has_idea = KMT_ROL_ECM_1_idea
+			}
+		}
+		localization_key = "ROL_KMT_ECM_idea_1_tt"
+	}
+	
+	text = {
+		trigger = {
+			KMT = {
+				has_idea = KMT_ROL_ECM_2_idea
+			}
+		}
+		localization_key = "ROL_KMT_ECM_idea_2_tt"
+	}
+	
+	text = {
+		trigger = {
+			KMT = {
+				has_idea = KMT_ROL_ECM_3_idea
+			}
+		}
+		localization_key = "ROL_KMT_ECM_idea_3_tt"
+	}
+	
+	text = {
+		trigger = {
+			KMT = {
+				has_idea = KMT_ROL_ECM_4_idea
+			}
+		}
+		localization_key = "ROL_KMT_ECM_idea_4_tt"
+	}
+	
+	text = {
+		trigger = {
+			KMT = {
+				has_idea = KMT_ROL_ECM_5_idea
+			}
+		}
+		localization_key = "ROL_KMT_ECM_idea_5_tt"
+	}
+	text = {
+		localization_key = "ROL_KMT_ECM_idea_none_tt"
+	}
+}
+
 defined_text = {
 	name = Get_ROL_KMT_CBI_idea
 	text = {

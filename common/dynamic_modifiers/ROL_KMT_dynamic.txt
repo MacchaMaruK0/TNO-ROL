@@ -8,3 +8,26 @@ ROL_KMT_party_2_dynamic_modifier = { ###调查局动态精神
 	encryption_factor = ROL_KMT_party_2_ef_var
 	decryption_factor = ROL_KMT_party_2_df_var
 }
+
+ROL_KMT_party_3_dynamic_modifier = { ###经建会动态精神
+	production_speed_buildings_factor = ROL_KMT_party_3_sb_var
+	gdp_growth_modifier = ROL_KMT_party_3_gg_var
+}
+
+ROL_KMT_party_4_dynamic_modifier = { ###职团动态精神
+	production_factory_max_efficiency_factor = ROL_KMT_party_4_fm_var
+	production_factory_efficiency_gain_factor = ROL_KMT_party_4_fe_var
+	consumer_goods_use_modifier = ROL_KMT_party_4_gu_var
+}
+
+ROL_KMT_party_5_dynamic_modifier = { ###政工处动态精神
+	army_morale_factor = ROL_KMT_party_5_am_var
+	war_support_factor = ROL_KMT_party_5_ws_var
+	land_reinforce_rate = ROL_KMT_party_5_lr_var
+}
+
+ROL_KMT_party_6_dynamic_modifier = { ###参谋部动态精神
+	army_infantry_attack_factor = ROL_KMT_party_6_ia_var
+	army_infantry_defence_factor = ROL_KMT_party_6_id_var
+	max_planning_factor = ROL_KMT_party_6_mp_var
+}

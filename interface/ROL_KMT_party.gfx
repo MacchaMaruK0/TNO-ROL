@@ -197,4 +197,28 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
+	spriteType = { #经建会-陶声洋
+		name = GFX_ROL_KMT_Taoshengyang_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_Taoshengyang_texticon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #职团-水云祥
+		name = GFX_ROL_KMT_Shuiyunxiang_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_Shuiyunxiang_texticon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #政工处-罗友伦
+		name = GFX_ROL_KMT_Luoyoulun_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_Luoyoulun_texticon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #参谋部-黄维
+		name = GFX_ROL_KMT_Huangwei_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_Huangwei_texticon.png"
+		legacy_lazy_load = no
+	}
+	
 }	

@@ -55,16 +55,64 @@ guiTypes = {
 		######
 		iconType = { 
             name = "ROL_KMT_CBI_green_bar" 
-            position = { x = 379 y = 203 } 
+            position = { x = 379 y = 201 } 
             spriteType = "GFX_ROL_KMT_youth_green_bar_bill"
             pdx_tooltip = ROL_KMT_CBI_green_tt
         }
 		
 		iconType = { 
             name = "ROL_KMT_CBI_red_bar" 
-            position = { x = 389 y = 213 } 
+            position = { x = 389 y = 211 } 
             spriteType = "GFX_ROL_KMT_youth_red_bar_bill"
             pdx_tooltip = ROL_KMT_CBI_red_tt
+        }
+		######
+		iconType = { 
+            name = "ROL_KMT_ECM_green_bar" 
+            position = { x = 120 y = 429 } 
+            spriteType = "GFX_ROL_KMT_youth_green_bar_bill"
+        }
+		
+		iconType = { 
+            name = "ROL_KMT_ECM_red_bar" 
+            position = { x = 130 y = 439 } 
+            spriteType = "GFX_ROL_KMT_youth_red_bar_bill"
+        }
+		######
+		iconType = { 
+            name = "ROL_KMT_party_professional_group_green_bar" 
+            position = { x = 379 y = 432 } 
+            spriteType = "GFX_ROL_KMT_youth_green_bar_bill"
+        }
+		
+		iconType = { 
+            name = "ROL_KMT_party_professional_group_red_bar" 
+            position = { x = 389 y = 442 } 
+            spriteType = "GFX_ROL_KMT_youth_red_bar_bill"
+        }
+		######
+		iconType = { 
+            name = "ROL_KMT_party_PWD_green_bar" 
+            position = { x = 120 y = 663 } 
+            spriteType = "GFX_ROL_KMT_youth_green_bar_bill"
+        }
+		
+		iconType = { 
+            name = "ROL_KMT_party_PWD_red_bar" 
+            position = { x = 130 y = 673 } 
+            spriteType = "GFX_ROL_KMT_youth_red_bar_bill"
+        }
+		######
+		iconType = { 
+            name = "ROL_KMT_party_secretary_office_green_bar" 
+            position = { x = 379 y = 665 } 
+            spriteType = "GFX_ROL_KMT_youth_green_bar_bill"
+        }
+		
+		iconType = { 
+            name = "ROL_KMT_party_secretary_office_red_bar" 
+            position = { x = 389 y = 675 } 
+            spriteType = "GFX_ROL_KMT_youth_red_bar_bill"
         }
 		######
 		instantTextboxType = {

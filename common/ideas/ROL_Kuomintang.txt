@@ -208,4 +208,54 @@ ideas = {
 			}
 		}
 	}
+	
+	hidden_ideas = {
+		KMT_ROL_ECM_1_idea = {
+			picture = /
+			removal_cost = -1
+			modifier = {
+				industrial_factory_donations = 1
+			}
+		}
+	}
+	
+	hidden_ideas = {
+		KMT_ROL_ECM_2_idea = {
+			picture = /
+			removal_cost = -1
+			modifier = {
+				industrial_factory_donations = 2
+			}
+		}
+	}
+	
+	hidden_ideas = {
+		KMT_ROL_ECM_3_idea = {
+			picture = /
+			removal_cost = -1
+			modifier = {
+				industrial_factory_donations = 3
+			}
+		}
+	}
+	
+	hidden_ideas = {
+		KMT_ROL_ECM_4_idea = {
+			picture = /
+			removal_cost = -1
+			modifier = {
+				industrial_factory_donations = 4
+			}
+		}
+	}
+	
+	hidden_ideas = {
+		KMT_ROL_ECM_5_idea = {
+			picture = /
+			removal_cost = -1
+			modifier = {
+				industrial_factory_donations = 5
+			}
+		}
+	}
 }
