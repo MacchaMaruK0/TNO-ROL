@@ -1,4 +1,3 @@
-
 ### USAGE ###
 
 ROL_Swap_Party = { #将指定角色划入另一党派，会自动为党派重排序 需求两个temp_var输入：Pid_aim指示将要被替换的目标 Party_new指定转入的党派 ！注意：当多个拥有相同id的角色存在时（这不应该出现），只会替换第一个
@@ -8,16 +7,18 @@ ROL_Swap_Party = { #将指定角色划入另一党派，会自动为党派重排
 	set_variable = {
 		Pid_get = 0
 	}
-	find_highest_in_array = {
-		array = PSR_pid_main
-		value = PSR_pid_max
-	}
-	add_to_variable = { PSR_pid_max = 1 }
+	# find_highest_in_array = {
+	# 	array = PSR_pid_main
+	# 	value = PSR_pid_max_t
+	# }
+	#add_to_variable = { PSR_pid_max = 1}
+	# set_variable = {PSR_pid_max = PSR_pid_max_t}
+	# log = "[?PSR_pid_max]"
 	while_loop_effect = {
 		limit = {
 			AND = {
 				NOT = { check_variable = { Pid_aim = Pid_get } }
-				check_variable = { swap_loop_count < PSR_pid_max }
+				check_variable = { swap_loop_count < 500 }
 			}
 		}
 		set_variable = { Pid_get = PSR_pid_main^swap_loop_count } 
@@ -28,7 +29,7 @@ ROL_Swap_Party = { #将指定角色划入另一党派，会自动为党派重排
 	}
 	if = {
 		limit = {
-			NOT = { check_variable = { swap_loop_count = PSR_pid_max } }
+			NOT = { check_variable = { swap_loop_count = 500 } }
 		}
 		set_variable = { swapid = swap_loop_count }
 		add_to_variable = { swapid = -1 }
@@ -159,16 +160,16 @@ ROL_swap_Pid = { #将一名角色更换为另一名 需求两个temp_var输入�
 	set_variable = {
 		Pid_get = 0
 	}
-	find_highest_in_array = {
-		array = PSR_pid_main
-		value = PSR_pid_max
-	}
-	add_to_variable = {PSR_pid_max = 1}
+	# find_highest_in_array = {
+	# 	array = PSR_pid_main
+	# 	value = PSR_pid_max
+	# }
+	# add_to_variable = {PSR_pid_max = 1}
 	while_loop_effect = {
 		limit = {
 			AND = {
 				NOT = { check_variable = { Pid_aim = Pid_get } }
-				check_variable = { swap_loop_count < PSR_pid_max }
+				check_variable = { swap_loop_count < 500 }
 			}
 		}
 		set_variable = { Pid_get = PSR_pid_main^swap_loop_count } 
@@ -179,7 +180,7 @@ ROL_swap_Pid = { #将一名角色更换为另一名 需求两个temp_var输入�
 	}
 	if = {
 		limit = {
-			NOT = { check_variable = { swap_loop_count = PSR_pid_max } }
+			NOT = { check_variable = { swap_loop_count = 500 } }
 		}
 		set_variable = { swapid = swap_loop_count }
 		add_to_variable = {swapid = -1}
@@ -341,6 +342,7 @@ ROL_KMT_Pid_Initiate = { #为每个位置赋值初始角色，必须手动依次
 
 ROL_KMT_Party_Seat_Initiate = { #这是初始化函数，仅在机制激活时执行一次
 	clear_array = PSFr_party_temp_array
+	clear_array = PSFr_seat_array
 	set_variable = { ROL_KMT_party_TUMU = 4 }
 	set_variable = { ROL_KMT_party_TAIZI = 2 }
 	set_variable = { ROL_KMT_party_ZAIZAO = 5 }
