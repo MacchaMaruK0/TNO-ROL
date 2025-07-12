@@ -6,8 +6,7 @@ on_actions = { #
 					id = kmt.4
 					days = 44
 				}
-				ROL_KMT_Party_seat_effects = yes
-				ROL_KMT_rerender_party_seat = yes
+				ROL_KMT_Party_Seat_Initiate = yes	
 				#########
 				set_variable = {
 					ROL_KMT_redblood_Linxia_control_num = 95
