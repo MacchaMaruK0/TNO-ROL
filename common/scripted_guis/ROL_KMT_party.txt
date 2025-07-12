@@ -45,9 +45,8 @@ scripted_gui = {
 		
 		dynamic_lists = {
 			ROL_KMT_GUI_Party_Seats_GridBox = {
-				array = ROL_KMT_party_faction
+				array = PSFr_seat_array
 				index = ROL_KMT_party_faction_i
-				value = ROL_KMT_party_faction_v
 				change_scope = no
 				entry_container = ROL_KMT_party_seat
 			}
