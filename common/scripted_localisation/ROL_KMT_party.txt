@@ -3,7 +3,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {				
-			     ROL_KMT_party_faction.v = 1
+			    PSR_party_main^ROL_KMT_party_faction_i = 1
 			}
 		}
 		localization_key = "TUMU_seat"
@@ -11,7 +11,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {				
-			     ROL_KMT_party_faction.v = 2
+			    PSR_party_main^ROL_KMT_party_faction_i = 2
 			}
 		}
 		localization_key = "TAIZI_seat"
@@ -19,7 +19,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {				
-			     ROL_KMT_party_faction.v = 3
+			    PSR_party_main^ROL_KMT_party_faction_i = 3
 			}
 		}
 		localization_key = "ZAIZAO_seat"
@@ -27,7 +27,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {				
-			     ROL_KMT_party_faction.v = 4
+			    PSR_party_main^ROL_KMT_party_faction_i = 4
 			}
 		}
 		localization_key = "HUNANGANG_seat"
@@ -35,7 +35,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {				
-			     ROL_KMT_party_faction.v = 5
+			    PSR_party_main^ROL_KMT_party_faction_i = 5
 			}
 		}
 		localization_key = "YOUTHARMY_seat"
@@ -43,13 +43,29 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {				
-			     ROL_KMT_party_faction.v = 6
+			    PSR_party_main^ROL_KMT_party_faction_i = 6
 			}
 		}
 		localization_key = "TPP_seat"
 	}
+	text = {
+		localization_key = "ERROR"
+	}
 }
-
+defined_text = {
+	name = ROL_KMT_party_pid
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 1
+			}
+		}
+		localization_key = "PlaceHolder"
+	}#加人物加在这里，用texticon直接放在yml里
+	text = {
+		localization_key = "[?PSR_pid_main^ROL_KMT_party_faction_i]"
+	}
+}
 defined_text = {
 	name = Get_ROL_KMT_CBI_idea
 	text = {

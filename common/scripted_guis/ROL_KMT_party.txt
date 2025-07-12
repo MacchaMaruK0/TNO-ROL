@@ -47,6 +47,7 @@ scripted_gui = {
 			ROL_KMT_GUI_Party_Seats_GridBox = {
 				array = ROL_KMT_party_faction
 				index = ROL_KMT_party_faction_i
+				value = ROL_KMT_party_faction_v
 				change_scope = no
 				entry_container = ROL_KMT_party_seat
 			}
@@ -56,7 +57,7 @@ scripted_gui = {
 			parliament_dot_icon = {
 				# x = KMT_party_x^ROL_KMT_party_faction_i
 				# y = KMT_party_y^ROL_KMT_party_faction_i
-				frame = v
+				frame = PSR_party_main^ROL_KMT_party_faction_i
 			}
 			####
 			ROL_KMT_youth_green_bar = {

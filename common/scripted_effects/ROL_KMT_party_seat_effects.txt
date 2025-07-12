@@ -1,18 +1,453 @@
 
-ROL_KMT_Party_seat_effects = {
-	# 
+### USAGE ###
+
+ROL_Swap_Party = { #将指定角色划入另一党派，会自动为党派重排序 需求两个temp_var输入：Pid_aim指示将要被替换的目标 Party_new指定转入的党派 ！注意：当多个拥有相同id的角色存在时（这不应该出现），只会替换第一个
+	set_variable = {
+		swap_loop_count = 0 
+	}
+	set_variable = {
+		Pid_get = 0
+	}
+	find_highest_in_array = {
+		array = PSR_pid_main
+		value = PSR_pid_max
+	}
+	add_to_variable = { PSR_pid_max = 1 }
+	while_loop_effect = {
+		limit = {
+			AND = {
+				NOT = { check_variable = { Pid_aim = Pid_get } }
+				check_variable = { swap_loop_count < PSR_pid_max }
+			}
+		}
+		set_variable = { Pid_get = PSR_pid_main^swap_loop_count } 
+		log = "[?Pid_get]"
+		add_to_variable = {
+			swap_loop_count = 1
+		}
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { swap_loop_count = PSR_pid_max } }
+		}
+		set_variable = { swapid = swap_loop_count }
+		add_to_variable = { swapid = -1 }
+		if = {
+			limit = {
+				NOT = {check_variable = {PSR_party_main^swapid = Party_new }} #本党派换本党派，无事发生
+			}
+			set_temp_variable = { partyid = Party_new }
+			ROL_get_party_start_pos = yes
+			log = "[?Party_new] [?party_start_pos]"
+			#更新席位数
+			set_temp_variable = {
+				partymus = PSR_party_main^swapid 
+			}
+			ROL_update_party_seat_num = yes
+			#第一步，记录原数值
+			set_variable = {
+				Pid_log = PSR_pid_main^swapid
+			}
+			#如果目标位置在目前位置之前： 
+			if = {
+				limit = {
+					check_variable = {
+						party_start_pos < swapid
+					}
+				}
+				#第二步，后退一格
+				for_loop_effect = {
+					start = party_start_pos
+					end = swapid
+					value = crnpos
+					set_temp_variable = {
+						posaim = crnpos
+					}
+					subtract_from_temp_variable = {
+						posaim = party_start_pos
+					}
+					set_temp_variable = {
+						reach = swapid
+					}
+					log = "reach1:[?reach]"
+					subtract_from_temp_variable = {
+						reach = party_start_pos
+					}
+					log = "reach2:[?reach]"
+					subtract_from_temp_variable = {
+						reach = posaim
+					}
+					log = "reach3:[?reach]"
+					add_to_temp_variable = {
+						reach = party_start_pos
+					}
+					log = "reach4:[?reach]"
+					set_temp_variable = {
+						posaim = reach
+					}
+					set_temp_variable = {
+						straim = reach
+					}
+					subtract_from_temp_variable = {
+						straim = 1
+					}
+					log = "from [?straim] to [?posaim]"
+					set_variable = {
+						PSR_party_main^posaim = PSR_party_main^straim
+					}
+					set_variable = {
+						PSR_pid_main^posaim = PSR_pid_main^straim
+					}
+				}
+				#第三步 赋值
+				set_variable = {
+					PSR_party_main^party_start_pos = Party_new
+				}
+				set_variable = {
+					PSR_pid_main^party_start_pos = Pid_log
+				}
+			}
+			#如果目标位置在目前位置之后： 
+			if = {
+				limit = {
+					check_variable = {
+						party_start_pos > swapid
+					}
+				}
+				add_to_variable = {
+						party_start_pos = -1
+					}
+				#第二步，前进
+				for_loop_effect = {
+					start = swapid
+					end = party_start_pos
+					value = crnpos
+					set_temp_variable = {
+						posaim = crnpos
+					}
+					set_temp_variable = {
+						straim = posaim
+					}
+					add_to_temp_variable = {
+						posaim = 1
+					}
+					log = "from [?straim] to [?posaim]"
+					set_variable = {
+						PSR_party_main^straim = PSR_party_main^posaim
+					}
+					set_variable = {
+						PSR_pid_main^straim = PSR_pid_main^posaim
+					}
+				}
+				#第三步 赋值
+				set_variable = {
+					PSR_party_main^party_start_pos = Party_new
+				}
+				set_variable = {
+					PSR_pid_main^party_start_pos = Pid_log
+				}
+			}
+		}
+	}
+}
+
+ROL_swap_Pid = { #将一名角色更换为另一名 需求两个temp_var输入：Pid_aim指示将要被替换的目标 Pid_new指示被替换的对象 ！注意：当多个拥有相同id的角色存在时（这不应该出现），只会替换第一个
+	set_variable = {
+		swap_loop_count = 0 
+	}
+	set_variable = {
+		Pid_get = 0
+	}
+	find_highest_in_array = {
+		array = PSR_pid_main
+		value = PSR_pid_max
+	}
+	add_to_variable = {PSR_pid_max = 1}
+	while_loop_effect = {
+		limit = {
+			AND = {
+				NOT = { check_variable = { Pid_aim = Pid_get } }
+				check_variable = { swap_loop_count < PSR_pid_max }
+			}
+		}
+		set_variable = { Pid_get = PSR_pid_main^swap_loop_count } 
+		log = "[?Pid_get]"
+		add_to_variable = {
+			swap_loop_count = 1
+		}
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { swap_loop_count = PSR_pid_max } }
+		}
+		set_variable = { swapid = swap_loop_count }
+		add_to_variable = {swapid = -1}
+		log = "[?swapid]"
+		set_variable = {
+			PSR_pid_main^swapid = Pid_new
+		}
+	}
+	
+}
+
+
+### BASE ###
+
+ROL_update_party_seat_num = {#更新党派席位数
+	if = {
+		limit = {
+			check_variable = { partyid = 1 }
+		}
+		add_to_variable = { ROL_KMT_party_TUMU = 1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { partyid = 2 }
+		}
+		add_to_variable = { ROL_KMT_party_TAIZI = 1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { partyid = 3 }
+		}
+		add_to_variable = { ROL_KMT_party_ZAIZAO = 1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { partyid = 4 }
+		}
+		add_to_variable = { ROL_KMT_party_HUNANGANG = 1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { partyid = 5 }
+		}
+		add_to_variable = { ROL_KMT_party_YOUTHARMY = 1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { partyid = 6 }
+		}
+		add_to_variable = { ROL_KMT_party_TPP = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = { partymus = 1 }
+		}
+		add_to_variable = { ROL_KMT_party_TUMU = -1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { partymus = 2 }
+		}
+		add_to_variable = { ROL_KMT_party_TAIZI = -1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { partymus = 3 }
+		}
+		add_to_variable = { ROL_KMT_party_ZAIZAO = -1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { partymus = 4 }
+		}
+		add_to_variable = { ROL_KMT_party_HUNANGANG = -1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { partymus = 5 }
+		}
+		add_to_variable = { ROL_KMT_party_YOUTHARMY = -1 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { partymus = 6 }
+		}
+		add_to_variable = { ROL_KMT_party_TPP = -1 }
+	}
+}
+
+ROL_get_party_start_pos = { #获取党派的第一个坐席的位置，需求一个输入对象partyid。
+	ROL_KMT_get_party_seat_pos = yes
+	if = {
+		limit = {
+			check_variable = { partyid = 1 }
+		}
+		set_variable = { party_start_pos = 0 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { partyid = 2 }
+		}
+		set_variable = { party_start_pos = ROL_TUMU_party_seat_size_points }
+	}
+	else_if = {
+		limit = {
+			check_variable = { partyid = 3 }
+		}
+		set_variable = { party_start_pos = ROL_TAIZI_party_seat_size_points }
+	}
+	else_if = {
+		limit = {
+			check_variable = { partyid = 4 }
+		}
+		set_variable = { party_start_pos = ROL_ZAIZAO_party_seat_size_points }
+	}
+	else_if = {
+		limit = {
+			check_variable = { partyid = 5 }
+		}
+		set_variable = { party_start_pos = ROL_HUNANGANG_party_seat_size_points }
+	}
+	else_if = {
+		limit = {
+			check_variable = { partyid = 6 }
+		}
+		set_variable = { party_start_pos = ROL_YOUTHARMY_party_seat_size_points }
+	}
+	log = "Inner: [?party_start_pos]"
+}
+
+ROL_KMT_Pid_Initiate = { #为每个位置赋值初始角色，必须手动依次填写
+	clear_array = PSFr_pid_temp_array
+	set_variable = { PSFr_pid_temp_array^0 = 0 }
+	set_variable = { PSFr_pid_temp_array^1 = 1 }
+	set_variable = { PSFr_pid_temp_array^2 = 2 }
+	set_variable = { PSFr_pid_temp_array^3 = 3 }
+	set_variable = { PSFr_pid_temp_array^4 = 4 }
+	set_variable = { PSFr_pid_temp_array^5 = 5 }
+	set_variable = { PSFr_pid_temp_array^6 = 6 }
+	set_variable = { PSFr_pid_temp_array^7 = 7 }
+	set_variable = { PSFr_pid_temp_array^8 = 8 }
+	set_variable = { PSFr_pid_temp_array^9 = 9 }
+	set_variable = { PSFr_pid_temp_array^10 = 10 }
+	set_variable = { PSFr_pid_temp_array^11 = 11 }
+	set_variable = { PSFr_pid_temp_array^12 = 12 }
+	set_variable = { PSFr_pid_temp_array^13 = 13 }
+	set_variable = { PSFr_pid_temp_array^14 = 14 }
+	set_variable = { PSFr_pid_temp_array^15 = 15 }
+	set_variable = { PSFr_pid_temp_array^16 = 16 }
+	set_variable = { PSFr_pid_temp_array^17 = 17 }
+	set_variable = { PSFr_pid_temp_array^18 = 18 }
+	set_variable = { PSFr_pid_temp_array^19 = 19 }
+	set_variable = { PSFr_pid_temp_array^20 = 20 }
+	set_variable = { PSFr_pid_temp_array^21 = 21 }
+	set_variable = { PSFr_pid_temp_array^22 = 22 }
+	set_variable = { PSFr_pid_temp_array^23 = 23 }
+	set_variable = { PSFr_pid_temp_array^24 = 24 }
+}
+
+ROL_KMT_Party_Seat_Initiate = { #这是初始化函数，仅在机制激活时执行一次
+	clear_array = PSFr_party_temp_array
 	set_variable = { ROL_KMT_party_TUMU = 7 }
 	set_variable = { ROL_KMT_party_TAIZI = 1 }
 	set_variable = { ROL_KMT_party_ZAIZAO = 3 }
 	set_variable = { ROL_KMT_party_HUNANGANG = 3 }
 	set_variable = { ROL_KMT_party_YOUTHARMY = 7 }
-	set_variable = { ROL_KMT_party_TPP = 4 }
+	set_variable = { ROL_KMT_party_TPP = 4 } #初始值，可以修改，请保证总和为25！
+	for_loop_effect = {
+		end = 25
+		value = temp
+		add_to_array = {
+			PSFr_seat_array = temp
+		}
+	}
+	ROL_KMT_rerender_party_seat = yes
+	ROL_KMT_Pid_Initiate = yes
+	ROL_KMT_Party_Seat_Full_refresh = yes
+	ROL_KMT_Party_Seat_rerender = yes
+	log = "KMTSeatInitiated"
 }
-ROL_KMT_rerender_party_seat = {
-	clear_array = ROL_KMT_party_faction
+
+ROL_KMT_Party_Seat_Full_refresh = { #这个函数用于整体重设显示的位次，没有错位保护，传入数据为多少就显示对应在位置，不会自动排序，请手动排好序再传入，仅适用于所有数值都要变动的情况。 #传入内容：三个数组 PSFr_seat_array始终应当为1-25的顺位排列 PSFr_party_temp_array和PSFr_pid_temp_array分别对应1-25位置的党派id和角色id
+	for_each_loop = {
+		array = PSFr_seat_array
+		value = v
+		break = 0
+		set_temp_variable = {
+			partyv = PSFr_party_temp_array^v
+		}
+		set_temp_variable = {
+			pidv = PSFr_pid_temp_array^v
+		}
+		set_temp_variable = {
+			seatid = v
+		}
+		log = "[?seatid] [?pidv] [?partyv]"
+		ROL_KMT_Single_seat_full_refresh = yes
+	}
+}
+
+ROL_KMT_Single_seat_full_refresh = { # 这个函数用于一次性重置特定位置的party和pid参数，属于底层函数，请勿直接使用
+	ROL_KMT_party_replace = yes
+	ROL_KMT_pid_replace = yes
+}
+
+ROL_KMT_party_replace = { # 更新党派，属于底层函数，请勿直接使用
+	set_variable = {
+		PSR_party_main^seatid = partyv	
+	}
+	log = "PSRPt set [?seatid] [?PSR_party_main^seatid]"
+}
+
+ROL_KMT_pid_replace = { # 更新角色，属于底层函数，请勿直接使用
+	set_variable = {
+		PSR_pid_main^seatid = pidv
+	}
+	log = "PSRPid set [?seatid] [?PSR_pid_main^seatid]"
+}
+
+#在这里，Seat上绑定了两个值：Party和Personal_id，分别代表这个坐席的渲染颜色和人物id
+
+ROL_KMT_Party_Seat_rerender = { # 末端防止崩溃，属于底层函数，请勿直接使用
+	#别动
+	#
+	#
+	#
+	#
+	#防溢出
+	resize_array = {
+		array = PSR_party_main
+		value = 0
+		size = 25
+	}
+	resize_array = {
+		array = PSR_pid_main
+		value = 0
+		size = 25
+	}
+}
+
+ROL_KMT_get_party_seat_pos = { #这个获得的是位置，不是个数
+	set_variable = { ROL_TUMU_party_seat_size_points = ROL_KMT_party_TUMU }
+	set_variable = { ROL_TAIZI_party_seat_size_points = ROL_KMT_party_TAIZI }
+	add_to_variable = {
+		ROL_TAIZI_party_seat_size_points = ROL_TUMU_party_seat_size_points
+	}
+	set_variable = { ROL_ZAIZAO_party_seat_size_points = ROL_KMT_party_ZAIZAO }
+	add_to_variable = {
+		ROL_ZAIZAO_party_seat_size_points = ROL_TAIZI_party_seat_size_points
+	}
+	set_variable = { ROL_HUNANGANG_party_seat_size_points = ROL_KMT_party_HUNANGANG }
+	add_to_variable = {
+		ROL_HUNANGANG_party_seat_size_points = ROL_ZAIZAO_party_seat_size_points
+	}
+	set_variable = { ROL_YOUTHARMY_party_seat_size_points = ROL_KMT_party_YOUTHARMY }
+	add_to_variable = {
+		ROL_YOUTHARMY_party_seat_size_points = ROL_HUNANGANG_party_seat_size_points
+	}
+	set_variable = { ROL_TPP_party_seat_size_points = ROL_KMT_party_TPP }
+	add_to_variable = {
+		ROL_TPP_party_seat_size_points = ROL_YOUTHARMY_party_seat_size_points
+	}
+}
+
+ROL_KMT_rerender_party_seat = { #保留用作初始化
+	clear_array = PSFr_party_temp_array
 	set_variable = { ROL_TUMU_party_seat_size_points = ROL_KMT_party_TUMU }
 	resize_array = {
-		array = ROL_KMT_party_faction
+		array = PSFr_party_temp_array
 		value = 1
 		size = ROL_TUMU_party_seat_size_points
 	}
@@ -21,7 +456,7 @@ ROL_KMT_rerender_party_seat = {
 		ROL_TAIZI_party_seat_size_points = ROL_TUMU_party_seat_size_points
 	}
 	resize_array = {
-		array = ROL_KMT_party_faction
+		array = PSFr_party_temp_array
 		value = 2
 		size = ROL_TAIZI_party_seat_size_points
 	}
@@ -30,7 +465,7 @@ ROL_KMT_rerender_party_seat = {
 		ROL_ZAIZAO_party_seat_size_points = ROL_TAIZI_party_seat_size_points
 	}
 	resize_array = {
-		array = ROL_KMT_party_faction
+		array = PSFr_party_temp_array
 		value = 3
 		size = ROL_ZAIZAO_party_seat_size_points
 	}
@@ -39,17 +474,16 @@ ROL_KMT_rerender_party_seat = {
 		ROL_HUNANGANG_party_seat_size_points = ROL_ZAIZAO_party_seat_size_points
 	}
 	resize_array = {
-		array = ROL_KMT_party_faction
+		array = PSFr_party_temp_array
 		value = 4
 		size = ROL_HUNANGANG_party_seat_size_points
-	}
-	
+	}	
 	set_variable = { ROL_YOUTHARMY_party_seat_size_points = ROL_KMT_party_YOUTHARMY }
 	add_to_variable = {
 		ROL_YOUTHARMY_party_seat_size_points = ROL_HUNANGANG_party_seat_size_points
 	}
 	resize_array = {
-		array = ROL_KMT_party_faction
+		array = PSFr_party_temp_array
 		value = 5
 		size = ROL_YOUTHARMY_party_seat_size_points
 	}
@@ -58,39 +492,39 @@ ROL_KMT_rerender_party_seat = {
 		ROL_TPP_party_seat_size_points = ROL_YOUTHARMY_party_seat_size_points
 	}
 	resize_array = {
-		array = ROL_KMT_party_faction
+		array = PSFr_party_temp_array
 		value = 6
 		size = ROL_TPP_party_seat_size_points
 	}
 }	
 
-ROL_KMT_operate_party_seat = {
-	#改变席位
-    add_to_variable = {
-        var = ROL_KMT_operate_party_seat_points #变量
-    }
+# ROL_KMT_operate_party_seat = {
+# 	#改变席位
+#     add_to_variable = {
+#         var = ROL_KMT_operate_party_seat_points #变量
+#     }
     
-    if = {
-        limit = {
-            check_variable = {
-                ROL_KMT_operate_party_seat_points_temp < 0
-            }
-        }
-        multiply_temp_variable = {
-            ROL_KMT_operate_party_seat_points_temp = -1
-        }
-    }
-    else = {
-    }
-    ######
-    clear_variable = ROL_KMT_operate_party_seat_points_temp
-    ######
-    clamp_variable = {
-		var = ROL_KMT_add_deduct_points
-		min = 1
-		max = 25
-	}
-}
+#     if = {
+#         limit = {
+#             check_variable = {
+#                 ROL_KMT_operate_party_seat_points_temp < 0
+#             }
+#         }
+#         multiply_temp_variable = {
+#             ROL_KMT_operate_party_seat_points_temp = -1
+#         }
+#     }
+#     else = {
+#     }
+#     ######
+#     clear_variable = ROL_KMT_operate_party_seat_points_temp
+#     ######
+#     clamp_variable = {
+# 		var = ROL_KMT_add_deduct_points
+# 		min = 1
+# 		max = 25
+# 	}
+# }
 
 ROL_KMT_party_youth_green = {
     #增加绿条
