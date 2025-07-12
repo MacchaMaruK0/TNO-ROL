@@ -149,6 +149,7 @@ ROL_Swap_Party = { #将指定角色划入另一党派，会自动为党派重排
 			}
 		}
 	}
+	custom_effect_tooltip = ROL_Swap_Party_tt
 }
 
 ROL_swap_Pid = { #将一名角色更换为另一名 需求两个temp_var输入：Pid_aim指示将要被替换的目标 Pid_new指示被替换的对象 ！注意：当多个拥有相同id的角色存在时（这不应该出现），只会替换第一个
@@ -340,11 +341,11 @@ ROL_KMT_Pid_Initiate = { #为每个位置赋值初始角色，必须手动依次
 
 ROL_KMT_Party_Seat_Initiate = { #这是初始化函数，仅在机制激活时执行一次
 	clear_array = PSFr_party_temp_array
-	set_variable = { ROL_KMT_party_TUMU = 7 }
-	set_variable = { ROL_KMT_party_TAIZI = 1 }
-	set_variable = { ROL_KMT_party_ZAIZAO = 3 }
-	set_variable = { ROL_KMT_party_HUNANGANG = 3 }
-	set_variable = { ROL_KMT_party_YOUTHARMY = 7 }
+	set_variable = { ROL_KMT_party_TUMU = 4 }
+	set_variable = { ROL_KMT_party_TAIZI = 2 }
+	set_variable = { ROL_KMT_party_ZAIZAO = 5 }
+	set_variable = { ROL_KMT_party_HUNANGANG = 5 }
+	set_variable = { ROL_KMT_party_YOUTHARMY = 5 }
 	set_variable = { ROL_KMT_party_TPP = 4 } #初始值，可以修改，请保证总和为25！
 	for_loop_effect = {
 		end = 25

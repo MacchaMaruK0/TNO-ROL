@@ -57,10 +57,211 @@ defined_text = {
 	text = {
 	trigger = {
 			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 0
+			}
+		}
+		localization_key = "ROL_partyman_1"
+	}#加人物加在这里，用texticon直接放在yml里
+	text = {
+	trigger = {
+			check_variable = {				
 			    PSR_pid_main^ROL_KMT_party_faction_i = 1
 			}
 		}
-		localization_key = "ROL_Jiangjing_Guo"
+		localization_key = "ROL_partyman_2"
+	}#加人物加在这里，用texticon直接放在yml里
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 2
+			}
+		}
+		localization_key = "ROL_partyman_3"
+	}#加人物加在这里，用texticon直接放在yml里
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 3
+			}
+		}
+		localization_key = "ROL_partyman_4"
+	}#加人物加在这里，用texticon直接放在yml里
+	#######新太子
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 4
+			}
+		}
+		localization_key = "ROL_partyman_5"
+	}#加人物加在这里，用texticon直接放在yml里
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 5
+			}
+		}
+		localization_key = "ROL_partyman_6"
+	}#加人物加在这里，用texticon直接放在yml里
+	#######再造
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 6
+			}
+		}
+		localization_key = "ROL_partyman_7"
+	}#加人物加在这里，用texticon直接放在yml里
+	
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 7
+			}
+		}
+		localization_key = "ROL_partyman_8"
+	}#加人物加在这里，用texticon直接放在yml里
+	
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 8
+			}
+		}
+		localization_key = "ROL_partyman_9"
+	}#加人物加在这里，用texticon直接放在yml里
+	
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 9
+			}
+		}
+		localization_key = "ROL_partyman_10"
+	}#加人物加在这里，用texticon直接放在yml里
+	
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 10
+			}
+		}
+		localization_key = "ROL_partyman_11"
+	}#加人物加在这里，用texticon直接放在yml里
+	#####湖南帮
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 11
+			}
+		}
+		localization_key = "ROL_partyman_12"
+	}#加人物加在这里，用texticon直接放在yml里
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 12
+			}
+		}
+		localization_key = "ROL_partyman_13"
+	}#加人物加在这里，用texticon直接放在yml里
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 13
+			}
+		}
+		localization_key = "ROL_partyman_14"
+	}#加人物加在这里，用texticon直接放在yml里
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 14
+			}
+		}
+		localization_key = "ROL_partyman_15"
+	}#加人物加在这里，用texticon直接放在yml里
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 15
+			}
+		}
+		localization_key = "ROL_partyman_16"
+	}#加人物加在这里，用texticon直接放在yml里
+	#######蒋系
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 16
+			}
+		}
+		localization_key = "ROL_partyman_17"
+	}#加人物加在这里，用texticon直接放在yml里
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 17
+			}
+		}
+		localization_key = "ROL_partyman_18"
+	}#加人物加在这里，用texticon直接放在yml里
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 18
+			}
+		}
+		localization_key = "ROL_partyman_19"
+	}#加人物加在这里，用texticon直接放在yml里
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 19
+			}
+		}
+		localization_key = "ROL_partyman_20"
+	}#加人物加在这里，用texticon直接放在yml里
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 20
+			}
+		}
+		localization_key = "ROL_partyman_21"
+	}#加人物加在这里，用texticon直接放在yml里
+	#####三青团
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 21
+			}
+		}
+		localization_key = "ROL_partyman_22"
+	}#加人物加在这里，用texticon直接放在yml里
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 22
+			}
+		}
+		localization_key = "ROL_partyman_23"
+	}#加人物加在这里，用texticon直接放在yml里
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 23
+			}
+		}
+		localization_key = "ROL_partyman_24"
+	}#加人物加在这里，用texticon直接放在yml里
+	text = {
+	trigger = {
+			check_variable = {				
+			    PSR_pid_main^ROL_KMT_party_faction_i = 24
+			}
+		}
+		localization_key = "ROL_partyman_25"
 	}#加人物加在这里，用texticon直接放在yml里
 	text = {
 		localization_key = "[?PSR_pid_main^ROL_KMT_party_faction_i]"
