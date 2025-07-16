@@ -43,3 +43,25 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = ROL_KMT_party.2 
+	title = ROL_KMT_party.2.t
+	desc = ROL_KMT_party.2.d 
+
+
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ROL_KMT_party.2"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = { 
+		name = ROL_KMT_party.2.a
+		set_variable = { Pid_aim = 6 }
+		set_variable = { Party_new = 3 }
+		ROL_Swap_Party = yes
+	}
+}

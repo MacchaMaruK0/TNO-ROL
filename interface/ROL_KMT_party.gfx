@@ -101,6 +101,12 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
+	spriteType = { #大框1
+		name = GFX_ROL_KMT_party_big_icon_empty
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_big_icon_empty.png"
+		legacy_lazy_load = no
+	}
+	
 	spriteType = { #大框
 		name = GFX_ROL_KMT_party_suppor_big_icon
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_suppor_big_icon.png"
@@ -183,6 +189,26 @@ spriteTypes = {
 	spriteType = { #政工处
 		name = GFX_ROL_KMT_party_PWD_icon
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_PWD_icon.png"
+	}
+	
+	spriteType = { #policy
+		name = GFX_ROL_KMT_policy_frame_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_policy_frame_icon.png"
+	}
+	
+	spriteType = { #policy - button - 1
+		name = GFX_ROL_KMT_party_policy_1
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_policy_1.png"
+	}
+	
+	spriteType = { #policy - seatframe
+		name = GFX_ROL_KMT_seat_frame_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_seat_frame_icon.png"
+	}
+	
+	spriteType = { #policy - button - 2
+		name = GFX_ROL_KMT_party_policy_2
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_policy_2.png"
 	}
 	####
 	spriteType = { #研究院-李焕

@@ -195,4 +195,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_lanzhou_crisis/lanzhou_commonder.png"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = {
+		name = "GFX_ROL_policy_icon" #法案的texticon
+		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/ROL_policy_icon.png"
+		legacy_lazy_load = no
+	}
 }

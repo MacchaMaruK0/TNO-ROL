@@ -34,10 +34,30 @@ guiTypes = {
         }
 		
 		iconType = { 
+			name = "ROL_KMT_party_big_icon_empty" 
+			position = { x = 18 y = 18 } 
+            spriteType = "GFX_ROL_KMT_party_big_icon_empty"
+        }
+		
+		iconType = { 
 			name = "ROL_KMT_party_suppor_big_icon" 
 			position = { x = 18 y = 18 } 
             spriteType = "GFX_ROL_KMT_party_suppor_big_icon"
         }
+		######切policy的按钮
+		buttonType = {
+            name = "ROL_KMT_party_policy_1_button"
+            position = { x = 630 y = 533 }
+            spriteType = "GFX_ROL_KMT_party_policy_1"
+            pdx_tooltip = ROL_KMT_party_policy_1_tt
+		}
+		
+		buttonType = {
+            name = "ROL_KMT_party_policy_2_button"
+            position = { x = 675 y = 533 }
+            spriteType = "GFX_ROL_KMT_party_policy_2"
+            pdx_tooltip = ROL_KMT_party_policy_2_tt
+		}
 		######研究院双条
 		iconType = { 
             name = "ROL_KMT_youth_green_bar" 
@@ -285,7 +305,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "ROL_KMT_party_button_2_button"
-		 	position = { x = 1047 y = 130 }
+		 	position = { x = 1047 y = 100 }
 			orientation = "UPPER_LEFT"
 			spriteType = "GFX_ROL_KMT_party_button_1_icon"
 			pdx_tooltip = ROL_KMT_party_button_2_info
@@ -293,13 +313,17 @@ guiTypes = {
 		
 		buttonType = {
 			name = "ROL_KMT_party_button_1_button"
-		 	position = { x = 1047 y = 130 }
+		 	position = { x = 1047 y = 100 }
 			orientation = "UPPER_LEFT"
 			spriteType = "GFX_ROL_KMT_party_button_2_icon"
 			pdx_tooltip = ROL_KMT_party_button_1_info
 		}
 		
-			
+		iconType = { 
+			name = "ROL_KMT_seat_frame_icon" 
+			position = { x = 630 y = 160 } 
+            spriteType = "GFX_ROL_KMT_seat_frame_icon"
+        }	
 		
 		containerWindowType = {
 			name = "ROL_KMT_GUI_Party_Seats"
@@ -309,20 +333,67 @@ guiTypes = {
 				name = "ROL_KMT_GUI_Party_Seats_GridBox"
 				position = { x = 220 y = 0 }
 				size = { width = 100%% height = 100%% }
-				slotsize = { width = 100 height = 27 }
+				slotsize = { width = 94 height = 48 }
 				max_slots_horizontal = 5
 				max_slots_vertical = 5
 				# add_horizontal = yes
 			}
 		}
+		
+		containerWindowType = {
+			name = "ROL_KMT_History_Policy"
+			size = { width = 275 height = 350 }
+			position = { x = 965 y = 565 }
 
+			background = {
+				name = "Background"
+			}
+			
+			iconType = { 
+				name = "ROL_KMT_policy_frame_icon" 
+				position = { x = 0 y = 13 } 
+				spriteType = "GFX_ROL_KMT_policy_frame_icon"
+			}
+
+			instantTextboxType = {
+				name = "ROL_past_ordinance_header"
+				position = { x = 0 y = 26 }
+				font = "aldrich_28_outline"
+				text = ROL_KMT_past_policy
+				maxWidth = 263
+				format = center
+				alwaystransparent = yes
+			}
+
+			containerWindowType = {
+				name = "past_ordinance_list_container"
+				size = { width = 260 height = 240 }
+
+				verticalScrollbar = "right_vertical_slider"
+				position = { x = -2 y = 91 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				gridboxtype = {
+					name = "ROL_KMT_past_policy_list"
+					position = { x = 18 y = 0 }
+					size = { width = 216 height = 240 }
+					slotsize = { width = 216 height = 62 }
+					max_slots_horizontal = 1
+					add_horizontal = no
+				}
+			}
+		}
 	}
 	
 	
 	
 	containerWindowType = {
 		name = "ROL_KMT_party_seat"
-		position = { x = 61 y = 399 }
+		position = { x = 662 y = 249 }
 		iconType = {
 			name = "parliament_dot_icon"
 			quadTextureSprite = "GFX_ROL_KMT_party_seat"

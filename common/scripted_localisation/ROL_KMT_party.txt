@@ -359,3 +359,227 @@ defined_text = {
 		localization_key = "ROL_KMT_CBI_idea_none_tt"
 	}
 }
+
+defined_text = {
+	name = Get_ROL_KMT_pid_aim
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 0 }
+		}
+		localization_key = "ROL_partyman_1"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 1 }
+		}
+		localization_key = "ROL_partyman_2"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 2 }
+		}
+		localization_key = "ROL_partyman_3"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 3 }
+		}
+		localization_key = "ROL_partyman_4"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 4 }
+		}
+		localization_key = "ROL_partyman_5"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 5 }
+		}
+		localization_key = "ROL_partyman_6"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 6 }
+		}
+		localization_key = "ROL_partyman_7"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 7 }
+		}
+		localization_key = "ROL_partyman_8"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 8 }
+		}
+		localization_key = "ROL_partyman_9"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 9 }
+		}
+		localization_key = "ROL_partyman_10"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 10 }
+		}
+		localization_key = "ROL_partyman_11"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 11 }
+		}
+		localization_key = "ROL_partyman_12"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 12 }
+		}
+		localization_key = "ROL_partyman_13"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 13 }
+		}
+		localization_key = "ROL_partyman_14"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 14 }
+		}
+		localization_key = "ROL_partyman_15"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 15 }
+		}
+		localization_key = "ROL_partyman_16"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 16 }
+		}
+		localization_key = "ROL_partyman_17"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 17 }
+		}
+		localization_key = "ROL_partyman_18"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 18 }
+		}
+		localization_key = "ROL_partyman_19"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 19 }
+		}
+		localization_key = "ROL_partyman_20"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 20 }
+		}
+		localization_key = "ROL_partyman_21"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 21 }
+		}
+		localization_key = "ROL_partyman_22"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 22 }
+		}
+		localization_key = "ROL_partyman_23"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 23 }
+		}
+		localization_key = "ROL_partyman_24"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Pid_aim = 24 }
+		}
+		localization_key = "ROL_partyman_25"
+	}
+}
+
+defined_text = {
+	name = Get_ROL_KMT_new_party
+	text = {
+		trigger = {
+			check_variable = { Party_new = 1 }
+		}
+		localization_key = "TUMU_seat"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Party_new = 2 }
+		}
+		localization_key = "TAIZI_seat"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Party_new = 3 }
+		}
+		localization_key = "ZAIZAO_seat"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Party_new = 4 }
+		}
+		localization_key = "HUNANGANG_seat"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Party_new = 5 }
+		}
+		localization_key = "YOUTHARMY_seat"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { Party_new = 6 }
+		}
+		localization_key = "TPP_seat"
+	}
+}	
+	
