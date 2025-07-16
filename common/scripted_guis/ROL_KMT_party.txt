@@ -50,6 +50,13 @@ scripted_gui = {
 				change_scope = no
 				entry_container = ROL_KMT_party_seat
 			}
+			
+			ROL_KMT_past_policy_list = {
+				array = GNG_legco_history
+				index = GNG_legco_history_i
+				entry_container = GNG_legco_ord
+				value = GNG_legco_ordinance_id
+			}
 		} 
 		
 		properties = {
@@ -128,11 +135,47 @@ scripted_gui = {
 			ROL_KMT_party_button_1_button_click = {
 				clr_country_flag = ROL_KMT_party_suppor_visible
 			}
+			
+			ROL_KMT_party_policy_1_button_click = {
+				if = {
+					limit = {
+						has_country_flag = ROL_KMT_party_policy_visible
+					}
+					clr_country_flag = ROL_KMT_party_policy_visible
+				}
+				else = {
+					set_country_flag = ROL_KMT_party_policy_visible
+				}
+			}
 		}	
 		
 		triggers = {
 			ROL_KMT_party_big_icon_visible = {
 				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+				NOT = { has_country_flag = ROL_KMT_party_policy_visible }
+			}
+			
+			ROL_KMT_party_big_icon_empty_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+				has_country_flag = ROL_KMT_party_policy_visible
+			}
+			
+			ROL_KMT_party_policy_1_button_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			
+			ROL_KMT_party_policy_2_button_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			
+			ROL_KMT_policy_frame_icon_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+				has_country_flag = ROL_KMT_party_policy_visible
+			}
+			
+			ROL_past_ordinance_header_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+				has_country_flag = ROL_KMT_party_policy_visible
 			}
 			
 			ROL_KMT_party_suppor_big_icon_visible = {
