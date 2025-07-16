@@ -201,6 +201,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_policy_1.png"
 	}
 	
+	spriteType = { #policy - seatframe
+		name = GFX_ROL_KMT_seat_frame_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_seat_frame_icon.png"
+	}
+	
 	spriteType = { #policy - button - 2
 		name = GFX_ROL_KMT_party_policy_2
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_policy_2.png"
