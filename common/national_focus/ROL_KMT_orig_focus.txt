@@ -595,7 +595,7 @@ focus_tree = {
 	
 	focus = {
 		id = ROL_KMT_replace_LUO   #替换罗氏
-		icon = \ 
+		icon = ROL_KMT_replace_LUO
 		x = 17
 		y = 7
 		cost = 1 #这是国策花费的政治点
