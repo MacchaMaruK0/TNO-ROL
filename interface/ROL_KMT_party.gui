@@ -321,7 +321,7 @@ guiTypes = {
 		
 		iconType = { 
 			name = "ROL_KMT_seat_frame_icon" 
-			position = { x = 630 y = 160 } 
+			position = { x = 629 y = 137 } 
             spriteType = "GFX_ROL_KMT_seat_frame_icon"
         }	
 		
