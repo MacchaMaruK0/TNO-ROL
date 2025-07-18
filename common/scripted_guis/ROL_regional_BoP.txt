@@ -58,6 +58,7 @@ scripted_gui = {
 					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
 					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
 					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+					set_variable = { ROL_bop_redblood_text_num = 1 }
 				}
 			}
 			
@@ -80,6 +81,7 @@ scripted_gui = {
 					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
 					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
 					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+					set_variable = { ROL_bop_redblood_text_num = 1 }
 				}
 			}
 			
@@ -102,6 +104,7 @@ scripted_gui = {
 					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
 					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
 					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+					set_variable = { ROL_bop_redblood_text_num = 2 }
 				}
 			}
 			
@@ -124,6 +127,7 @@ scripted_gui = {
 					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
 					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
 					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+					set_variable = { ROL_bop_redblood_text_num = 2 }
 				}
 			}
 			
@@ -146,6 +150,7 @@ scripted_gui = {
 					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
 					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
 					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+					set_variable = { ROL_bop_redblood_text_num = 3 }
 				}
 			}
 			
@@ -168,6 +173,7 @@ scripted_gui = {
 					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
 					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
 					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+					set_variable = { ROL_bop_redblood_text_num = 3 }
 				}
 			}
 			
@@ -190,6 +196,7 @@ scripted_gui = {
 					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
 					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
 					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+					set_variable = { ROL_bop_redblood_text_num = 4 }
 				}
 			}
 			
@@ -212,6 +219,7 @@ scripted_gui = {
 					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
 					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
 					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+					set_variable = { ROL_bop_redblood_text_num = 4 }
 				}
 			}
 			
@@ -235,6 +243,7 @@ scripted_gui = {
 					clr_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight
 					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
 					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+					set_variable = { ROL_bop_redblood_text_num = 5 }
 				}
 			}
 			
@@ -257,6 +266,7 @@ scripted_gui = {
 					clr_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight
 					clr_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
 					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+					set_variable = { ROL_bop_redblood_text_num = 5 }
 				}
 			}
 			
@@ -280,6 +290,7 @@ scripted_gui = {
 					clr_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight
 					clr_country_flag = ROL_bop_redblood_cpc_Gannan_highlight
 					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
+					set_variable = { ROL_bop_redblood_text_num = 6 }
 				}
 			}
 			
@@ -302,6 +313,7 @@ scripted_gui = {
 					clr_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight
 					clr_country_flag = ROL_bop_redblood_cpc_Gannan_highlight
 					clr_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
+					set_variable = { ROL_bop_redblood_text_num = 6 }
 				}
 			}
 			

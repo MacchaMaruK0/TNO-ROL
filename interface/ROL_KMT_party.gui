@@ -201,7 +201,7 @@ guiTypes = {
 		
 		buttonType = {
             name = "ROL_KMT_tpp_big"
-            position = { x = 75 y = 550 }
+            position = { x = 61 y = 536 }
             spriteType = "GFX_ROL_KMT_tpp_big_icon"
             pdx_tooltip = ROL_KMT_Youtharmy_big_tt
 		}
@@ -250,35 +250,35 @@ guiTypes = {
 		####
 		iconType = {
             name = "ROL_KMT_Youtharmy_big"
-            position = { x = 75 y = 739 }
+            position = { x = 61 y = 725 }
             spriteType = "GFX_ROL_KMT_Youtharmy_big_icon"
             pdx_tooltip = ROL_KMT_tpp_big_tt
 		}
 		
 		iconType = {
             name = "ROL_KMT_tumu_big"
-            position = { x = 450 y = 739 }
+            position = { x = 435 y = 725 }
             spriteType = "GFX_ROL_KMT_tumu_big_icon"
             pdx_tooltip = ROL_KMT_TUMU_big_tt
 		}
 		
 		iconType = {
             name = "ROL_KMT_hunangang_big"
-            position = { x = 270 y = 550 }
+            position = { x = 248 y = 536 }
             spriteType = "GFX_ROL_KMT_hunangang_big_icon"
             pdx_tooltip = ROL_KMT_Hunangang_big_tt
 		}
 		
 		iconType = {
             name = "ROL_KMT_taizi_big"
-            position = { x = 450 y = 550 }
+            position = { x = 435 y = 536 }
             spriteType = "GFX_ROL_KMT_taizi_big_icon"
             pdx_tooltip = ROL_KMT_Taizi_big_tt
 		}
 		
 		iconType = {
             name = "ROL_KMT_zaizao_big"
-            position = { x = 270 y = 739 }
+            position = { x = 248 y = 725 }
             spriteType = "GFX_ROL_KMT_zaizao_big_icon"
             pdx_tooltip = ROL_KMT_Zaizao_big_tt
 		}
@@ -321,7 +321,7 @@ guiTypes = {
 		
 		iconType = { 
 			name = "ROL_KMT_seat_frame_icon" 
-			position = { x = 630 y = 160 } 
+			position = { x = 629 y = 137 } 
             spriteType = "GFX_ROL_KMT_seat_frame_icon"
         }	
 		

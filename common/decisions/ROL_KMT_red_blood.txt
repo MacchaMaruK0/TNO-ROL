@@ -80,4 +80,189 @@ ROL_KMT_red_blood_Category = { ##地区冲突
 		    
 	    }
     }
+	
+	ROL_KMT_attack_lines = { #袭击补给线
+	    icon = GFX_decision_generic_clock
+		fire_only_once = no
+		visible = { 
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
+		}
+		available = { 
+		    custom_trigger_tooltip = {
+				OR = {
+					has_country_flag = ROL_bop_redblood_cpc_Lintao_highlight
+					has_country_flag = ROL_bop_redblood_cpc_Linxia_highlight
+					has_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight
+					has_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight
+					has_country_flag = ROL_bop_redblood_cpc_Gannan_highlight
+					has_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
+				
+				}
+				tooltip = ROL_KMT_attack_lines_tt
+			}
+		}
+		custom_cost_trigger = {
+		    command_power > 14.99
+		}
+		custom_cost_text = ROL_KMT_decision_cost_15_pp
+		days_re_enable = 8
+		days_remove = 4
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -15
+				set_temp_variable = { ROL_KMT_red_blood_act_num_temp = 1 }
+				ROL_KMT_red_blood_act = yes
+				set_variable = { ROL_bop_redblood_text_num_1 = ROL_bop_redblood_text_num }
+			}
+		}
+	    remove_effect = {
+			hidden_effect = {
+				set_temp_variable = { ROL_KMT_red_blood_act_num_temp = -1 }
+				ROL_KMT_red_blood_act = yes
+				
+			}
+			if = {
+				limit = {
+					check_variable = { ROL_bop_redblood_text_num_1 = 1}
+				}
+				set_temp_variable = { ROL_KMT_redblood_Lintao_control_num_temp = 5 }
+				ROL_KMT_redblood_Lintao_control = yes
+            }
+			
+			else_if = {
+				limit = {
+					check_variable = { ROL_bop_redblood_text_num_1 = 2}
+				}
+				set_temp_variable = { ROL_KMT_redblood_Linxia_control_num_temp = 5 }
+				ROL_KMT_redblood_Linxia_control = yes
+            }
+			
+			else_if = {
+				limit = {
+					check_variable = { ROL_bop_redblood_text_num_1 = 3}
+				}
+				set_temp_variable = { ROL_KMT_redblood_Tianshui_control_num_temp = 5 }
+				ROL_KMT_redblood_Tianshui_control = yes
+            }
+			
+			else_if = {
+				limit = {
+					check_variable = { ROL_bop_redblood_text_num_1 = 4}
+				}
+				set_temp_variable = { ROL_KMT_redblood_Minzhou_control_num_temp = 5 }
+				ROL_KMT_redblood_Minzhou_control = yes
+            }
+			
+			else_if = {
+				limit = {
+					check_variable = { ROL_bop_redblood_text_num_1 = 5}
+				}
+				set_temp_variable = { ROL_KMT_redblood_Gannan_control_num_temp = 5 }
+				ROL_KMT_redblood_Gannan_control = yes
+            }
+			
+			else_if = {
+				limit = {
+					check_variable = { ROL_bop_redblood_text_num_1 = 6}
+				}
+				set_temp_variable = { ROL_KMT_redblood_Guoluo_control_num_temp = 5 }
+				ROL_KMT_redblood_Guoluo_control = yes
+            }
+			
+			custom_effect_tooltip = ROL_KMT_attack_lines_effect_tt
+	    }
+    }
+	
+	ROL_KMT_airdrop_flyer = { #空投传单
+	    icon = GFX_decision_generic_clock
+		fire_only_once = no
+		visible = { 
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
+		}
+		available = { 
+		    custom_trigger_tooltip = {
+				OR = {
+					has_country_flag = ROL_bop_redblood_cpc_Lintao_highlight
+					has_country_flag = ROL_bop_redblood_cpc_Linxia_highlight
+					has_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight
+					has_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight
+					has_country_flag = ROL_bop_redblood_cpc_Gannan_highlight
+					has_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
+				
+				}
+				tooltip = ROL_KMT_attack_lines_tt
+			}
+		}
+		custom_cost_trigger = {
+		    command_power > 24.99
+		}
+		custom_cost_text = ROL_KMT_decision_cost_25_pp_10_eco
+		days_re_enable = 12
+		days_remove = 6
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+				set_temp_variable = { ROL_KMT_red_blood_act_num_temp = 1 }
+				ROL_KMT_red_blood_act = yes
+				set_variable = { ROL_bop_redblood_text_num_1 = ROL_bop_redblood_text_num }
+			}
+		}
+	    remove_effect = {
+			hidden_effect = {
+				set_temp_variable = { ROL_KMT_red_blood_act_num_temp = -1 }
+				ROL_KMT_red_blood_act = yes
+				set_temp_variable = { temp_econ_spending_amount = 0.010 }
+				econ_spend_money_once_effect_raw_money = yes
+			}
+			if = {
+				limit = {
+					check_variable = { ROL_bop_redblood_text_num_1 = 1}
+				}
+				set_temp_variable = { ROL_KMT_redblood_Lintao_control_num_temp = 8 }
+				ROL_KMT_redblood_Lintao_control = yes
+            }
+			
+			else_if = {
+				limit = {
+					check_variable = { ROL_bop_redblood_text_num_1 = 2}
+				}
+				set_temp_variable = { ROL_KMT_redblood_Linxia_control_num_temp = 8 }
+				ROL_KMT_redblood_Linxia_control = yes
+            }
+			
+			else_if = {
+				limit = {
+					check_variable = { ROL_bop_redblood_text_num_1 = 3}
+				}
+				set_temp_variable = { ROL_KMT_redblood_Tianshui_control_num_temp = 8 }
+				ROL_KMT_redblood_Tianshui_control = yes
+            }
+			
+			else_if = {
+				limit = {
+					check_variable = { ROL_bop_redblood_text_num_1 = 4}
+				}
+				set_temp_variable = { ROL_KMT_redblood_Minzhou_control_num_temp = 8 }
+				ROL_KMT_redblood_Minzhou_control = yes
+            }
+			
+			else_if = {
+				limit = {
+					check_variable = { ROL_bop_redblood_text_num_1 = 5}
+				}
+				set_temp_variable = { ROL_KMT_redblood_Gannan_control_num_temp = 8 }
+				ROL_KMT_redblood_Gannan_control = yes
+            }
+			
+			else_if = {
+				limit = {
+					check_variable = { ROL_bop_redblood_text_num_1 = 6}
+				}
+				set_temp_variable = { ROL_KMT_redblood_Guoluo_control_num_temp = 8 }
+				ROL_KMT_redblood_Guoluo_control = yes
+            }
+			
+			custom_effect_tooltip = ROL_KMT_attack_lines_effect_tt
+	    }
+    }
 }
