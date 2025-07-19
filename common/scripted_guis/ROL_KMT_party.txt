@@ -50,12 +50,14 @@ scripted_gui = {
 				change_scope = no
 				entry_container = ROL_KMT_party_seat
 			}
-			
+		} 
+
+		dynamic_lists = {
 			ROL_KMT_past_policy_list = {
-				array = GNG_legco_history
-				index = GNG_legco_history_i
-				entry_container = GNG_legco_ord
-				value = GNG_legco_ordinance_id
+				array = ROL_KMT_ord_history
+				index = ROL_KMT_ord_history_i
+				entry_container = ROL_KMT_ord
+				value = ROL_KMT_ordinance_id
 			}
 		} 
 		
@@ -113,6 +115,14 @@ scripted_gui = {
 			ROL_KMT_party_secretary_office_red_bar = {
 				frame = ROL_KMT_party_secretary_office_red_num
 			}
+
+			#ord gui
+			history_letterhead = {
+				frame = ROL_KMT_sponsor_faction^ROL_KMT_ord_id
+			}
+			history_symbol = {
+				frame = ROL_KMT_sponsor_faction^ROL_KMT_ord_id
+			}
 		}
 		
 		effects = {
@@ -150,6 +160,49 @@ scripted_gui = {
 		}	
 		
 		triggers = {
+
+			#预留
+
+			# history_letterhead = {
+			# 	check_variable = { GNG_legco_current_ordinance_id > 0 }
+			# }
+			# background_visible = {
+			# 	check_variable = { GNG_legco_current_ordinance_id > 0 }
+			# }
+			# symbol_visible = {
+			# 	check_variable = { GNG_legco_current_ordinance_id > 0 }
+			# }
+			# amendments_title_visible = {
+			# 	check_variable = { GNG_legco_current_ordinance_id > 0 }
+			# }
+			# effects_title_visible = {
+			# 	check_variable = { GNG_legco_current_ordinance_id > 0 }
+			# }
+			# amendments_info_visible = {
+			# 	check_variable = { GNG_legco_current_ordinance_id > 0 }
+			# }
+			# effects_info_visible = {
+			# 	check_variable = { GNG_legco_current_ordinance_id > 0 }
+			# }
+			# current_ordinance_name_visible = {
+			# 	check_variable = { GNG_legco_current_ordinance_id > 0 }
+			# }
+			# legco_ordinance_effect_visible = {
+			# 	check_variable = { GNG_legco_current_ordinance_id > 0 }
+			# 	has_country_flag = GNG_show_effects_for_ordinance
+			# }
+			# no_ordinance_display_visible = {
+			# 	NOT = {
+			# 		check_variable = { GNG_legco_current_ordinance_id > 0 }
+			# 	}
+			# }
+
+			
+
+			ROL_KMT_ord_visible = {
+				has_country_flag = ROL_KMT_party_policy_visible
+			}
+			
 			ROL_KMT_party_big_icon_visible = {
 				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
 				NOT = { has_country_flag = ROL_KMT_party_policy_visible }
@@ -174,6 +227,25 @@ scripted_gui = {
 			}
 			
 			ROL_past_ordinance_header_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+				has_country_flag = ROL_KMT_party_policy_visible
+			}
+
+			ROL_KMT_past_policy_list_visible = {
+				has_country_flag = ROL_KMT_party_policy_visible
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+
+			Background_visible = {
+				has_country_flag = ROL_KMT_party_policy_visible
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			
+			ROL_KMT_party_seat_infor_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			
+			ROL_KMT_party_policy_frame_2_icon_visible = {
 				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
 				has_country_flag = ROL_KMT_party_policy_visible
 			}
@@ -314,5 +386,8 @@ scripted_gui = {
 				has_country_flag = ROL_KMT_party_suppor_visible
 			}
 		}
+	}
+	ROL_KMT_History_Policy = {
+
 	}
 }

@@ -1,0 +1,94 @@
+ROL_KMT_initialize_legco = { #初始历史法案+法案基本信息
+
+	clear_array = ROL_KMT_ord_history
+	#历史法案……
+	add_to_array = { ROL_KMT_ord_history = 1 }
+	add_to_array = { ROL_KMT_ord_history = 2 }
+	add_to_array = { ROL_KMT_ord_history = 3 }
+	add_to_array = { ROL_KMT_ord_history = 4 }
+	add_to_array = { ROL_KMT_ord_history = 5 }
+	add_to_array = { ROL_KMT_ord_history = 6 }
+	add_to_array = { ROL_KMT_ord_history = 7 }
+	add_to_array = { ROL_KMT_ord_history = 8 }
+	add_to_array = { ROL_KMT_ord_history = 9 }
+	#历史法案……
+
+	#已有阵营……
+	set_temp_variable = { TPP = 1 }
+	set_temp_variable = { HUNANGANG = 2 }
+	set_temp_variable = { TAIZI = 3 }
+	set_temp_variable = { YOUTHARMY = 4 }
+	set_temp_variable = { ZAIZAO = 5 }
+	set_temp_variable = { TUMU = 6 }
+	#已有阵营……
+	
+	# set_temp_variable = { ELSE = 7 } 追加阵营……
+
+	# Each entry here corresponds to the faction sponsoring the bill ID
+	#为法案绑定支持者……
+	clear_array = ROL_KMT_sponsor_faction
+	add_to_array = { ROL_KMT_sponsor_faction = -1 } # SKIPPED (bill 0)
+	add_to_array = { ROL_KMT_sponsor_faction = TPP }  # 一号法案 支持者TPP 
+	add_to_array = { ROL_KMT_sponsor_faction = HUNANGANG }  # 二号法案 支持者HNG
+	add_to_array = { ROL_KMT_sponsor_faction = TAIZI } 
+	add_to_array = { ROL_KMT_sponsor_faction = YOUTHARMY } 
+	#为法案绑定支持者……
+
+	#无需更改……
+	clear_array = ROL_KMT_ord_amendments_1
+	clear_array = ROL_KMT_ord_amendments_2
+	clear_array = ROL_KMT_ord_amendments_3
+	clear_array = ROL_KMT_ord_amendments_4
+	clear_array = ROL_KMT_ord_amendments_5
+
+	resize_array = { array = ROL_KMT_ord_amendments_1 value = 0 size = ROL_KMT_sponsor_faction^num }
+	resize_array = { array = ROL_KMT_ord_amendments_2 value = 0 size = ROL_KMT_sponsor_faction^num }
+	resize_array = { array = ROL_KMT_ord_amendments_3 value = 0 size = ROL_KMT_sponsor_faction^num }
+	resize_array = { array = ROL_KMT_ord_amendments_4 value = 0 size = ROL_KMT_sponsor_faction^num }
+	resize_array = { array = ROL_KMT_ord_amendments_5 value = 0 size = ROL_KMT_sponsor_faction^num }
+	#无需更改……
+
+	#为历史法案追加修正案……
+	set_temp_variable = { GNG_legco_ordinance_id = 1 }
+	set_variable = { GNG_legco_amendments_1^GNG_legco_ordinance_id = 1.1 }
+	set_temp_variable = { GNG_legco_ordinance_id = 2 }
+	set_variable = { GNG_legco_amendments_1^GNG_legco_ordinance_id = 2.1 }
+	clear_variable = GNG_legco_ordinance_id
+	#为历史法案追加修正案……
+
+	#历史法案通过情况…… -1 搁置 0 未通过 1 通过
+	clear_array = ROL_KMT_legco_passage
+	add_to_array = { ROL_KMT_legco_passage = 1 }  # Bill 1
+	add_to_array = { ROL_KMT_legco_passage = -1 }  # Bill 2
+	add_to_array = { ROL_KMT_legco_passage = -1 }  # Bill 3 etc...
+	add_to_array = { ROL_KMT_legco_passage = -1 }
+	add_to_array = { ROL_KMT_legco_passage = 1 }
+	add_to_array = { ROL_KMT_legco_passage = 1 }
+	add_to_array = { ROL_KMT_legco_passage = 1 }
+	add_to_array = { ROL_KMT_legco_passage = 1 }
+	#历史法案通过情况……
+
+	#历史法案通过日期…… #关于如何设置这个值，参看https://hoi4.paradoxwikis.com/Data_structures#Game_variables 的第二条“date”
+	clear_array = ROL_KMT_legco_date
+	add_to_array = { ROL_KMT_legco_date = 60987.12 }  # Bill 1
+	add_to_array = { ROL_KMT_legco_date = 60987.12  }  # Bill 2
+	add_to_array = { ROL_KMT_legco_date = 60987.12  }  # Bill 3 etc...
+	add_to_array = { ROL_KMT_legco_date = 60987.12  }
+	add_to_array = { ROL_KMT_legco_date = 60987.12  }
+	add_to_array = { ROL_KMT_legco_date = 60987.12  }
+	add_to_array = { ROL_KMT_legco_date = 60987.12  }
+	add_to_array = { ROL_KMT_legco_date = 60987.12  }
+	#历史法案通过日期……
+
+	#历史法案通过率……
+	clear_array = ROL_KMT_legco_passper
+	add_to_array = { ROL_KMT_legco_passper = 60 }  # Bill 1
+	add_to_array = { ROL_KMT_legco_passper = 60 }  # Bill 2
+	add_to_array = { ROL_KMT_legco_passper = 30 }  # Bill 3 etc...
+	add_to_array = { ROL_KMT_legco_passper = 30 }
+	add_to_array = { ROL_KMT_legco_passper = 30 }
+	add_to_array = { ROL_KMT_legco_passper = 100 }
+	add_to_array = { ROL_KMT_legco_passper = 10 }
+	add_to_array = { ROL_KMT_legco_passper = 2 }
+	#历史法案通过率……
+}
