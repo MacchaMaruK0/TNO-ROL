@@ -382,7 +382,7 @@ guiTypes = {
 			}
 
 			containerWindowType = {
-				name = "past_ordinance_list_container"
+				name = "ROL_KMT_past_policy_list_container"
 				size = { width = 260 height = 240 }
 
 				verticalScrollbar = "right_vertical_slider"
@@ -415,6 +415,45 @@ guiTypes = {
 			quadTextureSprite = "GFX_ROL_KMT_party_seat"
 			position = { x = 0 y = 0 }
 			pdx_tooltip = "ROL_KMT_party_member_tt"
+		}
+	}
+
+	containerWindowType = { #历史条例的Fillbox，记得换图
+		name = "ROL_KMT_ord"
+		position = { x = 0 y = 0 }
+		size = { width = 216 height = 62 }
+
+		instantTextboxType = {
+			name = "ordinance_name"
+			position = { x = 42 y = 9 }
+			font = "aldrich_18_outline"
+			text = "ROL_KMT_historic_ordinance_title"
+			maxWidth = 164
+			format = center
+			alwaystransparent = yes
+			multiline = yes
+
+			maxHeight = 40
+			vertical_alignment = center
+		}
+
+		iconType = {
+			name = "history_letterhead"
+			quadTextureSprite = "GFX_GNG_LegCo_Ordinance_History_Letterhead"
+			position = { x = 0 y = 0 }
+		}
+
+		iconType = {
+			name = "history_symbol"
+			quadTextureSprite = "GFX_GNG_LegCo_Ordinance_Symbol"
+			position = { x = 11 y = 16 }
+		}
+
+		iconType = {
+			name = "history_bg"
+			spriteType = "GFX_GNG_LegCo_Ordinance_History_Background"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "ROL_KMT_historic_ordinance_tt"
 		}
 	}
 	

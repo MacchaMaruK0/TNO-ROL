@@ -252,4 +252,19 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
+	spriteType = { #常委会ticon
+		name = GFX_ROL_KMT_STC_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_STC.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = { #执行率ticon
+		name = GFX_ROL_KMT_EP_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_Execute_Percentage.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = { #法案ticon
+		name = GFX_ROL_KMT_Ord_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_ord.dds"
+		legacy_lazy_load = no
+	}
 }	

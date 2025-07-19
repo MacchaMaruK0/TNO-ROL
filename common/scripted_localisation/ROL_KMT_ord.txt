@@ -1,0 +1,255 @@
+#我没注释的部分我劝你别动——stakataka
+
+defined_text = {
+	name = ROL_KMT_ordinance_title_dynamic
+	text = { localization_key = ROL_KMT_ord_[?ROL_KMT_ordinance_id]_title }
+}
+
+defined_text = {
+	name = ROL_KMT_ordinance_intro
+	text = { localization_key = ROL_KMT_ord_[?ROL_KMT_ordinance_id]_intro }
+}
+
+defined_text = {
+	name = ROL_KMT_ordinance_history_passper
+	text = { localization_key = ROL_KMT_ordinance_history_passper_loc }
+}
+defined_text = {
+	name = ROL_KMT_ordinance_history_date
+	text = { localization_key = ROL_KMT_ordinance_history_date_loc }
+}
+defined_text = {
+	name = ROL_KMT_ordinance_effect_dynamic
+	text = { localization_key = ROL_KMT_ord_[?ROL_KMT_ordinance_id]_effect }
+}
+defined_text = {
+	# First Number Indicates Bill ID, decimals indicate what amendment it is under that bill
+	name = ROL_KMT_amendment_title_dynamic
+	text = { localization_key = ROL_KMT_amend_[?ROL_KMT_amendment_id]_title }
+}
+
+defined_text = {
+	# First Number Indicates Bill ID, decimals indicate what amendment it is under that bill
+	name = ROL_KMT_amendment_effect_dynamic
+	text = { localization_key = ROL_KMT_amend_[?ROL_KMT_amendment_id]_effect }
+}
+
+defined_text = {
+	name = ROL_KMT_ordinance_history_status
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_legco_passage^ROL_KMT_ord_history_i = 1 }
+		}
+		localization_key = ROL_KMT_passage_success
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_legco_passage^ROL_KMT_ord_history_i = -1 }
+		}
+		localization_key = ROL_KMT_passage_stalled
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_legco_passage^ROL_KMT_ord_history_i = 0 }
+		}
+		localization_key = ROL_KMT_passage_fail
+	}
+}
+
+defined_text = {
+	name = ROL_KMT_ordinance_faction_logo_dynamic
+	text = {
+		trigger = {
+			set_temp_variable = { ROL_KMT_faction = ROL_KMT_sponsor_faction^ROL_KMT_ordinance_id }
+		}
+		localization_key = "[ROL_KMT_current_faction_logo_dynamic]"
+	}
+}
+
+defined_text = {
+	name = ROL_KMT_ordinance_faction_dynamic
+	text = {
+		trigger = {
+			set_temp_variable = { ROL_KMT_faction = ROL_KMT_sponsor_faction^ROL_KMT_ordinance_id }
+		}
+		localization_key = "[ROL_KMT_current_faction_dynamic]"
+	}
+}
+
+defined_text = {
+	name = ROL_KMT_current_ordinance_display
+	text = {
+		trigger = {
+			has_country_flag = GNG_show_effects_for_ordinance
+		}
+		localization_key = ROL_KMT_current_ordinance_details_tt
+	}
+	text = {
+		localization_key = ROL_KMT_current_ordinance_effects_tt
+	}
+}
+
+defined_text = {
+	name = ROL_KMT_current_ordinance_title
+	text = {
+		trigger = {
+			set_temp_variable = { ROL_KMT_ordinance_id = ROL_KMT_current_ordinance_id }
+		}
+		localization_key = "[ROL_KMT_ordinance_title_dynamic]"
+	}
+}
+defined_text = {
+	name = ROL_KMT_current_ordinance_effect
+	text = {
+		trigger = {
+			set_temp_variable = { ROL_KMT_ordinance_id = ROL_KMT_current_ordinance_id }
+		}
+		localization_key = "[ROL_KMT_ordinance_effect_dynamic]"
+	}
+}
+defined_text = {
+	name = ROL_KMT_current_ordinance_amendments
+	text = {
+		trigger = {
+			set_temp_variable = { ROL_KMT_ordinance_id = ROL_KMT_current_ordinance_id }
+		}
+		localization_key = "[ROL_KMT_ordinance_amendments_dynamic]"
+	}
+}
+
+
+defined_text = {
+	name = ROL_KMT_ordinance_amendments_dynamic
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_amendments_5^ROL_KMT_ordinance_id > 0 }
+		}
+		localization_key = "ROL_KMT_5_amendments"
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_amendments_4^ROL_KMT_ordinance_id > 0 }
+		}
+		localization_key = "ROL_KMT_4_amendments"
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_amendments_3^ROL_KMT_ordinance_id > 0 }
+		}
+		localization_key = "ROL_KMT_3_amendments"
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_amendments_2^ROL_KMT_ordinance_id > 0 }
+		}
+		localization_key = "ROL_KMT_2_amendments"
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_amendments_1^ROL_KMT_ordinance_id > 0 }
+		}
+		localization_key = "ROL_KMT_1_amendments"
+	}
+	text = {
+		localization_key = "ROL_KMT_0_amendments"
+	}
+}
+
+defined_text = {
+	name = ROL_KMT_current_faction_logo_dynamic
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_faction = 1 }
+		}
+		localization_key = ROL_KMT_tpp_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_faction = 2 }
+		}
+		localization_key = ROL_KMT_hunangang_texticon
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_faction = 3 }
+		}
+		localization_key = ROL_KMT_taizi_texticon
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_faction = 4 }
+		}
+		localization_key = ROL_KMT_youth_army_icon
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_faction = 5 }
+		}
+		localization_key = ROL_KMT_zaizao_texticon
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_faction = 6 }
+		}
+		localization_key = ROL_KMT_tumu_icon
+	}
+	# text = {
+	# 	trigger = {
+	# 		check_variable = { ROL_KMT_faction = 7 }
+	# 	}
+	# 	localization_key = ROL_KMT_hitachi_logo
+	# }
+	text = {
+		localization_key = ROL_debug_fatal_out_of_range
+	}
+}
+
+defined_text = {
+	name = ROL_KMT_current_faction_dynamic
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_faction = 1 }
+		}
+		localization_key = ROL_KMT_tpp_c
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_faction = 2 }
+		}
+		localization_key = ROL_KMT_hunangang_c
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_faction = 3 }
+		}
+		localization_key = ROL_KMT_taizi_c
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_faction = 4 }
+		}
+		localization_key = ROL_KMT_youth_army_c
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_faction = 5 }
+		}
+		localization_key = ROL_KMT_zaizao_c
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_faction = 6 }
+		}
+		localization_key = ROL_KMT_tumu_c
+	}
+	# text = {
+	# 	trigger = {
+	# 		check_variable = { ROL_KMT_faction = 7 }
+	# 	}
+	# 	localization_key = ROL_KMT_hitachi_logo
+	# }
+	text = {
+		localization_key = ROL_debug_fatal_out_of_range
+	}
+}
+
