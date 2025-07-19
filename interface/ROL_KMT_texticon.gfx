@@ -201,4 +201,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/ROL_policy_icon.png"
 		legacy_lazy_load = no
 	}
+
+	spriteType = {
+		name = "GFX_KMT_group_ icon" #控制度的texticon
+		texturefile = "gfx/interface/texticon/ROL_KMT_texticon/KMT_group_ icon.png"
+		legacy_lazy_load = no
+	}
+
 }
