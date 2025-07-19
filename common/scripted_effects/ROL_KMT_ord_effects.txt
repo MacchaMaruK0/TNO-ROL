@@ -79,6 +79,7 @@ ROL_KMT_initialize_legco = { #初始历史法案+法案基本信息
 
 	#历史法案通过日期…… #关于如何设置这个值，参看https://hoi4.paradoxwikis.com/Data_structures#Game_variables 的第二条“date”
 	clear_array = ROL_KMT_legco_date
+	add_to_array = { ROL_KMT_legco_date = -1 }
 	add_to_array = { ROL_KMT_legco_date = 60863.075 }  # Bill 1
 	add_to_array = { ROL_KMT_legco_date = 60877.163  }  # Bill 2
 	add_to_array = { ROL_KMT_legco_date = 60901.571  }  # Bill 3 etc...
@@ -93,6 +94,7 @@ ROL_KMT_initialize_legco = { #初始历史法案+法案基本信息
 
 	#历史法案通过率……
 	clear_array = ROL_KMT_legco_passper
+	add_to_array = { ROL_KMT_legco_passper = -1 } 
 	add_to_array = { ROL_KMT_legco_passper = 100 }  # Bill 1
 	add_to_array = { ROL_KMT_legco_passper = 70 }  # Bill 2
 	add_to_array = { ROL_KMT_legco_passper = 90 }  # Bill 3 etc...
