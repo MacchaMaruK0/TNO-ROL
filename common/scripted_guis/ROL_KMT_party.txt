@@ -178,6 +178,15 @@ scripted_gui = {
 				has_country_flag = ROL_KMT_party_policy_visible
 			}
 			
+			ROL_KMT_party_seat_infor_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			}
+			
+			ROL_KMT_party_policy_frame_2_icon_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+				has_country_flag = ROL_KMT_party_policy_visible
+			}
+			
 			ROL_KMT_seat_frame_icon_visible = {
 				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
 			}

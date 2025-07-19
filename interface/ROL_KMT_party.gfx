@@ -201,7 +201,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_policy_1.png"
 	}
 	
-	spriteType = { #policy - seatframe
+	spriteType = { #seatframe
 		name = GFX_ROL_KMT_seat_frame_icon
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_seat_frame_icon.png"
 	}
@@ -209,6 +209,11 @@ spriteTypes = {
 	spriteType = { #policy - button - 2
 		name = GFX_ROL_KMT_party_policy_2
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_policy_2.png"
+	}
+	
+	spriteType = { #policy - frame2
+		name = GFX_ROL_KMT_party_policy_frame_2_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_policy_frame_2_icon.png"
 	}
 	####
 	spriteType = { #研究院-李焕
