@@ -79,16 +79,16 @@ ROL_KMT_initialize_legco = { #初始历史法案+法案基本信息
 
 	#历史法案通过日期…… #关于如何设置这个值，参看https://hoi4.paradoxwikis.com/Data_structures#Game_variables 的第二条“date”
 	clear_array = ROL_KMT_legco_date
-	add_to_array = { ROL_KMT_legco_date = 60987.12 }  # Bill 1
-	add_to_array = { ROL_KMT_legco_date = 60987.12  }  # Bill 2
-	add_to_array = { ROL_KMT_legco_date = 60987.12  }  # Bill 3 etc...
-	add_to_array = { ROL_KMT_legco_date = 60987.12  } #4
-	add_to_array = { ROL_KMT_legco_date = 60987.12  } #5
-	add_to_array = { ROL_KMT_legco_date = 60987.12  } #6
-	add_to_array = { ROL_KMT_legco_date = 60987.12  } #7
-	add_to_array = { ROL_KMT_legco_date = 60987.12  } #8
-	add_to_array = { ROL_KMT_legco_date = 60987.12  } #9
-	add_to_array = { ROL_KMT_legco_date = 60987.12  } #10
+	add_to_array = { ROL_KMT_legco_date = 60863.075 }  # Bill 1
+	add_to_array = { ROL_KMT_legco_date = 60877.163  }  # Bill 2
+	add_to_array = { ROL_KMT_legco_date = 60901.571  }  # Bill 3 etc...
+	add_to_array = { ROL_KMT_legco_date = 60906.059  } #4
+	add_to_array = { ROL_KMT_legco_date = 60930.563  } #5
+	add_to_array = { ROL_KMT_legco_date = 60945.755  } #6
+	add_to_array = { ROL_KMT_legco_date = 60950.099  } #7
+	add_to_array = { ROL_KMT_legco_date = 60955.547  } #8
+	add_to_array = { ROL_KMT_legco_date = 60975.179  } #9
+	add_to_array = { ROL_KMT_legco_date = 60986.819  } #10
 	#历史法案通过日期……
 
 	#历史法案通过率……
