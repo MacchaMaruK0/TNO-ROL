@@ -11,6 +11,31 @@ defined_text = {
 }
 
 defined_text = {
+	name = ROL_Get_current_ord_info
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_legco_info_v = 0 }
+		}
+		localization_key = ROL_KMT_current_ord_intro
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_legco_info_v = 1 }
+		}
+		localization_key = ROL_KMT_current_ord_effect
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_legco_info_v = 2 }
+		}
+		localization_key = ROL_KMT_current_ord_real_effect
+	}
+	text = {
+		localization_key = ROL_debug_fatal_out_of_range
+	}
+}
+
+defined_text = {
 	name = ROL_KMT_get_legco_status
 	text = {
 		trigger = {
@@ -123,6 +148,7 @@ defined_text = {
 	}
 }
 
+
 defined_text = {
 	name = ROL_KMT_current_ordinance_title
 	text = {
@@ -132,8 +158,29 @@ defined_text = {
 		localization_key = "[ROL_KMT_ordinance_title_dynamic]"
 	}
 }
+
 defined_text = {
-	name = ROL_KMT_current_ordinance_effect
+	name = ROL_KMT_current_ord_intro_get
+	text = {
+		trigger = {
+			set_temp_variable = { ROL_KMT_ordinance_id = ROL_KMT_current_ordinance_id }
+		}
+		localization_key = "[ROL_KMT_ordinance_intro]"
+	}
+}
+
+defined_text = {
+	name = ROL_KMT_current_ord_effect_get
+	text = {
+		trigger = {
+			set_temp_variable = { ROL_KMT_ordinance_id = ROL_KMT_current_ordinance_id }
+		}
+		localization_key = "[ROL_KMT_ordinance_effect_dynamic]"
+	}
+}
+
+defined_text = {
+	name = ROL_KMT_current_ord_real_effect_get
 	text = {
 		trigger = {
 			set_temp_variable = { ROL_KMT_ordinance_id = ROL_KMT_current_ordinance_id }

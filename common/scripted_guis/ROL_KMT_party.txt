@@ -126,6 +126,23 @@ scripted_gui = {
 		}
 		
 		effects = {
+			ROL_KMT_party_policy_frame_3_icon_click = {
+				if = {
+					limit = {
+						check_variable = {ROL_KMT_legco_status_v > 0}
+					}
+					if = {
+						limit = {check_variable = {ROL_KMT_legco_info_v < 1}}
+						add_to_variable = {
+							ROL_KMT_legco_info_v = 1
+						}
+					}
+					else = {
+						set_variable = {ROL_KMT_legco_info_v = 0}
+					}
+				}
+			}
+			
 			ROL_KMT_tpp_big_click = {
 				if = {
 					limit = {
@@ -199,6 +216,11 @@ scripted_gui = {
 					clear_array = ROL_KMT_ord_history_d
 				}
 			}
+
+			ROL_KMT_party_policy_3_button_click = {
+				ROL_KMT_show_effects_for_ordinance = yes
+				# custom_effect_tooltip = ROL_KMT_ordinance_effect_beneath_tt
+			}
 		}	
 		
 		triggers = {
@@ -250,6 +272,7 @@ scripted_gui = {
 				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
 				NOT = { has_country_flag = ROL_KMT_party_policy_visible }
 			}
+
 			ROL_Amendment_header_visible = {
 				has_country_flag = ROL_KMT_party_vote_visible
 				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
@@ -258,9 +281,24 @@ scripted_gui = {
 			
 			ROL_KMT_party_policy_frame_3_icon_visible = {
 				has_country_flag = ROL_KMT_party_vote_visible
+				check_variable = {ROL_KMT_legco_status_v > 0}
 				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
 				NOT = { has_country_flag = ROL_KMT_party_policy_visible }
 			}
+
+			ROL_KMT_party_policy_frame_3_icon_bg_visible = {
+				has_country_flag = ROL_KMT_party_vote_visible
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+				NOT = { has_country_flag = ROL_KMT_party_policy_visible }
+			}
+
+			ROL_KMT_legco_intro_visible = {
+				has_country_flag = ROL_KMT_party_vote_visible
+				check_variable = {ROL_KMT_legco_status_v > 0}
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+				NOT = { has_country_flag = ROL_KMT_party_policy_visible }
+			}
+
 
 			ROL_KMT_party_policy_current_ord_passinfo_visible = {
 				has_country_flag = ROL_KMT_party_policy_visible
@@ -299,6 +337,13 @@ scripted_gui = {
 			ROL_past_ordinance_header_visible = {
 				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
 				has_country_flag = ROL_KMT_party_policy_visible
+			}
+
+			ROL_KMT_party_policy_3_button_visible = {
+				has_country_flag = ROL_KMT_party_vote_visible
+				check_variable = { ROL_KMT_legco_status_v > 0 }
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+				NOT = { has_country_flag = ROL_KMT_party_policy_visible }
 			}
 
 			ROL_KMT_legco_status_info_visible = {

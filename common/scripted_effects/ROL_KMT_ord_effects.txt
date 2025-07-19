@@ -1,5 +1,6 @@
 ROL_KMT_initialize_legco = { #初始历史法案+法案基本信息
 	set_variable = {ROL_KMT_legco_status_v = 0}
+	set_variable = {ROL_KMT_legco_info_v = 0}
 	clear_array = ROL_KMT_ord_history
 	#历史法案……
 	add_to_array = { ROL_KMT_ord_history = 1 }
@@ -108,30 +109,73 @@ ROL_KMT_initialize_legco = { #初始历史法案+法案基本信息
 	#历史法案通过率……
 }
 
-ROL_KMT_throw_ord_into_STC = {
+ROL_KMT_throw_ord_into_STC = { #开始讨论
 	set_variable = { ROL_KMT_current_ordinance_id = lid }
-	ROL_KMT_legco_status_v = 1
+	set_variable = {ROL_KMT_legco_status_v = 1}
 }
 
-ROL_KMT_start_STC_deliberation = {
+ROL_KMT_start_STC_deliberation = { #开始审议
 	set_variable = { ROL_KMT_vote_days = time }
 	country_event = ROL_dummy.1 
-	ROL_KMT_legco_status_v = 2
+	set_variable = {ROL_KMT_legco_status_v = 2}
 }
 
-ROL_KMT_start_deliberation_on_instant_without_throw = {
+ROL_KMT_start_deliberation_on_instant_without_throw = { #直接开始审议
 	set_variable = { ROL_KMT_current_ordinance_id = lid }
 	set_variable = { ROL_KMT_vote_days = time }
 	country_event = ROL_dummy.1 
-	ROL_KMT_legco_status_v = 2
+	set_variable = {ROL_KMT_legco_status_v = 2}
 }
 
-ROL_KMT_end_deliberation = {
+ROL_KMT_end_deliberation = { #结算 自动调用
+	ROL_KMT_policy_effect_real = yes
+	set_variable = {ROL_KMT_holding_value = ROL_KMT_current_ordinance_id}
 	set_variable = { ROL_KMT_current_ordinance_id = 0 }
-	ROL_KMT_legco_status_v = 0
+	set_variable = {ROL_KMT_legco_status_v = 0}
+	
 }
 
-ROL_KMT_clear_STC = {
+ROL_KMT_clear_STC = { #清空所有临时信息，进结局时用
 	set_variable = { ROL_KMT_current_ordinance_id = 0 }
-	ROL_KMT_legco_status_v = 0
+	set_variable = {ROL_KMT_legco_info_v = 0}
+	set_variable = {ROL_KMT_legco_status_v = 0}
+	set_variable = {ROL_KMT_holding_value = 0}
+}
+
+ROL_KMT_show_effects_for_ordinance = { #展示效果
+	set_temp_variable = { ROL_KMT_holding_value = ROL_KMT_current_ordinance_id }
+	set_temp_variable = {ROL_KMT_legco_id = ROL_KMT_holding_value }
+	custom_effect_tooltip = ROL_KMT_show_effects_for_ordinance_tt
+	effect_tooltip = {
+		ROL_KMT_policy_effect_real = yes
+	}
+}
+
+ROL_KMT_policy_effect_real = { #实际执行的效果
+	set_temp_variable = {ROL_KMT_legco_id = ROL_KMT_holding_value }
+	if = {
+		limit = {
+			check_variable = { ROL_KMT_current_ordinance_id < 1 }
+			custom_effect_tooltip = ROL_KMT_ordinance_effects_tt
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { ROL_KMT_legco_id = 1 }
+		}
+		#……effect
+		custom_effect_tooltip = ROL_KMT_ord_1_effect
+		add_stability = 0.1
+	}
+	else_if = {
+		limit = {
+			check_variable = { ROL_KMT_legco_id = 2 }
+		}
+		#填入效果
+		custom_effect_tooltip = ROL_KMT_ord_2_effect
+	}
+	#更多的夹在中间
+	else = {
+		custom_effect_tooltip = ROL_debug_fatal_out_of_range
+	}
 }

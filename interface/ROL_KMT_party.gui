@@ -58,6 +58,14 @@ guiTypes = {
             spriteType = "GFX_ROL_KMT_party_policy_2"
             pdx_tooltip = ROL_KMT_party_policy_2_tt
 		}
+
+		iconType = {
+            name = "ROL_KMT_party_policy_3_button"
+            position = { x = 720 y = 533 }
+            spriteType = "GFX_Cold_War_GUI_info_button"
+			pdx_tooltip = ROL_KMT_party_policy_3_button_tt
+		}
+
 		######研究院双条
 		iconType = { 
             name = "ROL_KMT_youth_green_bar" 
@@ -318,7 +326,7 @@ guiTypes = {
 			spriteType = "GFX_ROL_KMT_party_button_2_icon"
 			pdx_tooltip = ROL_KMT_party_button_1_info
 		}
-		
+
 		iconType = { 
 			name = "ROL_KMT_seat_frame_icon" 
 			position = { x = 629 y = 137 } 
@@ -338,11 +346,19 @@ guiTypes = {
 			position = { x = 629 y = 577 } 
             spriteType = "GFX_ROL_KMT_party_policy_frame_2_icon"
         }
-		
 		iconType = { 
+			name = "ROL_KMT_party_policy_frame_3_icon_bg" 
+			position = { x = 629 y = 577 } 
+			orientation = "UPPER_LEFT"
+            spriteType = "GFX_ROL_KMT_party_policy_frame_2_icon"
+			alwaystransparent = yes
+        }
+		buttonType = { 
 			name = "ROL_KMT_party_policy_frame_3_icon" 
 			position = { x = 629 y = 577 } 
+			orientation = "UPPER_LEFT"
             spriteType = "GFX_ROL_KMT_party_policy_frame_2_icon"
+			pdx_tooltip = ROL_KMT_Switch_between_pages
         }
 
 
@@ -363,8 +379,25 @@ guiTypes = {
 			text = ROL_KMT_legco_ctd
 			maxWidth = 263
 			format = center
-			#alwaystransparent = yes
+			alwaystransparent = yes
         }
+
+		containerWindowType = {
+			name = "ROL_KMT_legco_intro_C" 
+			position = { x = 0 y = 0 } 
+			size = { width = 400 height = 350 }
+			verticalScrollbar = "right_vertical_slider"
+			instantTextboxType = { 
+				name = "ROL_KMT_legco_intro" 
+				position = { x = 660 y = 640 } 
+				font = "aldrich_20_outline"
+				text = ROL_KMT_legco_info
+				maxWidth = 283
+				format = left
+				alwaystransparent = yes
+				scrollbarType = standardtext_slider
+			}
+		}
 
 		instantTextboxType = { 
 			name = "ROL_KMT_party_policy_current_ord_info" 
