@@ -11,6 +11,7 @@ ROL_KMT_initialize_legco = { #初始历史法案+法案基本信息
 	add_to_array = { ROL_KMT_ord_history = 7 }
 	add_to_array = { ROL_KMT_ord_history = 8 }
 	add_to_array = { ROL_KMT_ord_history = 9 }
+	add_to_array = { ROL_KMT_ord_history = 10 }
 	#历史法案……
 
 	#已有阵营……
@@ -28,10 +29,16 @@ ROL_KMT_initialize_legco = { #初始历史法案+法案基本信息
 	#为法案绑定支持者……
 	clear_array = ROL_KMT_sponsor_faction
 	add_to_array = { ROL_KMT_sponsor_faction = -1 } # SKIPPED (bill 0)
-	add_to_array = { ROL_KMT_sponsor_faction = TPP }  # 一号法案 支持者TPP 
-	add_to_array = { ROL_KMT_sponsor_faction = HUNANGANG }  # 二号法案 支持者HNG
-	add_to_array = { ROL_KMT_sponsor_faction = TAIZI } 
-	add_to_array = { ROL_KMT_sponsor_faction = YOUTHARMY } 
+	add_to_array = { ROL_KMT_sponsor_faction = TUMU }  # 一号法案 支持者TPP 
+	add_to_array = { ROL_KMT_sponsor_faction = YOUTHARMY }  # 二号法案 支持者HNG
+	add_to_array = { ROL_KMT_sponsor_faction = YOUTHARMY } #3
+	add_to_array = { ROL_KMT_sponsor_faction = TUMU } #4
+	add_to_array = { ROL_KMT_sponsor_faction = ZAIZAO } #5
+	add_to_array = { ROL_KMT_sponsor_faction = HUNANGANG } #6
+	add_to_array = { ROL_KMT_sponsor_faction = ZAIZAO } #7
+	add_to_array = { ROL_KMT_sponsor_faction = HUNANGANG } #8
+	add_to_array = { ROL_KMT_sponsor_faction = ZAIZAO } #9
+	add_to_array = { ROL_KMT_sponsor_faction = YOUTHARMY } #10
 	#为法案绑定支持者……
 
 	#无需更改……
@@ -59,37 +66,43 @@ ROL_KMT_initialize_legco = { #初始历史法案+法案基本信息
 	#历史法案通过情况…… -1 搁置 0 未通过 1 通过
 	clear_array = ROL_KMT_legco_passage
 	add_to_array = { ROL_KMT_legco_passage = 1 }  # Bill 1
-	add_to_array = { ROL_KMT_legco_passage = -1 }  # Bill 2
-	add_to_array = { ROL_KMT_legco_passage = -1 }  # Bill 3 etc...
+	add_to_array = { ROL_KMT_legco_passage = 1 }  # Bill 2
+	add_to_array = { ROL_KMT_legco_passage = 1 }  # Bill 3 etc...
+	add_to_array = { ROL_KMT_legco_passage = 1 }
+	add_to_array = { ROL_KMT_legco_passage = 1 }
+	add_to_array = { ROL_KMT_legco_passage = 1 }
+	add_to_array = { ROL_KMT_legco_passage = 1 }
+	add_to_array = { ROL_KMT_legco_passage = 1 }
+	add_to_array = { ROL_KMT_legco_passage = 1 }
 	add_to_array = { ROL_KMT_legco_passage = -1 }
-	add_to_array = { ROL_KMT_legco_passage = 1 }
-	add_to_array = { ROL_KMT_legco_passage = 1 }
-	add_to_array = { ROL_KMT_legco_passage = 1 }
-	add_to_array = { ROL_KMT_legco_passage = 1 }
 	#历史法案通过情况……
 
 	#历史法案通过日期…… #关于如何设置这个值，参看https://hoi4.paradoxwikis.com/Data_structures#Game_variables 的第二条“date”
 	clear_array = ROL_KMT_legco_date
-	add_to_array = { ROL_KMT_legco_date = 60987.12 }  # Bill 1
-	add_to_array = { ROL_KMT_legco_date = 60987.12  }  # Bill 2
-	add_to_array = { ROL_KMT_legco_date = 60987.12  }  # Bill 3 etc...
-	add_to_array = { ROL_KMT_legco_date = 60987.12  }
-	add_to_array = { ROL_KMT_legco_date = 60987.12  }
-	add_to_array = { ROL_KMT_legco_date = 60987.12  }
-	add_to_array = { ROL_KMT_legco_date = 60987.12  }
-	add_to_array = { ROL_KMT_legco_date = 60987.12  }
+	add_to_array = { ROL_KMT_legco_date = 60863.075 }  # Bill 1
+	add_to_array = { ROL_KMT_legco_date = 60877.163  }  # Bill 2
+	add_to_array = { ROL_KMT_legco_date = 60901.571  }  # Bill 3 etc...
+	add_to_array = { ROL_KMT_legco_date = 60906.059  } #4
+	add_to_array = { ROL_KMT_legco_date = 60930.563  } #5
+	add_to_array = { ROL_KMT_legco_date = 60945.755  } #6
+	add_to_array = { ROL_KMT_legco_date = 60950.099  } #7
+	add_to_array = { ROL_KMT_legco_date = 60955.547  } #8
+	add_to_array = { ROL_KMT_legco_date = 60975.179  } #9
+	add_to_array = { ROL_KMT_legco_date = 60986.819  } #10
 	#历史法案通过日期……
 
 	#历史法案通过率……
 	clear_array = ROL_KMT_legco_passper
-	add_to_array = { ROL_KMT_legco_passper = 60 }  # Bill 1
-	add_to_array = { ROL_KMT_legco_passper = 60 }  # Bill 2
-	add_to_array = { ROL_KMT_legco_passper = 30 }  # Bill 3 etc...
-	add_to_array = { ROL_KMT_legco_passper = 30 }
-	add_to_array = { ROL_KMT_legco_passper = 30 }
-	add_to_array = { ROL_KMT_legco_passper = 100 }
-	add_to_array = { ROL_KMT_legco_passper = 10 }
-	add_to_array = { ROL_KMT_legco_passper = 2 }
+	add_to_array = { ROL_KMT_legco_passper = 100 }  # Bill 1
+	add_to_array = { ROL_KMT_legco_passper = 70 }  # Bill 2
+	add_to_array = { ROL_KMT_legco_passper = 90 }  # Bill 3 etc...
+	add_to_array = { ROL_KMT_legco_passper = 100 } #4
+	add_to_array = { ROL_KMT_legco_passper = 100 } #5
+	add_to_array = { ROL_KMT_legco_passper = 65 } #6
+	add_to_array = { ROL_KMT_legco_passper = 65 } #7
+	add_to_array = { ROL_KMT_legco_passper = 85 } #8
+	add_to_array = { ROL_KMT_legco_passper = 55 } #9
+	add_to_array = { ROL_KMT_legco_passper = 49 } #10
 	#历史法案通过率……
 }
 
