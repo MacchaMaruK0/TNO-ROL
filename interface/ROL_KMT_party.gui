@@ -339,6 +339,43 @@ guiTypes = {
             spriteType = "GFX_ROL_KMT_party_policy_frame_2_icon"
         }
 		
+		iconType = { 
+			name = "ROL_KMT_party_policy_frame_3_icon" 
+			position = { x = 629 y = 577 } 
+            spriteType = "GFX_ROL_KMT_party_policy_frame_2_icon"
+        }
+
+
+		instantTextboxType = { 
+			name = "ROL_KMT_legco_status_info" 
+			position = { x = 660 y = 597 } 
+			font = "aldrich_28_outline"
+			text = ROL_KMT_legco_status
+			maxWidth = 263
+			format = center
+			#alwaystransparent = yes
+        }
+
+		instantTextboxType = { 
+			name = "ROL_KMT_party_policy_current_ord_info" 
+			position = { x = 660 y = 620 } 
+			font = "aldrich_28_outline"
+			text = ROL_KMT_current_ordinance_title
+			maxWidth = 263
+			format = center
+			#alwaystransparent = yes
+        }
+
+		# instantTextboxType = { 
+		# 	name = "ROL_KMT_party_policy_current_ord_passinfo" 
+		# 	position = { x = 660 y = 800 } 
+		# 	font = "aldrich_28_outline"
+		# 	text = ROL_KMT_current_ordinance_vote
+		# 	maxWidth = 263
+		# 	format = center
+		# 	#alwaystransparent = yes
+        # }
+		
 		containerWindowType = {
 			name = "ROL_KMT_GUI_Party_Seats"
 			position = { x = 5 y = -12 }
@@ -359,22 +396,22 @@ guiTypes = {
 			size = { width = 275 height = 350 }
 			position = { x = 965 y = 565 }
 
-			background = {
-				name = "Background"
-			}
+			# background = {
+			# 	name = "Background"
+			# }
 			
-			iconType = { 
-				name = "ROL_KMT_policy_frame_icon" 
-				position = { x = 0 y = 13 } 
-				spriteType = "GFX_ROL_KMT_policy_frame_icon"
-			}
+			# iconType = { 
+			# 	name = "ROL_KMT_policy_frame_icon" 
+			# 	position = { x = 0 y = 13 } 
+			# 	spriteType = "GFX_ROL_KMT_policy_frame_icon"
+			# }
 			
 			
 
 			instantTextboxType = {
 				name = "ROL_past_ordinance_header"
 				position = { x = 0 y = 26 }
-				font = "aldrich_28_outline"
+				font = "aldrich_36_outline"
 				text = ROL_KMT_past_policy
 				maxWidth = 263
 				format = center
@@ -384,6 +421,14 @@ guiTypes = {
 			containerWindowType = {
 				name = "ROL_KMT_past_policy_list_container"
 				size = { width = 260 height = 240 }
+
+				visible = {
+					AND = {
+						has_country_flag = ROL_KMT_party_policy_visible
+						NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+						NOT = { has_country_flag = ROL_KMT_party_vote_visible }
+					}
+				}
 
 				verticalScrollbar = "right_vertical_slider"
 				position = { x = -2 y = 91 }
@@ -402,6 +447,62 @@ guiTypes = {
 					add_horizontal = no
 				}
 			}
+		}
+
+		containerWindowType = {
+			name = "ROL_KMT_Amendment_list"
+			size = { width = 275 height = 350 }
+			position = { x = 965 y = 565 }
+
+			# background = {
+			# 	name = "Background"
+			# }
+			
+			# iconType = { 
+			# 	name = "ROL_KMT_policy_frame_icon" 
+			# 	position = { x = 0 y = 13 } 
+			# 	spriteType = "GFX_ROL_KMT_policy_frame_icon"
+			# }	
+
+			instantTextboxType = {
+				name = "ROL_Amendment_header"
+				position = { x = 0 y = 26 }
+				font = "aldrich_36_outline"
+				text = ROL_KMT_Amendment
+				maxWidth = 263
+				format = center
+				alwaystransparent = yes
+			}
+
+			# containerWindowType = {
+			# 	name = "ROL_KMT_past_policy_list_container"
+			# 	size = { width = 260 height = 240 }
+
+			# 	visible = {
+			# 		AND = {
+			# 			has_country_flag = ROL_KMT_party_policy_visible
+			# 			NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+			# 			NOT = { has_country_flag = ROL_KMT_party_vote_visible }
+			# 		}
+			# 	}
+
+			# 	verticalScrollbar = "right_vertical_slider"
+			# 	position = { x = -2 y = 91 }
+
+			# 	background = {
+			# 		name = "Background"
+			# 		quadTextureSprite ="GFX_tiled_window_transparent"
+			# 	}
+
+			# 	# gridboxtype = {
+			# 	# 	name = "ROL_KMT_past_policy_list"
+			# 	# 	position = { x = 18 y = 0 }
+			# 	# 	size = { width = 216 height = 240 }
+			# 	# 	slotsize = { width = 216 height = 62 }
+			# 	# 	max_slots_horizontal = 1
+			# 	# 	add_horizontal = no
+			# 	# }
+			# }
 		}
 	}
 	

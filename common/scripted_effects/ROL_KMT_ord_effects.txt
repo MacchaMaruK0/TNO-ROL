@@ -1,5 +1,5 @@
 ROL_KMT_initialize_legco = { #初始历史法案+法案基本信息
-
+	set_variable = {ROL_KMT_legco_status_v = 0}
 	clear_array = ROL_KMT_ord_history
 	#历史法案……
 	add_to_array = { ROL_KMT_ord_history = 1 }
@@ -91,4 +91,27 @@ ROL_KMT_initialize_legco = { #初始历史法案+法案基本信息
 	add_to_array = { ROL_KMT_legco_passper = 10 }
 	add_to_array = { ROL_KMT_legco_passper = 2 }
 	#历史法案通过率……
+}
+
+ROL_KMT_throw_ord_into_STC = {
+	set_variable = { ROL_KMT_current_ordinance_id = lid }
+	ROL_KMT_legco_status_v = 1
+}
+
+ROL_KMT_start_STC_deliberation = {
+	ROL_KMT_legco_status_v = 2
+}
+
+ROL_KMT_start_deliberation_on_instant_without_throw = {
+	ROL_KMT_legco_status_v = 2
+}
+
+ROL_KMT_end_deliberation = {
+	set_variable = { ROL_KMT_current_ordinance_id = 0 }
+	ROL_KMT_legco_status_v = 0
+}
+
+ROL_KMT_clear_STC = {
+	set_variable = { ROL_KMT_current_ordinance_id = 0 }
+	ROL_KMT_legco_status_v = 0
 }

@@ -11,6 +11,37 @@ defined_text = {
 }
 
 defined_text = {
+	name = ROL_KMT_get_legco_status
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_legco_status_v = 0 }
+		}
+		localization_key = ROL_KMT_legco_is_off
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_legco_status_v = 1 }
+		}
+		localization_key = ROL_KMT_legco_under_discuss
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_legco_status_v = 2 }
+		}
+		localization_key = ROL_KMT_legco_during_vote
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_legco_status_v = 3 }
+		}
+		localization_key = ROL_KMT_legco_shutdown
+	}
+	text = {
+		localization_key = ROL_debug_fatal_out_of_range
+	}
+}
+
+defined_text = {
 	name = ROL_KMT_ordinance_history_passper
 	text = { localization_key = ROL_KMT_ordinance_history_passper_loc }
 }
@@ -53,6 +84,9 @@ defined_text = {
 			check_variable = { ROL_KMT_legco_passage^ROL_KMT_ord_history_i = 0 }
 		}
 		localization_key = ROL_KMT_passage_fail
+	}
+	text = {
+		localization_key = ROL_debug_fatal_out_of_range
 	}
 }
 
