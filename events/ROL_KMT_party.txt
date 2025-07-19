@@ -65,3 +65,23 @@ country_event = {
 		ROL_Swap_Party = yes
 	}
 }
+
+country_event = {
+	id = ROL_KMT_party.3
+	title = ROL_KMT_party.3.t
+	desc = ROL_KMT_party.3.d 
+
+
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ROL_KMT_party.3"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = { 
+		name = ROL_KMT_party.3.a
+		ROL_KMT_initialize_legco = yes
+	}
+}
