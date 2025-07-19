@@ -307,6 +307,15 @@ scripted_gui = {
 				NOT = { has_country_flag = ROL_KMT_party_vote_visible }
 			}
 
+			ROL_KMT_legco_ctd_visible = {
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+				OR = {
+					has_country_flag = ROL_KMT_party_policy_visible
+					has_country_flag = ROL_KMT_party_vote_visible
+				}
+				check_variable = {ROL_KMT_vote_days > 0}
+			}
+
 			
 			ROL_KMT_party_seat_infor_visible = {
 				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }

@@ -99,10 +99,15 @@ ROL_KMT_throw_ord_into_STC = {
 }
 
 ROL_KMT_start_STC_deliberation = {
+	set_variable = { ROL_KMT_vote_days = time }
+	country_event = ROL_dummy.1 
 	ROL_KMT_legco_status_v = 2
 }
 
 ROL_KMT_start_deliberation_on_instant_without_throw = {
+	set_variable = { ROL_KMT_current_ordinance_id = lid }
+	set_variable = { ROL_KMT_vote_days = time }
+	country_event = ROL_dummy.1 
 	ROL_KMT_legco_status_v = 2
 }
 

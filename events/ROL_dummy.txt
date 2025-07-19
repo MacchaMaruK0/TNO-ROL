@@ -1,0 +1,30 @@
+add_namespace = ROL_dummy
+
+country_event = { #LegCo Helper Event
+	id = ROL_dummy.1
+	title = ROL_dummy.1.t
+	desc = ROL_dummy.1.desc
+
+	is_triggered_only = yes
+	hidden = yes
+	trigger = {
+		NOT = { has_country_flag = GNG_disable_all_mechanics_IJA }
+	}
+	option = { #
+		name = ROL_dummy.1.a
+		ai_chance = { factor = 1 }
+		if = {
+			limit = { check_variable = { ROL_KMT_vote_days > 1 } }
+			country_event = {
+				id = ROL_dummy.1
+				days = 1
+			}
+			subtract_from_variable = { ROL_KMT_vote_days = 1 }
+		}
+		else_if = {
+			limit = { check_variable = { ROL_KMT_vote_days = 1 } }
+			set_variable = { ROL_KMT_vote_days = 0 }
+			ROL_KMT_end_deliberation = yes
+		}
+	}
+}

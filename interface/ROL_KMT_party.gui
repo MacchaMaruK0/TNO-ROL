@@ -346,11 +346,21 @@ guiTypes = {
         }
 
 
+		# instantTextboxType = { 
+		# 	name = "ROL_KMT_legco_status_info" 
+		# 	position = { x = 660 y = 597 } 
+		# 	font = "aldrich_28_outline"
+		# 	text = ROL_KMT_legco_status
+		# 	maxWidth = 263
+		# 	format = center
+		# 	#alwaystransparent = yes
+        # }
+
 		instantTextboxType = { 
-			name = "ROL_KMT_legco_status_info" 
+			name = "ROL_KMT_legco_ctd" 
 			position = { x = 660 y = 597 } 
 			font = "aldrich_28_outline"
-			text = ROL_KMT_legco_status
+			text = ROL_KMT_legco_ctd
 			maxWidth = 263
 			format = center
 			#alwaystransparent = yes

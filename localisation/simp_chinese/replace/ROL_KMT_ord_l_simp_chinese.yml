@@ -10,6 +10,7 @@
  ROL_KMT_current_ordinance_title: "[ROL_KMT_current_ordinance_title]"
  ROL_KMT_historic_ordinance_title: "[ROL_KMT_ordinance_title_dynamic]"
  ROL_KMT_legco_status: "[ROL_KMT_get_legco_status]"
+ ROL_KMT_legco_ctd: "距离审议结束还有[?ROL_KMT_vote_days]日"
  ROL_KMT_amendments_title: "[ROL_KMT_current_ordinance_faction_color]修正案§!"
  ROL_KMT_effects_title: "[ROL_KMT_current_ordinance_faction_color]效果§!"
  ROL_KMT_amendments_text: "[ROL_KMT_current_ordinance_amendments]"
