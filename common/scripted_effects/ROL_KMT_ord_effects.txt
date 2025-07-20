@@ -115,6 +115,44 @@ ROL_KMT_initialize_legco = { #初始历史法案+法案基本信息
 	ROL_KMT_refresh_policy_display = yes
 }
 
+ROL_KMT_display_pass_condition = { #展示用，无效果
+	custom_effect_tooltip = ROL_KMT_pass_condition_tt
+}
+
+ROL_KMT_write_into_pass = { #写入席位变量池
+	clear_array = ROL_KMT_ord_vote_status_by_index
+	for_each_loop = {
+		array = ROL_party_status_array_version
+		value = party_seat_num
+		index = party_index
+		set_variable = {
+			current_party_seat_set = 0
+		}
+		for_loop_effect = {
+			end = 25
+			value = seat
+			break = out_of_range
+			add = 1
+			add_to_variable = {
+				current_party_seat_set = 1
+			}
+			add_to_array = {
+				ROL_KMT_ord_vote_status_by_index = ROL_KMT_origin_vote_status^party_index
+			}
+			if = {
+				trigger = {
+					check_variable = {
+						current_party_seat_set = party_seat_num
+					}
+				}
+				set_temp_variable = {
+					out_of_range = 1
+				}
+			}
+		}
+	}
+}
+
 ROL_KMT_throw_ord_into_STC = { #开始讨论
 	set_variable = { ROL_KMT_current_ordinance_id = lid }
 	set_variable = {ROL_KMT_legco_status_v = 1}
@@ -174,13 +212,40 @@ ROL_KMT_append_amendment = {
 	}
 }
 
-ROL_KMT_remove_amendment = {
-	
+ROL_KMT_remove_amendment = { #设置temp_var v为需要清除的槽位
+	set_temp_variable = { ROL_KMT_ordinance_id = ROL_KMT_current_ordinance_id }
+	if = {
+		limit = { check_variable = { v = 1 } }
+		clear_variable = ROL_KMT_amendments_1^ROL_KMT_ordinance_id
+	}
+	else_if = {
+		limit = { check_variable = { v = 2 } }
+		clear_variable = ROL_KMT_amendments_2^ROL_KMT_ordinance_id
+	}
+	else_if = {
+		limit = { check_variable = { v = 3 } }
+		clear_variable = ROL_KMT_amendments_3^ROL_KMT_ordinance_id
+	}
+	else_if = {
+		limit = { check_variable = { v = 4 } }
+		clear_variable = ROL_KMT_amendments_4^ROL_KMT_ordinance_id
+	}
+	else_if = {
+		limit = { check_variable = { v = 5 } }
+		clear_variable = ROL_KMT_amendments_5^ROL_KMT_ordinance_id
+	}
 }
 
-ROL_KMT_clear_amendment = {
-	
+ROL_KMT_clear_amendment = { #一键清空
+	set_temp_variable = { ROL_KMT_ordinance_id = ROL_KMT_current_ordinance_id }
+	clear_variable = ROL_KMT_amendments_1^ROL_KMT_ordinance_id
+	clear_variable = ROL_KMT_amendments_2^ROL_KMT_ordinance_id
+	clear_variable = ROL_KMT_amendments_3^ROL_KMT_ordinance_id
+	clear_variable = ROL_KMT_amendments_4^ROL_KMT_ordinance_id
+	clear_variable = ROL_KMT_amendments_5^ROL_KMT_ordinance_id
+	ROL_KMT_refresh_policy_display = yes
 }
+
 
 ROL_KMT_amendment_display = {
 	clear_array = ROL_KMT_ord_amendment_d
@@ -206,6 +271,17 @@ ROL_KMT_amendment_display = {
 	}
 }
 
+ROL_KMT_ord_auto_pass = {
+	#强制通过法令
+}
+
+ROL_KMT_ord_auto_stall = {
+	#强制搁置法令
+}
+
+ROL_KMT_ord_auto_fail = {
+	#强制否决法令
+}
 
 ROL_KMT_end_deliberation = { #结算 自动调用
 	ROL_KMT_policy_effect_real = yes

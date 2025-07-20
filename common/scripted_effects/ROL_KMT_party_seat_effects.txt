@@ -268,6 +268,17 @@ ROL_update_party_seat_num = {#更新党派席位数
 		}
 		add_to_variable = { ROL_KMT_party_TPP = -1 }
 	}
+	ROL_write_party_status_into_array = yes
+}
+
+ROL_write_party_status_into_array = {#方便操作，无实际作用
+	clear_variable = ROL_party_status_array_version
+	ROL_party_status_array_version^1 = ROL_KMT_party_TUMU
+	ROL_party_status_array_version^2 = ROL_KMT_party_TAIZI
+	ROL_party_status_array_version^3 = ROL_KMT_party_ZAIZAO
+	ROL_party_status_array_version^4 = ROL_KMT_party_HUNANGANG
+	ROL_party_status_array_version^5 = ROL_KMT_party_YOUTHARMY
+	ROL_party_status_array_version^6 = ROL_KMT_party_TPP
 }
 
 ROL_get_party_start_pos = { #获取党派的第一个坐席的位置，需求一个输入对象partyid。
@@ -349,6 +360,7 @@ ROL_KMT_Party_Seat_Initiate = { #这是初始化函数，仅在机制激活时�
 	set_variable = { ROL_KMT_party_HUNANGANG = 5 }
 	set_variable = { ROL_KMT_party_YOUTHARMY = 5 }
 	set_variable = { ROL_KMT_party_TPP = 4 } #初始值，可以修改，请保证总和为25！
+	ROL_write_party_status_into_array = yes
 	for_loop_effect = {
 		end = 25
 		value = temp
