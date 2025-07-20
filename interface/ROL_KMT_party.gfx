@@ -259,12 +259,12 @@ spriteTypes = {
 	}
 	spriteType = { #执行率ticon
 		name = GFX_ROL_KMT_EP_texticon
-		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_Execute_Percentage.dds"
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_EP.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = { #法案ticon
 		name = GFX_ROL_KMT_Ord_texticon
-		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_ord.dds"
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_ORD.dds"
 		legacy_lazy_load = no
 	}
 }	
