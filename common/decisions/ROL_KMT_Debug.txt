@@ -239,7 +239,7 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 		fire_only_once = no
 		is_debug = yes
 		complete_effect = {
-			set_temp_variable = { lid = 1 }
+			set_temp_variable = { lid = 11 }
 			ROL_KMT_throw_ord_into_STC = yes
 		}
     }
@@ -249,7 +249,7 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 		fire_only_once = no
 		is_debug = yes
 		complete_effect = {
-			set_temp_variable = { time = 10 }
+			set_temp_variable = { time = 30 }
 			ROL_KMT_start_STC_deliberation = yes
 		}
     }
@@ -260,8 +260,8 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 		fire_only_once = no
 		is_debug = yes
 		complete_effect = {
-			set_temp_variable = { lid = 1 }
-			set_temp_variable = { time = 10 }
+			set_temp_variable = { lid = 11 }
+			set_temp_variable = { time = 30 }
 			ROL_KMT_start_deliberation_on_instant_without_throw = yes
 		}
     }
@@ -271,7 +271,7 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 		fire_only_once = no
 		is_debug = yes
 		complete_effect = {
-			set_temp_variable = { aid = 1.3 }
+			set_temp_variable = { aid = 11.1 }
 			ROL_KMT_append_amendment_to_current = yes
 		}
     }

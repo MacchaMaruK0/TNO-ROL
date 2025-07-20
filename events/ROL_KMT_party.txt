@@ -83,6 +83,5 @@ country_event = {
 	option = { 
 		name = ROL_KMT_party.3.a
 		ROL_KMT_initialize_legco = yes
-		set_country_flag = ROL_KMT_party_vote_visible
 	}
 }

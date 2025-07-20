@@ -41,6 +41,7 @@ ROL_KMT_initialize_legco = { #初始历史法案+法案基本信息
 	add_to_array = { ROL_KMT_sponsor_faction = HUNANGANG } #8
 	add_to_array = { ROL_KMT_sponsor_faction = ZAIZAO } #9
 	add_to_array = { ROL_KMT_sponsor_faction = YOUTHARMY } #10
+	add_to_array = { ROL_KMT_sponsor_faction = YOUTHARMY } #11党团合并案
 	#为法案绑定支持者……
 
 	#无需更改……
@@ -283,9 +284,30 @@ ROL_KMT_amendment_effects = { #修正案的效果，照着写
 			set_temp_variable = { gdp_growth_temp = 1.00 }
 			econ_gdp_growth_change = yes
 		}
-			else_if = {
+		else_if = {
 			limit = {
 				check_variable = { ROL_KMT_amendment_id = 1.3 } 
+			}
+			set_temp_variable = { gdp_growth_temp = 2.00 }
+			econ_gdp_growth_change = yes
+		}
+		if = {
+			limit = {
+				check_variable = { ROL_KMT_amendment_id = 11.1 }
+			}
+			set_temp_variable = { gdp_growth_temp = 0.65 }
+			econ_gdp_growth_change = yes
+		}
+		else_if = {
+			limit = {
+				check_variable = { ROL_KMT_amendment_id = 11.2 } 
+			}
+			set_temp_variable = { gdp_growth_temp = 1.00 }
+			econ_gdp_growth_change = yes
+		}
+		else_if = {
+			limit = {
+				check_variable = { ROL_KMT_amendment_id = 11.3 } 
 			}
 			set_temp_variable = { gdp_growth_temp = 2.00 }
 			econ_gdp_growth_change = yes
