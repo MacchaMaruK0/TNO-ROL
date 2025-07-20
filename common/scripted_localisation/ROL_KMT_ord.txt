@@ -18,6 +18,20 @@ defined_text = {
 }
 
 defined_text = {
+	name = ROL_KMT_get_amendment_info
+	text = {
+		localization_key = ROL_KMT_ord_[?ROL_KMT_amendment_id]_info
+	}
+}
+
+defined_text = {
+	name = ROL_KMT_get_amendment_effect
+	text = {
+		localization_key = ROL_KMT_ord_[?ROL_KMT_amendment_id]_effect
+	}
+}
+
+defined_text = {
 	name = ROL_Get_current_ord_info
 	text = {
 		trigger = {
@@ -85,17 +99,6 @@ defined_text = {
 	name = ROL_KMT_ordinance_effect_dynamic
 	text = { localization_key = ROL_KMT_ord_[?ROL_KMT_ordinance_id]_effect }
 }
-defined_text = {
-	# First Number Indicates Bill ID, decimals indicate what amendment it is under that bill
-	name = ROL_KMT_amendment_title_dynamic
-	text = { localization_key = ROL_KMT_amend_[?ROL_KMT_amendment_id]_title }
-}
-
-defined_text = {
-	# First Number Indicates Bill ID, decimals indicate what amendment it is under that bill
-	name = ROL_KMT_amendment_effect_dynamic
-	text = { localization_key = ROL_KMT_amend_[?ROL_KMT_amendment_id]_effect }
-}
 
 defined_text = {
 	name = ROL_KMT_ordinance_history_status
@@ -161,6 +164,16 @@ defined_text = {
 	text = {
 		trigger = {
 			set_temp_variable = { ROL_KMT_ordinance_id = ROL_KMT_current_ordinance_id }
+		}
+		localization_key = "[ROL_KMT_ordinance_title_dynamic]"
+	}
+}
+
+defined_text = {
+	name = ROL_KMT_next_ordinance_title
+	text = {
+		trigger = {
+			set_temp_variable = { ROL_KMT_ordinance_id = lid }
 		}
 		localization_key = "[ROL_KMT_ordinance_title_dynamic]"
 	}
@@ -341,3 +354,48 @@ defined_text = {
 	}
 }
 
+defined_text = {
+	name = ROL_KMT_ordinance_amendment_1_dynamic
+	text = {
+		trigger = {
+			set_temp_variable = { ROL_KMT_amendment_id = ROL_KMT_amendments_1^ROL_KMT_ordinance_id }
+		}
+		localization_key = "[ROL_KMT_current_amendment]"
+	}
+}
+defined_text = {
+	name = ROL_KMT_ordinance_amendment_2_dynamic
+	text = {
+		trigger = {
+			set_temp_variable = { ROL_KMT_amendment_id = ROL_KMT_amendments_2^ROL_KMT_ordinance_id }
+		}
+		localization_key = "[ROL_KMT_current_amendment]"
+	}
+}
+defined_text = {
+	name = ROL_KMT_ordinance_amendment_3_dynamic
+	text = {
+		trigger = {
+			set_temp_variable = { ROL_KMT_amendment_id = ROL_KMT_amendments_3^ROL_KMT_ordinance_id }
+		}
+		localization_key = "[ROL_KMT_current_amendment]"
+	}
+}
+defined_text = {
+	name = ROL_KMT_ordinance_amendment_4_dynamic
+	text = {
+		trigger = {
+			set_temp_variable = { ROL_KMT_amendment_id = ROL_KMT_amendments_4^ROL_KMT_ordinance_id }
+		}
+		localization_key = "[ROL_KMT_current_amendment]"
+	}
+}
+defined_text = {
+	name = ROL_KMT_ordinance_amendment_5_dynamic
+	text = {
+		trigger = {
+			set_temp_variable = { ROL_KMT_amendment_id = ROL_KMT_amendments_5^ROL_KMT_ordinance_id }
+		}
+		localization_key = "[ROL_KMT_current_amendment]"
+	}
+}

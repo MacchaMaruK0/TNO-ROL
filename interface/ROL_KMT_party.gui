@@ -437,19 +437,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "ROL_KMT_History_Policy"
 			size = { width = 275 height = 350 }
-			position = { x = 965 y = 565 }
-
-			# background = {
-			# 	name = "Background"
-			# }
-			
-			# iconType = { 
-			# 	name = "ROL_KMT_policy_frame_icon" 
-			# 	position = { x = 0 y = 13 } 
-			# 	spriteType = "GFX_ROL_KMT_policy_frame_icon"
-			# }
-			
-			
+			position = { x = 965 y = 565 }		
 
 			instantTextboxType = {
 				name = "ROL_past_ordinance_header"
@@ -497,6 +485,14 @@ guiTypes = {
 			size = { width = 275 height = 350 }
 			position = { x = 965 y = 565 }
 
+			visible = {
+				AND = {
+					has_country_flag = ROL_KMT_party_vote_visible
+					NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+					NOT = { has_country_flag = ROL_KMT_party_policy_visible }
+				}
+			}
+
 			background = {
 				name = "Background"
 			}
@@ -524,9 +520,18 @@ guiTypes = {
 				verticalScrollbar = "right_vertical_slider"
 				position = { x = -2 y = 91 }
 
+				visible = {
+					AND = {
+						has_country_flag = ROL_KMT_party_vote_visible
+						NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+						NOT = { has_country_flag = ROL_KMT_party_policy_visible }
+					}
+				}
+
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_tiled_window_transparent"
+					alwaystransparent = yes
 				}
 
 				gridboxtype = {
@@ -592,7 +597,8 @@ guiTypes = {
 			pdx_tooltip = "ROL_KMT_historic_ordinance_tt"
 		}
 	}
-	containerWindowType = { #历史条例的Fillbox，记得换图
+	
+	containerWindowType = { #修正案的Fillbox，记得换图
 		name = "ROL_KMT_amendment"
 		position = { x = 0 y = 0 }
 		size = { width = 216 height = 62 }
