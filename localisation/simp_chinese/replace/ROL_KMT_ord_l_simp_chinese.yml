@@ -21,6 +21,7 @@
  ROL_KMT_current_ordinance_vote: "当前法案的通过率为[ROL_KMT_current_ordinance_passper]\n[ROL_KMT_Legco_Pass_Check]"
  ROL_KMT_passage_success: "§G政策通过§!"
  ROL_KMT_passage_fail: "§R投票被否决§!"
+ ROL_KMT_amendment_title: "[ROL_KMT_current_amendment]"
  ROL_KMT_passage_stalled: "§f无限期搁置§!"
  ROL_KMT_bill_introduce_tooltip: "§F[ROL_KMT_bill_tooltip_dynamic][GNG_get_legco_bill_tooltip]§!将递交至£ROL_KMT_texticon §i常委会讨论。§!§!"
  ROL_KMT_bill_voting_tooltip: "§F£ROL_KMT_texticon §i常委会§!正在讨论的[ROL_KMT_bill_tooltip_dynamic][GNG_get_legco_bill_tooltip]§!将开始统计执行度。§!"
@@ -39,7 +40,7 @@
  GNG_clear_show_effects_for_ordinances_tt: "\n§G点击§!政策即可查看§Y细节§!。"
  GNG_ordinance_not_enough_to_pass: "§R不足以执行政策。§!"
  GNG_ordinance_enough_to_pass: "§G足以执行政策。§!"
- ROL_KMT_historic_ordinance_tt: "§F§Y[ROL_KMT_ordinance_title_dynamic]§!\n提出者：[ROL_KMT_ordinance_faction_logo_dynamic] [ROL_KMT_ordinance_faction_dynamic]\n--------------\n§Y修正案：§!\n[ROL_KMT_ordinance_amendments_dynamic]\n\n§Y£GFX_ROL_KMT_STC_texticon §i常务委员会§!中的历史：§!\n[ROL_KMT_ordinance_history_status] \n\n§Y£GFX_ROL_KMT_Ord_texticon 执行度：§![ROL_KMT_ordinance_history_passper]§! \n\n§Y效果：§!\n[ROL_KMT_ordinance_effect_dynamic]§! \n\n§Y介绍：§![ROL_KMT_ordinance_intro]§! \n\n§Y记录日：§![ROL_KMT_ordinance_history_date]§!"
+ ROL_KMT_historic_ordinance_tt: "§F§Y[ROL_KMT_ordinance_title_dynamic]§!\n提出者：[ROL_KMT_ordinance_faction_logo_dynamic] [ROL_KMT_ordinance_faction_dynamic]\n--------------\n§Y修正案：§!\n[ROL_KMT_ordinance_amendments_dynamic]\n\n§Y£GFX_ROL_KMT_STC_texticon §i常务委员会§!中的历史：§!\n[ROL_KMT_ordinance_history_status] \n\n§Y£GFX_ROL_KMT_EP_texticon 执行度：§![ROL_KMT_ordinance_history_passper]§! \n\n§Y效果：§!\n[ROL_KMT_ordinance_effect_dynamic]§! \n\n§Y介绍：§![ROL_KMT_ordinance_intro]§! \n\n§Y记录日：§![ROL_KMT_ordinance_history_date]§!"
  ROL_KMT_voting_time: "\n\n距离条例投票还有：\n§Y[?ROL_KMT_vote_days]天。§!"
  ROL_KMT_stage_2_seats: "£GNG_Sony_texticon 支持条例的§V索尼§!议员：§Y[?ROL_KMT_faction_support^3|0]/[?ROL_KMT_sony_seats|0]§!\n£GNG_Cheung_Kong_texticon 支持条例的§C长江实业§!议员：§Y[?ROL_KMT_faction_support^6|0]/[?ROL_KMT_cheungkong_seats|0]§!\n£GNG_Matsushita_texticon 支持条例的§W松下§!议员：§Y[?ROL_KMT_faction_support^4|0]/[?ROL_KMT_matsushita_seats|0]§!\n£GNG_Fujitsu_texticon 支持条例的§m富士通§!议员：§Y[?ROL_KMT_faction_support^5|0]/[?ROL_KMT_fujitsu_seats|0]§!\n£GNG_Hitachi_texticon 支持条例的§L日立§!议员：§Y[?ROL_KMT_faction_support^7|0]/[?ROL_KMT_hitachi_seats|0]§!"
  #特别声明：本人为ROL提供的代码仅为受ROL制作组委托制作，并授权ROL作为TNO submod使用。不代表本人支持该制作组及其任何特定成员的言行举止和发表的任何观点。本人无意参与任何社区争端。——Stakataka_3030 2025/7
@@ -102,3 +103,8 @@ ROL_KMT_legco_shutdown: "£GFX_ROL_KMT_STC_texticon §S常务委员会§!已被�
  ROL_KMT_ord_10_title: "《西北行辕所辖部队编遣方案》"
  ROL_KMT_ord_10_intro: "当前敌情严峻，战区任务艰巨，行辕所辖各部虽忠勇可嘉，然经年累月，或因驻地分散、补给不一，或因训练不周、编制各异，致令军令贯彻、协同作战与整体战力之发挥，均感窒碍难行，亟需彻底整顿。遂制定本案：\n一曰：\n对行辕辖区内所有地方武装进行全面点验、甄别与核定。予以统一整编，悉数纳入行辕战斗序列，务求建制分明，指挥体系畅通无阻。\n二曰：对新编部队实施集中、系统之基础训练与实战化演习，务使人人皆成可用之材，部队整体素质与战斗技能显著精进。\n此次整编工作，关系西北安危与复国前途。行辕将以最大决心与魄力，督饬各级主官切实执行方案，将辖区内所有武装力量，淬砺成为意志统一、纪律严明、装备精良、训练有素之革命军。"
  ROL_KMT_ord_10_effect: "§f执行力度未达到最低标准，无限期搁置。§!"
+
+#修正案
+ ROL_KMT_ord_1.1_intro: "测试修正案"
+ ROL_KMT_ord_1.2_intro: "测试修正案2"
+ ROL_KMT_ord_1.3_intro: "测试修正案3"

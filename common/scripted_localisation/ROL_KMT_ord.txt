@@ -11,6 +11,13 @@ defined_text = {
 }
 
 defined_text = {
+	name = ROL_KMT_current_amendment
+	text = {
+		localization_key = ROL_KMT_ord_[?ROL_KMT_amendment_id]_intro
+	}
+}
+
+defined_text = {
 	name = ROL_Get_current_ord_info
 	text = {
 		trigger = {

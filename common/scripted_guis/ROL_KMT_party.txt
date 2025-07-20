@@ -60,6 +60,15 @@ scripted_gui = {
 				value = ROL_KMT_ordinance_id
 			}
 		} 
+
+		dynamic_lists = {
+			ROL_KMT_amendment_list = {
+				array = ROL_KMT_ord_amendment_d
+				index = ROL_KMT_ord_amendment_i
+				entry_container = ROL_KMT_amendment
+				value = ROL_KMT_amendment_id
+			}
+		} 
 		
 		properties = {
 			parliament_dot_icon = {
@@ -164,12 +173,14 @@ scripted_gui = {
 			}
 			
 			ROL_KMT_party_policy_1_button_click = {
+				clear_array = ROL_KMT_ord_amendment_d
 				if = {
 					limit = {
 						has_country_flag = ROL_KMT_party_policy_visible
 					}
 					clr_country_flag = ROL_KMT_party_policy_visible
 					clear_array = ROL_KMT_ord_history_d
+					
 				}
 				else_if = {
 					limit = {
@@ -196,6 +207,7 @@ scripted_gui = {
 			}
 
 			ROL_KMT_party_policy_2_button_click = {
+				clear_array = ROL_KMT_ord_amendment_d
 				if = {
 					limit = {
 						has_country_flag = ROL_KMT_party_vote_visible
@@ -209,10 +221,12 @@ scripted_gui = {
 					}
 					clr_country_flag = ROL_KMT_party_policy_visible
 					set_country_flag = ROL_KMT_party_vote_visible
+					ROL_KMT_amendment_display = yes
 					clear_array = ROL_KMT_ord_history_d
 				}
 				else = {
 					set_country_flag = ROL_KMT_party_vote_visible
+					ROL_KMT_amendment_display = yes
 					clear_array = ROL_KMT_ord_history_d
 				}
 			}

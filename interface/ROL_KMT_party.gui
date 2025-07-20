@@ -497,15 +497,15 @@ guiTypes = {
 			size = { width = 275 height = 350 }
 			position = { x = 965 y = 565 }
 
-			# background = {
-			# 	name = "Background"
-			# }
+			background = {
+				name = "Background"
+			}
 			
-			# iconType = { 
-			# 	name = "ROL_KMT_policy_frame_icon" 
-			# 	position = { x = 0 y = 13 } 
-			# 	spriteType = "GFX_ROL_KMT_policy_frame_icon"
-			# }	
+			iconType = { 
+				name = "ROL_KMT_amendment_frame_icon" 
+				position = { x = 0 y = 13 } 
+				spriteType = "GFX_ROL_KMT_policy_frame_icon"
+			}	
 
 			instantTextboxType = {
 				name = "ROL_Amendment_header"
@@ -517,35 +517,27 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 
-			# containerWindowType = {
-			# 	name = "ROL_KMT_past_policy_list_container"
-			# 	size = { width = 260 height = 240 }
+			containerWindowType = {
+				name = "ROL_KMT_amendment_container"
+				size = { width = 260 height = 240 }
 
-			# 	visible = {
-			# 		AND = {
-			# 			has_country_flag = ROL_KMT_party_policy_visible
-			# 			NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
-			# 			NOT = { has_country_flag = ROL_KMT_party_vote_visible }
-			# 		}
-			# 	}
+				verticalScrollbar = "right_vertical_slider"
+				position = { x = -2 y = 91 }
 
-			# 	verticalScrollbar = "right_vertical_slider"
-			# 	position = { x = -2 y = 91 }
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
 
-			# 	background = {
-			# 		name = "Background"
-			# 		quadTextureSprite ="GFX_tiled_window_transparent"
-			# 	}
-
-			# 	# gridboxtype = {
-			# 	# 	name = "ROL_KMT_past_policy_list"
-			# 	# 	position = { x = 18 y = 0 }
-			# 	# 	size = { width = 216 height = 240 }
-			# 	# 	slotsize = { width = 216 height = 62 }
-			# 	# 	max_slots_horizontal = 1
-			# 	# 	add_horizontal = no
-			# 	# }
-			# }
+				gridboxtype = {
+					name = "ROL_KMT_amendment_list"
+					position = { x = 18 y = 0 }
+					size = { width = 216 height = 240 }
+					slotsize = { width = 216 height = 62 }
+					max_slots_horizontal = 1
+					add_horizontal = no
+				}
+			}
 		}
 	}
 	
@@ -600,5 +592,42 @@ guiTypes = {
 			pdx_tooltip = "ROL_KMT_historic_ordinance_tt"
 		}
 	}
-	
+	containerWindowType = { #历史条例的Fillbox，记得换图
+		name = "ROL_KMT_amendment"
+		position = { x = 0 y = 0 }
+		size = { width = 216 height = 62 }
+
+		instantTextboxType = {
+			name = "amendment_name"
+			position = { x = 42 y = 9 }
+			font = "aldrich_18_outline"
+			text = "ROL_KMT_amendment_title"
+			maxWidth = 164
+			format = center
+			alwaystransparent = yes
+			multiline = yes
+
+			maxHeight = 40
+			vertical_alignment = center
+		}
+
+		iconType = {
+			name = "amendment_letterhead"
+			quadTextureSprite = "GFX_GNG_LegCo_Ordinance_History_Letterhead"
+			position = { x = 0 y = 0 }
+		}
+
+		iconType = {
+			name = "amendment_symbol"
+			quadTextureSprite = "GFX_GNG_LegCo_Ordinance_Symbol"
+			position = { x = 11 y = 16 }
+		}
+
+		iconType = {
+			name = "amendment_bg"
+			spriteType = "GFX_GNG_LegCo_Ordinance_History_Background"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "ROL_KMT_amendment_tt"
+		}
+	}
 }
