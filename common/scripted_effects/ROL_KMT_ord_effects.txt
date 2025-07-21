@@ -17,12 +17,12 @@ ROL_KMT_initialize_legco = { #初始历史法案+法案基本信息
 	#历史法案……
 
 	#已有阵营……
-	set_temp_variable = { TPP = 1 }
-	set_temp_variable = { HUNANGANG = 2 }
-	set_temp_variable = { TAIZI = 3 }
-	set_temp_variable = { YOUTHARMY = 4 }
-	set_temp_variable = { ZAIZAO = 5 }
-	set_temp_variable = { TUMU = 6 }
+	set_temp_variable = { TPP = 2 }
+	set_temp_variable = { HUNANGANG = 4 }
+	set_temp_variable = { TAIZI = 6 }
+	set_temp_variable = { YOUTHARMY = 3 }
+	set_temp_variable = { ZAIZAO = 1 }
+	set_temp_variable = { TUMU = 5 }
 	#已有阵营……
 	
 	# set_temp_variable = { ELSE = 7 } 追加阵营……
@@ -68,6 +68,9 @@ ROL_KMT_initialize_legco = { #初始历史法案+法案基本信息
 	clear_variable = ROL_KMT_ordinance_id
 	#为历史法案追加修正案……
 	#*请勿在此给需要在游戏内执行的法案添加修正案，若如此做，修正案会与法案一并被推入立法会
+
+	#指定修正案阵营……
+	set_variable = { ROL_KMT_ord_amendment_faction^11.1 = TUMU }
 
 	#历史法案通过情况…… -1 搁置 0 未通过 1 通过
 	clear_array = ROL_KMT_legco_passage
@@ -554,6 +557,7 @@ ROL_KMT_amendment_display = {
 	if = {
 		limit = { check_variable = { ROL_KMT_amendments_1^ROL_KMT_current_ordinance_id > 0 } }
 		add_to_array = {ROL_KMT_ord_amendment_d = ROL_KMT_amendments_1^ROL_KMT_current_ordinance_id}
+
 	}
 	if = {
 		limit = { check_variable = { ROL_KMT_amendments_2^ROL_KMT_current_ordinance_id > 0 } }

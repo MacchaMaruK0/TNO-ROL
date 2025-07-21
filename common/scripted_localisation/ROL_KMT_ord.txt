@@ -765,37 +765,37 @@ defined_text = {
 		trigger = {
 			check_variable = { ROL_KMT_faction = 1 }
 		}
-		localization_key = ROL_KMT_tpp_icon
+		localization_key = ROL_KMT_zaizao_texticon
 	}
 	text = {
 		trigger = {
 			check_variable = { ROL_KMT_faction = 2 }
 		}
-		localization_key = ROL_KMT_hunangang_texticon
+		localization_key = ROL_KMT_tpp_icon
 	}
 	text = {
 		trigger = {
 			check_variable = { ROL_KMT_faction = 3 }
 		}
-		localization_key = ROL_KMT_taizi_texticon
+		localization_key = ROL_KMT_youth_army_icon
 	}
 	text = {
 		trigger = {
 			check_variable = { ROL_KMT_faction = 4 }
 		}
-		localization_key = ROL_KMT_youth_army_icon
+		localization_key = ROL_KMT_hunangang_texticon
 	}
 	text = {
 		trigger = {
 			check_variable = { ROL_KMT_faction = 5 }
 		}
-		localization_key = ROL_KMT_zaizao_texticon
+		localization_key = ROL_KMT_tumu_icon
 	}
 	text = {
 		trigger = {
 			check_variable = { ROL_KMT_faction = 6 }
 		}
-		localization_key = ROL_KMT_tumu_icon
+		localization_key = ROL_KMT_taizi_texticon
 	}
 	# text = {
 	# 	trigger = {
@@ -814,37 +814,37 @@ defined_text = {
 		trigger = {
 			check_variable = { ROL_KMT_faction = 1 }
 		}
-		localization_key = ROL_KMT_tpp_c
+		localization_key = ROL_KMT_zaizao_c
 	}
 	text = {
 		trigger = {
 			check_variable = { ROL_KMT_faction = 2 }
 		}
-		localization_key = ROL_KMT_hunangang_c
+		localization_key = ROL_KMT_tpp_c
 	}
 	text = {
 		trigger = {
 			check_variable = { ROL_KMT_faction = 3 }
 		}
-		localization_key = ROL_KMT_taizi_c
+		localization_key = ROL_KMT_youth_army_c
 	}
 	text = {
 		trigger = {
 			check_variable = { ROL_KMT_faction = 4 }
 		}
-		localization_key = ROL_KMT_youth_army_c
+		localization_key = ROL_KMT_hunangang_c
 	}
 	text = {
 		trigger = {
 			check_variable = { ROL_KMT_faction = 5 }
 		}
-		localization_key = ROL_KMT_zaizao_c
+		localization_key = ROL_KMT_tumu_c
 	}
 	text = {
 		trigger = {
 			check_variable = { ROL_KMT_faction = 6 }
 		}
-		localization_key = ROL_KMT_tumu_c
+		localization_key = ROL_KMT_taizi_c
 	}
 	# text = {
 	# 	trigger = {

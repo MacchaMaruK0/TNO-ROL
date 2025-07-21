@@ -38,7 +38,7 @@
  ROL_KMT_ordinance_effects_tt: "§F[ROL_KMT_ordinance_title_dynamic]达到最低执行度§!，带来了如下效果：§!"
  ROL_KMT_ordinance_stalled_tt: "§F[ROL_KMT_ordinance_title_dynamic]§!§R未能§!达到£GFX_ROL_KMT_STC_texticon §i常委会的最低执行度，遭到§f无限期搁置§!。§!§!"
  ROL_KMT_ordinance_failed_tt: "§F[ROL_KMT_ordinance_title_dynamic]§!§R未能§!达到£GFX_ROL_KMT_STC_texticon §i常委会的最低执行度，遭到§R否决§!。§!§!"
-  ROL_KMT_current_ordinance_tt: "§F§Y[ROL_KMT_current_ordinance_title]§!\n提出者：[ROL_KMT_current_ordinance_faction_logo] [ROL_KMT_current_ordinance_faction]\n--------------\n§Y修正案：§!\n[ROL_KMT_current_ordinance_amendments]\n\n§Y效果：§!\n[ROL_KMT_current_ordinance_effect]\n\n§Y当前投票：§!\n[Legco_Votes_Current_Parties]\n\n[Legco_Current_Ordinance_Support]名常委支持这项政策，[Legco_Pass_Check][Legco_Vote_time_check]§!\n\n§G点击§!政策查看§Y游戏中的效果§!。"
+
  ROL_KMT_ordinance_effect_tt: "[!legco_ordinance_effect_click]"
  ROL_KMT_party_policy_3_button_tt: "[!ROL_KMT_party_policy_3_button_click]"
  GNG_clear_show_effects_for_ordinances_tt: "\n§G点击§!政策即可查看§Y细节§!。"

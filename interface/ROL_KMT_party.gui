@@ -586,15 +586,10 @@ guiTypes = {
 			vertical_alignment = center
 		}
 
-		iconType = {
-			name = "history_letterhead"
-			quadTextureSprite = "GFX_GNG_LegCo_Ordinance_History_Letterhead"
-			position = { x = 0 y = 0 }
-		}
 
 		iconType = {
 			name = "history_symbol"
-			quadTextureSprite = "GFX_GNG_LegCo_Ordinance_Symbol"
+			quadTextureSprite = "GFX_ROL_LegCo_Ordinance_Symbol"
 			position = { x = 11 y = 16 }
 		}
 
@@ -624,16 +619,9 @@ guiTypes = {
 			maxHeight = 40
 			vertical_alignment = center
 		}
-
-		iconType = {
-			name = "amendment_letterhead"
-			quadTextureSprite = "GFX_GNG_LegCo_Ordinance_History_Letterhead"
-			position = { x = 0 y = 0 }
-		}
-
 		iconType = {
 			name = "amendment_symbol"
-			quadTextureSprite = "GFX_GNG_LegCo_Ordinance_Symbol"
+			quadTextureSprite = "GFX_ROL_LegCo_Ordinance_Symbol"
 			position = { x = 11 y = 16 }
 		}
 

@@ -130,11 +130,11 @@ scripted_gui = {
 			}
 
 			#ord gui
-			history_letterhead = {
-				frame = ROL_KMT_sponsor_faction^ROL_KMT_ord_id
-			}
 			history_symbol = {
-				frame = ROL_KMT_sponsor_faction^ROL_KMT_ord_id
+				frame = ROL_KMT_sponsor_faction^ROL_KMT_ordinance_id
+			}
+			amendment_symbol = {
+				frame = ROL_KMT_ord_amendment_faction^ROL_KMT_amendment_id
 			}
 		}
 		
