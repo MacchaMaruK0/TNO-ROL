@@ -311,6 +311,43 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 			ROL_KMT_append_amendment_to_current = yes
 		}
     }
+
+	ROL_push_to_STC_test_5 = {
+		icon = GFX_decision_debug
+		fire_only_once = no
+		is_debug = yes
+		complete_effect = {
+			set_temp_variable = { partyid = 1 }
+			set_temp_variable = {
+				add = 4
+			}
+			ROL_KMT_party_change_support = yes
+		}
+    }
+	ROL_push_to_STC_test_6 = {
+		icon = GFX_decision_debug
+		fire_only_once = no
+		is_debug = yes
+		complete_effect = {
+			set_temp_variable = { partyid = 4 }
+			set_temp_variable = {
+				add = -3
+			}
+			ROL_KMT_party_change_support = yes
+		}
+    }
+	ROL_push_to_STC_test_7 = {
+		icon = GFX_decision_debug
+		fire_only_once = no
+		is_debug = yes
+		complete_effect = {
+			set_temp_variable = { Pid_aim = 7 }
+			set_temp_variable = {
+				add = 4
+			}
+			ROL_KMT_control_specific_pid_vote = yes
+		}
+    }
 	
 	ROL_Japan_leave_south_asia = {
 	icon = GFX_decision_generic_visibility

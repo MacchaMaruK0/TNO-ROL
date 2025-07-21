@@ -124,6 +124,12 @@ ROL_KMT_display_pass_condition = { #展示用，无效果
 
 ROL_KMT_caoculate_pass_condition = {
 	clear_variable = ROL_KMT_pass_condition_sum
+	clear_variable = ROL_KMT_vote_sum^1
+	clear_variable = ROL_KMT_vote_sum^2
+	clear_variable = ROL_KMT_vote_sum^3
+	clear_variable = ROL_KMT_vote_sum^4
+	clear_variable = ROL_KMT_vote_sum^5
+	clear_variable = ROL_KMT_vote_sum^6
 	resize_array = { ROL_KMT_vote_TUMU_ticket = 0 }
 	resize_array = { ROL_KMT_vote_TAIZI_ticket = 0 }
 	resize_array = { ROL_KMT_vote_ZAIZAO_ticket = 0 }
@@ -156,6 +162,9 @@ ROL_KMT_caoculate_pass_condition = {
 			add_to_variable = {
 				ROL_KMT_vote_TUMU_ticket^seat_vote = 1
 			}
+			add_to_variable = {
+				ROL_KMT_vote_sum^1 = 1
+			}
 		}
 		else_if = {
 			limit = {
@@ -163,6 +172,9 @@ ROL_KMT_caoculate_pass_condition = {
 			}
 			add_to_variable = {
 				ROL_KMT_vote_TAIZI_ticket^seat_vote = 1
+			}
+			add_to_variable = {
+				ROL_KMT_vote_sum^2 = 1
 			}
 		}
 		else_if = {
@@ -172,6 +184,9 @@ ROL_KMT_caoculate_pass_condition = {
 			add_to_variable = {
 				ROL_KMT_vote_ZAIZAO_ticket^seat_vote = 1
 			}
+			add_to_variable = {
+				ROL_KMT_vote_sum^3 = 1
+			}
 		}
 		else_if = {
 			limit = {
@@ -179,6 +194,9 @@ ROL_KMT_caoculate_pass_condition = {
 			}
 			add_to_variable = {
 				ROL_KMT_vote_HUNANGANG_ticket^seat_vote = 1
+			}
+			add_to_variable = {
+				ROL_KMT_vote_sum^4 = 1
 			}
 		}
 		else_if = {
@@ -188,6 +206,9 @@ ROL_KMT_caoculate_pass_condition = {
 			add_to_variable = {
 				ROL_KMT_vote_YOUTHARMY_ticket^seat_vote = 1
 			}
+			add_to_variable = {
+				ROL_KMT_vote_sum^5 = 1
+			}
 		}
 		else_if = {
 			limit = {
@@ -196,9 +217,161 @@ ROL_KMT_caoculate_pass_condition = {
 			add_to_variable = {
 				ROL_KMT_vote_TPP_ticket^seat_vote = 1
 			}
+			add_to_variable = {
+				ROL_KMT_vote_sum^6 = 1
+			}
 		}
 		log = "[?ROL_KMT_pass_condition^seat]"
 	}
+}
+
+ROL_KMT_control_specific_pid_vote = { #指定角色id的支持率变更 Pid_aim 为角色id目标 add为变更数值
+	set_variable = {
+		swap_loop_count = 0 
+	}
+	set_variable = {
+		Pid_get = 0
+	}
+	# find_highest_in_array = {
+	# 	array = PSR_pid_main
+	# 	value = PSR_pid_max
+	# }
+	# add_to_variable = {PSR_pid_max = 1}
+	while_loop_effect = {
+		limit = {
+			AND = {
+				NOT = { check_variable = { Pid_aim = Pid_get } }
+				check_variable = { swap_loop_count < 500 }
+			}
+		}
+		set_variable = { Pid_get = PSR_pid_main^swap_loop_count } 
+		log = "[?Pid_get]"
+		add_to_variable = {
+			swap_loop_count = 1
+		}
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { swap_loop_count = 500 } }
+		}
+		set_variable = { swapid = swap_loop_count }
+		add_to_variable = {swapid = -1}
+		set_temp_variable = {
+			addtoaim = swapid
+		}
+		set_temp_variable = {
+			add_to_value = add
+		}
+		ROL_KMT_exchange_support_condition = yes
+	}
+}
+
+ROL_KMT_party_change_support = { #指定党派的支持率变更：随机分配，尽量保证不要越界，需要partyid，add
+	ROL_get_party_start_pos = yes
+	if = {
+		limit = {
+				check_variable = {
+					add < 0 
+				}
+			}
+			set_temp_variable = { party_end_pos = party_start_pos }
+			add_to_temp_variable = {
+				party_end_pos = ROL_party_status_array_version^partyid
+			}
+			set_temp_variable = {
+				add_to_value = -1
+			}
+			while_loop_effect = {
+				limit = {
+					AND = {
+						check_variable = {
+							ROL_KMT_vote_sum^partyid > 0
+						}
+						check_variable = { add < 0 }
+					}
+				}
+				set_variable_to_random = {
+					var = addtoaim
+					min = party_start_pos
+					max = party_end_pos
+				}
+				if = {
+					limit = {
+						check_variable = {
+							ROL_KMT_ord_vote_status_by_index^addtoaim > 0 
+						} 
+					}
+					ROL_KMT_exchange_support_condition = yes
+					subtract_from_temp_variable = { add = -1 }
+					ROL_KMT_caoculate_pass_condition = yes
+				}
+			}
+			log = "minus"
+	}
+	else_if = {
+		limit = {
+				check_variable = {
+					add > 0 
+				}
+			}
+			set_temp_variable = { party_end_pos = party_start_pos }
+			add_to_temp_variable = {
+				party_end_pos = ROL_party_status_array_version^partyid
+			}
+			set_temp_variable = {
+				add_to_value = 1
+			}
+			while_loop_effect = {
+				limit = {
+					AND = {
+						check_variable = {
+							ROL_KMT_vote_sum^partyid > 0
+						}
+						check_variable = { add > 0 }
+					}
+				}
+				set_variable_to_random = {
+					var = addtoaim
+					min = party_start_pos
+					max = party_end_pos
+				}
+				if = {
+					limit = {
+						check_variable = {
+							ROL_KMT_ord_vote_status_by_index^addtoaim < 4
+						} 
+					}
+					ROL_KMT_exchange_support_condition = yes
+					subtract_from_temp_variable = { add = 1 }
+					ROL_KMT_caoculate_pass_condition = yes
+				}
+			}
+			log = "add"
+	}
+}
+
+ROL_KMT_exchange_support_condition = {#指定席位编号的操作：加减
+	add_to_variable = {
+		ROL_KMT_ord_vote_status_by_index^addtoaim = add_to_value
+	}
+	clamp_variable = {
+		ROL_KMT_ord_vote_status_by_index^addtoaim
+		min = 0
+		max = 4
+	}
+	ROL_KMT_caoculate_pass_condition = yes
+}
+
+ROL_KMT_set_support_condition = {#指定席位编号的操作：设为
+	add_to_variable = {
+		ROL_KMT_ord_vote_status_by_index^setaim = setvalue
+	}
+	clamp_variable = {
+		ROL_KMT_ord_vote_status_by_index^setaim
+		min = 0
+		max = 4
+	}
+	ROL_KMT_caoculate_pass_condition = yes
 }
 
 ROL_KMT_write_into_pass = { #写入席位变量池
