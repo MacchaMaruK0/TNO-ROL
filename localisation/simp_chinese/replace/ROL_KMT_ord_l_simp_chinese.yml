@@ -47,12 +47,7 @@
  ROL_KMT_historic_ordinance_tt: "§F§Y[ROL_KMT_ordinance_title_dynamic]§!\n提出者：[ROL_KMT_ordinance_faction_logo_dynamic] [ROL_KMT_ordinance_faction_dynamic]\n--------------\n§Y修正案：§!\n[ROL_KMT_ordinance_amendments_dynamic]\n\n§Y£GFX_ROL_KMT_STC_texticon §i常务委员会§!中的历史：§!\n[ROL_KMT_ordinance_history_status] \n\n§Y£GFX_ROL_KMT_EP_texticon 执行度：§![ROL_KMT_ordinance_history_passper]§! \n\n§Y效果：§!\n[ROL_KMT_ordinance_effect_dynamic]§! \n\n§Y介绍：§![ROL_KMT_ordinance_intro]§! \n\n§Y记录日：§![ROL_KMT_ordinance_history_date]§!"
  ROL_KMT_voting_time: "\n\n距离条例投票还有：\n§Y[?ROL_KMT_vote_days]天。§!"
  ROL_KMT_pass_condition_tt: "这是一段占位符 \n\n [ROL_KMT_pass_condition_value_Get]"
-<<<<<<< HEAD
  ROL_KMT_pass_condition_value_tt: "在这里修改显示各党派初始执行度的文字，目前为按顺序排列土木[?ROL_KMT_origin_vote_status^1|0]\太子[?ROL_KMT_origin_vote_status^2|0]\再造[?ROL_KMT_origin_vote_status^3|0]\湖南[?ROL_KMT_origin_vote_status^4|0]\蒋系[?ROL_KMT_origin_vote_status^5|0]\三清[?ROL_KMT_origin_vote_status^6|0]"
-=======
- ROL_KMT_pass_condition_value_tt: "在这里修改显示各党派初始执行度的文字，目前为按顺序排列土木[GetVoteStatusTumu] 太子[GetVoteStatusTaizi]\再造[GetVoteStatusZaizao]\湖南[GetVoteStatusHunan]\蒋系[GetVoteStatusYarmy]\三清[GetVoteStatusTpp]"
-#  ROL_KMT_stage_2_seats: "£GNG_Sony_texticon 支持条例的§V索尼§!议员：§Y[?ROL_KMT_faction_support^3|0]/[?ROL_KMT_sony_seats|0]§!\n£GNG_Cheung_Kong_texticon 支持条例的§C长江实业§!议员：§Y[?ROL_KMT_faction_support^6|0]/[?ROL_KMT_cheungkong_seats|0]§!\n£GNG_Matsushita_texticon 支持条例的§W松下§!议员：§Y[?ROL_KMT_faction_support^4|0]/[?ROL_KMT_matsushita_seats|0]§!\n£GNG_Fujitsu_texticon 支持条例的§m富士通§!议员：§Y[?ROL_KMT_faction_support^5|0]/[?ROL_KMT_fujitsu_seats|0]§!\n£GNG_Hitachi_texticon 支持条例的§L日立§!议员：§Y[?ROL_KMT_faction_support^7|0]/[?ROL_KMT_hitachi_seats|0]§!"
->>>>>>> 221bc68ada5f8efa4b44823e66a881a2e44f2859
 #  #特别声明：本人为ROL提供的代码仅为受ROL制作组委托制作，并授权ROL作为TNO submod使用。不代表本人支持该制作组及其任何特定成员的言行举止和发表的任何观点。本人无意参与任何社区争端。——Stakataka_3030 2025/7
 #
 ROL_KMT_ordinance_history_passper_loc: "[?ROL_KMT_legco_passper^ROL_KMT_ordinance_id]%"
