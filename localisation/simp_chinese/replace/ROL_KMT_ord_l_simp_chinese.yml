@@ -44,7 +44,7 @@
  GNG_clear_show_effects_for_ordinances_tt: "\n§G点击§!政策即可查看§Y细节§!。"
  GNG_ordinance_not_enough_to_pass: "§R不足以执行政策。§!"
  GNG_ordinance_enough_to_pass: "§G足以执行政策。§!"
- ROL_KMT_historic_ordinance_tt: "§F§Y[ROL_KMT_ordinance_title_dynamic]§!\n提出者：[ROL_KMT_ordinance_faction_logo_dynamic] [ROL_KMT_ordinance_faction_dynamic]\n--------------\n§Y修正案：§!\n[ROL_KMT_ordinance_amendments_dynamic]\n\n§Y£GFX_ROL_KMT_STC_texticon §i常务委员会§!中的历史：§!\n[ROL_KMT_ordinance_history_status] \n\n§Y£GFX_ROL_KMT_Ord_texticon 执行度：§![ROL_KMT_ordinance_history_passper]§! \n\n§Y效果：§!\n[ROL_KMT_ordinance_effect_dynamic]§! \n\n§Y介绍：§![ROL_KMT_ordinance_intro]§! \n\n§Y记录日：§![ROL_KMT_ordinance_history_date]§!"
+ ROL_KMT_historic_ordinance_tt: "§F§Y[ROL_KMT_ordinance_title_dynamic]§!\n提出者：[ROL_KMT_ordinance_faction_logo_dynamic] [ROL_KMT_ordinance_faction_dynamic]\n--------------\n§Y修正案：§!\n[ROL_KMT_ordinance_amendments_dynamic]\n\n§Y£GFX_ROL_KMT_STC_texticon §i常务委员会§!中的历史：§!\n[ROL_KMT_ordinance_history_status] \n\n§Y£GFX_ROL_KMT_EP_texticon 执行度：§![ROL_KMT_ordinance_history_passper]§! \n\n§Y效果：§!\n[ROL_KMT_ordinance_effect_dynamic]§! \n\n§Y介绍：§![ROL_KMT_ordinance_intro]§! \n\n§Y记录日：§![ROL_KMT_ordinance_history_date]§!"
  ROL_KMT_voting_time: "\n\n距离条例投票还有：\n§Y[?ROL_KMT_vote_days]天。§!"
  ROL_KMT_pass_condition_tt: "这是一段占位符 \n\n [ROL_KMT_pass_condition_value_Get]"
  ROL_KMT_pass_condition_value_tt: "在这里修改显示各党派初始执行度的文字，目前为按顺序排列土木[?ROL_KMT_origin_vote_status^1|0]\太子[?ROL_KMT_origin_vote_status^2|0]\再造[?ROL_KMT_origin_vote_status^3|0]\湖南[?ROL_KMT_origin_vote_status^4|0]\蒋系[?ROL_KMT_origin_vote_status^5|0]\三清[?ROL_KMT_origin_vote_status^6|0]"
@@ -153,6 +153,10 @@ GetTPPvotelist4_tt: "[?ROL_KMT_vote_TPP_ticket^4]人投出4票\n"
  ROL_KMT_ord_10_title: "《西北行辕所辖部队编遣方案》"
  ROL_KMT_ord_10_intro: "当前敌情严峻，战区任务艰巨，行辕所辖各部虽忠勇可嘉，然经年累月，或因驻地分散、补给不一，或因训练不周、编制各异，致令军令贯彻、协同作战与整体战力之发挥，均感窒碍难行，亟需彻底整顿。遂制定本案：\n一曰：\n对行辕辖区内所有地方武装进行全面点验、甄别与核定。予以统一整编，悉数纳入行辕战斗序列，务求建制分明，指挥体系畅通无阻。\n二曰：\n对新编部队实施集中、系统之基础训练与实战化演习，务使人人皆成可用之材，部队整体素质与战斗技能显著精进。\n此次整编工作，关系西北安危与复国前途。行辕将以最大决心与魄力，督饬各级主官切实执行方案，将辖区内所有武装力量，淬砺成为意志统一、纪律严明、装备精良、训练有素之革命军。"
  ROL_KMT_ord_10_effect: "整编地方部队，纳入国军编制，统一调度。"
+ 
+ ROL_KMT_ord_11_title: "《党团合并案》"
+ ROL_KMT_ord_11_intro: "占位符\n\n久有凌云志，重返阜姆城。\n千人进军圣地，旧貌变新颜。\n到处黑衫相庆，更有青年歌声，束棒入云端。\n过了里耶卡，险处不须看。\n\n风雷动，褐旗奋，超人寰。\n四十八年过去，弹指一挥间。\n可上维罗宣言，可下圣墓实践，谈笑进军还。\n世上无难事，只要肯登攀。"
+ ROL_KMT_ord_11_effect: "诗人死了，你这荣誉的俘虏！"
 
 #修正案
  ROL_KMT_ord_1.1_intro: "测试修正案"
@@ -160,6 +164,9 @@ GetTPPvotelist4_tt: "[?ROL_KMT_vote_TPP_ticket^4]人投出4票\n"
  ROL_KMT_ord_1.1_info: "测试修正案 风味描述"
  ROL_KMT_ord_1.2_intro: "测试修正案2"
  ROL_KMT_ord_1.3_intro: "测试修正案3"
+ ROL_KMT_ord_11.1_intro: "肉修正案"
+ ROL_KMT_ord_11.1_effect: "允许蒋纬国吃肉和豆皮"
+ ROL_KMT_ord_11.1_info: "鄂木斯克专研审判步枪，接触5秒后自愿加入黑色联盟"
 
 #决议
  ROL_push_to_STC_test_1: "调试：推送测试法案"
