@@ -595,36 +595,32 @@ defined_text = {
 	
 	text = {
 		trigger = {
-			check_variable = { 
-			ROL_KMT_party_unit_num < 20
-			ROL_KMT_party_unit_num = 20 
-			}
+			OR = {
+				check_variable = {ROL_KMT_party_unit_num < 95}
+				check_variable = {ROL_KMT_party_unit_num = 95}
+			}	
 		}
 		localization_key = "ROL_KMT_party_unit_2_tt"
 	}
 	
 	text = {
 		trigger = {
-			check_variable = {
-			ROL_KMT_party_unit_num > 20
+			check_variable = {ROL_KMT_party_unit_num > 20}
 				OR = {
-					ROL_KMT_party_unit_num < 50
-					ROL_KMT_party_unit_num = 50 
+					check_variable = {ROL_KMT_party_unit_num < 50}
+					check_variable = {ROL_KMT_party_unit_num = 50}
 				}	
-			}
 		}
 		localization_key = "ROL_KMT_party_unit_3_tt"
 	}
 	
 	text = {
 		trigger = {
-			check_variable = {
-			ROL_KMT_party_unit_num > 50
-				OR = {
-					ROL_KMT_party_unit_num < 95
-					ROL_KMT_party_unit_num = 95
-				}	
-			}
+			check_variable = {ROL_KMT_party_unit_num > 50}
+			OR = {
+				check_variable = {ROL_KMT_party_unit_num < 95}
+				check_variable = {ROL_KMT_party_unit_num = 95}
+			}	
 		}
 		localization_key = "ROL_KMT_party_unit_4_tt"
 	}
@@ -644,11 +640,9 @@ defined_text = {
 	
 	text = {
 		trigger = {
-			check_variable = {
 			OR = {
-				ROL_KMT_party_unit_num < 20
-				ROL_KMT_party_unit_num = 20 
-				}
+				check_variable = {ROL_KMT_party_unit_num < 20}
+				check_variable = {ROL_KMT_party_unit_num = 20}
 			}
 		}
 		localization_key = "ROL_KMT_party_level_2_tt"
@@ -656,27 +650,23 @@ defined_text = {
 	
 	text = {
 		trigger = {
-			check_variable = {
-			ROL_KMT_party_unit_num > 20
+			check_variable = {ROL_KMT_party_unit_num > 20}
 				OR = {
-					ROL_KMT_party_unit_num < 50
-					ROL_KMT_party_unit_num = 50 
+					check_variable = {ROL_KMT_party_unit_num < 50}
+					check_variable = {ROL_KMT_party_unit_num = 50}
 				}	
-			}
-		}
+		    }   
 		localization_key = "ROL_KMT_party_level_3_tt"
 	}
 	
 	text = {
 		trigger = {
-			check_variable = {
-			ROL_KMT_party_unit_num > 50
+			check_variable = {ROL_KMT_party_unit_num > 50}
 				OR = {
-					ROL_KMT_party_unit_num < 95
-					ROL_KMT_party_unit_num = 95
+					check_variable = {ROL_KMT_party_unit_num < 95}
+					check_variable = {ROL_KMT_party_unit_num = 95}
 				}	
-			}
-		}
+		    }
 		localization_key = "ROL_KMT_party_level_4_tt"
 	}
 	text = {

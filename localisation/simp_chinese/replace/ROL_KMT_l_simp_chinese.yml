@@ -674,7 +674,7 @@
   
  ###党务GUI
  ROL_KMT_party_member_tt: "这一常委席位被[ROL_KMT_party_faction_1]§R所占据§! §F\n\n ----------- \n\n 目前该席位的拥有者是 [ROL_KMT_party_pid]§![ROL_ord_vote_status_by_seat]" 
- ROL_ord_vote_status_by_seat_tt: " \n\n该常委目前的投票情况是：[?ROL_KMT_ord_vote_status_by_index^ROL_KMT_party_faction_i]"
+ ROL_ord_vote_status_by_seat_tt: " \n\n该常委目前的预期执行度是：[?ROL_KMT_ord_vote_status_by_index^ROL_KMT_party_faction_i]"
  TUMU_seat: "£GFX_KMT_tumu_icon §w土木系§!"
  TAIZI_seat: "£GFX_ROL_KMT_taizi_texticon §l太子系§!"
  ZAIZAO_seat: "£GFX_ROL_KMT_zaizao_texticon §W再造系§!"
@@ -717,10 +717,10 @@
  ROL_KMT_party_control_info: "§M政治两字的意思，浅而言之。§!\n§j政就是众人的事，治就是管理，管理众人的事便是政治。§!——孙逸仙\n§W--------------\n\n§!£GFX_ROL_KMT_lanzhou_texticon \n\n\n§W--------------\n§!§g胡宗南将军§!在任的§q最后几年§!，£GFX_KMT_kmt_icon §B行辕§!内部的权力斗争已§R几近无法调和§!，党同伐异、山头林立§j也成常态§!。随着§g胡宗南§!的身体状况§e每况愈下§!，£GFX_KMT_kmt_icon §B行辕§!内部的大小事务也转为§i秘阁议事§!的形式，由各派遴选的§Y常任委员§!商议决定。主任选举结束后，重新审视常委和党务整顿已被§G提上日程§!。军事主导的§Y常任委员会§!的常委席位已被瓜分给不同派系，某一派的§Y常任委员§!多少能够直观地体现出这一派别的实力，也代表这一派别在行辕内部事务决断上的§V话语权§!。拉拢意识形态和利益相近的§Y其他派别委员§!可以有效的在常委中取得优势，己方阵营的§Y常委§!也有可能因其他派别的说服或收买而转投。无论如何需记住，§J没有永恒的朋友，也没有永恒的敌人，只有永恒的利益。§!\n\n通过操作§MGUI面板§!，对§Y常委§!进行控制、洗牌。或说服收买，或打压破坏，尽可能的维持主导地位，必要时可以动用§R非常手段§!，在行辕内部的事务决断上避免掣肘，某些情况下，§o出让利益§!换取政治资源也不失为一种手段。\n\n§e五帝三皇神圣事，骗了无涯过客...§!"
  ROL_KMT_party_seat_info: "§R狐裘蒙茸，一国三公，吾谁适从？§!\n——《左传·僖公五年》\n§W--------------\n§!在£GFX_ROL_KMT_STC_texticon §i西北行辕常任委员会§!中：\n\n£GFX_KMT_tpp_icon §y三青团§!在常委中占有§y[?ROL_KMT_party_TPP]§!席\n£GFX_KMT_youth_army_icon §M蒋系§!在常委中占有§M[?ROL_KMT_party_YOUTHARMY]§!席\n£GFX_KMT_tumu_icon §w土木系§!在常委中占有§w[?ROL_KMT_party_TUMU]§!席\n\n£GFX_ROL_KMT_zaizao_texticon §W再造系§!在常委中占有§W[?ROL_KMT_party_ZAIZAO]§!席\n£GFX_ROL_KMT_hunangang_texticon §L湖南系§!在常委中占有§L[?ROL_KMT_party_HUNANGANG]§!席\n£GFX_ROL_KMT_taizi_texticon §l太子系§!在常委中占有§l[?ROL_KMT_party_TAIZI]§!席\n§W--------------§!"
  ROL_KMT_party_unit_tt: "当前党部团结度为[Get_ROL_KMT_party_level]（[?ROL_KMT_party_unit_num]%），这为我们带来了如下效果：\n[Get_ROL_KMT_party_unit]"
- ROL_KMT_party_unit_1_tt: "所有派系将在政策审议时为此政策额外提供2基础执行度"
- ROL_KMT_party_unit_2_tt: "所有派系将在政策审议时为此政策减少提供2基础执行度"
- ROL_KMT_party_unit_3_tt: "随机两个派系将在政策审议时为此政策减少提供1基础执行度"
- ROL_KMT_party_unit_4_tt: "随机两个派系将在政策审议时为此政策额外提供1基础执行度"
+ ROL_KMT_party_unit_1_tt: "所有派系将在政策审议时为此政策额外提供2预期执行度"
+ ROL_KMT_party_unit_2_tt: "所有派系将在政策审议时为此政策减少提供2预期执行度"
+ ROL_KMT_party_unit_3_tt: "随机两个派系将在政策审议时为此政策减少提供1预期执行度"
+ ROL_KMT_party_unit_4_tt: "随机两个派系将在政策审议时为此政策额外提供1预期执行度"
  ROL_KMT_party_unit_5_tt: "你是怎么做到的？请向开发者反馈此问题。"
  ROL_KMT_party_level_1_tt: "§G精诚团结§!"
  ROL_KMT_party_level_2_tt: "§e四分五裂§!"
@@ -730,7 +730,7 @@
  
  ROL_KMT_party_1: "常務委員會"
  ROL_KMT_party_2: "当前主导党部的派系为："
- ROL_KMT_party_3: "当前党部团结度为：[Get_ROL_KMT_party_level]"
+ ROL_KMT_party_3: "当前党部团结度为：\n      [Get_ROL_KMT_party_level]"
  ROL_KMT_party_4: "主任委員"
  ROL_KMT_party_5: "秘書長"
  ROL_KMT_party_button_2_info: "点击切换至处理党务事务"
