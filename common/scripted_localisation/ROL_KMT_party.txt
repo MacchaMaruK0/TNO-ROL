@@ -588,7 +588,7 @@ defined_text = {
 	name = Get_ROL_KMT_party_unit
 	text = {
 		trigger = {
-			check_variable = { ROL_KMT_party_unit_num > 95 }
+			check_variable = { ROL_KMT_party_unit_num > 75 }
 		}
 		localization_key = "ROL_KMT_party_unit_1_tt"
 	}
@@ -596,8 +596,8 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				check_variable = {ROL_KMT_party_unit_num < 95}
-				check_variable = {ROL_KMT_party_unit_num = 95}
+				check_variable = {ROL_KMT_party_unit_num < 75}
+				check_variable = {ROL_KMT_party_unit_num = 75}
 			}	
 		}
 		localization_key = "ROL_KMT_party_unit_2_tt"
@@ -605,7 +605,7 @@ defined_text = {
 	
 	text = {
 		trigger = {
-			check_variable = {ROL_KMT_party_unit_num > 20}
+			check_variable = {ROL_KMT_party_unit_num > 25}
 				OR = {
 					check_variable = {ROL_KMT_party_unit_num < 50}
 					check_variable = {ROL_KMT_party_unit_num = 50}
@@ -618,8 +618,8 @@ defined_text = {
 		trigger = {
 			check_variable = {ROL_KMT_party_unit_num > 50}
 			OR = {
-				check_variable = {ROL_KMT_party_unit_num < 95}
-				check_variable = {ROL_KMT_party_unit_num = 95}
+				check_variable = {ROL_KMT_party_unit_num < 75}
+				check_variable = {ROL_KMT_party_unit_num = 75}
 			}	
 		}
 		localization_key = "ROL_KMT_party_unit_4_tt"
@@ -641,8 +641,8 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				check_variable = {ROL_KMT_party_unit_num < 20}
-				check_variable = {ROL_KMT_party_unit_num = 20}
+				check_variable = {ROL_KMT_party_unit_num < 25}
+				check_variable = {ROL_KMT_party_unit_num = 25}
 			}
 		}
 		localization_key = "ROL_KMT_party_level_2_tt"
@@ -650,7 +650,7 @@ defined_text = {
 	
 	text = {
 		trigger = {
-			check_variable = {ROL_KMT_party_unit_num > 20}
+			check_variable = {ROL_KMT_party_unit_num > 25}
 				OR = {
 					check_variable = {ROL_KMT_party_unit_num < 50}
 					check_variable = {ROL_KMT_party_unit_num = 50}
@@ -663,8 +663,8 @@ defined_text = {
 		trigger = {
 			check_variable = {ROL_KMT_party_unit_num > 50}
 				OR = {
-					check_variable = {ROL_KMT_party_unit_num < 95}
-					check_variable = {ROL_KMT_party_unit_num = 95}
+					check_variable = {ROL_KMT_party_unit_num < 75}
+					check_variable = {ROL_KMT_party_unit_num = 75}
 				}	
 		    }
 		localization_key = "ROL_KMT_party_level_4_tt"

@@ -1106,7 +1106,7 @@ ROL_KMT_party_unit = {
     if = {
         limit = {
             check_variable = {
-                ROL_KMT_party_unit_num > 95
+                ROL_KMT_party_unit_num > 75
             }
         }
         set_temp_variable = { partyid = 1 }
@@ -1143,8 +1143,8 @@ ROL_KMT_party_unit = {
     else_if = {
 		limit = {
 			OR = {
-				check_variable = { ROL_KMT_party_unit_num < 20 }
-				check_variable = { ROL_KMT_party_unit_num = 20 }
+				check_variable = { ROL_KMT_party_unit_num < 25 }
+				check_variable = { ROL_KMT_party_unit_num = 25 }
 			}
         }
         set_temp_variable = { partyid = 1 }
@@ -1182,8 +1182,8 @@ ROL_KMT_party_unit = {
 		limit = {
             check_variable = {ROL_KMT_party_unit_num > 50}
 			OR = {
-				check_variable = {ROL_KMT_party_unit_num < 95}
-				check_variable = {ROL_KMT_party_unit_num = 95}
+				check_variable = {ROL_KMT_party_unit_num < 75}
+				check_variable = {ROL_KMT_party_unit_num = 75}
 			}
         }
 			random_list = {
@@ -1235,7 +1235,7 @@ ROL_KMT_party_unit = {
 		}
 	else_if = {
 		limit = {
-            check_variable = {ROL_KMT_party_unit_num > 20}
+            check_variable = {ROL_KMT_party_unit_num > 25}
 			OR = {
 				check_variable = {ROL_KMT_party_unit_num < 50}
 				check_variable = {ROL_KMT_party_unit_num = 50}
