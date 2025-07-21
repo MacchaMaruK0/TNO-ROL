@@ -282,3 +282,5 @@ set_variable = { tno_draft_exemptions_effectiveness = 50 }
 
 set_country_flag = TNO_Country_Info_Screen_Visible
 set_country_flag = tno_playable_country
+#######这是历史法案
+ROL_KMT_initialize_legco = yes

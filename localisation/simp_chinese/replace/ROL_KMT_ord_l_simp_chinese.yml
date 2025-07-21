@@ -47,12 +47,13 @@
  ROL_KMT_historic_ordinance_tt: "§F§Y[ROL_KMT_ordinance_title_dynamic]§!\n提出者：[ROL_KMT_ordinance_faction_logo_dynamic] [ROL_KMT_ordinance_faction_dynamic]\n--------------\n§Y修正案：§!\n[ROL_KMT_ordinance_amendments_dynamic]\n\n§Y£GFX_ROL_KMT_STC_texticon §i常务委员会§!中的历史：§!\n[ROL_KMT_ordinance_history_status] \n\n§Y£GFX_ROL_KMT_EP_texticon 执行度：§![ROL_KMT_ordinance_history_passper]§! \n\n§Y效果：§!\n[ROL_KMT_ordinance_effect_dynamic]§! \n\n§Y介绍：§![ROL_KMT_ordinance_intro]§! \n\n§Y记录日：§![ROL_KMT_ordinance_history_date]§!"
  ROL_KMT_voting_time: "\n\n距离条例投票还有：\n§Y[?ROL_KMT_vote_days]天。§!"
  ROL_KMT_pass_condition_tt: "这是一段占位符 \n\n [ROL_KMT_pass_condition_value_Get]"
+<<<<<<< HEAD
  ROL_KMT_pass_condition_value_tt: "在这里修改显示各党派初始执行度的文字，目前为按顺序排列土木[?ROL_KMT_origin_vote_status^1|0]\太子[?ROL_KMT_origin_vote_status^2|0]\再造[?ROL_KMT_origin_vote_status^3|0]\湖南[?ROL_KMT_origin_vote_status^4|0]\蒋系[?ROL_KMT_origin_vote_status^5|0]\三清[?ROL_KMT_origin_vote_status^6|0]"
+=======
+ ROL_KMT_pass_condition_value_tt: "在这里修改显示各党派初始执行度的文字，目前为按顺序排列土木[GetVoteStatusTumu] 太子[GetVoteStatusTaizi]\再造[GetVoteStatusZaizao]\湖南[GetVoteStatusHunan]\蒋系[GetVoteStatusYarmy]\三清[GetVoteStatusTpp]"
 #  ROL_KMT_stage_2_seats: "£GNG_Sony_texticon 支持条例的§V索尼§!议员：§Y[?ROL_KMT_faction_support^3|0]/[?ROL_KMT_sony_seats|0]§!\n£GNG_Cheung_Kong_texticon 支持条例的§C长江实业§!议员：§Y[?ROL_KMT_faction_support^6|0]/[?ROL_KMT_cheungkong_seats|0]§!\n£GNG_Matsushita_texticon 支持条例的§W松下§!议员：§Y[?ROL_KMT_faction_support^4|0]/[?ROL_KMT_matsushita_seats|0]§!\n£GNG_Fujitsu_texticon 支持条例的§m富士通§!议员：§Y[?ROL_KMT_faction_support^5|0]/[?ROL_KMT_fujitsu_seats|0]§!\n£GNG_Hitachi_texticon 支持条例的§L日立§!议员：§Y[?ROL_KMT_faction_support^7|0]/[?ROL_KMT_hitachi_seats|0]§!"
+>>>>>>> 221bc68ada5f8efa4b44823e66a881a2e44f2859
 #  #特别声明：本人为ROL提供的代码仅为受ROL制作组委托制作，并授权ROL作为TNO submod使用。不代表本人支持该制作组及其任何特定成员的言行举止和发表的任何观点。本人无意参与任何社区争端。——Stakataka_3030 2025/7
-#  ROL_KMT_stage_1_seats: "£GNG_Sony_texticon 支持条例的§V索尼§!议员：§Y[?ROL_KMT_faction_support^3|0]/[?ROL_KMT_sony_seats|0]§!\n£GNG_Matsushita_texticon 支持条例的§W松下§!议员：§Y[?ROL_KMT_faction_support^4|0]/[?ROL_KMT_matsushita_seats|0]§!\n£GNG_Fujitsu_texticon 支持条例的§m富士通§!议员：§Y[?ROL_KMT_faction_support^5|0]/[?ROL_KMT_fujitsu_seats|0]§!\n£GNG_Yasuda_texticon 支持条例的§Y安田§!议员：§Y[?ROL_KMT_faction_support^1|0]/[?ROL_KMT_yasuda_seats|0]§!\n£GFX_GNG_Guangdong_texticon 支持条例的§S铃木§!议员：§Y[?ROL_KMT_faction_support^2|0]/[?ROL_KMT_suzuki_seats|0]§!"
-#  TNO_ROL_KMT_Info_tt: "§F在£GFX_GNG_Guangdong_texticon §S广东国这个企业之国§!中，存在着一种类似于日本和英国民主议会制的权力组织模式，但议员并非选举产生，而是由国内§Y最具权势的100名商人§!担任。这些人有着投票编制§Y法规§!的权力，并借此控制政府的大政方针和国家的未来道路。他们的行动受利益驱使，而对每一个§S广东国§!巨企总裁来说，其忠诚度和投票权既是政治资本，也是§R改变立法会天平平衡的砝码§!。\n\n行政长官将立法提案交予£GFX_ROL_KMT_STC_texticon §S立法会§!审议后，若有§Y50§!票赞成便可以付诸实践。各个商人的忠诚对象并不固定，从而会造成选票流动。§Y法规§!提案的投票期为§Y30天§!，特殊情况下可能会有变动。通常来说，法规§Y不会一成不变§!，可能会为了提升其他团体的支持度而采纳其提出的修正案。不过，所有法规至多可以拥有§Y5§!条修正案。投票结束后，法规将归档于§Y立法记录§!处，记录§S广东国立法会§!的历史。§!"
-
 #
 ROL_KMT_ordinance_history_passper_loc: "[?ROL_KMT_legco_passper^ROL_KMT_ordinance_id]%"
 ROL_KMT_ordinance_history_date_loc: "[?ROL_KMT_legco_date^ROL_KMT_ordinance_id.GetDateString]"
@@ -121,6 +122,12 @@ GetTPPvotelist1_tt: "[?ROL_KMT_vote_TPP_ticket^1]人投出1票\n"
 GetTPPvotelist2_tt: "[?ROL_KMT_vote_TPP_ticket^2]人投出2票\n"
 GetTPPvotelist3_tt: "[?ROL_KMT_vote_TPP_ticket^3]人投出3票\n"
 GetTPPvotelist4_tt: "[?ROL_KMT_vote_TPP_ticket^4]人投出4票\n"
+
+  VoteStatus0: "无"
+  VoteStatus1: "低"
+  VoteStatus2: "中"
+  VoteStatus3: "高"
+  VoteStatus4: "极高"
 #按id追加法案
  ROL_KMT_ord_0_title: "§VROL出现错误：Out of Range§!"
  ROL_KMT_ord_1_title: "《西北行辕部队整饬重振计划》"
