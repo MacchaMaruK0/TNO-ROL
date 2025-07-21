@@ -1,5 +1,5 @@
 ﻿l_simp_chinese:
-#我没注释的部分我劝你别动——stakataka
+#我没注释的部分我劝你别动——stakataka 这里面有一部分loc是没用上的，不一定能正常显示
  ROL_KMT_5_amendments: "－[ROL_KMT_ordinance_amendment_1_dynamic]\n－[ROL_KMT_ordinance_amendment_2_dynamic]\n－[ROL_KMT_ordinance_amendment_3_dynamic]\n－[ROL_KMT_ordinance_amendment_4_dynamic]\n－[ROL_KMT_ordinance_amendment_5_dynamic]"
  ROL_KMT_4_amendments: "－[ROL_KMT_ordinance_amendment_1_dynamic]\n－[ROL_KMT_ordinance_amendment_2_dynamic]\n－[ROL_KMT_ordinance_amendment_3_dynamic]\n－[ROL_KMT_ordinance_amendment_4_dynamic]"
  ROL_KMT_3_amendments: "－[ROL_KMT_ordinance_amendment_1_dynamic]\n－[ROL_KMT_ordinance_amendment_2_dynamic]\n－[ROL_KMT_ordinance_amendment_3_dynamic]"
