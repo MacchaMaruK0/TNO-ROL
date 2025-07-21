@@ -159,6 +159,19 @@ spriteTypes = {
 		effectFile = "gfx/FX/progress_radial.lua"
 		horizontal = yes
 	}
+
+	progressbartype = {
+		name = GFX_ROL_KMT_EP
+		textureFile1 = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_EP_100.png.png"
+		textureFile2 = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_EP_0.png"
+		size = {
+			x = 202
+			y = 33
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+		steps = 100
+	}
 	
 	####
 	spriteType = { #革命实践研究院

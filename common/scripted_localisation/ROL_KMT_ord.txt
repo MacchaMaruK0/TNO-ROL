@@ -57,6 +57,485 @@ defined_text = {
 }
 
 defined_text = {
+	name = ROLGetVoteCondition
+	text = {
+		localization_key = ROL_Vote_Secondary_i18n
+	}
+}
+
+defined_text = {
+	name = ROLGetTUMUVoteCondition
+	text = {
+		localization_key = ROLGetTUMUVoteCondition_tt
+	}
+}
+
+defined_text = {
+	name = GetTUMUvotelist0
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_TUMU_ticket^0 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetTUMUvotelist0_tt
+	}
+}
+
+defined_text = {
+	name = GetTUMUvotelist1
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_TUMU_ticket^1 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetTUMUvotelist1_tt
+	}
+}
+defined_text = {
+	name = GetTUMUvotelist2
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_TUMU_ticket^2 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetTUMUvotelist2_tt
+	}
+}
+defined_text = {
+	name = GetTUMUvotelist3
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_TUMU_ticket^3 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetTUMUvotelist3_tt
+	}
+}
+defined_text = {
+	name = GetTUMUvotelist4
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_TUMU_ticket^4 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetTUMUvotelist4_tt
+	}
+}
+defined_text = {
+	name = ROLGetTAIZIVoteCondition
+	text = {
+		localization_key = ROLGetTAIZIVoteCondition_tt
+	}
+}
+
+defined_text = {
+	name = GetTAIZIvotelist0
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_TAIZI_ticket^0 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetTAIZIvotelist0_tt
+	}
+}
+
+defined_text = {
+	name = GetTAIZIvotelist1
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_TAIZI_ticket^1 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetTAIZIvotelist1_tt
+	}
+}
+defined_text = {
+	name = GetTAIZIvotelist2
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_TAIZI_ticket^2 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetTAIZIvotelist2_tt
+	}
+}
+defined_text = {
+	name = GetTAIZIvotelist3
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_TAIZI_ticket^3 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetTAIZIvotelist3_tt
+	}
+}
+defined_text = {
+	name = GetTAIZIvotelist4
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_TAIZI_ticket^4 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetTAIZIvotelist4_tt
+	}
+}
+
+defined_text = {
+	name = ROLGetZAIZAOVoteCondition
+	text = {
+		localization_key = ROLGetZAIZAOVoteCondition_tt
+	}
+}
+
+defined_text = {
+	name = GetZAIZAOvotelist0
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_ZAIZAO_ticket^0 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetZAIZAOvotelist0_tt
+	}
+}
+
+defined_text = {
+	name = GetZAIZAOvotelist1
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_ZAIZAO_ticket^1 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetZAIZAOvotelist1_tt
+	}
+}
+defined_text = {
+	name = GetZAIZAOvotelist2
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_ZAIZAO_ticket^2 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetZAIZAOvotelist2_tt
+	}
+}
+defined_text = {
+	name = GetZAIZAOvotelist3
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_ZAIZAO_ticket^3 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetZAIZAOvotelist3_tt
+	}
+}
+defined_text = {
+	name = GetZAIZAOvotelist4
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_ZAIZAO_ticket^4 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetZAIZAOvotelist4_tt
+	}
+}
+
+defined_text = {
+	name = ROLGetHUNANGANGVoteCondition
+	text = {
+		localization_key = ROLGetHUNANGANGVoteCondition_tt
+	}
+}
+
+defined_text = {
+	name = GetHUNANGANGvotelist0
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_HUNANGANG_ticket^0 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetHUNANGANGvotelist0_tt
+	}
+}
+
+defined_text = {
+	name = GetHUNANGANGvotelist1
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_HUNANGANG_ticket^1 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetHUNANGANGvotelist1_tt
+	}
+}
+defined_text = {
+	name = GetHUNANGANGvotelist2
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_HUNANGANG_ticket^2 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetHUNANGANGvotelist2_tt
+	}
+}
+defined_text = {
+	name = GetHUNANGANGvotelist3
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_HUNANGANG_ticket^3 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetHUNANGANGvotelist3_tt
+	}
+}
+defined_text = {
+	name = GetHUNANGANGvotelist4
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_HUNANGANG_ticket^4 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetHUNANGANGvotelist4_tt
+	}
+}
+
+defined_text = {
+	name = ROLGetYOUTHARMYVoteCondition
+	text = {
+		localization_key = ROLGetYOUTHARMYVoteCondition_tt
+	}
+}
+
+defined_text = {
+	name = GetYOUTHARMYvotelist0
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_YOUTHARMY_ticket^0 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetYOUTHARMYvotelist0_tt
+	}
+}
+
+defined_text = {
+	name = GetYOUTHARMYvotelist1
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_YOUTHARMY_ticket^1 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetYOUTHARMYvotelist1_tt
+	}
+}
+defined_text = {
+	name = GetYOUTHARMYvotelist2
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_YOUTHARMY_ticket^2 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetYOUTHARMYvotelist2_tt
+	}
+}
+defined_text = {
+	name = GetYOUTHARMYvotelist3
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_YOUTHARMY_ticket^3 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetYOUTHARMYvotelist3_tt
+	}
+}
+defined_text = {
+	name = GetYOUTHARMYvotelist4
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_YOUTHARMY_ticket^4 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetYOUTHARMYvotelist4_tt
+	}
+}
+
+defined_text = {
+	name = ROLGetTPPVoteCondition
+	text = {
+		localization_key = ROLGetTPPVoteCondition_tt
+	}
+}
+
+defined_text = {
+	name = GetTPPvotelist0
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_TPP_ticket^0 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetTPPvotelist0_tt
+	}
+}
+
+defined_text = {
+	name = GetTPPvotelist1
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_TPP_ticket^1 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetTPPvotelist1_tt
+	}
+}
+defined_text = {
+	name = GetTPPvotelist2
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_TPP_ticket^2 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetTPPvotelist2_tt
+	}
+}
+defined_text = {
+	name = GetTPPvotelist3
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_TPP_ticket^3 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetTPPvotelist3_tt
+	}
+}
+defined_text = {
+	name = GetTPPvotelist4
+	text = {
+		trigger = {
+			check_variable = {
+				ROL_KMT_vote_TPP_ticket^4 = 0
+			}
+		}
+        localization_key = ROL_Space
+	}
+	text = {
+		localization_key = GetTPPvotelist4_tt
+	}
+}
+defined_text = {
 	name = ROL_KMT_get_legco_status
 	text = {
 		trigger = {
@@ -91,6 +570,8 @@ defined_text = {
 	name = ROL_KMT_ordinance_history_passper
 	text = { localization_key = ROL_KMT_ordinance_history_passper_loc }
 }
+
+
 defined_text = {
 	name = ROL_KMT_ordinance_history_date
 	text = { localization_key = ROL_KMT_ordinance_history_date_loc }
@@ -99,6 +580,28 @@ defined_text = {
 	name = ROL_KMT_ordinance_effect_dynamic
 	text = { localization_key = ROL_KMT_ord_[?ROL_KMT_ordinance_id]_effect }
 }
+
+defined_text = {
+	name = ROL_KMT_pass_condition_value_Get
+	text = {
+		localization_key = ROL_KMT_pass_condition_value_tt
+	}
+}
+
+defined_text = {
+	name = ROL_ord_vote_status_by_seat
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_current_ordinance_id > 0 }
+		}
+		localization_key = ROL_ord_vote_status_by_seat_tt
+	}
+	text = {
+		localization_key = ROL_Space
+	}
+}
+
+
 
 defined_text = {
 	name = ROL_KMT_ordinance_history_status

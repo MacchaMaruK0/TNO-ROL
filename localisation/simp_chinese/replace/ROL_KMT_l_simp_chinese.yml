@@ -673,7 +673,8 @@
  ROL_KMT_aftermath: "£GFX_KMT_lanzhou_crisis §R兰州危机§!善后国策树"
   
  ###党务GUI
- ROL_KMT_party_member_tt: "这一常委席位被[ROL_KMT_party_faction_1]§R所占据§! §F\n\n ----------- \n\n 目前该席位的拥有者是 [ROL_KMT_party_pid]§! \n\n 该常委目前的投票情况是：[?ROL_KMT_ord_vote_status_by_index^ROL_KMT_party_faction_i]" #这个scripted_loc对应一张图和名字
+ ROL_KMT_party_member_tt: "这一常委席位被[ROL_KMT_party_faction_1]§R所占据§! §F\n\n ----------- \n\n 目前该席位的拥有者是 [ROL_KMT_party_pid]§![ROL_ord_vote_status_by_seat]" 
+ ROL_ord_vote_status_by_seat_tt: " \n\n该常委目前的投票情况是：[?ROL_KMT_ord_vote_status_by_index^ROL_KMT_party_faction_i]"
  TUMU_seat: "£GFX_KMT_tumu_icon §w土木系§!"
  TAIZI_seat: "£GFX_ROL_KMT_taizi_texticon §l太子系§!"
  ZAIZAO_seat: "£GFX_ROL_KMT_zaizao_texticon §W再造系§!"

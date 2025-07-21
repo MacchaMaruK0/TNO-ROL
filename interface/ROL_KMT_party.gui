@@ -66,6 +66,13 @@ guiTypes = {
 			pdx_tooltip = ROL_KMT_party_policy_3_button_tt
 		}
 
+		iconType = {
+            name = "ROL_KMT_EP_bar"
+            position = { x = 920 y = 533 }
+            spriteType = "GFX_ROL_KMT_EP"
+			pdx_tooltip = ROL_KMT_bar_info_tt
+		}
+
 		######研究院双条
 		iconType = { 
             name = "ROL_KMT_youth_green_bar" 
@@ -353,6 +360,7 @@ guiTypes = {
             spriteType = "GFX_ROL_KMT_party_policy_frame_2_icon"
 			alwaystransparent = yes
         }
+
 		buttonType = { 
 			name = "ROL_KMT_party_policy_frame_3_icon" 
 			position = { x = 629 y = 577 } 

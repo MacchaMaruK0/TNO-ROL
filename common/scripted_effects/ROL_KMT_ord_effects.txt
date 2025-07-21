@@ -119,43 +119,170 @@ ROL_KMT_display_pass_condition = { #展示用，无效果
 	custom_effect_tooltip = ROL_KMT_pass_condition_tt
 }
 
+
+
+ROL_KMT_caoculate_pass_condition = {
+	clear_variable = ROL_KMT_pass_condition_sum
+	resize_array = { ROL_KMT_vote_TUMU_ticket = 0 }
+	resize_array = { ROL_KMT_vote_TAIZI_ticket = 0 }
+	resize_array = { ROL_KMT_vote_ZAIZAO_ticket = 0 }
+	resize_array = { ROL_KMT_vote_HUNANGANG_ticket = 0 }
+	resize_array = { ROL_KMT_vote_YOUTHARMY_ticket = 0 }
+	resize_array = { ROL_KMT_vote_TPP_ticket = 0 }
+	for_loop_effect = {
+		start = 0
+		value = clear
+		end = 5
+		add = 1
+		set_variable = { ROL_KMT_vote_TUMU_ticket^clear = 0 }
+		set_variable = { ROL_KMT_vote_TAIZI_ticket^clear = 0 }
+		set_variable = { ROL_KMT_vote_ZAIZAO_ticket^clear = 0 }
+		set_variable = { ROL_KMT_vote_HUNANGANG_ticket^clear = 0 }
+		set_variable = { ROL_KMT_vote_YOUTHARMY_ticket^clear = 0 }
+		set_variable = { ROL_KMT_vote_TPP_ticket^clear = 0 }
+	}
+	for_each_loop = {
+		array = ROL_KMT_ord_vote_status_by_index
+		value = seat_vote
+		index = seat_index
+		add_to_variable = {
+			ROL_KMT_pass_condition_sum = seat_vote
+		}
+		if = {
+			limit = {
+				check_variable = { PSR_party_main^seat_index = 1 }
+			}
+			add_to_variable = {
+				ROL_KMT_vote_TUMU_ticket^seat_vote = 1
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = { PSR_party_main^seat_index = 2 }
+			}
+			add_to_variable = {
+				ROL_KMT_vote_TAIZI_ticket^seat_vote = 1
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = { PSR_party_main^seat_index = 3 }
+			}
+			add_to_variable = {
+				ROL_KMT_vote_ZAIZAO_ticket^seat_vote = 1
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = { PSR_party_main^seat_index = 4 }
+			}
+			add_to_variable = {
+				ROL_KMT_vote_HUNANGANG_ticket^seat_vote = 1
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = { PSR_party_main^seat_index = 5 }
+			}
+			add_to_variable = {
+				ROL_KMT_vote_YOUTHARMY_ticket^seat_vote = 1
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = { PSR_party_main^seat_index = 6 }
+			}
+			add_to_variable = {
+				ROL_KMT_vote_TPP_ticket^seat_vote = 1
+			}
+		}
+		log = "[?ROL_KMT_pass_condition^seat]"
+	}
+}
+
 ROL_KMT_write_into_pass = { #写入席位变量池
 	clear_array = ROL_KMT_ord_vote_status_by_index
-	for_each_loop = {
-		array = ROL_party_status_array_version
-		value = party_seat_num
-		index = party_index
-		set_variable = {
-			current_party_seat_set = 0
+	log = "write_into_pass execute"
+	# write tumu
+	for_loop_effect = {
+		end = ROL_party_status_array_version^1
+		value = seat
+		start = 1
+		add = 1
+		compare = less_than_or_equals
+		add_to_array = {
+			ROL_KMT_ord_vote_status_by_index = ROL_KMT_origin_vote_status^0
 		}
-		for_loop_effect = {
-			end = 25
-			value = seat
-			break = out_of_range
-			add = 1
-			add_to_variable = {
-				current_party_seat_set = 1
-			}
-			add_to_array = {
-				ROL_KMT_ord_vote_status_by_index = ROL_KMT_origin_vote_status^party_index
-			}
-			if = {
-				trigger = {
-					check_variable = {
-						current_party_seat_set = party_seat_num
-					}
-				}
-				set_temp_variable = {
-					out_of_range = 1
-				}
-			}
-		}
+		log = "[?ROL_KMT_origin_vote_status^0]"
 	}
+	#taizi
+	for_loop_effect = {
+		end = ROL_party_status_array_version^2
+		value = seat
+		start = 1
+		add = 1
+		compare = less_than_or_equals
+		add_to_array = {
+			ROL_KMT_ord_vote_status_by_index = ROL_KMT_origin_vote_status^1
+		}
+		log = "[?ROL_KMT_origin_vote_status^1]"
+	}
+	#zaizao
+	for_loop_effect = {
+		end = ROL_party_status_array_version^3
+		value = seat
+		start = 1
+		add = 1
+		compare = less_than_or_equals
+		add_to_array = {
+			ROL_KMT_ord_vote_status_by_index = ROL_KMT_origin_vote_status^2
+		}
+		log = "[?ROL_KMT_origin_vote_status^2]"
+	}
+	#hunangang
+	for_loop_effect = {
+		end = ROL_party_status_array_version^4
+		value = seat
+		start = 1
+		add = 1
+		compare = less_than_or_equals
+		add_to_array = {
+			ROL_KMT_ord_vote_status_by_index = ROL_KMT_origin_vote_status^3
+		}
+		log = "[?ROL_KMT_origin_vote_status^3]"
+	}
+	#jiang
+	for_loop_effect = {
+		end = ROL_party_status_array_version^5
+		value = seat
+		start = 1
+		add = 1
+		compare = less_than_or_equals
+		add_to_array = {
+			ROL_KMT_ord_vote_status_by_index = ROL_KMT_origin_vote_status^4
+		}
+		log = "[?ROL_KMT_origin_vote_status^4]"
+	}
+	#sanqing
+	for_loop_effect = {
+		end = ROL_party_status_array_version^6
+		value = seat
+		start = 1
+		add = 1
+		compare = less_than_or_equals
+		add_to_array = {
+			ROL_KMT_ord_vote_status_by_index = ROL_KMT_origin_vote_status^5
+		}
+		log = "[?ROL_KMT_origin_vote_status^5]"
+	}
+	ROL_KMT_caoculate_pass_condition = yes
+	ROL_KMT_display_pass_condition = yes
 }
 
 ROL_KMT_throw_ord_into_STC = { #开始讨论
 	set_variable = { ROL_KMT_current_ordinance_id = lid }
 	set_variable = {ROL_KMT_legco_status_v = 1}
+	ROL_KMT_write_into_pass = yes
 	custom_effect_tooltip = ROL_KMT_push_into_STC
 	ROL_KMT_refresh_policy_display = yes
 }
@@ -176,6 +303,7 @@ ROL_KMT_start_deliberation_on_instant_without_throw = { #直接开始审议
 	hidden_effect = {
 		country_event = ROL_dummy.1 
 	}
+	ROL_KMT_write_into_pass = yes
 	set_variable = {ROL_KMT_legco_status_v = 2}
 	custom_effect_tooltip = ROL_KMT_bill_introduce_start_tooltip
 	ROL_KMT_refresh_policy_display = yes
@@ -273,14 +401,50 @@ ROL_KMT_amendment_display = {
 
 ROL_KMT_ord_auto_pass = {
 	#强制通过法令
+	ROL_KMT_policy_effect_real = yes
+	set_variable = { ROL_KMT_holding_value = ROL_KMT_current_ordinance_id}
+	set_variable = { ROL_KMT_legco_status_v = 0 } 
+	set_variable = { ROL_KMT_vote_days = 0 }
+	set_variable = { ROL_KMT_current_ordinance_pass_con = 1 }
+	set_variable = { ROL_KMT_current_ordinance_passper = ROL_KMT_pass_condition_sum }
+	ROL_KMT_write_into_history = yes
+	set_variable = { ROL_KMT_current_ordinance_id = 0 }
+	set_variable = { ROL_KMT_current_ordinance_pass_con = 0 }
+	set_variable = { ROL_KMT_current_ordinance_passper = 0 }
+	ROL_KMT_write_into_pass = yes
+	ROL_KMT_refresh_policy_display = yes
 }
 
 ROL_KMT_ord_auto_stall = {
 	#强制搁置法令
+	ROL_KMT_policy_effect_real = yes
+	set_variable = { ROL_KMT_holding_value = ROL_KMT_current_ordinance_id}
+	set_variable = { ROL_KMT_legco_status_v = 0 } 
+	set_variable = { ROL_KMT_vote_days = 0 }
+	set_variable = { ROL_KMT_current_ordinance_pass_con = -1 }
+	set_variable = { ROL_KMT_current_ordinance_passper = ROL_KMT_pass_condition_sum }
+	ROL_KMT_write_into_history = yes
+	set_variable = { ROL_KMT_current_ordinance_id = 0 }
+	set_variable = { ROL_KMT_current_ordinance_pass_con = 0 }
+	set_variable = { ROL_KMT_current_ordinance_passper = 0 }
+	ROL_KMT_write_into_pass = yes
+	ROL_KMT_refresh_policy_display = yes
 }
 
 ROL_KMT_ord_auto_fail = {
 	#强制否决法令
+	ROL_KMT_policy_effect_real = yes
+	set_variable = { ROL_KMT_holding_value = ROL_KMT_current_ordinance_id}
+	set_variable = { ROL_KMT_legco_status_v = 0 } 
+	set_variable = { ROL_KMT_vote_days = 0 }
+	set_variable = { ROL_KMT_current_ordinance_pass_con = 0 }
+	set_variable = { ROL_KMT_current_ordinance_passper = ROL_KMT_pass_condition_sum }
+	ROL_KMT_write_into_history = yes
+	set_variable = { ROL_KMT_current_ordinance_id = 0 }
+	set_variable = { ROL_KMT_current_ordinance_pass_con = 0 }
+	set_variable = { ROL_KMT_current_ordinance_passper = 0 }
+	ROL_KMT_write_into_pass = yes
+	ROL_KMT_refresh_policy_display = yes
 }
 
 ROL_KMT_end_deliberation = { #结算 自动调用
@@ -288,14 +452,28 @@ ROL_KMT_end_deliberation = { #结算 自动调用
 	set_variable = { ROL_KMT_holding_value = ROL_KMT_current_ordinance_id}
 	set_variable = { ROL_KMT_legco_status_v = 0 } 
 	set_variable = { ROL_KMT_vote_days = 0 }
-	set_variable = { ROL_KMT_current_ordinance_pass_con = 1 }#占位符，目前法案固定通过
-	set_variable = { ROL_KMT_current_ordinance_passper = 75 }#占位符，目前法案固定通过
+	ROL_KMT_display_check_pass = yes
+	set_variable = { ROL_KMT_current_ordinance_passper = ROL_KMT_pass_condition_sum }
 	ROL_KMT_write_into_history = yes
 	set_variable = { ROL_KMT_current_ordinance_id = 0 }
-	set_variable = { ROL_KMT_current_ordinance_pass_con = 0 }#占位符，目前法案固定通过
-	set_variable = { ROL_KMT_current_ordinance_passper = 0 }#占位符，目前法案固定通过
+	set_variable = { ROL_KMT_current_ordinance_pass_con = 0 }
+	set_variable = { ROL_KMT_current_ordinance_passper = 0 }
+	ROL_KMT_write_into_pass = yes
 	ROL_KMT_refresh_policy_display = yes
 }
+
+ROL_KMT_display_check_pass = {
+	if = {
+		limit = {	
+			check_variable = { ROL_KMT_pass_condition_sum > 49 }
+		}
+		set_variable = { ROL_KMT_current_ordinance_pass_con = 1 }
+	}
+	else = {
+		set_variable = { ROL_KMT_current_ordinance_pass_con = -1 }
+	}
+}
+
 
 ROL_KMT_write_into_history = { #当前法案存入历史，自动调用不用单独写
 	add_to_array = { ROL_KMT_ord_history = ROL_KMT_current_ordinance_id }
@@ -310,8 +488,9 @@ ROL_KMT_clear_STC = { #清空所有临时信息，进结局时用
 	set_variable = { ROL_KMT_legco_status_v = 0 }
 	set_variable = { ROL_KMT_holding_value = 0 }
 	set_variable = { ROL_KMT_vote_days = 0 }
-	set_variable = { ROL_KMT_current_ordinance_pass_con = 0 }#占位符，目前法案固定通过
-	set_variable = { ROL_KMT_current_ordinance_passper = 0 }#占位符，目前法案固定通过
+	set_variable = { ROL_KMT_current_ordinance_pass_con = 0 }
+	set_variable = { ROL_KMT_current_ordinance_passper = 0 }
+	ROL_KMT_write_into_pass = yes
 	ROL_KMT_refresh_policy_display = yes
 }
 
@@ -377,8 +556,8 @@ ROL_KMT_policy_effect_real = { #实际执行的效果
 	if = {
 		limit = {
 			check_variable = { ROL_KMT_current_ordinance_id < 1 }
-			custom_effect_tooltip = ROL_KMT_ordinance_effects_tt
 		}
+		custom_effect_tooltip = ROL_KMT_ordinance_effects_tt
 	}
 	if = {
 		limit = {

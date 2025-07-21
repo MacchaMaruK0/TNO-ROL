@@ -240,6 +240,24 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 		is_debug = yes
 		complete_effect = {
 			set_temp_variable = { lid = 1 }
+			add_to_temp_array = { #必须按顺序来，顺序就是游戏内排列席位的顺序
+				ROL_KMT_origin_vote_status = 2
+			}
+			add_to_temp_array = { #必须按顺序来，顺序就是游戏内排列席位的顺序
+				ROL_KMT_origin_vote_status = 1
+			}
+			add_to_temp_array = { #必须按顺序来，顺序就是游戏内排列席位的顺序
+				ROL_KMT_origin_vote_status = 0
+			}
+			add_to_temp_array = { #必须按顺序来，顺序就是游戏内排列席位的顺序
+				ROL_KMT_origin_vote_status = 3
+			}
+			add_to_temp_array = { #必须按顺序来，顺序就是游戏内排列席位的顺序
+				ROL_KMT_origin_vote_status = 4
+			}
+			add_to_temp_array = { #必须按顺序来，顺序就是游戏内排列席位的顺序
+				ROL_KMT_origin_vote_status = 1
+			}
 			ROL_KMT_throw_ord_into_STC = yes
 		}
     }
@@ -262,6 +280,24 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 		complete_effect = {
 			set_temp_variable = { lid = 1 }
 			set_temp_variable = { time = 10 }
+			add_to_temp_array = { #必须按顺序来，顺序就是游戏内排列席位的顺序
+				ROL_KMT_origin_vote_status = 2
+			}
+			add_to_temp_array = { #必须按顺序来，顺序就是游戏内排列席位的顺序
+				ROL_KMT_origin_vote_status = 1
+			}
+			add_to_temp_array = { #必须按顺序来，顺序就是游戏内排列席位的顺序
+				ROL_KMT_origin_vote_status = 2
+			}
+			add_to_temp_array = { #必须按顺序来，顺序就是游戏内排列席位的顺序
+				ROL_KMT_origin_vote_status = 3
+			}
+			add_to_temp_array = { #必须按顺序来，顺序就是游戏内排列席位的顺序
+				ROL_KMT_origin_vote_status = 4
+			}
+			add_to_temp_array = { #必须按顺序来，顺序就是游戏内排列席位的顺序
+				ROL_KMT_origin_vote_status = 1
+			}
 			ROL_KMT_start_deliberation_on_instant_without_throw = yes
 		}
     }

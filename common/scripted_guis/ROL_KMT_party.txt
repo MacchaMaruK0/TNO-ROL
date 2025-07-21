@@ -76,6 +76,10 @@ scripted_gui = {
 				# y = KMT_party_y^ROL_KMT_party_faction_i
 				frame = PSR_party_main^ROL_KMT_party_faction_i
 			}
+
+			ROL_KMT_EP_bar = {
+				frame = ROL_KMT_pass_condition_sum
+			}
 			####
 			ROL_KMT_youth_green_bar = {
 				frame = ROL_KMT_party_youth_green_num
@@ -354,6 +358,12 @@ scripted_gui = {
 			}
 
 			ROL_KMT_party_policy_3_button_visible = {
+				has_country_flag = ROL_KMT_party_vote_visible
+				check_variable = { ROL_KMT_legco_status_v > 0 }
+				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
+				NOT = { has_country_flag = ROL_KMT_party_policy_visible }
+			}
+			ROL_KMT_EP_bar_visible = {
 				has_country_flag = ROL_KMT_party_vote_visible
 				check_variable = { ROL_KMT_legco_status_v > 0 }
 				NOT = { has_country_flag = ROL_KMT_party_suppor_visible }
