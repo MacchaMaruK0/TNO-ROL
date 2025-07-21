@@ -388,9 +388,9 @@ ROL_KMT_write_into_pass = { #写入席位变量池
 		add = 1
 		compare = less_than_or_equals
 		add_to_array = {
-			ROL_KMT_ord_vote_status_by_index = ROL_KMT_origin_vote_status^0
+			ROL_KMT_ord_vote_status_by_index = VoteValueTumu
 		}
-		log = "[?ROL_KMT_origin_vote_status^0]"
+		log = "[?VoteValueTumu]"
 	}
 	#taizi
 	for_loop_effect = {
@@ -400,9 +400,9 @@ ROL_KMT_write_into_pass = { #写入席位变量池
 		add = 1
 		compare = less_than_or_equals
 		add_to_array = {
-			ROL_KMT_ord_vote_status_by_index = ROL_KMT_origin_vote_status^1
+			ROL_KMT_ord_vote_status_by_index = VoteValueTaizi
 		}
-		log = "[?ROL_KMT_origin_vote_status^1]"
+		log = "[?VoteValueTaizi]"
 	}
 	#zaizao
 	for_loop_effect = {
@@ -412,9 +412,9 @@ ROL_KMT_write_into_pass = { #写入席位变量池
 		add = 1
 		compare = less_than_or_equals
 		add_to_array = {
-			ROL_KMT_ord_vote_status_by_index = ROL_KMT_origin_vote_status^2
+			ROL_KMT_ord_vote_status_by_index = VoteValueZaizao
 		}
-		log = "[?ROL_KMT_origin_vote_status^2]"
+		log = "[?VoteValueZaizao]"
 	}
 	#hunangang
 	for_loop_effect = {
@@ -424,9 +424,9 @@ ROL_KMT_write_into_pass = { #写入席位变量池
 		add = 1
 		compare = less_than_or_equals
 		add_to_array = {
-			ROL_KMT_ord_vote_status_by_index = ROL_KMT_origin_vote_status^3
+			ROL_KMT_ord_vote_status_by_index = VoteValueHunan
 		}
-		log = "[?ROL_KMT_origin_vote_status^3]"
+		log = "[?VoteValueHunan]"
 	}
 	#jiang
 	for_loop_effect = {
@@ -436,9 +436,9 @@ ROL_KMT_write_into_pass = { #写入席位变量池
 		add = 1
 		compare = less_than_or_equals
 		add_to_array = {
-			ROL_KMT_ord_vote_status_by_index = ROL_KMT_origin_vote_status^4
+			ROL_KMT_ord_vote_status_by_index = VoteValueYouthArmy
 		}
-		log = "[?ROL_KMT_origin_vote_status^4]"
+		log = "[?VoteValueYouthArmy]"
 	}
 	#sanqing
 	for_loop_effect = {
@@ -448,11 +448,12 @@ ROL_KMT_write_into_pass = { #写入席位变量池
 		add = 1
 		compare = less_than_or_equals
 		add_to_array = {
-			ROL_KMT_ord_vote_status_by_index = ROL_KMT_origin_vote_status^5
+			ROL_KMT_ord_vote_status_by_index = VoteValueTpp
 		}
-		log = "[?ROL_KMT_origin_vote_status^5]"
+		log = "[VoteValueTpp]"
 	}
 	ROL_KMT_caoculate_pass_condition = yes
+	#custom_effect_tooltip = ROL_KMT_pass_condition_tt
 	ROL_KMT_display_pass_condition = yes
 }
 
@@ -786,18 +787,25 @@ ROL_KMT_refresh_policy_display = {
 	clear_array = ROL_KMT_ord_amendment_d
 	if = {
 		limit = {
-			has_country_flag = ROL_KMT_party_policy_visible
+			NOT = {
+				has_country_flag = ROL_KMT_party_suppor_visible
+			}
 		}
-		for_each_loop = {
-			array = ROL_KMT_ord_history
-			value = v
-			add_to_array = { ROL_KMT_ord_history_d = v }
+		if = {
+			limit = {
+				has_country_flag = ROL_KMT_party_policy_visible
+			}
+			for_each_loop = {
+				array = ROL_KMT_ord_history
+				value = v
+				add_to_array = { ROL_KMT_ord_history_d = v }
+			}
 		}
-	}
-	if = {
-		limit = {
-			has_country_flag = ROL_KMT_party_vote_visible
+		if = {
+			limit = {
+				has_country_flag = ROL_KMT_party_vote_visible
+			}
+			ROL_KMT_amendment_display = yes
 		}
-		ROL_KMT_amendment_display = yes
 	}
 }

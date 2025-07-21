@@ -584,6 +584,11 @@ defined_text = {
 defined_text = {
 	name = ROL_KMT_pass_condition_value_Get
 	text = {
+		# trigger = {
+		# 	# set_temp_variable = {
+		# 	# 	VoteValueTumu = ROL_KMT_origin_vote_status^1
+		# 	# }
+		# }
 		localization_key = ROL_KMT_pass_condition_value_tt
 	}
 }
@@ -900,5 +905,265 @@ defined_text = {
 			set_temp_variable = { ROL_KMT_amendment_id = ROL_KMT_amendments_5^ROL_KMT_ordinance_id }
 		}
 		localization_key = "[ROL_KMT_current_amendment]"
+	}
+}
+
+defined_text = {
+	name = GetVoteStatusTumu
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueTumu = 0
+			}
+		}
+		localization_key = VoteStatus0
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueTumu = 1
+			}
+		}
+		localization_key = VoteStatus1
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueTumu = 2
+			}
+		}
+		localization_key = VoteStatus2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueTumu = 3
+			}
+		}
+		localization_key = VoteStatus3
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueTumu = 4
+			}
+		}
+		localization_key = VoteStatus4
+	}
+}
+
+defined_text = {
+	name = GetVoteStatusTaizi
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueTaizi = 0
+			}
+		}
+		localization_key = VoteStatus0
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueTaizi = 1
+			}
+		}
+		localization_key = VoteStatus1
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueTaizi = 2
+			}
+		}
+		localization_key = VoteStatus2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueTaizi = 3
+			}
+		}
+		localization_key = VoteStatus3
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueTaizi = 4
+			}
+		}
+		localization_key = VoteStatus4
+	}
+}
+defined_text = {
+	name = GetVoteStatusZaizao
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueZaizao = 0
+			}
+		}
+		localization_key = VoteStatus0
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueZaizao = 1
+			}
+		}
+		localization_key = VoteStatus1
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueZaizao = 2
+			}
+		}
+		localization_key = VoteStatus2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueZaizao = 3
+			}
+		}
+		localization_key = VoteStatus3
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueZaizao = 4
+			}
+		}
+		localization_key = VoteStatus4
+	}
+}
+defined_text = {
+	name = GetVoteStatusHunan
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueHunan = 0
+			}
+		}
+		localization_key = VoteStatus0
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueHunan = 1
+			}
+		}
+		localization_key = VoteStatus1
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueHunan = 2
+			}
+		}
+		localization_key = VoteStatus2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueHunan = 3
+			}
+		}
+		localization_key = VoteStatus3
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueHunan = 4
+			}
+		}
+		localization_key = VoteStatus4
+	}
+}
+defined_text = {
+	name = GetVoteStatusYarmy
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueYouthArmy = 0
+			}
+		}
+		localization_key = VoteStatus0
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueYouthArmy = 1
+			}
+		}
+		localization_key = VoteStatus1
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueYouthArmy = 2
+			}
+		}
+		localization_key = VoteStatus2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueYouthArmy = 3
+			}
+		}
+		localization_key = VoteStatus3
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueYouthArmy = 4
+			}
+		}
+		localization_key = VoteStatus4
+	}
+}
+defined_text = {
+	name = GetVoteStatusTpp
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueTpp = 0
+			}
+		}
+		localization_key = VoteStatus0
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueTpp = 1
+			}
+		}
+		localization_key = VoteStatus1
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueTpp = 2
+			}
+		}
+		localization_key = VoteStatus2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueTpp = 3
+			}
+		}
+		localization_key = VoteStatus3
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				VoteValueTpp = 4
+			}
+		}
+		localization_key = VoteStatus4
 	}
 }

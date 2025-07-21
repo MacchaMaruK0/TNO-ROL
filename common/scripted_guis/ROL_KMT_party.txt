@@ -170,10 +170,12 @@ scripted_gui = {
 			
 			ROL_KMT_party_button_2_button_click = {
 				set_country_flag = ROL_KMT_party_suppor_visible
+				ROL_KMT_refresh_policy_display = yes
 			}
 			
 			ROL_KMT_party_button_1_button_click = {
 				clr_country_flag = ROL_KMT_party_suppor_visible
+				ROL_KMT_refresh_policy_display = yes
 			}
 			
 			ROL_KMT_party_policy_1_button_click = {
@@ -208,6 +210,7 @@ scripted_gui = {
 						add_to_array = { ROL_KMT_ord_history_d = v }
 					}
 				}
+				ROL_KMT_refresh_policy_display = yes
 			}
 
 			ROL_KMT_party_policy_2_button_click = {
@@ -233,6 +236,7 @@ scripted_gui = {
 					ROL_KMT_amendment_display = yes
 					clear_array = ROL_KMT_ord_history_d
 				}
+				ROL_KMT_refresh_policy_display = yes
 			}
 
 			ROL_KMT_party_policy_3_button_click = {

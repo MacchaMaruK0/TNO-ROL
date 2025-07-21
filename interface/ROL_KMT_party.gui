@@ -68,7 +68,7 @@ guiTypes = {
 
 		iconType = {
             name = "ROL_KMT_EP_bar"
-            position = { x = 920 y = 533 }
+            position = { x = 1020 y = 533 }
             spriteType = "GFX_ROL_KMT_EP"
 			pdx_tooltip = ROL_KMT_bar_info_tt
 		}
