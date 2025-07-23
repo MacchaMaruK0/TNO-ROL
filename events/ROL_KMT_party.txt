@@ -85,3 +85,87 @@ country_event = {
 		ROL_KMT_initialize_legco = yes
 	}
 }
+
+country_event = {
+	id = ROL_KMT_party.20
+	title = ROL_KMT_party.20.t
+	desc = ROL_KMT_party.20.d 
+
+
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ROL_KMT_party.20"
+		clr_country_flag = ROL_KMT_unit_block_4
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+	hidden = yes
+	option = { 
+		name = ROL_KMT_party.20.a
+		
+	}
+}
+
+country_event = {
+	id = ROL_KMT_party.21
+	title = ROL_KMT_party.21.t
+	desc = ROL_KMT_party.21.d 
+
+
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ROL_KMT_party.21"
+		clr_country_flag = ROL_KMT_unit_block_3
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+	hidden = yes
+	option = { 
+		name = ROL_KMT_party.21.a
+		
+	}
+}
+
+country_event = {
+	id = ROL_KMT_party.22
+	title = ROL_KMT_party.22.t
+	desc = ROL_KMT_party.22.d 
+
+
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ROL_KMT_party.22"
+		clr_country_flag = ROL_KMT_unit_block_2
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+	hidden = yes
+	option = { 
+		name = ROL_KMT_party.22.a
+		
+	}
+}
+
+country_event = {
+	id = ROL_KMT_party.23
+	title = ROL_KMT_party.23.t
+	desc = ROL_KMT_party.23.d 
+
+
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ROL_KMT_party.23"
+		clr_country_flag = ROL_KMT_unit_block_1
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+	hidden = yes
+	option = { 
+		name = ROL_KMT_party.23.a
+		
+	}
+}

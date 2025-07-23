@@ -143,6 +143,22 @@ on_actions = { #
 				set_variable = {
 					ROL_KMT_party_unit_num = 65
 				}
+				
+				set_variable = {
+					ROL_KMT_unit_act_1_num = 0
+				}
+				
+				set_variable = {
+					ROL_KMT_unit_act_2_num = 0
+				}
+				
+				set_variable = {
+					ROL_KMT_unit_act_3_num = 0
+				}
+				
+				set_variable = {
+					ROL_KMT_unit_act_4_num = 0
+				}
 				#####
 				set_variable = {
 					ROL_KMT_party_youth_green_num = 70

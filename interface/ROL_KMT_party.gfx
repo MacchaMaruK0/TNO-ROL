@@ -234,6 +234,59 @@ spriteTypes = {
 		name = GFX_ROL_KMT_party_policy_frame_2_icon
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_policy_frame_2_icon.png"
 	}
+	
+	####
+	
+	spriteType = { #unit-leader-frame-1
+		name = GFX_ROL_KMT_unit_leader_frame_1_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_leader_frame_1_icon.png"
+	}
+	
+	spriteType = { #unit-leader-1
+		name = GFX_ROL_KMT_unit_leader_1_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_leader_1_icon.png"
+	}
+	
+	spriteType = { #unit-frame-1
+		name = GFX_ROL_KMT_unit_frame_1_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_frame_1_icon.png"
+	}
+	
+	spriteType = { #unit-frame-2
+		name = GFX_ROL_KMT_unit_frame_2_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_frame_2_icon.png"
+	}
+	
+	spriteType = { #unit-frame-3
+		name = GFX_ROL_KMT_unit_frame_3_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_frame_3_icon.png"
+	}
+	
+	spriteType = { #unit-frame-4
+		name = GFX_ROL_KMT_unit_frame_4_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_frame_4_icon.png"
+	}
+	
+	spriteType = { #unit-frame-full-1
+		name = GFX_ROL_KMT_unit_frame_full_1_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_frame_full_1_icon.png"
+	}
+	
+	spriteType = { #unit-frame-full-2
+		name = GFX_ROL_KMT_unit_frame_full_2_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_frame_full_2_icon.png"
+	}
+	
+	spriteType = { #unit-frame-full-3
+		name = GFX_ROL_KMT_unit_frame_full_3_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_frame_full_3_icon.png"
+	}
+	
+	spriteType = { #unit-frame-full-4
+		name = GFX_ROL_KMT_unit_frame_full_4_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_frame_full_4_icon.png"
+	}
+	
 	####
 	spriteType = { #研究院-李焕
 		name = GFX_ROL_KMT_Lihuan_texticon
@@ -284,6 +337,12 @@ spriteTypes = {
 	spriteType = { #法案ticon
 		name = GFX_ROL_KMT_Ord_texticon
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_ORD.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #休会ticon
+		name = GFX_ROL_KMT_STC_break_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_STC_break.png"
 		legacy_lazy_load = no
 	}
 }	

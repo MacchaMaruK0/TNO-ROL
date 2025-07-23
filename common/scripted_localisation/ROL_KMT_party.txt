@@ -596,8 +596,8 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				check_variable = {ROL_KMT_party_unit_num < 75}
-				check_variable = {ROL_KMT_party_unit_num = 75}
+				check_variable = {ROL_KMT_party_unit_num < 25}
+				check_variable = {ROL_KMT_party_unit_num = 25}
 			}	
 		}
 		localization_key = "ROL_KMT_party_unit_2_tt"
@@ -673,3 +673,10 @@ defined_text = {
 		localization_key = "ROL_KMT_party_level_5_tt"
 	}
 }
+
+defined_text = {
+	name = Get_ROL_KMT_party_unit_tt
+	text = {
+		localization_key = "ROL_KMT_party_unit_tt"
+	}
+}	

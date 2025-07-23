@@ -1101,9 +1101,177 @@ ROL_KMT_party_unit = {
     add_to_variable = {
         var = ROL_KMT_party_unit_num #团结度变量
         value = ROL_KMT_party_unit_num_temp #改变团结度变量
+    }	
+    ######
+    clear_variable = ROL_KMT_party_unit_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_party_unit_num
+		min = 0
+		max = 100
+	}
+	
+	if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_party_unit_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_party_unit_num_temp = -1
+        }
+    }
+    else = {
+    }
+}
+
+ROL_KMT_unit_act_1 = {
+    #
+    add_to_variable = {
+        var = ROL_KMT_unit_act_1_num #
+        value = ROL_KMT_unit_act_1_num_temp #
     }
     
     if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_unit_act_1_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_unit_act_1_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_unit_act_1_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_unit_act_1_num
+		min = 0
+		max = 2
+	}
+}
+
+ROL_KMT_unit_act_2 = {
+    #
+    add_to_variable = {
+        var = ROL_KMT_unit_act_2_num #
+        value = ROL_KMT_unit_act_2_num_temp #
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_unit_act_2_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_unit_act_2_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_unit_act_2_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_unit_act_2_num
+		min = 0
+		max = 2
+	}
+}
+
+ROL_KMT_unit_act_3 = {
+    #
+    add_to_variable = {
+        var = ROL_KMT_unit_act_3_num #
+        value = ROL_KMT_unit_act_3_num_temp #
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_unit_act_3_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_unit_act_3_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_unit_act_3_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_unit_act_3_num
+		min = 0
+		max = 2
+	}
+}
+
+ROL_KMT_unit_act_4 = {
+    #
+    add_to_variable = {
+        var = ROL_KMT_unit_act_4_num #
+        value = ROL_KMT_unit_act_4_num_temp #
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_unit_act_4_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_unit_act_4_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_unit_act_4_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_unit_act_4_num
+		min = 0
+		max = 2
+	}
+}
+
+ROL_KMT_unit_suppor = {
+    #常委资源
+    add_to_variable = {
+        var = ROL_KMT_unit_suppor_num #
+        value = ROL_KMT_unit_suppor_num_temp #
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_unit_suppor_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_unit_suppor_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_unit_suppor_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_KMT_unit_suppor_num
+		min = 0
+		max = 6
+	}
+}
+
+ROL_KMT_party_unit_effect = {
+	if = {
         limit = {
             check_variable = {
                 ROL_KMT_party_unit_num > 75
@@ -1265,48 +1433,27 @@ ROL_KMT_party_unit = {
 				}
 			}
 			random_list = {
-				33 = {
+			33 = {
 					set_temp_variable = { partyid = 4 }
 					set_temp_variable = {
 						add = -1
-					}
+			}
 				ROL_KMT_party_change_support = yes
 				}
-				33 = {
+			33 = {
 					set_temp_variable = { partyid = 5 }
 					set_temp_variable = {
 						add = -1
-					}
+			}
 				ROL_KMT_party_change_support = yes
 				}
-				33 = {
+			33 = {
 				set_temp_variable = { partyid = 6 }
 				set_temp_variable = {
 					add = -1
 				}
 				ROL_KMT_party_change_support = yes
-				}
 			}
-		}	
-    ######
-    clear_variable = ROL_KMT_party_unit_num_temp
-    ######
-    clamp_variable = {
-		var = ROL_KMT_party_unit_num
-		min = 0
-		max = 100
+		}
 	}
-	
-	if = {
-        limit = {
-            check_variable = {
-                ROL_KMT_party_unit_num_temp < 0
-            }
-        }
-        multiply_temp_variable = {
-            ROL_KMT_party_unit_num_temp = -1
-        }
-    }
-    else = {
-    }
-}
+}		

@@ -347,7 +347,99 @@ guiTypes = {
 			pdx_tooltip = ROL_KMT_party_seat_info
 			pdx_tooltip_delayed = ROL_KMT_party_seat_delayed_info
 		}
+		####团结度部分
+		iconType = {
+			name = "ROL_KMT_party_unit_infor"
+			position = { x = 626 y = 133 }
+			spriteType = "GFX_Burgundy_GUI_Info_Button"
+			pdx_tooltip = ROL_KMT_party_unit_info
+			pdx_tooltip_delayed = ROL_KMT_party_unit_delayed_info
+		}
 		
+		iconType = {
+			name = "ROL_KMT_unit_leader_frame_1_icon"
+			position = { x = 840 y = 205 }
+			spriteType = "GFX_ROL_KMT_unit_leader_frame_1_icon"
+		}
+		
+		iconType = {
+			name = "ROL_KMT_unit_leader_1_icon"
+			position = { x = 848 y = 238 }
+			spriteType = "GFX_ROL_KMT_unit_leader_1_icon"
+		}
+		
+		buttonType = {
+			name = "ROL_KMT_unit_frame_1_button"
+		 	position = { x = 640 y = 278 }
+			orientation = "UPPER_LEFT"
+			spriteType = "GFX_ROL_KMT_unit_frame_1_icon"
+			pdx_tooltip = ROL_KMT_unit_frame_1_info
+		}
+		
+		iconType = {
+			name = "ROL_KMT_unit_frame_full_1_icon"
+			position = { x = 640 y = 278 }
+			spriteType = "GFX_ROL_KMT_unit_frame_full_1_icon"
+			pdx_tooltip = ROL_KMT_unit_frame_full_1_info
+		}
+		
+		buttonType = {
+			name = "ROL_KMT_unit_frame_3_button"
+		 	position = { x = 1025 y = 278 }
+			orientation = "UPPER_LEFT"
+			spriteType = "GFX_ROL_KMT_unit_frame_3_icon"
+			pdx_tooltip = ROL_KMT_unit_frame_3_info
+		}
+		
+		iconType = {
+			name = "ROL_KMT_unit_frame_full_3_icon"
+			position = { x = 1025 y = 278 }
+			spriteType = "GFX_ROL_KMT_unit_frame_full_3_icon"
+			pdx_tooltip = ROL_KMT_unit_frame_full_3_info
+		}
+		
+		buttonType = {
+			name = "ROL_KMT_unit_frame_2_button"
+		 	position = { x = 640 y = 378 }
+			orientation = "UPPER_LEFT"
+			spriteType = "GFX_ROL_KMT_unit_frame_2_icon"
+			pdx_tooltip = ROL_KMT_unit_frame_2_info
+		}
+		
+		iconType = {
+			name = "ROL_KMT_unit_frame_full_2_icon"
+			position = { x = 640 y = 378 }
+			spriteType = "GFX_ROL_KMT_unit_frame_full_2_icon"
+			pdx_tooltip = ROL_KMT_unit_frame_full_2_info
+		}
+		
+		buttonType = {
+			name = "ROL_KMT_unit_frame_4_button"
+		 	position = { x = 1025 y = 378 }
+			orientation = "UPPER_LEFT"
+			spriteType = "GFX_ROL_KMT_unit_frame_4_icon"
+			pdx_tooltip = ROL_KMT_unit_frame_4_info
+		}
+		
+		iconType = {
+			name = "ROL_KMT_unit_frame_full_4_icon"
+			position = { x = 1025 y = 378 }
+			spriteType = "GFX_ROL_KMT_unit_frame_full_4_icon"
+			pdx_tooltip = ROL_KMT_unit_frame_full_4_info
+		}
+		
+		instantTextboxType = {
+			name = "txt_ROL_KMT_party_unit"
+			position = { x = 830 y = 209 }
+			font = "aldrich_22_outline"
+			text = "ROL_KMT_partyid_unit_tt"
+			maxWidth = 200
+			maxHeight = 15
+			alwaystransparent = yes
+			fixedsize = no
+			format = center
+		}
+		#####
 		iconType = { 
 			name = "ROL_KMT_party_policy_frame_2_icon" 
 			position = { x = 629 y = 577 } 
@@ -412,6 +504,16 @@ guiTypes = {
 			position = { x = 660 y = 620 } 
 			font = "aldrich_28_outline"
 			text = ROL_KMT_current_ordinance_title
+			maxWidth = 263
+			format = center
+			#alwaystransparent = yes
+        }
+		
+		instantTextboxType = { 
+			name = "ROL_KMT_party_policy_current_break_info" 
+			position = { x = 660 y = 620 } 
+			font = "aldrich_28_outline"
+			text = ROL_KMT_party_policy_current_break_tt
 			maxWidth = 263
 			format = center
 			#alwaystransparent = yes
