@@ -174,13 +174,14 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "txt_ROL_KMT_party_3"
-			position = { x = 255 y = 260 }
+			position = { x = 235 y = 260 }
 			font = "aldrich_22_outline"
 			text = "ROL_KMT_party_3"
 			maxWidth = 200
 			maxHeight = 15
 			alwaystransparent = yes
 			fixedsize = no
+			format = center
 		}
 		
 		instantTextboxType = {
@@ -363,9 +364,75 @@ guiTypes = {
 		}
 		
 		iconType = {
+			name = "ROL_KMT_unit_leader_frame_2_icon"
+			position = { x = 840 y = 205 }
+			spriteType = "GFX_ROL_KMT_unit_leader_frame_2_icon"
+		}
+		
+		iconType = {
+			name = "ROL_KMT_unit_leader_frame_3_icon"
+			position = { x = 840 y = 205 }
+			spriteType = "GFX_ROL_KMT_unit_leader_frame_3_icon"
+		}
+		
+		iconType = {
+			name = "ROL_KMT_unit_leader_frame_4_icon"
+			position = { x = 840 y = 205 }
+			spriteType = "GFX_ROL_KMT_unit_leader_frame_4_icon"
+		}
+		
+		iconType = {
+			name = "ROL_KMT_unit_leader_frame_5_icon"
+			position = { x = 840 y = 205 }
+			spriteType = "GFX_ROL_KMT_unit_leader_frame_5_icon"
+		}
+		
+		iconType = {
+			name = "ROL_KMT_unit_leader_frame_6_icon"
+			position = { x = 840 y = 205 }
+			spriteType = "GFX_ROL_KMT_unit_leader_frame_6_icon"
+		}
+		
+		iconType = {
 			name = "ROL_KMT_unit_leader_1_icon"
 			position = { x = 848 y = 238 }
 			spriteType = "GFX_ROL_KMT_unit_leader_1_icon"
+			pdx_tooltip = ROL_KMT_partyid_unit_txt_1
+		}
+		
+		iconType = {
+			name = "ROL_KMT_unit_leader_2_icon"
+			position = { x = 848 y = 238 }
+			spriteType = "GFX_ROL_KMT_unit_leader_2_icon"
+			pdx_tooltip = ROL_KMT_partyid_unit_txt_2
+		}
+		
+		iconType = {
+			name = "ROL_KMT_unit_leader_3_icon"
+			position = { x = 848 y = 238 }
+			spriteType = "GFX_ROL_KMT_unit_leader_3_icon"
+			pdx_tooltip = ROL_KMT_partyid_unit_txt_3
+		}
+		
+		iconType = {
+			name = "ROL_KMT_unit_leader_4_icon"
+			position = { x = 848 y = 238 }
+			spriteType = "GFX_ROL_KMT_unit_leader_4_icon"
+			pdx_tooltip = ROL_KMT_partyid_unit_txt_4
+		}
+		
+		iconType = {
+			name = "ROL_KMT_unit_leader_5_icon"
+			position = { x = 848 y = 238 }
+			spriteType = "GFX_ROL_KMT_unit_leader_5_icon"
+			pdx_tooltip = ROL_KMT_partyid_unit_txt_5
+		}
+		
+		iconType = {
+			name = "ROL_KMT_unit_leader_6_icon"
+			position = { x = 848 y = 238 }
+			spriteType = "GFX_ROL_KMT_unit_leader_6_icon"
+			pdx_tooltip = ROL_KMT_partyid_unit_txt_6
 		}
 		
 		buttonType = {
@@ -426,6 +493,25 @@ guiTypes = {
 			position = { x = 1025 y = 378 }
 			spriteType = "GFX_ROL_KMT_unit_frame_full_4_icon"
 			pdx_tooltip = ROL_KMT_unit_frame_full_4_info
+		}
+		
+		iconType = {
+			name = "ROL_KMT_unit_suppor_icon"
+			position = { x = 290 y = 378 }
+			spriteType = "GFX_ROL_KMT_unit_suppor_icon"
+			pdx_tooltip = ROL_KMT_unit_suppor_info
+		}
+		
+		instantTextboxType = {
+			name = "txt_ROL_KMT_party_uniy_suppor"
+			position = { x = 242 y = 415 }
+			font = "aldrich_30_outline"
+			text = "ROL_KMT_party_uniy_suppor_tt"
+			maxWidth = 200
+			maxHeight = 15
+			alwaystransparent = yes
+			fixedsize = no
+			format = center
 		}
 		
 		instantTextboxType = {

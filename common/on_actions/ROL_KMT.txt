@@ -159,6 +159,14 @@ on_actions = { #
 				set_variable = {
 					ROL_KMT_unit_act_4_num = 0
 				}
+				
+				set_variable = {
+					ROL_KMT_unit_suppor_num = 4
+				}
+				
+				set_variable = {
+					ROL_party_text_num = 0
+				}
 				#####
 				set_variable = {
 					ROL_KMT_party_youth_green_num = 70

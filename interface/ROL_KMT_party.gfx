@@ -242,9 +242,59 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_leader_frame_1_icon.png"
 	}
 	
+	spriteType = { #unit-leader-frame-2
+		name = GFX_ROL_KMT_unit_leader_frame_2_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_leader_frame_2_icon.png"
+	}
+	
+	spriteType = { #unit-leader-frame-3
+		name = GFX_ROL_KMT_unit_leader_frame_3_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_leader_frame_3_icon.png"
+	}
+	
+	spriteType = { #unit-leader-frame-4
+		name = GFX_ROL_KMT_unit_leader_frame_4_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_leader_frame_4_icon.png"
+	}
+	
+	spriteType = { #unit-leader-frame-5
+		name = GFX_ROL_KMT_unit_leader_frame_5_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_leader_frame_5_icon.png"
+	}
+	
+	spriteType = { #unit-leader-frame-6
+		name = GFX_ROL_KMT_unit_leader_frame_6_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_leader_frame_6_icon.png"
+	}
+	
 	spriteType = { #unit-leader-1
 		name = GFX_ROL_KMT_unit_leader_1_icon
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_leader_1_icon.png"
+	}
+	
+	spriteType = { #unit-leader-2
+		name = GFX_ROL_KMT_unit_leader_2_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_leader_2_icon.png"
+	}
+	
+	spriteType = { #unit-leader-3
+		name = GFX_ROL_KMT_unit_leader_3_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_leader_3_icon.png"
+	}
+	
+	spriteType = { #unit-leader-4
+		name = GFX_ROL_KMT_unit_leader_4_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_leader_4_icon.png"
+	}
+	
+	spriteType = { #unit-leader-5
+		name = GFX_ROL_KMT_unit_leader_5_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_leader_5_icon.png"
+	}
+	
+	spriteType = { #unit-leader-6
+		name = GFX_ROL_KMT_unit_leader_6_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_leader_6_icon.png"
 	}
 	
 	spriteType = { #unit-frame-1
@@ -285,6 +335,11 @@ spriteTypes = {
 	spriteType = { #unit-frame-full-4
 		name = GFX_ROL_KMT_unit_frame_full_4_icon
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_frame_full_4_icon.png"
+	}
+	
+	spriteType = { #unit-suppor
+		name = GFX_ROL_KMT_unit_suppor_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_suppor_icon.png"
 	}
 	
 	####

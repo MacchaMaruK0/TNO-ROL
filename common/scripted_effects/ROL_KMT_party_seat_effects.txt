@@ -1456,4 +1456,33 @@ ROL_KMT_party_unit_effect = {
 			}
 		}
 	}
-}		
+}
+
+ROL_party_text = {
+    #控制
+    add_to_variable = {
+        var = ROL_party_text_num #
+        value = ROL_party_text_num_temp #
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_party_text_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_party_text_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_party_text_num_temp
+    ######
+    clamp_variable = {
+		var = ROL_party_text_num
+		min = 0
+		max = 6
+	}
+}

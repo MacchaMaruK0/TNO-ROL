@@ -679,4 +679,49 @@ defined_text = {
 	text = {
 		localization_key = "ROL_KMT_party_unit_tt"
 	}
+}		
+
+defined_text = {
+	name = Get_ROL_KMT_partyid_unit_tt
+	text = {
+		trigger = {
+			check_variable = {ROL_party_text_num = 1}
+		    }
+		localization_key = "ROL_KMT_partyid_unit_tt_1"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {ROL_party_text_num = 2}
+		    }
+		localization_key = "ROL_KMT_partyid_unit_tt_2"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {ROL_party_text_num = 3}
+		    }
+		localization_key = "ROL_KMT_partyid_unit_tt_3"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {ROL_party_text_num = 4}
+		    }
+		localization_key = "ROL_KMT_partyid_unit_tt_4"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {ROL_party_text_num = 5}
+		    }
+		localization_key = "ROL_KMT_partyid_unit_tt_5"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = {ROL_party_text_num = 6}
+		    }
+		localization_key = "ROL_KMT_partyid_unit_tt_6"
+	}
 }	
