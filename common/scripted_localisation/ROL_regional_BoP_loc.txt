@@ -242,3 +242,60 @@ defined_text = {
 		localization_key = "ROLregional_redblood_areacontrol_Tianshui"
 	}
 }
+
+defined_text = {
+	name = GetROLUFEventDiscription
+	text = { localization_key = ROL_KMT_event_[?ROL_UF_Rankings_Entry_Victory_Log_u]_discription }
+}
+
+defined_text = {
+	name = GetROLUFEventName
+	text = { localization_key = ROL_KMT_event_[?ROL_UF_Rankings_Entry_Victory_Log_u]_title }
+}
+
+defined_text = {
+	name = GetROLUFEventStatus
+	text = { 
+		trigger = { 
+			check_variable = {
+				ROL_UF_Rankings_Entry_Victory_Log_Vstatus^ROL_UF_Rankings_Entry_Victory_Log_i = 0
+			}
+		}
+		localization_key = "ROLVictoryOngoing"
+	}
+	text = { 
+		trigger = { 
+			check_variable = {
+				ROL_UF_Rankings_Entry_Victory_Log_Vstatus^ROL_UF_Rankings_Entry_Victory_Log_i = 1
+			}
+		}
+		localization_key = "ROLVictoryKMT"
+	}
+	text = { 
+		trigger = { 
+			check_variable = {
+				ROL_UF_Rankings_Entry_Victory_Log_Vstatus^ROL_UF_Rankings_Entry_Victory_Log_i = 2
+			} 
+		}
+		localization_key = "ROLVictoryCPC"
+	}
+	text = { 
+		trigger = { 
+			check_variable = {
+				ROL_UF_Rankings_Entry_Victory_Log_Vstatus^ROL_UF_Rankings_Entry_Victory_Log_i = 3
+			}
+		}
+		localization_key = "ROLVictoryROC"
+	}
+	text = { 
+		trigger = { 
+			check_variable = {
+				ROL_UF_Rankings_Entry_Victory_Log_Vstatus^ROL_UF_Rankings_Entry_Victory_Log_i = 4
+			}
+		}
+		localization_key = "ROLVictoryNobody"
+	}
+	text = { 
+		localization_key = "ROL_debug_fatal_out_of_range"
+	}
+}

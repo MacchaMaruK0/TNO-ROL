@@ -348,6 +348,45 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 			ROL_KMT_control_specific_pid_vote = yes
 		}
     }
+
+	ROL_UF_test_1 = {
+		icon = GFX_decision_debug
+		fire_only_once = no
+		is_debug = yes
+		complete_effect = {
+			ROL_UF_init_UF_gui = yes
+		}
+    }
+
+	ROL_UF_test_2 = {
+		icon = GFX_decision_debug
+		fire_only_once = no
+		is_debug = yes
+		complete_effect = {
+			set_temp_variable = {
+				eventid = 3
+			}
+			set_temp_variable = {
+				vstatus = 0
+			}
+			ROL_UF_add_tab_to_page = yes
+		}
+    }
+
+	ROL_UF_test_3 = {
+		icon = GFX_decision_debug
+		fire_only_once = no
+		is_debug = yes
+		complete_effect = {
+			set_temp_variable = {
+				eventid = 3
+			}
+			set_temp_variable = {
+				aimvstatus = 4
+			}
+			ROL_UF_switch_tab_condition = yes
+		}
+    }
 	
 	ROL_Japan_leave_south_asia = {
 	icon = GFX_decision_generic_visibility

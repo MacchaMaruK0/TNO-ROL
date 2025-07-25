@@ -444,3 +444,72 @@ ROL_KMT_bop_marebellion_nervous = {
 		max = 100
 	}
 }
+
+
+#UF gui
+
+ROL_UF_init_UF_gui = {
+    clear_array = ROL_UF_Rankings_Entry_Victory_Log
+    clear_array = ROL_UF_Rankings_Entry_Victory_Log_Vstatus
+    set_temp_variable = {
+        eventid = 1
+    }
+    set_temp_variable = {
+        vstatus = 1
+    }
+    ROL_UF_add_tab_to_page = yes
+    set_temp_variable = {
+        eventid = 2
+    }
+    set_temp_variable = {
+        vstatus = 3
+    }
+    ROL_UF_add_tab_to_page = yes #就像这样把不需要操作的历史事件加进去
+}
+
+ROL_UF_add_tab_to_page = { #用这个加需要操作的事件，学着上面那个函数赋值就行，vstatus设为0会显示“进行中”
+    add_to_array = {
+        ROL_UF_Rankings_Entry_Victory_Log = eventid
+    }
+    add_to_array = {
+        ROL_UF_Rankings_Entry_Victory_Log_Vstatus = vstatus
+    }
+}
+
+ROL_UF_switch_tab_condition = { #切换事件的状态，需求eventid和aimvstatus两个值 #同时存在两个id相同的事件，只会修改第一个，所以请避免这种事发生
+    set_temp_variable = {
+        aimid = 0
+    }
+    for_each_loop = {
+        array = ROL_UF_Rankings_Entry_Victory_Log
+        value = v
+        index = i
+        break = break
+        if = {
+            limit = {
+                check_variable = {
+                    v = eventid
+                }
+            }
+            set_temp_variable = {
+                aimid = i
+            }
+            set_temp_variable = {
+                break = 1
+            }
+        }
+    }
+    if = {
+        limit = {
+            NOT = {
+                check_variable = {
+                    aimid = 0
+                }
+            }
+
+        }
+        set_variable = {
+            ROL_UF_Rankings_Entry_Victory_Log_Vstatus^aimid = aimvstatus
+        }
+    }
+}

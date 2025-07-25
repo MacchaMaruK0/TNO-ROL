@@ -14,6 +14,16 @@ scripted_gui = {
 		parent_window_name = powerbalanceview
 		ai_enabled = { always = no }
 		visible = { check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional } } 
+
+		dynamic_lists = {
+			ROL_UF_GUI_Rankings_Entry_Victory_List_Gridbox = {
+				array = ROL_UF_Rankings_Entry_Victory_Log
+				index = ROL_UF_Rankings_Entry_Victory_Log_i
+				value = ROL_UF_Rankings_Entry_Victory_Log_u
+				entry_container = ROL_UF_GUI_Rankings_Entry
+			}
+		}
+
 	}	
 	
 	

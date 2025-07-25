@@ -1,10 +1,35 @@
-guiTypes = {    
+	
+
+guiTypes = {
+	containerWindowType = {
+		name = "ROL_regional_generic_topbar"
+		position = { x = 29 y = 131 }
+		size = { width = 496 height = 506 }
+
+		iconType = {
+			name = "seal"
+			position = { x = 98 y = 75 }
+		}
+
+		instantTextBoxType = {
+			name = "fopo_desc"
+			position = { x = 8 y = 10 }
+			text = fopo_desc_text
+			font = "aldrich_18_outline"
+			maxWidth = 480
+			maxHeight = 500
+			alwaystransparent = yes
+		}
+
+		
+	}
+
 	containerWindowType = {
         name = "ROL_regional_base_container"
         position = { x = 25 y = 19 }
         size = { height = 618 width = 500 }
 
-        ### Top Bar ###
+		 ### Top Bar ###
         containerWindowType = {
             name = "ROL_regional_TOPBAR"
             position = { x = 41 y = -24 }
@@ -44,30 +69,35 @@ guiTypes = {
             position = { x = 2 y = 72 }
             alwaystransparent = yes
         }
-    }
-}	
-
-guiTypes = {
-	containerWindowType = {
-		name = "ROL_regional_generic_topbar"
-		position = { x = 29 y = 131 }
-		size = { width = 496 height = 506 }
 
 		iconType = {
-			name = "seal"
-			position = { x = 98 y = 75 }
+			name = "GlobalConflicts_GUI_DecisionDivider"
+			position = { x = 529 y = 154 }
+			spriteType = "GFX_BoP_Decision_Divider"
 		}
 
-		instantTextBoxType = {
-			name = "fopo_desc"
-			position = { x = 8 y = 10 }
-			text = fopo_desc_text
-			font = "aldrich_18_outline"
-			maxWidth = 480
-			maxHeight = 500
-			alwaystransparent = yes
+		containerWindowType = { # Has to be out of the above container for the UI scaling to work
+			name = "ROL_UF_GUI_Rankings_Tab_Victory_List"
+			position = { x = 80 y = 100 }
+			size = { width = 360 height = 100%% }
+			verticalScrollbar = "left_vertical_slider"
+			margin = { top = 0 left = 20 bottom = 0 right = 0 }
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+
+			gridboxtype = {
+				name = "ROL_UF_GUI_Rankings_Entry_Victory_List_Gridbox"
+				position = { x = 0 y = 0 }
+				size = { width = 150 height = 48 }
+				slotsize = { width = 150 height = 48 }
+				max_slots_horizontal = 1
+			}
 		}
 	}
+
 	#
 	containerWindowType = {
         name = "ROL_regional1_base_container"
@@ -120,6 +150,8 @@ guiTypes = {
             position = { x = 2 y = 72 }
             alwaystransparent = yes
         }
+		
+		
 		
 		containerWindowType = {
         name = "ROL_KMT_red_blood_ui"
@@ -422,4 +454,42 @@ guiTypes = {
 			pdx_tooltip = "KMT_desicion_tab_name"
 		}
 	}#！这才是那些框的本体啊
+
+	containerWindowType = {
+		name = "ROL_UF_GUI_Rankings_Entry"
+		position = { x = 0 y = 0 }
+		size = { width = 150 height = 64 }
+
+		iconType = {
+			name = "ROL_UF_GUI_Rankings_Entry_Slot"
+			quadTextureSprite = "GFX_Cold_War_GUI_Victories_Ranking_Slot"
+			position = { x = 8 y = 2 }
+			pdx_tooltip = ROL_PLACEHOLDER
+		}
+
+		instantTextboxType = {
+			name = "ROL_UF_GUI_Rankings_Entry_Entries_Name"
+			position = { x = 12 y = 6 }
+			font = "aldrich_16_outline"
+			text = "ROL_UF_Ranking_Event_name"
+			maxWidth = 220
+			maxHeight = 38
+			fixedsize = yes
+			format = center
+			vertical_alignment = center
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "ROL_UF_GUI_Rankings_Entry_Entries_Status"
+			position = { x = 236 y = 10 }
+			font = "aldrich_16_outline"
+			text = "ROL_UF_Ranking_Event_status"
+			maxWidth = 100
+			maxHeight = 44
+			fixedsize = yes
+			format = center
+			alwaystransparent = yes
+		}
+	}
 }	
