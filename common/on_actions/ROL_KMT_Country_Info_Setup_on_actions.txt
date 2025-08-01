@@ -28,8 +28,10 @@ on_actions = {
 					add_to_array = { CountryInfo_array_main = 102 }
 					add_to_array = { CountryInfo_array_main = 7 }
 					add_to_array = { CountryInfo_array_main = 8 }
+					add_to_array = { CountryInfo_array_main = 9 }
 					add_to_array = { CountryInfo_folder_country_102 = 7 }
 					add_to_array = { CountryInfo_folder_country_102 = 8 }
+					add_to_array = { CountryInfo_folder_country_102 = 9 }
 				}
 				set_country_flag = CountryInfo_HasCustomCloseButton
 			}

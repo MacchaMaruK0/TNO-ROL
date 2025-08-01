@@ -497,14 +497,14 @@ guiTypes = {
 		
 		iconType = {
 			name = "ROL_KMT_unit_suppor_icon"
-			position = { x = 290 y = 378 }
+			position = { x = 290 y = 398 }
 			spriteType = "GFX_ROL_KMT_unit_suppor_icon"
 			pdx_tooltip = ROL_KMT_unit_suppor_info
 		}
 		
 		instantTextboxType = {
 			name = "txt_ROL_KMT_party_uniy_suppor"
-			position = { x = 242 y = 415 }
+			position = { x = 242 y = 435 }
 			font = "aldrich_30_outline"
 			text = "ROL_KMT_party_uniy_suppor_tt"
 			maxWidth = 200
@@ -524,6 +524,22 @@ guiTypes = {
 			alwaystransparent = yes
 			fixedsize = no
 			format = center
+		}
+		
+		buttonType = {
+			name = "ROL_KMT_unit_skill_1_button"
+		 	position = { x = 65 y = 398 }
+			orientation = "UPPER_LEFT"
+			spriteType = "GFX_ROL_KMT_unit_skill_1_icon"
+			#pdx_tooltip = ROL_KMT_unit_frame_4_info
+		}
+		
+		buttonType = {
+			name = "ROL_KMT_unit_skill_2_button"
+		 	position = { x = 405 y = 398 }
+			orientation = "UPPER_LEFT"
+			spriteType = "GFX_ROL_KMT_unit_skill_2_icon"
+			#pdx_tooltip = ROL_KMT_unit_frame_4_info
 		}
 		#####
 		iconType = { 

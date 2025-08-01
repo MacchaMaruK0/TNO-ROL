@@ -342,6 +342,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_suppor_icon.png"
 	}
 	
+	spriteType = { #skill-1
+		name = GFX_ROL_KMT_unit_skill_1_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_skill_1_icon.png"
+	}
+	
+	spriteType = { #skill-2
+		name = GFX_ROL_KMT_unit_skill_2_icon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_unit/ROL_KMT_unit_skill_2_icon.png"
+	}
+	
 	####
 	spriteType = { #研究院-李焕
 		name = GFX_ROL_KMT_Lihuan_texticon
