@@ -35,8 +35,8 @@ ROL_add_tab = {
 }
 
 # Removes `conflict_id` from the list of active conflicts
-DOP_remove_tab = {
-	custom_effect_tooltip = DOP_SCW_remove_tab_tt
+ROL_remove_tab = {
+	custom_effect_tooltip = ROL_SCW_remove_tab_tt
 	if = {
 		limit = { is_in_array = { ROL_KMT_enabled_tabs = decision_tabs_id } }
 		remove_from_array = { array = ROL_KMT_enabled_tabs value = decision_tabs_id }

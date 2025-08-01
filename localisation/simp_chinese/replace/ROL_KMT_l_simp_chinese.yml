@@ -796,6 +796,8 @@
  ROL_regional_GUI_Title: "抗日统一战线"
  ROL_regional1_GUI_Title: "地区冲突"
  ROL_regional_info_icon_tt: "§Y抗日统一战线§!"
+ ROL_regional_add_tab_tt: "§F新的§Y页面§!将被§G添加到§!£GFX_green_dollar_sign §W地区冲突§!决议组中。§!\n"
+ ROL_regional_remove_tab_tt: "§F§Y页面§!将从£GFX_green_dollar_sign §W地区冲突§!决议组中§R移除§!。§!\n"
  ROL_regional_info_icon_tt_delayed: "§Y1945年，东亚的枪炮声逐渐平息，日本人虽在中国取得了较大成果，但其未能彻底取得胜利。大规模的战斗不再出现，但抵抗之火仍旧在全国各地燃烧，中国依然团结在名为统一战线的旗帜之下。\n\n然而，虽统一战线名义上仍然存在，但其内部已然是四分五裂，各路军阀看似服从云南国民党中央的领导，实则都有着自己的利益打算，对其命令也多有不从。不过，在可以预见的未来，假若出现一位可以统领西部的领袖，统一战线也将浴火重生，再一次团结起中国人民，对侵略者发起进攻…§!"
  BOP_BUTTON:0 "[GetBOPbuttonname]"
  ROL_regional1_info_icon_tt: "§Y地区冲突§!"
