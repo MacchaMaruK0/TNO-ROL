@@ -804,6 +804,7 @@
  ROL_regional1_info_icon_tt_delayed: "自七七以来，日寇进犯，中原陆沉。伪府以泛亚共荣之名行敲骨吸髓之实；民族战线分崩离析，名存实亡；九州大地秩序崩毁，兵匪横行，民不聊生，变革之风吹拂与否，犹未可知。\n\n自五四运动起，革命之风席卷，数十年之暴力斗争亦自此而生，纵使日寇铁蹄踏碎河山仍难使阋墙兄弟笑泯恩仇。大战之后，神州破碎，而冲突仍未停息。抗日虽为目标，但为抗日而践行真正中国之革命亦是冲突之根源。"
  KMT_desicion_tab_name:0 "[Get_ROLregional_desicion_tab_name]"
  ROLregional_desicion_name_1: "§Y西北戡乱战争§!"
+ ROLregional_desicion_name_2: "§Y青海叛乱§!"
  ROL_KMT_red_blood_act_txt: "§Y我们还能着手进行[?ROL_KMT_red_blood_act_num]/2项戡乱行动§!"
  ROL_KMT_red_blood_act_info: "受限于戡乱局势，我们至多只能同时进行2项戡乱行动。"
  ROL_bop_redblood_cpc_Linxia_infor: "点击在临夏展开行动"
@@ -837,6 +838,8 @@
  ROLregional_redblood_areacontrol_Gannan: "[?ROL_KMT_redblood_Gannan_control_num|Y0]"
  ROLregional_redblood_areacontrol_Guoluo: "[?ROL_KMT_redblood_Guoluo_control_num|Y0]"
  ROLregional_redblood_areacontrol_Tianshui: "[?ROL_KMT_redblood_Tianshui_control_num|Y0]"
+ ROL_bop_redblood_horse_bill_info: "§Y马家军的备战程度§!：[?ROL_bop_redblood_horse_num|Y1]\n--------------\n"
+ ROL_bop_redblood_rook_bill_info: "§Y陕甘宁边区的备战程度§!：[?ROL_bop_redblood_rook_num|Y1]\n--------------\n"
  
 
  

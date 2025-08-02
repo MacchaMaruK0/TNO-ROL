@@ -360,126 +360,206 @@ scripted_gui = {
 			ROL_bop_redblood_cpc_Linxia_button_visible = {
 				check_variable = { ROL_KMT_redblood_Linxia_control_num < 49.9 }
 				NOT = { has_country_flag = ROL_bop_redblood_cpc_Linxia_highlight }
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			ROL_bop_redblood_cpc_Linxia_highlight_button_visible = {
 				check_variable = { ROL_KMT_redblood_Linxia_control_num < 49.9 }
 				has_country_flag = ROL_bop_redblood_cpc_Linxia_highlight
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			ROL_bop_redblood_kmt_Linxia_button_visible = {
 				check_variable = { ROL_KMT_redblood_Linxia_control_num > 49.9 }
 				NOT = { has_country_flag = ROL_bop_redblood_kmt_Linxia_highlight }
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			ROL_bop_redblood_kmt_Linxia_highlight_button_visible = {
 				check_variable = { ROL_KMT_redblood_Linxia_control_num > 49.9 }
 				has_country_flag = ROL_bop_redblood_kmt_Linxia_highlight
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			####
 			ROL_bop_redblood_cpc_Lintao_button_visible = {
 				check_variable = { ROL_KMT_redblood_Lintao_control_num < 49.9 }
 				NOT = { has_country_flag = ROL_bop_redblood_cpc_Lintao_highlight }
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			ROL_bop_redblood_cpc_Lintao_highlight_button_visible = {
 				check_variable = { ROL_KMT_redblood_Lintao_control_num < 49.9 }
 				has_country_flag = ROL_bop_redblood_cpc_Lintao_highlight
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			ROL_bop_redblood_kmt_Lintao_button_visible = {
 				check_variable = { ROL_KMT_redblood_Lintao_control_num > 49.9 }
 				NOT = { has_country_flag = ROL_bop_redblood_kmt_Lintao_highlight }
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			ROL_bop_redblood_kmt_Lintao_highlight_button_visible = {
 				check_variable = { ROL_KMT_redblood_Lintao_control_num > 49.9 }
 				has_country_flag = ROL_bop_redblood_kmt_Lintao_highlight
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			#####
 			ROL_bop_redblood_cpc_Tianshui_button_visible = {
 				check_variable = { ROL_KMT_redblood_Tianshui_control_num < 49.9 }
 				NOT = { has_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight }
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			ROL_bop_redblood_cpc_Tianshui_highlight_button_visible = {
 				check_variable = { ROL_KMT_redblood_Tianshui_control_num < 49.9 }
 				has_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			ROL_bop_redblood_kmt_Tianshui_button_visible = {
 				check_variable = { ROL_KMT_redblood_Tianshui_control_num > 49.9 }
 				NOT = { has_country_flag = ROL_bop_redblood_kmt_Tianshui_highlight }
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			ROL_bop_redblood_kmt_Tianshui_highlight_button_visible = {
 				check_variable = { ROL_KMT_redblood_Tianshui_control_num > 49.9 }
 				has_country_flag = ROL_bop_redblood_kmt_Tianshui_highlight
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			#####
 			ROL_bop_redblood_cpc_Minzhou_button_visible = {
 				check_variable = { ROL_KMT_redblood_Minzhou_control_num < 49.9 }
 				NOT = { has_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight }
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			ROL_bop_redblood_cpc_Minzhou_highlight_button_visible = {
 				check_variable = { ROL_KMT_redblood_Minzhou_control_num < 49.9 }
 				has_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			ROL_bop_redblood_kmt_Minzhou_button_visible = {
 				check_variable = { ROL_KMT_redblood_Minzhou_control_num > 49.9 }
 				NOT = { has_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight }
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			ROL_bop_redblood_kmt_Minzhou_highlight_button_visible = {
 				check_variable = { ROL_KMT_redblood_Minzhou_control_num > 49.9 }
 				has_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			#####
 			ROL_bop_redblood_cpc_Gannan_button_visible = {
 				check_variable = { ROL_KMT_redblood_Gannan_control_num < 49.9 }
 				NOT = { has_country_flag = ROL_bop_redblood_cpc_Gannan_highlight }
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			ROL_bop_redblood_cpc_Gannan_highlight_button_visible = {
 				check_variable = { ROL_KMT_redblood_Gannan_control_num < 49.9 }
 				has_country_flag = ROL_bop_redblood_cpc_Gannan_highlight
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			ROL_bop_redblood_kmt_Gannan_button_visible = {
 				check_variable = { ROL_KMT_redblood_Gannan_control_num > 49.9 }
 				NOT = { has_country_flag = ROL_bop_redblood_kmt_Gannan_highlight }
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			ROL_bop_redblood_kmt_Gannan_highlight_button_visible = {
 				check_variable = { ROL_KMT_redblood_Gannan_control_num > 49.9 }
 				has_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			#####
 			ROL_bop_redblood_cpc_Guoluo_button_visible = {
 				check_variable = { ROL_KMT_redblood_Guoluo_control_num < 49.9 }
 				NOT = { has_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight }
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			ROL_bop_redblood_cpc_Guoluo_highlight_button_visible = {
 				check_variable = { ROL_KMT_redblood_Guoluo_control_num < 49.9 }
 				has_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			ROL_bop_redblood_kmt_Guoluo_button_visible = {
 				check_variable = { ROL_KMT_redblood_Guoluo_control_num > 49.9 }
 				NOT = { has_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight }
+				check_variable = { selected_decision_tabs_id = 1 }
 			}
 			
 			ROL_bop_redblood_kmt_Guoluo_highlight_button_visible = {
 				check_variable = { ROL_KMT_redblood_Guoluo_control_num > 49.9 }
 				has_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+				check_variable = { selected_decision_tabs_id = 1 }
+			}
+			########
+			ROL_KMT_red_blood_infor_visible = {
+				check_variable = { selected_decision_tabs_id = 1 }
+			}
+			ROL_KMT_qinghai_rebellion_infor_visible = {
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			########
+			ROL_bop_qinghai_topbar_icon_visible = {
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_KMT_txt_icon_visible = {
+				check_variable = { selected_decision_tabs_id = 1 }
+			}
+			########
+			ROL_bop_redblood_occlusion_icon_visible = {
+				check_variable = { selected_decision_tabs_id = 1 }
+			}
+			ROL_KMT_redblood_mobilization_icon_visible = {
+				check_variable = { selected_decision_tabs_id = 1 }
+			}
+			ROL_KMT_redblood_front_button_visible = {
+				check_variable = { selected_decision_tabs_id = 1 }
+			}
+			ROL_bop_redblood_frame_icon_visible = {
+				check_variable = { selected_decision_tabs_id = 1 }
+			}
+			ROL_KMT_red_blood_act_txt_visible = {
+				check_variable = { selected_decision_tabs_id = 1 }
+			}
+			ROL_KMT_red_blood_act_area_txt_visible = {
+				check_variable = { selected_decision_tabs_id = 1 }
+			}
+			ROL_KMT_red_blood_control_txt_visible = {
+				check_variable = { selected_decision_tabs_id = 1 }
+			}
+			########
+			ROL_bop_redblood_horse_bill_visible = {
+				OR = {
+					has_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
+					has_country_flag = ROL_bop_redblood_kmt_Gannan_highlight
+				}
+				check_variable = { selected_decision_tabs_id = 1 }
+				NOT = { has_country_flag = ROL_bop_ma_is_dead }
 			}
 			
+			ROL_bop_redblood_rook_bill_visible = {
+				OR = {
+					has_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
+					has_country_flag = ROL_bop_redblood_cpc_Gannan_highlight
+					has_country_flag = ROL_bop_redblood_cpc_Lintao_highlight
+					has_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight
+					has_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight
+					has_country_flag = ROL_bop_redblood_cpc_Linxia_highlight
+				}
+				check_variable = { selected_decision_tabs_id = 1 }
+			}
 		}
 			
 
@@ -492,6 +572,14 @@ scripted_gui = {
 			}
 			decision_tab_icon = {
 				image = "[Get_ROLregional_desicion_tab_icon]"
+			}
+			
+			ROL_bop_redblood_horse_bill = {
+				frame = ROL_bop_redblood_horse_num
+			}
+			
+			ROL_bop_redblood_rook_bill = {
+				frame = ROL_bop_redblood_rook_num
 			}
 		}
 		

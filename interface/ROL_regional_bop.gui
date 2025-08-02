@@ -164,6 +164,14 @@ guiTypes = {
 				pdx_tooltip = ROL_KMT_red_blood_info
 				pdx_tooltip_delayed = ROL_KMT_red_blood_delayed_info
 			}
+			
+			iconType = {
+				name = "ROL_KMT_qinghai_rebellion_infor"
+				position = { x = 5 y = 75 }
+				spriteType = "GFX_Burgundy_GUI_Info_Button"
+				pdx_tooltip = ROL_KMT_qinghai_rebellion_info
+				pdx_tooltip_delayed = ROL_KMT_qinghai_rebellion_delayed_info
+			}
 		
 			iconType = {
 				name = "ROL_KMT_txt_icon"
@@ -172,9 +180,9 @@ guiTypes = {
 			}
 			
 			iconType = {
-				name = "ROL_bop_redblood_insiderbar_icon"
-				position = { x = 8 y = 140 }
-				spriteType = "GFX_ROL_bop_redblood_insiderbar"
+				name = "ROL_bop_qinghai_topbar_icon"
+				position = { x = 45 y = 80 }
+				spriteType = "GFX_ROL_bop_qinghai_topbar"
 			}
 			
 			iconType = {
@@ -201,28 +209,28 @@ guiTypes = {
 			buttonType = {
 				name = "ROL_bop_redblood_cpc_Linxia_button"
 				spriteType = "GFX_ROL_bop_redblood_cpc_Linxia"
-				position = { x = 181 y = 177 }
+				position = { x = 21 y = 177 }
 				pdx_tooltip = "ROL_bop_redblood_cpc_Linxia_infor"
 			}
 			
 			buttonType = {
 				name = "ROL_bop_redblood_kmt_Linxia_button"
 				spriteType = "GFX_ROL_bop_redblood_kmt_Linxia"
-				position = { x = 181 y = 177 }
+				position = { x = 21 y = 177 }
 				pdx_tooltip = "ROL_bop_redblood_kmt_Linxia_infor"
 			}
 			
 			buttonType = {
 				name = "ROL_bop_redblood_cpc_Linxia_highlight_button"
 				spriteType = "GFX_ROL_bop_redblood_cpc_Linxia_highlight"
-				position = { x = 181 y = 177 }
+				position = { x = 21 y = 177 }
 				pdx_tooltip = "ROL_bop_redblood_cpc_Linxia_highlight_infor"
 			}
 			
 			buttonType = {
 				name = "ROL_bop_redblood_kmt_Linxia_highlight_button"
 				spriteType = "GFX_ROL_bop_redblood_kmt_Linxia_highlight"
-				position = { x = 181 y = 177 }
+				position = { x = 21 y = 177 }
 				pdx_tooltip = "ROL_bop_redblood_kmt_Linxia_highlight_infor"
 			}
 			
@@ -230,108 +238,108 @@ guiTypes = {
 			buttonType = {
 				name = "ROL_bop_redblood_cpc_Lintao_button"
 				spriteType = "GFX_ROL_bop_redblood_cpc_Lintao"
-				position = { x = 257 y = 177 }
+				position = { x = 97 y = 177 }
 				pdx_tooltip = "ROL_bop_redblood_cpc_Lintao_infor"
 			}
 			
 			buttonType = {
 				name = "ROL_bop_redblood_kmt_Lintao_button"
 				spriteType = "GFX_ROL_bop_redblood_kmt_Lintao"
-				position = { x = 257 y = 177 }
+				position = { x = 97 y = 177 }
 				pdx_tooltip = "ROL_bop_redblood_kmt_Lintao_infor"
 			}
 			
 			buttonType = {
 				name = "ROL_bop_redblood_cpc_Lintao_highlight_button"
 				spriteType = "GFX_ROL_bop_redblood_cpc_Lintao_highlight"
-				position = { x = 257 y = 177 }
+				position = { x = 97 y = 177 }
 			}
 			
 			buttonType = {
 				name = "ROL_bop_redblood_kmt_Lintao_highlight_button"
 				spriteType = "GFX_ROL_bop_redblood_kmt_Lintao_highlight"
-				position = { x = 257 y = 177 }
+				position = { x = 97 y = 177 }
 			}
 			
 			#####Tianshui
 			buttonType = {
 				name = "ROL_bop_redblood_cpc_Tianshui_button"
 				spriteType = "GFX_ROL_bop_redblood_cpc_Tianshui"
-				position = { x = 306 y = 250 }
+				position = { x = 146 y = 250 }
 				pdx_tooltip = "ROL_bop_redblood_cpc_Tianshui_infor"
 			}
 			
 			buttonType = {
 				name = "ROL_bop_redblood_cpc_Tianshui_highlight_button"
 				spriteType = "GFX_ROL_bop_redblood_cpc_Tianshui_highlight"
-				position = { x = 306 y = 250 }
+				position = { x = 146 y = 250 }
 			}
 			
 			buttonType = {
 				name = "ROL_bop_redblood_kmt_Tianshui_button"
 				spriteType = "GFX_ROL_bop_redblood_kmt_Tianshui"
-				position = { x = 306 y = 250 }
+				position = { x = 146 y = 250 }
 				pdx_tooltip = "ROL_bop_redblood_kmt_Tianshui_infor"
 			}
 			
 			buttonType = {
 				name = "ROL_bop_redblood_kmt_Tianshui_highlight_button"
 				spriteType = "GFX_ROL_bop_redblood_kmt_Tianshui_highlight"
-				position = { x = 306 y = 250 }
+				position = { x = 146 y = 250 }
 			}
 			
 			######Minzhou
 			buttonType = {
 				name = "ROL_bop_redblood_cpc_Minzhou_button"
 				spriteType = "GFX_ROL_bop_redblood_cpc_Minzhou"
-				position = { x = 276 y = 256 }
+				position = { x = 116 y = 256 }
 				pdx_tooltip = "ROL_bop_redblood_cpc_Minzhou_infor"
 			}
 			
 			buttonType = {
 				name = "ROL_bop_redblood_cpc_Minzhou_highlight_button"
 				spriteType = "GFX_ROL_bop_redblood_cpc_Minzhou_highlight"
-				position = { x = 276 y = 256 }
+				position = { x = 116 y = 256 }
 			}
 			
 			buttonType = {
 				name = "ROL_bop_redblood_kmt_Minzhou_button"
 				spriteType = "GFX_ROL_bop_redblood_kmt_Minzhou"
-				position = { x = 276 y = 256 }
+				position = { x = 116 y = 256 }
 				pdx_tooltip = "ROL_bop_redblood_kmt_Minzhou_infor"
 			}
 			
 			buttonType = {
 				name = "ROL_bop_redblood_kmt_Minzhou_highlight_button"
 				spriteType = "GFX_ROL_bop_redblood_kmt_Minzhou_highlight"
-				position = { x = 276 y = 256 }
+				position = { x = 116 y = 256 }
 			}
 			
 			######Gannan
 			buttonType = {
 				name = "ROL_bop_redblood_cpc_Gannan_button"
 				spriteType = "GFX_ROL_bop_redblood_cpc_Gannan"
-				position = { x = 202 y = 240 }
+				position = { x = 42 y = 240 }
 				pdx_tooltip = "ROL_bop_redblood_cpc_Gannan_infor"
 			}
 			
 			buttonType = {
 				name = "ROL_bop_redblood_cpc_Gannan_highlight_button"
 				spriteType = "GFX_ROL_bop_redblood_cpc_Gannan_highlight"
-				position = { x = 202 y = 240 }
+				position = { x = 42 y = 240 }
 			}
 			
 			buttonType = {
 				name = "ROL_bop_redblood_kmt_Gannan_button"
 				spriteType = "GFX_ROL_bop_redblood_kmt_Gannan"
-				position = { x = 202 y = 240 }
+				position = { x = 42 y = 240 }
 				pdx_tooltip = "ROL_bop_redblood_kmt_Gannan_infor"
 			}
 			
 			buttonType = {
 				name = "ROL_bop_redblood_kmt_Gannan_highlight_button"
 				spriteType = "GFX_ROL_bop_redblood_kmt_Gannan_highlight"
-				position = { x = 202 y = 240 }
+				position = { x = 42 y = 240 }
 			}
 			
 			######Guoluo
@@ -339,33 +347,33 @@ guiTypes = {
 			buttonType = {
 				name = "ROL_bop_redblood_cpc_Guoluo_button"
 				spriteType = "GFX_ROL_bop_redblood_cpc_Guoluo"
-				position = { x = 215 y = 363 }
+				position = { x = 55 y = 363 }
 				pdx_tooltip = "ROL_bop_redblood_cpc_Guoluo_infor"
 			}
 			
 			buttonType = {
 				name = "ROL_bop_redblood_cpc_Guoluo_highlight_button"
 				spriteType = "GFX_ROL_bop_redblood_cpc_Guoluo_highlight"
-				position = { x = 215 y = 363 }
+				position = { x = 55 y = 363 }
 			}
 			
 			buttonType = {
 				name = "ROL_bop_redblood_kmt_Guoluo_button"
 				spriteType = "GFX_ROL_bop_redblood_kmt_Guoluo"
-				position = { x = 215 y = 363 }
+				position = { x = 55 y = 363 }
 				pdx_tooltip = "ROL_bop_redblood_kmt_Guoluo_infor"
 			}
 			
 			buttonType = {
 				name = "ROL_bop_redblood_kmt_Guoluo_highlight_button"
 				spriteType = "GFX_ROL_bop_redblood_kmt_Guoluo_highlight"
-				position = { x = 215 y = 363 }
+				position = { x = 55 y = 363 }
 			}
 			
 			########frame
 			iconType = {
 				name = "ROL_bop_redblood_frame_icon"
-				position = { x = 180 y = 140 }
+				position = { x = 20 y = 140 }
 				spriteType = "GFX_ROL_bop_redblood_frame"
 				alwaystransparent = yes
 			}
@@ -406,7 +414,21 @@ guiTypes = {
 				#pdx_tooltip = "ROL_KMT_red_blood_act_info"
 			}
 		
+			########
 			
+			iconType = {
+				name = "ROL_bop_redblood_horse_bill"
+				position = { x = 300 y = 140 }
+				spriteType = "GFX_ROL_bop_redblood_horse_bill"
+				pdx_tooltip = "ROL_bop_redblood_horse_bill_info"
+			}
+			
+			iconType = {
+				name = "ROL_bop_redblood_rook_bill"
+				position = { x = 300 y = 140 }
+				spriteType = "GFX_ROL_bop_redblood_rook_bill"
+				pdx_tooltip = "ROL_bop_redblood_rook_bill_info"
+			}
 		}
 		
 		containerWindowType = {

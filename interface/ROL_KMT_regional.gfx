@@ -140,6 +140,27 @@ spriteTypes = {
 	name = "GFX_ROL_bop_redblood_frame" ###
 	textureFile = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_frame.dds"
 	}
+	
+	#######
+	progressbartype = {
+		name = "GFX_ROL_bop_redblood_horse_bill"
+		textureFile1 = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_horse_full.png"
+		textureFile2 = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_horse_empty.png"
+		size = { x = 200 y = 344 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+		steps = 100
+	}
+	
+	progressbartype = {
+		name = "GFX_ROL_bop_redblood_rook_bill"
+		textureFile1 = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_rook_full.png"
+		textureFile2 = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_rook_empty.png"
+		size = { x = 200 y = 344 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+		steps = 100
+	}
 }	
 
 spriteTypes = {
@@ -160,4 +181,13 @@ spriteTypes = {
 	textureFile = "gfx/interface/texticon/ROL_KMT_red_blood/ROL_KMT_bop_marebellion_prepare.png"
 	legacy_lazy_load = no
 	}
+}
+
+spriteTypes = {
+
+	spriteType = { #题头
+	name = "GFX_ROL_bop_qinghai_topbar" ###
+	textureFile = "gfx/interface/bop/ROL_bop_insider_bar/ROL_bop_qinghai_topbar.png"
+	}
+
 }

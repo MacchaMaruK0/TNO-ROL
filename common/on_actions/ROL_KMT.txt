@@ -62,6 +62,14 @@ on_actions = { #
 				set_variable = {
 					ROL_KMT_bop_marebellion_opportunity_num = 0
 				}
+				
+				set_variable = {
+					ROL_bop_redblood_horse_num = 45
+				}
+				
+				set_variable = {
+					ROL_bop_redblood_rook_num = 85
+				}
 				#########
 			    set_variable = {
 					ROL_KMT_ROC_intervene_points = 3
