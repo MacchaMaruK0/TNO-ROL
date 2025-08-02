@@ -455,6 +455,13 @@ guiTypes = {
 			}
 			
 			iconType = {
+				name = "ROL_KMT_bop_marebellion_revolver"
+				position = { x = 13 y = 13 }
+				spriteType = "GFX_ROL_KMT_bop_marebellion_revolver"
+				#pdx_tooltip = "ROL_KMT_bop_marebellion_revolver_info"
+			}
+			
+			iconType = {
 				name = "ROL_bop_qinghai_nervous_redarrow_10"
 				position = { x = 52 y = 475 }
 				spriteType = "GFX_ROL_KMT_bop_marebellion_redarrow"
