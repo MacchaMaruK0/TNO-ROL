@@ -56,7 +56,7 @@ defined_text = {
 	name = Get_ROLregional_desicion_tab_icon
 	text = { #西北戡乱
 		trigger = { check_variable = { allowed_decision_tab_id = 1 }  }
-		localization_key = "GFX_fopo_malaysia_civil_war_icon_us"
+		localization_key = "GFX_ROL_bop_redblood_topbutton"
 	}
 	text = { #
 		trigger = { check_variable = { allowed_decision_tab_id = 2 }  }

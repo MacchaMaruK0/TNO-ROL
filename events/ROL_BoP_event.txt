@@ -23,5 +23,7 @@ country_event = {
 		set_country_flag = ROL_KMT_fopo
 		set_country_flag = ROL_KMT_regional
 		set_country_flag = ROL_KMT_red_blood
+		set_temp_variable = { decision_tabs_id = 1 }
+		ROL_add_tab = yes
 	}
 }

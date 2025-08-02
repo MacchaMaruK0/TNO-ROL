@@ -191,3 +191,12 @@ spriteTypes = {
 	}
 
 }
+
+spriteTypes = {
+
+	spriteType = { #按钮1
+	name = "GFX_ROL_bop_redblood_topbutton" ###
+	textureFile = "gfx/interface/bop/ROL_bop_insider_bar/ROL_bop_redblood_topbutton.png"
+	}
+
+}
