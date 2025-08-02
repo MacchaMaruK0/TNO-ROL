@@ -215,6 +215,16 @@ spriteTypes = {
 	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_KMT_bop_marebellion_redarrow.png"
 	}
 	
+	spriteType = { #转轮
+	name = "GFX_ROL_KMT_bop_marebellion_revolver" ###
+	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_KMT_bop_marebellion_revolver.png"
+	}
+	
+	spriteType = { #子弹
+	name = "GFX_ROL_KMT_bop_marebellion_bullet" ###
+	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_KMT_bop_marebellion_bullet.png"
+	}
+	
 	spriteType = { #card1
 	name = "GFX_ROL_bop_qinghai_card_1" ###
 	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_bop_qinghai_card_1.png"
