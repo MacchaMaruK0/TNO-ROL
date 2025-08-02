@@ -198,5 +198,10 @@ spriteTypes = {
 	name = "GFX_ROL_bop_redblood_topbutton" ###
 	textureFile = "gfx/interface/bop/ROL_bop_insider_bar/ROL_bop_redblood_topbutton.png"
 	}
+	
+	spriteType = { #按钮2
+	name = "GFX_ROL_bop_qinghai_topbutton" ###
+	textureFile = "gfx/interface/bop/ROL_bop_insider_bar/ROL_bop_qinghai_topbutton.png"
+	}
 
 }
