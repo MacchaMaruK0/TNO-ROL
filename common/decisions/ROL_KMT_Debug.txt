@@ -459,4 +459,22 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 			set_variable = {ROL_KMT_bop_marebellion_nervous_num=100}
 		}
     }
+	
+	ROL_qinghai_test_8 = {
+		icon = GFX_decision_debug
+		fire_only_once = no
+		is_debug = yes
+		complete_effect = {
+			set_variable = {ROL_KMT_bop_marebellion_nervous_num=50}
+		}
+    }
+	
+	ROL_qinghai_test_9 = {
+		icon = GFX_decision_debug
+		fire_only_once = no
+		is_debug = yes
+		complete_effect = {
+			set_variable = {ROL_KMT_bop_marebellion_nervous_num=75}
+		}
+    }
 }

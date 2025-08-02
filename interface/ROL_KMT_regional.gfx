@@ -215,6 +215,11 @@ spriteTypes = {
 	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_KMT_bop_marebellion_redarrow.png"
 	}
 	
+	spriteType = { #绿箭头
+	name = "GFX_ROL_KMT_bop_marebellion_greenarrow" ###
+	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_KMT_bop_marebellion_greenarrow.png"
+	}
+	
 	spriteType = { #转轮
 	name = "GFX_ROL_KMT_bop_marebellion_revolver" ###
 	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_KMT_bop_marebellion_revolver.png"
@@ -223,6 +228,16 @@ spriteTypes = {
 	spriteType = { #子弹
 	name = "GFX_ROL_KMT_bop_marebellion_bullet" ###
 	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_KMT_bop_marebellion_bullet.png"
+	}
+	
+	spriteType = { #进攻
+	name = "GFX_ROL_KMT_bop_marebellion_attack" ###
+	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_KMT_bop_marebellion_attack.png"
+	}
+	
+	spriteType = { #谈判
+	name = "GFX_ROL_KMT_bop_marebellion_negotiation" ###
+	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_KMT_bop_marebellion_negotiation.png"
 	}
 	
 	spriteType = { #card1

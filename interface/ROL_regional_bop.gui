@@ -449,63 +449,154 @@ guiTypes = {
 			
 			iconType = {
 				name = "ROL_bop_qinghai_nervous_bill"
-				position = { x = 11 y = 500 }
+				position = { x = 11 y = 505 }
 				spriteType = "GFX_ROL_bop_qinghai_nervous_bill"
 				pdx_tooltip = "ROL_bop_qinghai_nervous_bill_info"
 			}
 			
 			iconType = {
+				name = "ROL_bop_qinghai_prepare_bill"
+				position = { x = 11 y = 555 }
+				spriteType = "GFX_ROL_bop_qinghai_prepare_bill"
+				pdx_tooltip = "ROL_bop_qinghai_prepare_bill_info"
+			}
+			
+			iconType = {
 				name = "ROL_KMT_bop_marebellion_revolver"
-				position = { x = 13 y = 13 }
+				position = { x = 101 y = 141 }
 				spriteType = "GFX_ROL_KMT_bop_marebellion_revolver"
 				#pdx_tooltip = "ROL_KMT_bop_marebellion_revolver_info"
+			}
+			######
+			iconType = {
+				name = "ROL_KMT_bop_marebellion_bullet_1"
+				position = { x = 211 y = 154 }
+				spriteType = "GFX_ROL_KMT_bop_marebellion_bullet"
+				#pdx_tooltip = "ROL_KMT_bop_marebellion_bullet_1_info"
+			}
+			
+			iconType = {
+				name = "ROL_KMT_bop_marebellion_bullet_2"
+				position = { x = 298 y = 204 }
+				spriteType = "GFX_ROL_KMT_bop_marebellion_bullet"
+				#pdx_tooltip = "ROL_KMT_bop_marebellion_bullet_2_info"
+			}
+			
+			iconType = {
+				name = "ROL_KMT_bop_marebellion_bullet_3"
+				position = { x = 298 y = 302 }
+				spriteType = "GFX_ROL_KMT_bop_marebellion_bullet"
+				#pdx_tooltip = "ROL_KMT_bop_marebellion_bullet_3_info"
+			}
+			
+			iconType = {
+				name = "ROL_KMT_bop_marebellion_bullet_4"
+				position = { x = 211 y = 350 }
+				spriteType = "GFX_ROL_KMT_bop_marebellion_bullet"
+				#pdx_tooltip = "ROL_KMT_bop_marebellion_bullet_3_info"
+			}
+			
+			iconType = {
+				name = "ROL_KMT_bop_marebellion_bullet_5"
+				position = { x = 128 y = 302 }
+				spriteType = "GFX_ROL_KMT_bop_marebellion_bullet"
+				#pdx_tooltip = "ROL_KMT_bop_marebellion_bullet_5_info"
+			}
+			
+			iconType = {
+				name = "ROL_KMT_bop_marebellion_bullet_6"
+				position = { x = 128 y = 204 }
+				spriteType = "GFX_ROL_KMT_bop_marebellion_bullet"
+				#pdx_tooltip = "ROL_KMT_bop_marebellion_bullet_5_info"
+			}
+			######
+			buttonType = {
+				name = "ROL_KMT_bop_marebellion_attack_button"
+				spriteType = "GFX_ROL_KMT_bop_marebellion_attack"
+				position = { x = 253 y = 135 }
+				alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "ROL_KMT_bop_marebellion_negotiation_button"
+				spriteType = "GFX_ROL_KMT_bop_marebellion_negotiation"
+				position = { x = 12 y = 135 }
+				alwaystransparent = yes
 			}
 			
 			iconType = {
 				name = "ROL_bop_qinghai_nervous_redarrow_10"
-				position = { x = 52 y = 475 }
+				position = { x = 52 y = 480 }
 				spriteType = "GFX_ROL_KMT_bop_marebellion_redarrow"
 				pdx_tooltip = "ROL_bop_qinghai_nervous_redarrow_10_info"
 			}
 			
 			iconType = {
 				name = "ROL_bop_qinghai_nervous_redarrow_25"
-				position = { x = 120 y = 475 }
+				position = { x = 120 y = 480 }
 				spriteType = "GFX_ROL_KMT_bop_marebellion_redarrow"
 				pdx_tooltip = "ROL_bop_qinghai_nervous_redarrow_25_info"
 			}
 			
 			iconType = {
+				name = "ROL_bop_qinghai_nervous_greenarrow_25"
+				position = { x = 120 y = 602 }
+				spriteType = "GFX_ROL_KMT_bop_marebellion_greenarrow"
+				pdx_tooltip = "ROL_bop_qinghai_nervous_redarrow_25_info"
+			}
+			
+			iconType = {
+				name = "ROL_bop_qinghai_nervous_greenarrow_50"
+				position = { x = 245 y = 602 }
+				spriteType = "GFX_ROL_KMT_bop_marebellion_greenarrow"
+				pdx_tooltip = "ROL_bop_qinghai_nervous_redarrow_50_info"
+			}
+			
+			iconType = {
+				name = "ROL_bop_qinghai_nervous_greenarrow_75"
+				position = { x = 367 y = 602 }
+				spriteType = "GFX_ROL_KMT_bop_marebellion_greenarrow"
+				pdx_tooltip = "ROL_bop_qinghai_nervous_redarrow_75_info"
+			}
+			
+			iconType = {
+				name = "ROL_bop_qinghai_nervous_greenarrow_100"
+				position = { x = 476 y = 602 }
+				spriteType = "GFX_ROL_KMT_bop_marebellion_greenarrow"
+				pdx_tooltip = "ROL_bop_qinghai_nervous_redarrow_100_info"
+			}
+			
+			iconType = {
 				name = "ROL_bop_qinghai_nervous_redarrow_40"
-				position = { x = 195 y = 475 }
+				position = { x = 195 y = 480 }
 				spriteType = "GFX_ROL_KMT_bop_marebellion_redarrow"
 				pdx_tooltip = "ROL_bop_qinghai_nervous_redarrow_40_info"
 			}
 			
 			iconType = {
 				name = "ROL_bop_qinghai_nervous_redarrow_55"
-				position = { x = 263 y = 475 }
+				position = { x = 263 y = 480 }
 				spriteType = "GFX_ROL_KMT_bop_marebellion_redarrow"
 				pdx_tooltip = "ROL_bop_qinghai_nervous_redarrow_55_info"
 			}
 			
 			iconType = {
 				name = "ROL_bop_qinghai_nervous_redarrow_70"
-				position = { x = 337 y = 475 }
+				position = { x = 337 y = 480 }
 				spriteType = "GFX_ROL_KMT_bop_marebellion_redarrow"
 				pdx_tooltip = "ROL_bop_qinghai_nervous_redarrow_70_info"
 			}
 			
 			iconType = {
 				name = "ROL_bop_qinghai_nervous_redarrow_85"
-				position = { x = 408 y = 475 }
+				position = { x = 408 y = 480 }
 				spriteType = "GFX_ROL_KMT_bop_marebellion_redarrow"
 				pdx_tooltip = "ROL_bop_qinghai_nervous_redarrow_85_info"
 			}
 			
 			iconType = {
 				name = "ROL_bop_qinghai_nervous_redarrow_100"
-				position = { x = 476 y = 475 }
+				position = { x = 476 y = 480 }
 				spriteType = "GFX_ROL_KMT_bop_marebellion_redarrow"
 				pdx_tooltip = "ROL_bop_qinghai_nervous_redarrow_100_info"
 			}

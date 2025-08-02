@@ -527,6 +527,33 @@ scripted_gui = {
 			ROL_bop_qinghai_topbar_icon_visible = {
 				check_variable = { selected_decision_tabs_id = 2 }
 			}
+			ROL_KMT_bop_marebellion_revolver_visible = {
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_bop_qinghai_nervous_redarrow_10_visible = {
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_bop_qinghai_nervous_bill_visible = {
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_bop_qinghai_nervous_redarrow_25_visible = {
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_bop_qinghai_nervous_redarrow_40_visible = {
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_bop_qinghai_nervous_redarrow_55_visible = {
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_bop_qinghai_nervous_redarrow_70_visible = {
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_bop_qinghai_nervous_redarrow_85_visible = {
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_bop_qinghai_nervous_redarrow_100_visible = {
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
 			ROL_KMT_txt_icon_visible = {
 				check_variable = { selected_decision_tabs_id = 1 }
 			}
