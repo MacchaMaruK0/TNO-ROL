@@ -418,28 +418,12 @@ ROL_KMT_bop_marebellion_prepare = {
 
 ROL_KMT_bop_marebellion_nervous = {
     #紧张度
-    add_to_variable = {
-        var = ROL_KMT_bop_marebellion_nervous_num #
-        value = ROL_KMT_bop_marebellion_prepare_num_temp #
-    }
+    add_to_variable = {ROL_KMT_bop_marebellion_nervous_num = ROL_KMT_bop_marebellion_prepare_num_temp }
     
-    if = {
-        limit = {
-            check_variable = {
-                ROL_KMT_bop_marebellion_prepare_num_temp < 0
-            }
-        }
-        multiply_temp_variable = {
-            ROL_KMT_bop_marebellion_prepare_num_temp = -1
-        }
-    }
-    else = {
-    }
-    ######
-    clear_variable = ROL_KMT_bop_marebellion_prepare_num_temp
-    ######
 	if = {
-	limit = {check_variable = {ROL_KMT_bop_marebellion_nervous_num < 10}}
+	    limit = {
+            check_variable = {ROL_KMT_bop_marebellion_nervous_num < 10}
+        }
 	
 		clamp_variable = {
 			var = ROL_KMT_bop_marebellion_nervous_num
@@ -552,30 +536,11 @@ ROL_KMT_bop_marebellion_nervous = {
 		set_temp_variable = {ROL_KMT_bop_marebellion_event_num_temp = 1}
 		ROL_KMT_bop_marebellion_event = yes
 	}
-	
 }
 
 ROL_KMT_bop_marebellion_event = { ###事件表
-	add_to_variable = {
-        var = ROL_KMT_bop_marebellion_event_num #
-        value = ROL_KMT_bop_marebellion_event_num_temp #
-    }
+	add_to_variable = { ROL_KMT_bop_marebellion_event_num = ROL_KMT_bop_marebellion_event_num_temp }
     
-    if = {
-        limit = {
-            check_variable = {
-                ROL_KMT_bop_marebellion_event_num_temp < 0
-            }
-        }
-        multiply_temp_variable = {
-            ROL_KMT_bop_marebellion_event_num_temp = -1
-        }
-    }
-    else = {
-    }
-    ######
-    clear_variable = ROL_KMT_bop_marebellion_event_num_temp
-	######
     clamp_variable = {
 		var = ROL_KMT_bop_marebellion_event_num
 		min = 0
