@@ -299,3 +299,115 @@ defined_text = {
 		localization_key = "ROL_debug_fatal_out_of_range"
 	}
 }
+
+defined_text = {
+	name = Get_ROL_bop_qinghai_nervous_redarrow_10
+	text = { #10
+		trigger = {
+			OR = {
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num > 10}
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num = 10}
+			}
+		}
+		localization_key = "ROL_bop_qinghai_nervous_redarrow_10_tt_1"
+	}
+	text = { 
+		localization_key = "ROL_bop_qinghai_nervous_redarrow_10_tt_2"
+	}
+}	
+
+defined_text = {
+	name = Get_ROL_bop_qinghai_nervous_redarrow_25
+	text = { #25
+		trigger = {
+			OR = {
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num > 25}
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num = 25}
+			}
+		}
+		localization_key = "ROL_bop_qinghai_nervous_redarrow_25_tt_1"
+	}
+	text = { 
+		localization_key = "ROL_bop_qinghai_nervous_redarrow_25_tt_2"
+	}
+}
+
+defined_text = {
+	name = Get_ROL_bop_qinghai_nervous_redarrow_40
+	text = { #40
+		trigger = {
+			OR = {
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num > 40}
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num = 40}
+			}
+		}
+		localization_key = "ROL_bop_qinghai_nervous_redarrow_40_tt_1"
+	}
+	text = { 
+		localization_key = "ROL_bop_qinghai_nervous_redarrow_40_tt_2"
+	}
+}
+
+defined_text = {
+	name = Get_ROL_bop_qinghai_nervous_redarrow_55
+	text = { #55
+		trigger = {
+			OR = {
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num > 55}
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num = 55}
+			}
+		}
+		localization_key = "ROL_bop_qinghai_nervous_redarrow_55_tt_1"
+	}
+	text = { 
+		localization_key = "ROL_bop_qinghai_nervous_redarrow_55_tt_2"
+	}
+}
+
+defined_text = {
+	name = Get_ROL_bop_qinghai_nervous_redarrow_70
+	text = { #70
+		trigger = {
+			OR = {
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num > 70}
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num = 70}
+			}
+		}
+		localization_key = "ROL_bop_qinghai_nervous_redarrow_70_tt_1"
+	}
+	text = { 
+		localization_key = "ROL_bop_qinghai_nervous_redarrow_70_tt_2"
+	}
+}
+
+defined_text = {
+	name = Get_ROL_bop_qinghai_nervous_redarrow_85
+	text = { #85
+		trigger = {
+			OR = {
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num > 85}
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num = 85}
+			}
+		}
+		localization_key = "ROL_bop_qinghai_nervous_redarrow_85_tt_1"
+	}
+	text = { 
+		localization_key = "ROL_bop_qinghai_nervous_redarrow_85_tt_2"
+	}
+}
+
+defined_text = {
+	name = Get_ROL_bop_qinghai_nervous_redarrow_100
+	text = { #100
+		trigger = {
+			OR = {
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num > 100}
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num = 100}
+			}
+		}
+		localization_key = "ROL_bop_qinghai_nervous_redarrow_100_tt_1"
+	}
+	text = { 
+		localization_key = "ROL_bop_qinghai_nervous_redarrow_100_tt_2"
+	}
+}

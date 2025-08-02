@@ -1,4 +1,5 @@
 add_namespace = ROL_BoP_event
+add_namespace = kmt_qinghai
 
 country_event = {
 	id = ROL_BoP_event.1 
@@ -25,5 +26,178 @@ country_event = {
 		set_country_flag = ROL_KMT_red_blood
 		set_temp_variable = { decision_tabs_id = 1 }
 		ROL_add_tab = yes
+	}
+}
+
+country_event = {
+	id = ROL_BoP_event.2 
+	title = ROL_BoP_event.2.t
+	desc = ROL_BoP_event.2.d 
+
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ROL_BoP_event.2"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = { 
+		name = ROL_BoP_event.2.a
+		set_temp_variable = { decision_tabs_id = 2 }
+		ROL_add_tab = yes
+	}
+}
+
+country_event = {
+	id = kmt_qinghai.1
+	title = kmt_qinghai.1.t
+	desc = kmt_qinghai.1.d 
+
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt_qinghai.1"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt_qinghai.1.a
+	}
+}
+
+country_event = {
+	id = kmt_qinghai.1
+	title = kmt_qinghai.1.t
+	desc = kmt_qinghai.1.d 
+
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt_qinghai.1"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt_qinghai.1.a
+	}
+}
+
+country_event = {
+	id = kmt_qinghai.2
+	title = kmt_qinghai.2.t
+	desc = kmt_qinghai.2.d 
+
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt_qinghai.2"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt_qinghai.2.a
+	}
+}
+
+country_event = {
+	id = kmt_qinghai.3
+	title = kmt_qinghai.3.t
+	desc = kmt_qinghai.3.d 
+
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt_qinghai.3"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt_qinghai.3.a
+	}
+}
+
+country_event = {
+	id = kmt_qinghai.4
+	title = kmt_qinghai.4.t
+	desc = kmt_qinghai.4.d 
+
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt_qinghai.4"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt_qinghai.4.a
+	}
+}
+
+country_event = {
+	id = kmt_qinghai.5
+	title = kmt_qinghai.5.t
+	desc = kmt_qinghai.5.d 
+
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt_qinghai.5"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt_qinghai.5.a
+	}
+}
+
+country_event = {
+	id = kmt_qinghai.6
+	title = kmt_qinghai.6.t
+	desc = kmt_qinghai.6.d 
+
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt_qinghai.6"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt_qinghai.6.a
+	}
+}
+
+country_event = {
+	id = kmt_qinghai.7
+	title = kmt_qinghai.7.t
+	desc = kmt_qinghai.7.d 
+
+	picture = /
+
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt_qinghai.7"
+	}
+
+	fire_only_once = no
+	is_triggered_only = yes
+
+	option = { 
+		name = kmt_qinghai.7.a
 	}
 }

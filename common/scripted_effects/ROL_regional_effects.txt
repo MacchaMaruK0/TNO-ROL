@@ -438,10 +438,197 @@ ROL_KMT_bop_marebellion_nervous = {
     ######
     clear_variable = ROL_KMT_bop_marebellion_prepare_num_temp
     ######
+	if = {
+	limit = {check_variable = {ROL_KMT_bop_marebellion_nervous_num < 10}}
+	
+		clamp_variable = {
+			var = ROL_KMT_bop_marebellion_nervous_num
+			min = 0
+			max = 100
+		}
+	}
+	else_if = {
+		limit = {
+			OR = {
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num > 10}
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num = 10}
+			}
+			check_variable = {ROL_KMT_bop_marebellion_nervous_num < 25}
+		}	
+		clamp_variable = {
+			var = ROL_KMT_bop_marebellion_nervous_num
+			min = 10
+			max = 100
+		}
+		set_temp_variable = {ROL_KMT_bop_marebellion_event_num_temp = 1}
+		ROL_KMT_bop_marebellion_event = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num > 25}
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num = 25}
+			}
+			check_variable = {ROL_KMT_bop_marebellion_nervous_num < 40}
+		}
+		clamp_variable = {
+			var = ROL_KMT_bop_marebellion_nervous_num
+			min = 25
+			max = 100
+		}
+		set_temp_variable = {ROL_KMT_bop_marebellion_event_num_temp = 1}
+		ROL_KMT_bop_marebellion_event = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num > 40}
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num = 40}
+			}
+			check_variable = {ROL_KMT_bop_marebellion_nervous_num < 55}
+		}
+		clamp_variable = {
+			var = ROL_KMT_bop_marebellion_nervous_num
+			min = 40
+			max = 100
+		}
+		set_temp_variable = {ROL_KMT_bop_marebellion_event_num_temp = 1}
+		ROL_KMT_bop_marebellion_event = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num > 55}
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num = 55}
+			}
+			check_variable = {ROL_KMT_bop_marebellion_nervous_num < 70}
+		}
+		clamp_variable = {
+			var = ROL_KMT_bop_marebellion_nervous_num
+			min = 55
+			max = 100
+		}
+		set_temp_variable = {ROL_KMT_bop_marebellion_event_num_temp = 1}
+		ROL_KMT_bop_marebellion_event = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num > 70}
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num = 70}
+			}
+			check_variable = {ROL_KMT_bop_marebellion_nervous_num < 85}
+			ROL_KMT_bop_marebellion_event = yes
+		}
+		clamp_variable = {
+			var = ROL_KMT_bop_marebellion_nervous_num
+			min = 70
+			max = 100
+		}
+		set_temp_variable = {ROL_KMT_bop_marebellion_event_num_temp = 1}
+		ROL_KMT_bop_marebellion_event = yes
+	}
+	else_if = {
+		limit = {
+			OR = {
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num > 85}
+				check_variable = {ROL_KMT_bop_marebellion_nervous_num = 85}
+			}
+			check_variable = {ROL_KMT_bop_marebellion_nervous_num < 100}
+			ROL_KMT_bop_marebellion_event = yes
+		}
+		clamp_variable = {
+			var = ROL_KMT_bop_marebellion_nervous_num
+			min = 85
+			max = 100
+		}
+		set_temp_variable = {ROL_KMT_bop_marebellion_event_num_temp = 1}
+		ROL_KMT_bop_marebellion_event = yes
+	}
+	else_if = {
+		limit = {
+			check_variable = {ROL_KMT_bop_marebellion_nervous_num = 100}
+		}
+		set_temp_variable = {ROL_KMT_bop_marebellion_event_num_temp = 1}
+		ROL_KMT_bop_marebellion_event = yes
+	}
+	
+}
+
+ROL_KMT_bop_marebellion_event = { ###事件表
+	add_to_variable = {
+        var = ROL_KMT_bop_marebellion_event_num #
+        value = ROL_KMT_bop_marebellion_event_num_temp #
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_bop_marebellion_event_num_temp < 0
+            }
+        }
+        multiply_temp_variable = {
+            ROL_KMT_bop_marebellion_event_num_temp = -1
+        }
+    }
+    else = {
+    }
+    ######
+    clear_variable = ROL_KMT_bop_marebellion_event_num_temp
+	######
     clamp_variable = {
-		var = ROL_KMT_bop_marebellion_nervous_num
+		var = ROL_KMT_bop_marebellion_event_num
 		min = 0
-		max = 100
+		max = 7
+	}
+	
+	if = {
+		limit = {
+			check_variable = {ROL_KMT_bop_marebellion_event_num = 1}
+		}
+		country_event = { id = kmt_qinghai.1}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {ROL_KMT_bop_marebellion_event_num = 2}
+		}
+		country_event = { id = kmt_qinghai.2}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {ROL_KMT_bop_marebellion_event_num = 3}
+		}
+		country_event = { id = kmt_qinghai.3}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {ROL_KMT_bop_marebellion_event_num = 4}
+		}
+		country_event = { id = kmt_qinghai.4}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {ROL_KMT_bop_marebellion_event_num = 5}
+		}
+		country_event = { id = kmt_qinghai.5}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {ROL_KMT_bop_marebellion_event_num = 6}
+		}
+		country_event = { id = kmt_qinghai.6}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {ROL_KMT_bop_marebellion_event_num = 7}
+		}
+		country_event = { id = kmt_qinghai.7}
 	}
 }
 

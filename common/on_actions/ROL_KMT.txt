@@ -59,7 +59,7 @@ on_actions = { #
 				}
 				
 				set_variable = {
-					ROL_KMT_bop_marebellion_nervous_num = 30
+					ROL_KMT_bop_marebellion_nervous_num = 0
 				}
 				
 				set_variable = {
@@ -72,6 +72,10 @@ on_actions = { #
 				
 				set_variable = {
 					ROL_bop_redblood_rook_num = 85
+				}
+				#########
+				set_variable = {
+					ROL_KMT_bop_marebellion_event_num = 0
 				}
 				#########
 			    set_variable = {

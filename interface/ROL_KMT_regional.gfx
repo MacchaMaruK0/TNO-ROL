@@ -189,7 +189,67 @@ spriteTypes = {
 	name = "GFX_ROL_bop_qinghai_topbar" ###
 	textureFile = "gfx/interface/bop/ROL_bop_insider_bar/ROL_bop_qinghai_topbar.png"
 	}
-
+	
+	progressbartype = {
+		name = "GFX_ROL_bop_qinghai_nervous_bill"
+		textureFile1 = "gfx/interface/bop/ROL_bop_qinghai/ROL_bop_qinghai_nervous_full.png"
+		textureFile2 = "gfx/interface/bop/ROL_bop_qinghai/ROL_bop_qinghai_nervous_empty.png"
+		size = { x = 479 y = 44 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+		steps = 100
+	}
+	
+	progressbartype = {
+		name = "GFX_ROL_bop_qinghai_prepare_bill"
+		textureFile1 = "gfx/interface/bop/ROL_bop_qinghai/ROL_bop_qinghai_prepare_full.png"
+		textureFile2 = "gfx/interface/bop/ROL_bop_qinghai/ROL_bop_qinghai_prepare_empty.png"
+		size = { x = 479 y = 44 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+		steps = 100
+	}
+	
+	spriteType = { #红箭头
+	name = "GFX_ROL_KMT_bop_marebellion_redarrow" ###
+	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_KMT_bop_marebellion_redarrow.png"
+	}
+	
+	spriteType = { #card1
+	name = "GFX_ROL_bop_qinghai_card_1" ###
+	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_bop_qinghai_card_1.png"
+	legacy_lazy_load = no
+	}
+	
+	spriteType = { #card2
+	name = "GFX_ROL_bop_qinghai_card_2" ###
+	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_bop_qinghai_card_2.png"
+	legacy_lazy_load = no
+	}
+	
+	spriteType = { #card3
+	name = "GFX_ROL_bop_qinghai_card_3" ###
+	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_bop_qinghai_card_3.png"
+	legacy_lazy_load = no
+	}
+	
+	spriteType = { #card4
+	name = "GFX_ROL_bop_qinghai_card_4" ###
+	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_bop_qinghai_card_4.png"
+	legacy_lazy_load = no
+	}
+	
+	spriteType = { #card5
+	name = "GFX_ROL_bop_qinghai_card_5" ###
+	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_bop_qinghai_card_5.png"
+	legacy_lazy_load = no
+	}
+	
+	spriteType = { #card6
+	name = "GFX_ROL_bop_qinghai_card_6" ###
+	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_bop_qinghai_card_6.png"
+	legacy_lazy_load = no
+	}
 }
 
 spriteTypes = {

@@ -501,9 +501,9 @@
  ROL_KMT_ROC_intervene_putinto_txt:0 "[Get_ROL_KMT_ROC_intervene_title_tt]\n\n\n\n\n\n\n£GFX_ROL_KMT_ROC_intervene_texticon \n\n\n\n\n\n\n\n[Get_ROL_KMT_ROC_intervene_putinto_tt]\n\n现阶段，£GFX_KMT_kmt_icon 中央对主任选举的£GFX_KMT_ROC_icon 态度是[Get_ROL_KMT_ROC_intervene_tt]（[?ROL_KMT_ROC_intervene_points]%）"
  
  #####青海叛乱
- ROL_KMT_wild_horses_tt: "§j我们需从两种应对马继援和青海叛乱的手段中选择一种：诉诸武力，或劝使其迷途知返。§!\n若选择左侧武力收服路线，则尽可能在发动攻势前减少£GFX_ROL_KMT_bop_marebellion_nervous §R紧张度§!；\n若选择右侧谈判说服路线，则尽可能在马继援完全归顺前拖延£GFX_timericon §s时间§!"
+ ROL_KMT_wild_horses_tt: "§j我们需从两种应对马继援和青海叛乱的手段中选择一种：诉诸武力，或劝使其迷途知返。§!\n若选择左侧武力收服路线，则尽可能在发动攻势前减少£GFX_ROL_KMT_bop_marebellion_nervous §R激进度§!；\n若选择右侧谈判说服路线，则尽可能在马继援完全归顺前拖延£GFX_timericon §s时间§!"
  ROL_KMT_get_ready_to_fight_tt: "若拥有等同或大于本国策所需执行天数的§G足量§!£GFX_ROL_KMT_bop_marebellion_opportunity §Y先机§!，则将消耗等量£GFX_ROL_KMT_bop_marebellion_opportunity §Y先机§!，并直接完成本国策。"
- ROL_KMT_get_ready_to_fight_1_tt: "£GFX_ROL_KMT_bop_marebellion_nervous §R紧张度§!§R增加§!5%\n£GFX_ROL_KMT_bop_marebellion_prepare §s准备度§!§G增加§!5%"
+ ROL_KMT_get_ready_to_fight_1_tt: "£GFX_ROL_KMT_bop_marebellion_nervous §R激进度§!§R增加§!5%\n£GFX_ROL_KMT_bop_marebellion_prepare §s准备度§!§G增加§!5%"
  
  ###民族精神
  ROL_KMT_heteronomy_tt:0 "§R无法在未经§!£GFX_KMT_kmt_icon §B中央§!许可§R时训练部队、解散部队或编辑部队模板。§!\n"
@@ -840,6 +840,30 @@
  ROLregional_redblood_areacontrol_Tianshui: "[?ROL_KMT_redblood_Tianshui_control_num|Y0]"
  ROL_bop_redblood_horse_bill_info: "§Y马家军的备战程度§!：[?ROL_bop_redblood_horse_num|Y1]\n--------------\n"
  ROL_bop_redblood_rook_bill_info: "§Y陕甘宁边区的备战程度§!：[?ROL_bop_redblood_rook_num|Y1]\n--------------\n"
+ 
+ 
+ ##########
+ ROL_bop_qinghai_nervous_redarrow_10_info: "占位符占位符占位符我说占位符你耳聋吗？\n\n[Get_ROL_bop_qinghai_nervous_redarrow_10]\n\n在修正生效时，将应用以下修正：\n触发事件“§Y占位事件1§!”"
+ ROL_bop_qinghai_nervous_redarrow_10_tt_1: "修正已生效，马继援的£GFX_ROL_KMT_bop_marebellion_nervous §R激进度§!将不会再低于§R10.0§!%"
+ ROL_bop_qinghai_nervous_redarrow_10_tt_2: "修正尚未生效，将在马继援的£GFX_ROL_KMT_bop_marebellion_nervous §R激进度§!达到§R10.0§!%及以上时开始生效"
+ ROL_bop_qinghai_nervous_redarrow_25_info: "占位符占位符占位符我说占位符你耳聋吗？\n\n[Get_ROL_bop_qinghai_nervous_redarrow_25]\n\n在修正生效时，将应用以下修正：\n触发事件“§Y占位事件2§!”"
+ ROL_bop_qinghai_nervous_redarrow_25_tt_1: "修正已生效，马继援的£GFX_ROL_KMT_bop_marebellion_nervous §R激进度§!将不会再低于§R25.0§!%"
+ ROL_bop_qinghai_nervous_redarrow_25_tt_2: "修正尚未生效，将在马继援的£GFX_ROL_KMT_bop_marebellion_nervous §R激进度§!达到§R25.0§!%及以上时开始生效"
+ ROL_bop_qinghai_nervous_redarrow_40_info: "占位符占位符占位符我说占位符你耳聋吗？\n\n[Get_ROL_bop_qinghai_nervous_redarrow_40]\n\n在修正生效时，将应用以下修正：\n触发事件“§Y占位事件3§!”"
+ ROL_bop_qinghai_nervous_redarrow_40_tt_1: "修正已生效，马继援的£GFX_ROL_KMT_bop_marebellion_nervous §R激进度§!将不会再低于§R40.0§!%"
+ ROL_bop_qinghai_nervous_redarrow_40_tt_2: "修正尚未生效，将在马继援的£GFX_ROL_KMT_bop_marebellion_nervous §R激进度§!达到§R40.0§!%及以上时开始生效"
+ ROL_bop_qinghai_nervous_redarrow_55_info: "占位符占位符占位符我说占位符你耳聋吗？\n\n[Get_ROL_bop_qinghai_nervous_redarrow_55]\n\n在修正生效时，将应用以下修正：\n触发事件“§Y占位事件4§!”"
+ ROL_bop_qinghai_nervous_redarrow_55_tt_1: "修正已生效，马继援的£GFX_ROL_KMT_bop_marebellion_nervous §R激进度§!将不会再低于§R55.0§!%"
+ ROL_bop_qinghai_nervous_redarrow_55_tt_2: "修正尚未生效，将在马继援的£GFX_ROL_KMT_bop_marebellion_nervous §R激进度§!达到§R55.0§!%及以上时开始生效"
+ ROL_bop_qinghai_nervous_redarrow_70_info: "占位符占位符占位符我说占位符你耳聋吗？\n\n[Get_ROL_bop_qinghai_nervous_redarrow_70]\n\n在修正生效时，将应用以下修正：\n触发事件“§Y占位事件5§!”"
+ ROL_bop_qinghai_nervous_redarrow_70_tt_1: "修正已生效，马继援的£GFX_ROL_KMT_bop_marebellion_nervous §R激进度§!将不会再低于§R70.0§!%"
+ ROL_bop_qinghai_nervous_redarrow_70_tt_2: "修正尚未生效，将在马继援的£GFX_ROL_KMT_bop_marebellion_nervous §R激进度§!达到§R70.0§!%及以上时开始生效"
+ ROL_bop_qinghai_nervous_redarrow_85_info: "占位符占位符占位符我说占位符你耳聋吗？\n\n[Get_ROL_bop_qinghai_nervous_redarrow_85]\n\n在修正生效时，将应用以下修正：\n触发事件“§Y占位事件6§!”"
+ ROL_bop_qinghai_nervous_redarrow_85_tt_1: "修正已生效，马继援的£GFX_ROL_KMT_bop_marebellion_nervous §R激进度§!将不会再低于§R85.0§!%"
+ ROL_bop_qinghai_nervous_redarrow_85_tt_2: "修正尚未生效，将在马继援的£GFX_ROL_KMT_bop_marebellion_nervous §R激进度§!达到§R85.0§!%及以上时开始生效"
+ ROL_bop_qinghai_nervous_redarrow_100_info: "占位符占位符占位符我说占位符你耳聋吗？\n\n[Get_ROL_bop_qinghai_nervous_redarrow_100]\n\n在修正生效时，将应用以下修正：\n触发事件“§Y占位事件7§!”"
+ ROL_bop_qinghai_nervous_redarrow_100_tt_1: "修正已生效，马继援的£GFX_ROL_KMT_bop_marebellion_nervous §R激进度§!将不会再低于§R100.0§!%"
+ ROL_bop_qinghai_nervous_redarrow_100_tt_2: "修正尚未生效，将在马继援的£GFX_ROL_KMT_bop_marebellion_nervous §R激进度§!达到§R100.0§!%及以上时开始生效"
  
 
  

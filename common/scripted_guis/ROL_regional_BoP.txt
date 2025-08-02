@@ -598,6 +598,10 @@ scripted_gui = {
 			ROL_bop_redblood_occlusion_icon = {
 				frame = ROL_bop_redblood_page_selected
 			}
+			
+			ROL_bop_qinghai_nervous_bill = {
+				frame = ROL_KMT_bop_marebellion_nervous_num
+			}
 		}
 		
 	}
