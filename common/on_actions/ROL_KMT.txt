@@ -9,6 +9,9 @@ on_actions = { #
 				ROL_KMT_Party_Seat_Initiate = yes	
 				ROL_KMT_Party_Seat_Initiate = yes#执行两次是有原因的，不要改动
 				ROL_KMT_initialize_legco = yes
+				set_variable = {
+					ROL_bop_redblood_page_selected = 1 #避免空指针
+				}
 				#########
 				set_variable = {
 					ROL_KMT_redblood_Linxia_control_num = 95

@@ -332,6 +332,19 @@ scripted_gui = {
 					clr_country_flag = ROL_bop_redblood_kmt_Guoluo_highlight
 				}
 			}
+
+			ROL_KMT_redblood_front_button_click = {
+				set_variable = {
+					ROL_bop_redblood_page_selected = 1
+				}
+			}
+
+			ROL_KMT_redblood_homefront_button_click = {
+				set_variable = {
+					ROL_bop_redblood_page_selected = 2
+				}
+			}
+
 		}
 
 		triggers = {
@@ -580,6 +593,10 @@ scripted_gui = {
 			
 			ROL_bop_redblood_rook_bill = {
 				frame = ROL_bop_redblood_rook_num
+			}
+
+			ROL_bop_redblood_occlusion_icon = {
+				frame = ROL_bop_redblood_page_selected
 			}
 		}
 		
