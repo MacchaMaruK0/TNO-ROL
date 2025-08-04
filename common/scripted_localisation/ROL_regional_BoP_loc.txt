@@ -63,6 +63,10 @@ defined_text = {
 		localization_key = "GFX_ROL_bop_qinghai_topbutton"
 	}
 	text = { #
+		trigger = { check_variable = { allowed_decision_tab_id = 3 }  }
+		localization_key = "GFX_ROL_bop_suiyuan_topbutton"
+	}
+	text = { #
 		localization_key = "GFX_fopo_iran_civil_war_icon_us_early"
 	}
 }

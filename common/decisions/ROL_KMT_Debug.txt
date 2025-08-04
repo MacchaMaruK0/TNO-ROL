@@ -1,21 +1,18 @@
 ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国名_决议内容.txt命名
-	#ROL_KMT_Teng_Jie_dec = {
-		#cost = 0
-		#fire_only_once = no
-		#days_re_enable = 0
-		#complete_effect = {
-			#log = "[GetDateText]: [Root.GetName]: Debug Decision ROL_KMT_Teng_Jie_dec"
-			#promote_character = {
-				#character = KMT_ROL_Teng_Jie
-				#ideology = despotism_military_vanguard_subtype
-			#}
-			#remove_all_ministers = yes
-		#}
-	#}
-	
+	KMT_ROL_Add_Bop = {
+		icon = GFX_decision_debug
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 0
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision KMT_ROL_Add_Bop"
+			set_country_flag = KMT_ROL_Add_Bop
+		}
+	}
 	KMT_ROL_Add_Bop_Bar_2_1 = {
 		icon = GFX_decision_debug
 		cost = 0
+		visible = { has_country_flag = KMT_ROL_Add_Bop }
 		fire_only_once = no
 		days_re_enable = 0
 		complete_effect = {
@@ -27,11 +24,25 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 	KMT_ROL_Add_Bop_Bar_2_2 = {
 		icon = GFX_decision_debug
 		cost = 0
+		visible = { has_country_flag = KMT_ROL_Add_Bop }
 		fire_only_once = no
 		days_re_enable = 0
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Debug Decision KMT_ROL_Add_Bop_Bar_2_1"
+			log = "[GetDateText]: [Root.GetName]: Debug Decision KMT_ROL_Add_Bop_Bar_2_2"
 			set_temp_variable = { decision_tabs_id = 2 }
+			ROL_add_tab = yes
+		}
+	}
+	
+	KMT_ROL_Add_Bop_Bar_2_3 = {
+		icon = GFX_decision_debug
+		cost = 0
+		visible = { has_country_flag = KMT_ROL_Add_Bop }
+		fire_only_once = no
+		days_re_enable = 0
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision KMT_ROL_Add_Bop_Bar_2_3"
+			set_temp_variable = { decision_tabs_id = 3 }
 			ROL_add_tab = yes
 		}
 	}
@@ -397,84 +408,28 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 		}
     }
 	
-	ROL_qinghai_test_1 = {
-		icon = GFX_decision_debug
+	MAN_political_power_debug = {
+		#debug
 		fire_only_once = no
-		is_debug = yes
-		complete_effect = {
-			set_variable = {ROL_KMT_bop_marebellion_nervous_num=10}
+		visible = {
+			is_debug = yes
 		}
-    }
-	
-	ROL_qinghai_test_2 = {
-		icon = GFX_decision_debug
-		fire_only_once = no
-		is_debug = yes
 		complete_effect = {
-			set_variable = {ROL_KMT_bop_marebellion_nervous_num=25}
+			# set_country_flag = MAN_show_emp_int_flag
+			# 势力的序号 0 为灰色 1 为绿色 2 为棕色
+			# MAN_faction_from_temp 为失去权力势力序号
+			# MAN_faction_to_temp 为增加权力的势力序号
+			# MAN_faction_num_temp 为权力改变量
+			set_temp_variable = {
+				ROL_faction_from_temp = 0
+			}
+			set_temp_variable = {
+				ROL_faction_to_temp = 2
+			}
+			set_temp_variable = {
+				ROL_faction_num_temp = 5
+			}
+			ROL_bop_suiyuan_army_num = yes
 		}
-    }
-	
-	ROL_qinghai_test_3 = {
-		icon = GFX_decision_debug
-		fire_only_once = no
-		is_debug = yes
-		complete_effect = {
-			set_variable = {ROL_KMT_bop_marebellion_nervous_num=40}
-		}
-    }
-	
-	ROL_qinghai_test_4 = {
-		icon = GFX_decision_debug
-		fire_only_once = no
-		is_debug = yes
-		complete_effect = {
-			set_variable = {ROL_KMT_bop_marebellion_nervous_num=55}
-		}
-    }
-	
-	ROL_qinghai_test_5 = {
-		icon = GFX_decision_debug
-		fire_only_once = no
-		is_debug = yes
-		complete_effect = {
-			set_variable = {ROL_KMT_bop_marebellion_nervous_num=70}
-		}
-    }
-	
-	ROL_qinghai_test_6 = {
-		icon = GFX_decision_debug
-		fire_only_once = no
-		is_debug = yes
-		complete_effect = {
-			set_variable = {ROL_KMT_bop_marebellion_nervous_num=85}
-		}
-    }
-	
-	ROL_qinghai_test_7 = {
-		icon = GFX_decision_debug
-		fire_only_once = no
-		is_debug = yes
-		complete_effect = {
-			set_variable = {ROL_KMT_bop_marebellion_nervous_num=100}
-		}
-    }
-	
-	ROL_qinghai_test_8 = {
-		icon = GFX_decision_debug
-		fire_only_once = no
-		is_debug = yes
-		complete_effect = {
-			set_variable = {ROL_KMT_bop_marebellion_nervous_num=50}
-		}
-    }
-	
-	ROL_qinghai_test_9 = {
-		icon = GFX_decision_debug
-		fire_only_once = no
-		is_debug = yes
-		complete_effect = {
-			set_variable = {ROL_KMT_bop_marebellion_nervous_num=75}
-		}
-    }
+	}
 }

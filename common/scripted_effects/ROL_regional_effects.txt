@@ -418,7 +418,10 @@ ROL_KMT_bop_marebellion_prepare = {
 
 ROL_KMT_bop_marebellion_nervous = {
     #紧张度
-    add_to_variable = {ROL_KMT_bop_marebellion_nervous_num = ROL_KMT_bop_marebellion_prepare_num_temp }
+    add_to_variable = {
+        var = ROL_KMT_bop_marebellion_nervous_num #
+        value = ROL_KMT_bop_marebellion_nervous_num_temp #
+    }
     
 	if = {
 	    limit = {
@@ -664,4 +667,57 @@ ROL_UF_switch_tab_condition = { #切换事件的状态，需求eventid和aimvsta
             ROL_UF_Rankings_Entry_Victory_Log_Vstatus^aimid = aimvstatus
         }
     }
+}
+
+ROL_bop_suiyuan_army_num = {
+	# 军事支持变更
+	add_to_variable = {
+		ROL_bop_suiyuan_army_array^ROL_faction_to_temp = ROL_faction_num_temp
+	}
+	subtract_from_variable = {
+		ROL_bop_suiyuan_army_array^ROL_faction_from_temp = ROL_faction_num_temp
+	}
+	#custom_effect_tooltip = GH_MAN_change_political_palace_num_tt
+	# 限制范围
+	# 当 from减到0以下时 需要进行限制
+	if = {
+		limit = {
+			check_variable = {
+				ROL_bop_suiyuan_army_array^ROL_faction_from_temp < 0
+			}
+		}
+		set_temp_variable = {
+			from_num_temp = ROL_bop_suiyuan_army_array^ROL_faction_from_temp
+			# 这个数就是超出0的部分
+			# to的数值要减去它
+		}
+		set_variable = {
+			ROL_bop_suiyuan_army_array^ROL_faction_from_temp = 0
+		}
+		add_to_variable = {
+			ROL_bop_suiyuan_army_array^ROL_faction_to_temp = from_num_temp
+		}
+		clear_variable = from_num_temp
+	}
+	# 清空临时变量
+	clear_variable = ROL_faction_num_temp
+	clear_variable = ROL_faction_from_temp
+	clear_variable = ROL_faction_to_temp
+	ROL_change_suiyuan_army_check = yes
+}
+
+ROL_change_suiyuan_army_check = {
+	#改变显示效果
+	set_temp_variable = {
+		num1 = ROL_bop_suiyuan_army_array^0
+	}
+	set_variable = {
+		ROL_bop_suiyuan_armybar_blue_var = num1
+	}
+	add_to_temp_variable = {
+		num1 = ROL_bop_suiyuan_army_array^1
+	}
+	set_variable = {
+		ROL_bop_suiyuan_armybar_red_var = num1
+	}
 }

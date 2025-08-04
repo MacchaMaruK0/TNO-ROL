@@ -557,6 +557,63 @@ scripted_gui = {
 			ROL_KMT_txt_icon_visible = {
 				check_variable = { selected_decision_tabs_id = 1 }
 			}
+			ROL_KMT_bop_marebellion_attack_button_visible = {
+				check_variable = { ROL_KMT_bop_marebellion_prepare_num = 100 }
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			
+			ROL_KMT_bop_marebellion_attack_1_icon_visible = {
+				NOT = {check_variable = { ROL_KMT_bop_marebellion_prepare_num = 100 } }
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			
+			ROL_bop_qinghai_prepare_bill_visible = {
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_bop_qinghai_nervous_greenarrow_25_visible = {
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_bop_qinghai_nervous_greenarrow_50_visible = {
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_bop_qinghai_nervous_greenarrow_75_visible = {
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_bop_qinghai_nervous_greenarrow_100_visible = {
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_KMT_bop_marebellion_negotiation_button_visible = {
+				has_country_flag = ROL_KMT_bop_negotiation
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_KMT_bop_marebellion_negotiation_1_icon_visible = {
+				NOT = {has_country_flag = ROL_KMT_bop_negotiation}
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_KMT_bop_marebellion_bullet_1_visible = {
+				check_variable = { ROL_KMT_bop_marebellion_event_num > 0 }
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_KMT_bop_marebellion_bullet_2_visible = {
+				check_variable = { ROL_KMT_bop_marebellion_event_num > 1 }
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_KMT_bop_marebellion_bullet_3_visible = {
+				check_variable = { ROL_KMT_bop_marebellion_event_num > 2 }
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_KMT_bop_marebellion_bullet_4_visible = {
+				check_variable = { ROL_KMT_bop_marebellion_event_num > 3 }
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_KMT_bop_marebellion_bullet_5_visible = {
+				check_variable = { ROL_KMT_bop_marebellion_event_num > 4 }
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
+			ROL_KMT_bop_marebellion_bullet_6_visible = {
+				check_variable = { ROL_KMT_bop_marebellion_event_num > 5 }
+				check_variable = { selected_decision_tabs_id = 2 }
+			}
 			########
 			ROL_bop_redblood_occlusion_icon_visible = {
 				check_variable = { selected_decision_tabs_id = 1 }
@@ -579,6 +636,12 @@ scripted_gui = {
 			ROL_KMT_red_blood_control_txt_visible = {
 				check_variable = { selected_decision_tabs_id = 1 }
 			}
+			ROL_KMT_redblood_homefront_button_visible = {
+				check_variable = { selected_decision_tabs_id = 1 }
+			}
+			support_icon_visible = {
+				check_variable = { selected_decision_tabs_id = 1 }
+			}
 			########
 			ROL_bop_redblood_horse_bill_visible = {
 				OR = {
@@ -591,12 +654,20 @@ scripted_gui = {
 			
 			ROL_bop_redblood_rook_bill_visible = {
 				OR = {
-					has_country_flag = ROL_bop_redblood_cpc_Guoluo_highlight
-					has_country_flag = ROL_bop_redblood_cpc_Gannan_highlight
 					has_country_flag = ROL_bop_redblood_cpc_Lintao_highlight
 					has_country_flag = ROL_bop_redblood_cpc_Minzhou_highlight
 					has_country_flag = ROL_bop_redblood_cpc_Tianshui_highlight
 					has_country_flag = ROL_bop_redblood_cpc_Linxia_highlight
+				}
+				check_variable = { selected_decision_tabs_id = 1 }
+			}
+			
+			ROL_bop_redblood_bishop_bill_visible = {
+				OR = {
+					has_country_flag = ROL_bop_redblood_kmt_Lintao_highlight
+					has_country_flag = ROL_bop_redblood_kmt_Minzhou_highlight
+					has_country_flag = ROL_bop_redblood_kmt_Tianshui_highlight
+					has_country_flag = ROL_bop_redblood_kmt_Linxia_highlight
 				}
 				check_variable = { selected_decision_tabs_id = 1 }
 			}
@@ -629,6 +700,15 @@ scripted_gui = {
 			ROL_bop_qinghai_nervous_bill = {
 				frame = ROL_KMT_bop_marebellion_nervous_num
 			}
+			#######
+			ROL_bop_suiyuan_armybar_blue_bar = {
+				frame = ROL_bop_suiyuan_armybar_blue_var
+			}
+			ROL_bop_suiyuan_armybar_red_bar = {
+				frame = ROL_bop_suiyuan_armybar_red_var
+			}
+			#######
+			
 		}
 		
 	}

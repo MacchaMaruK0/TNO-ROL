@@ -172,6 +172,14 @@ guiTypes = {
 				pdx_tooltip = ROL_KMT_qinghai_rebellion_info
 				pdx_tooltip_delayed = ROL_KMT_qinghai_rebellion_delayed_info
 			}
+			
+			iconType = {
+				name = "ROL_KMT_suiyuan_rebellion_infor"
+				position = { x = 5 y = 75 }
+				spriteType = "GFX_Burgundy_GUI_Info_Button"
+				pdx_tooltip = ROL_KMT_suiyuan_rebellion_info
+				pdx_tooltip_delayed = ROL_KMT_suiyuan_rebellion_delayed_info
+			}
 		
 			iconType = {
 				name = "ROL_KMT_txt_icon"
@@ -183,6 +191,12 @@ guiTypes = {
 				name = "ROL_bop_qinghai_topbar_icon"
 				position = { x = 45 y = 80 }
 				spriteType = "GFX_ROL_bop_qinghai_topbar"
+			}
+			
+			iconType = {
+				name = "ROL_bop_suiyuan_topbar_icon"
+				position = { x = 45 y = 80 }
+				spriteType = "GFX_ROL_bop_suiyuan_topbar"
 			}
 			
 			iconType = {
@@ -445,6 +459,13 @@ guiTypes = {
 				pdx_tooltip = "ROL_bop_redblood_rook_bill_info"
 			}
 			
+			iconType = {
+				name = "ROL_bop_redblood_bishop_bill"
+				position = { x = 300 y = 140 }
+				spriteType = "GFX_ROL_bop_redblood_bishop_bill"
+				pdx_tooltip = "ROL_bop_redblood_bishop_bill_info"
+			}
+			
 			########
 			
 			iconType = {
@@ -460,6 +481,30 @@ guiTypes = {
 				spriteType = "GFX_ROL_bop_qinghai_prepare_bill"
 				pdx_tooltip = "ROL_bop_qinghai_prepare_bill_info"
 			}
+			######
+			buttonType = {
+				name = "ROL_KMT_bop_marebellion_attack_button"
+				spriteType = "GFX_ROL_KMT_bop_marebellion_attack"
+				position = { x = 253 y = 135 }
+			}
+			
+			iconType = {
+				name = "ROL_KMT_bop_marebellion_attack_1_icon"
+				position = { x = 251 y = 135 }
+				spriteType = "GFX_ROL_KMT_bop_marebellion_attack_1"
+			}
+			
+			buttonType = {
+				name = "ROL_KMT_bop_marebellion_negotiation_button"
+				spriteType = "GFX_ROL_KMT_bop_marebellion_negotiation"
+				position = { x = 12 y = 135 }
+			}
+			
+			iconType = {
+				name = "ROL_KMT_bop_marebellion_negotiation_1_icon"
+				position = { x = 6 y = 135 }
+				spriteType = "GFX_ROL_KMT_bop_marebellion_negotiation_1"
+			}
 			
 			iconType = {
 				name = "ROL_KMT_bop_marebellion_revolver"
@@ -467,12 +512,12 @@ guiTypes = {
 				spriteType = "GFX_ROL_KMT_bop_marebellion_revolver"
 				#pdx_tooltip = "ROL_KMT_bop_marebellion_revolver_info"
 			}
-			######
+			
 			iconType = {
 				name = "ROL_KMT_bop_marebellion_bullet_1"
 				position = { x = 211 y = 154 }
 				spriteType = "GFX_ROL_KMT_bop_marebellion_bullet"
-				#pdx_tooltip = "ROL_KMT_bop_marebellion_bullet_1_info"
+				pdx_tooltip = "ROL_KMT_bop_marebellion_bullet_1_info"
 			}
 			
 			iconType = {
@@ -508,20 +553,6 @@ guiTypes = {
 				position = { x = 128 y = 204 }
 				spriteType = "GFX_ROL_KMT_bop_marebellion_bullet"
 				#pdx_tooltip = "ROL_KMT_bop_marebellion_bullet_5_info"
-			}
-			######
-			buttonType = {
-				name = "ROL_KMT_bop_marebellion_attack_button"
-				spriteType = "GFX_ROL_KMT_bop_marebellion_attack"
-				position = { x = 253 y = 135 }
-				alwaystransparent = yes
-			}
-			
-			buttonType = {
-				name = "ROL_KMT_bop_marebellion_negotiation_button"
-				spriteType = "GFX_ROL_KMT_bop_marebellion_negotiation"
-				position = { x = 12 y = 135 }
-				alwaystransparent = yes
 			}
 			
 			iconType = {
@@ -599,6 +630,64 @@ guiTypes = {
 				position = { x = 476 y = 480 }
 				spriteType = "GFX_ROL_KMT_bop_marebellion_redarrow"
 				pdx_tooltip = "ROL_bop_qinghai_nervous_redarrow_100_info"
+			}
+			#######
+			
+			
+			iconType = {
+				name = "ROL_bop_suiyuan_armybar_red_bar"
+				position = { x = 5 y = 475 }
+				spriteType = "GFX_ROL_bop_suiyuan_armybar_red"
+				#pdx_tooltip = "ROL_bop_qinghai_nervous_redarrow_85_info"
+			}
+			
+			iconType = {
+				name = "ROL_bop_suiyuan_armybar_blue_bar"
+				position = { x = 5 y = 475 }
+				spriteType = "GFX_ROL_bop_suiyuan_armybar_blue"
+			}
+			
+			#iconType = {
+				#name = "ROL_bop_suiyuan_frame"
+				#position = { x = 7 y = 80 }
+				#spriteType = "GFX_ROL_bop_suiyuan_frame"
+				#alwaystransparent = yes
+			#}
+			
+			iconType = {
+				name = "ROL_bop_suiyuan_frame_1"
+				position = { x = 7 y = 75 }
+				spriteType = "GFX_ROL_bop_suiyuan_frame_1"
+			}
+			
+			buttonType = {
+				name = "ROL_bop_suiyuan_icon_button"
+				spriteType = "GFX_ROL_bop_suiyuan_icon"
+				position = { x = 173 y = 149 }
+			}
+			
+			buttonType = {
+				name = "ROL_bop_suiyuan_An_Chunshan_button"
+				spriteType = "GFX_ROL_bop_suiyuan_An_Chunshan"
+				position = { x = 21 y = 146 }
+			}
+			
+			buttonType = {
+				name = "ROL_bop_suiyuan_Li_Yongxin_button"
+				spriteType = "GFX_ROL_bop_suiyuan_Li_Yongxin"
+				position = { x = 81 y = 311 }
+			}
+			
+			buttonType = {
+				name = "ROL_bop_suiyuan_Wu_Lanfu_button"
+				spriteType = "GFX_ROL_bop_suiyuan_Wu_Lanfu"
+				position = { x = 365 y = 146 }
+			}
+			
+			buttonType = {
+				name = "ROL_bop_suiyuan_Da_Li_button"
+				spriteType = "GFX_ROL_bop_suiyuan_Da_Li"
+				position = { x = 305 y = 312 }
 			}
 		}
 		

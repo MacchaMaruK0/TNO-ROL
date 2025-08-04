@@ -17,13 +17,6 @@ country_event = {
 
 	option = { 
 		name = ROL_BoP_event.1.a
-		set_temp_variable = { TabName = token:BoP_Tab_ROLregional }
-		TNO_BoP_ROLregional_AddTab = yes
-		set_temp_variable = { TabName = token:BoP_Tab_ROLregional1 }
-		TNO_BoP_ROLregional_AddTab = yes
-		set_country_flag = ROL_KMT_fopo
-		set_country_flag = ROL_KMT_regional
-		set_country_flag = ROL_KMT_red_blood
 		set_temp_variable = { decision_tabs_id = 1 }
 		ROL_add_tab = yes
 	}

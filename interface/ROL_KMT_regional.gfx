@@ -161,6 +161,16 @@ spriteTypes = {
 		horizontal = no
 		steps = 100
 	}
+	
+	progressbartype = {
+		name = "GFX_ROL_bop_redblood_bishop_bill"
+		textureFile1 = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_bishop_full.png"
+		textureFile2 = "gfx/interface/bop/ROL_bop_redblood/ROL_bop_redblood_bishop_empty.png"
+		size = { x = 200 y = 344 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+		steps = 100
+	}
 }	
 
 spriteTypes = {
@@ -188,6 +198,11 @@ spriteTypes = {
 	spriteType = { #题头
 	name = "GFX_ROL_bop_qinghai_topbar" ###
 	textureFile = "gfx/interface/bop/ROL_bop_insider_bar/ROL_bop_qinghai_topbar.png"
+	}
+	
+	spriteType = { #题头
+	name = "GFX_ROL_bop_suiyuan_topbar" ###
+	textureFile = "gfx/interface/bop/ROL_bop_insider_bar/ROL_bop_suiyuan_topbar.png"
 	}
 	
 	progressbartype = {
@@ -240,6 +255,16 @@ spriteTypes = {
 	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_KMT_bop_marebellion_negotiation.png"
 	}
 	
+	spriteType = { #进攻-灰
+	name = "GFX_ROL_KMT_bop_marebellion_attack_1" ###
+	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_KMT_bop_marebellion_attack_1.png"
+	}
+	
+	spriteType = { #谈判-灰
+	name = "GFX_ROL_KMT_bop_marebellion_negotiation_1" ###
+	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_KMT_bop_marebellion_negotiation_1.png"
+	}
+	
 	spriteType = { #card1
 	name = "GFX_ROL_bop_qinghai_card_1" ###
 	textureFile = "gfx/interface/bop/ROL_bop_qinghai/ROL_bop_qinghai_card_1.png"
@@ -276,6 +301,63 @@ spriteTypes = {
 	legacy_lazy_load = no
 	}
 }
+spriteTypes = {
+
+	progressbartype = {
+		name = "GFX_ROL_bop_suiyuan_armybar_red"
+		textureFile1 = "gfx/interface/bop/ROL_bop_suiyuan/ROL_bop_suiyuan_armybar_gery.png"
+		textureFile2 = "gfx/interface/bop/ROL_bop_suiyuan/ROL_bop_suiyuan_armybar_red.png"
+		size = { x = 495 y = 160 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+		steps = 100
+	}
+	progressbartype = {
+		name = "GFX_ROL_bop_suiyuan_armybar_blue"
+		textureFile1 = "gfx/interface/bop/ROL_bop_suiyuan/ROL_bop_suiyuan_armybar_blue.png"
+		textureFile2 = "gfx/interface/bop/ROL_bop_suiyuan/ROL_bop_suiyuan_armybar_empty.dds"
+		size = { x = 495 y = 160 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+		steps = 100
+	}
+	
+	spriteType = { #frame
+	name = "GFX_ROL_bop_suiyuan_frame" ###
+	textureFile = "gfx/interface/bop/ROL_bop_suiyuan/ROL_bop_suiyuan_frame.png"
+	}
+	
+	spriteType = { #frame -1
+	name = "GFX_ROL_bop_suiyuan_frame_1" ###
+	textureFile = "gfx/interface/bop/ROL_bop_suiyuan/ROL_bop_suiyuan_frame_1.png"
+	}
+	
+	spriteType = { #乌兰夫
+	name = "GFX_ROL_bop_suiyuan_Wu_Lanfu" ###
+	textureFile = "gfx/interface/bop/ROL_bop_suiyuan/ROL_bop_suiyuan_Wu_Lanfu.png"
+	}
+	
+	spriteType = { #达理札雅
+	name = "GFX_ROL_bop_suiyuan_Da_Li" ###
+	textureFile = "gfx/interface/bop/ROL_bop_suiyuan/ROL_bop_suiyuan_Da_Li.png"
+	}
+	
+	spriteType = { #安春山
+	name = "GFX_ROL_bop_suiyuan_An_Chunshan" ###
+	textureFile = "gfx/interface/bop/ROL_bop_suiyuan/ROL_bop_suiyuan_An_Chunshan.png"
+	}
+	
+	spriteType = { #李永新
+	name = "GFX_ROL_bop_suiyuan_Li_Yongxin" ###
+	textureFile = "gfx/interface/bop/ROL_bop_suiyuan/ROL_bop_suiyuan_Li_Yongxin.png"
+	}
+	
+	spriteType = { #省徽
+	name = "GFX_ROL_bop_suiyuan_icon" ###
+	textureFile = "gfx/interface/bop/ROL_bop_suiyuan/ROL_bop_suiyuan_icon.png"
+	}
+
+}
 
 spriteTypes = {
 
@@ -287,6 +369,11 @@ spriteTypes = {
 	spriteType = { #按钮2
 	name = "GFX_ROL_bop_qinghai_topbutton" ###
 	textureFile = "gfx/interface/bop/ROL_bop_insider_bar/ROL_bop_qinghai_topbutton.png"
+	}
+	
+	spriteType = { #按钮3
+	name = "GFX_ROL_bop_suiyuan_topbutton" ###
+	textureFile = "gfx/interface/bop/ROL_bop_insider_bar/ROL_bop_suiyuan_topbutton.png"
 	}
 
 }
