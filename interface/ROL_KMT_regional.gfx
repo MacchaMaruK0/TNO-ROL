@@ -307,7 +307,7 @@ spriteTypes = {
 		name = "GFX_ROL_bop_suiyuan_armybar_red"
 		textureFile1 = "gfx/interface/bop/ROL_bop_suiyuan/ROL_bop_suiyuan_armybar_gery.png"
 		textureFile2 = "gfx/interface/bop/ROL_bop_suiyuan/ROL_bop_suiyuan_armybar_red.png"
-		size = { x = 495 y = 160 }
+		size = { x = 495 y = 156 }
 		effectFile = "gfx/FX/progress.lua"
 		horizontal = yes
 		steps = 100
@@ -316,7 +316,7 @@ spriteTypes = {
 		name = "GFX_ROL_bop_suiyuan_armybar_blue"
 		textureFile1 = "gfx/interface/bop/ROL_bop_suiyuan/ROL_bop_suiyuan_armybar_blue.png"
 		textureFile2 = "gfx/interface/bop/ROL_bop_suiyuan/ROL_bop_suiyuan_armybar_empty.dds"
-		size = { x = 495 y = 160 }
+		size = { x = 495 y = 156 }
 		effectFile = "gfx/FX/progress.lua"
 		horizontal = yes
 		steps = 100

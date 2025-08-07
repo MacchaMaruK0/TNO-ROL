@@ -24,6 +24,9 @@ set_popularities = {
 
 add_ideas = {
         Sphere_Chinese_Warlord
+		ROL_SIC_shu_dog_bark_at_sun
+		ROL_SIC_chongqing_under_central_gov
+		ROL_SIC_before_the_rain
     ### POLITICAL LAWS ###
         tno_political_parties_one_party_state
         tno_religious_rights_state_religion
