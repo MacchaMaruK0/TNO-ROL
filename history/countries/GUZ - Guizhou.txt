@@ -13,7 +13,9 @@ oob = "ROL_GUZ_units_1962"
 
 add_ideas = {
 	#Country
-	
+	ROL_GUZ_panopticon
+	ROL_GUZ_thousand_eyes
+	ROL_GUZ_weak_lion
 	#Political
 	tno_political_parties_one_party_state
 	tno_religious_rights_secularism

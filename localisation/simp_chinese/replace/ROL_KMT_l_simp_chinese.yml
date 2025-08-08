@@ -911,3 +911,5 @@
  #不需要在别的地方注册，只在这里写就行
  ROL_KMT_event_1_title: "测试事件"
  ROL_KMT_event_1_discription: "测试事件 - 描述"
+ 
+ ######

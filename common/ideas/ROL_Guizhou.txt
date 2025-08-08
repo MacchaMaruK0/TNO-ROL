@@ -1,0 +1,31 @@
+ideas = {
+    country = {
+		ROL_GUZ_panopticon = { #圆形监狱
+			allowed = { always = no }
+			picture = ROL_GUZ_panopticon
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+		
+		ROL_GUZ_thousand_eyes = { #千眼所窥
+			allowed = { always = no }
+			picture = ROL_GUZ_thousand_eyes
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+		
+		ROL_GUZ_weak_lion = { #断牙疲狮
+			allowed = { always = no }
+			picture = ROL_GUZ_thousand_eyes
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+		
+	}
+}	
