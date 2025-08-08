@@ -1,0 +1,25 @@
+ideas = {
+	country = {
+		ROL_ETR_bone_ulcer = {
+			#附骨之疽
+			allowed = {
+				always = no
+			}
+			picture = ROL_ETR_bone_ulcer
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		
+		ROL_ETR_allahu_akbar = {
+			#真主至大
+			allowed = {
+				always = no
+			}
+			picture = ROL_ETR_allahu_akbar
+			removal_cost = -1
+			modifier = {
+			}
+		}
+	}
+}	

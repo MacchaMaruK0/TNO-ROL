@@ -13,6 +13,9 @@ oob = "ETR_1962"
 set_stability = 0.32
 
 add_ideas = {
+	######
+	ROL_ETR_bone_ulcer
+	ROL_ETR_allahu_akbar
 ### POLITICAL LAWS ###
 	tno_political_parties_one_party_state
 	tno_religious_rights_state_religion

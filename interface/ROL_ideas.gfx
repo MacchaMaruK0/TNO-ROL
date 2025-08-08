@@ -158,4 +158,28 @@ spriteTypes = {
 		name = "GFX_idea_ROL_GUZ_weak_lion"
 		textureFile = "gfx/interface/ideas/national_spirits/GUZ/ROL_GUZ_weak_lion.png"
 	}
+	
+	######
+	spriteType = {
+		name = "GFX_idea_ROL_SHX_Road_to_Great_Harmony"
+		textureFile = "gfx/interface/ideas/national_spirits/SHX/ROL_SHX_Road_to_Great_Harmony.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ROL_SHX_Existence_is_Truth"
+		textureFile = "gfx/interface/ideas/national_spirits/SHX/ROL_SHX_Existence_is_Truth.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ROL_SHX_Inneed_is_Legal"
+		textureFile = "gfx/interface/ideas/national_spirits/SHX/ROL_SHX_Inneed_is_Legal.png"
+	}
+	######
+	spriteType = {
+		name = "GFX_idea_ROL_ETR_bone_ulcer"
+		textureFile = "gfx/interface/ideas/national_spirits/ETR/ROL_ETR_bone_ulcer.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ROL_ETR_allahu_akbar"
+		textureFile = "gfx/interface/ideas/national_spirits/ETR/ROL_ETR_allahu_akbar.png"
+	}
 }

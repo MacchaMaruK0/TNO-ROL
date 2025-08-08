@@ -151,6 +151,10 @@ set_popularities = {
 }
 
 add_ideas = {
+	###
+	ROL_SHX_Road_to_Great_Harmony
+	ROL_SHX_Existence_is_Truth
+	ROL_SHX_Inneed_is_Legal
 	#Political
 	tno_political_parties_one_party_state
 	tno_religious_rights_secularism
