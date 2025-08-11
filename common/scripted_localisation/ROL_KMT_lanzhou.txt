@@ -141,3 +141,139 @@ defined_text = {
 		localization_key = ROL_KMT_lanzhou_control_4_tt_3
 	}
 }
+
+defined_text = { #此为例子：分别为1，2，3阶段，顺序与其他处一致
+	name = GetLanzhouButton1TT
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_stage = 1 }
+		}
+		localization_key = ROL_KMT_speech_botton_tt 
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_stage = 2 }
+		}
+		localization_key = ROL_KMT_reorganization_party_tt 
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_stage = 3 }
+		}
+		localization_key = ROL_KMT_distribution_weapons_tt 
+	}
+}
+
+
+defined_text = { 
+	name = GetLanzhouButton2TT
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_stage = 1 }
+		}
+		localization_key = ROL_KMT_speech_botton_tt 
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_stage = 2 }
+		}
+		localization_key = ROL_KMT_speech_botton_tt 
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_stage = 3 }
+		}
+		localization_key = ROL_KMT_speech_botton_tt 
+	}
+}
+
+
+defined_text = { 
+	name = GetLanzhouButton3TT
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_stage = 1 }
+		}
+		localization_key = ROL_KMT_speech_botton_tt 
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_stage = 2 }
+		}
+		localization_key = ROL_KMT_speech_botton_tt 
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_stage = 3 }
+		}
+		localization_key = ROL_KMT_speech_botton_tt 
+	}
+}
+
+defined_text = { 
+	name = GetLanzhouButton4TT
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_stage = 1 }
+		}
+		localization_key = ROL_KMT_speech_botton_tt 
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_stage = 2 }
+		}
+		localization_key = ROL_KMT_speech_botton_tt 
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_stage = 3 }
+		}
+		localization_key = ROL_KMT_speech_botton_tt 
+	}
+}
+
+
+defined_text = { 
+	name = GetLanzhouButton5TT
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_stage = 1 }
+		}
+		localization_key = ROL_KMT_speech_botton_tt 
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_stage = 2 }
+		}
+		localization_key = ROL_KMT_speech_botton_tt 
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_stage = 3 }
+		}
+		localization_key = ROL_KMT_speech_botton_tt 
+	}
+}
+
+
+defined_text = { 
+	name = GetLanzhouButton6TT
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_stage = 1 }
+		}
+		localization_key = ROL_KMT_speech_botton_tt 
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_stage = 2 }
+		}
+		localization_key = ROL_KMT_speech_botton_tt 
+	}
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_lanzhou_stage = 3 }
+		}
+		localization_key = ROL_KMT_speech_botton_tt 
+	}
+}

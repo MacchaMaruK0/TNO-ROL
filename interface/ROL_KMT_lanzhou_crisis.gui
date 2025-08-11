@@ -306,381 +306,45 @@ guiTypes = {
             }
 			########
 			buttonType = {
-            name = "ROL_KMT_lanzhou_speech_button"
+            name = "ROL_KMT_lanzhou_position_1_button"
             position = { x = 15 y = 75 }
-            spriteType = "GFX_ROL_KMT_lanzhou_speech_icon"
-            pdx_tooltip = ROL_KMT_speech_botton_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_lanzhou_speech_2_button"
-            position = { x = 15 y = 75 }
-            spriteType = "GFX_ROL_KMT_lanzhou_speech_icon"
-            pdx_tooltip = ROL_KMT_speech_botton_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_lanzhou_speech_3_button"
-            position = { x = 15 y = 75 }
-            spriteType = "GFX_ROL_KMT_lanzhou_speech_icon"
-            pdx_tooltip = ROL_KMT_speech_botton_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_lanzhou_speech_4_button"
-            position = { x = 15 y = 75 }
-            spriteType = "GFX_ROL_KMT_lanzhou_speech_icon"
-            pdx_tooltip = ROL_KMT_speech_botton_tt
-			}
-			########
-			buttonType = {
-            name = "ROL_KMT_reorganization_party_button"
-            position = { x = 15 y = 75 }
-            spriteType = "GFX_ROL_KMT_reorganization_party_icon"
-            pdx_tooltip = ROL_KMT_reorganization_party_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_reorganization_party_2_button"
-            position = { x = 15 y = 75 }
-            spriteType = "GFX_ROL_KMT_reorganization_party_icon"
-            pdx_tooltip = ROL_KMT_reorganization_party_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_reorganization_party_3_button"
-            position = { x = 15 y = 75 }
-            spriteType = "GFX_ROL_KMT_reorganization_party_icon"
-            pdx_tooltip = ROL_KMT_reorganization_party_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_reorganization_party_4_button"
-            position = { x = 15 y = 75 }
-            spriteType = "GFX_ROL_KMT_reorganization_party_icon"
-            pdx_tooltip = ROL_KMT_reorganization_party_tt
-			}
-			######第三阶段
-			buttonType = {
-            name = "ROL_KMT_distribution_weapons_button"
-            position = { x = 15 y = 75 }
-            spriteType = "GFX_ROL_KMT_distribution_weapons_icon"
-            pdx_tooltip = ROL_KMT_distribution_weapons_tt
+            spriteType = "ROL_KMT_lanzhou_position_1_button"
+            pdx_tooltip = ROL_KMT_position_1_botton_tt
 			}
 			######
 			buttonType = {
-            name = "ROL_KMT_lanzhou_youth_server_button"
+            name = "ROL_KMT_lanzhou_position_2_button"
             position = { x = 15 y = 190 }
-            spriteType = "GFX_ROL_KMT_lanzhou_youth_server_icon"
-            pdx_tooltip = ROL_KMT_lanzhou_youth_server_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_lanzhou_youth_server_2_button"
-            position = { x = 15 y = 190 }
-            spriteType = "GFX_ROL_KMT_lanzhou_youth_server_icon"
-            pdx_tooltip = ROL_KMT_lanzhou_youth_server_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_lanzhou_youth_server_3_button"
-            position = { x = 15 y = 190 }
-            spriteType = "GFX_ROL_KMT_lanzhou_youth_server_icon"
-            pdx_tooltip = ROL_KMT_lanzhou_youth_server_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_lanzhou_youth_server_4_button"
-            position = { x = 15 y = 190 }
-            spriteType = "GFX_ROL_KMT_lanzhou_youth_server_icon"
-            pdx_tooltip = ROL_KMT_lanzhou_youth_server_tt
-			}
-			#######
-			buttonType = {
-            name = "ROL_KMT_village_police_button"
-            position = { x = 15 y = 190 }
-            spriteType = "GFX_ROL_KMT_village_police_icon"
-            pdx_tooltip = ROL_KMT_village_police_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_village_police_2_button"
-            position = { x = 15 y = 190 }
-            spriteType = "GFX_ROL_KMT_village_police_icon"
-            pdx_tooltip = ROL_KMT_village_police_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_village_police_3_button"
-            position = { x = 15 y = 190 }
-            spriteType = "GFX_ROL_KMT_village_police_icon"
-            pdx_tooltip = ROL_KMT_village_police_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_village_police_4_button"
-            position = { x = 15 y = 190 }
-            spriteType = "GFX_ROL_KMT_village_police_icon"
-            pdx_tooltip = ROL_KMT_village_police_tt
-			}
-			######第三阶段
-			buttonType = {
-            name = "ROL_KMT_armed_regiments_button"
-            position = { x = 15 y = 190 }
-            spriteType = "GFX_ROL_KMT_armed_regiments_icon"
-            pdx_tooltip = ROL_KMT_armed_regiments_tt
+            spriteType = "ROL_KMT_lanzhou_position_2_button"
+            pdx_tooltip = ROL_KMT_position_2_botton_tt
 			}
 			######
 			buttonType = {
-            name = "ROL_KMT_lanzhou_banned_cpc_button"
-            position = { x = 150 y = 190 }
-            spriteType = "GFX_ROL_KMT_lanzhou_banned_cpc_icon"
-            pdx_tooltip = ROL_KMT_lanzhou_banned_cpc_botton_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_lanzhou_banned_cpc_2_button"
-            position = { x = 150 y = 190 }
-            spriteType = "GFX_ROL_KMT_lanzhou_banned_cpc_icon"
-            pdx_tooltip = ROL_KMT_lanzhou_banned_cpc_botton_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_lanzhou_banned_cpc_3_button"
-            position = { x = 150 y = 190 }
-            spriteType = "GFX_ROL_KMT_lanzhou_banned_cpc_icon"
-            pdx_tooltip = ROL_KMT_lanzhou_banned_cpc_botton_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_lanzhou_banned_cpc_4_button"
-            position = { x = 150 y = 190 }
-            spriteType = "GFX_ROL_KMT_lanzhou_banned_cpc_icon"
-            pdx_tooltip = ROL_KMT_lanzhou_banned_cpc_botton_tt
-			}
-			#######
-			buttonType = {
-            name = "ROL_KMT_dismantle_regiment_button"
-            position = { x = 150 y = 190 }
-            spriteType = "GFX_ROL_KMT_dismantle_regiment_icon"
-            pdx_tooltip = ROL_KMT_dismantle_regiment_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_dismantle_regiment_2_button"
-            position = { x = 150 y = 190 }
-            spriteType = "GFX_ROL_KMT_dismantle_regiment_icon"
-            pdx_tooltip = ROL_KMT_dismantle_regiment_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_dismantle_regiment_3_button"
-            position = { x = 150 y = 190 }
-            spriteType = "GFX_ROL_KMT_dismantle_regiment_icon"
-            pdx_tooltip = ROL_KMT_dismantle_regiment_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_dismantle_regiment_4_button"
-            position = { x = 150 y = 190 }
-            spriteType = "GFX_ROL_KMT_dismantle_regiment_icon"
-            pdx_tooltip = ROL_KMT_dismantle_regiment_tt
-			}
-			########第三阶段
-			buttonType = {
-            name = "ROL_KMT_training_reserves_button"
-            position = { x = 150 y = 190 }
-            spriteType = "GFX_ROL_KMT_training_reserves_icon"
-            pdx_tooltip = ROL_KMT_training_reserves_tt
+            name = "ROL_KMT_lanzhou_position_3_button"
+            position = { x = 150 y = 75 }
+            spriteType = "ROL_KMT_lanzhou_position_3_button"
+            pdx_tooltip = ROL_KMT_position_3_botton_tt
 			}
 			########
 			buttonType = {
-            name = "ROL_KMT_lanzhou_liaise_dignitaries_button"
-            position = { x = 150 y = 75 }
-            spriteType = "GFX_ROL_KMT_lanzhou_liaise_dignitaries_icon"
-            pdx_tooltip = ROL_KMT_lanzhou_liaise_dignitaries_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_lanzhou_liaise_dignitaries_2_button"
-            position = { x = 150 y = 75 }
-            spriteType = "GFX_ROL_KMT_lanzhou_liaise_dignitaries_icon"
-            pdx_tooltip = ROL_KMT_lanzhou_liaise_dignitaries_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_lanzhou_liaise_dignitaries_3_button"
-            position = { x = 150 y = 75 }
-            spriteType = "GFX_ROL_KMT_lanzhou_liaise_dignitaries_icon"
-            pdx_tooltip = ROL_KMT_lanzhou_liaise_dignitaries_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_lanzhou_liaise_dignitaries_4_button"
-            position = { x = 150 y = 75 }
-            spriteType = "GFX_ROL_KMT_lanzhou_liaise_dignitaries_icon"
-            pdx_tooltip = ROL_KMT_lanzhou_liaise_dignitaries_tt
+            name = "ROL_KMT_lanzhou_position_4_button"
+            position = { x = 150 y = 190 }
+            spriteType = "ROL_KMT_lanzhou_position_4_button"
+            pdx_tooltip = ROL_KMT_position_4_botton_tt
 			}
 			#######
 			buttonType = {
-            name = "ROL_KMT_additional_representatives_button"
-            position = { x = 150 y = 75 }
-            spriteType = "GFX_ROL_KMT_additional_representatives_icon"
-            pdx_tooltip = ROL_KMT_additional_representatives_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_additional_representatives_2_button"
-            position = { x = 150 y = 75 }
-            spriteType = "GFX_ROL_KMT_additional_representatives_icon"
-            pdx_tooltip = ROL_KMT_additional_representatives_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_additional_representatives_3_button"
-            position = { x = 150 y = 75 }
-            spriteType = "GFX_ROL_KMT_additional_representatives_icon"
-            pdx_tooltip = ROL_KMT_additional_representatives_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_additional_representatives_4_button"
-            position = { x = 150 y = 75 }
-            spriteType = "GFX_ROL_KMT_additional_representatives_icon"
-            pdx_tooltip = ROL_KMT_additional_representatives_tt
-			}
-			#######第三阶段
-			buttonType = {
-            name = "ROL_KMT_hoeing_strength_button"
-            position = { x = 150 y = 75 }
-            spriteType = "GFX_ROL_KMT_hoeing_strength_icon"
-            pdx_tooltip = ROL_KMT_hoeing_strength_tt
-			}
-			#######
-			buttonType = {
-            name = "ROL_KMT_lanzhou_osmotic_movements_botton"
-            position = { x = 290 y = 190 }
-            spriteType = "GFX_ROL_KMT_lanzhou_osmotic_movements_icon"
-            pdx_tooltip = ROL_KMT_lanzhou_osmotic_movements_botton_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_lanzhou_osmotic_movements_2_botton"
-            position = { x = 290 y = 190 }
-            spriteType = "GFX_ROL_KMT_lanzhou_osmotic_movements_icon"
-            pdx_tooltip = ROL_KMT_lanzhou_osmotic_movements_botton_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_lanzhou_osmotic_movements_3_botton"
-            position = { x = 290 y = 190 }
-            spriteType = "GFX_ROL_KMT_lanzhou_osmotic_movements_icon"
-            pdx_tooltip = ROL_KMT_lanzhou_osmotic_movements_botton_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_lanzhou_osmotic_movements_4_botton"
-            position = { x = 290 y = 190 }
-            spriteType = "GFX_ROL_KMT_lanzhou_osmotic_movements_icon"
-            pdx_tooltip = ROL_KMT_lanzhou_osmotic_movements_botton_tt
+            name = "ROL_KMT_lanzhou_position_5_button"
+            position = { x = 290 y = 75 }
+            spriteType = "ROL_KMT_lanzhou_position_5_button"
+            pdx_tooltip = ROL_KMT_position_5_botton_tt
 			}
 			#########
 			buttonType = {
-            name = "ROL_KMT_deregulation_botton"
+            name = "ROL_KMT_lanzhou_position_6_button"
             position = { x = 290 y = 190 }
-            spriteType = "GFX_ROL_KMT_deregulation_icon"
-            pdx_tooltip = ROL_KMT_deregulation_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_deregulation_2_botton"
-            position = { x = 290 y = 190 }
-            spriteType = "GFX_ROL_KMT_deregulation_icon"
-            pdx_tooltip = ROL_KMT_deregulation_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_deregulation_3_botton"
-            position = { x = 290 y = 190 }
-            spriteType = "GFX_ROL_KMT_deregulation_icon"
-            pdx_tooltip = ROL_KMT_deregulation_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_deregulation_4_botton"
-            position = { x = 290 y = 190 }
-            spriteType = "GFX_ROL_KMT_deregulation_icon"
-            pdx_tooltip = ROL_KMT_deregulation_tt
-			}
-			#########第三阶段
-			buttonType = {
-            name = "ROL_KMT_transshipment_supplies_botton"
-            position = { x = 290 y = 190 }
-            spriteType = "GFX_ROL_KMT_transshipment_supplies_icon"
-            pdx_tooltip = ROL_KMT_transshipment_supplies_tt
-			}
-			#########
-			buttonType = {
-            name = "ROL_KMT_lanzhou_propaganda_teams_button"
-            position = { x = 290 y = 75 }
-            spriteType = "GFX_ROL_KMT_lanzhou_propaganda_teams_icon"
-            pdx_tooltip = ROL_KMT_lanzhou_propaganda_teams_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_lanzhou_propaganda_teams_2_button"
-            position = { x = 290 y = 75 }
-            spriteType = "GFX_ROL_KMT_lanzhou_propaganda_teams_icon"
-            pdx_tooltip = ROL_KMT_lanzhou_propaganda_teams_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_lanzhou_propaganda_teams_3_button"
-            position = { x = 290 y = 75 }
-            spriteType = "GFX_ROL_KMT_lanzhou_propaganda_teams_icon"
-            pdx_tooltip = ROL_KMT_lanzhou_propaganda_teams_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_lanzhou_propaganda_teams_4_button"
-            position = { x = 290 y = 75 }
-            spriteType = "GFX_ROL_KMT_lanzhou_propaganda_teams_icon"
-            pdx_tooltip = ROL_KMT_lanzhou_propaganda_teams_tt
-			}
-			##########
-			buttonType = {
-            name = "ROL_KMT_deployment_support_button"
-            position = { x = 290 y = 75 }
-            spriteType = "GFX_ROL_KMT_deployment_support_icon"
-            pdx_tooltip = ROL_KMT_deployment_support_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_deployment_support_2_button"
-            position = { x = 290 y = 75 }
-            spriteType = "GFX_ROL_KMT_deployment_support_icon"
-            pdx_tooltip = ROL_KMT_deployment_support_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_deployment_support_3_button"
-            position = { x = 290 y = 75 }
-            spriteType = "GFX_ROL_KMT_deployment_support_icon"
-            pdx_tooltip = ROL_KMT_deployment_support_tt
-			}
-			
-			buttonType = {
-            name = "ROL_KMT_deployment_support_4_button"
-            position = { x = 290 y = 75 }
-            spriteType = "GFX_ROL_KMT_deployment_support_icon"
-            pdx_tooltip = ROL_KMT_deployment_support_tt
-			}
-			##########第三阶段
-			buttonType = {
-            name = "ROL_KMT_shelling_pointarea_button"
-            position = { x = 290 y = 75 }
-            spriteType = "GFX_ROL_KMT_shelling_pointarea_icon"
-            pdx_tooltip = ROL_KMT_shelling_pointarea_tt
+            spriteType = "ROL_KMT_lanzhou_position_6_button"
+            pdx_tooltip = ROL_KMT_position_6_botton_tt
 			}
 			##########
 			iconType = {
@@ -690,147 +354,39 @@ guiTypes = {
             pdx_tooltip = ROL_KMT_lanzhou_control_1_info
             pdx_tooltip_delayed = ROL_KMT_lanzhou_control_1_delayed_info
             }
-			
+            ##########
 			iconType = {
-                name = "ROL_KMT_lanzhou_1"
-                position = { x = 15 y = 75 }
-                spriteType = "GFX_ROL_KMT_action_lock_icon"
-            }
-			
-			iconType = {
-                name = "ROL_KMT_lanzhou_12"
-                position = { x = 15 y = 75 }
-                spriteType = "GFX_ROL_KMT_action_lock_icon"
-            }
-			
-			iconType = {
-                name = "ROL_KMT_lanzhou_13"
-                position = { x = 15 y = 75 }
-                spriteType = "GFX_ROL_KMT_action_lock_icon"
-            }
-			
-			iconType = {
-                name = "ROL_KMT_lanzhou_14"
+                name = "ROL_KMT_lanzhou_block_1"
                 position = { x = 15 y = 75 }
                 spriteType = "GFX_ROL_KMT_action_lock_icon"
             }
 			#####
 			iconType = {
-                name = "ROL_KMT_lanzhou_3"
-                position = { x = 290 y = 190 }
-                spriteType = "GFX_ROL_KMT_action_lock_icon"
-            }
-			
-			iconType = {
-                name = "ROL_KMT_lanzhou_32"
-                position = { x = 290 y = 190 }
-                spriteType = "GFX_ROL_KMT_action_lock_icon"
-            }
-			
-			iconType = {
-                name = "ROL_KMT_lanzhou_33"
-                position = { x = 290 y = 190 }
-                spriteType = "GFX_ROL_KMT_action_lock_icon"
-            }
-			
-			iconType = {
-                name = "ROL_KMT_lanzhou_34"
+                name = "ROL_KMT_lanzhou_block_6"
                 position = { x = 290 y = 190 }
                 spriteType = "GFX_ROL_KMT_action_lock_icon"
             }
 			######
 			iconType = {
-                name = "ROL_KMT_lanzhou_4"
-                position = { x = 150 y = 75 }
-                spriteType = "GFX_ROL_KMT_action_lock_icon"
-            }
-			
-			iconType = {
-                name = "ROL_KMT_lanzhou_42"
-                position = { x = 150 y = 75 }
-                spriteType = "GFX_ROL_KMT_action_lock_icon"
-            }
-			
-			iconType = {
-                name = "ROL_KMT_lanzhou_43"
-                position = { x = 150 y = 75 }
-                spriteType = "GFX_ROL_KMT_action_lock_icon"
-            }
-			
-			iconType = {
-                name = "ROL_KMT_lanzhou_44"
+                name = "ROL_KMT_lanzhou_block_3"
                 position = { x = 150 y = 75 }
                 spriteType = "GFX_ROL_KMT_action_lock_icon"
             }
 			#######
 			iconType = {
-                name = "ROL_KMT_lanzhou_5"
-                position = { x = 290 y = 75 }
-                spriteType = "GFX_ROL_KMT_action_lock_icon"
-            }
-			
-			iconType = {
-                name = "ROL_KMT_lanzhou_52"
-                position = { x = 290 y = 75 }
-                spriteType = "GFX_ROL_KMT_action_lock_icon"
-            }
-			
-			iconType = {
-                name = "ROL_KMT_lanzhou_53"
-                position = { x = 290 y = 75 }
-                spriteType = "GFX_ROL_KMT_action_lock_icon"
-            }
-			
-			iconType = {
-                name = "ROL_KMT_lanzhou_54"
+                name = "ROL_KMT_lanzhou_block_5"
                 position = { x = 290 y = 75 }
                 spriteType = "GFX_ROL_KMT_action_lock_icon"
             }
 			########
 			iconType = {
-                name = "ROL_KMT_lanzhou_6"
-                position = { x = 15 y = 190 }
-                spriteType = "GFX_ROL_KMT_action_lock_icon"
-            }
-			
-			iconType = {
-                name = "ROL_KMT_lanzhou_62"
-                position = { x = 15 y = 190 }
-                spriteType = "GFX_ROL_KMT_action_lock_icon"
-            }
-			
-			iconType = {
-                name = "ROL_KMT_lanzhou_63"
-                position = { x = 15 y = 190 }
-                spriteType = "GFX_ROL_KMT_action_lock_icon"
-            }
-			
-			iconType = {
-                name = "ROL_KMT_lanzhou_64"
+                name = "ROL_KMT_lanzhou_block_2"
                 position = { x = 15 y = 190 }
                 spriteType = "GFX_ROL_KMT_action_lock_icon"
             }
 			########
 			iconType = {
-                name = "ROL_KMT_lanzhou_7"
-                position = { x = 150 y = 190 }
-                spriteType = "GFX_ROL_KMT_action_lock_icon"
-            }
-			
-			iconType = {
-                name = "ROL_KMT_lanzhou_72"
-                position = { x = 150 y = 190 }
-                spriteType = "GFX_ROL_KMT_action_lock_icon"
-            }
-			
-			iconType = {
-                name = "ROL_KMT_lanzhou_73"
-                position = { x = 150 y = 190 }
-                spriteType = "GFX_ROL_KMT_action_lock_icon"
-            }
-			
-			iconType = {
-                name = "ROL_KMT_lanzhou_74"
+                name = "ROL_KMT_lanzhou_block_4"
                 position = { x = 150 y = 190 }
                 spriteType = "GFX_ROL_KMT_action_lock_icon"
             }

@@ -3,28 +3,7 @@ add_namespace = kmt_lanzhou_event ###测试2是周期触发CPC隐形事件 测�
 country_event = { #测试1
 	id = kmt_lanzhou_event.1
 	immediate = {
-		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.1"
-		set_country_flag = ROL_KMT_1_use
-		set_temp_variable = {
-			ROL_KMT_lanzhou_manpower_num_temp = 2
-		}
 		
-		set_temp_variable = {
-			ROL_KMT_lanzhou_suppor_num_temp = -3
-		}
-		
-		set_temp_variable = {
-			ROL_KMT_lanzhou_control_num_temp = 5
-		}
-		
-		ROL_KMT_lanzhou_control = yes
-		ROL_KMT_lanzhou_suppor = yes
-		ROL_KMT_lanzhou_manpower = yes
-		add_political_power = -10
-		country_event = {
-			id = kmt_lanzhou_event.20
-			days = 3
-		}
 	}
 	title = kmt_lanzhou_event.1.t
 	desc = kmt_lanzhou_event.1.desc
@@ -2332,21 +2311,21 @@ country_event = { #测试226
 	}
 }
 
-country_event = { #测试20
-	id = kmt_lanzhou_event.20
-	immediate = {
-		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.20"
-		clr_country_flag = ROL_KMT_1_use
-	}
-	title = kmt_lanzhou_event.20.t
-	desc = kmt_lanzhou_event.20.desc
-	#picture = \
+# country_event = { #测试20
+# 	id = kmt_lanzhou_event.20
+# 	immediate = {
+# 		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.20"
+# 		clr_country_flag = ROL_KMT_1_use
+# 	}
+# 	title = kmt_lanzhou_event.20.t
+# 	desc = kmt_lanzhou_event.20.desc
+# 	#picture = \
 
-	is_triggered_only = yes
-	hidden = yes
-	option = {
-	}
-}
+# 	is_triggered_only = yes
+# 	hidden = yes
+# 	option = {
+# 	}
+# }
 
 country_event = { #测试21
 	id = kmt_lanzhou_event.21
@@ -2432,34 +2411,7 @@ country_event = { #测试99
 	id = kmt_lanzhou_event.99
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.99"
-		hidden_effect = {
-		set_country_flag = ROL_KMT_first_end
-		set_country_flag = ROL_KMT_second_start
-		clr_country_flag = ROL_KMT_1_use
-		clr_country_flag = ROL_KMT_3_use
-		clr_country_flag = ROL_KMT_4_use
-		clr_country_flag = ROL_KMT_5_use
-		clr_country_flag = ROL_KMT_6_use
-		clr_country_flag = ROL_KMT_7_use
-		clr_country_flag = ROL_KMT_12_use
-		clr_country_flag = ROL_KMT_32_use
-		clr_country_flag = ROL_KMT_42_use
-		clr_country_flag = ROL_KMT_52_use
-		clr_country_flag = ROL_KMT_62_use
-		clr_country_flag = ROL_KMT_72_use
-		clr_country_flag = ROL_KMT_13_use
-		clr_country_flag = ROL_KMT_33_use
-		clr_country_flag = ROL_KMT_43_use
-		clr_country_flag = ROL_KMT_53_use
-		clr_country_flag = ROL_KMT_63_use
-		clr_country_flag = ROL_KMT_73_use
-		clr_country_flag = ROL_KMT_14_use
-		clr_country_flag = ROL_KMT_34_use
-		clr_country_flag = ROL_KMT_44_use
-		clr_country_flag = ROL_KMT_54_use
-		clr_country_flag = ROL_KMT_64_use
-		clr_country_flag = ROL_KMT_74_use
-		}
+		ROL_KMT_switch_to_stage_2 = yes
 	}
 	title = kmt_lanzhou_event.99.t
 	desc = kmt_lanzhou_event.99.desc
@@ -2476,33 +2428,7 @@ country_event = { #测试98
 	id = kmt_lanzhou_event.98
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.98"
-		clr_country_flag = ROL_KMT_first_end
-		clr_country_flag = ROL_KMT_second_start
-		clr_country_flag = ROL_KMT_third_start
-		clr_country_flag = ROL_KMT_1_use
-		clr_country_flag = ROL_KMT_3_use
-		clr_country_flag = ROL_KMT_4_use
-		clr_country_flag = ROL_KMT_5_use
-		clr_country_flag = ROL_KMT_6_use
-		clr_country_flag = ROL_KMT_7_use
-		clr_country_flag = ROL_KMT_12_use
-		clr_country_flag = ROL_KMT_32_use
-		clr_country_flag = ROL_KMT_42_use
-		clr_country_flag = ROL_KMT_52_use
-		clr_country_flag = ROL_KMT_62_use
-		clr_country_flag = ROL_KMT_72_use
-		clr_country_flag = ROL_KMT_13_use
-		clr_country_flag = ROL_KMT_33_use
-		clr_country_flag = ROL_KMT_43_use
-		clr_country_flag = ROL_KMT_53_use
-		clr_country_flag = ROL_KMT_63_use
-		clr_country_flag = ROL_KMT_73_use
-		clr_country_flag = ROL_KMT_14_use
-		clr_country_flag = ROL_KMT_34_use
-		clr_country_flag = ROL_KMT_44_use
-		clr_country_flag = ROL_KMT_54_use
-		clr_country_flag = ROL_KMT_64_use
-		clr_country_flag = ROL_KMT_74_use
+		ROL_KMT_switch_to_stage_1 = yes
 	}
 	title = kmt_lanzhou_event.98.t
 	desc = kmt_lanzhou_event.98.desc
@@ -2517,35 +2443,7 @@ country_event = { #测试
 	id = kmt_lanzhou_event.100
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event kmt_lanzhou_event.100"
-		hidden_effect = {
-		set_country_flag = ROL_KMT_first_end
-		clr_country_flag = ROL_KMT_second_start
-		set_country_flag = ROL_KMT_third_start
-		clr_country_flag = ROL_KMT_1_use
-		clr_country_flag = ROL_KMT_3_use
-		clr_country_flag = ROL_KMT_4_use
-		clr_country_flag = ROL_KMT_5_use
-		clr_country_flag = ROL_KMT_6_use
-		clr_country_flag = ROL_KMT_7_use
-		clr_country_flag = ROL_KMT_12_use
-		clr_country_flag = ROL_KMT_32_use
-		clr_country_flag = ROL_KMT_42_use
-		clr_country_flag = ROL_KMT_52_use
-		clr_country_flag = ROL_KMT_62_use
-		clr_country_flag = ROL_KMT_72_use
-		clr_country_flag = ROL_KMT_13_use
-		clr_country_flag = ROL_KMT_33_use
-		clr_country_flag = ROL_KMT_43_use
-		clr_country_flag = ROL_KMT_53_use
-		clr_country_flag = ROL_KMT_63_use
-		clr_country_flag = ROL_KMT_73_use
-		clr_country_flag = ROL_KMT_14_use
-		clr_country_flag = ROL_KMT_34_use
-		clr_country_flag = ROL_KMT_44_use
-		clr_country_flag = ROL_KMT_54_use
-		clr_country_flag = ROL_KMT_64_use
-		clr_country_flag = ROL_KMT_74_use
-		}
+		ROL_KMT_switch_to_stage_3 = yes
 	}
 	title = kmt_lanzhou_event.100.t
 	desc = kmt_lanzhou_event.100.desc

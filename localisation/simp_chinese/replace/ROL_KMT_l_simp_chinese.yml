@@ -580,7 +580,20 @@
  ROL_KMT_lanzhou_control_4_tt_1: "£GFX_KMT_cpc_icon §R敌人§!§e占据上风§!"
  ROL_KMT_lanzhou_control_4_tt_2: "£GFX_KMT_kmt_icon §B势均§!£GFX_KMT_cpc_icon §R力敌§!"
  ROL_KMT_lanzhou_control_4_tt_3: "£GFX_KMT_kmt_icon §B我们§!§G占据上风§!"
- 
+
+ ###### 
+ ROL_KMT_button_close_up_3_days: "此按钮将封锁 3 日"
+ ROL_KMT_button_close_up_4_days: "此按钮将封锁 4 日"
+ ROL_KMT_button_close_up_5_days: "此按钮将封锁 5 日"
+ ROL_KMT_button_close_up_7_days: "此按钮将封锁 7 日"
+
+ ROL_KMT_position_1_botton_tt: "[GetLanzhouButton1TT]"
+ ROL_KMT_position_2_botton_tt: "[GetLanzhouButton2TT]"
+ ROL_KMT_position_3_botton_tt: "[GetLanzhouButton3TT]"
+ ROL_KMT_position_4_botton_tt: "[GetLanzhouButton4TT]"
+ ROL_KMT_position_5_botton_tt: "[GetLanzhouButton5TT]"
+ ROL_KMT_position_6_botton_tt: "[GetLanzhouButton6TT]"
+
  ROL_KMT_promote_spy_tt: "将在£GFX_KMT_lanzhou_crisis §R兰州危机§!界面中解锁£decision_icon_small §Y封禁亲共刊物§!、§Y渗透学运工运§!"
  ROL_KMT_promote_spy_tt_1: "§e虽仍不见硝烟，§!§B但已身处战场。§!"
  ROL_KMT_promote_spy_tt_2: "我们将进一步着手针对£GFX_KMT_cpc_icon §R共产党人§!的情报网，并反过来收集他们的情报，分析其行动方针。"

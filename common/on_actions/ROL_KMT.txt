@@ -12,6 +12,9 @@ on_actions = { #
 				set_variable = {
 					ROL_bop_redblood_page_selected = 1 #避免空指针
 				}
+				set_variable = {
+					ROL_KMT_lanzhou_stage = 1 #保底
+				}
 				#########
 				#######地区冲突
 				set_temp_variable = { TabName = token:BoP_Tab_ROLregional }
