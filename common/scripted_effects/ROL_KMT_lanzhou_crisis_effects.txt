@@ -1298,7 +1298,7 @@ ROL_KMT_lanzhou_button_4_onclick = {
     ROL_KMT_lanzhou_button_4_upface = yes
 }
 
-ROL_KMT_lanzhou_button_4_rightclick = {
+ROL_KMT_lanzhou_button_4_right_click = {
     if = {
         limit = {
             check_variable = {
@@ -2116,6 +2116,7 @@ ROL_KMT_switch_to_stage_1 = {
 ROL_KMT_switch_to_stage_2 = {
     set_country_flag = ROL_KMT_first_end
     set_country_flag = ROL_KMT_second_start
+    clr_country_flag = ROL_KMT_third_start
     set_variable = {
         ROL_KMT_lanzhou_stage = 2
     }

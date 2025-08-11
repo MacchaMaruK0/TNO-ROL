@@ -594,6 +594,10 @@
  ROL_KMT_position_5_botton_tt: "[GetLanzhouButton5TT]"
  ROL_KMT_position_6_botton_tt: "[GetLanzhouButton6TT]"
 
+ ROL_lanzhou_stage_1: "兰州危机：切换为第一阶段"
+ ROL_lanzhou_stage_2: "兰州危机：切换为第二阶段"
+ ROL_lanzhou_stage_3: "兰州危机：切换为第三阶段"
+
  ROL_KMT_promote_spy_tt: "将在£GFX_KMT_lanzhou_crisis §R兰州危机§!界面中解锁£decision_icon_small §Y封禁亲共刊物§!、§Y渗透学运工运§!"
  ROL_KMT_promote_spy_tt_1: "§e虽仍不见硝烟，§!§B但已身处战场。§!"
  ROL_KMT_promote_spy_tt_2: "我们将进一步着手针对£GFX_KMT_cpc_icon §R共产党人§!的情报网，并反过来收集他们的情报，分析其行动方针。"

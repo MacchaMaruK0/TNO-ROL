@@ -1,0 +1,260 @@
+ROL_KMT_lanzhou_block_1_visible_trigger = {
+	OR = {
+		has_country_flag = ROL_KMT_1_button_use
+		has_political_power < 0
+		AND = {
+			check_variable = {
+                ROL_KMT_lanzhou_stage = 1
+            }
+			OR = {
+				has_political_power < 10.01
+				check_variable = { ROL_KMT_lanzhou_manpower_num < 3.01 }
+				check_variable = { ROL_KMT_lanzhou_suppor_num < 3.01 }
+			}
+		}
+		AND = {
+			check_variable = {
+                ROL_KMT_lanzhou_stage = 2
+            }
+			OR = {
+				has_political_power < 20.01
+				check_variable = { ROL_KMT_lanzhou_manpower_num < 5.01 }
+				NOT = {
+					has_completed_focus = ROL_KMT_responsibility_distinguish
+				}
+			}
+		}
+		AND = {
+			check_variable = {
+                ROL_KMT_lanzhou_stage = 3
+            }
+			OR = {
+				has_political_power < 20.01
+				check_variable = { ROL_KMT_lanzhou_suppor_num < 20.01 }
+				has_equipment = { infantry_equipment < 500 }
+				NOT = {
+					has_completed_focus = ROL_KMT_supply_sufficient
+				}
+			}
+		}
+	}
+}
+
+ROL_KMT_lanzhou_block_2_visible_trigger = {
+	OR = {
+		has_country_flag = ROL_KMT_2_button_use
+		has_political_power < 0
+		AND = {
+			check_variable = {
+                ROL_KMT_lanzhou_stage = 1
+            }
+			OR = {
+				has_political_power < 10.01
+				check_variable = { ROL_KMT_lanzhou_suppor_num < 5.01 }
+			}
+		}
+		AND = {
+			check_variable = {
+                ROL_KMT_lanzhou_stage = 2
+            }
+			OR = {
+				has_political_power < 25.01
+				NOT = {
+					has_completed_focus = ROL_KMT_responsibility_distinguish
+				}
+			}
+		}
+		AND = {
+			check_variable = {
+                ROL_KMT_lanzhou_stage = 3
+            }
+			OR = {
+				command_power < 20.01
+				check_variable = { ROL_KMT_lanzhou_manpower_num < 15.01 }
+				check_variable = { ROL_KMT_lanzhou_suppor_num < 15.01 }
+				has_equipment = { infantry_equipment < 500 }
+				NOT = {
+					has_completed_focus = ROL_KMT_mobilize_revolution_youth
+				}
+			}
+		}
+	}
+}
+
+ROL_KMT_lanzhou_block_3_visible_trigger = {
+	OR = {
+		has_country_flag = ROL_KMT_3_button_use
+		has_political_power < 0
+		AND = {
+			check_variable = {
+                ROL_KMT_lanzhou_stage = 1
+            }
+			OR = {
+				has_political_power < 15.01
+				check_variable = { ROL_KMT_lanzhou_manpower_num < 7.51 }
+				check_variable = { ROL_KMT_lanzhou_suppor_num < 5.01 }
+				NOT = {
+					has_completed_focus = ROL_KMT_rooted_in_the_people
+				}
+			}
+		}
+		AND = {
+			check_variable = {
+                ROL_KMT_lanzhou_stage = 2
+            }
+			OR = {
+				has_political_power < 20.01
+				NOT = {
+					has_completed_focus = ROL_KMT_each_performs_functions
+				}
+			}
+		}
+		AND = {
+			check_variable = {
+                ROL_KMT_lanzhou_stage = 3
+            }
+			OR = {
+				command_power < 25.01
+				check_variable = { ROL_KMT_lanzhou_manpower_num < 25.01 }
+				has_equipment = { infantry_equipment < 500 }
+				NOT = {
+					has_completed_focus = ROL_KMT_promote_military_officers
+				}
+			}
+		}
+	}
+}
+
+ROL_KMT_lanzhou_block_4_visible_trigger = {
+	OR = {
+		has_country_flag = ROL_KMT_4_button_use
+		has_political_power < 0
+		AND = {
+			check_variable = {
+                ROL_KMT_lanzhou_stage = 1
+            }
+			OR = {
+				has_political_power < 15.01
+				check_variable = { ROL_KMT_lanzhou_manpower_num < 7.51 }
+				check_variable = { ROL_KMT_lanzhou_suppor_num < 7.51 }
+				NOT = {
+					has_completed_focus = ROL_KMT_rooted_in_the_people
+				}
+			}
+		}
+		AND = {
+			check_variable = {
+                ROL_KMT_lanzhou_stage = 2
+            }
+			OR = {
+				has_political_power < 20.01
+				command_power < 20.01
+				check_variable = { ROL_KMT_lanzhou_manpower_num < 15.01 }
+				NOT = {
+					has_completed_focus = ROL_KMT_country_inside
+				}
+			}
+		}
+		AND = {
+			check_variable = {
+                ROL_KMT_lanzhou_stage = 3
+            }
+			OR = {
+				command_power < 25.01
+				check_variable = { ROL_KMT_lanzhou_manpower_num < 20.01 }
+				check_variable = { ROL_KMT_lanzhou_suppor_num < 20.01 }
+				has_equipment = { support_equipment < 500 }
+				NOT = {
+					has_completed_focus = ROL_KMT_call_airtransport
+				}
+			}
+		}
+	}
+}
+
+ROL_KMT_lanzhou_block_5_visible_trigger = {
+	OR = {
+		has_country_flag = ROL_KMT_5_button_use
+		has_political_power < 0
+		AND = {
+			check_variable = {
+                ROL_KMT_lanzhou_stage = 1
+            }
+			OR = {
+				command_power < 20.01
+				check_variable = { ROL_KMT_lanzhou_manpower_num < 10.01 }
+				check_variable = { ROL_KMT_lanzhou_suppor_num < 10.01 }
+				NOT = {
+					has_completed_focus = ROL_KMT_promote_anti_spy
+				}
+			}
+		}
+		AND = {
+			check_variable = {
+                ROL_KMT_lanzhou_stage = 2
+            }
+			OR = {
+				has_political_power < 20.01
+				command_power < 20.01
+				NOT = {
+					has_completed_focus = ROL_KMT_corporate_action
+				}
+			}
+		}
+		AND = {
+			check_variable = {
+                ROL_KMT_lanzhou_stage = 3
+            }
+			OR = {
+				has_political_power < 20.01
+				command_power < 20.01
+				has_equipment = { infantry_equipment < 300 }
+				has_equipment = { support_equipment < 300 }
+				NOT = {
+					has_completed_focus = ROL_KMT_establish_eliminate_team
+				}
+			}
+		}
+	}
+}
+
+ROL_KMT_lanzhou_block_6_visible_trigger = {
+	OR = {
+		has_country_flag = ROL_KMT_6_button_use
+		has_political_power < 0
+		AND = {
+			check_variable = {
+                ROL_KMT_lanzhou_stage = 1
+            }
+			OR = {
+				command_power < 20.01
+				check_variable = { ROL_KMT_lanzhou_manpower_num < 10.01 }
+				NOT = {
+					has_completed_focus = ROL_KMT_promote_anti_spy
+				}
+			}
+		}
+		AND = {
+			check_variable = {
+                ROL_KMT_lanzhou_stage = 2
+            }
+			OR = {
+				has_political_power < 25.01
+				command_power < 25.01
+				NOT = {
+					has_completed_focus = ROL_KMT_corporate_action
+				}
+			}
+		}
+		AND = {
+			check_variable = {
+                ROL_KMT_lanzhou_stage = 3
+            }
+			OR = {
+				command_power < 25.01
+				has_political_power < 25.01
+				has_equipment = { artillery_equipment < 300 }
+			}
+		}
+	}
+}

@@ -42,30 +42,6 @@ scripted_gui = {
 		visible = {
 			has_country_flag = ROL_KMT_lanzhou_crisis_GUI_Open
 		}
-		triggers = {
-			ROL_KMT_lanzhou_loss_1_visible = { 
-			has_country_flag = ROL_KMT_ma_end 
-			}
-			ROL_KMT_lanzhou_loss_2_visible = { 
-			has_country_flag = ROL_KMT_cpc_end
-			}
-			ROL_KMT_lanzhou_crisis_infor_visible = { 
-				OR = {
-					NOT = {
-					has_country_flag = ROL_KMT_ma_end
-					has_country_flag = ROL_KMT_cpc_end
-					}
-				}
-			}
-			ROL_KMT_close_visible = { 
-				OR = {
-					NOT = {
-					has_country_flag = ROL_KMT_ma_end
-					has_country_flag = ROL_KMT_cpc_end
-					}
-				}
-			}
-		}
 		effects = {
 			ROL_KMT_close_click = {
 				if = {
@@ -136,6 +112,28 @@ scripted_gui = {
 		}
 		
 		triggers = {
+			ROL_KMT_lanzhou_loss_1_visible = { 
+			has_country_flag = ROL_KMT_ma_end 
+			}
+			ROL_KMT_lanzhou_loss_2_visible = { 
+			has_country_flag = ROL_KMT_cpc_end
+			}
+			ROL_KMT_lanzhou_crisis_infor_visible = { 
+				OR = {
+					NOT = {
+					has_country_flag = ROL_KMT_ma_end
+					has_country_flag = ROL_KMT_cpc_end
+					}
+				}
+			}
+			ROL_KMT_close_visible = { 
+				OR = {
+					NOT = {
+					has_country_flag = ROL_KMT_ma_end
+					has_country_flag = ROL_KMT_cpc_end
+					}
+				}
+			}
 			ROL_KMT_lanzhou_outer_1_icon_visible = {
 				check_variable = { ROL_KMT_lanzhou_manpower_num > 30.1 }
 			}
@@ -148,9 +146,6 @@ scripted_gui = {
 			ROL_KMT_lanzhou_outer_4_icon_visible = {
 				check_variable = { ROL_KMT_lanzhou_suppor_num < 45.1 }
 			}
-		}
-		
-		triggers = {
 			ROL_KMT_lanzhou_clock_green_icon_visible = {
 				check_variable = { ROL_KMT_lanzhou_weely_1 > 60.1 }
 			}
@@ -161,52 +156,29 @@ scripted_gui = {
 			ROL_KMT_lanzhou_clock_red_icon_visible = {
 				check_variable = { ROL_KMT_lanzhou_weely_1 < 30.1 }
 			}
-		}
-		
-		triggers = {
+
 			ROL_KMT_lanzhou_block_1_visible = {
-				OR = {
-					has_country_flag = ROL_KMT_1_button_use
-					has_political_power < 0
-				}
+				ROL_KMT_lanzhou_block_1_visible_trigger = yes
 			}
 			ROL_KMT_lanzhou_block_2_visible = {
-				OR = {
-					has_country_flag = ROL_KMT_2_button_use
-					has_political_power < 0
-				}
+				ROL_KMT_lanzhou_block_2_visible_trigger = yes
 			}
 			ROL_KMT_lanzhou_block_3_visible = {
-				OR = {
-					has_country_flag = ROL_KMT_3_button_use
-					has_political_power < 0
-				}
+				ROL_KMT_lanzhou_block_3_visible_trigger = yes
 			}
 			ROL_KMT_lanzhou_block_4_visible = {
-				OR = {
-					has_country_flag = ROL_KMT_4_button_use
-					has_political_power < 0
-				}
+				ROL_KMT_lanzhou_block_4_visible_trigger = yes
 			}
 			ROL_KMT_lanzhou_block_5_visible = {
-				OR = {
-					has_country_flag = ROL_KMT_5_button_use
-					has_political_power < 0
-				}
+				ROL_KMT_lanzhou_block_5_visible_trigger = yes
 			}
 			ROL_KMT_lanzhou_block_6_visible = {
-				OR = {
-					has_country_flag = ROL_KMT_6_button_use
-					has_political_power < 0
-				}
+				ROL_KMT_lanzhou_block_6_visible_trigger = yes
 			}
 			#######
 			ROL_KMT_cpc_end_icon_visible = {
 				has_country_flag = ROL_KMT_lanzhou_cpc_end
 			}
-		}
-		
-		triggers = {
 			########
 			ROL_KMT_lock_first_area_visible = {
 				check_variable = { ROL_KMT_lanzhou_ruin_num > 70 }
