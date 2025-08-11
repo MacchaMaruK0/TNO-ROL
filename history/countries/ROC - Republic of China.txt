@@ -264,7 +264,6 @@ add_ideas = {
 	#Country#
 	ROC_leader
 	ROL_ROC_betrayal
-	ROL_ROC_China_Airlines
 	ROL_ROC_KMT_orthodoxy
 	ROL_ROC_NRA_still_exists
 	ROL_ROC_rent_reduction

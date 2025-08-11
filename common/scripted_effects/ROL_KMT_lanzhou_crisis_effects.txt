@@ -325,18 +325,66 @@ ROL_KMT_lanzhou_button_1_onclick = {
                 has_country_flag = ROL_KMT_lanzhou_second_area
             }
             #第二区
-        }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = 2
+			}
+		
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -3
+			}
+		
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_2_num_temp = 5
+			}
+		
+			ROL_KMT_lanzhou_control_2 = yes
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_manpower = yes
+			add_political_power = -10
+		}
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_third_area
             }
             #第三区
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = 2
+			}
+		
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -3
+			}
+		
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_3_num_temp = 5
+			}
+		
+			ROL_KMT_lanzhou_control_3 = yes
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_manpower = yes
+			add_political_power = -10
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_forth_area
             }
             #第四区
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = 2
+			}
+		
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -3
+			}
+		
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_4_num_temp = 5
+			}
+		
+			ROL_KMT_lanzhou_control_4 = yes
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_manpower = yes
+			add_political_power = -10
         }
     }
     if = {
@@ -352,24 +400,52 @@ ROL_KMT_lanzhou_button_1_onclick = {
                 has_country_flag = ROL_KMT_lanzhou_first_area
             }
             #第一区
+			
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_second_area
             }
             #第二区
+			add_political_power = -20
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_num_temp = 12.5
+			}	
+			ROL_KMT_lanzhou_control = yes
+			ROL_KMT_lanzhou_manpower = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_third_area
             }
             #第三区
+			add_political_power = -20
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_2_num_temp = 12.5
+			}
+			ROL_KMT_lanzhou_control_2 = yes
+			ROL_KMT_lanzhou_manpower = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_forth_area
             }
             #第四区
+			add_political_power = -20
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_3_num_temp = 12.5
+			}
+			ROL_KMT_lanzhou_control_3 = yes
+			ROL_KMT_lanzhou_manpower = yes
         }
     }
     if = {
@@ -384,24 +460,60 @@ ROL_KMT_lanzhou_button_1_onclick = {
                 has_country_flag = ROL_KMT_lanzhou_first_area
             }
             #第一区
+			add_command_power = -20
+			add_equipment_to_stockpile = { type = infantry_equipment amount = -500 producer = KMT }
+			set_country_flag = ROL_KMT_lanzhou_control_fix_11 #分发武器弹药
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_11 #分发武器弹药
+			set_country_flag = ROL_KMT_lanzhou_suppor_fix_1 #分发武器弹药
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -20
+			}
+			ROL_KMT_lanzhou_suppor = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_second_area
             }
             #第二区
+			add_command_power = -20
+			add_equipment_to_stockpile = { type = infantry_equipment amount = -500 producer = KMT }
+			set_country_flag = ROL_KMT_lanzhou_control_fix_12 #控制修正1-分发武器弹药
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_12 #毁坏度修正1-分发武器弹药
+			set_country_flag = ROL_KMT_lanzhou_suppor_fix_1 #物资修正1-分发武器弹药
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -20
+			}
+			ROL_KMT_lanzhou_suppor = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_third_area
             }
             #第三区
+			add_command_power = -20
+			add_equipment_to_stockpile = { type = infantry_equipment amount = -500 producer = KMT }
+			set_country_flag = ROL_KMT_lanzhou_control_fix_13 #分发武器弹药
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_13 #分发武器弹药
+			set_country_flag = ROL_KMT_lanzhou_suppor_fix_1 #分发武器弹药
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -20
+			}
+			ROL_KMT_lanzhou_suppor = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_forth_area
             }
             #第四区
+			add_command_power = -20
+			add_equipment_to_stockpile = { type = infantry_equipment amount = -500 producer = KMT }
+			set_country_flag = ROL_KMT_lanzhou_control_fix_14 #分发武器弹药
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_14 #分发武器弹药
+			set_country_flag = ROL_KMT_lanzhou_suppor_fix_1 #分发武器弹药
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -20
+			}
+			ROL_KMT_lanzhou_suppor = yes
         }
     }
     ROL_KMT_lanzhou_button_1_upface = yes
@@ -420,24 +532,92 @@ ROL_KMT_lanzhou_button_2_onclick = {
                 has_country_flag = ROL_KMT_lanzhou_first_area
             }
             #第一区
+			add_political_power = -15
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -7.5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -7.5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_num_temp = 7.5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_num_temp = -7.5
+			}
+			ROL_KMT_lanzhou_control = yes
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_manpower = yes
+			ROL_KMT_lanzhou_ruin = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_second_area
             }
             #第二区
+			add_political_power = -15
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -7.5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -7.5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_2_num_temp = 7.5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_2_num_temp = -7.5
+			}
+			ROL_KMT_lanzhou_control_2 = yes
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_manpower = yes
+			ROL_KMT_lanzhou_ruin_2 = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_third_area
             }
             #第三区
+			add_political_power = -15
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -7.5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -7.5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_3_num_temp = 7.5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_3_num_temp = -7.5
+			}
+			ROL_KMT_lanzhou_control_3 = yes
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_manpower = yes
+			ROL_KMT_lanzhou_ruin_3 = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_forth_area
             }
             #第四区
+			add_political_power = -15
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -7.5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -7.5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_4_num_temp = 7.5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_4_num_temp = -7.5
+			}
+			ROL_KMT_lanzhou_control_4 = yes
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_manpower = yes
+			ROL_KMT_lanzhou_ruin_4 = yes
         }
     }
     if = {
@@ -453,24 +633,72 @@ ROL_KMT_lanzhou_button_2_onclick = {
                 has_country_flag = ROL_KMT_lanzhou_first_area
             }
             #第一区
+			add_political_power = -20
+			add_command_power = -20
+			set_temp_variable = {
+				ROL_KMT_He_Zhonghan_support_num_temp = 5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -7.5
+			}
+			ROL_KMT_He_Zhonghan_support = yes
+			ROL_KMT_lanzhou_manpower = yes
+			set_country_flag = ROL_KMT_lanzhou_control_fix_31 #成立乡村警队
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_61 #成立乡村警队
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_second_area
             }
             #第二区
+			add_political_power = -20
+			add_command_power = -20
+			set_temp_variable = {
+				ROL_KMT_He_Zhonghan_support_num_temp = 5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -7.5
+			}
+			ROL_KMT_He_Zhonghan_support = yes
+			ROL_KMT_lanzhou_manpower = yes
+			set_country_flag = ROL_KMT_lanzhou_control_fix_32 #成立乡村警队
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_62 #成立乡村警队
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_third_area
             }
             #第三区
+			add_political_power = -20
+			add_command_power = -20
+			set_temp_variable = {
+				ROL_KMT_He_Zhonghan_support_num_temp = 5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -7.5
+			}
+			ROL_KMT_He_Zhonghan_support = yes
+			ROL_KMT_lanzhou_manpower = yes
+			set_country_flag = ROL_KMT_lanzhou_control_fix_33 #成立乡村警队
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_63 #成立乡村警队
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_forth_area
             }
             #第四区
+			add_political_power = -20
+			add_command_power = -20
+			set_temp_variable = {
+				ROL_KMT_He_Zhonghan_support_num_temp = 5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -7.5
+			}
+			ROL_KMT_He_Zhonghan_support = yes
+			ROL_KMT_lanzhou_manpower = yes
+			set_country_flag = ROL_KMT_lanzhou_control_fix_34 #成立乡村警队
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_64 #成立乡村警队
         }
     }
     if = {
@@ -485,24 +713,88 @@ ROL_KMT_lanzhou_button_2_onclick = {
                 has_country_flag = ROL_KMT_lanzhou_first_area
             }
             #第一区
+			add_command_power = -25
+			add_political_power = 30
+			add_equipment_to_stockpile = { type = support_equipment amount = -200 producer = KMT }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -20
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -20
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_num_temp = -20
+			}
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_manpower = yes
+			ROL_KMT_lanzhou_ruin = yes
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_51 #转运伤员物资
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_second_area
             }
             #第二区
+			add_command_power = -25
+			add_political_power = 30
+			add_equipment_to_stockpile = { type = support_equipment amount = -200 producer = KMT }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -20
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -20
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_2_num_temp = -20
+			}
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_manpower = yes
+			ROL_KMT_lanzhou_ruin_2 = yes
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_52 #转运伤员物资
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_third_area
             }
             #第三区
+			add_command_power = -25
+			add_political_power = 30
+			add_equipment_to_stockpile = { type = support_equipment amount = -200 producer = KMT }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -20
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -20
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_3_num_temp = -20
+			}
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_manpower = yes
+			ROL_KMT_lanzhou_ruin_3 = yes
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_53 #转运伤员物资
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_forth_area
             }
             #第四区
+			add_command_power = -25
+			add_political_power = 30
+			add_equipment_to_stockpile = { type = support_equipment amount = -200 producer = KMT }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -20
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -20
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_4_num_temp = -20
+			}
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_manpower = yes
+			ROL_KMT_lanzhou_ruin_4 = yes
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_54 #转运伤员物资
         }
     }
     ROL_KMT_lanzhou_button_2_upface = yes
@@ -521,24 +813,84 @@ ROL_KMT_lanzhou_button_3_onclick = {
                 has_country_flag = ROL_KMT_lanzhou_first_area
             }
             #第一区
+			add_political_power = -10
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = 7.5
+			}		
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_num_temp = 5
+			}
+			ROL_KMT_lanzhou_control = yes
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_manpower = yes
+			set_temp_variable = { temp_econ_spending_amount = 0.005 }
+			econ_spend_money_once_effect_raw_money = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_second_area
             }
             #第二区
+			add_political_power = -10
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = 7.5
+			}		
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_2_num_temp = 5
+			}
+			ROL_KMT_lanzhou_control_2 = yes
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_manpower = yes
+			set_temp_variable = { temp_econ_spending_amount = 0.005 }
+			econ_spend_money_once_effect_raw_money = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_third_area
             }
             #第三区
+			add_political_power = -10
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = 7.5
+			}		
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_3_num_temp = 5
+			}
+			ROL_KMT_lanzhou_control_3 = yes
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_manpower = yes
+			set_temp_variable = { temp_econ_spending_amount = 0.005 }
+			econ_spend_money_once_effect_raw_money = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_forth_area
             }
             #第四区
+			add_political_power = -10
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = 7.5
+			}		
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_4_num_temp = 5
+			}
+			ROL_KMT_lanzhou_control_4 = yes
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_manpower = yes
+			set_temp_variable = { temp_econ_spending_amount = 0.005 }
+			econ_spend_money_once_effect_raw_money = yes
         }
     }
     if = {
@@ -554,24 +906,48 @@ ROL_KMT_lanzhou_button_3_onclick = {
                 has_country_flag = ROL_KMT_lanzhou_first_area
             }
             #第一区
+			add_political_power = -25
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_num_temp = 10
+			}
+			ROL_KMT_lanzhou_control = yes
+			set_country_flag = ROL_KMT_lanzhou_control_fix_21 #增补职团代表
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_second_area
             }
             #第二区
+			add_political_power = -25
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_2_num_temp = 10
+			}
+			ROL_KMT_lanzhou_control_2 = yes
+			set_country_flag = ROL_KMT_lanzhou_control_fix_22 #增补职团代表
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_third_area
             }
             #第三区
+			add_political_power = -25
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_3_num_temp = 10
+			}
+			ROL_KMT_lanzhou_control_3 = yes
+			set_country_flag = ROL_KMT_lanzhou_control_fix_23 #增补职团代表
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_forth_area
             }
             #第四区
+			add_political_power = -25
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_4_num_temp = 10
+			}
+			ROL_KMT_lanzhou_control_4 = yes
+			set_country_flag = ROL_KMT_lanzhou_control_fix_24 #增补职团代表
         }
     }
     if = {
@@ -586,24 +962,100 @@ ROL_KMT_lanzhou_button_3_onclick = {
                 has_country_flag = ROL_KMT_lanzhou_first_area
             }
             #第一区
+			add_command_power = -20
+			add_equipment_to_stockpile = { type = infantry_equipment amount = -500 producer = KMT }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -15
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -15
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_num_temp = 25
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_num_temp = 15
+			}
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_control = yes
+			ROL_KMT_lanzhou_ruin = yes
+			ROL_KMT_lanzhou_manpower = yes
+			set_country_flag = ROL_KMT_lanzhou_manpower_fix_2 #武装三青团员
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_second_area
             }
             #第二区
+			add_command_power = -20
+			add_equipment_to_stockpile = { type = infantry_equipment amount = -500 producer = KMT }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -15
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -15
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_2_num_temp = 25
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_2_num_temp = 15
+			}
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_control_2 = yes
+			ROL_KMT_lanzhou_ruin_2 = yes
+			ROL_KMT_lanzhou_manpower = yes
+			set_country_flag = ROL_KMT_lanzhou_manpower_fix_2 #武装三青团员
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_third_area
             }
             #第三区
+			add_command_power = -20
+			add_equipment_to_stockpile = { type = infantry_equipment amount = -500 producer = KMT }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -15
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -15
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_3_num_temp = 25
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_3_num_temp = 15
+			}
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_control_3 = yes
+			ROL_KMT_lanzhou_ruin_3 = yes
+			ROL_KMT_lanzhou_manpower = yes
+			set_country_flag = ROL_KMT_lanzhou_manpower_fix_2 #武装三青团员
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_forth_area
             }
             #第四区
+			add_command_power = -20
+			add_equipment_to_stockpile = { type = infantry_equipment amount = -500 producer = KMT }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -15
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = -15
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_4_num_temp = 25
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_4_num_temp = 15
+			}
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_control_4 = yes
+			ROL_KMT_lanzhou_ruin_4 = yes
+			ROL_KMT_lanzhou_manpower = yes
+			set_country_flag = ROL_KMT_lanzhou_manpower_fix_2 #武装三青团员
         }
     }
     ROL_KMT_lanzhou_button_3_upface = yes
@@ -622,24 +1074,64 @@ ROL_KMT_lanzhou_button_4_onclick = {
                 has_country_flag = ROL_KMT_lanzhou_first_area
             }
             #第一区
+			add_political_power = -20
+			add_political_power = 25
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -10
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = 2.5
+			}
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_manpower = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_second_area
             }
             #第二区
+			add_political_power = -20
+			add_political_power = 25
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -10
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = 2.5
+			}
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_manpower = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_third_area
             }
             #第三区
+			add_political_power = -20
+			add_political_power = 25
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -10
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = 2.5
+			}
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_manpower = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_forth_area
             }
             #第四区
+			add_political_power = -20
+			add_political_power = 25
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -10
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_suppor_num_temp = 2.5
+			}
+			ROL_KMT_lanzhou_suppor = yes
+			ROL_KMT_lanzhou_manpower = yes
         }
     }
     if = {
@@ -655,24 +1147,72 @@ ROL_KMT_lanzhou_button_4_onclick = {
                 has_country_flag = ROL_KMT_lanzhou_first_area
             }
             #第一区
+			add_command_power = -20
+			add_political_power = -10
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_num_temp = 15
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_num_temp = 5
+			}
+			ROL_KMT_lanzhou_control = yes
+			ROL_KMT_lanzhou_ruin = yes
+			set_temp_variable = { temp_econ_spending_amount = 0.015 }
+			econ_spend_money_once_effect_raw_money = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_second_area
             }
             #第二区
+			add_command_power = -20
+			add_political_power = -10
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_2_num_temp = 15
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_2_num_temp = 5
+			}
+			ROL_KMT_lanzhou_control_2 = yes
+			ROL_KMT_lanzhou_ruin_2 = yes
+			set_temp_variable = { temp_econ_spending_amount = 0.015 }
+			econ_spend_money_once_effect_raw_money = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_third_area
             }
             #第三区
+			add_command_power = -20
+			add_political_power = -10
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_3_num_temp = 15
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_3_num_temp = 5
+			}
+			ROL_KMT_lanzhou_control_3 = yes
+			ROL_KMT_lanzhou_ruin_3 = yes
+			set_temp_variable = { temp_econ_spending_amount = 0.015 }
+			econ_spend_money_once_effect_raw_money = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_forth_area
             }
             #第四区
+			add_command_power = -20
+			add_political_power = -10
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_4_num_temp = 5
+			}
+			ROL_KMT_lanzhou_ruin_4 = yes
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_4_num_temp = 15
+			}
+			ROL_KMT_lanzhou_control_4 = yes
+			set_temp_variable = { temp_econ_spending_amount = 0.015 }
+			econ_spend_money_once_effect_raw_money = yes
         }
     }
     if = {
@@ -687,27 +1227,181 @@ ROL_KMT_lanzhou_button_4_onclick = {
                 has_country_flag = ROL_KMT_lanzhou_first_area
             }
             #第一区
+			add_command_power = -20
+			add_political_power = -20
+			add_equipment_to_stockpile = { type = infantry_equipment amount = -300 producer = KMT }
+			add_equipment_to_stockpile = { type = support_equipment amount = -150 producer = KMT }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_num_temp = 25
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_num_temp = 15
+			}
+			ROL_KMT_lanzhou_control = yes
+			ROL_KMT_lanzhou_ruin = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_second_area
             }
             #第二区
+			add_command_power = -20
+			add_political_power = -20
+			add_equipment_to_stockpile = { type = infantry_equipment amount = -300 producer = KMT }
+			add_equipment_to_stockpile = { type = support_equipment amount = -150 producer = KMT }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_2_num_temp = 25
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_2_num_temp = 15
+			}
+			ROL_KMT_lanzhou_control_2 = yes
+			ROL_KMT_lanzhou_ruin_2 = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_third_area
             }
             #第三区
+			add_command_power = -20
+			add_political_power = -20
+			add_equipment_to_stockpile = { type = infantry_equipment amount = -300 producer = KMT }
+			add_equipment_to_stockpile = { type = support_equipment amount = -150 producer = KMT }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_3_num_temp = 25
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_3_num_temp = 15
+			}
+			ROL_KMT_lanzhou_control_3 = yes
+			ROL_KMT_lanzhou_ruin_3 = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_forth_area
             }
             #第四区
+			add_command_power = -20
+			add_political_power = -20
+			add_equipment_to_stockpile = { type = infantry_equipment amount = -300 producer = KMT }
+			add_equipment_to_stockpile = { type = support_equipment amount = -150 producer = KMT }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_4_num_temp = 25
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_4_num_temp = 15
+			}
+			ROL_KMT_lanzhou_control_4 = yes
+			ROL_KMT_lanzhou_ruin_4 = yes
         }
     }
     ROL_KMT_lanzhou_button_4_upface = yes
+}
+
+ROL_KMT_lanzhou_button_4_rightclick = {
+    if = {
+        limit = {
+            check_variable = {
+                ROL_KMT_lanzhou_stage = 2
+            }
+        }
+        
+        #填入二阶段效果
+         if = {
+            limit = {
+                has_country_flag = ROL_KMT_lanzhou_first_area
+            }
+            #第一区
+			if = {
+				limit = {
+					has_country_flag = ROL_KMT_lanzhou_banned_cpc
+				}
+				add_command_power = -40
+				add_political_power = -20
+				set_temp_variable = {
+					ROL_KMT_lanzhou_ruin_num_temp = 10
+				}
+				ROL_KMT_lanzhou_ruin = yes
+				set_temp_variable = {
+					ROL_KMT_lanzhou_control_num_temp = 30
+				}
+				ROL_KMT_lanzhou_control = yes
+				set_temp_variable = { temp_econ_spending_amount = 0.030 }
+				econ_spend_money_once_effect_raw_money = yes
+			}
+        }
+        if = {
+            limit = {
+                has_country_flag = ROL_KMT_lanzhou_second_area
+            }
+            #第二区
+			if = {
+				limit = {
+					has_country_flag = ROL_KMT_lanzhou_banned_cpc
+				}
+				add_command_power = -40
+				add_political_power = -20
+				set_temp_variable = {
+					ROL_KMT_lanzhou_ruin_2_num_temp = 10
+				}
+				ROL_KMT_lanzhou_ruin_2 = yes
+				set_temp_variable = {
+					ROL_KMT_lanzhou_control_2_num_temp = 30
+				}
+				ROL_KMT_lanzhou_control_2 = yes
+				set_temp_variable = { temp_econ_spending_amount = 0.030 }
+				econ_spend_money_once_effect_raw_money = yes
+			}
+        }
+        if = {
+            limit = {
+                has_country_flag = ROL_KMT_lanzhou_third_area
+            }
+            #第三区
+			if = {
+				limit = {
+					has_country_flag = ROL_KMT_lanzhou_banned_cpc
+				}
+				add_command_power = -40
+				add_political_power = -20
+				set_temp_variable = {
+					ROL_KMT_lanzhou_ruin_3_num_temp = 10
+				}
+				ROL_KMT_lanzhou_ruin_3 = yes
+				set_temp_variable = {
+					ROL_KMT_lanzhou_control_3_num_temp = 30
+				}
+				ROL_KMT_lanzhou_control_3 = yes
+				set_temp_variable = { temp_econ_spending_amount = 0.030 }
+				econ_spend_money_once_effect_raw_money = yes
+			}
+        }
+        if = {
+            limit = {
+                has_country_flag = ROL_KMT_lanzhou_forth_area
+            }
+            #第四区
+			if = {
+				limit = {
+					has_country_flag = ROL_KMT_lanzhou_banned_cpc
+				}
+				add_command_power = -40
+				add_political_power = -20
+				set_temp_variable = {
+					ROL_KMT_lanzhou_ruin_4_num_temp = 10
+				}
+				ROL_KMT_lanzhou_ruin_4 = yes
+				set_temp_variable = {
+					ROL_KMT_lanzhou_control_4_num_temp = 30
+				}
+				ROL_KMT_lanzhou_control_4 = yes
+				set_temp_variable = { temp_econ_spending_amount = 0.030 }
+				econ_spend_money_once_effect_raw_money = yes
+			}
+        }
+		
+		ROL_KMT_lanzhou_button_4_upface = yes
+    }
 }
 
 ROL_KMT_lanzhou_button_5_onclick = {
@@ -723,24 +1417,60 @@ ROL_KMT_lanzhou_button_5_onclick = {
                 has_country_flag = ROL_KMT_lanzhou_first_area
             }
             #第一区
+			add_political_power = -15
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -7.5
+			}		
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_num_temp = 5
+			}
+			ROL_KMT_lanzhou_control = yes
+			ROL_KMT_lanzhou_manpower = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_second_area
             }
             #第二区
+			add_political_power = -15
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -7.5
+			}		
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_2_num_temp = 5
+			}
+			ROL_KMT_lanzhou_control_2 = yes
+			ROL_KMT_lanzhou_manpower = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_third_area
             }
             #第三区
+			add_political_power = -15
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -7.5
+			}		
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_3_num_temp = 5
+			}
+			ROL_KMT_lanzhou_control_3 = yes
+			ROL_KMT_lanzhou_manpower = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_forth_area
             }
             #第四区
+			add_political_power = -15
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -7.5
+			}		
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_4_num_temp = 5
+			}
+			ROL_KMT_lanzhou_control_4 = yes
+			ROL_KMT_lanzhou_manpower = yes
         }
     }
     if = {
@@ -756,24 +1486,44 @@ ROL_KMT_lanzhou_button_5_onclick = {
                 has_country_flag = ROL_KMT_lanzhou_first_area
             }
             #第一区
+			add_political_power = -20
+			set_temp_variable = { temp_econ_spending_amount = 0.020 }
+			econ_spend_money_once_effect_raw_money = yes
+			set_country_flag = ROL_KMT_lanzhou_suppor_fix_2 #物资修正2-调拨财政支援
+			set_country_flag = ROL_KMT_lanzhou_manpower_fix_2 #物资修正2-调拨财政支援
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_second_area
             }
             #第二区
+			add_political_power = -20
+			set_temp_variable = { temp_econ_spending_amount = 0.020 }
+			econ_spend_money_once_effect_raw_money = yes
+			set_country_flag = ROL_KMT_lanzhou_suppor_fix_2 #物资修正2-调拨财政支援
+			set_country_flag = ROL_KMT_lanzhou_manpower_fix_2 #物资修正2-调拨财政支援
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_third_area
             }
             #第三区
+			add_political_power = -20
+			set_temp_variable = { temp_econ_spending_amount = 0.020 }
+			econ_spend_money_once_effect_raw_money = yes
+			set_country_flag = ROL_KMT_lanzhou_suppor_fix_2 #物资修正2-调拨财政支援
+			set_country_flag = ROL_KMT_lanzhou_manpower_fix_2 #物资修正2-调拨财政支援
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_forth_area
             }
             #第四区
+			add_political_power = -20
+			set_temp_variable = { temp_econ_spending_amount = 0.020 }
+			econ_spend_money_once_effect_raw_money = yes
+			set_country_flag = ROL_KMT_lanzhou_suppor_fix_2 #物资修正2-调拨财政支援
+			set_country_flag = ROL_KMT_lanzhou_manpower_fix_2 #物资修正2-调拨财政支援
         }
     }
     if = {
@@ -788,24 +1538,56 @@ ROL_KMT_lanzhou_button_5_onclick = {
                 has_country_flag = ROL_KMT_lanzhou_first_area
             }
             #第一区
+			add_command_power = -25
+			add_political_power = 30
+			add_equipment_to_stockpile = { type = infantry_equipment amount = -500 producer = KMT }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -25
+			}
+			ROL_KMT_lanzhou_manpower = yes
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_21
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_second_area
             }
             #第二区
+			add_command_power = -25
+			add_political_power = 30
+			add_equipment_to_stockpile = { type = infantry_equipment amount = -500 producer = KMT }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -25
+			}
+			ROL_KMT_lanzhou_manpower = yes
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_22
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_third_area
             }
             #第三区
+			add_command_power = -25
+			add_political_power = 30
+			add_equipment_to_stockpile = { type = infantry_equipment amount = -500 producer = KMT }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -25
+			}
+			ROL_KMT_lanzhou_manpower = yes
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_23
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_forth_area
             }
             #第四区
+			add_command_power = -25
+			add_political_power = 30
+			add_equipment_to_stockpile = { type = infantry_equipment amount = -500 producer = KMT }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = -25
+			}
+			ROL_KMT_lanzhou_manpower = yes
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_24
         }
     }
     ROL_KMT_lanzhou_button_5_upface = yes
@@ -824,24 +1606,76 @@ ROL_KMT_lanzhou_button_6_onclick = {
                 has_country_flag = ROL_KMT_lanzhou_first_area
             }
             #第一区
+			add_political_power = 25
+			add_command_power = -20
+			set_country_flag = ROL_KMT_lanzhou_banned_cpc
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_num_temp = 12.5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = 10
+			}
+			ROL_KMT_lanzhou_manpower = yes
+			ROL_KMT_lanzhou_control = yes
+			set_temp_variable = { temp_econ_spending_amount = 0.010 }
+			econ_spend_money_once_effect_raw_money = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_second_area
             }
             #第二区
+			add_political_power = 25
+			add_command_power = -20
+			set_country_flag = ROL_KMT_lanzhou_banned_cpc
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_2_num_temp = 12.5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = 10
+			}
+			ROL_KMT_lanzhou_manpower = yes
+			ROL_KMT_lanzhou_control_2 = yes
+			set_temp_variable = { temp_econ_spending_amount = 0.010 }
+			econ_spend_money_once_effect_raw_money = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_third_area
             }
             #第三区
+			add_political_power = 25
+			add_command_power = -20
+			set_country_flag = ROL_KMT_lanzhou_banned_cpc
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_3_num_temp = 12.5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = 10
+			}
+			ROL_KMT_lanzhou_manpower = yes
+			ROL_KMT_lanzhou_control_3 = yes
+			set_temp_variable = { temp_econ_spending_amount = 0.010 }
+			econ_spend_money_once_effect_raw_money = yes
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_forth_area
             }
             #第四区
+			add_political_power = 25
+			add_command_power = -20
+			set_country_flag = ROL_KMT_lanzhou_banned_cpc
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_4_num_temp = 12.5
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_manpower_num_temp = 10
+			}
+			ROL_KMT_lanzhou_manpower = yes
+			ROL_KMT_lanzhou_control_4 = yes
+			set_temp_variable = { temp_econ_spending_amount = 0.010 }
+			econ_spend_money_once_effect_raw_money = yes
         }
     }
     if = {
@@ -857,24 +1691,56 @@ ROL_KMT_lanzhou_button_6_onclick = {
                 has_country_flag = ROL_KMT_lanzhou_first_area
             }
             #第一区
+			add_command_power = -25
+			add_political_power = -25
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_num_temp = 20
+			}
+			ROL_KMT_lanzhou_control = yes
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_31
+			set_country_flag = ROL_KMT_lanzhou_suppor_fix_21
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_second_area
             }
             #第二区
+			add_command_power = -25
+			add_political_power = -25
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_2_num_temp = 20
+			}
+			ROL_KMT_lanzhou_control_2 = yes
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_32
+			set_country_flag = ROL_KMT_lanzhou_suppor_fix_22
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_third_area
             }
             #第三区
+			add_command_power = -25
+			add_political_power = -25
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_3_num_temp = 20
+			}
+			ROL_KMT_lanzhou_control_3 = yes
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_33
+			set_country_flag = ROL_KMT_lanzhou_suppor_fix_23
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_forth_area
             }
             #第四区
+			add_command_power = -25
+			add_political_power = -25
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_4_num_temp = 20
+			}
+			ROL_KMT_lanzhou_control_4 = yes
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_34
+			set_country_flag = ROL_KMT_lanzhou_suppor_fix_24
         }
     }
     if = {
@@ -889,24 +1755,92 @@ ROL_KMT_lanzhou_button_6_onclick = {
                 has_country_flag = ROL_KMT_lanzhou_first_area
             }
             #第一区
+			add_command_power = -25
+			add_political_power = -25
+			add_equipment_to_stockpile = { type = artillery_equipment amount = -30 producer = KMT }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_num_temp = 35
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_num_temp = 30
+			}
+			set_temp_variable = {
+				ROL_KMT_He_Zhonghan_support_num_temp = 10
+			}
+			ROL_KMT_lanzhou_control = yes
+			ROL_KMT_lanzhou_ruin = yes
+			ROL_KMT_He_Zhonghan_support = yes
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_41
+			set_country_flag = ROL_KMT_lanzhou_control_fix_41
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_second_area
             }
             #第二区
+			add_command_power = -25
+			add_political_power = -25
+			add_equipment_to_stockpile = { type = artillery_equipment amount = -30 producer = KMT }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_2_num_temp = 35
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_2_num_temp = 30
+			}
+			set_temp_variable = {
+				ROL_KMT_He_Zhonghan_support_num_temp = 10
+			}
+			ROL_KMT_lanzhou_control_2 = yes
+			ROL_KMT_lanzhou_ruin_2 = yes
+			ROL_KMT_He_Zhonghan_support = yes
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_42
+			set_country_flag = ROL_KMT_lanzhou_control_fix_42
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_third_area
             }
             #第三区
+			add_command_power = -25
+			add_political_power = -25
+			add_equipment_to_stockpile = { type = artillery_equipment amount = -30 producer = KMT }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_3_num_temp = 35
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_3_num_temp = 30
+			}
+			set_temp_variable = {
+				ROL_KMT_He_Zhonghan_support_num_temp = 10
+			}
+			ROL_KMT_lanzhou_control_3 = yes
+			ROL_KMT_lanzhou_ruin_3 = yes
+			ROL_KMT_He_Zhonghan_support = yes
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_43
+			set_country_flag = ROL_KMT_lanzhou_control_fix_43
         }
         if = {
             limit = {
                 has_country_flag = ROL_KMT_lanzhou_forth_area
             }
             #第四区
+			add_command_power = -25
+			add_political_power = -25
+			add_equipment_to_stockpile = { type = artillery_equipment amount = -30 producer = KMT }
+			set_temp_variable = {
+				ROL_KMT_lanzhou_control_4_num_temp = 35
+			}
+			set_temp_variable = {
+				ROL_KMT_lanzhou_ruin_4_num_temp = 30
+			}
+			set_temp_variable = {
+				ROL_KMT_He_Zhonghan_support_num_temp = 10
+			}
+			ROL_KMT_lanzhou_control_4 = yes
+			ROL_KMT_lanzhou_ruin_4 = yes
+			ROL_KMT_He_Zhonghan_support = yes
+			set_country_flag = ROL_KMT_lanzhou_ruin_fix_44
+			set_country_flag = ROL_KMT_lanzhou_control_fix_44
         }
     }
     ROL_KMT_lanzhou_button_6_upface = yes

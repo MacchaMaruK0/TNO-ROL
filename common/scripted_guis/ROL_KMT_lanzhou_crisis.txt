@@ -120,6 +120,10 @@ scripted_gui = {
 			ROL_KMT_lanzhou_position_4_button_click = {
 				ROL_KMT_lanzhou_button_4_onclick = yes
 			}
+			
+			ROL_KMT_lanzhou_position_4_button_right_click = {
+				ROL_KMT_lanzhou_button_4_rightclick = yes
+			}
 
 			ROL_KMT_lanzhou_position_5_button_click = {
 				ROL_KMT_lanzhou_button_5_onclick = yes
