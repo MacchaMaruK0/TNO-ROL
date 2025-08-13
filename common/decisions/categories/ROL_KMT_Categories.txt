@@ -35,7 +35,6 @@ ROL_KMT_red_blood_Category = { #地区冲突
 	}
 	# visible = { has_country_flag = ROL_KMT_fopo }
 	visible = {
-		NOT = { has_country_flag = ROL_KMT_Hu_is_die }
 		OR = {
 			has_country_flag = ROL_KMT_red_blood
 			is_debug = yes

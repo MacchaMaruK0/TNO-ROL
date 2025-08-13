@@ -95,13 +95,14 @@ focus_tree = {
 			}
 		}
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+			custom_effect_tooltip = ROL_KMT_get_ready_to_fight_2_tt
 			set_temp_variable = {
-					ROL_KMT_bop_marebellion_prepare_num_temp = 5
-				}
+				ROL_KMT_bop_marebellion_prepare_num_temp = 15
+			}
 			ROL_KMT_bop_marebellion_prepare = yes
 			set_temp_variable = {
-					ROL_KMT_bop_marebellion_nervous_num_temp = 5
-				}
+				ROL_KMT_bop_marebellion_nervous_num_temp = 8
+			}
 			ROL_KMT_bop_marebellion_nervous = yes
 			custom_effect_tooltip = ROL_KMT_get_ready_to_fight_tt
 			custom_effect_tooltip = ROL_KMT_get_ready_to_fight_1_tt
@@ -122,10 +123,30 @@ focus_tree = {
 		}
 		bypass = { 
 		}
+		select_effect = {
+			if = {
+				limit = {
+					OR = {
+						check_variable = {
+							ROL_KMT_bop_marebellion_opportunity_num = 7
+						}
+						check_variable = {
+							ROL_KMT_bop_marebellion_opportunity_num > 7
+						}
+					}
+				}
+				set_temp_variable = {
+					ROL_KMT_bop_marebellion_opportunity_num_temp = -7
+				}
+				ROL_KMT_bop_marebellion_opportunity = yes
+				complete_national_focus = ROL_KMT_additional_lanzhou_police
+			}
+		}
 		cancel_if_invalid = yes 
 		continue_if_invalid = no 
 		available_if_capitulated = no 
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+			custom_effect_tooltip = ROL_KMT_get_ready_to_fight_tt
 		}
 	}
 	
@@ -146,7 +167,32 @@ focus_tree = {
 		cancel_if_invalid = yes 
 		continue_if_invalid = no 
 		available_if_capitulated = no 
+		select_effect = {
+			if = {
+				limit = {
+					OR = {
+						check_variable = {
+							ROL_KMT_bop_marebellion_opportunity_num = 7
+						}
+						check_variable = {
+							ROL_KMT_bop_marebellion_opportunity_num > 7
+						}
+					}
+				}
+				set_temp_variable = {
+					ROL_KMT_bop_marebellion_opportunity_num_temp = -7
+				}
+				ROL_KMT_bop_marebellion_opportunity = yes
+				complete_national_focus = ROL_KMT_Reinforcement_troops_front
+			}
+		}
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+			custom_effect_tooltip = ROL_KMT_Reinforcement_troops_front_tt
+			set_temp_variable = { ROL_KMT_bop_marebellion_opportunity_num_temp = 3 }
+			ROL_KMT_bop_marebellion_opportunity = yes
+			set_country_flag = ROL_KMT_qinghai_purchasing_materials
+			custom_effect_tooltip = ROL_KMT_get_ready_to_fight_tt
+			custom_effect_tooltip = ROL_KMT_Reinforcement_troops_front_1_tt
 		}
 	}
 	
@@ -168,7 +214,27 @@ focus_tree = {
 		cancel_if_invalid = yes 
 		continue_if_invalid = no 
 		available_if_capitulated = no 
+		select_effect = {
+			if = {
+				limit = {
+					OR = {
+						check_variable = {
+							ROL_KMT_bop_marebellion_opportunity_num = 7
+						}
+						check_variable = {
+							ROL_KMT_bop_marebellion_opportunity_num > 7
+						}
+					}
+				}
+				set_temp_variable = {
+					ROL_KMT_bop_marebellion_opportunity_num_temp = -7
+				}
+				ROL_KMT_bop_marebellion_opportunity = yes
+				complete_national_focus = ROL_KMT_Coopt_the_garrison
+			}
+		}
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+			custom_effect_tooltip = ROL_KMT_get_ready_to_fight_tt
 		}
 	}
 	
@@ -189,7 +255,28 @@ focus_tree = {
 		cancel_if_invalid = yes 
 		continue_if_invalid = no 
 		available_if_capitulated = no 
+		select_effect = {
+			if = {
+				limit = {
+					OR = {
+						check_variable = {
+							ROL_KMT_bop_marebellion_opportunity_num = 7
+						}
+						check_variable = {
+							ROL_KMT_bop_marebellion_opportunity_num > 7
+						}
+					}
+				}
+				set_temp_variable = {
+					ROL_KMT_bop_marebellion_opportunity_num_temp = -7
+				}
+				ROL_KMT_bop_marebellion_opportunity = yes
+				complete_national_focus = ROL_KMT_night_in_xining
+			}
+		}
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+			
+			custom_effect_tooltip = ROL_KMT_get_ready_to_fight_tt
 		}
 	}
 	
@@ -199,7 +286,7 @@ focus_tree = {
 		icon = ROL_KMT_black_pink_coming_in 
 		x = 17
 		y = 2
-		cost = 2 #这是国策花费的政治点
+		cost = 3 #这是国策花费的政治点
         prerequisite = { focus = ROL_KMT_wild_horses }
 		mutually_exclusive = {
 		focus = ROL_KMT_Well_dressed
@@ -210,15 +297,15 @@ focus_tree = {
 				limit = {
 					OR = {
 						check_variable = {
-							ROL_KMT_bop_marebellion_opportunity_num = 14
+							ROL_KMT_bop_marebellion_opportunity_num = 21
 						}
 						check_variable = {
-							ROL_KMT_bop_marebellion_opportunity_num > 14
+							ROL_KMT_bop_marebellion_opportunity_num > 21
 						}
 					}
 				}
 				set_temp_variable = {
-					ROL_KMT_bop_marebellion_opportunity_num_temp = -14
+					ROL_KMT_bop_marebellion_opportunity_num_temp = -21
 				}
 				ROL_KMT_bop_marebellion_opportunity = yes
 				complete_national_focus = ROL_KMT_black_pink_coming_in
@@ -235,7 +322,15 @@ focus_tree = {
 		continue_if_invalid = no 
 		available_if_capitulated = no 
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+			custom_effect_tooltip = ROL_KMT_black_pink_coming_in_tt
+			set_temp_variable = { ROL_KMT_bop_marebellion_opportunity_num_temp = 8 }
+			set_temp_variable = {
+				ROL_KMT_bop_marebellion_prepare_num_temp = 12
+			}
+			ROL_KMT_bop_marebellion_opportunity = yes
+			ROL_KMT_bop_marebellion_prepare = yes
 			custom_effect_tooltip = ROL_KMT_get_ready_to_fight_tt
+			custom_effect_tooltip = ROL_KMT_black_pink_coming_in_1_tt
 		}
 	}
 	
@@ -244,7 +339,7 @@ focus_tree = {
 		icon = ROL_KMT_standing_member 
 		x = 15
 		y = 3
-		cost = 2 #这是国策花费的政治点
+		cost = 3 #这是国策花费的政治点
         prerequisite = { focus = ROL_KMT_black_pink_coming_in }
 		ai_will_do = { 
 			factor = 10
@@ -258,15 +353,15 @@ focus_tree = {
 				limit = {
 					OR = {
 						check_variable = {
-							ROL_KMT_bop_marebellion_opportunity_num = 14
+							ROL_KMT_bop_marebellion_opportunity_num = 21
 						}
 						check_variable = {
-							ROL_KMT_bop_marebellion_opportunity_num > 14
+							ROL_KMT_bop_marebellion_opportunity_num > 21
 						}
 					}
 				}
 				set_temp_variable = {
-					ROL_KMT_bop_marebellion_opportunity_num_temp = -14
+					ROL_KMT_bop_marebellion_opportunity_num_temp = -21
 				}
 				ROL_KMT_bop_marebellion_opportunity = yes
 				complete_national_focus = ROL_KMT_standing_member
@@ -285,7 +380,7 @@ focus_tree = {
 		icon = ROL_KMT_infiltrate_the_ma_army 
 		x = 19
 		y = 3
-		cost = 2 #这是国策花费的政治点
+		cost = 3 #这是国策花费的政治点
         prerequisite = { focus = ROL_KMT_black_pink_coming_in }
 		ai_will_do = { 
 			factor = 10
@@ -299,15 +394,15 @@ focus_tree = {
 				limit = {
 					OR = {
 						check_variable = {
-							ROL_KMT_bop_marebellion_opportunity_num = 14
+							ROL_KMT_bop_marebellion_opportunity_num = 21
 						}
 						check_variable = {
-							ROL_KMT_bop_marebellion_opportunity_num > 14
+							ROL_KMT_bop_marebellion_opportunity_num > 21
 						}
 					}
 				}
 				set_temp_variable = {
-					ROL_KMT_bop_marebellion_opportunity_num_temp = -14
+					ROL_KMT_bop_marebellion_opportunity_num_temp = -21
 				}
 				ROL_KMT_bop_marebellion_opportunity = yes
 				complete_national_focus = ROL_KMT_infiltrate_the_ma_army
@@ -317,7 +412,13 @@ focus_tree = {
 		continue_if_invalid = no 
 		available_if_capitulated = no 
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+			set_country_flag = ROL_KMT_qinghai_bigscale_exercises
+			add_days_mission_timeout = {
+                mission = ROL_KMT_qinghai_timeout_decision
+                days = -15
+            }
 			custom_effect_tooltip = ROL_KMT_get_ready_to_fight_tt
+			custom_effect_tooltip = ROL_KMT_infiltrate_the_ma_army_tt
 		}
 	}
 	
@@ -326,7 +427,7 @@ focus_tree = {
 		icon = ROL_KMT_promise_autonomous_status 
 		x = 17
 		y = 4
-		cost = 2 #这是国策花费的政治点
+		cost = 3 #这是国策花费的政治点
         prerequisite = { focus = ROL_KMT_infiltrate_the_ma_army }
 		prerequisite = { focus = ROL_KMT_standing_member }
 		ai_will_do = { 
@@ -341,15 +442,15 @@ focus_tree = {
 				limit = {
 					OR = {
 						check_variable = {
-							ROL_KMT_bop_marebellion_opportunity_num = 14
+							ROL_KMT_bop_marebellion_opportunity_num = 21
 						}
 						check_variable = {
-							ROL_KMT_bop_marebellion_opportunity_num > 14
+							ROL_KMT_bop_marebellion_opportunity_num > 21
 						}
 					}
 				}
 				set_temp_variable = {
-					ROL_KMT_bop_marebellion_opportunity_num_temp = -14
+					ROL_KMT_bop_marebellion_opportunity_num_temp = -21
 				}
 				ROL_KMT_bop_marebellion_opportunity = yes
 				complete_national_focus = ROL_KMT_promise_autonomous_status
@@ -368,7 +469,7 @@ focus_tree = {
 		icon = ROL_KMT_ended_successfully 
 		x = 17
 		y = 5
-		cost = 2 #这是国策花费的政治点
+		cost = 3 #这是国策花费的政治点
         prerequisite = { focus = ROL_KMT_promise_autonomous_status }
 		ai_will_do = { 
 			factor = 10
@@ -382,15 +483,15 @@ focus_tree = {
 				limit = {
 					OR = {
 						check_variable = {
-							ROL_KMT_bop_marebellion_opportunity_num = 14
+							ROL_KMT_bop_marebellion_opportunity_num = 21
 						}
 						check_variable = {
-							ROL_KMT_bop_marebellion_opportunity_num > 14
+							ROL_KMT_bop_marebellion_opportunity_num > 21
 						}
 					}
 				}
 				set_temp_variable = {
-					ROL_KMT_bop_marebellion_opportunity_num_temp = -14
+					ROL_KMT_bop_marebellion_opportunity_num_temp = -21
 				}
 				ROL_KMT_bop_marebellion_opportunity = yes
 				complete_national_focus = ROL_KMT_ended_successfully
@@ -400,7 +501,9 @@ focus_tree = {
 		continue_if_invalid = no 
 		available_if_capitulated = no 
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+			set_country_flag = ROL_KMT_bop_negotiation
 			custom_effect_tooltip = ROL_KMT_get_ready_to_fight_tt
+			custom_effect_tooltip = ROL_KMT_ended_successfully_tt
 		}
 	}
 	
@@ -419,7 +522,8 @@ focus_tree = {
 		ai_will_do = { 
 			factor = 10
 		}
-		available = { 
+		available = {
+			NOT = { country_exists = QIN }
 		}
 		bypass = { 
 		}
@@ -427,6 +531,8 @@ focus_tree = {
 		continue_if_invalid = no 
 		available_if_capitulated = no 
 		completion_reward = { #这部分是国策完成的效果，与决议effect中一样
+			add_political_power = 50
+			TNO_improve_training_policy_effectiveness_high = yes
 		}
 	}
 	

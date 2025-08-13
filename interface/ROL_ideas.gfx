@@ -182,4 +182,19 @@ spriteTypes = {
 		name = "GFX_idea_ROL_ETR_allahu_akbar"
 		textureFile = "gfx/interface/ideas/national_spirits/ETR/ROL_ETR_allahu_akbar.png"
 	}
+	######
+	spriteType = {
+		name = "GFX_idea_ROL_XIK_exquisite_all_sides"
+		textureFile = "gfx/interface/ideas/national_spirits/XIK/ROL_XIK_exquisite_all_sides.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ROL_XIK_bitter_cold_land"
+		textureFile = "gfx/interface/ideas/national_spirits/XIK/ROL_XIK_bitter_cold_land.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ROL_XIK_armament_backward"
+		textureFile = "gfx/interface/ideas/national_spirits/XIK/ROL_XIK_armament_backward.png"
+	}
 }

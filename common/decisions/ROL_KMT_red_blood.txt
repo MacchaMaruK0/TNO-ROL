@@ -5,7 +5,10 @@ ROL_KMT_red_blood_Category = { ##地区冲突
 		fire_only_once = no
 		days_re_enable = 0
 		priority = 20000
-		visible = { check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 } }
+		visible = { 
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 } 
+			check_variable = { selected_decision_tabs_id = 1 }
+		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Debug Decision KMT_ROL_bop_placeholding"
 		}
@@ -14,7 +17,7 @@ ROL_KMT_red_blood_Category = { ##地区冲突
 	KMT_ROL_bop_redblood_finnal = { ###7天倒计时
 	    icon = GFX_decision_generic_clock
 		activation = {
-			has_country_flag = ROL_KMT_red_blood
+			has_country_flag = ROL_KMT_qinghai
 		}
 		available = { 
 		    custom_trigger_tooltip = {
@@ -22,7 +25,10 @@ ROL_KMT_red_blood_Category = { ##地区冲突
 			tooltip = KMT_ROL_bop_redblood_finnal_tt
 			}
 		}
-		visible = { check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 } }
+		visible = { 
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
+			check_variable = { selected_decision_tabs_id = 1 }
+		}
 		days_mission_timeout = 7
 		allowed = {
 			tag = KMT
@@ -86,6 +92,7 @@ ROL_KMT_red_blood_Category = { ##地区冲突
 		fire_only_once = no
 		visible = { 
 			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
+			check_variable = { selected_decision_tabs_id = 1 }
 		}
 		available = { 
 		    custom_trigger_tooltip = {
@@ -178,6 +185,7 @@ ROL_KMT_red_blood_Category = { ##地区冲突
 		fire_only_once = no
 		visible = { 
 			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
+			check_variable = { selected_decision_tabs_id = 1 }
 		}
 		available = { 
 		    custom_trigger_tooltip = {
@@ -270,6 +278,7 @@ ROL_KMT_red_blood_Category = { ##地区冲突
 		fire_only_once = no
 		visible = { 
 			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
+			check_variable = { selected_decision_tabs_id = 1 }
 		}
 		available = { 
 		    custom_trigger_tooltip = {
@@ -362,6 +371,7 @@ ROL_KMT_red_blood_Category = { ##地区冲突
 		fire_only_once = no
 		visible = { 
 			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
+			check_variable = { selected_decision_tabs_id = 1 }
 		}
 		available = { 
 		    custom_trigger_tooltip = {
@@ -449,5 +459,319 @@ ROL_KMT_red_blood_Category = { ##地区冲突
 	    }
     }
 
-
+	#####青海叛乱
+	ROL_KMT_qinghai_sendgift = { #给马继援送礼
+	    icon = GFX_decision_generic_diamond
+		fire_only_once = no
+		visible = { 
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
+			check_variable = { selected_decision_tabs_id = 2 }
+		}
+		custom_cost_trigger = {
+		    has_politcal_power > 4.99
+			check_variable = { ROL_KMT_bop_marebellion_prepare_num > 5 }
+		}
+		custom_cost_text = ROL_KMT_decision_cost_5_pp_5_prepare
+		days_re_enable = 7
+		days_remove = 7
+		complete_effect = {
+			hidden_effect = {
+				add_political_power = -5
+				set_temp_variable = { ROL_KMT_bop_marebellion_prepare_num_temp = -5 }
+				ROL_KMT_bop_marebellion_prepare = yes
+			}
+		}
+	    remove_effect = {
+			set_temp_variable = { ROL_KMT_bop_marebellion_nervous_num_temp = -10 }
+			ROL_KMT_bop_marebellion_nervous = yes
+			custom_effect_tooltip = ROL_KMT_qinghai_sendgift_tt
+	    }
+    }
+	
+	ROL_KMT_qinghai_buildoutposts = { #修筑哨所
+	    icon = GFX_decision_generic_arms_trade_increase
+		fire_only_once = no
+		visible = { 
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
+			check_variable = { selected_decision_tabs_id = 2 }
+		}
+		custom_cost_trigger = {
+		    command_power > 19.9
+			check_variable = { ROL_KMT_bop_marebellion_nervous_num < 100 }
+		}
+		custom_cost_text = ROL_KMT_decision_cost_20_cp_10_nervous
+		days_re_enable = 14
+		days_remove = 7
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -20
+				set_temp_variable = { ROL_KMT_bop_marebellion_nervous_num_temp = -10 }
+				ROL_KMT_bop_marebellion_nervous = yes
+			}
+		}
+	    remove_effect = {
+			set_temp_variable = { ROL_KMT_bop_marebellion_opportunity_num_temp = 3 }
+			ROL_KMT_bop_marebellion_opportunity = yes
+			custom_effect_tooltip = ROL_KMT_qinghai_buildoutposts_tt
+	    }
+    }
+	
+	ROL_KMT_qinghai_smallscale_exercises = { #常态化小规模演习
+	    icon = GFX_decision_generic_prepare_civil_war
+		fire_only_once = no
+		visible = { 
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
+			check_variable = { selected_decision_tabs_id = 2 }
+		}
+		custom_cost_trigger = {
+		    has_politcal_power > 9.9
+			check_variable = { ROL_KMT_bop_marebellion_prepare_num > 5 }
+		}
+		custom_cost_text = ROL_KMT_decision_cost_10_pp_5_prepare
+		days_re_enable = 7
+		days_remove = 3
+		complete_effect = {
+			hidden_effect = {
+				add_political_power = -10
+				set_temp_variable = { ROL_KMT_bop_marebellion_prepare_num_temp = -5 }
+				ROL_KMT_bop_marebellion_prepare = yes
+			}
+		}
+	    remove_effect = {
+			add_days_mission_timeout = {
+                mission = ROL_KMT_qinghai_timeout_decision
+                days = 7
+            }
+	    }
+    }
+	
+	ROL_KMT_qinghai_pressureto_Ma = { #向马继援施压
+	    icon = GFX_decision_generic_assassination
+		fire_only_once = no
+		visible = { 
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
+			check_variable = { selected_decision_tabs_id = 2 }
+		}
+		custom_cost_trigger = {
+		    command_power > 24.9
+		}
+		custom_cost_text = ROL_KMT_decision_cost_25_cp_5_time
+		days_re_enable = 7
+		days_remove = 3
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+			}
+			add_days_mission_timeout = {
+                mission = ROL_KMT_qinghai_timeout_decision
+                days = -5
+            }
+		}
+	    remove_effect = {
+			set_temp_variable = { ROL_KMT_bop_marebellion_nervous_num_temp = -10 }
+			ROL_KMT_bop_marebellion_nervous = yes
+			custom_effect_tooltip = ROL_KMT_qinghai_pressureto_Ma_tt
+	    }
+    }
+	
+	ROL_KMT_qinghai_intercept_convoys = { #拦截运输队
+	    icon = GFX_decision_generic_supply
+		fire_only_once = no
+		visible = { 
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
+			check_variable = { selected_decision_tabs_id = 2 }
+		}
+		custom_cost_trigger = {
+		    command_power > 24.9
+			check_variable = { ROL_KMT_bop_marebellion_nervous_num < 100 }
+		}
+		custom_cost_text = ROL_KMT_decision_cost_25_cp_10_nervous
+		days_re_enable = 7
+		days_remove = 7
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+				set_temp_variable = { ROL_KMT_bop_marebellion_nervous_num_temp = -10 }
+				ROL_KMT_bop_marebellion_prepare = yes
+			}
+		}
+	    remove_effect = {
+			set_temp_variable = { ROL_KMT_bop_marebellion_prepare_num_temp = 10 }
+			ROL_KMT_bop_marebellion_prepare = yes
+			custom_effect_tooltip = ROL_KMT_qinghai_intercept_convoys_tt
+	    }
+    }
+	
+	ROL_KMT_qinghai_create_trouble = { #在边境制造事端
+	    icon = GFX_decision_generic_border_war
+		fire_only_once = no
+		visible = { 
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
+			check_variable = { selected_decision_tabs_id = 2 }
+		}
+		custom_cost_trigger = {
+		    command_power > 14.9
+		}
+		custom_cost_text = ROL_KMT_decision_cost_15_cp_7_time
+		days_re_enable = 7
+		days_remove = 7
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -15
+			}
+			add_days_mission_timeout = {
+                mission = ROL_KMT_qinghai_timeout_decision
+                days = -7
+            }
+		}
+	    remove_effect = {
+			set_temp_variable = { ROL_KMT_bop_marebellion_opportunity_num_temp = 5 }
+			ROL_KMT_bop_marebellion_opportunity = yes
+			custom_effect_tooltip = ROL_KMT_qinghai_create_trouble_tt
+	    }
+    }
+	
+	ROL_KMT_qinghai_infiltrate_Ma = { #派出小股部队渗透青海
+	    icon = GFX_decision_generic_riot_police
+		fire_only_once = no
+		visible = { 
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
+			check_variable = { selected_decision_tabs_id = 2 }
+		}
+		custom_cost_trigger = {
+		    command_power > 14.9
+			check_variable = { ROL_KMT_bop_marebellion_prepare_num > 10 }
+		}
+		custom_cost_text = ROL_KMT_decision_cost_15_cp_10_prepare
+		days_re_enable = 7
+		days_remove = 7
+		complete_effect = {
+			hidden_effect = {
+				set_temp_variable = { ROL_KMT_bop_marebellion_prepare_num_temp = -10 }
+				ROL_KMT_bop_marebellion_prepare = yes
+				add_command_power = -15
+			}
+		}
+	    remove_effect = {
+			set_temp_variable = { ROL_KMT_bop_marebellion_opportunity_num_temp = 3 }
+			ROL_KMT_bop_marebellion_opportunity = yes
+			custom_effect_tooltip = ROL_KMT_qinghai_infiltrate_Ma_tt
+	    }
+    }
+	
+	ROL_KMT_qinghai_partial_concessions = { #做出部分让步
+	    icon = GFX_decision_generic_propaganda
+		fire_only_once = no
+		visible = { 
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
+			check_variable = { selected_decision_tabs_id = 2 }
+		}
+		custom_cost_trigger = {
+		    has_politcal_power > 9.9
+			check_variable = { ROL_KMT_bop_marebellion_opportunity_num > 2 }
+		}
+		custom_cost_text = ROL_KMT_decision_cost_10_pp_2_opportunity
+		days_re_enable = 7
+		complete_effect = {
+			hidden_effect = {
+				add_political_power = -10
+				set_temp_variable = { ROL_KMT_bop_marebellion_opportunity_num_temp = -2 }
+				ROL_KMT_bop_marebellion_opportunity = yes
+			}
+			add_days_mission_timeout = {
+                mission = ROL_KMT_qinghai_timeout_decision
+                days = 10
+            }
+		}
+    }
+	
+	ROL_KMT_qinghai_purchasing_materials = { #重要物资采购
+	    icon = GFX_decision_generic_assault
+		fire_only_once = no
+		visible = { 
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
+			check_variable = { selected_decision_tabs_id = 2 }
+			has_country_flag = ROL_KMT_qinghai_purchasing_materials
+		}
+		custom_cost_trigger = {
+		    command_power > 14.9
+			check_variable = { ROL_KMT_bop_marebellion_nervous_num < 100 }
+		}
+		custom_cost_text = ROL_KMT_decision_cost_15_cp_5_nervous
+		days_re_enable = 21
+		days_remove = 14
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -15
+				set_temp_variable = { ROL_KMT_bop_marebellion_nervous_num_temp = -5 }
+				ROL_KMT_bop_marebellion_prepare = yes
+			}
+		}
+	    remove_effect = {
+			set_temp_variable = { ROL_KMT_bop_marebellion_prepare_num_temp = 20 }
+			ROL_KMT_bop_marebellion_prepare = yes
+			custom_effect_tooltip = ROL_KMT_qinghai_purchasing_materials_tt
+	    }
+    }
+	
+	ROL_KMT_qinghai_bigscale_exercises = { #边境大规模演习
+	    icon = GFX_decision_generic_investors
+		fire_only_once = no
+		visible = { 
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 }
+			check_variable = { selected_decision_tabs_id = 2 }
+			has_country_flag = ROL_KMT_qinghai_bigscale_exercises
+		}
+		custom_cost_trigger = {
+		    has_politcal_power > 19.9
+			check_variable = { ROL_KMT_bop_marebellion_prepare_num > 10 }
+		}
+		custom_cost_text = ROL_KMT_decision_cost_20_pp_10_prepare
+		days_re_enable = 21
+		days_remove = 7
+		complete_effect = {
+			hidden_effect = {
+				add_political_power = -20
+				set_temp_variable = { ROL_KMT_bop_marebellion_prepare_num_temp = -10 }
+				ROL_KMT_bop_marebellion_prepare = yes
+			}
+		}
+	    remove_effect = {
+			add_days_mission_timeout = {
+                mission = ROL_KMT_qinghai_timeout_decision
+                days = 20
+            }
+	    }
+    }
+	
+	ROL_KMT_qinghai_timeout_decision = { ###85天倒计时
+	    icon = GFX_decision_generic_clock
+		activation = {
+			has_country_flag = ROL_KMT_qinghai_start
+		}
+		available = {
+			OR = {
+				custom_trigger_tooltip = {
+				has_country_flag = ROL_KMT_qinghai_finnal
+				tooltip = ROL_KMT_qinghai_finnal_tt
+				}
+				NOT = { country_exists = QIN }
+			}
+		}
+		visible = { 
+			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_ROLregional1 } 
+			check_variable = { selected_decision_tabs_id = 2 }
+		}
+		days_mission_timeout = 85
+		allowed = {
+			tag = KMT
+		}
+		######芝士倒计时
+		timeout_effect = {
+			country_event = { id = kmt_qinghai.7 }
+		}
+		complete_effect = {
+		    
+	    }
+    }
 }

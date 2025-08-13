@@ -63,25 +63,6 @@ country_event = {
 }
 
 country_event = {
-	id = kmt_qinghai.1
-	title = kmt_qinghai.1.t
-	desc = kmt_qinghai.1.d 
-
-	picture = /
-
-	immediate = { 
-		log = "[GetDateText]: [Root.GetName]: event kmt_qinghai.1"
-	}
-
-	fire_only_once = no
-	is_triggered_only = yes
-
-	option = { 
-		name = kmt_qinghai.1.a
-	}
-}
-
-country_event = {
 	id = kmt_qinghai.2
 	title = kmt_qinghai.2.t
 	desc = kmt_qinghai.2.d 

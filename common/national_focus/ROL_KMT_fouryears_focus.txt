@@ -1,0 +1,149 @@
+focus_tree = {
+    id = ROL_KMT_fouryears_tree
+    default = no
+    shared_focus = ROL_KMT_suymen_war_start
+}
+
+# 烽火焚草：
+shared_focus = {
+    id = ROL_KMT_suymen_war_start
+    icon = ROL_KMT_suymen_war_start
+    x = 0
+    y = 0
+    cost = 2.000
+	allow_branch = { has_country_flag = ROL_KMT_suymen_war_start }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_suymen_war_start"
+    }
+}
+
+# 进驻省府：
+shared_focus = {
+    id = ROL_KMT_into_suygov
+    icon = ROL_KMT_into_suygov
+    relative_position_id = ROL_KMT_suymen_war_start
+    x = -2
+    y = 2
+    cost = 2.000
+    prerequisite = { # 前置组 1
+        focus = ROL_KMT_suymen_war_start
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_into_suygov"
+    }
+}
+
+# 监视共党动态：
+shared_focus = {
+    id = ROL_KMT_monitor_dynamics
+    icon = ROL_KMT_monitor_dynamics
+    relative_position_id = ROL_KMT_suymen_war_start
+    x = 2
+    y = 2
+    cost = 2.000
+    prerequisite = { # 前置组 2
+        focus = ROL_KMT_suymen_war_start
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_monitor_dynamics"
+    }
+}
+
+# 自上而下：
+shared_focus = {
+    id = ROL_KMT_from_top_tobuttom
+    icon = ROL_KMT_from_top_tobuttom
+    relative_position_id = ROL_KMT_suymen_war_start
+    x = -2
+    y = 4
+    cost = 2.000
+    prerequisite = { # 前置组 3
+        focus = ROL_KMT_into_suygov
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_from_top_tobuttom"
+    }
+}
+
+# 借鉴保甲经验：
+shared_focus = {
+    id = ROL_KMT_learn_experience
+    icon = ROL_KMT_learn_experience
+    relative_position_id = ROL_KMT_suymen_war_start
+    x = -6
+    y = 4
+    cost = 2.000
+    prerequisite = { # 前置组 4
+        focus = ROL_KMT_into_suygov
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_learn_experience"
+    }
+}
+
+# 军援再分配：
+shared_focus = {
+    id = ROL_KMT_reallocation_military
+    icon = ROL_KMT_reallocation_military
+    relative_position_id = ROL_KMT_suymen_war_start
+    x = -10
+    y = 4
+    cost = 10.000
+    prerequisite = { # 前置组 5
+        focus = ROL_KMT_into_suygov
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_reallocation_military"
+    }
+}
+
+# 重建蒙政会：
+shared_focus = {
+    id = ROL_KMT_rebulid_MPC
+    icon = ROL_KMT_rebulid_MPC
+    relative_position_id = ROL_KMT_suymen_war_start
+    x = -4
+    y = 6
+    cost = 2.000
+    prerequisite = { # 前置组 6
+        focus = ROL_KMT_learn_experience
+        focus = ROL_KMT_from_top_tobuttom
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_rebulid_MPC"
+    }
+}
+
+# 拦截通讯：
+shared_focus = {
+    id = ROL_KMT_intercepting_communications
+    icon = ROL_KMT_intercepting_communications
+    relative_position_id = ROL_KMT_suymen_war_start
+    x = 2
+    y = 4
+    cost = 10.000
+    prerequisite = { # 前置组 7
+        focus = ROL_KMT_monitor_dynamics
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_intercepting_communications"
+    }
+}
+
+# 新气象：
+shared_focus = {
+    id = ROL_KMT_new_start
+    icon = ROL_KMT_new_start
+    relative_position_id = ROL_KMT_suymen_war_start
+    x = 0
+    y = 8
+    cost = 10.000
+    prerequisite = { # 前置组 8
+        focus = ROL_KMT_rebulid_MPC
+        focus = ROL_KMT_intercepting_communications
+    }
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_new_start"
+    }
+}
+

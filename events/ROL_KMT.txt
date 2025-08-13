@@ -197,7 +197,10 @@ country_event = {
 	is_triggered_only = yes
 
 	option = { 
-		name = kmt.6.a 
+		name = kmt.6.a
+		hidden_effect = {
+			set_country_flag = ROL_KMT_qinghai_start
+		}
 		QIN = {
 		add_state_core = 906
 		add_state_core = 604

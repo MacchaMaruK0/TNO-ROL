@@ -22,6 +22,9 @@ set_popularities = {
 add_ideas = {
 		###COUNTRY###
 		ROC_autonomous_regions
+		ROL_XIK_exquisite_all_sides
+		ROL_XIK_bitter_cold_land
+		ROL_XIK_armament_backward
     	### POLITICAL LAWS ###
         tno_political_parties_one_party_state
         tno_religious_rights_state_religion

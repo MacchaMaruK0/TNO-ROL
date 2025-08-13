@@ -671,6 +671,46 @@ scripted_gui = {
 				}
 				check_variable = { selected_decision_tabs_id = 1 }
 			}
+			
+			ROL_bop_suiyuan_armybar_red_bar_visible = {
+				check_variable = { selected_decision_tabs_id = 3 }
+			}
+			
+			ROL_bop_suiyuan_armybar_blue_bar_visible = {
+				check_variable = { selected_decision_tabs_id = 3 }
+			}
+			
+			ROL_bop_suiyuan_frame_1_visible = {
+				check_variable = { selected_decision_tabs_id = 3 }
+			}
+			
+			ROL_bop_suiyuan_icon_button_visible = {
+				check_variable = { selected_decision_tabs_id = 3 }
+			}
+			
+			ROL_bop_suiyuan_An_Chunshan_button_visible = {
+				check_variable = { selected_decision_tabs_id = 3 }
+			}
+			
+			ROL_bop_suiyuan_Li_Yongxin_button_visible = {
+				check_variable = { selected_decision_tabs_id = 3 }
+			}
+			
+			ROL_bop_suiyuan_Wu_Lanfu_button_visible = {
+				check_variable = { selected_decision_tabs_id = 3 }
+			}
+			
+			ROL_bop_suiyuan_Da_Li_button_visible = {
+				check_variable = { selected_decision_tabs_id = 3 }
+			}
+			
+			ROL_KMT_suiyuan_rebellion_infor_visible = {
+				check_variable = { selected_decision_tabs_id = 3 }
+			}
+			
+			ROL_bop_suiyuan_topbar_icon_visible = {
+				check_variable = { selected_decision_tabs_id = 3 }
+			}
 		}
 			
 

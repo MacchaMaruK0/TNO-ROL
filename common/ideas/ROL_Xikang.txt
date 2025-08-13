@@ -1,0 +1,36 @@
+ideas = {
+	country = {
+		ROL_XIK_exquisite_all_sides = { #八面玲珑
+			allowed = {
+				always = yes
+			}
+			picture = ROL_XIK_exquisite_all_sides
+			removal_cost = -1
+			modifier = {
+			
+			}
+		}
+		
+		ROL_XIK_bitter_cold_land = { #苦寒之地
+			allowed = {
+				always = yes
+			}
+			picture = ROL_XIK_bitter_cold_land
+			removal_cost = -1
+			modifier = {
+			
+			}
+		}
+		
+		ROL_XIK_armament_backward = { #兵钝甲锈
+			allowed = {
+				always = yes
+			}
+			picture = ROL_XIK_armament_backward
+			removal_cost = -1
+			modifier = {
+			
+			}
+		}
+	}
+}	
