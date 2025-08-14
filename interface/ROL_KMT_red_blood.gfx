@@ -104,6 +104,10 @@ spriteTypes = {
 		texturefile = "gfx/decision/KMT/red_blood/ROL_KMT_yushu_icon.png"
 	}
 	
+	spriteType = {
+		name = "GFX_ROL_KMT_debug_2_deciscion" #图标
+		texturefile = "gfx/decision/KMT/ROL_KMT_debug_2_deciscion.png"
+	}
 }
 
 spriteTypes = {

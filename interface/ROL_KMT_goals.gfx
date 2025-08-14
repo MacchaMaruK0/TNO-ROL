@@ -546,4 +546,49 @@ spriteTypes = {
 		name = "ROL_KMT_revolution_revitalize"
 		textureFile = "gfx/interface/goals/ROL_KMT_aftermath/ROL_KMT_revolution_revitalize.png"
 	}
+	###########
+	SpriteType = {
+		name = "ROL_KMT_suymen_war_start"
+		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_suymen_war_start.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_into_suygov"
+		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_into_suygov.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_monitor_dynamics"
+		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_monitor_dynamics.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_from_top_tobuttom"
+		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_from_top_tobuttom.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_learn_experience"
+		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_learn_experience.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_reallocation_military"
+		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_reallocation_military.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_rebulid_MPC"
+		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_rebulid_MPC.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_intercepting_communications"
+		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_intercepting_communications.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_new_start"
+		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_new_start.png"
+	}
 }

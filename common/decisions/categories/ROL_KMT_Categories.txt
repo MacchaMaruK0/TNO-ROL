@@ -13,6 +13,21 @@ ROL_KMT_Debug_Category = { #这部分是决议类，用debug决议作为示范�
 	# scripted_gui = ROL_KMT_debug_ui_window
 }
 
+ROL_KMT_Debug_2_Category = { #这部分是决议类，用debug决议作为示范，命名一律规定为“ROL_国家ID_决议内容_Category”
+	icon = GFX_decision_category_debug #这是该决议类的图标，由GFX文件定义
+	allowed = { #这是决定哪个国家可以使用该决议类
+        tag = KMT
+    }
+	picture = GFX_ROL_KMT_debug_2_deciscion
+    visible = { #这是决定在什么条件下可以使用该决议类，这个和上面的代码块中的内容都可以在https://hoi4.paradoxwikis.com/Conditions中找到
+        is_debug = yes
+        is_ai = no
+    }
+    priority = 778
+    visible_when_empty = yes #这是保证在没有决议的情况下，该决议类仍能被看到，在写GUI时尤为重要
+	#scripted_gui = ROL_KMT_debug_ui_window
+}
+
 ROL_KMT_Choose_Director_Category = {   ###选主任
 	icon = GFX_ROL_KMT_choose_icon
 	allowed = {

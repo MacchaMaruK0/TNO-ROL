@@ -265,6 +265,11 @@
  ROL_KMT_luolie_focus:0 "行辕主任罗列"
  ROL_KMT_zhangzhizhong_focus:0 "行辕主任张治中"
  KMT_ROL_Add_Bop: "加载地区冲突"
+ #######
+ ROL_KMT_Debug_2_Category: "地区冲突-统一战线调试决议"
+ ROL_KMT_Debug_2_Category_desc: "                            这还得熬多久...这还得熬多久..."
+ KMT_ROL_load_zhangfour_tree: "加载张治中任期国策树"
+ KMT_ROL_load_suiyuan_tree: "加载绥蒙战争国策树"
  
  ###终局
  ROL_KMT_ma_end_focus:0 "大梦已觉"

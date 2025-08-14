@@ -1,0 +1,88 @@
+ROL_KMT_Debug_2_Category = {
+	KMT_ROL_Add_Bop = {
+		icon = GFX_decision_debug
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 0
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision KMT_ROL_Add_Bop"
+			set_country_flag = KMT_ROL_Add_Bop
+		}
+	}
+	KMT_ROL_Add_Bop_Bar_2_1 = {
+		icon = GFX_decision_debug
+		cost = 0
+		visible = { has_country_flag = KMT_ROL_Add_Bop }
+		fire_only_once = no
+		days_re_enable = 0
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision KMT_ROL_Add_Bop_Bar_2_1"
+			set_temp_variable = { decision_tabs_id = 1 }
+			ROL_add_tab = yes
+		}
+	}
+	KMT_ROL_Add_Bop_Bar_2_2 = {
+		icon = GFX_decision_debug
+		cost = 0
+		visible = { has_country_flag = KMT_ROL_Add_Bop }
+		fire_only_once = no
+		days_re_enable = 0
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision KMT_ROL_Add_Bop_Bar_2_2"
+			set_temp_variable = { decision_tabs_id = 2 }
+			ROL_add_tab = yes
+		}
+	}
+	
+	KMT_ROL_Add_Bop_Bar_2_3 = {
+		icon = GFX_decision_debug
+		cost = 0
+		visible = { has_country_flag = KMT_ROL_Add_Bop }
+		fire_only_once = no
+		days_re_enable = 0
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Debug Decision KMT_ROL_Add_Bop_Bar_2_3"
+			set_temp_variable = { decision_tabs_id = 3 }
+			ROL_add_tab = yes
+		}
+	}
+	
+	ROL_UF_test_1 = {
+		icon = GFX_decision_debug
+		fire_only_once = no
+		is_debug = yes
+		complete_effect = {
+			ROL_UF_init_UF_gui = yes
+		}
+    }
+
+	ROL_UF_test_2 = {
+		icon = GFX_decision_debug
+		fire_only_once = no
+		is_debug = yes
+		complete_effect = {
+			set_temp_variable = {
+				eventid = 3
+			}
+			set_temp_variable = {
+				vstatus = 0
+			}
+			ROL_UF_add_tab_to_page = yes
+		}
+    }
+
+	ROL_UF_test_3 = {
+		icon = GFX_decision_debug
+		fire_only_once = no
+		is_debug = yes
+		complete_effect = {
+			set_temp_variable = {
+				eventid = 3
+			}
+			set_temp_variable = {
+				aimvstatus = 4
+			}
+			ROL_UF_switch_tab_condition = yes
+		}
+    }
+}
