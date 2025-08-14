@@ -195,6 +195,49 @@ scripted_gui = {
 			ROL_KMT_lock_forth_area_visible = {
 				check_variable = { ROL_KMT_lanzhou_ruin_4_num > 70 }
 			}
+			
+			########
+			ROL_KMT_lanzhou_example_1_icon_visible = {
+				has_country_flag = ROL_KMT_lanzhou_first_area
+			}
+			
+			ROL_KMT_lanzhou_example_2_icon_visible = {
+				has_country_flag = ROL_KMT_lanzhou_second_area
+			}
+			
+			ROL_KMT_lanzhou_example_3_icon_visible = {
+				has_country_flag = ROL_KMT_lanzhou_third_area
+			}
+			
+			ROL_KMT_lanzhou_example_4_icon_visible = {
+				has_country_flag = ROL_KMT_lanzhou_forth_area
+			}
+			########
+			ROL_KMT_lanzhou_ruin_visible = {
+				has_country_flag = ROL_KMT_lanzhou_first_area
+			}
+			ROL_KMT_lanzhou_ruin_2_visible = {
+				has_country_flag = ROL_KMT_lanzhou_second_area
+			}
+			ROL_KMT_lanzhou_ruin_3_visible = {
+				has_country_flag = ROL_KMT_lanzhou_third_area
+			}
+			ROL_KMT_lanzhou_ruin_4_visible = {
+				has_country_flag = ROL_KMT_lanzhou_forth_area
+			}
+			########
+			ROL_KMT_lanzhou_control_visible = {
+				has_country_flag = ROL_KMT_lanzhou_first_area
+			}
+			ROL_KMT_lanzhou_control_2_visible = {
+				has_country_flag = ROL_KMT_lanzhou_second_area
+			}
+			ROL_KMT_lanzhou_control_3_visible = {
+				has_country_flag = ROL_KMT_lanzhou_third_area
+			}
+			ROL_KMT_lanzhou_control_4_visible = {
+				has_country_flag = ROL_KMT_lanzhou_forth_area
+			}
 		}
 		
 		properties = {

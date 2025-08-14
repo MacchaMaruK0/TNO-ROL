@@ -239,8 +239,6 @@ add_ideas = {
 	tno_research_facilities_basic
 	tno_academic_base_mass_illiteracy
 	tno_admin_efficiency_deficient_administrative_systems
-
-	CHI_chinese_warlords
 }
 
 set_country_flag = tno_defined_startup_effectiveness
