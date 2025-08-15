@@ -330,6 +330,13 @@ shared_focus = {
     x = -10
     y = 3
     cost = 2.000
+	available = {
+		custom_trigger_tooltip = {
+			NOT = { has_country_flag = ROL_STC_has_policy }
+			tooltip = ROL_KMT_no_ordinance_in_legco_tt	
+		}
+		
+	}
 	prerequisite = {
 		focus = ROL_KMT_fouryears_labor
 	}
@@ -338,6 +345,31 @@ shared_focus = {
 	}
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_attachment_law"
+		set_temp_variable = { lid = 12 }
+			set_temp_variable = { 
+				VoteValueTumu = 3
+			}
+			set_temp_variable = { 
+				VoteValueTaizi = 0
+			}
+			set_temp_variable = { 
+				VoteValueZaizao = 1
+			}
+			set_temp_variable = { 
+				VoteValueHunan = 3
+			}
+			set_temp_variable = { 
+				VoteValueYouthArmy = 4
+			}
+			set_temp_variable = { 
+				VoteValueTpp = 1
+			}
+			ROL_KMT_throw_ord_into_STC = yes
+			hidden_effect = {
+				ROL_KMT_party_unit_effect = yes
+				set_country_flag = ROL_STC_has_policy
+			}
+			custom_effect_tooltip = ROL_KMT_party_unit_tt
     }
 }
 
@@ -349,6 +381,13 @@ shared_focus = {
     x = -6
     y = 3
     cost = 2.000
+	available = {
+		custom_trigger_tooltip = {
+			NOT = { has_country_flag = ROL_STC_has_policy }
+			tooltip = ROL_KMT_no_ordinance_in_legco_tt	
+		}
+		
+	}
 	prerequisite = {
 		focus = ROL_KMT_fouryears_labor
 	}
@@ -357,6 +396,31 @@ shared_focus = {
 	}
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_balance_law"
+		set_temp_variable = { lid = 11 }
+			set_temp_variable = { 
+				VoteValueTumu = 2
+			}
+			set_temp_variable = { 
+				VoteValueTaizi = 1
+			}
+			set_temp_variable = { 
+				VoteValueZaizao = 3
+			}
+			set_temp_variable = { 
+				VoteValueHunan = 0
+			}
+			set_temp_variable = { 
+				VoteValueYouthArmy = 4
+			}
+			set_temp_variable = { 
+				VoteValueTpp = 3
+			}
+			ROL_KMT_throw_ord_into_STC = yes
+			hidden_effect = {
+				ROL_KMT_party_unit_effect = yes
+				set_country_flag = ROL_STC_has_policy
+			}
+			custom_effect_tooltip = ROL_KMT_party_unit_tt
     }
 }
 
@@ -386,12 +450,15 @@ shared_focus = {
 	relative_position_id = ROL_KMT_fouryears_start
     x = -8
     y = 7
-    cost = 2.000
+    cost = 4.200
 	prerequisite = {
 		focus = ROL_KMT_fouryears_expand_inspection
 	}
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_gavel_down"
+		set_temp_variable = { time = 30 }
+		ROL_KMT_start_STC_deliberation = yes
+		clr_country_flag = ROL_STC_has_policy
     }
 }
 
