@@ -597,7 +597,7 @@ ROL_KMT_ord_auto_pass = {
 
 ROL_KMT_ord_auto_stall = {
 	#强制搁置法令
-	ROL_KMT_policy_effect_real = yes
+	ROL_KMT_policy_stall_effect_real = yes
 	set_variable = { ROL_KMT_holding_value = ROL_KMT_current_ordinance_id}
 	set_variable = { ROL_KMT_legco_status_v = 0 } 
 	set_variable = { ROL_KMT_vote_days = 0 }
@@ -613,7 +613,7 @@ ROL_KMT_ord_auto_stall = {
 
 ROL_KMT_ord_auto_fail = {
 	#强制否决法令
-	ROL_KMT_policy_effect_real = yes
+	ROL_KMT_policy_fail_effect_real = yes
 	set_variable = { ROL_KMT_holding_value = ROL_KMT_current_ordinance_id}
 	set_variable = { ROL_KMT_legco_status_v = 0 } 
 	set_variable = { ROL_KMT_vote_days = 0 }
@@ -628,7 +628,6 @@ ROL_KMT_ord_auto_fail = {
 }
 
 ROL_KMT_end_deliberation = { #结算 自动调用
-	ROL_KMT_policy_effect_real = yes
 	set_variable = { ROL_KMT_holding_value = ROL_KMT_current_ordinance_id}
 	set_variable = { ROL_KMT_legco_status_v = 0 } 
 	set_variable = { ROL_KMT_vote_days = 0 }
@@ -648,9 +647,11 @@ ROL_KMT_display_check_pass = {
 			check_variable = { ROL_KMT_pass_condition_sum > 49 }
 		}
 		set_variable = { ROL_KMT_current_ordinance_pass_con = 1 }
+		ROL_KMT_policy_effect_real = yes
 	}
 	else = {
 		set_variable = { ROL_KMT_current_ordinance_pass_con = -1 }
+		ROL_KMT_policy_stall_effect_real = yes
 	}
 }
 
@@ -724,7 +725,7 @@ ROL_KMT_amendment_effects = { #修正案的效果，照着写
 	}
 }
 
-ROL_KMT_policy_effect_real = { #实际执行的效果
+ROL_KMT_policy_effect_real = { #实际执行的效果(通过)
 	set_temp_variable = {ROL_KMT_legco_id = ROL_KMT_holding_value }
 	if = {
 		limit = {
@@ -738,6 +739,9 @@ ROL_KMT_policy_effect_real = { #实际执行的效果
 		}
 		#……effect
 		custom_effect_tooltip = ROL_KMT_ord_1_effect
+		hidden_effect = {
+			#country_event = {} 触发事件.... #照着这个写 08/15
+		}
 		add_stability = 0.1
 	}
 	else_if = {
@@ -746,6 +750,68 @@ ROL_KMT_policy_effect_real = { #实际执行的效果
 		}
 		#填入效果
 		custom_effect_tooltip = ROL_KMT_ord_2_effect
+	}
+	#更多的夹在中间
+	else = {
+		custom_effect_tooltip = ROL_debug_fatal_out_of_range
+	}
+	ROL_KMT_amendments_check = yes
+	ROL_KMT_refresh_policy_display = yes #别动
+}
+
+ROL_KMT_policy_stall_effect_real = { #实际执行的效果(搁置)
+	set_temp_variable = {ROL_KMT_legco_id = ROL_KMT_holding_value }
+	if = {
+		limit = {
+			check_variable = { ROL_KMT_current_ordinance_id < 1 }
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { ROL_KMT_legco_id = 1 }
+		}
+		#……effect
+		hidden_effect = {
+			#country_event = {} 触发事件.... #照着这个写 08/15
+		}
+		add_stability = -10 #仅限测试
+	}
+	else_if = {
+		limit = {
+			check_variable = { ROL_KMT_legco_id = 2 }
+		}
+		#填入效果
+	}
+	#更多的夹在中间
+	else = {
+		custom_effect_tooltip = ROL_debug_fatal_out_of_range
+	}
+	ROL_KMT_amendments_check = yes
+	ROL_KMT_refresh_policy_display = yes #别动
+}
+
+ROL_KMT_policy_fail_effect_real = { #实际执行的效果(否决) - 否决不会自然触发，仅限手动强制否决 ROL_KMT_ord_auto_fail
+	set_temp_variable = {ROL_KMT_legco_id = ROL_KMT_holding_value }
+	if = {
+		limit = {
+			check_variable = { ROL_KMT_current_ordinance_id < 1 }
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { ROL_KMT_legco_id = 1 }
+		}
+		#……effect
+		hidden_effect = {
+			#country_event = {} 触发事件.... #照着这个写 08/15
+		}
+		add_stability = 0.1
+	}
+	else_if = {
+		limit = {
+			check_variable = { ROL_KMT_legco_id = 2 }
+		}
+		#填入效果
 	}
 	#更多的夹在中间
 	else = {
