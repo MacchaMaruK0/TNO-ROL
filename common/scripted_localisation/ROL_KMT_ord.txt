@@ -1167,3 +1167,25 @@ defined_text = {
 		localization_key = VoteStatus4
 	}
 }
+
+defined_text = {
+	name = GetROL_STC_laws_policy
+	text = {
+		trigger = {
+			OR = {
+				NOT = { has_country_flag = ROL_STC_laws_policy_1 }
+				NOT = { has_country_flag = ROL_STC_laws_policy_2 }
+			}
+		}
+		localization_key = ROL_STC_laws_policy_1_tt
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = ROL_STC_laws_policy_1
+				has_country_flag = ROL_STC_laws_policy_2
+			}
+		}
+		localization_key = ROL_STC_laws_policy_2_tt
+	}
+}

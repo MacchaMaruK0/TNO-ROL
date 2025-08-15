@@ -172,6 +172,9 @@ GetTPPvotelist4_tt: "[?ROL_KMT_vote_TPP_ticket^4]位常委预期执行度为4\n"
  ROL_KMT_ord_11.1_intro: "肉修正案"
  ROL_KMT_ord_11.1_effect: "允许蒋纬国吃肉和豆皮"
  ROL_KMT_ord_11.1_info: "鄂木斯克专研审判步枪，接触5秒后自愿加入黑色联盟"
+ ROL_KMT_ord_12.1_intro: "肉修正案"
+ ROL_KMT_ord_12.1_effect: "允许蒋纬国吃肉和豆皮"
+ ROL_KMT_ord_12.1_info: "鄂木斯克专研审判步枪，接触5秒后自愿加入黑色联盟"
 
 #决议
  ROL_push_to_STC_test_1: "调试：推送测试法案"

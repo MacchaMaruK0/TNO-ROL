@@ -24,3 +24,7 @@
  ROL_KMT_fouryears_putin_order: "体面收拾"
  ROL_KMT_fouryears_balance_law: "天平排障"
  ROL_KMT_fouryears_attachment_law: "无党无法"
+ ROL_KMT_fouryears_expand_inspection: "扩大检查系统"
+ ROL_KMT_fouryears_expand_inspection_tt: "[GetROL_STC_laws_policy]"
+ ROL_STC_laws_policy_1_tt: "根据我们选择的£GFX_ROL_KMT_Ord_texticon §Y政策§!方向不同，将会在提交至£GFX_ROL_KMT_STC_texticon §i常委会§!后展示可选的修正案"
+ ROL_STC_laws_policy_2_tt: " "
