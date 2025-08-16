@@ -224,6 +224,11 @@ shared_focus = {
 	}	
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_three_wagons"
+		set_temp_variable = { ROL_KMT_unit_suppor_num_temp = 1 }
+		ROL_KMT_unit_suppor = yes
+		set_temp_variable = { ROL_KMT_party_unit_num_temp = 1.2 }
+		ROL_KMT_party_unit = yes
+		custom_effect_tooltip = ROL_KMT_fouryears_three_wagons_tt
     }
 }
 
@@ -333,7 +338,7 @@ shared_focus = {
 	relative_position_id = ROL_KMT_fouryears_start
     x = -10
     y = 3
-    cost = 2.000
+    cost = 4.300
 	available = {
 		custom_trigger_tooltip = {
 			NOT = { has_country_flag = ROL_STC_has_policy }
@@ -351,7 +356,7 @@ shared_focus = {
         log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_attachment_law"
 		set_temp_variable = { lid = 12 }
 			set_temp_variable = { 
-				VoteValueTumu = 3
+				VoteValueTumu = 2
 			}
 			set_temp_variable = { 
 				VoteValueTaizi = 0
@@ -360,10 +365,10 @@ shared_focus = {
 				VoteValueZaizao = 0
 			}
 			set_temp_variable = { 
-				VoteValueHunan = 2
+				VoteValueHunan = 1
 			}
 			set_temp_variable = { 
-				VoteValueYouthArmy = 4
+				VoteValueYouthArmy = 3
 			}
 			set_temp_variable = { 
 				VoteValueTpp = 1
@@ -385,7 +390,7 @@ shared_focus = {
 	relative_position_id = ROL_KMT_fouryears_start
     x = -6
     y = 3
-    cost = 2.000
+    cost = 4.300
 	available = {
 		custom_trigger_tooltip = {
 			NOT = { has_country_flag = ROL_STC_has_policy }
@@ -403,22 +408,22 @@ shared_focus = {
         log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_balance_law"
 		set_temp_variable = { lid = 11 }
 			set_temp_variable = { 
-				VoteValueTumu = 2
+				VoteValueTumu = 1
 			}
 			set_temp_variable = { 
 				VoteValueTaizi = 0
 			}
 			set_temp_variable = { 
-				VoteValueZaizao = 3
+				VoteValueZaizao = 2
 			}
 			set_temp_variable = { 
 				VoteValueHunan = 0
 			}
 			set_temp_variable = { 
-				VoteValueYouthArmy = 4
+				VoteValueYouthArmy = 3
 			}
 			set_temp_variable = { 
-				VoteValueTpp = 3
+				VoteValueTpp = 1
 			}
 			ROL_KMT_throw_ord_into_STC = yes
 			hidden_effect = {
@@ -437,7 +442,7 @@ shared_focus = {
 	relative_position_id = ROL_KMT_fouryears_start
     x = -8
     y = 4
-    cost = 2.000
+    cost = 4.300
 	prerequisite = {
 		focus = ROL_KMT_fouryears_attachment_law
 		focus = ROL_KMT_fouryears_balance_law
@@ -451,6 +456,21 @@ shared_focus = {
 			}
 			set_temp_variable = { aid = 11.1 }
 			ROL_KMT_append_amendment_to_current = yes
+			set_temp_variable = { partyid = 1 }
+			set_temp_variable = {
+				add = 3
+			}
+			ROL_KMT_party_change_support = yes
+			set_temp_variable = { partyid = 3 }
+			set_temp_variable = {
+				add = -1
+			}
+			ROL_KMT_party_change_support = yes
+			set_temp_variable = { partyid = 4 }
+			set_temp_variable = {
+				add = 3
+			}
+			ROL_KMT_party_change_support = yes
 		}
 		
 		else_if = {
@@ -459,6 +479,21 @@ shared_focus = {
 			}
 			set_temp_variable = { aid = 12.1 }
 			ROL_KMT_append_amendment_to_current = yes
+			set_temp_variable = { partyid = 3 }
+			set_temp_variable = {
+				add = 3
+			}
+			ROL_KMT_party_change_support = yes
+			set_temp_variable = { partyid = 4 }
+			set_temp_variable = {
+				add = -1
+			}
+			ROL_KMT_party_change_support = yes
+			set_temp_variable = { partyid = 6 }
+			set_temp_variable = {
+				add = 3
+			}
+			ROL_KMT_party_change_support = yes
 		}
 	}	
 }

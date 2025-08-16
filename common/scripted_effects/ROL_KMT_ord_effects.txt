@@ -352,6 +352,7 @@ ROL_KMT_party_change_support = { #指定党派的支持率变更：随机分配�
 			}
 			log = "add"
 	}
+	custom_effect_tooltip = ROL_KMT_party_change_support_tt
 }
 
 ROL_KMT_exchange_support_condition = {#指定席位编号的操作：加减
@@ -709,15 +710,18 @@ ROL_KMT_amendment_effects = { #修正案的效果，照着写
 			limit = {
 				check_variable = { ROL_KMT_amendment_id = 11.1 }
 			}
-			set_temp_variable = { gdp_growth_temp = 0.65 }
-			econ_gdp_growth_change = yes
+			set_temp_variable = { temp_econ_spending_amount = 0.050 }
+			econ_spend_money_once_effect_raw_money = yes
+			TNO_improve_penal_system_policy_effectiveness_low = yes
 		}
 		if = {
 			limit = {
 				check_variable = { ROL_KMT_amendment_id = 12.1 }
 			}
-			set_temp_variable = { gdp_growth_temp = 0.65 }
-			econ_gdp_growth_change = yes
+			set_temp_variable = { ROL_KMT_party_unit_num_temp = -1.9 }
+			ROL_KMT_party_unit = yes
+			TNO_improve_political_parties_policy_effectiveness_low = yes
+			custom_effect_tooltip = ROL_KMT_fouryears_expand_inspection_2_tt
 		}
 		else = {
 			custom_effect_tooltip = ROL_debug_fatal_out_of_range

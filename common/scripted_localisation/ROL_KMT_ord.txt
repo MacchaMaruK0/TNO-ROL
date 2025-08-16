@@ -1204,3 +1204,66 @@ defined_text = {
 		localization_key = ROL_STC_laws_policy_2_tt
 	}
 }
+
+defined_text = {
+	name = GetROL_KMT_STC_change_support
+	text = {
+		trigger = {
+			check_variable = { partyid = 1 }
+		}
+		localization_key = TUMU_seat
+	}
+	text = {
+		trigger = {
+			check_variable = { partyid = 2 }
+		}
+		localization_key = TAIZI_seat
+	}
+	text = {
+		trigger = {
+			check_variable = { partyid = 3 }
+		}
+		localization_key = ZAIZAO_seat
+	}
+	text = {
+		trigger = {
+			check_variable = { partyid = 4 }
+		}
+		localization_key = HUNANGANG_seat
+	}
+	text = {
+		trigger = {
+			check_variable = { partyid = 5 }
+		}
+		localization_key = YOUTHARMY_seat
+	}
+	text = {
+		trigger = {
+			check_variable = { partyid = 6 }
+		}
+		localization_key = TPP_seat
+	}
+}
+
+defined_text = {
+	name = GetROL_KMT_party_change_support
+	text = {
+		trigger = {
+			check_variable = { add > 0 }
+		}
+		localization_key = ROL_KMT_STC_change_support_1_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { add < 0 }
+		}
+		localization_key = ROL_KMT_STC_change_support_2_tt
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { add = 0 }
+		}
+		localization_key = ROL_KMT_STC_change_support_3_tt
+	}
+}
