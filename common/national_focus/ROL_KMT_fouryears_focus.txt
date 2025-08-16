@@ -440,6 +440,7 @@ shared_focus = {
 	}
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_balance_law"
+		custom_effect_tooltip = ROL_KMT_fouryears_expand_inspection_tt
 		if = {
 			limit = {
 				has_country_flag = ROL_STC_laws_policy_1
@@ -455,8 +456,6 @@ shared_focus = {
 			set_temp_variable = { aid = 12.1 }
 			ROL_KMT_append_amendment_to_current = yes
 		}
-		
-		custom_effect_tooltip = ROL_KMT_fouryears_expand_inspection_tt
 	}	
 }
 
@@ -467,7 +466,7 @@ shared_focus = {
 	relative_position_id = ROL_KMT_fouryears_start
     x = -8
     y = 7
-    cost = 4.200
+    cost = 4.300
 	prerequisite = {
 		focus = ROL_KMT_fouryears_expand_inspection
 	}
@@ -475,6 +474,7 @@ shared_focus = {
         log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_gavel_down"
 		set_temp_variable = { time = 30 }
 		ROL_KMT_start_STC_deliberation = yes
+		set_temp_variable = { ROL_KMT_current_ordinance_id = 11 }
 		clr_country_flag = ROL_STC_has_policy
     }
 }

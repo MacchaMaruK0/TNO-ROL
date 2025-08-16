@@ -410,4 +410,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_STC_break.png"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = { #司法-独立
+		name = GFX_ROL_KMT_STC_law_1_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_STC_law_1.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #情报
+		name = GFX_ROL_KMT_STC_intelligence_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_STC_intelligence.png"
+		legacy_lazy_load = no
+	}
 }	
