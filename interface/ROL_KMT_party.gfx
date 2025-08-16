@@ -422,4 +422,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_STC_intelligence.png"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = { #党务资源
+		name = GFX_ROL_KMT_STC_suppor_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_STC_suppor.png"
+		legacy_lazy_load = no
+	}
 }	

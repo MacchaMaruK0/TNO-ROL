@@ -591,4 +591,34 @@ spriteTypes = {
 		name = "ROL_KMT_new_start"
 		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_new_start.png"
 	}
+	
+	SpriteType = {
+		name = "ROL_KMT_fouryears_attachment_law"
+		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_fouryears_attachment_law.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_fouryears_balance_law"
+		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_fouryears_balance_law.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_fouryears_expand_inspection"
+		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_fouryears_expand_inspection.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_fouryears_requiem"
+		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_fouryears_requiem.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_fouryears_three_wagons"
+		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_fouryears_three_wagons.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_fouryears_turn_lights"
+		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_fouryears_turn_lights.png"
+	}
 }
