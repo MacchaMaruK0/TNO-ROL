@@ -218,8 +218,10 @@ shared_focus = {
     cost = 2.000
 	prerequisite = {
 		focus = ROL_KMT_fouryears_labor
-		focus = ROL_KMT_fouryears_putin_order
 	}
+	prerequisite = {
+		focus = ROL_KMT_fouryears_putin_order
+	}	
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_three_wagons"
     }
@@ -315,6 +317,8 @@ shared_focus = {
     cost = 2.000
 	prerequisite = {
 		focus = ROL_KMT_fouryears_common_concept
+	}
+	prerequisite = {
 		focus = ROL_KMT_fouryears_kill_dog
 	}
     completion_reward = {
@@ -440,6 +444,7 @@ shared_focus = {
 	}
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_balance_law"
+		custom_effect_tooltip = ROL_KMT_fouryears_expand_inspection_tt
 		if = {
 			limit = {
 				has_country_flag = ROL_STC_laws_policy_1
@@ -455,8 +460,6 @@ shared_focus = {
 			set_temp_variable = { aid = 12.1 }
 			ROL_KMT_append_amendment_to_current = yes
 		}
-		
-		custom_effect_tooltip = ROL_KMT_fouryears_expand_inspection_tt
 	}	
 }
 
@@ -467,13 +470,14 @@ shared_focus = {
 	relative_position_id = ROL_KMT_fouryears_start
     x = -8
     y = 7
-    cost = 4.200
+    cost = 4.300
 	prerequisite = {
 		focus = ROL_KMT_fouryears_expand_inspection
 	}
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_gavel_down"
 		set_temp_variable = { time = 30 }
+		set_temp_variable = { ROL_KMT_current_ordinance_id = 11 }
 		ROL_KMT_start_STC_deliberation = yes
 		clr_country_flag = ROL_STC_has_policy
     }
@@ -547,5 +551,29 @@ shared_focus = {
 	}
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_equal_weight"
+    }
+}
+
+# 目标：模范区：
+shared_focus = {
+    id = ROL_KMT_fouryears_model_area
+    icon = ROL_KMT_fouryears_model_area
+	relative_position_id = ROL_KMT_fouryears_start
+    x = 0
+    y = 8
+    cost = 2.000
+	prerequisite = {
+		focus = ROL_KMT_fouryears_gavel_down
+	}
+	
+	prerequisite = {
+		focus = ROL_KMT_fouryears_get_honest
+	}
+	
+	prerequisite = {
+		focus = ROL_KMT_fouryears_equal_weight
+	}
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_model_area"
     }
 }
