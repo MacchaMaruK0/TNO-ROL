@@ -495,6 +495,9 @@ ROL_KMT_append_amendment_to_current = { #推入新的修正案
 	ROL_KMT_append_amendment = yes
 	custom_effect_tooltip = ROL_KMT_add_amendment_to_current_ordinance_tt
 	ROL_KMT_refresh_policy_display = yes
+	effect_tooltip = {
+		ROL_KMT_amendment_effects = yes
+	}
 }
 
 ROL_KMT_append_amendment = {
@@ -703,8 +706,8 @@ ROL_KMT_amendments_check = {
 ROL_KMT_amendment_effects = { #修正案的效果，照着写
 	if = {
 		limit = {
-				check_variable = { ROL_KMT_amendment_id > 0 }
-			}
+			check_variable = { ROL_KMT_amendment_id > 0 }
+		}
 		custom_effect_tooltip = ROL_KMT_amendment_effects_tt
 		if = {
 			limit = {
@@ -714,7 +717,7 @@ ROL_KMT_amendment_effects = { #修正案的效果，照着写
 			econ_spend_money_once_effect_raw_money = yes
 			TNO_improve_penal_system_policy_effectiveness_low = yes
 		}
-		if = {
+		else_if = {
 			limit = {
 				check_variable = { ROL_KMT_amendment_id = 12.1 }
 			}

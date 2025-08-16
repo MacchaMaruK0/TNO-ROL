@@ -1187,7 +1187,7 @@ defined_text = {
 	name = GetROL_STC_laws_policy
 	text = {
 		trigger = {
-			OR = {
+			AND = {
 				NOT = { has_country_flag = ROL_STC_laws_policy_1 }
 				NOT = { has_country_flag = ROL_STC_laws_policy_2 }
 			}
@@ -1196,7 +1196,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = {
+			AND = {
 				has_country_flag = ROL_STC_laws_policy_1
 				has_country_flag = ROL_STC_laws_policy_2
 			}
@@ -1256,6 +1256,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = { add < 0 }
+			multiply_temp_variable = { add = -1 }
 		}
 		localization_key = ROL_KMT_STC_change_support_2_tt
 	}
