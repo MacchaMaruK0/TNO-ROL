@@ -605,7 +605,7 @@ guiTypes = {
 			name = "ROL_KMT_party_policy_current_ord_info" 
 			position = { x = 660 y = 620 } 
 			font = "aldrich_28_outline"
-			text = ROL_KMT_current_ordinance_title
+			text = ROL_KMT_current_ordinance_picture
 			maxWidth = 263
 			format = center
 			#alwaystransparent = yes

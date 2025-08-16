@@ -6,6 +6,11 @@ defined_text = {
 }
 
 defined_text = {
+	name = ROL_KMT_ordinance_picture_dynamic
+	text = { localization_key = ROL_KMT_ord_[?ROL_KMT_ordinance_id]_picture }
+}
+
+defined_text = {
 	name = ROL_KMT_ordinance_intro
 	text = { localization_key = ROL_KMT_ord_[?ROL_KMT_ordinance_id]_intro }
 }
@@ -674,6 +679,16 @@ defined_text = {
 			set_temp_variable = { ROL_KMT_ordinance_id = ROL_KMT_current_ordinance_id }
 		}
 		localization_key = "[ROL_KMT_ordinance_title_dynamic]"
+	}
+}
+
+defined_text = {
+	name = ROL_KMT_current_ordinance_picture
+	text = {
+		trigger = {
+			set_temp_variable = { ROL_KMT_ordinance_id = ROL_KMT_current_ordinance_id }
+		}
+		localization_key = "[ROL_KMT_ordinance_picture_dynamic]"
 	}
 }
 
