@@ -576,10 +576,10 @@ guiTypes = {
 
 		instantTextboxType = { 
 			name = "ROL_KMT_legco_ctd" 
-			position = { x = 660 y = 597 } 
+			position = { x = 840 y = 540 } 
 			font = "aldrich_28_outline"
 			text = ROL_KMT_legco_ctd
-			maxWidth = 263
+			maxHeight = 40
 			format = center
 			alwaystransparent = yes
         }
