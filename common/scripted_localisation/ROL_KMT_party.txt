@@ -872,7 +872,7 @@ defined_text = {
 			check_variable = { ROL_KMT_party_youth_green_num_temp < 0}
 			multiply_temp_variable = { add = -1 }
 		}
-		localization_key = "[?ROL_KMT_party_youth_green_num_temp]"
+		localization_key = "ROL_KMT_party_youth_green_num_temp_loc"
 	}
 	
 	text = {
@@ -880,7 +880,7 @@ defined_text = {
 			check_variable = { ROL_KMT_party_CBI_green_num_temp < 0}
 			multiply_temp_variable = { add = -1 }
 		}
-		localization_key = "[?ROL_KMT_party_CBI_green_num_temp]"
+		localization_key = "ROL_KMT_party_CBI_green_num_temp_loc"
 	}
 	
 	text = {
@@ -888,7 +888,7 @@ defined_text = {
 			check_variable = { ROL_KMT_party_ECM_green_num_temp < 0}
 			multiply_temp_variable = { add = -1 }
 		}
-		localization_key = "[?ROL_KMT_party_ECM_green_num_temp]"
+		localization_key = "ROL_KMT_party_ECM_green_num_temp_loc"
 	}
 	
 	text = {
@@ -896,7 +896,7 @@ defined_text = {
 			check_variable = { ROL_KMT_party_professional_group_green_num_temp < 0}
 			multiply_temp_variable = { add = -1 }
 		}
-		localization_key = "[?ROL_KMT_party_professional_group_green_num_temp]"
+		localization_key = "ROL_KMT_party_professional_group_green_num_temp_loc"
 	}
 	
 	text = {
@@ -904,7 +904,7 @@ defined_text = {
 			check_variable = { ROL_KMT_party_secretary_office_green_num_temp < 0}
 			multiply_temp_variable = { add = -1 }
 		}
-		localization_key = "[?ROL_KMT_party_secretary_office_green_num_temp]"
+		localization_key = "ROL_KMT_party_secretary_office_green_num_temp_loc"
 	}
 	
 	text = {
@@ -912,7 +912,7 @@ defined_text = {
 			check_variable = { ROL_KMT_party_PWD_green_num_temp < 0}
 			multiply_temp_variable = { add = -1 }
 		}
-		localization_key = "[?ROL_KMT_party_PWD_green_num_temp]"
+		localization_key = "ROL_KMT_party_PWD_green_num_temp_loc"
 	}
 }	
 
@@ -922,41 +922,41 @@ defined_text = {
 		trigger = {
 			check_variable = { ROL_KMT_party_youth_green_num_temp > 0}
 		}
-		localization_key = "[?ROL_KMT_party_youth_green_num_temp]"
+		localization_key = "ROL_KMT_party_youth_green_num_temp_loc"
 	}
 	
 	text = {
 		trigger = {
 			check_variable = { ROL_KMT_party_CBI_green_num_temp > 0}
 		}
-		localization_key = "[?ROL_KMT_party_CBI_green_num_temp]"
+		localization_key = "ROL_KMT_party_CBI_green_num_temp_loc"
 	}
 	
 	text = {
 		trigger = {
 			check_variable = { ROL_KMT_party_ECM_green_num_temp > 0}
 		}
-		localization_key = "[?ROL_KMT_party_ECM_green_num_temp]"
+		localization_key = "ROL_KMT_party_ECM_green_num_temp_loc"
 	}
 	
 	text = {
 		trigger = {
 			check_variable = { ROL_KMT_party_professional_group_green_num_temp > 0}
 		}
-		localization_key = "[?ROL_KMT_party_professional_group_green_num_temp]"
+		localization_key = "ROL_KMT_party_professional_group_green_num_temp_loc"
 	}
 	
 	text = {
 		trigger = {
 			check_variable = { ROL_KMT_party_secretary_office_green_num_temp > 0}
 		}
-		localization_key = "[?ROL_KMT_party_secretary_office_green_num_temp]"
+		localization_key = "ROL_KMT_party_secretary_office_green_num_temp_loc"
 	}
 	
 	text = {
 		trigger = {
 			check_variable = { ROL_KMT_party_PWD_green_num_temp > 0}
 		}
-		localization_key = "[?ROL_KMT_party_PWD_green_num_temp]"
+		localization_key = "ROL_KMT_party_PWD_green_num_temp_loc"
 	}
 }

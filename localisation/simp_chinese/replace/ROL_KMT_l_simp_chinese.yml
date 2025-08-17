@@ -802,6 +802,12 @@
  ROL_KMT_ECM_idea_4_tt: "§Y4§!"
  ROL_KMT_ECM_idea_5_tt: "§Y5§!"
  ROL_KMT_ECM_idea_none_tt: "§Y0§!"
+ ROL_KMT_party_youth_green_num_temp_loc: "[?ROL_KMT_party_youth_green_num_temp]"
+ ROL_KMT_party_CBI_green_num_temp_loc: "[?ROL_KMT_party_CBI_green_num_temp]"
+ ROL_KMT_party_ECM_green_num_temp_loc: "[?ROL_KMT_party_ECM_green_num_temp]"
+ ROL_KMT_party_professional_group_green_num_temp_loc: "[?ROL_KMT_party_professional_group_green_num_temp]"
+ ROL_KMT_party_secretary_office_green_num_temp_loc: "[?ROL_KMT_party_secretary_office_green_num_temp]"
+ ROL_KMT_party_PWD_green_num_temp_loc: "[?ROL_KMT_party_PWD_green_num_temp]"
  
  ######地区冲突
  BoP_Tab_ROLregional: "抗日统一战线"
