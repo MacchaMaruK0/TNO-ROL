@@ -245,6 +245,31 @@ shared_focus = {
 	}
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_control_monster"
+		set_temp_variable = { lid = 13 }
+			set_temp_variable = { 
+				VoteValueTumu = 1
+			}
+			set_temp_variable = { 
+				VoteValueTaizi = 1
+			}
+			set_temp_variable = { 
+				VoteValueZaizao = 1
+			}
+			set_temp_variable = { 
+				VoteValueHunan = 2
+			}
+			set_temp_variable = { 
+				VoteValueYouthArmy = 3
+			}
+			set_temp_variable = { 
+				VoteValueTpp = 1
+			}
+			ROL_KMT_throw_ord_into_STC = yes
+		hidden_effect = {
+			ROL_KMT_party_unit_effect = yes
+			set_country_flag = ROL_STC_has_policy
+		}
+		custom_effect_tooltip = ROL_KMT_party_unit_tt
     }
 }
 
@@ -359,13 +384,13 @@ shared_focus = {
 				VoteValueTumu = 2
 			}
 			set_temp_variable = { 
-				VoteValueTaizi = 0
+				VoteValueTaizi = 1
 			}
 			set_temp_variable = { 
 				VoteValueZaizao = 0
 			}
 			set_temp_variable = { 
-				VoteValueHunan = 1
+				VoteValueHunan = 2
 			}
 			set_temp_variable = { 
 				VoteValueYouthArmy = 3
@@ -414,7 +439,7 @@ shared_focus = {
 				VoteValueTaizi = 0
 			}
 			set_temp_variable = { 
-				VoteValueZaizao = 2
+				VoteValueZaizao = 3
 			}
 			set_temp_variable = { 
 				VoteValueHunan = 0
@@ -423,7 +448,7 @@ shared_focus = {
 				VoteValueYouthArmy = 3
 			}
 			set_temp_variable = { 
-				VoteValueTpp = 1
+				VoteValueTpp = 2
 			}
 			ROL_KMT_throw_ord_into_STC = yes
 			hidden_effect = {
@@ -509,12 +534,14 @@ shared_focus = {
 	prerequisite = {
 		focus = ROL_KMT_fouryears_expand_inspection
 	}
-    completion_reward = {
-        log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_gavel_down"
+	select_effect = {
 		set_temp_variable = { time = 30 }
 		set_temp_variable = { ROL_KMT_current_ordinance_id = 11 }
 		ROL_KMT_start_STC_deliberation = yes
-		clr_country_flag = ROL_STC_has_policy
+	}
+    completion_reward = {
+        log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_gavel_down"
+		custom_effect_tooltip = ROL_KMT_start_STC_deliberation_tt
     }
 }
 
@@ -534,7 +561,33 @@ shared_focus = {
 	}
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_turn_lights"
+		set_temp_variable = { lid = 14 }
+			set_temp_variable = { 
+				VoteValueTumu = 2
+			}
+			set_temp_variable = { 
+				VoteValueTaizi = 1
+			}
+			set_temp_variable = { 
+				VoteValueZaizao = 0
+			}
+			set_temp_variable = { 
+				VoteValueHunan = 2
+			}
+			set_temp_variable = { 
+				VoteValueYouthArmy = 3
+			}
+			set_temp_variable = { 
+				VoteValueTpp = 2
+			}
+			ROL_KMT_throw_ord_into_STC = yes
+		hidden_effect = {
+			ROL_KMT_party_unit_effect = yes
+			set_country_flag = ROL_STC_has_policy
+		}
+		custom_effect_tooltip = ROL_KMT_party_unit_tt
     }
+	
 }
 
 # 看好开关：

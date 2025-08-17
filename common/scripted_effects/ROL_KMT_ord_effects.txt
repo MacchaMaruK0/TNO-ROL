@@ -43,6 +43,9 @@ ROL_KMT_initialize_legco = { #初始历史法案+法案基本信息
 	add_to_array = { ROL_KMT_sponsor_faction = YOUTHARMY } #10
 	add_to_array = { ROL_KMT_sponsor_faction = YOUTHARMY } #11司法-公平
 	add_to_array = { ROL_KMT_sponsor_faction = YOUTHARMY } #12司法-公平
+	add_to_array = { ROL_KMT_sponsor_faction = YOUTHARMY } #13情报
+	add_to_array = { ROL_KMT_sponsor_faction = YOUTHARMY } #14选举-党内
+	add_to_array = { ROL_KMT_sponsor_faction = YOUTHARMY } #14选举-开放
 	#为法案绑定支持者……
 
 	#无需更改……
