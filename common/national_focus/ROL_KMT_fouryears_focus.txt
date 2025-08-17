@@ -239,7 +239,7 @@ shared_focus = {
 	relative_position_id = ROL_KMT_fouryears_start
     x = 0
     y = 4
-    cost = 2.000
+    cost = 4.300
 	prerequisite = {
 		focus = ROL_KMT_fouryears_three_wagons
 	}
@@ -280,7 +280,7 @@ shared_focus = {
 	relative_position_id = ROL_KMT_fouryears_start
     x = -2
     y = 5
-    cost = 2.000
+    cost = 4.300
 	prerequisite = {
 		focus = ROL_KMT_fouryears_control_monster
 	}
@@ -296,7 +296,7 @@ shared_focus = {
 	relative_position_id = ROL_KMT_fouryears_start
     x = -2
     y = 6
-    cost = 2.000
+    cost = 4.300
 	prerequisite = {
 		focus = ROL_KMT_fouryears_power_bait
 	}
@@ -312,7 +312,7 @@ shared_focus = {
 	relative_position_id = ROL_KMT_fouryears_start
     x = 2
     y = 5
-    cost = 2.000
+    cost = 4.300
 	prerequisite = {
 		focus = ROL_KMT_fouryears_control_monster
 	}
@@ -328,7 +328,7 @@ shared_focus = {
 	relative_position_id = ROL_KMT_fouryears_start
     x = 2
     y = 6
-    cost = 2.000
+    cost = 4.300
 	prerequisite = {
 		focus = ROL_KMT_fouryears_cut_temptation
 	}
@@ -344,7 +344,7 @@ shared_focus = {
 	relative_position_id = ROL_KMT_fouryears_start
     x = 0
     y = 7
-    cost = 2.000
+    cost = 4.300
 	prerequisite = {
 		focus = ROL_KMT_fouryears_common_concept
 	}
@@ -541,7 +541,11 @@ shared_focus = {
 	}
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_gavel_down"
-		custom_effect_tooltip = ROL_KMT_start_STC_deliberation_tt
+		effect_tooltip = {
+			set_temp_variable = { time = 30 }
+			set_temp_variable = { ROL_KMT_current_ordinance_id = 11 }
+			ROL_KMT_start_STC_deliberation = yes
+		}
     }
 }
 
@@ -552,7 +556,7 @@ shared_focus = {
 	relative_position_id = ROL_KMT_fouryears_start
     x = 6
     y = 3
-    cost = 2.000
+    cost = 4.300
 	prerequisite = {
 		focus = ROL_KMT_fouryears_putin_order
 	}
@@ -597,7 +601,7 @@ shared_focus = {
 	relative_position_id = ROL_KMT_fouryears_start
     x = 10
     y = 3
-    cost = 2.000
+    cost = 4.300
 	prerequisite = {
 		focus = ROL_KMT_fouryears_putin_order
 	}
@@ -616,7 +620,7 @@ shared_focus = {
 	relative_position_id = ROL_KMT_fouryears_start
     x = 8
     y = 4
-    cost = 2.000
+    cost = 4.300
 	prerequisite = {
 		focus = ROL_KMT_fouryears_turn_lights
 		focus = ROL_KMT_fouryears_guard_switch
@@ -633,7 +637,7 @@ shared_focus = {
 	relative_position_id = ROL_KMT_fouryears_start
     x = 8
     y = 7
-    cost = 2.000
+    cost = 4.300
 	prerequisite = {
 		focus = ROL_KMT_fouryears_guard_night
 	}
