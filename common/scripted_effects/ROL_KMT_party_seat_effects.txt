@@ -568,6 +568,8 @@ ROL_KMT_party_youth_green = {
 		min = 1
 		max = 100
 	}
+	
+	custom_effect_tooltip = ROL_KMT_party_green_tt
 }
 
 ROL_KMT_party_youth_red = {
@@ -608,6 +610,8 @@ ROL_KMT_party_youth_red = {
 	set_variable = { ROL_KMT_party_1_ef_var = ROL_KMT_party_youth_red_num}
 	add_to_variable = { ROL_KMT_party_1_ef_var = -50 }
 	multiply_variable = {  ROL_KMT_party_1_ef_var = 0.05 }
+	
+	custom_effect_tooltip = ROL_KMT_party_youth_red_tt
 }
 
 ROL_KMT_party_CBI_green = {

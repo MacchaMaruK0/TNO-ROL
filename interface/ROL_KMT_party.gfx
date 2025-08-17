@@ -434,4 +434,52 @@ spriteTypes = {
 		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_STC_book.png"
 		legacy_lazy_load = no
 	}
+	
+	spriteType = { #调查局
+		name = GFX_ROL_KMT_party_CBI_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_CBI_texticon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #政工处
+		name = GFX_ROL_KMT_party_PWD_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_PWD_texticon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #经建会
+		name = GFX_ROL_KMT_party_ECM_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_ECM_texticon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #职团
+		name = GFX_ROL_KMT_party_PG_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_PG_texticon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #革命实践研究院
+		name = GFX_ROL_KMT_party_RS_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_RS_texticon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #参谋部
+		name = GFX_ROL_KMT_party_PSO_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_PSO_texticon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #资源
+		name = GFX_ROL_KMT_party_suppor_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_suppor_texticon.png"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { #影响力
+		name = GFX_ROL_KMT_party_effect_texticon
+		texturefile = "gfx/interface/GUI/ROL_KMT_party/ROL_KMT_party_effect_texticon.png"
+		legacy_lazy_load = no
+	}
 }	

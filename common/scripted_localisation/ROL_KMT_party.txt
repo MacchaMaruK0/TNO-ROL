@@ -724,4 +724,239 @@ defined_text = {
 		    }
 		localization_key = "ROL_KMT_partyid_unit_tt_6"
 	}
+}
+
+defined_text = {
+	name = GetROL_KMT_party_youth_green
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_youth_green_num_temp > 0}
+		}
+		localization_key = "ROL_KMT_party_youth_green_1_tt"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_youth_green_num_temp < 0}
+			multiply_temp_variable = { add = -1 }
+		}
+		localization_key = "ROL_KMT_party_youth_green_2_tt"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_youth_green_num_temp = 0}
+			multiply_temp_variable = { add = -1 }
+		}
+		localization_key = "ROL_KMT_party_youth_green_3_tt"
+	}
 }	
+
+defined_text = {
+	name = GetROL_KMT_party_youth_red
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_youth_red_num_temp > 0}
+		}
+		localization_key = "ROL_KMT_party_youth_red_1_tt"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_youth_red_num_temp < 0}
+			multiply_temp_variable = { add = -1 }
+		}
+		localization_key = "ROL_KMT_party_youth_red_2_tt"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_youth_red_num_temp = 0}
+			multiply_temp_variable = { add = -1 }
+		}
+		localization_key = "ROL_KMT_party_youth_red_3_tt"
+	}
+}
+
+defined_text = {
+	name = GetROL_KMT_party_green
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_youth_green_num_temp > 0}
+		}
+		localization_key = "ROL_KMT_party_green_1_tt"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_CBI_green_num_temp > 0}
+		}
+		localization_key = "ROL_KMT_party_green_1_tt"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_ECM_green_num_temp > 0}
+		}
+		localization_key = "ROL_KMT_party_green_1_tt"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_professional_group_green_num_temp > 0}
+		}
+		localization_key = "ROL_KMT_party_green_1_tt"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_secretary_office_green_num_temp > 0}
+		}
+		localization_key = "ROL_KMT_party_green_1_tt"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_PWD_green_num_temp > 0}
+		}
+		localization_key = "ROL_KMT_party_green_1_tt"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_youth_green_num_temp < 0}
+		}
+		localization_key = "ROL_KMT_party_green_2_tt"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_CBI_green_num_temp < 0}
+		}
+		localization_key = "ROL_KMT_party_green_2_tt"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_ECM_green_num_temp < 0}
+		}
+		localization_key = "ROL_KMT_party_green_2_tt"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_professional_group_green_num_temp < 0}
+		}
+		localization_key = "ROL_KMT_party_green_2_tt"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_secretary_office_green_num_temp < 0}
+		}
+		localization_key = "ROL_KMT_party_green_2_tt"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_PWD_green_num_temp < 0}
+		}
+		localization_key = "ROL_KMT_party_green_2_tt"
+	}
+}	
+
+defined_text = {
+	name = GetROL_KMT_party_green_number_minus
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_youth_green_num_temp < 0}
+			multiply_temp_variable = { add = -1 }
+		}
+		localization_key = "[?ROL_KMT_party_youth_green_num_temp]"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_CBI_green_num_temp < 0}
+			multiply_temp_variable = { add = -1 }
+		}
+		localization_key = "[?ROL_KMT_party_CBI_green_num_temp]"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_ECM_green_num_temp < 0}
+			multiply_temp_variable = { add = -1 }
+		}
+		localization_key = "[?ROL_KMT_party_ECM_green_num_temp]"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_professional_group_green_num_temp < 0}
+			multiply_temp_variable = { add = -1 }
+		}
+		localization_key = "[?ROL_KMT_party_professional_group_green_num_temp]"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_secretary_office_green_num_temp < 0}
+			multiply_temp_variable = { add = -1 }
+		}
+		localization_key = "[?ROL_KMT_party_secretary_office_green_num_temp]"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_PWD_green_num_temp < 0}
+			multiply_temp_variable = { add = -1 }
+		}
+		localization_key = "[?ROL_KMT_party_PWD_green_num_temp]"
+	}
+}	
+
+defined_text = {
+	name = GetROL_KMT_party_green_number_add
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_youth_green_num_temp > 0}
+		}
+		localization_key = "[?ROL_KMT_party_youth_green_num_temp]"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_CBI_green_num_temp > 0}
+		}
+		localization_key = "[?ROL_KMT_party_CBI_green_num_temp]"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_ECM_green_num_temp > 0}
+		}
+		localization_key = "[?ROL_KMT_party_ECM_green_num_temp]"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_professional_group_green_num_temp > 0}
+		}
+		localization_key = "[?ROL_KMT_party_professional_group_green_num_temp]"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_secretary_office_green_num_temp > 0}
+		}
+		localization_key = "[?ROL_KMT_party_secretary_office_green_num_temp]"
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ROL_KMT_party_PWD_green_num_temp > 0}
+		}
+		localization_key = "[?ROL_KMT_party_PWD_green_num_temp]"
+	}
+}
