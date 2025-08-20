@@ -546,19 +546,6 @@ ROL_KMT_party_youth_green = {
         var = ROL_KMT_party_youth_green_num #youth的绿条变量
         value = ROL_KMT_party_youth_green_num_temp #改变youth的绿条变量
     }
-    
-    if = {
-        limit = {
-            check_variable = {
-                ROL_KMT_party_youth_green_num_temp < 0
-            }
-        }
-        multiply_temp_variable = {
-            ROL_KMT_party_youth_green_num_temp = -1
-        }
-    }
-    else = {
-    }
     ######
     ######
     clamp_variable = {
@@ -617,19 +604,6 @@ ROL_KMT_party_CBI_green = {
         var = ROL_KMT_party_CBI_green_num #CBI的绿条变量
         value = ROL_KMT_party_CBI_green_num_temp #改变CBI的绿条变量
     }
-    
-    if = {
-        limit = {
-            check_variable = {
-                ROL_KMT_party_CBI_green_num_temp < 0
-            }
-        }
-        multiply_temp_variable = {
-            ROL_KMT_party_CBI_green_num_temp = -1
-        }
-    }
-    else = {
-    }
     ######
     ######
     clamp_variable = {
@@ -683,19 +657,6 @@ ROL_KMT_party_ECM_green = {
         var = ROL_KMT_party_ECM_green_num #ECM的绿条变量
         value = ROL_KMT_party_ECM_green_num_temp #改变ECM的绿条变量
     }
-    
-    if = {
-        limit = {
-            check_variable = {
-                ROL_KMT_party_ECM_green_num_temp < 0
-            }
-        }
-        multiply_temp_variable = {
-            ROL_KMT_party_ECM_green_num_temp = -1
-        }
-    }
-    else = {
-    }
     ######
     ######
     clamp_variable = {
@@ -748,19 +709,6 @@ ROL_KMT_party_professional_group_green = {
     add_to_variable = {
         var = ROL_KMT_party_professional_group_green_num #职团的绿条变量
         value = ROL_KMT_party_professional_group_green_num_temp #改变职团的绿条变量
-    }
-    
-    if = {
-        limit = {
-            check_variable = {
-                ROL_KMT_party_professional_group_green_num_temp < 0
-            }
-        }
-        multiply_temp_variable = {
-            ROL_KMT_party_professional_group_green_num_temp = -1
-        }
-    }
-    else = {
     }
     ######
     ######
@@ -817,19 +765,6 @@ ROL_KMT_party_PWD_green = {
         var = ROL_KMT_party_PWD_green_num #PWD的绿条变量
         value = ROL_KMT_party_PWD_green_num_temp #改变PWD的绿条变量
     }
-    
-    if = {
-        limit = {
-            check_variable = {
-                ROL_KMT_party_PWD_green_num_temp < 0
-            }
-        }
-        multiply_temp_variable = {
-            ROL_KMT_party_PWD_green_num_temp = -1
-        }
-    }
-    else = {
-    }
     ######
     ######
     clamp_variable = {
@@ -884,19 +819,6 @@ ROL_KMT_party_secretary_office_green = {
     add_to_variable = {
         var = ROL_KMT_party_secretary_office_green_num #参谋部的绿条变量
         value = ROL_KMT_party_secretary_office_green_num_temp #改变参谋部的绿条变量
-    }
-    
-    if = {
-        limit = {
-            check_variable = {
-                ROL_KMT_party_secretary_office_green_num_temp < 0
-            }
-        }
-        multiply_temp_variable = {
-            ROL_KMT_party_secretary_office_green_num_temp = -1
-        }
-    }
-    else = {
     }
     ######
     ######

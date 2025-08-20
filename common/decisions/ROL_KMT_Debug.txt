@@ -197,7 +197,7 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 	complete_effect = {
 		set_temp_variable = { ROL_KMT_party_youth_red_num_temp = 5 }
 		ROL_KMT_party_youth_red = yes
-		set_temp_variable = { ROL_KMT_party_youth_green_num_temp = 1 }
+		set_temp_variable = { ROL_KMT_party_youth_green_num_temp = -1 }
 		ROL_KMT_party_youth_green = yes
 		}
     }
