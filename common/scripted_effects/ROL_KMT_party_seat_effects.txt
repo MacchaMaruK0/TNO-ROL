@@ -532,7 +532,6 @@ ROL_KMT_rerender_party_seat = { #保留用作初始化
 #     else = {
 #     }
 #     ######
-#     clear_variable = ROL_KMT_operate_party_seat_points_temp
 #     ######
 #     clamp_variable = {
 # 		var = ROL_KMT_add_deduct_points
@@ -561,7 +560,6 @@ ROL_KMT_party_youth_green = {
     else = {
     }
     ######
-    clear_variable = ROL_KMT_party_youth_green_num_temp
     ######
     clamp_variable = {
 		var = ROL_KMT_party_youth_green_num
@@ -592,7 +590,6 @@ ROL_KMT_party_youth_red = {
     else = {
     }
     ######
-    clear_variable = ROL_KMT_party_youth_red_num_temp
     ######
     clamp_variable = {
 		var = ROL_KMT_party_youth_red_num
@@ -634,7 +631,6 @@ ROL_KMT_party_CBI_green = {
     else = {
     }
     ######
-    clear_variable = ROL_KMT_party_CBI_green_num_temp
     ######
     clamp_variable = {
 		var = ROL_KMT_party_CBI_green_num
@@ -663,7 +659,6 @@ ROL_KMT_party_CBI_red = {
     else = {
     }
     ######
-    clear_variable = ROL_KMT_party_CBI_red_num_temp
     ######
     clamp_variable = {
 		var = ROL_KMT_party_CBI_red_num
@@ -701,7 +696,6 @@ ROL_KMT_party_ECM_green = {
     else = {
     }
     ######
-    clear_variable = ROL_KMT_party_ECM_green_num_temp
     ######
     clamp_variable = {
 		var = ROL_KMT_party_ECM_green_num
@@ -730,7 +724,6 @@ ROL_KMT_party_ECM_red = {
     else = {
     }
     ######
-    clear_variable = ROL_KMT_party_ECM_red_num_temp
     ######
     clamp_variable = {
 		var = ROL_KMT_party_ECM_red_num
@@ -768,7 +761,6 @@ ROL_KMT_party_professional_group_green = {
     else = {
     }
     ######
-    clear_variable = ROL_KMT_party_professional_group_green_num_temp
     ######
     clamp_variable = {
 		var = ROL_KMT_party_professional_group_green_num
@@ -797,7 +789,6 @@ ROL_KMT_party_professional_group_red = {
     else = {
     }
     ######
-    clear_variable = ROL_KMT_party_professional_group_red_num_temp
     ######
     clamp_variable = {
 		var = ROL_KMT_party_professional_group_red_num
@@ -837,7 +828,6 @@ ROL_KMT_party_PWD_green = {
     else = {
     }
     ######
-    clear_variable = ROL_KMT_party_PWD_green_num_temp
     ######
     clamp_variable = {
 		var = ROL_KMT_party_PWD_green_num
@@ -866,7 +856,6 @@ ROL_KMT_party_PWD_red = {
     else = {
     }
     ######
-    clear_variable = ROL_KMT_party_PWD_red_num_temp
     ######
     clamp_variable = {
 		var = ROL_KMT_party_PWD_red_num
@@ -906,7 +895,6 @@ ROL_KMT_party_secretary_office_green = {
     else = {
     }
     ######
-    clear_variable = ROL_KMT_party_secretary_office_green_num_temp
     ######
     clamp_variable = {
 		var = ROL_KMT_party_secretary_office_green_num
@@ -935,7 +923,6 @@ ROL_KMT_party_secretary_office_red = {
     else = {
     }
     ######
-    clear_variable = ROL_KMT_party_secretary_office_red_num_temp
     ######
     clamp_variable = {
 		var = ROL_KMT_party_secretary_office_red_num
@@ -1107,7 +1094,6 @@ ROL_KMT_party_unit = {
         value = ROL_KMT_party_unit_num_temp #改变团结度变量
     }	
     ######
-    clear_variable = ROL_KMT_party_unit_num_temp
     ######
     clamp_variable = {
 		var = ROL_KMT_party_unit_num
@@ -1149,7 +1135,6 @@ ROL_KMT_unit_act_1 = {
     else = {
     }
     ######
-    clear_variable = ROL_KMT_unit_act_1_num_temp
     ######
     clamp_variable = {
 		var = ROL_KMT_unit_act_1_num
@@ -1178,7 +1163,6 @@ ROL_KMT_unit_act_2 = {
     else = {
     }
     ######
-    clear_variable = ROL_KMT_unit_act_2_num_temp
     ######
     clamp_variable = {
 		var = ROL_KMT_unit_act_2_num
@@ -1207,7 +1191,6 @@ ROL_KMT_unit_act_3 = {
     else = {
     }
     ######
-    clear_variable = ROL_KMT_unit_act_3_num_temp
     ######
     clamp_variable = {
 		var = ROL_KMT_unit_act_3_num
@@ -1236,7 +1219,6 @@ ROL_KMT_unit_act_4 = {
     else = {
     }
     ######
-    clear_variable = ROL_KMT_unit_act_4_num_temp
     ######
     clamp_variable = {
 		var = ROL_KMT_unit_act_4_num
@@ -1265,7 +1247,6 @@ ROL_KMT_unit_suppor = {
     else = {
     }
     ######
-    clear_variable = ROL_KMT_unit_suppor_num_temp
     ######
     clamp_variable = {
 		var = ROL_KMT_unit_suppor_num
@@ -1482,7 +1463,6 @@ ROL_party_text = {
     else = {
     }
     ######
-    clear_variable = ROL_party_text_num_temp
     ######
     clamp_variable = {
 		var = ROL_party_text_num
