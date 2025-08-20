@@ -157,6 +157,8 @@ shared_focus = {
     cost = 2.000
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_start"
+		set_country_flag = ROL_KMT_fouryears_start
+		custom_effect_tooltip = ROL_KMT_fouryears_start_tt
     }
 }
 
@@ -189,6 +191,10 @@ shared_focus = {
 	}
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_labor"
+		set_temp_variable = { ROL_KMT_party_professional_group_red_num_temp = 0.75 }
+		ROL_KMT_party_professional_group_red = yes
+		set_temp_variable = { ROL_KMT_party_ECM_red_num_temp = 1.25 }
+		ROL_KMT_party_ECM_red = yes
     }
 }
 
@@ -205,6 +211,10 @@ shared_focus = {
 	}
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_putin_order"
+		set_temp_variable = { ROL_KMT_party_CBI_red_num_temp = 1.25 }
+		ROL_KMT_party_CBI_red = yes
+		set_temp_variable = { ROL_KMT_party_youth_red_num_temp = 0.75 }
+		ROL_KMT_party_youth_red = yes
     }
 }
 
@@ -351,8 +361,18 @@ shared_focus = {
 	prerequisite = {
 		focus = ROL_KMT_fouryears_kill_dog
 	}
+	select_effect = {
+		set_temp_variable = { time = 30 }
+		set_temp_variable = { ROL_KMT_current_ordinance_id = 13 }
+		ROL_KMT_start_STC_deliberation = yes
+	}
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_get_honest"
+		effect_tooltip = {
+			set_temp_variable = { time = 30 }
+			set_temp_variable = { ROL_KMT_current_ordinance_id = 13 }
+			ROL_KMT_start_STC_deliberation = yes
+		}
     }
 }
 
@@ -641,8 +661,18 @@ shared_focus = {
 	prerequisite = {
 		focus = ROL_KMT_fouryears_guard_night
 	}
+	select_effect = {
+		set_temp_variable = { time = 30 }
+		set_temp_variable = { ROL_KMT_current_ordinance_id = 14 }
+		ROL_KMT_start_STC_deliberation = yes
+	}
     completion_reward = {
         log = "[GetDateText]: [Root.GetName]: Focus ROL_KMT_fouryears_equal_weight"
+		effect_tooltip = {
+			set_temp_variable = { time = 30 }
+			set_temp_variable = { ROL_KMT_current_ordinance_id = 14 }
+			ROL_KMT_start_STC_deliberation = yes
+		}
     }
 }
 

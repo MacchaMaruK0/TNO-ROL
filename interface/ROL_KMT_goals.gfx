@@ -621,4 +621,24 @@ spriteTypes = {
 		name = "ROL_KMT_fouryears_turn_lights"
 		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_fouryears_turn_lights.png"
 	}
+	
+	SpriteType = {
+		name = "ROL_KMT_fouryears_power_bait"
+		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_fouryears_power_bait.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_fouryears_control_monster"
+		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_fouryears_control_monster.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_fouryears_kill_dog"
+		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_fouryears_kill_dog.png"
+	}
+	
+	SpriteType = {
+		name = "ROL_KMT_fouryears_common_concept"
+		textureFile = "gfx/interface/goals/ROL_KMT_fouryears_focus/ROL_KMT_fouryears_common_concept.png"
+	}
 }
