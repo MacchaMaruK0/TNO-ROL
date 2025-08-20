@@ -680,6 +680,8 @@ ROL_KMT_party_CBI_red = {
 	multiply_variable = {  ROL_KMT_party_2_df_var = 0.005 }
 
 	hidden_effect = { ROL_KMT_CBI_Leveler = yes }
+	
+	custom_effect_tooltip = ROL_KMT_party_CBI_red_tt
 }
 
 ROL_KMT_party_ECM_green = {
@@ -748,6 +750,8 @@ ROL_KMT_party_ECM_red = {
 	multiply_variable = {  ROL_KMT_party_3_gg_var = 0.005 }
 	
 	hidden_effect = { ROL_KMT_ECM_Leveler = yes }
+	
+	custom_effect_tooltip = ROL_KMT_party_ECM_red_tt
 }
 
 ROL_KMT_party_professional_group_green = {
@@ -818,6 +822,8 @@ ROL_KMT_party_professional_group_red = {
 	set_variable = { ROL_KMT_party_4_gu_var = ROL_KMT_party_professional_group_red_num}
 	add_to_variable = { ROL_KMT_party_4_gu_var = 0 }
 	multiply_variable = {  ROL_KMT_party_4_gu_var = -0.002 }
+	
+	custom_effect_tooltip = ROL_KMT_party_professional_group_red_tt
 }
 
 ROL_KMT_party_PWD_green = {
@@ -888,6 +894,8 @@ ROL_KMT_party_PWD_red = {
 	set_variable = { ROL_KMT_party_5_lr_var = ROL_KMT_party_PWD_red_num}
 	add_to_variable = { ROL_KMT_party_5_lr_var = -25 }
 	multiply_variable = {  ROL_KMT_party_5_lr_var = 0.05 }
+	
+	custom_effect_tooltip = ROL_KMT_party_PWD_red_tt
 }
 
 ROL_KMT_party_secretary_office_green = {
@@ -958,6 +966,8 @@ ROL_KMT_party_secretary_office_red = {
 	set_variable = { ROL_KMT_party_6_mp_var = ROL_KMT_party_PWD_red_num}
 	add_to_variable = { ROL_KMT_party_6_mp_var = -15 }
 	multiply_variable = {  ROL_KMT_party_6_mp_var = 0.025 }
+	
+	custom_effect_tooltip = ROL_KMT_party_secretary_office_red_tt
 }
 
 ROL_KMT_CBI_Leveler = {
