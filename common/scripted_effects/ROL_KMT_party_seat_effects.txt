@@ -7,13 +7,6 @@ ROL_Swap_Party = { #将指定角色划入另一党派，会自动为党派重排
 	set_variable = {
 		Pid_get = 0
 	}
-	# find_highest_in_array = {
-	# 	array = PSR_pid_main
-	# 	value = PSR_pid_max_t
-	# }
-	#add_to_variable = { PSR_pid_max = 1}
-	# set_variable = {PSR_pid_max = PSR_pid_max_t}
-	# log = "[?PSR_pid_max]"
 	while_loop_effect = {
 		limit = {
 			AND = {

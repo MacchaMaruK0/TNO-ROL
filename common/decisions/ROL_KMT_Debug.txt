@@ -217,8 +217,8 @@ ROL_KMT_Debug_Category = { #这个文件是具体的决议文件，使用ROL_国
 	fire_only_once = no
 	is_debug = yes
 	complete_effect = {
-		set_variable = { Pid_aim = 4 }
-		set_variable = { Party_new = 3 }
+		set_temp_variable = { Pid_aim = 4 }
+		set_temp_variable = { Party_new = 3 }
 		ROL_Swap_Party = yes
 		}
     }
