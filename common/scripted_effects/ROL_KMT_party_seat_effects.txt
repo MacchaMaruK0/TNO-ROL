@@ -637,6 +637,7 @@ ROL_KMT_party_CBI_green = {
 		min = 1
 		max = 100
 	}
+	custom_effect_tooltip = ROL_KMT_party_green_tt
 }
 
 ROL_KMT_party_CBI_red = {
@@ -702,6 +703,7 @@ ROL_KMT_party_ECM_green = {
 		min = 1
 		max = 100
 	}
+	custom_effect_tooltip = ROL_KMT_party_green_tt
 }
 
 ROL_KMT_party_ECM_red = {
@@ -767,6 +769,7 @@ ROL_KMT_party_professional_group_green = {
 		min = 1
 		max = 100
 	}
+	custom_effect_tooltip = ROL_KMT_party_green_tt
 }
 
 ROL_KMT_party_professional_group_red = {
@@ -834,6 +837,7 @@ ROL_KMT_party_PWD_green = {
 		min = 1
 		max = 100
 	}
+	custom_effect_tooltip = ROL_KMT_party_green_tt
 }
 
 ROL_KMT_party_PWD_red = {
@@ -901,6 +905,7 @@ ROL_KMT_party_secretary_office_green = {
 		min = 1
 		max = 100
 	}
+	custom_effect_tooltip = ROL_KMT_party_green_tt
 }
 
 ROL_KMT_party_secretary_office_red = {
