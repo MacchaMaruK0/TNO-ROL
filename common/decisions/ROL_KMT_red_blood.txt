@@ -35,7 +35,7 @@ ROL_KMT_red_blood_Category = { ##地区冲突
 		}
 		######芝士倒计时
 		timeout_effect = {
-		·	activate_misson = KMT_ROL_bop_redblood_finnal
+		 	activate_misson = KMT_ROL_bop_redblood_finnal
 			if = { limit = { check_variable = { ROL_KMT_redblood_Linxia_control_num > 49.9 } }
 				set_temp_variable = {
 					ROL_KMT_redblood_control_area_num_temp = 1
